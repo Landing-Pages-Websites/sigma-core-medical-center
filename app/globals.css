@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #101e33;
+  --color-surface: #f7f6f3;
+  --color-paper: #edeae3;
+  --color-action: #0666a5;
+  --color-electric: #0877be;
+  --color-silver: #c7cbd0;
+  --color-charcoal: #20272e;
+  --color-walnut: #9a572b;
+  --color-muted: #55616a;
+  --color-hover: #054f80;
+  --color-focus: #72c7f3;
+
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-source-sans), Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-surface);
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-focus);
+    color: var(--color-ink);
+  }
+}
+
+@layer components {
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity 400ms ease-out,
+      transform 400ms ease-out;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  dialog::backdrop {
+    background-color: rgb(16 30 51 / 0.7);
+  }
+}

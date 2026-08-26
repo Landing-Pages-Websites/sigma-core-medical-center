@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "generated_for": "sigma-core-medical-center homepage pair",
+  "routes": ["/", "/variant-a", "/variant-b"]
+}
