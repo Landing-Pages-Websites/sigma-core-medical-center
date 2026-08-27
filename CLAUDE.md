@@ -71,3 +71,20 @@ Design for the visitor's decision, not just aesthetics. See `landing-page-cro` /
   action-oriented copy ("Get my free audit", not "Submit").
 - **Friction & trust:** shortest viable form, inline validation, no-spam reassurance, guarantees /
   security signals / real contact. Specificity over hype.
+
+## Client-provided design references and route isolation
+- Client-provided design images are the source of truth for visual implementation. Before making changes, inspect the current page layout and compare it against the client-provided reference image. Implement the requested design as accurately as possible, including layout, spacing, sizing, alignment, text content, typography, font weights, colors, borders, radii, imagery, icons, and visual hierarchy. Do not approximate when the reference provides enough information to reproduce the design accurately.
+- Treat `/`, `/variant-a`, and `/variant-b` as independently editable route variants. When implementing or modifying one specific route, only change the route and shared components/styles that are intentionally required for that route. Never overwrite, replace, restyle, or unintentionally alter another variant.
+- Before editing a route, identify which components, styles, assets, and content are shared versus variant-specific. Preserve existing behavior and visual design of the other routes unless the requested change explicitly applies to them.
+- After implementation, compare the rendered page against the client-provided reference at the intended desktop and mobile breakpoints. Fix visual discrepancies before considering the work complete. Pay particular attention to exact typography, text wrapping, spacing, proportions, colors, image cropping, component dimensions, and alignment.
+- Every client-provided design must be implemented as a polished, production-ready responsive experience, not just a desktop recreation. Ensure the design remains faithful from 320px upward, with appropriate responsive behavior, readable text, correct spacing, usable interactions, and no horizontal overflow or broken layouts.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
