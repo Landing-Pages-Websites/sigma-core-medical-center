@@ -1,0 +1,154 @@
+.motionRoot {
+  --b-motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.motionRoot :global([data-b-delay="1"]) {
+  --b-delay: 90ms;
+}
+
+.motionRoot :global([data-b-delay="2"]) {
+  --b-delay: 180ms;
+}
+
+.motionRoot :global([data-b-delay="3"]) {
+  --b-delay: 270ms;
+}
+
+.motionRoot :global([data-b-delay="4"]) {
+  --b-delay: 360ms;
+}
+
+.motionRoot :global([data-b-delay="5"]) {
+  --b-delay: 450ms;
+}
+
+.motionRoot :global([data-b-enter]) {
+  animation-duration: 820ms;
+  animation-delay: var(--b-delay, 0ms);
+  animation-timing-function: var(--b-motion-ease);
+  animation-fill-mode: both;
+  will-change: opacity, transform;
+}
+
+.motionRoot :global([data-b-enter="brand"]) {
+  animation-name: b-enter-brand;
+}
+
+.motionRoot :global([data-b-enter="photo"]) {
+  animation-name: b-enter-photo;
+  animation-duration: 1050ms;
+  transform-origin: 72% 42%;
+}
+
+.motionRoot :global([data-b-enter="copy"]) {
+  animation-name: b-enter-copy;
+}
+
+.motionRoot :global([data-b-enter="panel"]) {
+  animation-name: b-enter-panel;
+}
+
+.motionRoot :global([data-b-enter="shape"]) {
+  animation-name: b-enter-shape;
+  animation-duration: 900ms;
+  transform-origin: right center;
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal]) {
+  opacity: 0;
+  transform: translate3d(0, 26px, 0);
+  transition:
+    opacity 680ms var(--b-motion-ease) var(--b-delay, 0ms),
+    transform 760ms var(--b-motion-ease) var(--b-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal="left"]) {
+  transform: translate3d(-34px, 0, 0);
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal="right"]) {
+  transform: translate3d(34px, 0, 0);
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal="step"]) {
+  transform: translate3d(22px, 14px, 0) scale(0.985);
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal="scale"]) {
+  transform: scale(0.97);
+}
+
+.motionRoot[data-b-motion-ready="true"] :global([data-b-reveal][data-b-visible="true"]) {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes b-enter-brand {
+  from {
+    opacity: 0;
+    transform: translate3d(-18px, -8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes b-enter-photo {
+  from {
+    opacity: 0;
+    transform: scale(1.035);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes b-enter-copy {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes b-enter-panel {
+  from {
+    opacity: 0;
+    transform: translate3d(-24px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes b-enter-shape {
+  from {
+    opacity: 0;
+    transform: scaleX(0.72);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motionRoot :global([data-b-enter]) {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .motionRoot[data-b-motion-ready="true"] :global([data-b-reveal]) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
