@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { FAQ, PENDING } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
 import { PendingAction } from "@/components/shared/pending-action";
+import { Reveal } from "@/components/shared/reveal";
 import { GhostWord } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
 
@@ -15,16 +16,16 @@ export function FaqLocationB(): React.ReactElement {
     <section id="faq" aria-label="Questions and location" className="relative overflow-hidden bg-surface">
       <GhostWord
         word="Richmond"
-        className="-top-3 left-0 text-[5rem] text-silver/50 sm:text-[8rem] lg:text-[11.5rem]"
+        className="-top-2 left-0 text-[clamp(5.5rem,19vw,17rem)] whitespace-nowrap text-silver/45 lg:-top-8"
       />
-      <div className="relative mx-auto max-w-7xl px-6 pt-24 pb-16 sm:px-10 lg:grid lg:grid-cols-[58fr_42fr] lg:gap-16 lg:pt-36 lg:pb-24">
+      <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-16 sm:px-10 lg:grid lg:grid-cols-[58fr_42fr] lg:gap-16 lg:pt-28 lg:pb-24">
         <div>
           <div className="relative inline-block">
             <span
               aria-hidden
               className="absolute -top-3 -left-5 h-9 w-9 border-t-4 border-l-4 border-electric"
             />
-            <h2 className="max-w-xl text-3xl leading-[1.12] font-semibold tracking-tight text-ink sm:text-4xl">
+            <h2 className="max-w-xl text-4xl leading-[1.1] font-semibold tracking-tight text-ink sm:text-[2.75rem]">
               {FAQ.headline}
             </h2>
             <span
@@ -65,13 +66,13 @@ export function FaqLocationB(): React.ReactElement {
             })}
           </div>
         </div>
-        <div className="mt-14 lg:mt-0">
+        <Reveal delay={120} className="mt-14 lg:mt-0">
           <div className="relative bg-ink p-8 lg:p-10">
             <span
               aria-hidden
               className="absolute top-6 right-6 hidden h-14 w-3 border-y-2 border-r-2 border-silver/50 lg:block"
             />
-            <h3 className="max-w-56 text-3xl leading-tight font-semibold tracking-tight text-white">
+            <h3 className="max-w-64 text-4xl leading-tight font-semibold tracking-tight text-white">
               {FAQ.locationLabel}
             </h3>
             <p className="mt-5 max-w-60 border-l-2 border-silver/50 pl-4 text-base text-white/70">
@@ -84,7 +85,7 @@ export function FaqLocationB(): React.ReactElement {
               className={`${primaryButtonB} mt-10 w-full`}
             />
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

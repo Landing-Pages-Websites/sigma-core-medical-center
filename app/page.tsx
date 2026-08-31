@@ -56,18 +56,28 @@ function DirectionPreviewA(): React.ReactElement {
 
 function DirectionPreviewB(): React.ReactElement {
   return (
-    <div aria-hidden className="relative h-56 overflow-hidden bg-action sm:h-64">
-      <span className="absolute -bottom-5 left-4 text-[5.5rem] leading-none font-semibold tracking-tighter text-white/10 uppercase select-none">
+    <div className="relative h-56 overflow-hidden bg-action sm:h-64">
+      <Image
+        src="/images/shared/reception-2.png"
+        alt="Direction B preview: Sigma Core reception desk cropped into an angular architectural module"
+        fill
+        sizes="(min-width: 1024px) 40rem, 100vw"
+        className="object-cover [clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_40%)] transition-transform duration-200 group-hover:scale-[1.02] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+      />
+      <span aria-hidden className="absolute top-5 left-6 flex flex-col gap-1.5">
+        <span className="h-1.5 w-14 bg-surface" />
+        <span className="ml-3 h-1.5 w-10 bg-surface/80" />
+        <span className="ml-6 h-1.5 w-6 bg-surface/60" />
+      </span>
+      <span
+        aria-hidden
+        className="absolute -bottom-4 left-4 text-[4.5rem] leading-none font-semibold tracking-tighter text-white/25 uppercase select-none"
+      >
         Forward
       </span>
-      <span className="absolute top-8 left-8 flex flex-col gap-1.5">
-        <span className="h-1.5 w-16 bg-surface" />
-        <span className="ml-3 h-1.5 w-12 bg-surface/80" />
-        <span className="ml-6 h-1.5 w-8 bg-surface/60" />
-      </span>
-      <span className="absolute top-6 right-8 h-12 w-12 border-t-4 border-r-4 border-surface" />
       <span
-        className="absolute right-0 bottom-0 h-24 w-40 bg-ink"
+        aria-hidden
+        className="absolute right-0 bottom-0 h-16 w-28 bg-electric"
         style={{ clipPath: "polygon(100% 0, 100% 100%, 0 100%)" }}
       />
     </div>

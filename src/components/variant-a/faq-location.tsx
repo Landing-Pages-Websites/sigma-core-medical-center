@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, ChevronDown, MapPin, Minus, Plus } from "lucide-react";
+import { ArrowRight, ChevronDown, MapPin } from "lucide-react";
 import { FAQ, PENDING } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
 import { PendingAction } from "@/components/shared/pending-action";
@@ -28,26 +28,24 @@ export function FaqLocationA(): React.ReactElement {
                     <button
                       type="button"
                       {...accordion.triggerProps(index)}
-                      className="flex min-h-12 w-full items-center gap-4 px-5 py-4 text-left"
+                      className="flex min-h-14 w-full items-center gap-4 px-6 py-4 text-left"
                     >
-                      <span
-                        aria-hidden
-                        className="flex size-9 shrink-0 items-center justify-center rounded-full bg-action/10 text-action"
-                      >
-                        {open ? <Minus size={17} /> : <Plus size={17} />}
-                      </span>
                       <span className="flex-1 text-lg font-semibold text-ink">
                         {item.question}
                       </span>
-                      <ChevronDown
-                        size={19}
+                      <span
                         aria-hidden
-                        className={`shrink-0 text-muted transition-transform motion-reduce:transition-none ${open ? "rotate-180" : ""}`}
-                      />
+                        className={`flex size-9 shrink-0 items-center justify-center rounded-full transition-colors motion-reduce:transition-none ${open ? "bg-action text-white" : "bg-action/10 text-action"}`}
+                      >
+                        <ChevronDown
+                          size={19}
+                          className={`transition-transform motion-reduce:transition-none ${open ? "rotate-180" : ""}`}
+                        />
+                      </span>
                     </button>
                   </h3>
                   <div {...accordion.panelProps(index)}>
-                    <p className="px-5 pb-5 text-lg text-muted sm:pl-[4.6rem]">{item.answer}</p>
+                    <p className="max-w-prose px-6 pb-5 text-lg text-muted">{item.answer}</p>
                   </div>
                 </div>
               );

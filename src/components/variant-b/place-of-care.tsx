@@ -3,29 +3,62 @@ import { PLACE } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMarkEnd } from "@/components/variant-b/motifs";
 
+const PRINCIPLE_OFFSETS = ["lg:mr-10", "lg:mr-5", "lg:mr-0", "lg:mr-5"];
+
 function OpeningPanel({ className }: { className: string }): React.ReactElement {
   return (
-    <div className={`bg-paper p-5 ${className}`}>
-      <p className="text-sm font-semibold tracking-wide text-charcoal uppercase">
-        Opening target:
+    <div className={`border-l-4 border-electric bg-ink p-5 ${className}`}>
+      <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">
+        Opening target
       </p>
-      <p className="mt-1 text-2xl font-semibold text-action">September 8, 2026</p>
-      <p className="mt-2 text-sm text-muted">{PLACE.facilityCaption}</p>
+      <p className="mt-1 text-3xl font-semibold tracking-tight text-white">September 8, 2026</p>
+      <p className="mt-2 text-sm text-white/70">{PLACE.facilityCaption}</p>
     </div>
   );
 }
 
 function CoreEmblem(): React.ReactElement {
   return (
-    <span className="flex size-24 items-center justify-center rounded-full border border-silver/30 bg-ink lg:size-28">
+    <span className="relative flex size-28 items-center justify-center rounded-full bg-ink shadow-[0_0_0_3px_rgba(199,203,208,0.35)] lg:size-32">
+      <span aria-hidden className="absolute inset-2.5 rounded-full border border-silver/40" />
+      <span aria-hidden className="absolute inset-5 rounded-full border border-electric/60" />
       <Image
         src="/images/variant-b/logo-core.png"
         alt="Sigma Core emblem"
         width={64}
         height={45}
-        className="h-auto w-14 lg:w-16"
+        className="relative h-auto w-14 lg:w-16"
       />
     </span>
+  );
+}
+
+function FacilityAperture(): React.ReactElement {
+  return (
+    <div className="relative">
+      <div className="relative h-80 sm:h-[26rem] lg:h-full lg:min-h-[36rem]">
+        <Image
+          src="/images/shared/waiting-room.png"
+          alt="Sigma Core waiting room seating beside walnut wall slats"
+          fill
+          sizes="(min-width: 1024px) 52vw, 100vw"
+          className="object-cover [clip-path:polygon(0_0,84%_0,88%_10%,100%_10%,100%_100%,0_100%)]"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-x-0 bottom-0 h-44 overflow-hidden [clip-path:polygon(0_28%,100%_66%,100%_100%,0_100%)] sm:h-56"
+        >
+          <Image
+            src="/images/variant-b/walnut-texture.jpg"
+            alt=""
+            fill
+            sizes="(min-width: 1024px) 52vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+      </div>
+      <OpeningPanel className="relative z-10 mx-6 -mt-20 max-w-80 sm:mx-10 lg:absolute lg:bottom-10 lg:left-10 lg:mx-0 lg:mt-0" />
+    </div>
   );
 }
 
@@ -33,19 +66,8 @@ export function PlaceOfCareB(): React.ReactElement {
   return (
     <section id="place-of-care" aria-label="The Sigma Core clinic" className="bg-charcoal">
       <div className="mx-auto max-w-[90rem] lg:grid lg:grid-cols-[52fr_10fr_38fr]">
-        <div className="relative">
-          <div className="relative h-80 sm:h-[26rem] lg:h-full lg:min-h-[34rem]">
-            <Image
-              src="/images/shared/waiting-room.png"
-              alt="Sigma Core waiting room seating beside walnut wall slats"
-              fill
-              sizes="(min-width: 1024px) 52vw, 100vw"
-              className="object-cover [clip-path:polygon(0_0,100%_0,100%_82%,58%_100%,0_100%)]"
-            />
-          </div>
-          <OpeningPanel className="relative z-10 mx-6 -mt-16 max-w-72 sm:mx-10 lg:absolute lg:bottom-8 lg:left-8 lg:mx-0 lg:mt-0" />
-        </div>
-        <div className="relative mt-10 flex h-16 items-center justify-center lg:mt-0 lg:h-auto">
+        <FacilityAperture />
+        <div className="relative mt-10 flex h-20 items-center justify-center lg:mt-0 lg:h-auto">
           <div aria-hidden className="absolute inset-0 overflow-hidden">
             <Image
               src="/images/variant-b/walnut-texture.jpg"
@@ -61,16 +83,16 @@ export function PlaceOfCareB(): React.ReactElement {
         </div>
         <Reveal className="px-6 py-12 sm:px-10 lg:flex lg:flex-col lg:justify-center lg:px-12 lg:py-20">
           <p className="text-base font-semibold text-focus lg:text-right">{PLACE.eyebrow}</p>
-          <h2 className="mt-3 text-3xl leading-[1.12] font-semibold tracking-tight text-white sm:text-4xl">
+          <h2 className="mt-3 text-4xl leading-[1.1] font-semibold tracking-tight text-white sm:text-[2.6rem]">
             Designed for a focused, personal{" "}
             <span className="font-display font-medium italic">conversation</span>
           </h2>
           <p className="mt-5 text-lg text-white/75">{PLACE.body}</p>
-          <ul className="mt-8">
-            {PLACE.principles.map((principle) => (
+          <ul className="mt-8 space-y-3">
+            {PLACE.principles.map((principle, index) => (
               <li
                 key={principle}
-                className="flex items-center justify-between gap-4 border-t border-white/15 py-3.5 font-semibold text-white"
+                className={`flex items-center justify-between gap-4 border border-white/15 bg-ink/60 px-5 py-4 text-lg font-semibold text-white ${PRINCIPLE_OFFSETS[index]}`}
               >
                 {principle}
                 <BracketMarkEnd className="text-silver/60" />

@@ -6,10 +6,16 @@ type RevealProps = {
   children: React.ReactNode;
   className?: string;
   delay?: number;
+  from?: "up" | "left";
 };
 
 /** Fades content in on first scroll into view; CSS disables it under prefers-reduced-motion. */
-export function Reveal({ children, className = "", delay = 0 }: RevealProps): React.ReactElement {
+export function Reveal({
+  children,
+  className = "",
+  delay = 0,
+  from = "up",
+}: RevealProps): React.ReactElement {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,7 +36,7 @@ export function Reveal({ children, className = "", delay = 0 }: RevealProps): Re
   return (
     <div
       ref={ref}
-      className={`reveal ${className}`}
+      className={`reveal ${from === "left" ? "reveal-from-left" : ""} ${className}`}
       style={delay > 0 ? { transitionDelay: `${delay}ms` } : undefined}
     >
       {children}

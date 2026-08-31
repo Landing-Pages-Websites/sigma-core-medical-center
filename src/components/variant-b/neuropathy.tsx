@@ -4,10 +4,22 @@ import { Reveal } from "@/components/shared/reveal";
 import { BracketMark } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
 
-const SLAB_STYLES = [
-  "bg-paper text-ink lg:w-[82%]",
-  "bg-charcoal text-white lg:ml-24 lg:w-[82%]",
-  "bg-paper text-ink lg:ml-10 lg:w-[82%]",
+const SLABS = [
+  {
+    position: "lg:w-[82%]",
+    tone: "bg-paper text-ink",
+    cut: "polygon(0 0, 100% 0, 100% 46%, 96% 46%, 96% 100%, 3% 100%, 3% 74%, 0 74%)",
+  },
+  {
+    position: "lg:ml-24 lg:w-[82%]",
+    tone: "bg-charcoal text-white",
+    cut: "polygon(0 0, 95% 0, 95% 30%, 100% 30%, 100% 100%, 0 100%, 0 58%, 2% 58%, 2% 0)",
+  },
+  {
+    position: "lg:ml-10 lg:w-[82%]",
+    tone: "bg-paper text-ink",
+    cut: "polygon(0 0, 100% 0, 100% 68%, 97% 68%, 97% 100%, 8% 100%, 8% 82%, 0 82%)",
+  },
 ];
 
 export function NeuropathyB(): React.ReactElement {
@@ -29,16 +41,25 @@ export function NeuropathyB(): React.ReactElement {
           </p>
         </Reveal>
         <div className="mt-10 lg:mt-0">
-          <ul className="space-y-4">
+          <ul className="space-y-5">
             {NEUROPATHY.orientationPoints.map((point, index) => (
-              <li
-                key={point}
-                className={`flex items-center gap-4 border-r-8 border-black/25 px-6 py-6 ${SLAB_STYLES[index]}`}
-              >
-                <BracketMark className="h-7 w-3" />
-                <span className="max-w-56 text-2xl leading-tight font-semibold sm:max-w-none">
-                  {point}
-                </span>
+              <li key={point} className={SLABS[index].position}>
+                <Reveal from="left" delay={index * 120} className="relative">
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 translate-x-2.5 translate-y-2.5 bg-black/30"
+                    style={{ clipPath: SLABS[index].cut }}
+                  />
+                  <span
+                    className={`relative flex items-center gap-4 px-6 py-6 pr-10 ${SLABS[index].tone}`}
+                    style={{ clipPath: SLABS[index].cut }}
+                  >
+                    <BracketMark className="h-7 w-3" />
+                    <span className="max-w-56 text-2xl leading-tight font-semibold sm:max-w-none">
+                      {point}
+                    </span>
+                  </span>
+                </Reveal>
               </li>
             ))}
           </ul>

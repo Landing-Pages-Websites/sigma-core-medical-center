@@ -59,7 +59,7 @@ export function HeroB(): React.ReactElement {
           <div className="relative bg-action px-6 py-12 sm:px-10 lg:bg-transparent lg:py-20 lg:pr-20">
             <GhostWord
               word="Movement"
-              className="-bottom-3 left-1 text-[4.6rem] text-white/10 sm:text-[7rem] lg:bottom-14 lg:text-[9.5rem]"
+              className="bottom-[10.25rem] left-1 text-[4rem] whitespace-nowrap text-white/15 sm:text-[6rem] lg:bottom-16 lg:text-[10.5rem]"
             />
             <p className="text-sm font-semibold tracking-[0.22em] text-focus uppercase">
               {HERO.eyebrow}
