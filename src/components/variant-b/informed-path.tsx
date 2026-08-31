@@ -25,14 +25,19 @@ export function InformedPathB(): React.ReactElement {
           {PATH.steps.map((step, index) => (
             <li
               key={step.title}
-              className={`relative border border-silver/50 bg-paper p-6 shadow-[10px_10px_0_0_rgba(32,39,46,0.14)] ${STEP_OFFSETS[index]} ${index === 1 ? "sm:ml-10 lg:ml-0" : ""}`}
+              className={`${STEP_OFFSETS[index]} ${index === 1 ? "sm:ml-10 lg:ml-0" : ""}`}
             >
-              <SteppedBars className="absolute top-5 right-5" />
-              <h3 className="flex items-start gap-3 pr-14 text-2xl leading-tight font-semibold text-ink">
-                <BracketMark className="mt-1.5" />
-                {step.title}
-              </h3>
-              <p className="mt-3 max-w-xs text-base text-muted">{step.body}</p>
+              <Reveal
+                delay={index * 120}
+                className="relative border border-silver/50 bg-paper p-6 shadow-[10px_10px_0_0_rgba(32,39,46,0.14)]"
+              >
+                <SteppedBars className="absolute top-5 right-5" />
+                <h3 className="flex items-start gap-3 pr-14 text-2xl leading-tight font-semibold text-ink">
+                  <BracketMark className="mt-1.5" />
+                  {step.title}
+                </h3>
+                <p className="mt-3 max-w-xs text-lg text-muted">{step.body}</p>
+              </Reveal>
             </li>
           ))}
         </ol>

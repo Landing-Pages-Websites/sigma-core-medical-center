@@ -43,16 +43,27 @@ function GuideCardA(): React.ReactElement {
 
 function BookingCardA(): React.ReactElement {
   return (
-    <article className="overflow-hidden rounded-md bg-charcoal lg:grid lg:grid-cols-2">
-      <div className="flex flex-col justify-center p-7 lg:p-9">
+    <article className="relative overflow-hidden rounded-md border border-white/45 bg-charcoal">
+      <Image
+        src="/images/variant-a/lifestyle-phone-outdoors.jpg"
+        alt="Adult checking a phone on a garden patio"
+        fill
+        sizes="(min-width: 1024px) 60vw, 100vw"
+        className="object-cover"
+      />
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-linear-to-r from-black/85 via-black/60 to-black/20 lg:via-45% lg:to-black/5 lg:to-80%"
+      />
+      <div className="relative flex min-h-96 max-w-xl flex-col justify-center p-7 sm:min-h-[26rem] sm:p-10 lg:min-h-[30rem] lg:p-14">
         <div aria-hidden className="h-1 w-12 bg-electric" />
-        <p className="mt-4 text-sm font-semibold tracking-wide text-silver uppercase">
+        <p className="mt-5 text-sm font-semibold tracking-wide text-silver uppercase">
           {WAYS.booking.label}
         </p>
-        <h3 className="mt-2 font-display text-3xl font-semibold tracking-tight text-white">
+        <h3 className="mt-2 font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           {WAYS.booking.headline}
         </h3>
-        <p className="mt-3 max-w-sm text-lg text-white/75">{WAYS.booking.body}</p>
+        <p className="mt-4 max-w-sm text-lg text-white/85">{WAYS.booking.body}</p>
         <PendingAction
           label={
             <>
@@ -61,16 +72,7 @@ function BookingCardA(): React.ReactElement {
           }
           title={PENDING.booking.title}
           message={PENDING.booking.message}
-          className={`${primaryButtonA} mt-8 w-full sm:w-fit`}
-        />
-      </div>
-      <div className="relative h-56 lg:h-auto lg:min-h-80">
-        <Image
-          src="/images/variant-a/lifestyle-phone-outdoors.jpg"
-          alt="Adult checking a phone on a garden patio"
-          fill
-          sizes="(min-width: 1024px) 31vw, 100vw"
-          className="object-cover"
+          className={`${primaryButtonA} mt-9 w-full sm:w-fit sm:px-8`}
         />
       </div>
     </article>
@@ -86,7 +88,7 @@ export function TwoWaysA(): React.ReactElement {
             {WAYS.headline}
           </h2>
         </Reveal>
-        <div className="mt-12 grid gap-8 lg:grid-cols-[38fr_62fr]">
+        <div className="mt-12 grid gap-8 lg:grid-cols-[34fr_66fr]">
           <GuideCardA />
           <BookingCardA />
         </div>
