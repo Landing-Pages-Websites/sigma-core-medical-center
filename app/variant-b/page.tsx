@@ -7,7 +7,6 @@ import { InformedPathB } from "@/components/variant-b/informed-path";
 import { TwoWaysB } from "@/components/variant-b/two-ways";
 import { FaqLocationB } from "@/components/variant-b/faq-location";
 import { SiteFooterB } from "@/components/variant-b/site-footer";
-import { VariantBMotion } from "@/components/variant-b/motion";
 import { SITE_DESCRIPTION } from "@/content/site";
 
 export const metadata: Metadata = {
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function VariantBPage(): React.ReactElement {
   return (
-    <VariantBMotion>
+    <>
       <main>
         <HeroB />
         <NeuropathyB />
@@ -28,6 +27,6 @@ export default function VariantBPage(): React.ReactElement {
         <FaqLocationB />
       </main>
       <SiteFooterB />
-    </VariantBMotion>
+    </>
   );
 }
