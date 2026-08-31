@@ -1,56 +1,41 @@
 import Image from "next/image";
 import { PATH } from "@/content/site";
-import styles from "@/components/variant-a/variant-a.module.css";
+import { Reveal } from "@/components/shared/reveal";
 
 export function InformedPathA(): React.ReactElement {
   return (
-    <section
-      id="how-it-works"
-      aria-label="What happens next"
-      className={`${styles.section} ${styles.path}`}
-    >
-      <Image
-        src="/images/variant-a/sculptural-path-steps.png"
-        alt=""
-        fill
-        sizes="100vw"
-        className={styles.pathArtwork}
-      />
-      <Image
-        src="/images/variant-a/sculptural-path.png"
-        alt=""
-        fill
-        sizes="100vw"
-        className={`${styles.background} ${styles.pathMobileBackground}`}
-      />
-      <div className={styles.pathInner}>
-        <h2
-          className={`${styles.pathTitle} font-display text-4xl leading-[1.04] font-semibold sm:text-5xl lg:text-[3.5rem]`}
-          data-reveal="up"
-        >
-          {PATH.headline}
-        </h2>
-        <ol className={styles.pathSteps}>
-          {PATH.steps.map((step, index) => (
-            <li
-              key={step.title}
-              className={styles.pathStep}
-              data-reveal="up"
-              data-reveal-delay={index + 1}
-            >
-              <span className="text-xs font-semibold text-action">0{index + 1}</span>
-              <h3 className="mt-2 text-lg leading-tight font-semibold">{step.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed opacity-78">{step.body}</p>
+    <section id="how-it-works" aria-label="What happens next" className="bg-surface">
+      <div className="mx-auto max-w-7xl px-6 pt-16 sm:px-10 lg:pt-24">
+        <Reveal>
+          <h2 className="max-w-xl font-display text-4xl leading-[1.18] font-semibold tracking-tight text-ink sm:text-[2.6rem]">
+            {PATH.headline}
+          </h2>
+        </Reveal>
+        <div aria-hidden className="mt-12 hidden h-0.5 w-full max-w-4xl bg-ink/80 lg:block" />
+        <ol className="mt-10 space-y-10 border-l-2 border-ink/80 pl-6 lg:mt-8 lg:grid lg:max-w-5xl lg:grid-cols-3 lg:gap-10 lg:space-y-0 lg:border-l-0 lg:pl-0">
+          {PATH.steps.map((step) => (
+            <li key={step.title} className="relative">
+              <span
+                aria-hidden
+                className="absolute top-2 -left-[1.85rem] size-2.5 rounded-full bg-ink lg:hidden"
+              />
+              <h3 className="text-xl font-semibold text-ink">{step.title}</h3>
+              <p className="mt-2 max-w-sm text-lg text-muted">{step.body}</p>
             </li>
           ))}
         </ol>
-        <p
-          className={`${styles.pathDisclaimer} text-xs text-ink/60`}
-          data-reveal="fade"
-          data-reveal-delay="4"
-        >
-          {PATH.disclaimer}
-        </p>
+      </div>
+      <div className="relative mt-14 h-72 w-full lg:h-[26rem]">
+        <Image
+          src="/images/variant-a/lifestyle-phone-kitchen.jpg"
+          alt="Adult reading on a phone at a bright kitchen counter"
+          fill
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
+      <div className="mx-auto max-w-7xl px-6 py-5 sm:px-10">
+        <p className="text-sm text-muted">{PATH.disclaimer}</p>
       </div>
     </section>
   );

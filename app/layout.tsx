@@ -19,8 +19,8 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}>
       <head>
         <script
-          src="https://app.gomega.ai/review-bridge/v6/review-bridge.js"
-          integrity="sha384-nc3lydHgACX1I4grJK8tx+cbhMQEJhzmiAEbB9GdkXPVDtFYEJvegLSKbbT3pJAn"
+          src="https://app.gomega.ai/review-bridge/v7/review-bridge.js"
+          integrity="sha384-VTUzMpjogRuXFNsE1df8N2HoJyWhNcCkGaUa7aulmDjCmXVoQ4UpQB1xMTrOp3MJ"
           crossOrigin="anonymous"
           defer
         />
