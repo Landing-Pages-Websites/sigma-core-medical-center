@@ -56,29 +56,35 @@ function DirectionPreviewA(): React.ReactElement {
 
 function DirectionPreviewB(): React.ReactElement {
   return (
-    <div className="relative h-56 overflow-hidden bg-action sm:h-64">
-      <Image
-        src="/images/shared/reception-2.png"
-        alt="Direction B preview: Sigma Core reception desk cropped into an angular architectural module"
-        fill
-        sizes="(min-width: 1024px) 40rem, 100vw"
-        className="object-cover [clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_40%)] transition-transform duration-200 group-hover:scale-[1.02] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+    <div className="relative h-56 overflow-hidden bg-ink sm:h-64">
+      <div
+        aria-hidden
+        className="absolute inset-y-0 left-0 w-[60%] bg-action"
+        style={{ clipPath: "polygon(0 0, 100% 0, 84% 100%, 0 100%)" }}
       />
-      <span aria-hidden className="absolute top-5 left-6 flex flex-col gap-1.5">
-        <span className="h-1.5 w-14 bg-surface" />
-        <span className="ml-3 h-1.5 w-10 bg-surface/80" />
-        <span className="ml-6 h-1.5 w-6 bg-surface/60" />
-      </span>
       <span
         aria-hidden
-        className="absolute -bottom-4 left-4 text-[4.5rem] leading-none font-semibold tracking-tighter text-white/25 uppercase select-none"
+        className="absolute top-[46%] left-5 text-[3.4rem] leading-none font-semibold tracking-tighter text-white/20 uppercase select-none"
       >
-        Forward
+        Movement
+      </span>
+      <div className="absolute inset-y-0 right-0 w-[44%]">
+        <Image
+          src="/images/shared/reception-1.png"
+          alt="Direction B preview: Sigma Core reception photography beside an electric-blue diagonal field"
+          fill
+          sizes="(min-width: 1024px) 18rem, 44vw"
+          className="object-cover transition-transform duration-200 group-hover:scale-[1.02] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+        />
+      </div>
+      <span aria-hidden className="absolute top-6 left-6 flex flex-col gap-1.5">
+        <span className="h-1 w-10 bg-surface" />
+        <span className="ml-2 h-1 w-8 bg-surface/80" />
+        <span className="ml-4 h-1 w-6 bg-surface/60" />
       </span>
       <span
         aria-hidden
-        className="absolute right-0 bottom-0 h-16 w-28 bg-electric"
-        style={{ clipPath: "polygon(100% 0, 100% 100%, 0 100%)" }}
+        className="absolute right-[44%] bottom-0 h-1.5 w-28 -translate-x-3 bg-electric"
       />
     </div>
   );

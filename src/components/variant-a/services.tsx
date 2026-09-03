@@ -47,8 +47,27 @@ export function ServicesA(): React.ReactElement {
           </div>
           <ul className="mt-6 divide-y divide-silver/50 rounded-md bg-white px-5 lg:col-span-4 lg:mt-0 lg:grid lg:grid-cols-4 lg:gap-10 lg:divide-y-0 lg:rounded-none lg:bg-transparent lg:px-0">
             {SERVICES.secondary.map((service) => (
-              <li key={service.name} className="py-4 lg:border-t-2 lg:border-silver lg:py-0 lg:pt-5">
-                <h3 className="text-lg font-semibold text-ink">{service.name}</h3>
+              <li
+                key={service.name}
+                className="group py-4 transition-colors lg:border-t-2 lg:border-silver lg:py-0 lg:pt-5 lg:pb-4 lg:hover:border-action lg:focus-within:border-action"
+              >
+                <h3>
+                  <PendingAction
+                    label={
+                      <span className="flex min-h-8 items-center justify-between gap-2 text-lg font-semibold text-ink transition-colors group-hover:text-action">
+                        {service.name}
+                        <ArrowRight
+                          size={17}
+                          aria-hidden
+                          className="shrink-0 text-action opacity-0 transition-opacity group-hover:opacity-100 group-focus-within:opacity-100 motion-reduce:transition-none"
+                        />
+                      </span>
+                    }
+                    title={PENDING.page.title}
+                    message={PENDING.page.message}
+                    className="block w-full text-left"
+                  />
+                </h3>
                 <p className="mt-1.5 text-base text-muted">{service.summary}</p>
               </li>
             ))}

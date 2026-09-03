@@ -2,17 +2,14 @@ import { ArrowRight } from "lucide-react";
 import { PENDING, WAYS } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
 import { Reveal } from "@/components/shared/reveal";
-import { BracketMark, BracketMarkEnd } from "@/components/variant-b/motifs";
+import { BracketMark, BracketMarkEnd, GhostWord } from "@/components/variant-b/motifs";
 import { inverseButtonB, outlineButtonB } from "@/components/variant-b/buttons";
 
 const CASCADE_BARS = ["ml-0 w-24", "ml-8 w-20", "ml-16 w-16", "ml-24 w-12", "ml-32 w-8"];
 
 function GuidePanelB(): React.ReactElement {
   return (
-    <Reveal
-      from="left"
-      className="max-w-xl bg-paper p-7 text-ink [clip-path:polygon(3rem_0,100%_0,100%_100%,0_100%,0_3rem)] sm:p-9"
-    >
+    <Reveal from="left" className="max-w-xl bg-paper p-7 text-ink sm:p-9">
       <p className="flex items-center gap-2 text-sm font-semibold tracking-wide uppercase">
         <BracketMark className="h-4" />
         {WAYS.guide.label}
@@ -44,7 +41,7 @@ function BookingPanelB(): React.ReactElement {
   return (
     <Reveal
       delay={120}
-      className="bg-action p-7 text-white sm:p-9 lg:p-12 lg:pl-24 lg:[clip-path:polygon(4.5rem_0,100%_0,100%_100%,0_100%)]"
+      className="bg-action p-7 text-white sm:p-9 lg:bg-transparent lg:py-12 lg:pr-0 lg:pl-16"
     >
       <p className="flex items-center gap-2 text-sm font-semibold tracking-wide uppercase">
         <BracketMark className="h-4" />
@@ -55,16 +52,22 @@ function BookingPanelB(): React.ReactElement {
         {WAYS.booking.headline}
       </h3>
       <p className="mt-4 max-w-sm text-lg">{WAYS.booking.body}</p>
-      <PendingAction
-        label={
-          <>
-            {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
-          </>
-        }
-        title={PENDING.booking.title}
-        message={PENDING.booking.message}
-        className={`${inverseButtonB} mt-8 w-full sm:w-auto`}
-      />
+      <div className="relative mt-8 pb-8 sm:pb-9">
+        <GhostWord
+          word="Movement"
+          className="-right-1 -bottom-3 text-[3.25rem] whitespace-nowrap text-white/15 sm:text-[5.75rem] lg:-right-4"
+        />
+        <PendingAction
+          label={
+            <>
+              {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
+            </>
+          }
+          title={PENDING.booking.title}
+          message={PENDING.booking.message}
+          className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}
+        />
+      </div>
     </Reveal>
   );
 }
@@ -72,13 +75,18 @@ function BookingPanelB(): React.ReactElement {
 export function TwoWaysB(): React.ReactElement {
   return (
     <section id="next-steps" aria-label="Two ways forward" className="relative overflow-hidden bg-ink">
+      <div
+        aria-hidden
+        className="absolute inset-y-0 right-0 hidden w-[47%] bg-action lg:block"
+        style={{ clipPath: "polygon(11% 0, 100% 0, 100% 100%, 0 100%)" }}
+      />
       <div className="relative mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
         <Reveal>
           <h2 className="max-w-xl text-4xl leading-[1.08] font-semibold tracking-tight text-white sm:text-[2.75rem]">
             {WAYS.headline}
           </h2>
         </Reveal>
-        <div className="mt-12 grid gap-10 lg:grid-cols-[46fr_8fr_46fr] lg:items-center">
+        <div className="mt-12 grid gap-10 lg:grid-cols-[44fr_9fr_47fr] lg:items-center">
           <GuidePanelB />
           <div aria-hidden className="hidden flex-col gap-2 lg:flex">
             {CASCADE_BARS.map((bar) => (
