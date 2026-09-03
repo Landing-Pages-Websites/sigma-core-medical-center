@@ -43,27 +43,27 @@ function GuideCardA(): React.ReactElement {
 
 function BookingCardA(): React.ReactElement {
   return (
-    <article className="relative overflow-hidden rounded-md border border-white/45 bg-charcoal">
+    <article className="relative overflow-hidden rounded-md border border-white/80 bg-charcoal">
       <Image
         src="/images/variant-a/lifestyle-phone-outdoors.jpg"
-        alt="Adult checking a phone on a garden patio"
+        alt="Adult reading a phone at an outdoor table beside a coffee cup and potted plant"
         fill
-        sizes="(min-width: 1024px) 60vw, 100vw"
-        className="object-cover"
+        sizes="(min-width: 1024px) 66vw, 100vw"
+        className="object-cover object-[62%_30%]"
       />
       <div
         aria-hidden
-        className="absolute inset-0 bg-linear-to-r from-black/85 via-black/60 to-black/20 lg:via-45% lg:to-black/5 lg:to-80%"
+        className="absolute inset-0 bg-linear-to-r from-black/90 via-black/60 via-30% to-transparent to-70% lg:via-25% lg:to-60%"
       />
-      <div className="relative flex min-h-96 max-w-xl flex-col justify-center p-7 sm:min-h-[26rem] sm:p-10 lg:min-h-[30rem] lg:p-14">
+      <div className="relative flex min-h-96 max-w-md flex-col justify-center p-8 sm:min-h-[26rem] sm:p-10 lg:min-h-[30rem] lg:p-14">
         <div aria-hidden className="h-1 w-12 bg-electric" />
-        <p className="mt-5 text-sm font-semibold tracking-wide text-silver uppercase">
+        <p className="mt-6 text-sm font-semibold tracking-wide text-silver uppercase">
           {WAYS.booking.label}
         </p>
-        <h3 className="mt-2 font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+        <h3 className="mt-3 font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           {WAYS.booking.headline}
         </h3>
-        <p className="mt-4 max-w-sm text-lg text-white/85">{WAYS.booking.body}</p>
+        <p className="mt-4 max-w-72 text-lg text-white/85 sm:max-w-xs">{WAYS.booking.body}</p>
         <PendingAction
           label={
             <>
@@ -72,7 +72,7 @@ function BookingCardA(): React.ReactElement {
           }
           title={PENDING.booking.title}
           message={PENDING.booking.message}
-          className={`${primaryButtonA} mt-9 w-full sm:w-fit sm:px-8`}
+          className={`${primaryButtonA} mt-10 w-full sm:w-fit sm:px-8`}
         />
       </div>
     </article>
@@ -88,7 +88,7 @@ export function TwoWaysA(): React.ReactElement {
             {WAYS.headline}
           </h2>
         </Reveal>
-        <div className="mt-12 grid gap-8 lg:grid-cols-[34fr_66fr]">
+        <div className="mt-12 grid gap-8 lg:grid-cols-[31fr_69fr]">
           <GuideCardA />
           <BookingCardA />
         </div>

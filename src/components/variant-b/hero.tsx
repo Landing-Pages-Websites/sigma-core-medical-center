@@ -55,20 +55,20 @@ export function HeroB(): React.ReactElement {
           className="absolute inset-y-0 left-0 hidden w-[62%] bg-action lg:block"
           style={{ clipPath: "polygon(0 0, 100% 0, 86% 100%, 0 100%)" }}
         />
+        <GhostWord
+          word="Movement"
+          className="top-[34%] left-2 hidden text-[9.5rem] whitespace-nowrap text-white/15 lg:block xl:text-[10.5rem]"
+        />
         <div className="relative mx-auto max-w-[90rem] lg:grid lg:grid-cols-[57fr_43fr]">
           <div className="relative bg-action px-6 py-12 sm:px-10 lg:bg-transparent lg:py-20 lg:pr-20">
-            <GhostWord
-              word="Movement"
-              className="bottom-[10.25rem] left-1 text-[4rem] whitespace-nowrap text-white/15 sm:text-[6rem] lg:bottom-16 lg:text-[10.5rem]"
-            />
             <p className="text-sm font-semibold tracking-[0.22em] text-focus uppercase">
               {HERO.eyebrow}
             </p>
-            <h1 className="mt-4 max-w-xl text-[2.6rem] leading-[1.04] font-semibold tracking-tight text-white sm:text-5xl xl:text-6xl">
+            <h1 className="mt-4 max-w-xl text-[2.7rem] leading-[1.04] font-semibold tracking-tight text-white sm:text-5xl xl:text-[4rem] xl:leading-[1.02]">
               {HERO.headline}
             </h1>
-            <p className="mt-6 max-w-lg text-lg text-white">{HERO.body}</p>
-            <div className="mt-10">
+            <p className="mt-6 max-w-xl text-lg text-white sm:text-xl">{HERO.body}</p>
+            <div className="mt-10 lg:mt-12">
               <HeroActionsB />
             </div>
           </div>
@@ -80,7 +80,7 @@ export function HeroB(): React.ReactElement {
                 fill
                 priority
                 sizes="(min-width: 1024px) 43vw, 100vw"
-                className="object-cover lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%,0_22%)]"
+                className="object-cover"
               />
             </div>
             <div className="bg-charcoal px-6 py-5 sm:px-10 lg:px-8">

@@ -16,7 +16,7 @@ export function FaqLocationB(): React.ReactElement {
     <section id="faq" aria-label="Questions and location" className="relative overflow-hidden bg-surface">
       <GhostWord
         word="Richmond"
-        className="-top-2 left-0 text-[clamp(5.5rem,19vw,17rem)] whitespace-nowrap text-silver/45 lg:-top-8"
+        className="-top-2 left-0 text-[clamp(6rem,21vw,20rem)] whitespace-nowrap text-silver/45 lg:-top-8"
       />
       <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-16 sm:px-10 lg:grid lg:grid-cols-[58fr_42fr] lg:gap-16 lg:pt-28 lg:pb-24">
         <div>

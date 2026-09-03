@@ -6,6 +6,9 @@ export const primaryButtonB =
 export const paperButtonB =
   "flex h-13 w-full items-center justify-between gap-3 bg-surface px-5 font-semibold text-ink transition-colors hover:bg-white";
 
+export const inkButtonB =
+  "inline-flex h-12 items-center justify-center gap-3 bg-ink px-6 font-semibold text-white transition-colors hover:bg-charcoal";
+
 export const inverseButtonB =
   "inline-flex h-12 items-center justify-center gap-3 bg-surface px-6 font-semibold text-ink transition-colors hover:bg-white";
 
