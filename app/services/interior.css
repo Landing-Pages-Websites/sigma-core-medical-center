@@ -91,10 +91,10 @@
   .service-hero { padding-top: 48px; }
   .service-hero-grid { grid-template-columns: 56% 44%; min-height: 440px; }
   .service-hero-copy h1 { font-size: clamp(3.7rem, 4.6vw, 4.35rem); max-width: 17ch; }
-  .service-hero-copy p { max-width: 42ch; margin-top: 12px; }
+  .service-hero-copy p { max-width: 28ch; margin-top: 12px; }
   .service-hero-focus { min-height: 440px; }
   .service-hero-image { inset: 0; clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%); }
-  .service-hero-feature { left: -62%; width: 110%; min-height: 176px; padding: 26px 42px; clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%); }
+  .service-hero-feature { left: -50%; width: 110%; min-height: 176px; padding: 26px 42px; clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%); }
   .service-hero-feature strong { font-size: clamp(2.8rem, 3.6vw, 3.9rem); }
   .service-hero-rail { margin-top: 8px; }
   .service-hero-rail > * { min-height: 102px; clip-path: polygon(12% 0, 100% 0, 87% 100%, 0 100%); border: 1px solid var(--color-electric); margin-right: -12px; padding-left: 38px; }
