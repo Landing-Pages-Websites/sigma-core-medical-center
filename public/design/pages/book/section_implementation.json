@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/book/hero.tsx",
+      "content_source": "section_manifest.json#01-booking-hero",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Booking explanation sits to left of a large outlined calendar integration aperture; thin facility photo strip rests at bottom. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "01-booking-hero"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/book/calendar.tsx",
+      "content_source": "section_manifest.json#02-gohighlevel-calendar",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Left blue explanation and skinny facility photo sit beside a large white calendar reserve on the right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "02-gohighlevel-calendar"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/book/privacy.tsx",
+      "content_source": "section_manifest.json#03-privacy-note",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Privacy and emergency boundaries on cream align left; a separate bordered booking panel lives at right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "03-privacy-note"
+    }
+  ]
+}

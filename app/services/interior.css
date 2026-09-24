@@ -84,3 +84,5 @@
 .service-pending-link { min-height: 48px; display: inline-flex; align-items: center; color: var(--color-action); font-size: 1rem; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
 .service-pending-link:hover { color: var(--color-hover); }
 .service-service-list article:last-child .service-pending-link { color: var(--color-focus); }
+
+@media(max-width:760px){.interior-header-inner{flex-wrap:wrap;padding-block:10px;}.interior-nav{flex-wrap:wrap;gap:0 16px;font-size:.9rem;}.interior-nav a{min-height:36px;}}

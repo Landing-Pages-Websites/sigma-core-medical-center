@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/educational-guide/hero.tsx",
+      "content_source": "section_manifest.json#01-resource-hero",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Navylight guide introduction and pending-status guard occupy left; facility image is inset high right above a blue bottom pointer. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "01-resource-hero"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/educational-guide/summary.tsx",
+      "content_source": "section_manifest.json#02-resource-summary",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Blue resource-summary panel leads into live key-topic rows, with a separate clinic photo and related-routes area at right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "02-resource-summary"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/educational-guide/availability.tsx",
+      "content_source": "section_manifest.json#03-lead-form",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Cream form explanation at left faces a deliberately inactive integration aperture; photo strip anchors lower right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "03-lead-form"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/educational-guide/privacy.tsx",
+      "content_source": "section_manifest.json#04-privacy-note",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Dark privacy statement and policy links occupy left; right clinic photograph and resource-pending status remain subordinate. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "04-privacy-note"
+    }
+  ]
+}

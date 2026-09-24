@@ -9,7 +9,9 @@ export function InteriorHeader(): React.ReactElement {
         <nav aria-label="Main navigation" className="interior-nav">
           <Link href="/services/neuropathy">Neuropathy</Link>
           <Link href="/services">All services</Link>
-          <Link href="/services/pain-relief">Pain relief</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/book">Booking status</Link>
         </nav>
       </div>
     </header>

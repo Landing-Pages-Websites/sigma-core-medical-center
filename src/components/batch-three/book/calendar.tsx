@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowRight, CalendarClock } from "lucide-react";
+import { DesignPhoto } from "../design-photo";
+export function BookCalendar(): React.ReactElement {
+  return <section id="gohighlevel-calendar" className="b3-section b3-blue b3-book-calendar"><div className="b3-shell"><h2>Scheduling calendar</h2><div className="b3-split"><div className="b3-calendar-copy"><p>GoHighLevel calendar integration requires an approved URL and verified workflow before appointments can be requested here.</p><div className="b3-status"><strong>No booking form is active</strong><span>We cannot confirm appointments until the calendar is connected.</span></div><Link href="/contact" className="b3-action b3-action-light">Contact & location status <ArrowRight size={20} /></Link><p className="b3-caption">No public phone, email, or alternate booking channel has been confirmed.</p></div><div className="b3-calendar-right"><div className="b3-calendar-reserved"><CalendarClock size={54} aria-hidden /><strong>Integration reserved</strong><p>The verified calendar will appear here when available. There are no selectable slots today.</p></div><DesignPhoto slug="book" file="02-gohighlevel-calendar-01-clinic-lounge.png" className="b3-calendar-photo b3-bevel" /></div></div></div></section>;
+}
