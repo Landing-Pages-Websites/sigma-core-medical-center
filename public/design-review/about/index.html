@@ -1,0 +1,519 @@
+<!doctype html><meta charset='utf-8'>
+<title>Image asset review</title><style>
+body{margin:0;padding:24px;background:#111;color:#eee;
+     font:14px/1.5 -apple-system,'Segoe UI',sans-serif}
+a{color:#8bd} .muted{color:#999} h1{font-size:20px}
+.proto{background:#1b1b1b;border:1px solid #333;border-radius:8px;
+       padding:12px 16px;max-width:900px;margin-bottom:24px}
+.proto code{background:#000;padding:1px 5px;border-radius:4px}
+.card{background:#1b1b1b;border:1px solid #333;border-radius:8px;
+      padding:16px;margin-bottom:20px;max-width:1200px}
+.card.missing{border-color:#a33}
+.pair{display:flex;gap:16px;flex-wrap:wrap}
+.pair figure{margin:0;flex:1;min-width:280px}
+.pair img{max-width:100%;border:1px solid #444}
+.asset-preview{display:grid;place-items:center;min-height:180px;
+  background-color:#fff;background-image:linear-gradient(45deg,#ddd 25%,transparent 25%),
+  linear-gradient(-45deg,#ddd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ddd 75%),
+  linear-gradient(-45deg,transparent 75%,#ddd 75%);background-size:24px 24px;
+  background-position:0 0,0 12px,12px -12px,-12px 0}
+.asset-preview img,.intended-preview img{display:block;max-height:520px}
+.intended-preview{display:grid;place-items:center;min-height:180px;border:1px solid #444}
+figcaption{font-size:12px;color:#999;margin-top:4px}
+.chip{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;
+      background:#333;margin-left:8px;text-transform:uppercase}
+.chip.extract{background:#264} .chip.inpaint{background:#452}
+.chip.code{background:#345}
+.chip.plate{background:#246} .chip.generated{background:#525}
+.chip.unmapped{background:#630} .chip.client-copy{background:#444}
+.chip.composite{background:#536}
+</style>
+<h1>Image asset review</h1>
+<p class='muted'>40 CODE regions and 8 raster assets to review: 8 extract, 0 inpaint.</p>
+<div class='proto'><b>How to review:</b> judge every planned treatment against its design reference on the left. For CODE cards, verify the build note can preserve the region's silhouette, materiality, and compositing—not merely approximate its geometry. To swap a raster, replace the file directly in git — same path, push to main. Replaced files are authoritative — the pipeline never overwrites them. This page updates on every push. Complete the review subtask to approve; the build does not start until then.</div>
+<div class='card' id='01-hero-r1'>
+<b>01-hero-r1</b><span class='chip code'>code</span>
+<div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
+<div class='muted'>Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r1-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r2'>
+<b>01-hero-r2</b><span class='chip code'>code</span>
+<div class='muted'>live information panel or navigation rail</div>
+<div class='muted'>Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r2-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r3'>
+<b>01-hero-r3</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r3-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r4'>
+<b>01-hero-r4</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r4-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r5'>
+<b>01-hero-r5</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r5-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r6'>
+<b>01-hero-r6</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r6-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r7'>
+<b>01-hero-r7</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r7-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-hero-r8'>
+<b>01-hero-r8</b><span class='chip extract'>extract</span>
+<div class='muted'>real reception — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [998, 95, 1505, 778], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/sources/drive/reception-1.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r8-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/01-hero-01-real-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>01-hero-01-real-reception.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/01-hero-01-real-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r1'>
+<b>02-clinic-purpose-r1</b><span class='chip code'>code</span>
+<div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
+<div class='muted'>Build the clinic purpose section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r1-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build the clinic purpose section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r2'>
+<b>02-clinic-purpose-r2</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r2-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r3'>
+<b>02-clinic-purpose-r3</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r3-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r4'>
+<b>02-clinic-purpose-r4</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r4-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r5'>
+<b>02-clinic-purpose-r5</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r5-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r6'>
+<b>02-clinic-purpose-r6</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r6-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-clinic-purpose-r7'>
+<b>02-clinic-purpose-r7</b><span class='chip extract'>extract</span>
+<div class='muted'>real waiting room — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1029, 56, 1505, 562], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/sources/drive/waiting-room.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/02-clinic-purpose-context.png'><img src='crops/02-clinic-purpose-r7-ref.png' alt=''></a><figcaption>design reference — 02-clinic-purpose (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/02-clinic-purpose-01-real-waiting-room.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-clinic-purpose-01-real-waiting-room.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/02-clinic-purpose-01-real-waiting-room.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r1'>
+<b>03-facility-gallery-r1</b><span class='chip code'>code</span>
+<div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
+<div class='muted'>Build the facility gallery section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r1-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build the facility gallery section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r2'>
+<b>03-facility-gallery-r2</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r2-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r3'>
+<b>03-facility-gallery-r3</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r3-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r4'>
+<b>03-facility-gallery-r4</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the facility gallery horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r4-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the facility gallery horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r5'>
+<b>03-facility-gallery-r5</b><span class='chip extract'>extract</span>
+<div class='muted'>real reception — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [814, 69, 1382, 562], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/sources/drive/reception-1.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r5-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/03-facility-gallery-01-real-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-facility-gallery-01-real-reception.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-facility-gallery-01-real-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='03-facility-gallery-r6'>
+<b>03-facility-gallery-r6</b><span class='chip extract'>extract</span>
+<div class='muted'>waiting area — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [223, 592, 1459, 773], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/03-facility-gallery.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/03-facility-gallery-context.png'><img src='crops/03-facility-gallery-r6-ref.png' alt=''></a><figcaption>design reference — 03-facility-gallery (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/03-facility-gallery-02-waiting-area.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-facility-gallery-02-waiting-area.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-facility-gallery-02-waiting-area.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r1'>
+<b>04-care-principles-r1</b><span class='chip code'>code</span>
+<div class='muted'>live information panel or navigation rail</div>
+<div class='muted'>Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r1-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r2'>
+<b>04-care-principles-r2</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r2-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r3'>
+<b>04-care-principles-r3</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r3-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r4'>
+<b>04-care-principles-r4</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep this care principles panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r4-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this care principles panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r5'>
+<b>04-care-principles-r5</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r5-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r6'>
+<b>04-care-principles-r6</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r6-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r7'>
+<b>04-care-principles-r7</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r7-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r8'>
+<b>04-care-principles-r8</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r8-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r9'>
+<b>04-care-principles-r9</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r9-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r10'>
+<b>04-care-principles-r10</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r10-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r11'>
+<b>04-care-principles-r11</b><span class='chip extract'>extract</span>
+<div class='muted'>clinic signage — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1075, 143, 1498, 302], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/04-care-principles.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r11-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/04-care-principles-01-clinic-signage.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>04-care-principles-01-clinic-signage.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/04-care-principles-01-clinic-signage.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='04-care-principles-r12'>
+<b>04-care-principles-r12</b><span class='chip extract'>extract</span>
+<div class='muted'>clinic lounge — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1098, 376, 1482, 570], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/04-care-principles.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/04-care-principles-context.png'><img src='crops/04-care-principles-r12-ref.png' alt=''></a><figcaption>design reference — 04-care-principles (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/04-care-principles-02-clinic-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>04-care-principles-02-clinic-lounge.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/04-care-principles-02-clinic-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r1'>
+<b>05-team-publication-gate-r1</b><span class='chip code'>code</span>
+<div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
+<div class='muted'>Build the team publication gate section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r1-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build the team publication gate section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r2'>
+<b>05-team-publication-gate-r2</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r2-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r3'>
+<b>05-team-publication-gate-r3</b><span class='chip code'>code</span>
+<div class='muted'>live information panel or navigation rail</div>
+<div class='muted'>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r3-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r4'>
+<b>05-team-publication-gate-r4</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Recreate this team publication gate content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r4-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this team publication gate content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r5'>
+<b>05-team-publication-gate-r5</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r5-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r6'>
+<b>05-team-publication-gate-r6</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r6-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r7'>
+<b>05-team-publication-gate-r7</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r7-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r8'>
+<b>05-team-publication-gate-r8</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r8-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r9'>
+<b>05-team-publication-gate-r9</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r9-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='05-team-publication-gate-r10'>
+<b>05-team-publication-gate-r10</b><span class='chip extract'>extract</span>
+<div class='muted'>clinic reception — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1114, 86, 1498, 734], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/05-team-publication-gate.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/05-team-publication-gate-context.png'><img src='crops/05-team-publication-gate-r10-ref.png' alt=''></a><figcaption>design reference — 05-team-publication-gate (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/05-team-publication-gate-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>05-team-publication-gate-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/05-team-publication-gate-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<div class='card' id='06-booking-cta-r1'>
+<b>06-booking-cta-r1</b><span class='chip code'>code</span>
+<div class='muted'>live information panel or navigation rail</div>
+<div class='muted'>Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r1-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='06-booking-cta-r2'>
+<b>06-booking-cta-r2</b><span class='chip code'>code</span>
+<div class='muted'>live information panel or navigation rail</div>
+<div class='muted'>Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r2-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='06-booking-cta-r3'>
+<b>06-booking-cta-r3</b><span class='chip code'>code</span>
+<div class='muted'>live heading or content text group</div>
+<div class='muted'>Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r3-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='06-booking-cta-r4'>
+<b>06-booking-cta-r4</b><span class='chip code'>code</span>
+<div class='muted'>small live label, icon or geometric accent</div>
+<div class='muted'>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</div>
+<div class='pair'>
+<figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r4-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='06-booking-cta-r5'>
+<b>06-booking-cta-r5</b><span class='chip extract'>extract</span>
+<div class='muted'>clinic reception — independent photographic slot</div>
+<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
+<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1121, 69, 1444, 289], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/06-booking-cta.png&quot;}</div>
+<div class='pair'>
+<figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r5-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
+<figure><div class='asset-preview'><img src='../images/design/06-booking-cta-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>06-booking-cta-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/06-booking-cta-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+</div></div>
+<details><summary>NOTES.md — CSS/SVG techniques the build uses instead of images</summary><pre># about — Stage 9b / The Forward Standard
+
+Source: approved section frames; section manifest wins for content. CSS viewport used for review: 1440×900 laptop and 390×844 mobile. 
+Design frames are 1536×864 bitmaps (medical-sources and some privacy/CTA bands are 1536×512). Their CSS viewport and DPR are unknown.
+Use approved typography_contract roles h1/display, body and utility; preserve the approved palette_contract tokens ink, surface, action, electric, silver, charcoal and light. CSS owns fields, bars, brackets, beveled rails, labels, buttons and forms. Photography belongs to its section.
+No medical outcomes, team identities, credentials, facility contact details, guide delivery or calendar behavior may be inferred from these visual frames.
+Visual QA limitation: source frame photography is sometimes visibly clipped by approved geometric fields or other content; the crops preserve only source-visible subject pixels. Do not fabricate occluded parts, enlarge tiny photo strips beyond readable resolution, or present rendered source-frame rooms as verified client photographs. Client-copy assets are identified explicitly below.
+
+
+## 01-hero
+
+Segmenter found 7 candidate regions; these are not semantic assets.
+- CODE r1: Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r5: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r6: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r7: Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r8: real-reception; 01-hero-01-real-reception.png; copy verified client image reception-1.png. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## 02-clinic-purpose
+
+Segmenter found 6 candidate regions; these are not semantic assets.
+- CODE r1: Build the clinic purpose section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r5: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r6: Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r7: real-waiting-room; 02-clinic-purpose-01-real-waiting-room.png; copy verified client image waiting-room.png. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## 03-facility-gallery
+
+Segmenter found 4 candidate regions; these are not semantic assets.
+- CODE r1: Build the facility gallery section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Keep the facility gallery horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r5: real-reception; 03-facility-gallery-01-real-reception.png; copy verified client image reception-1.png. CSS sizes the slot, not the file; keep its remaining annotations live.
+- EXTRACT r6: waiting-area; 03-facility-gallery-02-waiting-area.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## 04-care-principles
+
+Segmenter found 10 candidate regions; these are not semantic assets.
+- CODE r1: Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Keep this care principles panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r5: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r6: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r7: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r8: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r9: Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r10: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r11: clinic-signage; 04-care-principles-01-clinic-signage.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- EXTRACT r12: clinic-lounge; 04-care-principles-02-clinic-lounge.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## 05-team-publication-gate
+
+Segmenter found 9 candidate regions; these are not semantic assets.
+- CODE r1: Build the team publication gate section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Recreate this team publication gate content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r5: Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r6: Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r7: Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r8: Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r9: Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r10: clinic-reception; 05-team-publication-gate-01-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## 06-booking-cta
+
+Segmenter found 4 candidate regions; these are not semantic assets.
+- CODE r1: Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r2: Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r3: Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- CODE r4: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
+- EXTRACT r5: clinic-reception; 06-booking-cta-01-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+
+## Review limitations
+
+- 03-facility-gallery: the lower panorama appears only in the rendered reference, not the three supplied authentic facility files. Do not identify it as a verified client photograph without customer approval.
+
+</pre></details>
