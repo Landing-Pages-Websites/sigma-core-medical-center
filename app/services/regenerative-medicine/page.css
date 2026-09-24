@@ -7,7 +7,9 @@
 .r-orientation h2 { max-width: 11ch; margin-bottom: 25px; }.r-orientation-paper { padding: 30px 9% 30px 30px; background: var(--color-surface); color: var(--color-ink); border-left: 5px solid var(--color-action); clip-path: polygon(0 0,100% 0,93% 100%,0 100%); }
 .r-orientation-paper strong { font-size: 1.25rem; color: var(--color-action); }.r-orientation-paper p { margin-top: 16px; max-width: 47ch; }
 .r-orientation .b2-text-link { margin-top: 25px; color: #fff; border: 1px solid #fff; padding: 12px 16px; }
-.r-orientation aside { min-height: 500px; padding: 80px 14% 65px; background: var(--color-charcoal); clip-path: polygon(20% 0,100% 0,100% 100%,0 100%,20% 65%); }
+.r-orientation aside { min-height: 500px; padding: 80px 25% 65px; position: relative; isolation: isolate; }
+.r-orientation aside::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--color-charcoal); clip-path: polygon(20% 0,100% 0,100% 100%,0 100%,20% 65%); }
+.r-orientation aside > * { position: relative; }
 .r-orientation aside p { margin-top: 20px; }
 .r-questions h2 { margin-bottom: 14px; }.r-questions-lead { max-width: 69ch; }
 .r-question-cards { display: grid; grid-template-columns: repeat(5,1fr); margin-top: 34px; gap: 7px; }
@@ -35,7 +37,7 @@
 @media (max-width: 800px) {
   .r-hero-grid,.r-orientation-grid,.r-faq-grid,.r-book-main,.r-sources-head { grid-template-columns: 1fr; min-height: 0; }
   .r-hero h1 { max-width: 18ch !important; }.r-hero-art { height: 330px; margin-top: 30px; }.r-hero-art > p { font-size: 1rem; min-height: 75px; padding: 14px; }
-  .r-orientation-paper { padding: 22px; }.r-orientation aside { min-height: 0; clip-path: none; padding: 28px; margin-top: 24px; }
+  .r-orientation-paper { padding: 22px; }.r-orientation aside { min-height: 0; padding: 28px; margin-top: 24px; }.r-orientation aside::before { clip-path: none; }
   .r-question-cards { grid-template-columns: 1fr 1fr; }.r-question-cards article { min-height: 220px; padding: 20px 14px; }.r-question-cards article:last-child { grid-column: 1 / -1; min-height: 125px; }
   .r-questions-base { grid-template-columns: 1fr; height: auto; }.r-questions-base .interior-photo { height: 100px; }
   .r-decisions-head { display: block; }.r-decisions-head > p { margin-top: 20px; }.r-decisions-stage { grid-template-columns: 1fr 1fr; }.r-decisions-stage > .interior-photo { min-height: 160px; height: 160px; }
