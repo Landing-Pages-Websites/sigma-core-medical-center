@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/services/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "services/01-hero-01-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-neuropathy-feature",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/services/neuropathy.tsx",
+      "content_source": "section_manifest.json#02-neuropathy-feature",
+      "asset_roles": [
+        "services/02-neuropathy-feature-01-walking-figure.png",
+        "services/02-neuropathy-feature-02-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-service-navigation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/services/navigation.tsx",
+      "content_source": "section_manifest.json#03-service-navigation",
+      "asset_roles": [
+        "services/03-service-navigation-01-active-couple.png",
+        "services/03-service-navigation-02-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-how-to-choose-next-step",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/services/choose.tsx",
+      "content_source": "section_manifest.json#04-how-to-choose-next-step",
+      "asset_roles": [
+        "services/04-how-to-choose-next-step-01-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/services/booking.tsx",
+      "content_source": "section_manifest.json#05-booking-cta",
+      "asset_roles": [
+        "services/05-booking-cta-01-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}

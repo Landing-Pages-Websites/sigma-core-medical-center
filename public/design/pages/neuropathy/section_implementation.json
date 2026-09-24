@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "neuropathy/01-hero-01-person-walking.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-visitor-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/orientation.tsx",
+      "content_source": "section_manifest.json#02-visitor-orientation",
+      "asset_roles": [
+        "neuropathy/02-visitor-orientation-01-clinic-interior.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-goals-and-decision-factors",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/goals.tsx",
+      "content_source": "section_manifest.json#03-goals-and-decision-factors",
+      "asset_roles": [
+        "neuropathy/03-goals-and-decision-factors-01-clinic-reception.png",
+        "neuropathy/03-goals-and-decision-factors-02-visitor-in-lounge.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-what-to-expect",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/expect.tsx",
+      "content_source": "section_manifest.json#04-what-to-expect",
+      "asset_roles": [
+        "neuropathy/04-what-to-expect-01-real-waiting-room.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "neuropathy/05-faq-01-clinic-lounge.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "neuropathy/06-booking-cta-01-visitor-in-clinic.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/neuropathy/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "neuropathy/07-medical-sources-01-clinic-lounge.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}

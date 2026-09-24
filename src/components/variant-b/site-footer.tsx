@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { FOOTER, PENDING } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
@@ -64,12 +65,9 @@ export function SiteFooterB(): React.ReactElement {
           <ul className="flex flex-wrap items-center justify-center gap-x-7 gap-y-1">
             {FOOTER.nav.map((item) => (
               <li key={item}>
-                <PendingAction
-                  label={item}
-                  title={PENDING.page.title}
-                  message={PENDING.page.message}
-                  className={footerLinkB}
-                />
+                {item === "Services" ? <Link href="/services" className={footerLinkB}>Services</Link> : (
+                  <PendingAction label={item} title={PENDING.page.title} message={PENDING.page.message} className={footerLinkB} />
+                )}
               </li>
             ))}
           </ul>

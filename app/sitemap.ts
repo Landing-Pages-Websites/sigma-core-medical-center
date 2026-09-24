@@ -4,7 +4,8 @@ import { SITE_URL } from "@/content/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/variant-a`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${SITE_URL}/variant-b`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/services`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/services/neuropathy`, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/services/pain-relief`, changeFrequency: "monthly", priority: 0.7 },
   ];
 }

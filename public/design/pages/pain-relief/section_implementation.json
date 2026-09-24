@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "pain-relief/01-hero-01-person-walking.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-pain-concern-navigation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/navigation.tsx",
+      "content_source": "section_manifest.json#02-pain-concern-navigation",
+      "asset_roles": [
+        "pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
+        "pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
+        "pain-relief/02-pain-concern-navigation-03-neck-clinic.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-knee-concerns",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/knee.tsx",
+      "content_source": "section_manifest.json#03-knee-concerns",
+      "asset_roles": [
+        "pain-relief/03-knee-concerns-01-person-outdoors.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-low-back-concerns",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/back.tsx",
+      "content_source": "section_manifest.json#04-low-back-concerns",
+      "asset_roles": [
+        "pain-relief/04-low-back-concerns-01-man-at-home.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-neck-concerns",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/neck.tsx",
+      "content_source": "section_manifest.json#05-neck-concerns",
+      "asset_roles": [
+        "pain-relief/05-neck-concerns-01-woman-reading.png",
+        "pain-relief/05-neck-concerns-02-clinic-lounge-strip.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "06-decision-factors",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/decisions.tsx",
+      "content_source": "section_manifest.json#06-decision-factors",
+      "asset_roles": [
+        "pain-relief/06-decision-factors-01-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "07-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/faq.tsx",
+      "content_source": "section_manifest.json#07-faq",
+      "asset_roles": [
+        "pain-relief/07-faq-01-clinic-interior.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "08-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/booking.tsx",
+      "content_source": "section_manifest.json#08-booking-cta",
+      "asset_roles": [
+        "pain-relief/08-booking-cta-01-clinic-reception.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "09-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
+      "content_source": "section_manifest.json#09-medical-sources",
+      "asset_roles": [
+        "pain-relief/09-medical-sources-01-clinic-reception.png",
+        "pain-relief/09-medical-sources-02-clinic-lounge.png"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+        },
+        "imagery": {
+          "status": "PENDING",
+          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+        },
+        "composition": {
+          "status": "PENDING",
+          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+        },
+        "visual_treatment": {
+          "status": "PENDING",
+          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+        },
+        "responsive": {
+          "status": "PENDING",
+          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}
