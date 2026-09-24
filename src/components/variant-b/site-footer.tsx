@@ -1,9 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { FOOTER, PENDING } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { FOOTER } from "@/content/site";
 import { footerLinkB, primaryButtonB } from "@/components/variant-b/buttons";
+
+const FOOTER_PATHS = {
+  Services: "/services",
+  About: "/about",
+  Contact: "/contact",
+  Privacy: "/privacy",
+  "Notice of Privacy Practices": "/notice-of-privacy-practices",
+  Accessibility: "/accessibility",
+  Terms: "/terms",
+} satisfies Record<(typeof FOOTER.nav)[number], string>;
 
 function WalnutRail(): React.ReactElement {
   return (
@@ -56,9 +65,7 @@ export function SiteFooterB(): React.ReactElement {
           <ul className="flex flex-wrap items-center justify-center gap-x-7 gap-y-1">
             {FOOTER.nav.map((item) => (
               <li key={item}>
-                {item === "Services" || item === "About" || item === "Contact" ? <Link href={item === "Services" ? "/services" : `/${item.toLowerCase()}`} className={footerLinkB}>{item}</Link> : (
-                  <PendingAction label={item} title={PENDING.page.title} message={PENDING.page.message} className={footerLinkB} />
-                )}
+                <Link href={FOOTER_PATHS[item]} className={footerLinkB}>{item}</Link>
               </li>
             ))}
           </ul>
