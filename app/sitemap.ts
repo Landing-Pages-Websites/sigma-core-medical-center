@@ -1,16 +1,21 @@
 import type { MetadataRoute } from "next";
+import routeManifest from "../public/route-manifest.json";
 import { SITE_URL } from "@/content/site";
 
+const NOINDEX_PATHS = new Set([
+  "/services/hormone-optimization",
+  "/services/pelvic-floor-incontinence",
+  "/services/regenerative-medicine",
+  "/educational-guide",
+  "/book",
+  "/privacy",
+  "/notice-of-privacy-practices",
+  "/accessibility",
+  "/terms",
+]);
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/services`, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/services/neuropathy`, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${SITE_URL}/services/pain-relief`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/services/hormone-optimization`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/services/pelvic-floor-incontinence`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/services/regenerative-medicine`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/about`, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${SITE_URL}/contact`, changeFrequency: "monthly", priority: 0.5 },
-  ];
+  return routeManifest.routes
+    .filter((path) => !NOINDEX_PATHS.has(path))
+    .map((path) => ({ url: new URL(path, SITE_URL).toString() }));
 }

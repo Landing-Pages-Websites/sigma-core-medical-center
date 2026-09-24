@@ -1,5 +1,21 @@
 {
   "version": 1,
-  "generated_for": "sigma-core-medical-center interior batch 1",
-  "routes": ["/", "/services", "/services/neuropathy", "/services/pain-relief"]
+  "generated_for": "sigma-core-medical-center approved sitemap",
+  "routes": [
+    "/",
+    "/services",
+    "/services/neuropathy",
+    "/services/pain-relief",
+    "/services/hormone-optimization",
+    "/services/pelvic-floor-incontinence",
+    "/services/regenerative-medicine",
+    "/about",
+    "/educational-guide",
+    "/book",
+    "/contact",
+    "/privacy",
+    "/notice-of-privacy-practices",
+    "/accessibility",
+    "/terms"
+  ]
 }
