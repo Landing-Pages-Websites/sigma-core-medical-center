@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "Exact clinic reception visual for 01-hero, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-category-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/orientation.tsx",
+      "content_source": "section_manifest.json#02-category-orientation",
+      "asset_roles": ["Code-only category boundary, stepped bars, and independent information panel"],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "0 of 0 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-questions-for-a-consultation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/questions.tsx",
+      "content_source": "section_manifest.json#03-questions-for-a-consultation",
+      "asset_roles": [
+        "Exact clinic interior strip visual for 03-questions-for-a-consultation, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-decision-factors",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/decisions.tsx",
+      "content_source": "section_manifest.json#04-decision-factors",
+      "asset_roles": [
+        "Exact clinic left visual for 04-decision-factors, not a staff or outcome representation",
+        "Exact clinic right visual for 04-decision-factors, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "2 of 2 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "Exact clinic reception visual for 05-faq, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "Exact clinic lounge visual for 07-medical-sources, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}
