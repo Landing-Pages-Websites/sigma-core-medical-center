@@ -1,0 +1,731 @@
+{
+  "page": "services",
+  "frames": [
+    {
+      "frame": "01-hero",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "hero independently sized photographic media slot",
+        "width_share": "about 20% of source-frame width before responsive slot sizing",
+        "target_aspect_ratio": "reference source crop about 0.70:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
+        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
+        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
+      },
+      "focal_point": {
+        "what": "reception",
+        "where": "right media field",
+        "region_ids": [
+          6
+        ]
+      },
+      "dominance": "Large left headline and blue neuropathy feature counterweight a diagonal reception window above a four-service rail.",
+      "eye_path": [
+        "hero heading",
+        "reception",
+        "primary action or next editorial group"
+      ],
+      "overlaps": [
+        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      ],
+      "quiet_zones": [
+        "Keep dark breathing room behind the left headline and between the story and lower service rail."
+      ],
+      "tension": "offset photo mass against live copy and measured bars",
+      "image_copy_relation": "Large left headline and blue neuropathy feature counterweight a diagonal reception window above a four-service rail.",
+      "assembly": {
+        "profile": "anchored-art",
+        "score": 1,
+        "signals": [
+          "photo anchor"
+        ],
+        "surface": "CSS brand-color field sampled from approved frame",
+        "layer_stack": [
+          "CSS field",
+          "owned photographed media",
+          "live semantic text/controls",
+          "responsive geometric SVG accents"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "keep photo contained by its section; decorative step bars remain CSS"
+        ],
+        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+      },
+      "content_groups": [
+        "hero heading, explanatory copy and primary action",
+        "owned photo slot and any adjacent geometric bars"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "section frame, not a stitched page viewport",
+        "must_be_simultaneously_visible": [
+          "headline",
+          "primary action",
+          "primary photo subject"
+        ],
+        "may_continue_below_fold": [
+          "secondary proof, source links or navigation rails"
+        ],
+        "crop_invariants": [
+          "recognizable photographic subject remains visible"
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "hero hierarchy and contrast",
+        "all copy/controls remain live",
+        "distinct photo subjects must remain distinct section-owned slots",
+        "Neuropathy remains larger and bluer than the four subordinate service routes."
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
+        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
+        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
+        "ownership_model": "independent-layers",
+        "owned_parts": [
+          "one photograph per named slot"
+        ],
+        "external_relations": [
+          "live heading, CTA and section field",
+          "CSS geometric rails and edge mask"
+        ],
+        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
+        "base_geometry": "section-owned rectangular media slot",
+        "foreground_occluders": [
+          "CSS clipped field where observed"
+        ],
+        "breakout_elements": [],
+        "bridge_elements": [
+          "measured bars or bracket strokes outside photo"
+        ],
+        "shared_contour_language": "sharp angles and thin silver/blue keylines",
+        "layer_order": [
+          "CSS surface",
+          "owned photographs",
+          "CSS clip and accents",
+          "semantic copy and buttons"
+        ],
+        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      },
+      "slot_contracts": [
+        {
+          "region_id": 6,
+          "container": "01-hero / reception \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "0.70:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "headline, action and primary media simultaneously visible"
+        }
+      ]
+    },
+    {
+      "frame": "02-neuropathy-feature",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "neuropathy feature independently sized photographic media slot",
+        "width_share": "about 14% of source-frame width before responsive slot sizing",
+        "target_aspect_ratio": "reference source crop about 0.86:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
+        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
+        "fold_requirement": "no forced viewport-height scaling"
+      },
+      "focal_point": {
+        "what": "walking figure",
+        "where": "right media field",
+        "region_ids": [
+          3
+        ]
+      },
+      "dominance": "Oversized heading leads into one dominant navy neuropathy card; the solitary walking figure and reception photo remain secondary anchors.",
+      "eye_path": [
+        "neuropathy feature heading",
+        "walking figure",
+        "primary action or next editorial group"
+      ],
+      "overlaps": [
+        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      ],
+      "quiet_zones": [
+        "Keep the upper blue field open so the headline can lead before the support band."
+      ],
+      "tension": "offset photo mass against live copy and measured bars",
+      "image_copy_relation": "Oversized heading leads into one dominant navy neuropathy card; the solitary walking figure and reception photo remain secondary anchors.",
+      "assembly": {
+        "profile": "anchored-art",
+        "score": 1,
+        "signals": [
+          "photo anchor"
+        ],
+        "surface": "CSS brand-color field sampled from approved frame",
+        "layer_stack": [
+          "CSS field",
+          "owned photographed media",
+          "live semantic text/controls",
+          "responsive geometric SVG accents"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "keep photo contained by its section; decorative step bars remain CSS"
+        ],
+        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+      },
+      "content_groups": [
+        "neuropathy feature heading, explanatory copy and primary action",
+        "owned photo slot and any adjacent geometric bars"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "section frame, not a stitched page viewport",
+        "must_be_simultaneously_visible": [
+          "headline",
+          "primary action",
+          "primary photo subject"
+        ],
+        "may_continue_below_fold": [
+          "secondary proof, source links or navigation rails"
+        ],
+        "crop_invariants": [
+          "recognizable photographic subject remains visible"
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "neuropathy feature hierarchy and contrast",
+        "all copy/controls remain live",
+        "distinct photo subjects must remain distinct section-owned slots",
+        "The neuropathy card outranks the four support tiles without merging their live labels into imagery."
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
+        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
+        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
+        "ownership_model": "independent-layers",
+        "owned_parts": [
+          "one photograph per named slot"
+        ],
+        "external_relations": [
+          "live heading, CTA and section field",
+          "CSS geometric rails and edge mask"
+        ],
+        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
+        "base_geometry": "section-owned rectangular media slot",
+        "foreground_occluders": [
+          "CSS clipped field where observed"
+        ],
+        "breakout_elements": [],
+        "bridge_elements": [
+          "measured bars or bracket strokes outside photo"
+        ],
+        "shared_contour_language": "sharp angles and thin silver/blue keylines",
+        "layer_order": [
+          "CSS surface",
+          "owned photographs",
+          "CSS clip and accents",
+          "semantic copy and buttons"
+        ],
+        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      },
+      "slot_contracts": [
+        {
+          "region_id": 3,
+          "container": "02-neuropathy-feature / walking figure \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "0.86:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        },
+        {
+          "region_id": 4,
+          "container": "02-neuropathy-feature / clinic reception \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "3.66:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        }
+      ]
+    },
+    {
+      "frame": "03-service-navigation",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "service navigation independently sized photographic media slot",
+        "width_share": "about 18% of source-frame width before responsive slot sizing",
+        "target_aspect_ratio": "reference source crop about 1.28:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
+        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
+        "fold_requirement": "no forced viewport-height scaling"
+      },
+      "focal_point": {
+        "what": "active couple",
+        "where": "right media field",
+        "region_ids": [
+          3
+        ]
+      },
+      "dominance": "Cream heading sits above an asymmetrical navy pain card and narrower stacked services against a vertical clinic image.",
+      "eye_path": [
+        "service navigation heading",
+        "active couple",
+        "primary action or next editorial group"
+      ],
+      "overlaps": [
+        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      ],
+      "quiet_zones": [
+        "Preserve cream negative space above the wide dark pain card."
+      ],
+      "tension": "offset photo mass against live copy and measured bars",
+      "image_copy_relation": "Cream heading sits above an asymmetrical navy pain card and narrower stacked services against a vertical clinic image.",
+      "assembly": {
+        "profile": "anchored-art",
+        "score": 1,
+        "signals": [
+          "photo anchor"
+        ],
+        "surface": "CSS brand-color field sampled from approved frame",
+        "layer_stack": [
+          "CSS field",
+          "owned photographed media",
+          "live semantic text/controls",
+          "responsive geometric SVG accents"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "keep photo contained by its section; decorative step bars remain CSS"
+        ],
+        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+      },
+      "content_groups": [
+        "service navigation heading, explanatory copy and primary action",
+        "owned photo slot and any adjacent geometric bars"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "section frame, not a stitched page viewport",
+        "must_be_simultaneously_visible": [
+          "headline",
+          "primary action",
+          "primary photo subject"
+        ],
+        "may_continue_below_fold": [
+          "secondary proof, source links or navigation rails"
+        ],
+        "crop_invariants": [
+          "recognizable photographic subject remains visible"
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "service navigation hierarchy and contrast",
+        "all copy/controls remain live",
+        "distinct photo subjects must remain distinct section-owned slots",
+        "Pain has its own active-life scene; three other categories remain individually navigable beside the photo."
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
+        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
+        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
+        "ownership_model": "independent-layers",
+        "owned_parts": [
+          "one photograph per named slot"
+        ],
+        "external_relations": [
+          "live heading, CTA and section field",
+          "CSS geometric rails and edge mask"
+        ],
+        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
+        "base_geometry": "section-owned rectangular media slot",
+        "foreground_occluders": [
+          "CSS clipped field where observed"
+        ],
+        "breakout_elements": [],
+        "bridge_elements": [
+          "measured bars or bracket strokes outside photo"
+        ],
+        "shared_contour_language": "sharp angles and thin silver/blue keylines",
+        "layer_order": [
+          "CSS surface",
+          "owned photographs",
+          "CSS clip and accents",
+          "semantic copy and buttons"
+        ],
+        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      },
+      "slot_contracts": [
+        {
+          "region_id": 3,
+          "container": "03-service-navigation / active couple \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "1.28:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        },
+        {
+          "region_id": 4,
+          "container": "03-service-navigation / clinic reception \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "0.45:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        }
+      ]
+    },
+    {
+      "frame": "04-how-to-choose-next-step",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "how to choose next step independently sized photographic media slot",
+        "width_share": "about 17% of source-frame width before responsive slot sizing",
+        "target_aspect_ratio": "reference source crop about 0.86:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
+        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
+        "fold_requirement": "no forced viewport-height scaling"
+      },
+      "focal_point": {
+        "what": "clinic reception",
+        "where": "right media field",
+        "region_ids": [
+          12
+        ]
+      },
+      "dominance": "Dark instructional copy and consultation callout counterbalance the clipped right reception photograph; three bottom routes form a common rail.",
+      "eye_path": [
+        "how to choose next step heading",
+        "clinic reception",
+        "primary action or next editorial group"
+      ],
+      "overlaps": [
+        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      ],
+      "quiet_zones": [
+        "Leave space below the headline and above the three destination rail items."
+      ],
+      "tension": "offset photo mass against live copy and measured bars",
+      "image_copy_relation": "Dark instructional copy and consultation callout counterbalance the clipped right reception photograph; three bottom routes form a common rail.",
+      "assembly": {
+        "profile": "anchored-art",
+        "score": 1,
+        "signals": [
+          "photo anchor"
+        ],
+        "surface": "CSS brand-color field sampled from approved frame",
+        "layer_stack": [
+          "CSS field",
+          "owned photographed media",
+          "live semantic text/controls",
+          "responsive geometric SVG accents"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "keep photo contained by its section; decorative step bars remain CSS"
+        ],
+        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+      },
+      "content_groups": [
+        "how to choose next step heading, explanatory copy and primary action",
+        "owned photo slot and any adjacent geometric bars"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "section frame, not a stitched page viewport",
+        "must_be_simultaneously_visible": [
+          "headline",
+          "primary action",
+          "primary photo subject"
+        ],
+        "may_continue_below_fold": [
+          "secondary proof, source links or navigation rails"
+        ],
+        "crop_invariants": [
+          "recognizable photographic subject remains visible"
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "how to choose next step hierarchy and contrast",
+        "all copy/controls remain live",
+        "distinct photo subjects must remain distinct section-owned slots",
+        "CTA remains live on or beside the image, never printed into the cropped photo."
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
+        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
+        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
+        "ownership_model": "independent-layers",
+        "owned_parts": [
+          "one photograph per named slot"
+        ],
+        "external_relations": [
+          "live heading, CTA and section field",
+          "CSS geometric rails and edge mask"
+        ],
+        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
+        "base_geometry": "section-owned rectangular media slot",
+        "foreground_occluders": [
+          "CSS clipped field where observed"
+        ],
+        "breakout_elements": [],
+        "bridge_elements": [
+          "measured bars or bracket strokes outside photo"
+        ],
+        "shared_contour_language": "sharp angles and thin silver/blue keylines",
+        "layer_order": [
+          "CSS surface",
+          "owned photographs",
+          "CSS clip and accents",
+          "semantic copy and buttons"
+        ],
+        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      },
+      "slot_contracts": [
+        {
+          "region_id": 12,
+          "container": "04-how-to-choose-next-step / clinic reception \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "0.86:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        }
+      ]
+    },
+    {
+      "frame": "05-booking-cta",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "booking cta independently sized photographic media slot",
+        "width_share": "about 38% of source-frame width before responsive slot sizing",
+        "target_aspect_ratio": "reference source crop about 1.27:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
+        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
+        "fold_requirement": "no forced viewport-height scaling"
+      },
+      "focal_point": {
+        "what": "clinic reception",
+        "where": "right media field",
+        "region_ids": [
+          11
+        ]
+      },
+      "dominance": "Large left booking statement and action face a sharply clipped right reception image, with three smaller route tiles below.",
+      "eye_path": [
+        "booking cta heading",
+        "clinic reception",
+        "primary action or next editorial group"
+      ],
+      "overlaps": [
+        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      ],
+      "quiet_zones": [
+        "Retain quiet navy above the main copy and below the route tiles."
+      ],
+      "tension": "offset photo mass against live copy and measured bars",
+      "image_copy_relation": "Large left booking statement and action face a sharply clipped right reception image, with three smaller route tiles below.",
+      "assembly": {
+        "profile": "anchored-art",
+        "score": 1,
+        "signals": [
+          "photo anchor"
+        ],
+        "surface": "CSS brand-color field sampled from approved frame",
+        "layer_stack": [
+          "CSS field",
+          "owned photographed media",
+          "live semantic text/controls",
+          "responsive geometric SVG accents"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "keep photo contained by its section; decorative step bars remain CSS"
+        ],
+        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+      },
+      "content_groups": [
+        "booking cta heading, explanatory copy and primary action",
+        "owned photo slot and any adjacent geometric bars"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "section frame, not a stitched page viewport",
+        "must_be_simultaneously_visible": [
+          "headline",
+          "primary action",
+          "primary photo subject"
+        ],
+        "may_continue_below_fold": [
+          "secondary proof, source links or navigation rails"
+        ],
+        "crop_invariants": [
+          "recognizable photographic subject remains visible"
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "booking cta hierarchy and contrast",
+        "all copy/controls remain live",
+        "distinct photo subjects must remain distinct section-owned slots",
+        "The booking action is primary and the lower paths are clearly subordinate."
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
+        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
+        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
+        "ownership_model": "independent-layers",
+        "owned_parts": [
+          "one photograph per named slot"
+        ],
+        "external_relations": [
+          "live heading, CTA and section field",
+          "CSS geometric rails and edge mask"
+        ],
+        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
+        "base_geometry": "section-owned rectangular media slot",
+        "foreground_occluders": [
+          "CSS clipped field where observed"
+        ],
+        "breakout_elements": [],
+        "bridge_elements": [
+          "measured bars or bracket strokes outside photo"
+        ],
+        "shared_contour_language": "sharp angles and thin silver/blue keylines",
+        "layer_order": [
+          "CSS surface",
+          "owned photographs",
+          "CSS clip and accents",
+          "semantic copy and buttons"
+        ],
+        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      },
+      "slot_contracts": [
+        {
+          "region_id": 11,
+          "container": "05-booking-cta / clinic reception \u2014 independent photographic slot",
+          "source_crop_aspect_ratio": "1.27:1",
+          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
+          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+          "fold": "media may continue naturally below first fold"
+        }
+      ]
+    }
+  ]
+}

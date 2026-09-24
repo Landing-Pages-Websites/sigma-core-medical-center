@@ -11,7 +11,7 @@ export const BRAND = {
   name: "Sigma Core Medical Center",
   tagline: "Human Performance and Longevity",
   location: "Richmond, Virginia area",
-  openingNote: "Opening target: September 8, 2026",
+  openingNote: "Opening details are being confirmed",
 } as const;
 
 export const HERO = {
@@ -79,7 +79,7 @@ export const PLACE = {
   headline: "Designed for a focused, personal conversation",
   body: "Sigma Core brings a concise set of care categories into one calm, modern setting, with one clear next step at a time.",
   facilityCaption: "Sigma Core Medical Center, Richmond area",
-  openingNote: "Opening target: September 8, 2026",
+  openingNote: "Opening details are being confirmed",
   principles: [
     "Personalized care",
     "Clear orientation",
@@ -120,7 +120,7 @@ export const WAYS = {
   booking: {
     label: "Ready to talk",
     headline: "Book an appointment",
-    body: "Use the approved GoHighLevel calendar to request your appointment.",
+    body: "The approved scheduling experience will be linked when its integration is supplied.",
     cta: "Book an Appointment",
   },
   privacyNote:
@@ -138,12 +138,12 @@ export const FAQ = {
     {
       question: "Where is Sigma Core located?",
       answer:
-        "Sigma Core serves the Richmond, Virginia area. The onboarding address is 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and will be reconfirmed before launch.",
+        "Sigma Core serves the Richmond, Virginia area. The public address has not been reconfirmed.",
     },
     {
       question: "How do I book?",
       answer:
-        "Use the Book an Appointment path to continue to Sigma Core's approved GoHighLevel scheduling experience.",
+        "The booking integration has not been supplied yet. Appointment details will be shared when available.",
     },
     {
       question: "Can the website tell me which care is right for me?",
@@ -182,7 +182,7 @@ export const PENDING = {
   booking: {
     title: "Booking opens soon",
     message:
-      "Appointments will be requested through Sigma Core's approved GoHighLevel scheduling experience. The scheduling link is being finalized and is not yet available — please check back closer to the September 8, 2026 opening target.",
+      "Appointments will be requested through Sigma Core's approved scheduling experience. The integration has not been supplied yet; please check back for updates.",
   },
   guide: {
     title: "Educational guide pending",
@@ -192,6 +192,6 @@ export const PENDING = {
   page: {
     title: "Page in preparation",
     message:
-      "This page is being prepared as part of the full Sigma Core website and is not included in this homepage preview.",
+      "This page is in preparation for a later site build and has not been published yet.",
   },
 } as const;

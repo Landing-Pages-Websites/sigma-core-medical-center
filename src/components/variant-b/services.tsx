@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { PENDING, SERVICES } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { SERVICES } from "@/content/site";
+import Link from "next/link";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, GhostWord } from "@/components/variant-b/motifs";
 import { outlineButtonB } from "@/components/variant-b/buttons";
@@ -87,16 +87,9 @@ function PrimaryServiceB(): React.ReactElement {
         </article>
       </Reveal>
       <p className="mt-6 max-w-md text-lg text-muted">{SERVICES.body}</p>
-      <PendingAction
-        label={
-          <>
-            {SERVICES.cta} <ArrowRight size={18} aria-hidden />
-          </>
-        }
-        title={PENDING.page.title}
-        message={PENDING.page.message}
-        className={`${outlineButtonB} mt-6 w-full sm:w-auto`}
-      />
+      <Link href="/services" className={`${outlineButtonB} mt-6 w-full sm:w-auto`}>
+        {SERVICES.cta} <ArrowRight size={18} aria-hidden />
+      </Link>
     </div>
   );
 }

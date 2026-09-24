@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "generated_for": "sigma-core-medical-center homepage pair",
-  "routes": ["/", "/variant-a", "/variant-b"]
+  "generated_for": "sigma-core-medical-center interior batch 1",
+  "routes": ["/", "/services", "/services/neuropathy", "/services/pain-relief"]
 }

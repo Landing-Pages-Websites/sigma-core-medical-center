@@ -1,0 +1,7 @@
+import { InteriorImage } from "../interior-image";
+
+const GOALS = ["Movement and daily function", "Independence and quality of life", "Questions for a personalized conversation"];
+
+export function NeuropathyGoals(): React.ReactElement {
+  return <section id="goals-and-decision-factors" className="interior-section neuro-goals"><div className="interior-wrap neuro-goals-grid"><div className="neuro-goals-copy"><h2 className="bracket">Goals and decision factors</h2><p>Everyone’s priorities differ. Use these ideas to prepare the questions that matter to you.</p><p><strong>Goals to discuss:</strong> daily function, comfort, balance confidence and activities that matter to you.</p><p><strong>Decisions to discuss:</strong> appropriate evaluation, potential benefits and risks, alternatives, cost and follow-up. Provider qualifications can be reviewed when confirmed.</p><a href="/book" className="text-action font-semibold underline underline-offset-4">Discuss your questions →</a><small>Booking integration pending.</small></div><div className="neuro-goals-track"><div className="neuro-goals-items">{GOALS.map((goal) => <div key={goal} className="bracket">{goal}</div>)}</div><div className="neuro-goals-photos"><InteriorImage slug="neuropathy" file="03-goals-and-decision-factors-01-clinic-reception.png" alt="Reception scene from approved goals frame" /><InteriorImage slug="neuropathy" file="03-goals-and-decision-factors-02-visitor-in-lounge.png" alt="Visitor in a lounge from approved goals frame" /></div></div></div></section>;
+}

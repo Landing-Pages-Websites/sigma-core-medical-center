@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { BRAND, HERO, PENDING } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
@@ -46,7 +47,11 @@ export function HeroB(): React.ReactElement {
             priority
             className="h-12 w-auto sm:h-14"
           />
-          <SteppedBars className="items-end" />
+          <nav aria-label="Main navigation" className="flex items-center gap-3 text-sm font-semibold text-ink sm:gap-6 sm:text-base">
+            <Link href="/services/neuropathy" className="hover:text-action hover:underline">Neuropathy</Link>
+            <Link href="/services" className="hover:text-action hover:underline">Services</Link>
+            <SteppedBars className="hidden items-end sm:flex" />
+          </nav>
         </div>
       </div>
       <div className="relative overflow-hidden">
