@@ -86,3 +86,83 @@
 .service-service-list article:last-child .service-pending-link { color: var(--color-focus); }
 
 @media(max-width:760px){.interior-header-inner{flex-wrap:wrap;padding-block:10px;}.interior-nav{flex-wrap:wrap;gap:0 16px;font-size:.9rem;}.interior-nav a{min-height:36px;}}
+
+@media (min-width: 901px) {
+  .service-hero { padding-top: 48px; }
+  .service-hero-grid { grid-template-columns: 56% 44%; min-height: 440px; }
+  .service-hero-copy h1 { font-size: clamp(3.7rem, 4.6vw, 4.35rem); max-width: 17ch; }
+  .service-hero-copy p { max-width: 42ch; margin-top: 12px; }
+  .service-hero-focus { min-height: 440px; }
+  .service-hero-image { inset: 0; clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%); }
+  .service-hero-feature { left: -62%; width: 110%; min-height: 176px; padding: 26px 42px; clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%); }
+  .service-hero-feature strong { font-size: clamp(2.8rem, 3.6vw, 3.9rem); }
+  .service-hero-rail { margin-top: 8px; }
+  .service-hero-rail > * { min-height: 102px; clip-path: polygon(12% 0, 100% 0, 87% 100%, 0 100%); border: 1px solid var(--color-electric); margin-right: -12px; padding-left: 38px; }
+  .service-neuro-panel { margin-inline: -24px; grid-template-columns: 1.35fr 1fr .9fr; }
+  .service-navigation-grid { grid-template-columns: 57% 43%; }
+  .service-navigation-aside { grid-template-columns: 58% 42%; margin-top: 0; align-self: stretch; }
+  .service-navigation-reception { min-height: 100%; }
+  .service-pain { margin-top: 35px; min-height: 350px; grid-template-columns: 48% 52%; }
+  .service-service-list article { min-height: 132px; clip-path: polygon(0 0, 95% 0, 100% 9%, 100% 100%, 0 100%); border-left: 3px solid var(--color-electric); }
+  .service-choose-grid { grid-template-columns: 43% 57%; }
+  .service-choose-photo { width: 100%; }
+  .service-book-grid { grid-template-columns: 50% 50%; }
+  .neuro-hero-grid { min-height: 420px; }
+  .neuro-hero-steps { grid-template-columns: repeat(3, minmax(0, 1fr)) 1.35fr; margin-top: -85px; }
+  .neuro-hero-steps > span:nth-child(2) { transform: translateY(22px); }
+  .neuro-hero-steps > span:nth-child(3) { transform: translateY(44px); }
+  .neuro-hero-steps > div { align-self: end; margin-top: 84px; }
+  .neuro-goals-grid { grid-template-columns: 43% 57%; }
+  .neuro-faq-top .interior-photo { height: 150px; }
+  .neuro-faq-rows > div { grid-template-columns: 35% 48% 17%; clip-path: polygon(0 0, 98% 0, 100% 25%, 100% 100%, 0 100%); }
+  .neuro-book-right > div:last-child { clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%); }
+  .pain-decisions-questions { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 3px; }
+  .pain-decisions-questions li { font-size: .88rem; padding: 18px 12px; min-height: 140px; }
+}
+.service-hero-feature:focus-visible, .service-hero-rail a:focus-visible, .service-pending-link:focus-visible,
+.neuro-faq-rows a:focus-visible, .neuro-goals-copy a:focus-visible, .pain-nav-card:focus-visible {
+  outline: 3px solid var(--color-focus); outline-offset: 3px;
+}
+.service-neuro-panel { position: relative; z-index: 1; }
+.service-navigation-aside { min-width: 0; }
+.service-service-list article { position: relative; z-index: 1; }
+.service-navigation-reception img { object-position: 53% center; }
+.service-choose-photo img, .service-book-photo img { object-position: 56% center; }
+.neuro-hero-walk img { object-position: center 65%; }
+.neuro-goals-items > div { gap: 20px; }
+.neuro-goals-items svg { flex: none; color: var(--color-action); }
+.neuro-goals-items span { max-width: 17ch; }
+.neuro-faq-rows > div { border-left: 3px solid var(--color-electric); }
+.neuro-faq-end { clip-path: polygon(2% 0, 100% 0, 98% 100%, 0 100%); }
+.neuro-book-path span { clip-path: polygon(7% 0, 100% 0, 89% 100%, 0 100%); }
+.pain-nav-card > div:last-child { clip-path: polygon(0 0, 100% 0, 93% 100%, 0 100%); }
+.pain-nav-card:focus-visible { background: var(--color-hover); }
+@media (max-width: 900px) {
+  .service-hero-copy h1 { max-width: 16ch; font-size: clamp(2.65rem, 5vw, 3.65rem); }
+  .service-hero-image { inset: 0; }
+  .service-hero-rail > * { border-left: 2px solid var(--color-electric); }
+  .neuro-goals-items > div { font-size: 1.18rem; }
+  .pain-decisions-questions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .service-hero-copy h1 { font-size: clamp(2.3rem, 9vw, 3rem); max-width: 16ch; }
+  .service-hero-feature { width: 88%; }
+  .service-hero-rail > * { min-width: 0; }
+  .service-neuro-panel { margin-inline: 0; }
+  .service-service-list article { border-left: 3px solid var(--color-electric); }
+  .service-choose-photo img, .service-book-photo img { object-position: center; }
+  .neuro-hero-steps { margin-top: 12px; }
+  .neuro-hero-steps > span { clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%); }
+  .neuro-goals-items > div { padding: 16px 22px; clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%); }
+  .neuro-goals-items svg { width: 28px; }
+  .neuro-faq-rows > div { border-right: 3px solid var(--color-electric); }
+  .pain-nav-card > div:last-child { min-width: 0; }
+  .pain-decisions-questions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 901px) {
+  .service-choose .route-rail a, .service-book .route-rail a {
+    clip-path: polygon(9% 0, 94% 0, 100% 50%, 94% 100%, 0 100%);
+    border-left: 3px solid var(--color-electric);
+    padding-left: 38px;
+  }
+}
