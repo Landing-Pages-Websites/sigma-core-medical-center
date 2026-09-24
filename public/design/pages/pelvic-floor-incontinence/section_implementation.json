@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "Exact person in garden visual for 01-hero, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-private-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+      "content_source": "section_manifest.json#02-private-orientation",
+      "asset_roles": [
+        "Exact clinic lounge visual for 02-private-orientation, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-concerns-and-goals",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+      "content_source": "section_manifest.json#03-concerns-and-goals",
+      "asset_roles": [
+        "Exact clinic reception visual for 03-concerns-and-goals, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-what-to-expect",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+      "content_source": "section_manifest.json#04-what-to-expect",
+      "asset_roles": [
+        "Exact real waiting room visual for 04-what-to-expect, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "Exact clinic lounge visual for 05-faq, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation",
+        "Exact clinic lounge visual for 06-booking-cta, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "2 of 2 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "Exact clinic lounge visual for 07-medical-sources, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}

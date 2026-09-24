@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { InteriorImage } from "../interior-image";
+
+export function RegenDecisions(): React.ReactElement {
+  return <section id="decision-factors" className="b2-section r-decisions"><div className="b2-wrap"><div className="r-decisions-head"><div><h2>Decision Factors</h2><p>Consider uncertainty, alternatives, evidence, and your individual priorities. Testimonials and mechanisms alone do not establish an appropriate treatment.</p></div><p>Questions, not guarantees.</p></div><div className="r-decisions-stage"><InteriorImage slug="regenerative-medicine" file="04-decision-factors-01-clinic-left.png" alt="Left interior detail from the approved decision frame" /><div className="r-decisions-panels"><article><h3>Personal goals</h3><p>What matters most to you?</p></article><article><h3>Informed questions</h3><p>What is known, and what remains uncertain?</p></article><article><h3>Individual discussion</h3><p>Which alternatives are relevant to your situation?</p></article></div><InteriorImage slug="regenerative-medicine" file="04-decision-factors-02-clinic-right.png" alt="Right interior detail from the approved decision frame" /></div><div className="r-decisions-links"><Link href="/services">Understand our services →</Link><Link href="/services/pain-relief">Explore pain relief →</Link></div></div></section>;
+}

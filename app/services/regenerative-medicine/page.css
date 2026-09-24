@@ -1,0 +1,44 @@
+@import "../batch-two.css";
+.r-hero-grid { display: grid; grid-template-columns: 51% 49%; align-items: center; gap: 10px; min-height: 670px; }
+.r-hero h1 { max-width: 13ch !important; }.r-hero p { margin-top: 18px; }
+.r-hero-art { height: 570px; position: relative; }.r-hero-art .interior-photo { height: 80%; clip-path: polygon(27% 0,100% 0,100% 100%,0 100%); }
+.r-hero-art > p { position: absolute; right: 0; bottom: 0; width: 70%; min-height: 135px; display: grid; align-content: center; padding: 24px 35px; background: var(--color-action); font-size: 1.3rem; font-weight: 600; text-align: center; clip-path: polygon(15% 0,100% 0,100% 100%,0 100%); }
+.r-orientation-grid { display: grid; grid-template-columns: 60% 40%; align-items: end; min-height: 570px; }
+.r-orientation h2 { max-width: 11ch; margin-bottom: 25px; }.r-orientation-paper { padding: 30px 9% 30px 30px; background: var(--color-surface); color: var(--color-ink); border-left: 5px solid var(--color-action); clip-path: polygon(0 0,100% 0,93% 100%,0 100%); }
+.r-orientation-paper strong { font-size: 1.25rem; color: var(--color-action); }.r-orientation-paper p { margin-top: 16px; max-width: 47ch; }
+.r-orientation .b2-text-link { margin-top: 25px; color: #fff; border: 1px solid #fff; padding: 12px 16px; }
+.r-orientation aside { min-height: 500px; padding: 80px 14% 65px; background: var(--color-charcoal); clip-path: polygon(20% 0,100% 0,100% 100%,0 100%,20% 65%); }
+.r-orientation aside p { margin-top: 20px; }
+.r-questions h2 { margin-bottom: 14px; }.r-questions-lead { max-width: 69ch; }
+.r-question-cards { display: grid; grid-template-columns: repeat(5,1fr); margin-top: 34px; gap: 7px; }
+.r-question-cards article { min-height: 325px; padding: 30px 17px; background: #e9e6e0; border-left: 6px solid var(--color-ink); clip-path: polygon(0 0,80% 0,100% 8%,100% 95%,0 100%); }
+.r-question-cards h3 { font-size: clamp(1.2rem,1.7vw,1.7rem); margin: 20px 0; }.r-question-cards p { font-size: .97rem; }
+.r-questions-base { display: grid; grid-template-columns: 64% 36%; height: 155px; }.r-questions-base .interior-photo img { object-fit: contain; background: #edeae3; }
+.r-questions-base > div:last-child { display: flex; align-items: center; justify-content: space-evenly; gap: 8px; background: var(--color-action); padding: 12px; }
+.r-questions-base a { color: #fff; font-weight: 600; }
+.r-decisions-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 36px; }
+.r-decisions-head > div p { max-width: 63ch; margin-top: 16px; }.r-decisions-head > p { border-left: 4px solid var(--color-action); padding-left: 22px; font-size: 1.2rem; }
+.r-decisions-stage { display: grid; grid-template-columns: 18% 64% 18%; min-height: 320px; }
+.r-decisions-stage .interior-photo { min-height: 320px; }.r-decisions-panels { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; background: #262c31; padding: 36px 22px; }
+.r-decisions-panels article { padding: 24px 16px; background: #152435; border-top: 4px solid var(--color-electric); }
+.r-decisions-panels h3 { font-size: 1.3rem; }.r-decisions-panels p { margin-top: 18px; font-size: .96rem; }
+.r-decisions-links { display: flex; gap: 20px; padding: 20px 0 0; }.r-decisions-links a { border: 1px solid var(--color-focus); padding: 14px 20px; }
+.r-faq-grid { display: grid; grid-template-columns: 64% 36%; align-items: center; gap: 22px; }.r-faq-grid > div:first-child > p { margin: 12px 0 22px; max-width: 55ch; }
+.r-faq-grid .interior-photo { height: 480px; clip-path: polygon(27% 0,100% 0,100% 100%,0 100%); }
+.r-book { padding: 44px 0; }.r-book-main { display: grid; grid-template-columns: 50% 50%; align-items: center; background: var(--color-ink); padding: 30px; }
+.r-book h2 { margin-bottom: 22px; }.r-book-card { background: var(--color-action); padding: 24px; max-width: 550px; }.r-book-card p { margin-top: 18px; }
+.r-book-main .interior-photo { height: 350px; clip-path: polygon(20% 0,100% 0,100% 100%,15% 100%,0 33%); }
+.r-book-rail { background: var(--color-ink); display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; padding: 0 30px 30px; }
+.r-book-rail span { border: 1px solid var(--color-silver); padding: 20px; font-weight: 600; }
+.r-sources-head { display: grid; grid-template-columns: 48% 52%; align-items: center; }.r-sources-head p { margin: 16px 30px 0 0; }.r-sources-head .interior-photo { height: 245px; clip-path: polygon(20% 0,100% 0,100% 100%,0 100%); }
+.r-sources-rail { display: grid; grid-template-columns: repeat(3,1fr); background: #edeae3; margin-top: 18px; }.r-sources-rail > div { border-left: 3px solid var(--color-action); padding: 20px; }.r-sources-rail p { font-size: .95rem; margin-top: 8px; }
+@media (max-width: 800px) {
+  .r-hero-grid,.r-orientation-grid,.r-faq-grid,.r-book-main,.r-sources-head { grid-template-columns: 1fr; min-height: 0; }
+  .r-hero h1 { max-width: 18ch !important; }.r-hero-art { height: 330px; margin-top: 30px; }.r-hero-art > p { font-size: 1rem; min-height: 75px; padding: 14px; }
+  .r-orientation-paper { padding: 22px; }.r-orientation aside { min-height: 0; clip-path: none; padding: 28px; margin-top: 24px; }
+  .r-question-cards { grid-template-columns: 1fr 1fr; }.r-question-cards article { min-height: 220px; padding: 20px 14px; }.r-question-cards article:last-child { grid-column: 1 / -1; min-height: 125px; }
+  .r-questions-base { grid-template-columns: 1fr; height: auto; }.r-questions-base .interior-photo { height: 100px; }
+  .r-decisions-head { display: block; }.r-decisions-head > p { margin-top: 20px; }.r-decisions-stage { grid-template-columns: 1fr 1fr; }.r-decisions-stage > .interior-photo { min-height: 160px; height: 160px; }
+  .r-decisions-panels { grid-column: 1 / -1; grid-row: 2; grid-template-columns: 1fr; }.r-decisions-links { flex-direction: column; }.r-faq-grid .interior-photo { height: 220px; margin-top: 22px; }
+  .r-book-main { padding: 22px; }.r-book-main .interior-photo { height: 225px; margin-top: 22px; }.r-book-rail,.r-sources-rail { grid-template-columns: 1fr; }.r-book-rail { padding: 0 22px 22px; }.r-sources-head .interior-photo { height: 180px; margin-top: 20px; }
+}

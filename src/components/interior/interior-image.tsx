@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type InteriorImageProps = {
-  slug: "services" | "neuropathy" | "pain-relief";
+  slug: "services" | "neuropathy" | "pain-relief" | "hormone-optimization" | "pelvic-floor-incontinence" | "regenerative-medicine";
   file: string;
   alt: string;
   className?: string;

@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "Exact man writing visual for 01-hero, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "02-visitor-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/orientation.tsx",
+      "content_source": "section_manifest.json#02-visitor-orientation",
+      "asset_roles": [
+        "Exact clinic reception visual for 02-visitor-orientation, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "03-goals-and-decision-factors",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/goals.tsx",
+      "content_source": "section_manifest.json#03-goals-and-decision-factors",
+      "asset_roles": [
+        "Exact clinic interior strip visual for 03-goals-and-decision-factors, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "04-responsible-next-step",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/next-step.tsx",
+      "content_source": "section_manifest.json#04-responsible-next-step",
+      "asset_roles": [
+        "Exact visitor in clinic visual for 04-responsible-next-step, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "Exact clinic lounge visual for 05-faq, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/hormone-optimization/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "Exact clinic reception visual for 07-medical-sources, not a staff or outcome representation"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+        },
+        "visual_treatment": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+        },
+        "responsive": {
+          "status": "NEEDS_BROWSER_REVIEW",
+          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+        }
+      }
+    }
+  ]
+}

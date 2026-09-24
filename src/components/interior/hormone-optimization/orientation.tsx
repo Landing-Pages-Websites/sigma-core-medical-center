@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { InteriorImage } from "../interior-image";
+
+export function HormoneOrientation(): React.ReactElement {
+  return <section id="visitor-orientation" className="b2-section h-orientation"><div className="b2-wrap h-orientation-grid"><div><h2>Visitor Orientation</h2><div className="h-orientation-paper"><strong>Important to know</strong><p>Symptoms and goals can overlap with many factors that influence health and well-being.</p><p>An appropriate licensed clinician must consider your full personal context through an individualized assessment. This page offers general information, not a diagnosis or treatment recommendation.</p></div><div className="h-orientation-ribbon"><Link href="/services">Explore our care categories →</Link><span>Personal goals</span><span>Private context</span><span>Informed next steps</span></div></div><div className="h-orientation-aside"><div><h3>General information</h3><p>Content here helps you prepare questions; it does not establish treatment eligibility.</p><h3>Individual conversation</h3><p>Only a qualified clinical conversation can address your personal health context.</p></div><InteriorImage slug="hormone-optimization" file="02-visitor-orientation-01-clinic-reception.png" alt="Interior setting pictured in the approved orientation frame" /></div></div></section>;
+}
