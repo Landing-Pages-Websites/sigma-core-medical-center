@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Real reception desk anchors the right half while a large left Richmond identity statement fills the navy field. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "01-hero"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/purpose.tsx",
+      "content_source": "section_manifest.json#02-clinic-purpose",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Bright blue purpose and real waiting-room photo sit over a separate navy mission band and light principles rail. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "02-clinic-purpose"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/gallery.tsx",
+      "content_source": "section_manifest.json#03-facility-gallery",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Cream left gallery introduction faces supplied reception image; a separate panoramic waiting scene spans the bottom. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "03-facility-gallery"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/principles.tsx",
+      "content_source": "section_manifest.json#04-care-principles",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Charcoal left principle list faces two individually cropped facility details at right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "04-care-principles"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/team.tsx",
+      "content_source": "section_manifest.json#05-team-publication-gate",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Large publication-gate statement dominates left; clinic detail sits at right without team portraits. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "05-team-publication-gate"
+    },
+    {
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/batch-three/about/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "live, code-only integration status"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "The section retains Compact blue booking band places live booking copy at left and clinic detail at right. Copy and photograph remain separate DOM elements."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+        }
+      },
+      "frame": "06-booking-cta"
+    }
+  ]
+}

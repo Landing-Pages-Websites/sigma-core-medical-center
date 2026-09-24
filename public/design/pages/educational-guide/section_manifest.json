@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "page": {
+    "slug": "educational-guide",
+    "route": "/educational-guide",
+    "title": "Sigma Core Educational Guide",
+    "intent": "informational",
+    "audience": "a not-yet-ready visitor",
+    "primary_intent": "obtaining one verified educational resource, not ranking a thin lead gate",
+    "publication": {
+      "status": "gated-unpublished",
+      "gate": "Approved resource title/content/thumbnail/delivery/consent/GHL workflow required; remain noindex until then."
+    }
+  },
+  "brand": {
+    "name": "Sigma Core Medical Center",
+    "wordmark": "Sigma Core Medical Center",
+    "location": "Richmond, Virginia area",
+    "address": "725 Manakin Towne Lane, Manakin-Sabot, VA 23103 (reconfirm before launch)",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "opening_target": "September 8, 2026",
+    "tagline": "Human Performance and Longevity",
+    "brand_color_from_logo": "#0877BE",
+    "palette_guidance": "Preserve the supplied deep navy, silver, and electric-blue identity. Translate the dimensional logo into flat accessible web roles: deep navy #101E33, electric blue #0877BE, silver #C7CBD0, warm mineral #F7F6F3, charcoal #20272E, and restrained walnut #9A572B sampled from the real clinic. Metallic effects belong only to the supplied logo and fine structural keylines. No purple gradients, sterile hospital blue, or invented bright hues.",
+    "voice": "Direct-response, concise, premium, calm, and patient-centered. Benefit-led without hype, jargon, fear, or unsupported medical claims.",
+    "identity_belief": "A longer, more active life starts with a clear, personalized next step focused on movement, function, recovery, and independence.",
+    "visual_metaphor": "The core mark becomes a precise field of concentric arcs and one measured horizon line: an organizing system for progress, not a medical diagram.",
+    "taglines": [
+      "Human Performance and Longevity"
+    ],
+    "logo_asset": "../sources/drive/logo-3.png",
+    "facility_assets": [
+      "../sources/drive/reception-1.png",
+      "../sources/drive/reception-2.png",
+      "../sources/drive/waiting-room.png"
+    ],
+    "asset_note": "The supplied reception and waiting-room photographs are authoritative Sigma Core location imagery. Preserve the real built environment and logo. Never regenerate the facility, redesign the wordmark, or imply a generic person is a Sigma Core provider or patient."
+  },
+  "customer_asks": [
+    {
+      "ask": "Use the supplied Sigma Core logo as the identity anchor and preserve the navy, silver, and electric-blue brand palette",
+      "source": "build_context.designDos",
+      "honored_by": "brand, all sections, hard_rules"
+    },
+    {
+      "ask": "Build from the physical clinic materiality: deep navy fields, brushed-silver accents, precise circular/core geometry, and restrained warm wood tones from the reception space",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 03-care-constellation, 04-place-of-care, page_flow, hard_rules"
+    },
+    {
+      "ask": "Use supplied reception and waiting-room imagery as authentic trust and location assets",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 04-place-of-care"
+    },
+    {
+      "ask": "Give neuropathy the strongest visual and navigational hierarchy among services",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
+    },
+    {
+      "ask": "Favor large, readable typography, strong contrast, obvious actions, and calm spacing for an older audience",
+      "source": "build_context.designDos",
+      "honored_by": "all sections, typography_contract, hard_rules"
+    },
+    {
+      "ask": "Keep each page focused around one primary action, with the educational resource and booking paths clearly differentiated",
+      "source": "build_context.designDos",
+      "honored_by": "06-two-ways-forward, interaction_contracts, hard_rules"
+    },
+    {
+      "ask": "Create modular team and testimonial structures that can accept approved real content later without showing fake placeholders publicly",
+      "source": "build_context.designDos",
+      "honored_by": "hard_rules"
+    },
+    {
+      "ask": "Richmond, Virginia care designed around movement, function, independence, recovery, and quality of life.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 04-place-of-care"
+    },
+    {
+      "ask": "Neuropathy is the primary service and should receive the strongest hierarchy.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
+    },
+    {
+      "ask": "Concise, benefit-driven information helps visitors understand whether an option may fit without publishing treatment protocols.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "02-neuropathy-first, 03-care-constellation, 05-what-happens-next, hard_rules"
+    },
+    {
+      "ask": "Visitors can choose their next step: request an educational resource or book an appointment.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "06-two-ways-forward"
+    },
+    {
+      "ask": "Care is personalized; outcomes vary and no cure or reversal is promised.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "02-neuropathy-first, 04-place-of-care, 07-answers-and-location, 08-verified-close, hard_rules"
+    },
+    {
+      "ask": "Build direction will preserve the existing logo and silver/navy palette",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "brand, palette_contract, hard_rules"
+    },
+    {
+      "ask": "The website will include separate pages for the primary services rather than one undifferentiated services page",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "03-care-constellation interaction_contract"
+    },
+    {
+      "ask": "The lead-capture page will be prepared now so the customer's educational video can be added later",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "06-two-ways-forward"
+    },
+    {
+      "ask": "Appointment booking will be wired to GoHighLevel and lead submissions will route into GoHighLevel CRM",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "01-movement-forward, 06-two-ways-forward, 07-answers-and-location interaction_contracts"
+    },
+    {
+      "ask": "The About page will be easy to update as the Medical Director, Nurse Practitioner, and team are hired",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "hard_rules"
+    },
+    {
+      "ask": "No cure or reversal claims will appear, and testimonial content will carry a visible 'Results not typical' disclaimer",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "02-neuropathy-first, 07-answers-and-location, hard_rules"
+    },
+    {
+      "ask": "The build team will treat September 8, 2026 as the clinic opening date and the need for a rapid launch as urgent",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "04-place-of-care, hard_rules"
+    },
+    {
+      "ask": "I think we can do more visually (feel free to generate images inspired by the reference photos)",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location"
+    },
+    {
+      "ask": "let's not use these 01, 02, 03 type numbers or folio numbers--these are a classic AI design tell",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "05-what-happens-next, hard_rules"
+    },
+    {
+      "ask": "New Variation A is way too 3D and out there which doesn't make sense for a Medical Center; let's try a more photovisual style (and feel free to generate new images)",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location, hard_rules"
+    }
+  ],
+  "required_sections": [
+    {
+      "id": "01-resource-hero",
+      "name": "resource-hero",
+      "job": "Present a real approved educational asset and set a clear value exchange before requesting contact information.",
+      "content": {
+        "headline": "Get the Sigma Core educational guide",
+        "body_direction": "Do not publish until the customer supplies the actual video or guide, approved title, summary, thumbnail, and delivery promise. Once supplied, describe its contents accurately without cure or protocol claims.",
+        "supporting_points": [
+          "The customer plans to provide an educational video or resource later.",
+          "The page should be prepared now but must not imply that an unavailable resource is ready.",
+          "Submissions route to GoHighLevel CRM.",
+          "Do not collect symptom narratives, medical history, diagnoses, or other free-text health information in the general marketing form."
+        ]
+      },
+      "imagery": "No fake guide cover or thumbnail. Use an honest resource-pending composition with no control that implies immediate delivery.",
+      "internal_links": [],
+      "cta": ""
+    },
+    {
+      "id": "02-resource-summary",
+      "name": "resource-summary",
+      "job": "Explain exactly what the visitor will receive and what it does not replace.",
+      "content": {
+        "headline": "Resource Summary",
+        "body_direction": "Use verified key points from the actual resource. State that it is general education and not diagnosis or individualized medical advice. Do not invent a transcript or learning outcomes."
+      },
+      "imagery": "No fake guide cover or thumbnail. Use an honest resource-pending composition with no control that implies immediate delivery.",
+      "internal_links": [
+        "/terms"
+      ],
+      "cta": ""
+    },
+    {
+      "id": "03-lead-form",
+      "name": "lead-form",
+      "job": "Capture consented contact details and deliver the approved resource through GoHighLevel.",
+      "content": {
+        "headline": "Lead Form",
+        "body_direction": "Ask for name, email, and optional/preferred phone only as approved. Use explicit consent language, explain delivery/follow-up, and provide a privacy link. Never ask for symptoms, diagnosis, medical history, or free-text health details.",
+        "cta": "Get the Educational Guide"
+      },
+      "imagery": "No fake guide cover or thumbnail. Use an honest resource-pending composition with no control that implies immediate delivery.",
+      "internal_links": [
+        "/privacy"
+      ],
+      "cta": "Get the Educational Guide"
+    },
+    {
+      "id": "04-privacy-note",
+      "name": "privacy-note",
+      "job": "Clarify data use and keep the general marketing workflow separate from patient intake.",
+      "content": {
+        "headline": "Privacy Note",
+        "body_direction": "Link approved privacy and NPP content; state only verified data-use and contact expectations. Do not claim HIPAA compliance without confirming the GoHighLevel tier, BAA, workflow, hosting, and integrations."
+      },
+      "imagery": "No fake guide cover or thumbnail. Use an honest resource-pending composition with no control that implies immediate delivery.",
+      "internal_links": [
+        "/privacy",
+        "/notice-of-privacy-practices"
+      ],
+      "cta": ""
+    }
+  ],
+  "seo_contract": {
+    "primary_intent": "obtaining one verified educational resource, not ranking a thin lead gate",
+    "audience": "a not-yet-ready visitor",
+    "intent_questions": [
+      "what the resource contains",
+      "who it is for",
+      "how it is delivered",
+      "how contact data is used",
+      "its medical-information limits"
+    ],
+    "unique_information": [
+      "The customer plans to provide an educational video or resource later.",
+      "The page should be prepared now but must not imply that an unavailable resource is ready.",
+      "Submissions route to GoHighLevel CRM."
+    ],
+    "verified_sources": [
+      "build_context.json",
+      "content_inventory.json",
+      "page_blueprint.json"
+    ],
+    "customer_input_required": "asset, title, summary, thumbnail, transcript/key points if video, delivery workflow, form URL, consent language, follow-up cadence, and compliance approval",
+    "contextual_internal_links": [
+      "/notice-of-privacy-practices",
+      "/privacy",
+      "/terms"
+    ],
+    "content_owner": "Sigma Core Medical Center",
+    "review_requirement": "clinical plus privacy/legal review"
+  },
+  "page_flow": {
+    "viewport_contract": {
+      "design_frame": "1536x864 native 16:9 primary composition; strip frame 1536x512",
+      "target_viewports": [
+        "1440x900",
+        "1536x1024",
+        "390x844"
+      ],
+      "rule": "Primary focal subject, headline, primary CTA, and load-bearing relationships fit together in the design frame. Supporting closure may extend outside the browser fold, but the primary content group may not be split or cropped to manufacture height."
+    },
+    "section_weights": {
+      "01-resource-hero": "loud",
+      "02-resource-summary": "quiet",
+      "03-lead-form": "quiet",
+      "04-privacy-note": "quiet"
+    },
+    "background_progression": [
+      {
+        "sections": [
+          "01-resource-hero"
+        ],
+        "band": "#101E33"
+      },
+      {
+        "sections": [
+          "02-resource-summary"
+        ],
+        "band": "#0877BE"
+      },
+      {
+        "sections": [
+          "03-lead-form"
+        ],
+        "band": "#F7F6F3"
+      },
+      {
+        "sections": [
+          "04-privacy-note"
+        ],
+        "band": "#20272E"
+      }
+    ],
+    "motif_continuity": [
+      "Squared brackets and stepped signal bars align selected entrances and terminate cleanly before the next section.",
+      "Angular apertures recur with varied scale; they do not become numbers, folios, anatomy, or medical data.",
+      "The page remains a quieter extension of The Forward Standard, with no more than two loud sections."
+    ],
+    "rhythm_rules": [
+      "Use a route-specific hero and at least three distinct composition anchors.",
+      "Do not reuse one generic service-page silhouette across sibling routes.",
+      "Preserve one broad quiet zone and one concise decision-oriented section.",
+      "No navigation or global footer inside the frames."
+    ]
+  },
+  "hard_rules": [
+    "Use the supplied Sigma Core logo and wordmark as-is. Never redesign, recolor, re-letter, regenerate, restyle, or reinterpret it; design references use plain type or a neutral reserved logo area.",
+    "Richmond, Virginia is the only market. Exclude Fort Lauderdale and every Florida reference.",
+    "Never claim Sigma Core cures or reverses any disease or condition, guarantees outcomes, restores youth, eliminates pain, avoids surgery, or provides a named treatment that has not been verified.",
+    "Keep service information concise, benefit-led, non-diagnostic, and at category level. Do not publish treatment protocols, mechanisms, prices, candidacy, timelines, medications, tests, devices, or unverified modalities.",
+    "Do not identify Dr. Jason Hurst as a treating provider or show him in a public clinical team structure.",
+    "Do not invent Medical Director or Nurse Practitioner names, photos, biographies, credentials, testimonials, ratings, awards, certifications, badges, statistics, patient outcomes, insurance details, appointment duration, availability, phone, email, or hours.",
+    "Do not render empty provider cards, fake team portraits, fake testimonial cards, star ratings, before-and-after imagery, or unsupported trust signals. Team and testimonial components may be modular in code but remain absent publicly until approved real content exists. Any future testimonial must visibly state 'Results not typical'.",
+    "Stock or AI-generated clinicians must never be shown as Sigma Core staff. Generic people must never be labeled as patients, providers, named individuals, or result examples.",
+    "Use supplied reception and waiting-room photos as the only authoritative facility imagery. Preserve their actual architecture, logo, and materiality; never fabricate a different Sigma Core clinic. Generated editorial lifestyle photography may show anonymous, fully clothed adults walking, stretching, gardening, or living actively in clearly non-clinical settings, but never as Sigma Core patients, staff, testimonials, before-and-after subjects, or evidence of results.",
+    "Direction A must be photovisual and medically credible. No 3D-rendered environments, abstract caves, portals, sculptural rooms, metallic ribbons, liquid chrome, glowing energy streams, fantasy architecture, product-render slabs, material mazes, or text embedded on rendered objects. Use photographic image fields, clean flat editorial layouts, restrained crop masks, and simple code-native lines or blocks.",
+    "General marketing forms collect no free-text medical history, symptoms, diagnosis, or other PHI. Any PHI workflow requires an appropriate HIPAA agreement and safeguards.",
+    "Do not load standard advertising or analytics trackers on authenticated or condition-specific patient flows without compliance review.",
+    "The educational guide must not appear available until the customer supplies the approved resource title, media, delivery method, consent language, and GoHighLevel details.",
+    "The address 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and the September 8, 2026 opening date must be reconfirmed before launch and any time-sensitive opening treatment removed once stale.",
+    "No generic hospital-blue template, sterile all-white system, purple-to-blue SaaS gradient, glassmorphism, decorative medical dashboard, DNA helix, molecule, lotus, glowing nerve, anatomical fear image, autoplay video, intrusive popup, fake scarcity, or tiny low-contrast silver copy.",
+    "Do not use visible 01/02/03 sequence numbers, chapter numbers, folio numbers, oversized ghost numerals, or numbered editorial markers. Communicate sequence with language, spatial progression, material transitions, or unnumbered wayfinding.",
+    "Primary body copy is at least 18px in the coded site, controls are at least 48px, contrast is WCAG AA or better, and reduced-motion preferences are honored.",
+    "Every visually control-shaped element has the useful outcome defined in its section interaction_contract. State labels, steps, and principles are static content, not inert controls.",
+    "Direction A and Direction B are two complete creative territories. Direction B is generated in a fresh session from its own fingerprint and must not be a recolor or reference-edit of A.",
+    "Frames cover content sections only. Global navigation and footer belong to the built design system and must never be rendered into interior-page frames.",
+    "Extend the customer-selected Direction B, The Forward Standard: kinetic Source Sans 3 performance typography, selective Playfair Display counterpoint, electric-blue/mineral fields, deep-navy anchors, angular apertures, stepped modules, asymmetric route panels, panoramic authentic-clinic bands, dramatic scale shifts, and stepped signal bars or squared brackets. Do not fall back to Direction A's calm magazine layouts.",
+    "No visible decorative numbers, chapter numbers, folio markers, index numerals, or ghost numerals. Factual dates and address numbers are allowed.",
+    "No 3D/sculptural Material Current imagery, portals, metallic ribbons, liquid chrome, fantasy architecture, product-render slabs, glowing energy streams, or abstract caves."
+  ]
+}

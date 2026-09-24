@@ -50,22 +50,13 @@ export function SiteFooterB(): React.ReactElement {
             <p className="text-xl font-semibold text-white">{FOOTER.tagline}</p>
             <p className="mt-1 text-base text-silver">{FOOTER.location}</p>
           </div>
-          <PendingAction
-            label={
-              <>
-                {FOOTER.cta} <ArrowRight size={18} aria-hidden />
-              </>
-            }
-            title={PENDING.booking.title}
-            message={PENDING.booking.message}
-            className={primaryButtonB}
-          />
+          <Link href="/book" className={primaryButtonB}>Check booking status <ArrowRight size={18} aria-hidden /></Link>
         </div>
         <nav aria-label="Utility" className="mt-10 border-t border-white/10 pt-4">
           <ul className="flex flex-wrap items-center justify-center gap-x-7 gap-y-1">
             {FOOTER.nav.map((item) => (
               <li key={item}>
-                {item === "Services" ? <Link href="/services" className={footerLinkB}>Services</Link> : (
+                {item === "Services" || item === "About" || item === "Contact" ? <Link href={item === "Services" ? "/services" : `/${item.toLowerCase()}`} className={footerLinkB}>{item}</Link> : (
                   <PendingAction label={item} title={PENDING.page.title} message={PENDING.page.message} className={footerLinkB} />
                 )}
               </li>
