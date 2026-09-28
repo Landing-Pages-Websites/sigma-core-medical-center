@@ -166,3 +166,77 @@
     padding-left: 38px;
   }
 }
+
+.service-neuro-other { width: 52%; padding: 24px 3% 24px 0; }
+.service-neuro-other > span { display: block; margin-bottom: 16px; color: var(--color-action); font-weight: 600; }
+.service-neuro-other > div { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.service-neuro-other a { display: flex; flex-direction: column; justify-content: space-between; min-height: 120px; padding: 16px 10px; background: var(--color-action); color: #fff; font-weight: 600; font-size: .9rem; line-height: 1.2; clip-path: polygon(16% 0,100% 0,86% 100%,0 100%); transition: background-color 200ms; }
+.service-neuro-other a:nth-child(even) { background: var(--color-ink); }
+.service-neuro-other a span { align-self: flex-end; font-size: 1.4rem; }
+.service-neuro-other a:hover { background: var(--color-hover); }
+.service-neuro-other a:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; clip-path: none; }
+.service-neuro-reception { width: 48%; min-height: 215px; }
+.service-neuro-panel { min-height: 245px; }
+.service-neuro-panel h3 { font-size: clamp(3rem, 5vw, 5rem); }
+.pain-hero-branches { border-left: 0; margin-left: 0; }
+.pain-hero-branches::before { top: 50%; right: auto; left: -10%; width: 45%; transform: rotate(-42deg); transform-origin: right center; }
+.pain-hero-branches::after { content: ""; position: absolute; top: 50%; left: -10%; width: 45%; height: 3px; background: var(--color-electric); transform: rotate(42deg); transform-origin: right center; }
+.pain-hero-branches > div { position: relative; z-index: 1; }
+.pain-hero-branches span { position: relative; margin-left: 30%; width: fit-content; border: 2px solid var(--color-electric); border-left: 0; padding: 9px 16px; font-size: 1.1rem; }
+.pain-hero-branches span::before { content: ""; position: absolute; top: 50%; right: 100%; width: 40%; height: 3px; background: var(--color-electric); }
+.pain-navigation-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pain-nav-card .interior-photo { height: 290px; }
+.pain-nav-card > div:last-child { min-height: 125px; }
+.pain-knee-prompts div { clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); border-left-color: var(--color-action); }
+.pain-knee-prompts div:nth-child(2) { background: var(--color-charcoal); color: #fff; transform: translateY(22px); }
+.pain-knee-prompts div:nth-child(3) { transform: translateY(44px); }
+@media (min-width: 901px) {
+  .service-hero-grid { grid-template-columns: 61% 39%; min-height: 550px; }
+  .service-hero-copy h1 { max-width: 17ch; font-size: clamp(4.5rem, 5.5vw, 5.8rem); }
+  .service-hero-copy p { max-width: 32ch; }
+  .service-hero-focus { min-height: 550px; }
+  .service-hero-feature { left: -76%; width: 164%; min-height: 230px; padding: 24px 15% 25px 6%; }
+  .service-hero-feature strong { font-size: clamp(3.4rem, 5vw, 5rem); }
+  .service-neuro-top h2 { font-size: clamp(4rem, 5.8vw, 6rem); }
+  .service-neuro-walk { width: 28%; min-height: 290px; }
+  .service-navigation-main h2 { font-size: clamp(4rem, 5.6vw, 6rem); }
+  .service-pain { min-height: 425px; }
+  .service-service-list article { min-height: 160px; }
+  .neuro-hero-grid { grid-template-columns: 57% 43%; }
+  .neuro-hero h1 { max-width: 16ch; font-size: clamp(3.8rem, 5vw, 5.5rem); }
+  .neuro-hero-walk { height: 500px; }
+  .neuro-hero-steps > span { min-height: 110px; }
+  .neuro-goals-items > div { min-height: 135px; font-size: 1.55rem; }
+  .neuro-faq-top h2 { font-size: clamp(4.2rem, 6vw, 6.5rem); }
+}
+@media (max-width: 900px) {
+  .service-neuro-other { width: 100%; padding: 22px 16px; }
+  .service-neuro-other > div { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .service-neuro-reception { width: 100%; }
+  .pain-hero-branches { height: auto; }
+  .pain-hero-branches::before, .pain-hero-branches::after, .pain-hero-branches span::before { display: none; }
+  .pain-hero-branches > div { flex-direction: row; gap: 8px; }
+  .pain-hero-branches span { margin: 0; padding: 10px 12px; font-size: .85rem; }
+  .pain-knee-prompts div:nth-child(2), .pain-knee-prompts div:nth-child(3) { transform: none; }
+}
+@media (max-width: 600px) {
+  .service-hero-copy { padding-bottom: 12px; }
+  .service-hero-focus { display: flex; flex-direction: column; min-height: 0; }
+  .service-hero-feature { position: relative; width: 100%; min-height: 150px; padding: 22px 48px 22px 20px; }
+  .service-hero-image { position: relative; height: 230px; margin-top: -20px; clip-path: polygon(16% 0,100% 0,100% 100%,0 100%); }
+  .service-neuro-other a { min-height: 98px; }
+  .service-neuro-panel { min-height: 0; }
+  .service-navigation-main h2 { font-size: clamp(3rem, 12vw, 4.4rem); }
+  .neuro-hero .interior-wrap { display: grid; }
+  .neuro-hero-grid, .neuro-hero-steps { display: contents; }
+  .neuro-hero-grid > div { order: 1; }
+  .neuro-hero-steps > div { order: 2; margin: 20px 0 0; }
+  .neuro-hero-walk { order: 3; margin-top: 0; }
+  .neuro-hero-steps > span { order: 4; }
+  .pain-navigation-head { padding-bottom: 100px; }
+  .pain-nav-card { display: flex; flex-direction: column; }
+  .pain-nav-card .interior-photo { height: 185px; }
+  .pain-nav-card > div:last-child { min-height: 0; }
+  .pain-knee-prompts div { min-height: 100px; }
+}
+@media (prefers-reduced-motion: reduce) { .service-neuro-other a { transition: none; } }
