@@ -65,3 +65,6 @@
   .b3-gallery-panorama { min-height: 190px; }
   .b3-facility-wide { min-height: 300px; }
 }
+
+.b3-guide-hero .b3-guide-rail { padding-bottom: 24px; }
+.b3-contact-facility .b3-facility-label { margin-bottom: 36px; }
