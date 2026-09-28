@@ -233,10 +233,13 @@
   .neuro-hero-steps > div { order: 2; margin: 20px 0 0; }
   .neuro-hero-walk { order: 3; margin-top: 0; }
   .neuro-hero-steps > span { order: 4; }
-  .pain-navigation-head { padding-bottom: 100px; }
+  .pain-navigation-head { padding-bottom: 110px; }
+  .pain-navigation-cards { grid-template-columns: 1fr; gap: 14px; margin-top: -82px; }
   .pain-nav-card { display: flex; flex-direction: column; }
-  .pain-nav-card .interior-photo { height: 185px; }
-  .pain-nav-card > div:last-child { min-height: 0; }
+  .pain-nav-card .interior-photo { height: 235px; min-height: 235px; }
+  .pain-nav-card > div:last-child { min-height: 108px; padding: 16px 20px 22px; }
+  .pain-nav-card strong { font-size: 1.45rem; }
+  .pain-nav-card span { font-size: 1rem; max-width: 30ch; }
   .pain-knee-prompts div { min-height: 100px; }
 }
 @media (prefers-reduced-motion: reduce) { .service-neuro-other a { transition: none; } }
