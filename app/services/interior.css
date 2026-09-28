@@ -224,7 +224,7 @@
   .service-hero-focus { display: flex; flex-direction: column; min-height: 0; }
   .service-hero-feature { position: relative; width: 100%; min-height: 150px; padding: 22px 48px 22px 20px; }
   .service-hero-image { position: relative; height: 230px; margin-top: -20px; clip-path: polygon(16% 0,100% 0,100% 100%,0 100%); }
-  .service-neuro-other a { min-height: 98px; }
+  .service-neuro-other a { min-height: 98px; padding-inline: 22px 18px; clip-path: polygon(0 0,100% 0,90% 100%,0 100%); }
   .service-neuro-panel { min-height: 0; }
   .service-navigation-main h2 { font-size: clamp(3rem, 12vw, 4.4rem); }
   .neuro-hero .interior-wrap { display: grid; }
