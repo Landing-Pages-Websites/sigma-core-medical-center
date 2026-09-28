@@ -88,6 +88,9 @@
 @media(max-width:760px){.interior-header-inner{flex-wrap:wrap;padding-block:10px;}.interior-nav{flex-wrap:wrap;gap:0 16px;font-size:.9rem;}.interior-nav a{min-height:36px;}}
 
 @media (min-width: 901px) {
+  /* Keep live closing copy one local spacing unit clear of the next section. */
+  .neuro-faq { padding-bottom: 56px; }
+  .pain-back-note { padding-bottom: 74px; }
   .service-hero { padding-top: 48px; }
   .service-hero-grid { grid-template-columns: 56% 44%; min-height: 440px; }
   .service-hero-copy h1 { font-size: clamp(3.7rem, 4.6vw, 4.35rem); max-width: 17ch; }
