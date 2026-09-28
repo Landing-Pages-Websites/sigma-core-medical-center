@@ -73,3 +73,22 @@
   .h-faq-layout .interior-photo { height: 175px; }.h-faq-layout dl { margin-top: 24px; }.h-book-inner { padding: 26px; }.h-book-top .interior-photo { height: 230px; }.h-book-steps { grid-template-columns: 1fr; }
   .h-sources-grid .interior-photo { height: 180px; min-height: 0; }.h-sources-grid > div:nth-child(2) { padding: 25px 0; }
 }
+
+@media (min-width: 801px) {
+  .h-hero-grid { grid-template-columns: 55% 45%; min-height: 620px; }
+  .h-hero h1 { max-width: 17ch !important; font-size: clamp(3.6rem, 4.6vw, 5.1rem); }
+  .h-hero-points { width: 110%; position: relative; z-index: 2; }
+  .h-hero-points span { min-height: 96px; padding: 24px 16px; background: var(--color-ink); clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%); }
+  .h-hero-photo { height: 570px !important; }
+}
+@media (max-width: 800px) {
+  .h-hero-grid { display: grid; }
+  .h-hero-copy { display: contents; }
+  .h-hero-copy h1 { order: 1; }
+  .h-hero-copy > p:first-of-type { order: 2; }
+  .h-hero-copy > .b2-button, .h-hero-copy > div:not(.h-hero-points) { order: 3; }
+  .h-hero-photo { order: 4; margin-top: 24px; }
+  .h-hero-points { order: 5; }
+  .h-hero-note { order: 6; }
+  .h-hero-points span { min-height: 96px; padding: 18px 12px; }
+}

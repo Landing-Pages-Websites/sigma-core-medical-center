@@ -44,3 +44,17 @@
   .r-decisions-panels { grid-column: 1 / -1; grid-row: 2; grid-template-columns: 1fr; }.r-decisions-links { flex-direction: column; }.r-faq-grid .interior-photo { height: 220px; margin-top: 22px; }
   .r-book-main { padding: 22px; }.r-book-main .interior-photo { height: 225px; margin-top: 22px; }.r-book-rail,.r-sources-rail { grid-template-columns: 1fr; }.r-book-rail { padding: 0 22px 22px; }.r-sources-head .interior-photo { height: 180px; margin-top: 20px; }
 }
+
+.r-question-cards article { position: relative; border-left-width: 4px; }
+.r-question-cards svg { display: block; margin-bottom: 18px; color: var(--color-action); }
+.r-question-cards h3 { margin-top: 0; }
+@media (min-width: 801px) {
+  .r-question-cards article { min-height: 390px; padding: 32px 22px; }
+  .r-question-cards h3 { min-height: 65px; }
+  .r-questions-base { height: 210px; }
+  .r-questions-base .interior-photo img { object-fit: cover; }
+}
+@media (max-width: 800px) {
+  .r-question-cards article { min-height: 255px; }
+  .r-question-cards article:last-child { min-height: 160px; }
+}

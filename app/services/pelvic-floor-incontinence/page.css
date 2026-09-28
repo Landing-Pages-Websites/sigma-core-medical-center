@@ -46,3 +46,16 @@
   .p-expect .interior-photo { height: 320px; margin-top: 28px; }.p-faq-grid .interior-photo { height: 170px; }.p-faq dl { margin-top: 26px; }
   .p-book-panel { padding: 24px; }.p-book-images { height: 340px; margin-top: 18px; }.p-sources-grid .interior-photo { height: 200px; }
 }
+
+@media (min-width: 801px) {
+  .p-orientation-grid { grid-template-columns: 21% 58% 21%; min-height: 550px; }
+  .p-orientation-grid > aside { min-height: 480px; padding: 36px; font-size: 1.3rem; clip-path: polygon(0 0, 76% 0, 100% 8%, 100% 92%, 76% 100%, 0 100%); }
+  .p-orientation-grid > aside:last-child { clip-path: polygon(24% 0, 100% 0, 100% 100%, 24% 100%, 0 92%, 0 8%); }
+  .p-orientation-center { padding-inline: 42px; }
+  .p-orientation-center h2 { font-size: clamp(4rem, 5.3vw, 5.5rem); }
+  .p-orientation-center .interior-photo { height: 225px; }
+}
+@media (max-width: 800px) {
+  .p-orientation-grid > aside { min-height: 105px; font-size: 1.13rem; }
+  .p-orientation-center .interior-photo { height: 215px; }
+}
