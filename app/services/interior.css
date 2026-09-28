@@ -170,7 +170,7 @@
 .service-neuro-other { width: 52%; padding: 24px 3% 24px 0; }
 .service-neuro-other > span { display: block; margin-bottom: 16px; color: var(--color-action); font-weight: 600; }
 .service-neuro-other > div { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
-.service-neuro-other a { display: flex; flex-direction: column; justify-content: space-between; min-height: 120px; padding: 16px 10px; background: var(--color-action); color: #fff; font-weight: 600; font-size: .9rem; line-height: 1.2; clip-path: polygon(16% 0,100% 0,86% 100%,0 100%); transition: background-color 200ms; }
+.service-neuro-other a { display: flex; flex-direction: column; justify-content: space-between; min-height: 120px; padding: 16px 18px; background: var(--color-action); color: #fff; font-weight: 600; font-size: .9rem; line-height: 1.2; clip-path: polygon(0 0,100% 0,90% 100%,0 100%); transition: background-color 200ms; }
 .service-neuro-other a:nth-child(even) { background: var(--color-ink); }
 .service-neuro-other a span { align-self: flex-end; font-size: 1.4rem; }
 .service-neuro-other a:hover { background: var(--color-hover); }
