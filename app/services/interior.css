@@ -240,6 +240,6 @@
   .pain-nav-card > div:last-child { min-height: 108px; padding: 16px 20px 22px; }
   .pain-nav-card strong { font-size: 1.45rem; }
   .pain-nav-card span { font-size: 1rem; max-width: 30ch; }
-  .pain-knee-prompts div { min-height: 100px; }
+  .pain-knee-prompts div { min-height: 100px; padding-inline: 22px; clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%); }
 }
 @media (prefers-reduced-motion: reduce) { .service-neuro-other a { transition: none; } }
