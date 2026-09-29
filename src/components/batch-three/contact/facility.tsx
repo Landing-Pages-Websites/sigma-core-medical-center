@@ -6,10 +6,7 @@ export function ContactFacility(): React.ReactElement {
     <section id="facility-image" className="b3-section b3-paper b3-contact-facility">
       <div className="b3-shell">
         <div className="b3-facility-intro">
-          <div>
-            <h2>Before you visit</h2>
-            <p>Sigma Core serves the Richmond, Virginia area. We are confirming the practical details before sharing them as visit guidance.</p>
-          </div>
+          <h2>Before you visit</h2>
           <span className="b3-facility-steps" aria-hidden="true" />
         </div>
         <div className="b3-facility-stage">

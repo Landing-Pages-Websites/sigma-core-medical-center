@@ -21,7 +21,7 @@ export function ContactFacilityStatus(): React.ReactElement {
         </div>
         <div>
           <dt>Appointment calendar</dt>
-          <dd>Not available yet. <Link href="/book">See booking status <ArrowUpRight size={16} aria-hidden="true" /></Link></dd>
+          <dd>Not available yet. <Link href="/book" className="b3-facility-book-link">See booking status <ArrowUpRight size={16} aria-hidden="true" /></Link></dd>
         </div>
       </dl>
       <Link href="/about" className="b3-facility-about">About Sigma Core <ArrowRight size={19} aria-hidden="true" /></Link>

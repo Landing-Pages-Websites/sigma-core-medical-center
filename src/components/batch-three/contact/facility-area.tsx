@@ -6,9 +6,9 @@ export function ContactFacilityArea(): React.ReactElement {
     <div className="b3-facility-area" id="facility-context">
       <span className="b3-facility-area-label">Confirmed service area</span>
       <strong>Richmond,<br />Virginia area</strong>
-      <p>The exact location and entrance are not confirmed for public directions.</p>
       <Link href="/#place-of-care" className="b3-facility-view-link">
-        See the client-supplied waiting-room view <ArrowUpRight size={18} aria-hidden="true" />
+        <span>See client-supplied clinic photo on Home</span>
+        <ArrowUpRight size={18} aria-hidden="true" />
       </Link>
       <span className="b3-facility-area-rule" aria-hidden="true" />
     </div>
