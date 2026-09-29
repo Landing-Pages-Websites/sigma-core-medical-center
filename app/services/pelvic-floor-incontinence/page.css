@@ -51,6 +51,7 @@
   .p-goals-art { height: 330px; margin-top: 22px; }.p-goals-art > div:last-child { padding: 20px 8% 20px 22%; max-width: 80%; }
   .p-expect-grid { gap:28px; }.p-expect-privacy { min-height:300px; }.p-faq-grid .interior-photo { height: 170px; }.p-faq dl { margin-top: 26px; }
   .p-expect-bars { top:38px; left:24px; }
+  .p-expect-privacy::before { display:none; }
   .p-book-panel { padding: 24px; }.p-book-images { height: 340px; margin-top: 18px; }.p-sources-grid .interior-photo { height: 200px; }
 }
 
