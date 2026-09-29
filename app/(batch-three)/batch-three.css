@@ -45,8 +45,8 @@
 .b3-guide-privacy { padding:80px 0; }.b3-guide-privacy .b3-photo { min-height:380px; }
 .b3-book-hero { padding:80px 0 50px; }.b3-book-hero .b3-split { align-items:stretch; }.b3-book-steps { padding:0; margin:32px 0; list-style:none; counter-reset:book; }.b3-book-steps li { counter-increment:book; padding:15px 20px; margin-top:8px; max-width:380px; background:#f7f6f3; color:#101e33; font-weight:600; }.b3-book-steps li:nth-child(2) { background:#20272e; color:#fff; margin-left:30px; }.b3-book-steps li::before { content:counter(book,decimal-leading-zero); color:#0877be; margin-right:14px; }.b3-book-hero-media { min-height:190px; max-width:500px; }.b3-calendar-aperture { min-height:560px; display:flex; flex-direction:column; gap:18px; align-items:center; justify-content:center; text-align:center; padding:38px; border:1px solid #c7cbd0; clip-path:polygon(12% 0,100% 0,100% 86%,88% 100%,0 100%,0 14%); }.b3-calendar-aperture strong { font-size:1.5rem; text-transform:uppercase; letter-spacing:.12em; }.b3-calendar-aperture span { font-size:1.05rem; }
 .b3-book-calendar { padding:90px 0; }.b3-book-calendar .b3-split { margin-top:32px; }.b3-calendar-copy { align-self:start; }.b3-calendar-right { position:relative; }.b3-calendar-reserved { position:relative; z-index:1; display:grid; justify-items:center; text-align:center; align-content:center; min-height:350px; padding:50px; background:#f7f6f3; color:#101e33; clip-path:polygon(5% 0,100% 0,100% 95%,95% 100%,0 100%,0 5%); }.b3-calendar-reserved strong { margin-top:14px; font-size:1.35rem; text-transform:uppercase; }.b3-calendar-reserved p { font-size:1rem; }.b3-calendar-photo { min-height:160px; margin-top:-35px; }.b3-book-privacy { padding:90px 0; }.b3-book-privacy .b3-reserved { min-height:330px; }
-.b3-contact-hero { padding-bottom:50px; }.b3-contact-hero .b3-photo { height:530px; }.b3-contact-details { padding:90px 0; }.b3-location-card { display:flex; gap:20px; background:#f7f6f3; color:#101e33; padding:30px; margin-top:38px; }.b3-location-card strong,.b3-location-card span { display:block; }.b3-location-card span { margin-top:5px; font-size:1rem; }.b3-contact-facility { padding:90px 0 0; }.b3-contact-facility>div>p { max-width:65ch; }.b3-facility-wide { min-height:470px; margin-top:30px; }.b3-facility-label { position:relative; display:flex; gap:25px; align-items:center; background:#101e33; color:#fff; padding:20px 30px; }.b3-facility-label span { flex:1; font-size:1rem; }.b3-facility-label a { display:flex; align-items:center; gap:8px; color:#b1dfff; }.b3-contact-booking { padding:110px 0; }.b3-contact-booking .b3-photo { min-height:420px; }
-@media(max-width:760px) { .b3-shell { width:min(100% - 36px, 600px); }.b3-split,.b3-gallery-top { grid-template-columns:1fr; gap:30px; }.b3 h1 { font-size:clamp(2.4rem,10vw,4rem); }.b3 h2 { font-size:clamp(2.2rem,9vw,3.6rem); }.b3-bracket { padding-left:18px; }.b3-about-hero,.b3-contact-hero,.b3-guide-hero,.b3-book-hero { padding-top:46px; }.b3-hero-media,.b3-contact-hero .b3-photo { height:280px; }.b3-purpose-top .b3-photo,.b3-about-team .b3-photo { min-height:265px; }.b3-mission .b3-shell { grid-template-columns:1fr; gap:12px; }.b3-principle-rail { grid-template-columns:1fr 1fr; padding-block:20px; }.b3-gallery-top .b3-photo { min-height:260px; }.b3-gallery-panorama { min-height:130px; }.b3-about-gallery,.b3-about-principles,.b3-about-team,.b3-about-booking,.b3-guide-summary,.b3-guide-availability,.b3-guide-privacy,.b3-book-calendar,.b3-book-privacy,.b3-contact-details,.b3-contact-facility,.b3-contact-booking { padding-block:64px; }.b3-book-hero-media { min-height:160px; }.b3-calendar-aperture { min-height:310px; }.b3-facility-wide { min-height:250px; }.b3-facility-label { flex-wrap:wrap; }.b3-facility-label span { flex:1 1 100%; }.b3-availability-foot { align-items:start; flex-direction:column; }.b3-status { padding:18px; }.b3-guide-rail .b3-shell { padding:14px 0; }.b3-guide-rail span { display:none; } }
+.b3-contact-hero { padding-bottom:50px; }.b3-contact-hero .b3-photo { height:530px; }.b3-contact-details { padding:90px 0; }.b3-location-card { display:flex; gap:20px; background:#f7f6f3; color:#101e33; padding:30px; margin-top:38px; }.b3-location-card strong,.b3-location-card span { display:block; }.b3-location-card span { margin-top:5px; font-size:1rem; }.b3-contact-booking { padding:110px 0; }.b3-contact-booking .b3-photo { min-height:420px; }
+@media(max-width:760px) { .b3-shell { width:min(100% - 36px, 600px); }.b3-split,.b3-gallery-top { grid-template-columns:1fr; gap:30px; }.b3 h1 { font-size:clamp(2.4rem,10vw,4rem); }.b3 h2 { font-size:clamp(2.2rem,9vw,3.6rem); }.b3-bracket { padding-left:18px; }.b3-about-hero,.b3-contact-hero,.b3-guide-hero,.b3-book-hero { padding-top:46px; }.b3-hero-media,.b3-contact-hero .b3-photo { height:280px; }.b3-purpose-top .b3-photo,.b3-about-team .b3-photo { min-height:265px; }.b3-mission .b3-shell { grid-template-columns:1fr; gap:12px; }.b3-principle-rail { grid-template-columns:1fr 1fr; padding-block:20px; }.b3-gallery-top .b3-photo { min-height:260px; }.b3-gallery-panorama { min-height:130px; }.b3-about-gallery,.b3-about-principles,.b3-about-team,.b3-about-booking,.b3-guide-summary,.b3-guide-availability,.b3-guide-privacy,.b3-book-calendar,.b3-book-privacy,.b3-contact-details,.b3-contact-booking { padding-block:64px; }.b3-book-hero-media { min-height:160px; }.b3-calendar-aperture { min-height:310px; }.b3-availability-foot { align-items:start; flex-direction:column; }.b3-status { padding:18px; }.b3-guide-rail .b3-shell { padding:14px 0; }.b3-guide-rail span { display:none; } }
 @media(prefers-reduced-motion:reduce) { .b3-action { transition:none; } }
 
 @media (min-width: 761px) {
@@ -56,15 +56,108 @@
   .b3-gallery-top { grid-template-columns: 35% 65%; }
   .b3-gallery-top .b3-photo { min-height: 540px; }
   .b3-gallery-panorama { min-height: 300px; }
-  .b3-contact-facility > .b3-shell { width: min(100% - 48px, 1480px); }
-  .b3-facility-wide { min-height: 565px; }
 }
 @media (max-width: 760px) {
   .b3-purpose-top .b3-photo { min-height: 340px; }
   .b3-gallery-top .b3-photo { min-height: 335px; }
   .b3-gallery-panorama { min-height: 190px; }
-  .b3-facility-wide { min-height: 300px; }
 }
 
 .b3-guide-hero .b3-guide-rail { padding-bottom: 24px; }
-.b3-contact-facility .b3-facility-label { margin-bottom: 36px; }
+
+/* Keep the alternate reception view tall enough to show its desk and complete mark. */
+.b3-contact-details .b3-stacked-media .b3-photo:first-child { min-height:440px; }
+.b3-contact-details .b3-stacked-media .b3-photo:last-child { min-height:220px; }
+
+/* Contact facility frame: the real room, live location strip and measured rail are separate layers. */
+.b3-contact-facility { padding-block:90px 96px; }
+.b3-contact-facility > .b3-shell { width:min(100% - 48px, 1440px); }
+.b3-contact-facility > .b3-shell > p { max-width:65ch; }
+.b3-facility-stage { position:relative; margin-top:32px; padding-inline:96px 42px; }
+.b3-facility-wide {
+  height:clamp(500px, 46vw, 660px);
+  min-height:0;
+  clip-path:polygon(2% 0, 100% 0, 100% 100%, 0 100%, 0 26%);
+}
+.b3-facility-wide img { object-position:center; }
+.b3-facility-rail {
+  position:absolute;
+  z-index:1;
+  inset:30% auto 0 0;
+  width:132px;
+  background:#0877be;
+  clip-path:polygon(62% 0, 78% 0, 25% 100%, 0 100%);
+  pointer-events:none;
+}
+.b3-facility-bracket {
+  position:absolute;
+  inset:-172px 0 32px auto;
+  width:90px;
+  border-right:12px solid #aab7c1;
+  pointer-events:none;
+}
+.b3-facility-bracket::before,.b3-facility-bracket::after {
+  content:"";
+  position:absolute;
+  right:-12px;
+  width:90px;
+  border-top:12px solid #aab7c1;
+}
+.b3-facility-bracket::before { top:0; }
+.b3-facility-bracket::after { bottom:0; }
+.b3-facility-label {
+  position:relative;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  min-height:108px;
+  padding:18px 24px 18px 112px;
+  background:#101e33;
+  color:#f7f6f3;
+}
+.b3-facility-label::before {
+  content:"";
+  position:absolute;
+  left:36px;
+  top:22px;
+  bottom:22px;
+  width:44px;
+  border:7px solid #f7f6f3;
+  border-right:0;
+}
+.b3-facility-label strong,.b3-facility-label span { display:block; }
+.b3-facility-label strong { font-size:1.45rem; line-height:1.2; }
+.b3-facility-label span { margin-top:5px; font-size:1rem; }
+.b3-facility-label a {
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  min-height:64px;
+  padding:12px 24px;
+  background:#0877be;
+  color:#f7f6f3;
+  clip-path:polygon(16% 0, 100% 0, 100% 100%, 0 100%);
+  transition:background-color .2s ease;
+}
+.b3-facility-label a:hover { background:#055b96; text-decoration:none !important; }
+.b3-facility-label a:focus-visible { clip-path:none; }
+@media(max-width:760px) {
+  .b3-contact-details .b3-stacked-media .b3-photo:first-child { min-height:300px; }
+  .b3-contact-details .b3-stacked-media .b3-photo:last-child { min-height:170px; }
+  .b3-contact-facility { padding-block:64px; }
+  .b3-contact-facility > .b3-shell { width:min(100% - 36px, 600px); }
+  .b3-facility-stage { margin-top:28px; padding-inline:16px 0; }
+  .b3-facility-wide { height:clamp(290px, 84vw, 390px); }
+  .b3-facility-rail { width:34px; }
+  .b3-facility-bracket { display:none; }
+  .b3-facility-label { display:grid; gap:14px; padding:22px 24px; }
+  .b3-facility-label::before { display:none; }
+  .b3-facility-label strong { font-size:1.15rem; }
+  .b3-facility-label a { justify-self:start; min-height:48px; padding:10px 18px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .b3-facility-label a { transition:none; }
+}
