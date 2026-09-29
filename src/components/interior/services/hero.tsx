@@ -9,12 +9,12 @@ export function ServicesHero(): React.ReactElement {
         <p className="interior-emphasis">Start where it matters to you.</p>
       </div>
       <div className="service-hero-focus"><Link href="/services/neuropathy" className="service-hero-feature"><span className="eyebrow">Our primary focus</span><strong>Neuropathy</strong><span>Explore a more informed conversation about movement, function and independence →</span></Link>
-        <div className="service-hero-direction" aria-hidden="true"><span /><span /><span /><span /></div>
+        <div className="service-hero-direction" aria-hidden="true"><span /></div>
       </div>
     </div>
     <nav id="trust-bar" aria-label="Other service categories" className="service-hero-rail interior-wrap">
       <Link href="/services/pain-relief">Pain relief <span>Explore pain-related concerns →</span></Link>
-      <span>Hormone optimization</span><span>Pelvic floor &amp; incontinence care</span><span>Regenerative medicine</span>
+      <Link href="/services/hormone-optimization">Hormone optimization</Link><Link href="/services/pelvic-floor-incontinence">Pelvic floor &amp; incontinence care</Link><Link href="/services/regenerative-medicine">Regenerative medicine</Link>
     </nav>
   </section>;
 }
