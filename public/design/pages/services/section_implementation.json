@@ -7,7 +7,7 @@
       "implementation_owner": "src/components/interior/services/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "services/01-hero-01-reception.png"
+        "code-only: clipped hero direction field"
       ],
       "fidelity": {
         "content": {
@@ -16,7 +16,7 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Code-native direction field replaces an unsupplied reception; painted hierarchy and seam review remain pending."
         },
         "composition": {
           "status": "PENDING",
@@ -38,8 +38,7 @@
       "implementation_owner": "src/components/interior/services/neuropathy.tsx",
       "content_source": "section_manifest.json#02-neuropathy-feature",
       "asset_roles": [
-        "services/02-neuropathy-feature-01-walking-figure.png",
-        "services/02-neuropathy-feature-02-clinic-reception.png"
+        "services/02-neuropathy-feature-01-walking-figure.png"
       ],
       "fidelity": {
         "content": {
@@ -48,7 +47,7 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Walking-figure image retained; the false reception is replaced by a code-native strip. Painted balance review remains pending."
         },
         "composition": {
           "status": "PENDING",
@@ -70,8 +69,7 @@
       "implementation_owner": "src/components/interior/services/navigation.tsx",
       "content_source": "section_manifest.json#03-service-navigation",
       "asset_roles": [
-        "services/03-service-navigation-01-active-couple.png",
-        "services/03-service-navigation-02-clinic-reception.png"
+        "services/03-service-navigation-01-active-couple.png"
       ],
       "fidelity": {
         "content": {
@@ -80,7 +78,7 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Active-couple image retained; the false reception is replaced by a code-native rail. Painted balance review remains pending."
         },
         "composition": {
           "status": "PENDING",
@@ -102,7 +100,7 @@
       "implementation_owner": "src/components/interior/services/choose.tsx",
       "content_source": "section_manifest.json#04-how-to-choose-next-step",
       "asset_roles": [
-        "services/04-how-to-choose-next-step-01-clinic-reception.png"
+        "code-only: live conversation path panel"
       ],
       "fidelity": {
         "content": {
@@ -111,7 +109,7 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Live decision-path panel replaces an unsupplied reception; CTA clearance and mobile layout review remain pending."
         },
         "composition": {
           "status": "PENDING",
@@ -133,7 +131,7 @@
       "implementation_owner": "src/components/interior/services/booking.tsx",
       "content_source": "section_manifest.json#05-booking-cta",
       "asset_roles": [
-        "services/05-booking-cta-01-clinic-reception.png"
+        "code-only: clipped booking direction stage"
       ],
       "fidelity": {
         "content": {
@@ -142,7 +140,7 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Code-native booking stage replaces an unsupplied reception; painted hierarchy and section-edge review remain pending."
         },
         "composition": {
           "status": "PENDING",
