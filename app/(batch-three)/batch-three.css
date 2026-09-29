@@ -33,11 +33,10 @@
 .b3-inline-links { display:flex; flex-wrap:wrap; align-items:center; gap:28px; }
 .b3-about-hero,.b3-contact-hero { padding:72px 0 0; }.b3-hero-grid { min-height:590px; }
 .b3-about-hero h1 span { color:#4eaaea; }.b3-hero-copy { max-width:650px; align-self:center; }
-.b3-hero-media { height:540px; align-self:end; }
-.b3-about-purpose { padding-top:72px; }.b3-purpose-top { min-height:470px; }.b3-purpose-top .b3-photo { min-height:445px; }
+.b3-about-purpose { padding-top:72px; }.b3-purpose-top { min-height:470px; }
 .b3-mission { background:#101e33; margin-top:40px; padding:24px 0; }.b3-mission .b3-shell { display:grid; grid-template-columns:1fr 1.5fr 1fr; align-items:center; gap:30px; }.b3-mission p { margin:0;font-size:1.1rem; }.b3-mission-links { display:grid; gap:5px; }.b3-mission-links a { display:flex; align-items:center; justify-content:space-between; border:1px solid #c7cbd0; padding:5px 12px; font-size:.9rem; }
 .b3-principle-rail { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; align-items:center; min-height:112px; font-size:.93rem; }.b3-principle-rail >* { border-left:1px solid #b3c7d4; padding:8px 14px; }.b3-principle-rail strong { text-transform:uppercase; letter-spacing:.06em; }
-.b3-about-gallery { padding:80px 0 60px; }.b3-gallery-top { grid-template-columns:45% 55%; gap:0; }.b3-gallery-top .b3-photo { min-height:460px; }.b3-gallery-copy { position:relative; z-index:1; padding:24px 38px 24px 0; }.b3-gallery-copy p { max-width:34ch; }.b3-gallery-panorama { min-height:230px; margin-top:14px; }
+.b3-about-gallery { padding:80px 0 60px; }.b3-gallery-top { grid-template-columns:45% 55%; gap:0; }.b3-gallery-top .b3-photo { min-height:460px; }.b3-gallery-copy { position:relative; z-index:1; padding:24px 38px 24px 0; }.b3-gallery-copy p { max-width:34ch; }
 .b3-about-principles,.b3-about-team,.b3-about-booking { padding:90px 0; }.b3-about-principles h2 span { color:#4eaaea; }.b3-principles-list { display:grid; gap:20px; padding:0; margin:38px 0 0; list-style:none; }.b3-principles-list li { border-left:4px solid #0877be; padding-left:22px; }.b3-principles-list strong { font-size:1.3rem; }.b3-principles-list p { font-size:1rem; margin:3px 0 0; }.b3-about-team .b3-photo { min-height:470px; }.b3-about-booking .b3-photo { min-height:380px; }
 .b3-guide-hero { padding:78px 0 0; }.b3-guide-hero .b3-split { align-items:start; }.b3-guide-visual .b3-photo { min-height:310px; }.b3-guide-aside { background:#20272e; padding:30px; }.b3-guide-aside p { font-size:1.05rem; }.b3-guide-rail { background:#0666a5; margin-top:50px; }.b3-guide-rail .b3-shell { display:flex; justify-content:space-between; align-items:center; gap:20px; min-height:74px; font-weight:600; }.b3-guide-rail a { display:flex; align-items:center; gap:12px; }
 .b3-guide-summary { padding:90px 0; }.b3-guide-summary-right .b3-photo { min-height:275px; }.b3-dark-panel { background:#101e33; padding:32px; }.b3-dark-panel p { font-size:1rem; }
@@ -45,35 +44,86 @@
 .b3-guide-privacy { padding:80px 0; }.b3-guide-privacy .b3-photo { min-height:380px; }
 .b3-book-hero { padding:80px 0 50px; }.b3-book-hero .b3-split { align-items:stretch; }.b3-book-steps { padding:0; margin:32px 0; list-style:none; counter-reset:book; }.b3-book-steps li { counter-increment:book; padding:15px 20px; margin-top:8px; max-width:380px; background:#f7f6f3; color:#101e33; font-weight:600; }.b3-book-steps li:nth-child(2) { background:#20272e; color:#fff; margin-left:30px; }.b3-book-steps li::before { content:counter(book,decimal-leading-zero); color:#0877be; margin-right:14px; }.b3-book-hero-media { min-height:190px; max-width:500px; }.b3-calendar-aperture { min-height:560px; display:flex; flex-direction:column; gap:18px; align-items:center; justify-content:center; text-align:center; padding:38px; border:1px solid #c7cbd0; clip-path:polygon(12% 0,100% 0,100% 86%,88% 100%,0 100%,0 14%); }.b3-calendar-aperture strong { font-size:1.5rem; text-transform:uppercase; letter-spacing:.12em; }.b3-calendar-aperture span { font-size:1.05rem; }
 .b3-book-calendar { padding:90px 0; }.b3-book-calendar .b3-split { margin-top:32px; }.b3-calendar-copy { align-self:start; }.b3-calendar-right { position:relative; }.b3-calendar-reserved { position:relative; z-index:1; display:grid; justify-items:center; text-align:center; align-content:center; min-height:350px; padding:50px; background:#f7f6f3; color:#101e33; clip-path:polygon(5% 0,100% 0,100% 95%,95% 100%,0 100%,0 5%); }.b3-calendar-reserved strong { margin-top:14px; font-size:1.35rem; text-transform:uppercase; }.b3-calendar-reserved p { font-size:1rem; }.b3-calendar-photo { min-height:160px; margin-top:-35px; }.b3-book-privacy { padding:90px 0; }.b3-book-privacy .b3-reserved { min-height:330px; }
-.b3-contact-hero { padding-bottom:50px; }.b3-contact-hero .b3-photo { height:530px; }.b3-contact-details { padding:90px 0; }.b3-location-card { display:flex; gap:20px; background:#f7f6f3; color:#101e33; padding:30px; margin-top:38px; }.b3-location-card strong,.b3-location-card span { display:block; }.b3-location-card span { margin-top:5px; font-size:1rem; }.b3-contact-booking { padding:110px 0; }.b3-contact-booking .b3-photo { min-height:420px; }
-@media(max-width:760px) { .b3-shell { width:min(100% - 36px, 600px); }.b3-split,.b3-gallery-top { grid-template-columns:1fr; gap:30px; }.b3 h1 { font-size:clamp(2.4rem,10vw,4rem); }.b3 h2 { font-size:clamp(2.2rem,9vw,3.6rem); }.b3-bracket { padding-left:18px; }.b3-about-hero,.b3-contact-hero,.b3-guide-hero,.b3-book-hero { padding-top:46px; }.b3-hero-media,.b3-contact-hero .b3-photo { height:280px; }.b3-purpose-top .b3-photo,.b3-about-team .b3-photo { min-height:265px; }.b3-mission .b3-shell { grid-template-columns:1fr; gap:12px; }.b3-principle-rail { grid-template-columns:1fr 1fr; padding-block:20px; }.b3-gallery-top .b3-photo { min-height:260px; }.b3-gallery-panorama { min-height:130px; }.b3-about-gallery,.b3-about-principles,.b3-about-team,.b3-about-booking,.b3-guide-summary,.b3-guide-availability,.b3-guide-privacy,.b3-book-calendar,.b3-book-privacy,.b3-contact-details,.b3-contact-booking { padding-block:64px; }.b3-book-hero-media { min-height:160px; }.b3-calendar-aperture { min-height:310px; }.b3-availability-foot { align-items:start; flex-direction:column; }.b3-status { padding:18px; }.b3-guide-rail .b3-shell { padding:14px 0; }.b3-guide-rail span { display:none; } }
+.b3-contact-details { padding:90px 0; }.b3-location-card { display:flex; gap:20px; background:#f7f6f3; color:#101e33; padding:30px; margin-top:38px; }.b3-location-card strong,.b3-location-card span { display:block; }.b3-location-card span { margin-top:5px; font-size:1rem; }.b3-contact-booking { padding:110px 0; }.b3-contact-booking .b3-photo { min-height:420px; }
+@media(max-width:760px) { .b3-shell { width:min(100% - 36px, 600px); }.b3-split,.b3-gallery-top { grid-template-columns:1fr; gap:30px; }.b3 h1 { font-size:clamp(2.4rem,10vw,4rem); }.b3 h2 { font-size:clamp(2.2rem,9vw,3.6rem); }.b3-bracket { padding-left:18px; }.b3-about-hero,.b3-contact-hero,.b3-guide-hero,.b3-book-hero { padding-top:46px; }.b3-about-team .b3-photo { min-height:265px; }.b3-mission .b3-shell { grid-template-columns:1fr; gap:12px; }.b3-principle-rail { grid-template-columns:1fr 1fr; padding-block:20px; }.b3-gallery-top .b3-photo { min-height:260px; }.b3-about-gallery,.b3-about-principles,.b3-about-team,.b3-about-booking,.b3-guide-summary,.b3-guide-availability,.b3-guide-privacy,.b3-book-calendar,.b3-book-privacy,.b3-contact-details,.b3-contact-booking { padding-block:64px; }.b3-book-hero-media { min-height:160px; }.b3-calendar-aperture { min-height:310px; }.b3-availability-foot { align-items:start; flex-direction:column; }.b3-status { padding:18px; }.b3-guide-rail .b3-shell { padding:14px 0; }.b3-guide-rail span { display:none; } }
 @media(prefers-reduced-motion:reduce) { .b3-action { transition:none; } }
 
 @media (min-width: 761px) {
   .b3-purpose-top { grid-template-columns: 42% 58%; gap: 0; min-height: 550px; }
-  .b3-purpose-top .b3-photo { min-height: 550px; }
   .b3-purpose-top > .b3-bracket { align-self: center; margin-right: 40px; }
   .b3-gallery-top { grid-template-columns: 35% 65%; }
   .b3-gallery-top .b3-photo { min-height: 540px; }
-  .b3-gallery-panorama { min-height: 300px; }
 }
 @media (max-width: 760px) {
-  .b3-purpose-top .b3-photo { min-height: 340px; }
   .b3-gallery-top .b3-photo { min-height: 335px; }
-  .b3-gallery-panorama { min-height: 190px; }
 }
 
 .b3-guide-hero .b3-guide-rail { padding-bottom: 24px; }
 
-/* Keep the alternate reception view tall enough to show its desk and complete mark. */
-.b3-contact-details .b3-stacked-media .b3-photo:first-child { min-height:440px; }
-.b3-contact-details .b3-stacked-media .b3-photo:last-child { min-height:220px; }
+/* Deliberate photo-role revisions: live geometry carries the introductory sections. */
+.b3-about-hero,.b3-contact-hero { padding-bottom:64px; }
+.b3-about-hero .b3-hero-grid { min-height:510px; }
+.b3-about-hero-art,.b3-contact-hero-art { position:relative; height:470px; align-self:center; overflow:hidden; }
+.b3-about-hero-art { background:linear-gradient(140deg,transparent 0 28%,#07578e 28% 45%,#0877be 45% 47%,#152e48 47% 100%); clip-path:polygon(30% 0,100% 0,100% 100%,0 100%,0 54%); }
+.b3-about-hero-art::before { content:""; position:absolute; inset:17% 12% 17% 38%; border:12px solid #b7c4cc; border-left:0; opacity:.85; }
+.b3-about-hero-art span { position:absolute; bottom:18%; left:16%; width:54%; height:16px; background:#0877be; transform:skewX(-25deg); }
+.b3-about-hero-art span:nth-child(2) { bottom:calc(18% + 28px); left:24%; width:46%; }
+.b3-about-hero-art span:nth-child(3) { bottom:calc(18% + 56px); left:32%; width:38%; }
+.b3-purpose-top { grid-template-columns:45% 55%; min-height:430px; }
+.b3-purpose-art { position:relative; min-height:390px; align-self:stretch; background:linear-gradient(135deg,transparent 0 22%,#07578e 22% 60%,#054b7d 60% 100%); clip-path:polygon(20% 0,100% 0,100% 100%,0 100%,0 43%); }
+.b3-purpose-art::before { content:""; position:absolute; inset:13% 11% 13% 33%; border:10px solid #9ec0d5; border-left:0; }
+.b3-purpose-art span { position:absolute; bottom:22%; left:29%; height:12px; width:55%; background:#0b86ce; }
+.b3-purpose-art span:nth-child(2) { bottom:calc(22% + 27px); left:38%; width:46%; }
+.b3-purpose-art span:nth-child(3) { bottom:calc(22% + 54px); left:47%; width:37%; }
+.b3-purpose-art span:nth-child(4) { bottom:calc(22% + 81px); left:56%; width:28%; }
+.b3-gallery-top { grid-template-columns:38% 62%; }
+.b3-gallery-top .b3-photo { min-height:440px; }
+.b3-gallery-lower { position:relative; display:flex; justify-content:flex-end; margin-top:16px; min-height:365px; background:linear-gradient(120deg,#0877be 0 20%,#101e33 20% 100%); }
+.b3-gallery-lower > span { position:absolute; top:22%; left:12%; width:25%; height:55%; border-left:10px solid #b7c4cc; border-top:10px solid #b7c4cc; border-bottom:10px solid #b7c4cc; }
+.b3-gallery-waiting { width:50%; height:365px; min-height:0; }
+.b3-gallery-waiting img { object-position:center 56%; }
+.b3-contact-hero .b3-split { min-height:500px; }
+.b3-contact-hero-art { background:linear-gradient(145deg,transparent 0 27%,#0877be 27% 29%,#073c66 29% 58%,#152e48 58% 100%); clip-path:polygon(30% 0,100% 0,100% 100%,0 100%,0 61%); }
+.b3-contact-hero-art::before { content:""; position:absolute; inset:12% 12% 17% 38%; border:10px solid #b7c4cc; border-left:0; }
+.b3-contact-hero-art span { position:absolute; bottom:15%; left:17%; width:62%; height:12px; background:#0877be; transform:skewX(-30deg); }
+.b3-contact-hero-art span:nth-child(2) { bottom:calc(15% + 28px); left:27%; width:52%; }
+.b3-contact-hero-art span:nth-child(3) { bottom:calc(15% + 56px); left:37%; width:42%; }
+.b3-details-layout { position:relative; display:grid; grid-template-columns:minmax(0,60%) minmax(0,40%); min-height:560px; align-items:center; }
+.b3-details-copy { position:relative; z-index:2; padding:20px 0; }
+.b3-details-copy > p { max-width:39ch; }
+.b3-contact-details .b3-location-card { position:relative; width:min(900px,116%); margin-top:42px; border-left:6px solid #0877be; box-shadow:0 20px 35px #0928464d; }
+.b3-contact-details .b3-location-card::before,.b3-contact-details .b3-location-card::after { content:""; position:absolute; right:18px; width:22px; border-top:3px solid #0877be; }
+.b3-contact-details .b3-location-card::before { top:18px; }.b3-contact-details .b3-location-card::after { bottom:18px; }
+.b3-contact-details .b3-text-link { margin-top:28px; }
+.b3-details-geometry { position:relative; align-self:stretch; background:linear-gradient(110deg,transparent 0 23%,#085487 23% 26%,#104470 26% 100%); clip-path:polygon(36% 0,100% 0,100% 100%,0 100%); }
+.b3-details-geometry::before { content:""; position:absolute; inset:48px 28px 48px auto; width:90px; border:10px solid #9fb7c9; border-left:0; }
+.b3-details-geometry span { position:absolute; bottom:56px; left:12%; width:55%; height:12px; background:#0877be; transform:skewX(-30deg); }
+.b3-details-geometry span:nth-child(2) { bottom:86px; left:24%; width:43%; }
+@media(max-width:760px) {
+  .b3-about-hero,.b3-contact-hero { padding-bottom:48px; }
+  .b3-about-hero .b3-hero-grid,.b3-contact-hero .b3-split { min-height:0; }
+  .b3-about-hero-art,.b3-contact-hero-art { height:180px; width:100%; }
+  .b3-purpose-top { grid-template-columns:1fr; min-height:0; }
+  .b3-purpose-art { min-height:165px; }
+  .b3-gallery-top { grid-template-columns:1fr; }
+  .b3-gallery-top .b3-photo { min-height:335px; }
+  .b3-gallery-lower { min-height:0; padding:14px 0 0 14px; }
+  .b3-gallery-lower > span { display:none; }
+  .b3-gallery-waiting { width:100%; height:300px; }
+  .b3-gallery-waiting img { object-fit:contain; }
+  .b3-details-layout { grid-template-columns:1fr; min-height:0; }
+  .b3-contact-details .b3-location-card { width:100%; padding:22px; }
+  .b3-details-geometry { min-height:120px; margin-top:28px; }
+}
 
 /* Contact facility frame: the real room, live location strip and measured rail are separate layers. */
-.b3-contact-facility { padding-block:90px 96px; }
+.b3-contact-facility { padding-block:72px 96px; }
 .b3-contact-facility > .b3-shell { width:min(100% - 48px, 1440px); }
-.b3-contact-facility > .b3-shell > p { max-width:65ch; }
-.b3-facility-stage { position:relative; margin-top:32px; padding-inline:96px 42px; }
+.b3-facility-intro { display:flex; align-items:end; justify-content:space-between; gap:32px; }
+.b3-facility-intro p { max-width:65ch; }
+.b3-facility-steps { position:relative; flex:0 0 150px; height:72px; margin-right:84px; background:#101e33; clip-path:polygon(0 75%,30% 75%,30% 50%,60% 50%,60% 25%,100% 25%,100% 100%,0 100%); }
+.b3-facility-steps::before { content:""; position:absolute; inset:auto 0 0; height:14px; background:#0877be; }
+.b3-facility-stage { position:relative; margin-top:26px; padding-inline:96px 42px; }
 .b3-facility-wide {
   height:clamp(500px, 46vw, 660px);
   min-height:0;
@@ -145,10 +195,10 @@
 .b3-facility-label a:hover { background:#055b96; text-decoration:none !important; }
 .b3-facility-label a:focus-visible { clip-path:none; }
 @media(max-width:760px) {
-  .b3-contact-details .b3-stacked-media .b3-photo:first-child { min-height:300px; }
-  .b3-contact-details .b3-stacked-media .b3-photo:last-child { min-height:170px; }
   .b3-contact-facility { padding-block:64px; }
   .b3-contact-facility > .b3-shell { width:min(100% - 36px, 600px); }
+  .b3-facility-intro { display:block; }
+  .b3-facility-steps { display:block; width:88px; height:38px; margin:18px 0 0 auto; }
   .b3-facility-stage { margin-top:28px; padding-inline:16px 0; }
   .b3-facility-wide { height:clamp(290px, 84vw, 390px); }
   .b3-facility-rail { width:34px; }

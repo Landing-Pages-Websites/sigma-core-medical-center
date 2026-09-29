@@ -101,28 +101,28 @@
       "implementation_owner": "src/components/interior/neuropathy/expect.tsx",
       "content_source": "section_manifest.json#04-what-to-expect",
       "asset_roles": [
-        "neuropathy/04-what-to-expect-01-real-waiting-room.png"
+        "code-only photo-role revision"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Live booking statement and /book action retained; publication limits moved into a separate status panel."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "No photo: the former waiting-wall slot is now code-native steps, bracket and diagonal status field."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "The approved frame’s photo silhouette is deliberately replaced to avoid incidental facility-photo repetition."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
         }
       }
     },

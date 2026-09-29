@@ -29,8 +29,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 .chip.composite{background:#536}
 </style>
 <h1>Image asset review</h1>
-<p class='muted'>35 CODE regions and 8 raster assets to review: 8 extract, 0 inpaint.</p>
-<div class='proto'><b>How to review:</b> judge every planned treatment against its design reference on the left. For CODE cards, verify the build note can preserve the region's silhouette, materiality, and compositing—not merely approximate its geometry. To swap a raster, replace the file directly in git — same path, push to main. Replaced files are authoritative — the pipeline never overwrites them. This page updates on every push. Complete the review subtask to approve; the build does not start until then.</div>
+<p class='muted'>36 CODE regions and 7 implementation-mapped raster assets in the revised extraction plan. Original unused files remain on disk pending explicit cleanup.</p>
+<div class='proto'><b>How to review:</b> judge every planned treatment against its design reference on the left. For CODE cards, verify the build note can preserve the region's silhouette, materiality, and compositing—not merely approximate its geometry. The notes below describe this local candidate. Unused original files remain available for review; this sheet does not approve the site or authorize publication.</div>
 <div class='card' id='01-hero-r1'>
 <b>01-hero-r1</b><span class='chip code'>code</span>
 <div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
@@ -54,8 +54,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [876, 181, 1505, 674], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/01-hero.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r3-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/01-hero-01-person-walking.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>01-hero-01-person-walking.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/01-hero-01-person-walking.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/01-hero-01-person-walking.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>01-hero-01-person-walking.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/01-hero-01-person-walking.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='02-visitor-orientation-r1'>
 <b>02-visitor-orientation-r1</b><span class='chip code'>code</span>
@@ -120,8 +120,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [8, 575, 806, 734], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/02-visitor-orientation.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/02-visitor-orientation-context.png'><img src='crops/02-visitor-orientation-r8-ref.png' alt=''></a><figcaption>design reference — 02-visitor-orientation (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/02-visitor-orientation-01-clinic-interior.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-visitor-orientation-01-clinic-interior.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/02-visitor-orientation-01-clinic-interior.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/02-visitor-orientation-01-clinic-interior.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-visitor-orientation-01-clinic-interior.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/02-visitor-orientation-01-clinic-interior.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='03-goals-and-decision-factors-r1'>
 <b>03-goals-and-decision-factors-r1</b><span class='chip code'>code</span>
@@ -186,8 +186,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1275, 69, 1498, 432], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/03-goals-and-decision-factors.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/03-goals-and-decision-factors-context.png'><img src='crops/03-goals-and-decision-factors-r8-ref.png' alt=''></a><figcaption>design reference — 03-goals-and-decision-factors (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/03-goals-and-decision-factors-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-goals-and-decision-factors-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-goals-and-decision-factors-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/03-goals-and-decision-factors-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-goals-and-decision-factors-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/03-goals-and-decision-factors-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='03-goals-and-decision-factors-r9'>
 <b>03-goals-and-decision-factors-r9</b><span class='chip extract'>extract</span>
@@ -196,8 +196,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1121, 467, 1521, 760], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/03-goals-and-decision-factors.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/03-goals-and-decision-factors-context.png'><img src='crops/03-goals-and-decision-factors-r9-ref.png' alt=''></a><figcaption>design reference — 03-goals-and-decision-factors (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/03-goals-and-decision-factors-02-visitor-in-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-goals-and-decision-factors-02-visitor-in-lounge.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-goals-and-decision-factors-02-visitor-in-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/03-goals-and-decision-factors-02-visitor-in-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-goals-and-decision-factors-02-visitor-in-lounge.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/03-goals-and-decision-factors-02-visitor-in-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='04-what-to-expect-r1'>
 <b>04-what-to-expect-r1</b><span class='chip code'>code</span>
@@ -264,15 +264,9 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <figure><div class='proto'><b>Planned code treatment</b><p>Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='04-what-to-expect-r9'>
-<b>04-what-to-expect-r9</b><span class='chip extract'>extract</span>
-<div class='muted'>real waiting room — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1060, 82, 1505, 622], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/sources/drive/waiting-room.png&quot;}</div>
-<div class='pair'>
-<figure><a href='crops/04-what-to-expect-context.png'><img src='crops/04-what-to-expect-r9-ref.png' alt=''></a><figcaption>design reference — 04-what-to-expect (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/04-what-to-expect-01-real-waiting-room.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>04-what-to-expect-01-real-waiting-room.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/04-what-to-expect-01-real-waiting-room.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
-</div></div>
+<b>04-what-to-expect-r9</b><span class='chip code'>code</span>
+<div class='muted'>Approved-frame deviation — Waiting-wall photograph removed. The live booking statement and action now face a code-native stepped status panel; the original raster is retained on disk but is not implementation referenced.</div>
+<div class='pair'><figure><a href='crops/04-what-to-expect-context.png'><img src='crops/04-what-to-expect-r9-ref.png' alt=''></a><figcaption>original design reference (click for full frame)</figcaption></figure><figure><div class='proto'><b>Implemented code treatment</b><p>Waiting-wall photograph removed. The live booking statement and action now face a code-native stepped status panel; the original raster is retained on disk but is not implementation referenced.</p></div><figcaption>No production raster in this slot.</figcaption></figure></div></div>
 <div class='card' id='05-faq-r1'>
 <b>05-faq-r1</b><span class='chip code'>code</span>
 <div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
@@ -288,8 +282,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [952, 78, 1421, 251], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/05-faq.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/05-faq-context.png'><img src='crops/05-faq-r2-ref.png' alt=''></a><figcaption>design reference — 05-faq (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/05-faq-01-clinic-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>05-faq-01-clinic-lounge.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/05-faq-01-clinic-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/05-faq-01-clinic-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>05-faq-01-clinic-lounge.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/05-faq-01-clinic-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='06-booking-cta-r1'>
 <b>06-booking-cta-r1</b><span class='chip code'>code</span>
@@ -354,8 +348,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1213, 91, 1467, 471], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/06-booking-cta.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/06-booking-cta-context.png'><img src='crops/06-booking-cta-r8-ref.png' alt=''></a><figcaption>design reference — 06-booking-cta (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/06-booking-cta-01-visitor-in-clinic.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>06-booking-cta-01-visitor-in-clinic.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/06-booking-cta-01-visitor-in-clinic.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/06-booking-cta-01-visitor-in-clinic.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>06-booking-cta-01-visitor-in-clinic.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/06-booking-cta-01-visitor-in-clinic.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='07-medical-sources-r1'>
 <b>07-medical-sources-r1</b><span class='chip code'>code</span>
@@ -388,8 +382,8 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1198, 49, 1482, 253], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/07-medical-sources.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/07-medical-sources-context.png'><img src='crops/07-medical-sources-r4-ref.png' alt=''></a><figcaption>design reference — 07-medical-sources (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/07-medical-sources-01-clinic-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>07-medical-sources-01-clinic-lounge.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/07-medical-sources-01-clinic-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/neuropathy/07-medical-sources-01-clinic-lounge.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>07-medical-sources-01-clinic-lounge.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/neuropathy/07-medical-sources-01-clinic-lounge.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <details><summary>NOTES.md — CSS/SVG techniques the build uses instead of images</summary><pre># neuropathy — Stage 9b / The Forward Standard
 
@@ -443,7 +437,7 @@ Segmenter found 8 candidate regions; these are not semantic assets.
 - CODE r6: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r7: Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r8: Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
-- EXTRACT r9: real-waiting-room; 04-what-to-expect-01-real-waiting-room.png; copy verified client image waiting-room.png. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r9: Waiting-wall photograph removed. The live booking statement and action now face a code-native stepped status panel; the original raster is retained on disk but is not implementation referenced.
 
 ## 05-faq
 

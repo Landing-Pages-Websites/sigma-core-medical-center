@@ -6,28 +6,28 @@
       "implementation_owner": "src/components/batch-three/contact/hero.tsx",
       "content_source": "section_manifest.json#01-contact-hero",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only photo-role revision"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Visit copy, booking link and unverified-address status remain live."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "No desk photo: angular geometry carries the right field."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Real reception desk dominates right; left local-visit orientation and booking action anchor the dark field. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "The approved hero desk aperture is deliberately removed; Contact facility retains real place context."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
         }
       },
       "frame": "01-contact-hero"
@@ -37,28 +37,28 @@
       "implementation_owner": "src/components/batch-three/contact/details.tsx",
       "content_source": "section_manifest.json#02-verified-location-details",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only photo-role revision"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Verification copy, semantic location-status card and service link remain live."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "No desk or unsupplied lounge photos; diagonal and bracket fields are code-native."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Blue left location explanation faces real reception and a second smaller clinic lounge image at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "The location card intersects a code-native diagonal to retain the frame’s information hierarchy."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
         }
       },
       "frame": "02-verified-location-details"
@@ -68,28 +68,28 @@
       "implementation_owner": "src/components/batch-three/contact/facility.tsx",
       "content_source": "section_manifest.json#03-facility-image",
       "asset_roles": [
-        "live, code-only integration status"
+        "contact/03-facility-image-01-real-waiting-room.png"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Facility caveat, location-status strip and About link remain live."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "Approved client five-chair waiting-room photo remains the only facility section image."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Warm cream heading sits above a wide authentic waiting-room image and separate navy location label strip. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PR #40 rail/bracket and 96px desktop bottom gap remain; top steps and proportion are refined."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
         }
       },
       "frame": "03-facility-image"

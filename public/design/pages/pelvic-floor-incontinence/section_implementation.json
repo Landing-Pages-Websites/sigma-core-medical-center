@@ -100,28 +100,28 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
       "content_source": "section_manifest.json#04-what-to-expect",
       "asset_roles": [
-        "Exact real waiting room visual for 04-what-to-expect, not a staff or outcome representation"
+        "code-only photo-role revision"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "evidence": "Privacy copy, booking control and services link retained."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No photo: the former waiting-wall slot is now a distinct privacy-led code panel."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The frame’s right photo is deliberately replaced; the dark privacy panel preserves asymmetry and reading order."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
         }
       }
     },
