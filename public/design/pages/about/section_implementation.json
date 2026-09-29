@@ -68,25 +68,24 @@
       "implementation_owner": "src/components/batch-three/about/gallery.tsx",
       "content_source": "section_manifest.json#03-facility-gallery",
       "asset_roles": [
-        "about/03-facility-gallery-01-real-reception.png",
-        "about/03-facility-gallery-02-client-waiting-room.png"
+        "about/03-facility-gallery-01-real-reception.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Gallery and location-status link remain live."
+          "status": "PENDING",
+          "evidence": "Live copy distinguishes the client-supplied reception view from unverified location details, but the two-image manifest narrative has been changed for this candidate; designer review is pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Only approved reception-2 and five-chair client waiting-room files are referenced."
+          "evidence": "Only the unaltered client-supplied reception-2 photograph is referenced in this section; independent photo-role review remains pending."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "The unsupplied broad lower panorama is replaced by a right-hand panel using the approved five-chair waiting room."
+          "evidence": "The frame's lower waiting-room panorama is deliberately replaced by a code-native provenance and location-status rail; designer judgment is pending."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
+          "evidence": "Navy, blue, mineral, clipped edge and bracket language remains in gallery-scoped CSS; independent review pending."
         },
         "responsive": {
           "status": "PENDING",
