@@ -1,8 +1,11 @@
 .b3-book-hero { padding: clamp(64px, 7vw, 104px) 0 88px; }
 .b3-book-hero-layout { display: grid; grid-template-columns: minmax(0, 1.06fr) minmax(0, .94fr); gap: clamp(48px, 6vw, 96px); align-items: stretch; }
 .b3-book-intro { display: flex; flex-direction: column; align-items: flex-start; }
-.b3-book-intro h1 { max-width: 11ch; }
+.b3-book-intro h1 { max-width: 16ch; }
+@media (min-width: 761px) { .b3-book-heading-tail { white-space: nowrap; } }
 .b3-book-intro > p { max-width: 47ch; }
+.b3 .b3-book-availability { max-width: 24ch; margin-top: 20px; color: #72c7f3; font-size: clamp(1.4rem, 2vw, 1.8rem); font-weight: 600; line-height: 1.2; }
+.b3-book-availability + p { margin-top: 16px; }
 .b3-book-steps { width: min(100%, 520px); margin: auto 0 0; padding-top: 48px; }
 .b3-book-steps li,
 .b3-book-steps li:nth-child(2) { display: flex; align-items: center; max-width: none; margin: 0; padding: 13px 0; border-bottom: 1px solid rgba(199, 203, 208, .38); background: transparent; color: #f7f6f3; font-weight: 500; }
@@ -26,24 +29,24 @@
 .b3-book-status-steps i:nth-child(3) { height: 24px; }
 .b3-book-status-steps i:nth-child(4) { height: 36px; }
 
-.b3-book-calendar { padding: clamp(80px, 8vw, 120px) 0; }
+.b3-book-calendar { padding: clamp(64px, 6vw, 88px) 0; }
 .b3-book-calendar-layout { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(50px, 8vw, 124px); align-items: start; }
 .b3-book-calendar-intro h2 { max-width: 10ch; }
 .b3-book-calendar-intro > p:first-of-type { max-width: 40ch; }
 .b3-book-calendar-intro .b3-action { margin-top: 40px; }
-.b3-book-calendar-decision { position: relative; padding: 22px 0 44px 34px; border-left: 1px solid rgba(247, 246, 243, .56); }
-.b3-book-calendar-label { display: block; margin-bottom: 44px; color: #dbeafa; font-size: .82rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
-.b3-book-calendar-primary { display: grid; gap: 16px; padding-bottom: 48px; border-bottom: 1px solid rgba(247, 246, 243, .56); }
-.b3-book-calendar-primary strong { max-width: 13ch; font-size: clamp(2.3rem, 3.7vw, 4.3rem); line-height: 1.05; letter-spacing: -.045em; text-wrap: balance; }
-.b3-book-calendar-primary span { max-width: 36ch; font-size: 1.12rem; line-height: 1.55; }
-.b3-book-calendar-secondary { padding-top: 40px; }
-.b3-book-calendar-secondary strong { font-size: 1.42rem; }
-.b3-book-calendar-secondary p { max-width: 35ch; font-size: 1.04rem; }
+.b3-book-calendar-decision { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 330px; padding: 22px 0 24px 34px; border-left: 1px solid rgba(247, 246, 243, .56); }
+.b3-book-calendar-label { display: block; margin-bottom: 36px; color: #dbeafa; font-size: .82rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.b3-book-calendar-primary { display: grid; gap: 20px; padding-bottom: 12px; }
+.b3-book-calendar-primary strong { max-width: 18ch; font-size: clamp(2.1rem, 3vw, 3.15rem); line-height: 1.12; letter-spacing: -.045em; text-wrap: balance; }
+.b3-book-calendar-primary span { max-width: 38ch; color: #f7f6f3; font-size: 1.04rem; line-height: 1.55; }
+.b3 .b3-book-calendar-intro .b3-caption { color: #f7f6f3; font-size: 1.125rem; line-height: 1.5; opacity: 1; }
 .b3-book-calendar-steps { position: absolute; top: 0; left: -5px; display: grid; gap: 5px; }
 .b3-book-calendar-steps i { display: block; width: 9px; height: 9px; background: #f7f6f3; }
 .b3-book-calendar-steps i:nth-child(2) { width: 14px; }
 .b3-book-calendar-steps i:nth-child(3) { width: 19px; }
 .b3-book-calendar-steps i:nth-child(4) { width: 24px; }
+
+body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 
 @media (max-width: 760px) {
   .b3-book-hero { padding: 56px 0 64px; }
@@ -59,10 +62,10 @@
   .b3-book-status-steps i:nth-child(2) { height: 8px; }
   .b3-book-status-steps i:nth-child(3) { height: 16px; }
   .b3-book-status-steps i:nth-child(4) { height: 24px; }
-  .b3-book-calendar { padding: 72px 0; }
+  .b3-book-calendar { padding: 56px 0; }
   .b3-book-calendar-intro .b3-action { margin-top: 28px; }
-  .b3-book-calendar-decision { padding-left: 24px; }
-  .b3-book-calendar-label { margin-bottom: 30px; }
-  .b3-book-calendar-primary { padding-bottom: 30px; }
-  .b3-book-calendar-secondary { padding-top: 30px; }
+  .b3-book-calendar-layout { gap: 34px; }
+  .b3-book-calendar-decision { min-height: 260px; padding: 10px 0 12px 24px; }
+  .b3-book-calendar-label { margin-bottom: 24px; }
+  .b3-book-calendar-primary { gap: 16px; }
 }

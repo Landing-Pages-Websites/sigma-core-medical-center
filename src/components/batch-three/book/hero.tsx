@@ -5,12 +5,13 @@ export function BookHero(): React.ReactElement {
     <section id="booking-hero" className="b3-section b3-ink b3-book-hero">
       <div className="b3-shell b3-book-hero-layout">
         <div className="b3-book-intro">
-          <h1 className="b3-bracket">Book your appointment with Sigma Core</h1>
+          <h1 className="b3-bracket">Book your appointment <span className="b3-book-heading-tail">with Sigma Core</span></h1>
+          <p className="b3-book-availability">Appointment booking is not yet available.</p>
           <p>The approved scheduling calendar has not been connected. No appointment can be requested or confirmed on this page yet.</p>
           <ol id="booking-steps" className="b3-book-steps">
-            <li>Explore your goals</li>
-            <li>Review care options</li>
-            <li>Return when scheduling opens</li>
+            <li>Care goals</li>
+            <li>Service information</li>
+            <li>Scheduling status</li>
           </ol>
         </div>
         <div id="integration-status" className="b3-book-status-stage">
