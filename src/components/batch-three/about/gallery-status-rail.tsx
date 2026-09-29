@@ -7,7 +7,7 @@ export function AboutGalleryStatusRail(): React.ReactElement {
       <div className="b3-gallery-source">
         <span className="b3-gallery-source-mark" aria-hidden="true" />
         <div>
-          <span className="b3-gallery-label">01 / Client-supplied</span>
+          <span className="b3-gallery-label">Client-supplied</span>
           <strong>Reception view</strong>
           <span className="b3-gallery-source-note">A photograph of the supplied room.</span>
         </div>
