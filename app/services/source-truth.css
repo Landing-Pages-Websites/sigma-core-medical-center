@@ -9,31 +9,34 @@
 .service-hero-direction::before {
   content: "";
   position: absolute;
-  width: min(57%, 280px);
+  width: 320px;
   aspect-ratio: 1;
-  right: 12%;
-  top: 13%;
-  border: 2px solid #a8d6ea;
+  right: 8%;
+  top: 11%;
+  border: 2px solid;
+  border-color: #a8d6ea #a8d6ea transparent transparent;
   border-radius: 50%;
-  background: radial-gradient(circle, #b9dfee 0 5%, #0c5181 5% 24%, #1374ac 24% 26%, #075585 26% 100%);
-  box-shadow: 0 0 0 18px #68b9df22;
+  transform: rotate(-14deg);
 }
 .service-hero-direction::after {
   content: "";
   position: absolute;
-  width: 2px;
-  height: 76%;
-  top: 0;
-  right: calc(12% + min(28.5%, 140px));
-  background: linear-gradient(#9ad1e8, #9ad1e8 56%, transparent 56%);
+  width: 210px;
+  aspect-ratio: 1;
+  right: calc(8% + 55px);
+  top: calc(11% + 55px);
+  border: 2px solid;
+  border-color: #6cb6d7 #6cb6d7 transparent transparent;
+  border-radius: 50%;
+  transform: rotate(20deg);
 }
 .service-hero-direction span {
   position: absolute;
-  width: 68%;
-  height: 2px;
-  top: calc(13% + min(28.5%, 140px));
+  width: 72%;
+  height: 1px;
+  top: 54%;
   right: 0;
-  background: linear-gradient(90deg, transparent, #b9dfee 20%, #b9dfee 72%, transparent);
+  background: linear-gradient(90deg, transparent, #b9dfee 18%, #b9dfee 84%, transparent);
 }
 .service-neuro-walk { width: 24%; min-height: 0; aspect-ratio: 216 / 259; clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%); }
 .service-neuro-top { align-items: center; }
@@ -45,20 +48,31 @@
 .service-navigation-aside { display: block; }
 .service-service-list article { display: grid; grid-template-columns: minmax(0, 1fr) 106px; padding: 0; }
 .service-service-list article > div { min-width: 0; padding: 18px 20px; }
+.service-service-list h3 { text-wrap: balance; }
 .service-service-list .service-category-cue {
-  display: grid;
-  place-items: center;
-  padding: 10px;
+  position: relative;
   border-left: 2px solid #90bbd4;
   background: linear-gradient(150deg, #dceaf0, #bdd8e7);
-  color: #164466;
-  font-size: .88rem;
-  font-weight: 600;
-  line-height: 1.25;
-  text-align: center;
 }
-.service-service-list .service-category-cue > span { color: inherit; font-size: inherit; line-height: inherit; }
-.service-service-list article:last-child .service-category-cue { background: #12446d; color: #dceaf0; }
+.service-category-cue::before {
+  content: "";
+  position: absolute;
+  inset: 20% 26% 18% 24%;
+  border: solid #2478a8;
+  border-width: 2px 2px 0 0;
+}
+.service-service-list article:nth-child(2) .service-category-cue { background: linear-gradient(150deg, #d8e8ee, #b7d1df); }
+.service-service-list article:nth-child(2) .service-category-cue::before {
+  inset: 30% 24% 25% 22%;
+  border-width: 2px 0 2px 2px;
+}
+.service-service-list article:last-child .service-category-cue { background: #12446d; }
+.service-service-list article:last-child .service-category-cue::before {
+  inset: 16% 28% 22% 28%;
+  border-color: #9fcfe5;
+  border-width: 0 2px 2px 0;
+  transform: skewY(-15deg);
+}
 
 .service-choose-path {
   display: flex;
@@ -120,16 +134,15 @@
 
 @media (max-width: 600px) {
   .service-hero-direction { position: relative; height: 92px; margin-top: -8px; clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%); }
-  .service-hero-direction::before { width: 106px; top: -38px; right: 18%; }
-  .service-hero-direction::after { height: 100%; right: calc(18% + 53px); }
-  .service-hero-direction span { width: 58%; top: 15px; }
+  .service-hero-direction::before { width: 260px; top: -15px; right: -34px; }
+  .service-hero-direction::after { width: 160px; top: 35px; right: 16px; }
+  .service-hero-direction span { width: 72%; top: 70px; }
   .service-hero-rail { margin-top: 8px; }
   .service-neuro-walk { width: 65%; min-height: 0; }
   .service-neuro-other { padding: 24px 16px 40px; }
   .service-neuro-other a { min-height: 104px; font-size: .93rem; }
-  .service-service-list article { grid-template-columns: minmax(0, 1fr) 84px; }
+  .service-service-list article { grid-template-columns: minmax(0, 1fr) 44px; }
   .service-service-list article > div { padding: 20px 18px; }
-  .service-service-list .service-category-cue { font-size: .76rem; padding: 6px; }
   .service-choose-path { height: 300px; padding: 35px 6% 75px 14%; }
   .service-choose-path span { min-height: 48px; font-size: .96rem; }
   .service-book-direction { width: 82%; height: 128px; margin-left: auto; }
