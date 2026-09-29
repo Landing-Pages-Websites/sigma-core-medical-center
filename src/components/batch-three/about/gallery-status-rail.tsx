@@ -11,7 +11,7 @@ export function AboutGalleryStatusRail(): React.ReactElement {
       <div className="b3-gallery-status">
         <span className="b3-gallery-label">Location verification</span>
         <strong>Details under review</strong>
-        <p>The Contact status covers address, hours, directions, parking and accessibility.</p>
+        <p>Contact is verifying address, hours, directions, parking and accessibility before publishing details.</p>
       </div>
     </div>
   );
