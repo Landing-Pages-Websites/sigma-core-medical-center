@@ -3,8 +3,8 @@ import { ArrowRight, LockKeyhole } from "lucide-react";
 export function GuideAvailability(): React.ReactElement {
   return <section id="lead-form" className="b3-section b3-paper b3-guide-availability">
     <div className="b3-shell"><div className="b3-split">
-      <div><p className="b3-kicker">Access status</p><h2>Guide access is pending.</h2><p>No guide is available for delivery, so this page does not accept personal details or notification requests.</p><Link href="/services" className="b3-action">Explore current services <ArrowRight size={20} /></Link></div>
-      <div className="b3-reserved" id="form-status"><LockKeyhole size={40} aria-hidden /><strong>No active form</strong><p>We’ll only offer access when the resource and a reviewed delivery workflow are ready.</p></div>
+      <div><p className="b3-kicker">Access status</p><h2>No requests are being collected.</h2><p>This page cannot accept guide requests or personal details.</p></div>
+      <div className="b3-reserved" id="form-status"><LockKeyhole size={40} aria-hidden /><strong>No active form</strong><p>The resource and delivery workflow still need approval.</p></div>
     </div><div className="b3-availability-foot"><div><strong>Choose a starting point</strong><p>Learn about care areas, beginning with neuropathy.</p></div><Link href="/services/neuropathy" className="b3-text-link">Neuropathy <ArrowRight size={17} /></Link></div></div>
   </section>;
 }
