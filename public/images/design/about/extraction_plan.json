@@ -1,0 +1,704 @@
+{
+  "page": "about",
+  "frames": [
+    {
+      "frame": "01-hero.png",
+      "bg": "#0c1c34",
+      "section_owner": "01-hero",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            109,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            151,
+            122,
+            738,
+            393
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            1054,
+            228,
+            1314,
+            363
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            159,
+            496,
+            579,
+            573
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live heading or content text group",
+          "build_note": "Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            159,
+            421,
+            605,
+            471
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live heading or content text group",
+          "build_note": "Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 6,
+          "box": [
+            158,
+            599,
+            441,
+            646
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 7,
+          "box": [
+            85,
+            100,
+            142,
+            402
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 8,
+          "box": [
+            998,
+            95,
+            1505,
+            778
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "retired photographic aperture, replaced by code-native composition",
+          "build_note": "The repeated desk photograph is removed. Preserve the Richmond identity, CTA, and trust caveat with live copy and a code-native angular right field."
+        }
+      ],
+      "implementation_deviation": "Approved frame photo slots revised for photo-role ownership: The repeated desk photograph is removed. Preserve the Richmond identity, CTA, and trust caveat with live copy and a code-native angular right field."
+    },
+    {
+      "frame": "02-clinic-purpose.png",
+      "bg": "#f4f4f4",
+      "section_owner": "02-clinic-purpose",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            701
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the clinic purpose section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            950,
+            753,
+            1149,
+            812
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            1221,
+            753,
+            1381,
+            812
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            490,
+            753,
+            661,
+            811
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            742,
+            753,
+            883,
+            812
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 6,
+          "box": [
+            125,
+            774,
+            377,
+            790
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the clinic purpose horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 7,
+          "box": [
+            1029,
+            56,
+            1505,
+            562
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "what": "retired photographic aperture, replaced by code-native composition",
+          "build_note": "The repeated waiting-wall photograph is removed. Preserve purpose copy, mission strip, principle rail, and service links; replace the right media aperture with code-native bracket/steps."
+        }
+      ],
+      "implementation_deviation": "Approved frame photo slots revised for photo-role ownership: The repeated waiting-wall photograph is removed. Preserve purpose copy, mission strip, principle rail, and service links; replace the right media aperture with code-native bracket/steps."
+    },
+    {
+      "frame": "03-facility-gallery.png",
+      "bg": "#f4f4f4",
+      "section_owner": "03-facility-gallery",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            52,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the facility gallery section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            97,
+            91,
+            700,
+            204
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            153,
+            251,
+            490,
+            364
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this facility gallery content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            154,
+            392,
+            456,
+            446
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "what": "live heading or content text group",
+          "build_note": "Keep the facility gallery horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            814,
+            69,
+            1382,
+            562
+          ],
+          "verdict": "extract",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "second supplied reception view — independent photographic slot",
+          "narrative_job": "Real reception in the facility gallery, showing a second supplied view of the same desk, not a second clinic",
+          "treatment": "framed",
+          "source": "client-copy",
+          "asset_file": "03-facility-gallery-01-real-reception.png",
+          "reuse_intent": "The gallery shows the client-supplied second view of the same reception desk to distinguish it from the About hero. Contact location details repeats this view as address-review context, not a new facility or location. Pending Art Director live review.",
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/sources/drive/reception-2.png",
+            "source_box": [
+              814,
+              69,
+              1382,
+              562
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "box": [
+            223,
+            592,
+            1459,
+            773
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "what": "candidate replacement for repeated waiting-room photo: compact live location-verification rail",
+          "build_note": "Retire this About-only waiting-room use. Keep the original reception-2 photo focal in r5 and the gallery heading, location caveat and sole /contact#location-status link live above the photo. Build a short navy/blue angular lower rail: a small unnumbered Client-supplied / Reception view label and distinct orientation to the Contact status categories (address, hours, directions, parking and accessibility). Do not repeat the address caveat or add a second link to the same destination. On mobile, bring the verification detail near the first 844px without shrinking the photo, heading or touch target. No room panorama, new image, invented address or availability. Designer review pending."
+        }
+      ],
+      "implementation_deviation": "Candidate source-truth departure pending designer review: the native lower panorama depicts room details absent from the client-supplied waiting room, and repeating the same five-chair photograph across Home, About and Contact is visually conspicuous. Retain only the original client reception-2 photograph as About's focal view; replace the lower waiting-room role with a live provenance and pending-location-status rail. Preserve the upper split and angular visual language without presenting the rail as another room. The approved manifest/frame/composition map still require a two-photo gallery and must be reconciled before fidelity approval."
+    },
+    {
+      "frame": "04-care-principles.png",
+      "bg": "#1c2424",
+      "section_owner": "04-care-principles",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            934,
+            76,
+            1523,
+            763
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            347,
+            136,
+            820,
+            239
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this care principles content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            136,
+            481,
+            760,
+            544
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            735,
+            447,
+            885,
+            707
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this care principles panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            95,
+            680,
+            415,
+            744
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 6,
+          "box": [
+            135,
+            378,
+            606,
+            442
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 7,
+          "box": [
+            135,
+            583,
+            516,
+            647
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 8,
+          "box": [
+            135,
+            278,
+            452,
+            342
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "live heading or content text group",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 9,
+          "box": [
+            96,
+            139,
+            320,
+            218
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the care principles horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 10,
+          "box": [
+            443,
+            679,
+            541,
+            744
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 11,
+          "box": [
+            1075,
+            143,
+            1498,
+            302
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "question-led upper field",
+          "build_note": "Replace false signage with a live introductory label and first visitor question. Use the existing charcoal field, one blue diagonal edge and silver keyline; no wordmark or premises depiction."
+        },
+        {
+          "id": 12,
+          "box": [
+            1098,
+            376,
+            1482,
+            570
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "what": "editorial question sequence",
+          "build_note": "Replace false lounge with two further live decision questions, divided by thin rules. Keep right-column mass and responsive reading order without a photo aperture."
+        }
+      ],
+      "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."
+    },
+    {
+      "frame": "05-team-publication-gate.png",
+      "bg": "#0c1c34",
+      "section_owner": "05-team-publication-gate",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            434,
+            59,
+            1523,
+            757
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the team publication gate section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            12,
+            790,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "live heading or content text group",
+          "build_note": "Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            131,
+            342,
+            553,
+            564
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            127,
+            148,
+            605,
+            310
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this team publication gate content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            591,
+            346,
+            884,
+            554
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 6,
+          "box": [
+            568,
+            91,
+            885,
+            164
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "live heading or content text group",
+          "build_note": "Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 7,
+          "box": [
+            132,
+            602,
+            387,
+            658
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 8,
+          "box": [
+            634,
+            240,
+            834,
+            310
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the team publication gate horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 9,
+          "box": [
+            59,
+            98,
+            133,
+            359
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this team publication gate panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 10,
+          "box": [
+            1114,
+            86,
+            1498,
+            734
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "what": "verification checklist",
+          "build_note": "Replace false reception with a live, three-row source checklist for identity, qualifications and profiles. Use a compact navy inset, blue left rule and clipped lower corner; no staff card or portrait."
+        }
+      ],
+      "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."
+    },
+    {
+      "frame": "06-booking-cta.png",
+      "bg": "#046cb4",
+      "section_owner": "06-booking-cta",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            564,
+            50,
+            1502,
+            465
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 2,
+          "box": [
+            57,
+            85,
+            483,
+            356
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 3,
+          "box": [
+            103,
+            116,
+            565,
+            205
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 4,
+          "box": [
+            118,
+            398,
+            302,
+            458
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light."
+        },
+        {
+          "id": 5,
+          "box": [
+            1121,
+            69,
+            1444,
+            289
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "booking path panel",
+          "build_note": "Replace false reception with live goals/questions/booking-status steps plus the actual calendar-pending statement. Keep the blue-to-navy angular band and link to /book in the left copy; imply no available appointment."
+        }
+      ],
+      "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."
+    }
+  ]
+}

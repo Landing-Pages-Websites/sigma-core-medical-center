@@ -1,0 +1,30 @@
+.b3-about-principles-guide { position:relative; display:flex; flex-direction:column; justify-content:space-between; min-height:470px; padding:42px 48px 34px 72px; background:linear-gradient(125deg,#0877be 0 13%,#132b42 13% 100%); clip-path:polygon(17% 0,100% 0,100% 100%,0 100%,0 18%); }
+.b3-about-guide-label,.b3-about-guide-foot { color:#aed7ec; font-size:.88rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; }
+.b3-about-guide-questions { border-left:2px solid #87bbd7; padding-left:30px; }
+.b3-about-guide-questions p { max-width:22ch; margin:0; padding:15px 0; font-size:clamp(1.35rem,2.2vw,2rem); font-weight:600; letter-spacing:-.035em; line-height:1.2; }
+.b3-about-guide-questions p + p { border-top:1px solid #65839a; }
+.b3-about-team-gate { position:relative; padding:36px 38px 30px; border:1px solid #6889a2; border-left:5px solid #0877be; background:linear-gradient(145deg,#152e48,#0d2137); clip-path:polygon(0 0,100% 0,100% 90%,92% 100%,0 100%); }
+.b3-about-gate-head { display:grid; gap:8px; margin-bottom:22px; }
+.b3-about-gate-head span { color:#9fd1ee; font-size:.83rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; }
+.b3-about-gate-head strong { max-width:17ch; font-size:clamp(1.45rem,2.4vw,2.25rem); line-height:1.13; letter-spacing:-.035em; }
+.b3-about-team-gate ul { margin:0; padding:0; list-style:none; }
+.b3-about-team-gate li { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.5fr); gap:20px; border-top:1px solid #668198; padding:15px 0; }
+.b3-about-team-gate li span { color:#afd8ee; font-size:.9rem; }
+.b3-about-team-gate li strong { font-size:1rem; font-weight:600; }
+.b3-about-booking-path { position:relative; min-height:300px; padding:34px 40px; background:linear-gradient(130deg,#07578e 0 20%,#102a46 20% 100%); clip-path:polygon(18% 0,100% 0,100% 100%,0 100%,0 24%); }
+.b3-about-booking-label { display:block; margin-left:14%; color:#addcf4; font-size:.83rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; }
+.b3-about-booking-steps { display:grid; grid-template-columns:1fr 1fr 1.15fr; gap:4px; margin:42px 0 0 14%; }
+.b3-about-booking-steps > * { display:flex; align-items:center; min-height:70px; padding:12px; border-bottom:4px solid #59b0e4; background:#214c71; font-size:.97rem; line-height:1.2; }
+.b3-about-booking-steps strong { border-color:#b7dcec; background:#0866a4; }
+.b3-about-booking-path p { max-width:36ch; margin:24px 0 0 14%; color:#e3eef4; font-size:1rem; line-height:1.5; }
+@media (max-width:760px) {
+  .b3-about-principles-guide { min-height:0; gap:25px; padding:30px 26px 28px 42px; }
+  .b3-about-guide-questions { padding-left:20px; }
+  .b3-about-guide-questions p { font-size:1.4rem; }
+  .b3-about-team-gate { padding:28px 24px 26px; }
+  .b3-about-team-gate li { gap:12px; }
+  .b3-about-booking-path { min-height:0; padding:30px 22px; }
+  .b3-about-booking-label,.b3-about-booking-steps,.b3-about-booking-path p { margin-left:12%; }
+  .b3-about-booking-steps { gap:3px; margin-top:25px; }
+  .b3-about-booking-steps > * { min-height:78px; padding:7px; font-size:.82rem; }
+}

@@ -99,28 +99,28 @@
       "implementation_owner": "src/components/batch-three/about/principles.tsx",
       "content_source": "section_manifest.json#04-care-principles",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-native editorial content; zero raster owners"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Care principles, service and booking-status links remain live; the right field supplies decision questions."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "Two synthetic premises images are removed from render use; the original frame still calls for two photos."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Charcoal left principle list faces two individually cropped facility details at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "The right field is a live editorial question sequence instead of stacked room crops."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "About-scoped charcoal/blue angular field and silver rules carry the right column without false signage or lounge."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Desktop/mobile CSS stacks the question sequence after principles; screenshots unavailable because local Chromium cannot load libnspr4.so."
         }
       },
       "frame": "04-care-principles"
@@ -130,28 +130,28 @@
       "implementation_owner": "src/components/batch-three/about/team.tsx",
       "content_source": "section_manifest.json#05-team-publication-gate",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-native editorial content; zero raster owners"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Publication caveat and pending status remain live; source requirements are itemized without provider cards."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "The synthetic reception image is removed from render use; the original frame still calls for a photo."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Large publication-gate statement dominates left; clinic detail sits at right without team portraits. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "A live verification checklist replaces the reception slot, preserving the left statement/right supporting mass."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "About-scoped navy inset, blue rule and clipped lower corner replace the room treatment."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Desktop/mobile CSS keeps the gate after the heading and notice; screenshots unavailable because local Chromium cannot load libnspr4.so."
         }
       },
       "frame": "05-team-publication-gate"
@@ -161,28 +161,28 @@
       "implementation_owner": "src/components/batch-three/about/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-native editorial content; zero raster owners"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "Goals invitation and honest /book status action remain live; the right panel states that the calendar is not connected."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "The synthetic reception image is removed from render use; the original frame still calls for a photo."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Compact blue booking band places live booking copy at left and clinic detail at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "A live goals/questions/status path replaces the room crop beside the booking invitation."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "About-scoped blue-to-navy angular field and step rail replace the room treatment."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Desktop/mobile CSS preserves CTA before status path; screenshots unavailable because local Chromium cannot load libnspr4.so."
         }
       },
       "frame": "06-booking-cta"
