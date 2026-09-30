@@ -1,0 +1,15 @@
+.b3-contact-booking > .b3-shell { grid-template-columns:minmax(0, .95fr) minmax(0, 1.05fr); }
+.b3-booking-copy { max-width:590px; }
+.b3-booking-availability { position:relative; display:flex; flex-direction:column; justify-content:center; min-height:420px; padding:clamp(32px,4vw,64px); border:1px solid #65798c; background:#142439; }
+.b3-booking-availability::before { content:""; position:absolute; top:28px; right:28px; width:48px; height:48px; border-top:4px solid #aab7c1; border-right:4px solid #aab7c1; }
+.b3-booking-availability::after { content:""; position:absolute; bottom:0; left:0; width:92px; height:6px; background:#aab7c1; }
+.b3-booking-availability-label { color:#b9cbd8; font-size:.9rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.b3-booking-availability strong { display:block; max-width:10ch; margin-top:28px; font-size:clamp(3rem,5vw,5.6rem); font-weight:600; letter-spacing:-.055em; line-height:1.04; }
+.b3 .b3-booking-availability p { max-width:33ch; margin-top:26px; padding-top:20px; border-top:1px solid #65798c; color:#dce4ea; font-size:1rem; line-height:1.55; }
+@media(max-width:760px) {
+  .b3-contact-booking > .b3-shell { grid-template-columns:1fr; gap:44px; }
+  .b3-booking-availability { min-height:290px; padding:32px 28px; }
+  .b3-booking-availability::before { top:24px; right:24px; width:32px; height:32px; border-width:3px; }
+  .b3-booking-availability strong { margin-top:22px; font-size:clamp(2.8rem,12vw,4.5rem); }
+  .b3 .b3-booking-availability p { margin-top:20px; }
+}

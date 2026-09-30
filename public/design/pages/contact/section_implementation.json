@@ -99,28 +99,28 @@
       "implementation_owner": "src/components/batch-three/contact/booking.tsx",
       "content_source": "section_manifest.json#04-booking-cta",
       "asset_roles": [
-        "live, code-only integration status"
+        "live code-only online appointment availability field"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "status": "PENDING",
+          "evidence": "The live /book status action and conditional calendar wording replace the unverified request-now promise. The approved manifest still promises booking, so content fidelity awaits a truthful successor."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "status": "PENDING",
+          "evidence": "The unsupplied lounge raster is absent from Contact runtime. The approved frame and composition map still require photographed office imagery."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Dark booking copy and action counterbalance clipped reception photography at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "One static availability field balances the left status action. A successor frame must approve this change from the photographed right field."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "Section-owned charcoal, navy and silver styling preserves the local palette; independent Art Director review is pending."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "Loaded 1440x900 and 390x844 local captures show the live field and section seams without lateral overflow. Fidelity remains pending a truthful successor contract and independent review."
         }
       },
       "frame": "04-booking-cta"
