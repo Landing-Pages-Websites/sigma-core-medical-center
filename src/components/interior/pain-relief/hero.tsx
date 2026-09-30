@@ -10,13 +10,12 @@ export function PainHero(): React.ReactElement {
           <h1>Move toward a more informed plan for persistent pain</h1>
           <p className="pain-hero-lede">Start with how pain affects your movement and daily life, then bring your questions to a qualified healthcare professional.</p>
           <Link href="#pain-concern-navigation" className="interior-action">Find your concern <ArrowDownRight size={20} aria-hidden /></Link>
-          <p className="pain-hero-caveat">Explore distinct knee, low-back and neck questions in one place. This page cannot diagnose your symptoms.</p>
         </div>
         <div className="pain-movement" aria-label="Knee, low-back and neck concerns connect through everyday movement">
           <div className="pain-movement-line" aria-hidden="true" />
           <p>Movement is personal.</p>
           <div className="pain-movement-labels"><span>Walking &amp; stairs</span><span>Sitting &amp; lifting</span><span>Turning &amp; looking</span></div>
-          <small>Different concerns. Different questions. An informed next step.</small>
+          <small>Different concerns call for different questions. This page cannot diagnose your symptoms.</small>
         </div>
       </div>
     </section>
