@@ -12,7 +12,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "R3 keeps the garden image and states current unavailability and no request submission before the status action. Exact copy, successor contract, and clinical/compliance review remain pending."
+          "evidence": "R4 keeps the garden image and states current unavailability before a real service-overview link. Exact copy, successor contract, and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PASS",
@@ -74,7 +74,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Ordered prompts remain without visible counters. R3 states current unavailability and no request submission at 18px before the status action; exact copy awaits successor and applicable review."
+          "evidence": "Ordered prompts remain without visible counters. R4 keeps the 18px unavailable status as text and removes the redundant modal action; exact copy awaits successor and applicable review."
         },
         "imagery": {
           "status": "PENDING",
@@ -105,7 +105,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "R3 replaces the unverified prepared-route statement with current unavailability and no request submission. Privacy/process panel remains; exact copy and contract review remain pending."
+          "evidence": "R4 retains current unavailability and no request submission in 18px text and removes the redundant modal action. Privacy/process panel remains; exact copy and contract review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -136,7 +136,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Four answers remain in order without folio. The booking answer states current unavailability, and primary answers use at least 18px; successor copy and clinical/compliance review remain pending."
+          "evidence": "Four answers remain in order without folio. The 18px booking answer states current unavailability without a loop to #form; the service-overview link remains. Successor copy and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -167,7 +167,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "One visible unavailable status precedes the status-only action; the right panel now offers preparation prompts without repeating or promising access. Successor copy and booking approval remain pending."
+          "evidence": "One 18px unavailable status remains as text. The redundant modal action is removed; the right panel offers preparation prompts and a real service-overview link without promising booking access. Successor copy and booking approval remain pending."
         },
         "imagery": {
           "status": "PENDING",
