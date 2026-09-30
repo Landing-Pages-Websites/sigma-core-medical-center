@@ -68,6 +68,9 @@
 .h-book-top > div:first-child { display: flex; flex-direction: column; align-items: start; gap: 20px; }
 .h-book-top > div:first-child p { max-width: 35ch; }
 .h-book-top .b2-small { font-size: 1.125rem; opacity: 1; }
+.h-book-related { font-size: 1.125rem; }
+.h-book-related a { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; color: var(--color-focus); font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.h-book-related a:hover { color: #fff; text-decoration-thickness: 2px; }
 .h-book-status { display: flex; flex-direction: column; min-height: 270px; padding: 28px 32px; border: 1px solid #8aa4ba; border-top: 5px solid var(--color-electric); background: linear-gradient(135deg,#172c47 0 72%,#0965aa 72%); }
 .h-book-status > span { color: var(--color-silver); font-size: .84rem; letter-spacing: .08em; text-transform: uppercase; }
 .h-book-status strong { max-width: 17ch; margin: 16px 0; font-size: clamp(1.5rem,2.1vw,2rem); line-height: 1.15; }

@@ -90,7 +90,7 @@
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "r3 narrows card and lower-strip padding at 600px and below, preserves a 20px gap below the fourth card, and keeps question text at 18px. Chromium closed before r3 viewport capture; height, overflow, and painted seams remain unverified."
+          "evidence": "Independent r3 review kept the mobile compression: the 390px section measured 1,188px, all seven prompts and both links remained, and question text computed to 18px. r4 section-and-seam captures at 1440px and 390px are pixel-identical to r3 here; successor frame and full site seam review remain pending."
         }
       }
     },
@@ -167,7 +167,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "r3 keeps the visible unavailability status and no booking link or active form. The primary action opens the live services overview; the duplicate FAQ-status link is removed. Successor review remains pending."
+          "evidence": "r4 keeps explicit online-scheduling unavailability, no booking link or active form, and no provider or process claim. The /services comparison is now a contextual link for a different concern, not a primary late-stage button. Independent r4 review and successor contract remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -175,15 +175,15 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "r3 retains the tile-free two-part status composition and removes the duplicate FAQ-status link. Native frame and composition-map successor plus r3 viewport review remain pending."
+          "evidence": "r4 retains the tile-free two-panel status close; the former large /services button is a secondary text link below the preparation copy. Local 1440px and 390px section-and-seam captures show both panels and the adjacent source section; native frame and composition-map successor review remain pending."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r4 uses an underlined 18px contextual link with a visible 3px keyboard-focus outline and 48px hit height; the dark left panel and bordered calendar-status panel remain. Independent art direction and approved successor frame are pending."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r4 local section-plus-48px-seam captures at CSS 1440×900 and 390×844 show no overflow or clipped status copy. The /services link remains 48px tall and keyboard focus-visible at both widths; full painted site-edge review remains pending."
         }
       }
     },
