@@ -30,59 +30,24 @@
 }
 
 .b3-guide-visual {
+  display: flex;
+  justify-content: flex-end;
   min-width: 0;
 }
 
 .b3-guide-stage {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 320px;
-  padding: 38px 44px 34px;
-  isolation: isolate;
-  overflow: hidden;
-  background: #16486e;
-  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%, 0 30%);
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
 }
 
-.b3-guide-stage::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(135deg, transparent 0 46%, #0877be 46% 46.4%, transparent 46.4% 100%);
-  opacity: .9;
+.b3-guide-stage path {
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
 }
 
-.b3-guide-stage::after {
-  content: "";
-  position: absolute;
-  right: -13%;
-  top: -37%;
-  width: 75%;
-  aspect-ratio: 1;
-  border: 1px solid rgba(199, 203, 208, .47);
-  border-radius: 50%;
-  box-shadow: 0 0 0 36px rgba(199, 203, 208, .08), 0 0 0 88px rgba(199, 203, 208, .06);
-  pointer-events: none;
-}
-
-.b3-guide-stage-mark {
-  display: flex;
-  align-items: end;
-  gap: 7px;
-  height: 44px;
-  margin-left: auto;
-}
-
-.b3-guide-stage-mark span {
-  width: 9px;
-  height: 15px;
-  background: #6dbce9;
-}
-
-.b3-guide-stage-mark span:nth-child(2) { height: 28px; }
-.b3-guide-stage-mark span:nth-child(3) { height: 42px; }
+.b3-guide-stage-bracket { stroke: #849fb2; }
+.b3-guide-stage-step { stroke: #0877be; }
 
 .b3-guide-rail {
   margin-top: 48px;
@@ -250,7 +215,7 @@
   .b3-guide-summary .b3-split { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .b3-guide-hero > .b3-shell.b3-split { gap: 28px; }
   .b3-guide-intro h1 { max-width: 12ch; }
-  .b3-guide-stage { min-height: 264px; padding: 26px; }
+  .b3-guide-stage { width: min(72%, 252px); }
   .b3-guide-rail { margin-top: 28px; }
   .b3-guide-summary { padding-block: 52px 44px; }
   .b3-guide-source { min-height: 0; }
