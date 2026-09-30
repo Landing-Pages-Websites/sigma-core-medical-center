@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const QUESTIONS = [
   ["Can I discuss my concerns privately?", "You can bring your questions to an individual conversation. Specific privacy and scheduling practices await confirmation."],
-  ["How do I book?", "Online scheduling is not available yet; appointment requests cannot be submitted here."],
+  ["How do I book?", "Online scheduling is unavailable; appointment requests cannot be submitted here."],
   ["Where does the clinic serve?", "Sigma Core serves the Richmond, Virginia area. Specific address details remain to be reconfirmed."],
   ["Why can't my questions be answered here?", "An appropriate clinician needs your individual context to address questions about a condition or care options."],
 ];

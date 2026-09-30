@@ -12,7 +12,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Garden composition and image stay unchanged. Visible booking availability and CTA copy are revised locally; successor copy and clinical/compliance review remain pending."
+          "evidence": "R3 keeps the garden image and states current unavailability and no request submission before the status action. Exact copy, successor contract, and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PASS",
@@ -74,7 +74,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Ordered prompts remain; decorative counters are removed and unavailable booking is disclosed. Revised copy awaits successor contract and applicable review."
+          "evidence": "Ordered prompts remain without visible counters. R3 states current unavailability and no request submission at 18px before the status action; exact copy awaits successor and applicable review."
         },
         "imagery": {
           "status": "PENDING",
@@ -105,7 +105,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Privacy/process composition and copy remain unchanged; only the booking-control label now reflects unavailable scheduling. Contract review remains pending."
+          "evidence": "R3 replaces the unverified prepared-route statement with current unavailability and no request submission. Privacy/process panel remains; exact copy and contract review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -136,7 +136,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Four answers remain in order. Folio is removed; title and booking answer/link are revised. Successor copy and clinical/compliance review remain pending."
+          "evidence": "Four answers remain in order without folio. The booking answer states current unavailability, and primary answers use at least 18px; successor copy and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -167,7 +167,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Status-oriented heading and control replace appointment-request language. Successor copy and booking approval remain pending."
+          "evidence": "One visible unavailable status precedes the status-only action; the right panel now offers preparation prompts without repeating or promising access. Successor copy and booking approval remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -198,7 +198,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "The NIDDK reference is limited to a consulted bladder-control overview. Final clinical sources and explanatory copy require clinical/compliance approval."
+          "evidence": "R3 shortens the visitor heading and lead while limiting NIDDK to a consulted bladder-control overview and retaining no-endorsement and medical-advice limits. Final sources and copy require clinical/compliance approval."
         },
         "imagery": {
           "status": "PENDING",

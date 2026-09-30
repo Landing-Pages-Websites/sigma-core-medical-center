@@ -2,7 +2,7 @@
 .p-hero-grid { display: grid; grid-template-columns: 51% 49%; align-items: center; min-height: 670px; gap: 24px; }
 .p-hero h1 { max-width: 16ch !important; }
 .p-hero-grid > div:first-child p { margin-top: 26px; }
-.p-hero-grid > div:first-child .p-hero-status { margin-top: 14px; color: #d6e6f0; font-size: 1rem; }
+.p-hero-grid > div:first-child .p-hero-status { margin-top: 14px; color: #d6e6f0; font-size: 1.125rem; }
 .p-hero-art { position: relative; height: 565px; display: flex; justify-content: end; align-items: center; background: linear-gradient(145deg,transparent 14%,#d8d2c9 14% 30%,#263039 30% 80%,transparent 80%); }
 .p-hero-art .interior-photo { height: 500px; width: 76%; clip-path: polygon(0 0,100% 0,100% 100%,0 100%); }
 .p-hero-art .interior-photo img { object-position: center; }
@@ -25,7 +25,7 @@
 .p-goals-main { padding: 24px 42px 24px 0; }
 .p-goals h2 { max-width: 12ch; margin-bottom: 28px; }
 .p-goals-main p { max-width: 48ch; }
-.p-goals-main .p-goals-status { margin-top: 18px; font-size: 1rem; font-weight: 600; }
+.p-goals-main .p-goals-status { margin-top: 18px; font-size: 1.125rem; font-weight: 600; }
 .p-goals .b2-button { margin-top: 26px; }
 .p-goals-questions { position: relative; min-height: 480px; display: flex; flex-direction: column; justify-content: center; padding: 56px clamp(28px, 5vw, 72px) 52px; color: var(--color-surface); background: var(--color-ink); clip-path: polygon(16% 0,100% 0,100% 100%,0 100%,0 20%); }
 .p-goals-questions::after { content: ""; position: absolute; right: 0; top: 0; width: 76px; height: 8px; background: var(--color-electric); box-shadow: -26px 16px 0 var(--color-electric), -52px 32px 0 var(--color-electric); }
@@ -54,6 +54,7 @@
 .p-faq-boundary strong { display: block; font-size: clamp(1.55rem, 2.3vw, 2.2rem); line-height: 1.12; letter-spacing: -.03em; }
 .p-faq-boundary p { max-width: 28ch; margin-top: 12px; color: #d9e4ec; }
 .p-faq dl > div { background: var(--color-surface) !important; color: var(--color-ink); }
+.p-faq dd { font-size: 1.125rem !important; line-height: 1.5 !important; }
 .p-faq dd a { color: #075f9c; font-weight: 700; text-decoration: underline; }
 .p-faq-note { margin-top: 22px; padding: 18px 22px; border: 1px solid var(--color-silver); line-height: 1.5; }
 
@@ -79,6 +80,9 @@
 .p-sources-reference a { display: block; max-width: 20ch; color: var(--color-ink); font-size: clamp(1.5rem, 2.2vw, 2.25rem); font-weight: 700; line-height: 1.2; letter-spacing: -.025em; text-decoration-thickness: 2px; }
 .p-sources-reference a:hover { color: #075f9c; }
 .p-sources-reference p { max-width: 38ch; margin-top: 22px; }
+.pelvic dialog h2 { font-size: 1.5rem; line-height: 1.2; letter-spacing: -.025em; }
+.pelvic dialog p { font-size: 1.125rem; line-height: 1.55; }
+.pelvic dialog button:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
 
 @media (max-width: 800px) {
   .p-hero-grid,.p-goals-grid,.p-expect-grid,.p-faq-grid,.p-book-panel,.p-sources-grid { grid-template-columns: 1fr; min-height: 0; }
