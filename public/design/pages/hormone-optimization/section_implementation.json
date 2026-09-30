@@ -12,7 +12,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Booking-shaped hero action now shows unavailability and links to live questions; successor frame/manifest review is pending."
+          "evidence": "r2 preserves the real question link and present scheduling status; 18px status CSS declared. Successor frame and independent viewport review remain pending."
         },
         "imagery": {
           "status": "PASS",
@@ -74,7 +74,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 retains four distinct live questions and the question strip with an 18px CSS floor. Successor frame and independent viewport review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -90,7 +90,7 @@
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 compresses pale labels at desktop and mobile and separates the fourth panel from the navy strip; viewport capture remains pending after local Chromium launch failure."
         }
       }
     },
@@ -105,7 +105,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 states current scheduling unavailability and unapproved provider, process, and calendar details without a future booking guarantee; successor review pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -136,7 +136,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 booking answer states current unavailability, with four answers retained and 18px answer CSS declared; successor review pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -167,7 +167,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 Booking status has no future availability promise or active form; the only primary action links to live goals questions. Successor review pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -175,7 +175,7 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
+          "evidence": "r2 removes the three process-like booking tiles; native frame and composition-map successor plus independent viewport review remain pending."
         },
         "visual_treatment": {
           "status": "PENDING",

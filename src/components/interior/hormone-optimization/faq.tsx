@@ -3,7 +3,7 @@ import Link from "next/link";
 const QUESTIONS = [
   ["Why does individual assessment matter?", "Goals and symptoms can overlap with many health factors. Only an appropriate clinician can consider your individual context."],
   ["Does this page give medical advice?", "No. This is general information to help you prepare questions, not a diagnosis or treatment plan."],
-  ["How do I book an appointment?", "Online scheduling is still being prepared. Booking will be available after the clinical details and calendar are approved."],
+  ["How do I book an appointment?", "Online scheduling is unavailable. Provider identity, clinical process, and calendar details are not approved, so this page has no booking link."],
   ["Where does Sigma Core serve?", "Sigma Core serves the Richmond, Virginia area. Specific location details are being confirmed."],
 ];
 
