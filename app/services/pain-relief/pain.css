@@ -1,0 +1,141 @@
+/* Pain route successor composition: live information and geometry replace false facility crops. */
+.pain-page .pain-hero { padding: 88px 0 78px; background: #101e33; }
+.pain-page .pain-hero-grid { grid-template-columns: minmax(0, 58%) minmax(0, 42%); align-items: stretch; min-height: 565px; gap: 0; }
+.pain-page .pain-hero-copy { align-self: center; padding-block: 16px; padding-right: clamp(28px, 5vw, 86px); }
+.pain-page .pain-kicker { margin: 0 0 20px; color: #93cce8; font-size: .98rem; font-weight: 600; letter-spacing: .04em; }
+.pain-page .pain-hero h1 { max-width: 13ch; margin: 0; font-size: clamp(3.1rem, 5.2vw, 5.35rem); }
+.pain-page .pain-hero-lede { max-width: 43ch; font-size: clamp(1.13rem, 1.6vw, 1.4rem); line-height: 1.5; }
+.pain-page .pain-hero-caveat { max-width: 53ch; margin-bottom: 0; font-size: .99rem; color: #c5d8e4; }
+.pain-page .pain-movement { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; overflow: hidden; padding: clamp(32px, 4vw, 62px); background: linear-gradient(145deg, #076eaf, #064c7c 58%, #173450); clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 20%); }
+.pain-page .pain-movement::before { content: ""; position: absolute; inset: 30px; border-top: 2px solid #b5e1f2; border-right: 2px solid #b5e1f2; opacity: .8; pointer-events: none; }
+.pain-page .pain-movement-line { position: absolute; top: 13%; left: 38%; width: 47%; height: 0; border-top: 2px solid #b5e1f2; transform: rotate(-15deg); opacity: .65; }
+.pain-page .pain-movement-line::after { content: ""; position: absolute; right: -3px; top: -5px; width: 8px; height: 8px; border-radius: 50%; background: #b5e1f2; }
+.pain-page .pain-movement p { position: relative; z-index: 1; max-width: 10ch; margin: 0 0 28px; font-size: clamp(2.35rem, 3.8vw, 4.4rem); font-weight: 600; line-height: 1.04; letter-spacing: -.04em; }
+.pain-page .pain-movement-labels { position: relative; z-index: 1; display: grid; gap: 0; border-top: 2px solid #b5e1f2; }
+.pain-page .pain-movement-labels span { padding: 12px 0; border-bottom: 1px solid #94c5dc; font-weight: 600; }
+.pain-page .pain-movement small { position: relative; z-index: 1; max-width: 26ch; color: #d9edf5; }
+
+.pain-page .pain-navigation { padding-bottom: 64px; }
+.pain-page .pain-navigation-head { padding: 64px 0 128px; background: #0766a2; }
+.pain-page .pain-navigation-head h2 { margin: 0 0 18px; max-width: 15ch; }
+.pain-page .pain-navigation-head p { max-width: 54ch; margin: 0; font-size: 1.2rem; }
+.pain-page .pain-navigation-cards { grid-template-columns: 1.13fr 1fr 1fr; gap: 12px; margin-top: -82px; }
+.pain-page .pain-nav-card { display: flex; flex-direction: column; min-height: 276px; padding: 25px 28px 22px; border-top: 3px solid #88cde9; background: #152d48; color: #f7f6f3; clip-path: polygon(0 0, 100% 0, 100% 90%, 93% 100%, 0 100%); }
+.pain-page .pain-nav-card:nth-child(2) { background: #203a50; }
+.pain-page .pain-nav-card:nth-child(3) { background: #283440; }
+.pain-page .pain-nav-card:hover, .pain-page .pain-nav-card:focus-visible { background: #07578b; transform: translateY(-4px); }
+.pain-page .pain-nav-card:focus-visible { outline: 3px solid #064f80; outline-offset: 4px; clip-path: none; }
+.pain-page .pain-nav-cue { min-height: 34px; color: #b4d6e9; font-size: .89rem; letter-spacing: .03em; }
+.pain-page .pain-nav-card strong { margin: 17px 0 7px; font-size: clamp(2rem, 3.1vw, 3.4rem); line-height: 1.02; letter-spacing: -.035em; }
+.pain-page .pain-nav-question { max-width: 24ch; font-size: 1.06rem; line-height: 1.42; }
+.pain-page .pain-nav-link { display: inline-flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 18px; color: #d7edf6; font-size: .99rem; font-weight: 600; }
+.pain-page .pain-navigation-note { padding-top: 27px; color: #354b5c; }
+
+.pain-page .pain-neck { padding-bottom: 72px; }
+.pain-page .pain-neck-reader { clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%, 0 6%); }
+.pain-page .pain-neck-rail { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin: 25px 0 20px; background: #22384b; border-top: 2px solid #2584bd; }
+.pain-page .pain-neck-rail p { min-height: 122px; margin: 0; padding: 26px 28px; border-right: 1px solid #668097; font-size: 1.12rem; line-height: 1.45; }
+.pain-page .pain-neck-rail p:last-child { border-right: 0; }
+.pain-page .pain-text-link { display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 5px; transition: color 180ms; }
+.pain-page .pain-text-link:hover, .pain-page .pain-text-link:focus-visible { color: #0877be; }
+.pain-page .pain-neck .pain-text-link { color: #a4d9f2; }
+.pain-page .pain-neck .pain-text-link:hover, .pain-page .pain-neck .pain-text-link:focus-visible { color: #f7f6f3; }
+
+.pain-page .pain-decisions { padding: 82px 0 72px; background: #08639d; }
+.pain-page .pain-decisions-layout { display: grid; grid-template-columns: minmax(0, 39%) minmax(0, 61%); gap: clamp(28px, 5vw, 82px); }
+.pain-page .pain-decisions-intro { padding-right: 24px; }
+.pain-page .pain-decisions h2 { max-width: 11ch; margin: 0 0 24px; }
+.pain-page .pain-decisions-intro p { max-width: 34ch; font-size: 1.2rem; }
+.pain-page .pain-decision-mark { width: 62%; min-height: 130px; margin-top: 40px; border-left: 2px solid #abd9ed; border-bottom: 2px solid #abd9ed; display: flex; align-items: end; gap: 12px; padding: 0 0 12px 17px; transform: skewY(-13deg); opacity: .82; }
+.pain-page .pain-decision-mark span { display: block; width: 20%; border-top: 2px solid #abd9ed; }
+.pain-page .pain-decision-mark span:nth-child(1) { height: 24%; }.pain-page .pain-decision-mark span:nth-child(2) { height: 46%; }.pain-page .pain-decision-mark span:nth-child(3) { height: 68%; }
+.pain-page .pain-decisions h3 { margin: 0 0 17px; font-size: 1.55rem; letter-spacing: -.025em; }
+.pain-page .pain-decisions-questions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; margin: 0; border-top: 2px solid #b4d9e9; }
+.pain-page .pain-decisions-questions li, .pain-page .pain-decisions-questions li:nth-child(even) { min-height: 0; padding: 17px 4px 17px 24px; border-bottom: 1px solid #a1cce1; background: transparent; color: #f7f6f3; font-size: 1.06rem; font-weight: 600; line-height: 1.35; position: relative; }
+.pain-page .pain-decisions-questions li::before { content: ""; position: absolute; left: 0; top: 23px; width: 9px; height: 9px; border: 2px solid #c6e6f2; }
+.pain-page .pain-decisions-note { padding: 14px 0 0; margin: 0; background: transparent; font-size: .96rem; }
+.pain-page .pain-decisions-links { display: flex; flex-wrap: wrap; gap: 14px 30px; margin-top: 20px; }
+.pain-page .pain-decisions-links a { color: #f7f6f3; font-weight: 600; text-decoration: underline; text-underline-offset: 5px; }
+.pain-page .pain-decisions-links a:hover, .pain-page .pain-decisions-links a:focus-visible { color: #c5e7f5; }
+
+.pain-page .pain-faq { padding: 84px 0; }
+.pain-page .pain-faq-grid { grid-template-columns: minmax(0, 32%) minmax(0, 68%); gap: 20px; }
+.pain-page .pain-faq-intro { padding-right: 30px; }
+.pain-page .pain-faq-intro p { max-width: 28ch; margin: 22px 0; }
+.pain-page .pain-faq-rule { width: 75%; height: 68px; margin: 30px 0 16px; border-top: 2px solid #0877be; border-right: 2px solid #0877be; transform: skewX(-18deg); }
+.pain-page .pain-faq-stack { display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 28%); background: #101e33; }
+.pain-page .pain-faq-stack dl { margin: 0; padding: 12px; }
+.pain-page .pain-faq-stack dl div { margin: 0; padding: 16px 18px; background: #f0eee8; border-left: 0; border-bottom: 1px solid #aeb9c1; }
+.pain-page .pain-faq-stack dl div:last-child { border-bottom: 0; }
+.pain-page .pain-faq-stack dt { font-size: 1.08rem; }.pain-page .pain-faq-stack dd { line-height: 1.45; }
+.pain-page .pain-faq-action { justify-content: flex-end; gap: 12px; padding: 28px 22px; background: #08639d; color: #f7f6f3; }
+.pain-page .pain-faq-action strong { font-size: 1.45rem; line-height: 1.1; }
+.pain-page .pain-faq-action p { margin: 0; font-size: .98rem; line-height: 1.45; }
+.pain-page .pain-faq-action a { margin-top: 10px; color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 5px; }
+.pain-page .pain-faq-action a:hover, .pain-page .pain-faq-action a:focus-visible { color: #c4e8f7; }
+
+.pain-page .pain-book { padding: 80px 0 72px; }
+.pain-page .pain-book-grid { grid-template-columns: minmax(0, 50%) minmax(0, 50%); gap: 0; align-items: stretch; }
+.pain-page .pain-book-grid > div:first-child { padding: 26px clamp(30px, 6vw, 90px) 36px 0; }
+.pain-page .pain-book h2 { max-width: 12ch; }
+.pain-page .pain-book p { max-width: 35ch; }
+.pain-page .pain-book-prep { display: flex; flex-direction: column; justify-content: flex-end; min-height: 390px; padding: 38px clamp(30px, 5vw, 70px); background: linear-gradient(135deg, #1b415e, #10263c); border-top: 3px solid #78c3e4; clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 17%); }
+.pain-page .pain-book-prep-label { margin-bottom: 28px; color: #a7d8ee; font-weight: 600; }
+.pain-page .pain-book-prep p { max-width: none; margin: 0; padding: 12px 0; border-top: 1px solid #86aec6; font-size: clamp(1.15rem, 1.7vw, 1.5rem); line-height: 1.3; font-weight: 600; }
+.pain-page .pain-book-prep a { display: inline-flex; align-items: center; gap: 9px; width: fit-content; margin-top: 25px; color: #d2eaf5; font-weight: 600; text-decoration: underline; text-underline-offset: 5px; }
+.pain-page .pain-book-prep a:hover, .pain-page .pain-book-prep a:focus-visible { color: #fff; }
+.pain-page .pain-book-rail a:focus-visible { outline: 3px solid #f7f6f3; outline-offset: -4px; }
+
+.pain-page .pain-sources { padding: 72px 0 84px; }
+.pain-page .pain-sources-grid { grid-template-columns: minmax(0, 73%) minmax(0, 27%); gap: 28px; }
+.pain-page .pain-sources h2 { margin: 0 0 19px; }.pain-page .pain-sources p { max-width: 67ch; margin: 0 0 25px; }
+.pain-page .pain-source-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pain-page .pain-source-list > div { min-width: 0; }.pain-page .pain-source-list a { overflow-wrap: anywhere; }
+.pain-page .pain-source-list a:focus-visible { outline: 3px solid #72c7f3; outline-offset: 4px; }
+.pain-page .pain-source-context { align-self: stretch; display: flex; flex-direction: column; justify-content: center; min-width: 0; padding: 30px; border-left: 2px solid #8bcce6; background: #19364f; }
+.pain-page .pain-source-context span { color: #a7d8ee; font-size: .9rem; font-weight: 600; }
+.pain-page .pain-source-context p { margin: 20px 0 30px; font-size: 1.45rem; font-weight: 600; line-height: 1.3; letter-spacing: -.025em; }
+.pain-page .pain-source-context div { height: 45px; border-top: 2px solid #8bcce6; border-right: 2px solid #8bcce6; transform: skewX(-22deg); }
+
+@media (max-width: 900px) {
+  .pain-page .pain-hero-grid, .pain-page .pain-decisions-layout, .pain-page .pain-faq-grid, .pain-page .pain-book-grid, .pain-page .pain-sources-grid { grid-template-columns: 1fr; }
+  .pain-page .pain-hero { padding: 56px 0; }.pain-page .pain-hero-copy { padding-right: 0; margin-bottom: 35px; }
+  .pain-page .pain-movement { min-height: 380px; }
+  .pain-page .pain-navigation-cards { grid-template-columns: 1fr; }
+  .pain-page .pain-nav-card { min-height: 210px; }
+  .pain-page .pain-decisions-layout { gap: 28px; }.pain-page .pain-decision-mark { display: none; }
+  .pain-page .pain-faq-stack { grid-template-columns: minmax(0, 1fr) minmax(190px, 28%); }
+  .pain-page .pain-book-grid > div:first-child { padding: 0 0 30px; }
+  .pain-page .pain-book-prep { min-height: 325px; }
+  .pain-page .pain-sources-grid { gap: 24px; }
+}
+@media (max-width: 600px) {
+  .pain-page .interior-wrap { width: min(100% - 32px, 1320px); }
+  .pain-page .pain-hero { padding: 44px 0 36px; }
+  .pain-page .pain-hero h1 { font-size: clamp(2.5rem, 11vw, 3.6rem); }
+  .pain-page .pain-kicker { font-size: .85rem; }
+  .pain-page .pain-hero-lede { font-size: 1.08rem; }
+  .pain-page .pain-movement { min-height: 320px; padding: 30px 25px; clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 17%); }
+  .pain-page .pain-movement::before { inset: 18px; }.pain-page .pain-movement p { font-size: 2.55rem; margin-bottom: 16px; }
+  .pain-page .pain-movement-line { display: none; }
+  .pain-page .pain-movement-labels span { padding: 7px 0; font-size: .9rem; }
+  .pain-page .pain-movement small { font-size: .79rem; }
+  .pain-page .pain-navigation-head { padding: 48px 0 118px; }.pain-page .pain-navigation-head p { font-size: 1.08rem; }
+  .pain-page .pain-navigation-cards { margin-top: -86px; gap: 10px; }
+  .pain-page .pain-nav-card { min-height: 185px; padding: 18px 22px; }
+  .pain-page .pain-nav-card strong { margin: 8px 0 5px; font-size: 2.2rem; }
+  .pain-page .pain-nav-cue { min-height: 0; }.pain-page .pain-nav-link { padding-top: 10px; }
+  .pain-page .pain-neck-rail { grid-template-columns: 1fr; }.pain-page .pain-neck-rail p { min-height: 0; padding: 18px 22px; border-right: 0; border-bottom: 1px solid #668097; }
+  .pain-page .pain-decisions { padding: 57px 0; }.pain-page .pain-decisions h2 { max-width: 12ch; }
+  .pain-page .pain-decisions-questions { grid-template-columns: 1fr; }.pain-page .pain-decisions-questions li { padding-block: 14px; }
+  .pain-page .pain-faq { padding: 55px 0; }.pain-page .pain-faq-intro { padding-right: 0; }.pain-page .pain-faq-rule { display: none; }
+  .pain-page .pain-faq-stack { grid-template-columns: 1fr; }.pain-page .pain-faq-action { padding: 24px; }
+  .pain-page .pain-book { padding: 55px 0; }.pain-page .pain-book-prep { min-height: 0; padding: 72px 27px 27px; }
+  .pain-page .pain-book-rail { grid-template-columns: repeat(3, minmax(0, 1fr)); }.pain-page .pain-book-rail a { padding: 14px 8px; text-align: center; font-size: .92rem; }
+  .pain-page .pain-sources { padding: 56px 0; }.pain-page .pain-source-list { grid-template-columns: 1fr; }
+  .pain-page .pain-source-list > div { border-right: 0; }.pain-page .pain-source-context p { font-size: 1.28rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pain-page .pain-nav-card, .pain-page .pain-text-link { transition: none; }
+  .pain-page .pain-nav-card:hover { transform: none; }
+}

@@ -8,9 +8,10 @@ import { PainDecisions } from "@/components/interior/pain-relief/decisions";
 import { PainFaq } from "@/components/interior/pain-relief/faq";
 import { PainBooking } from "@/components/interior/pain-relief/booking";
 import { PainSources } from "@/components/interior/pain-relief/sources";
+import "./pain.css";
 
-export const metadata: Metadata = { title: "Pain Relief Care for Knee, Back & Neck Concerns in Richmond, VA", description: "Explore knee, low-back and neck concerns in one Richmond-area care overview. Learn questions to discuss and how to take an informed next step." };
+export const metadata: Metadata = { title: "Pain Relief Care for Knee, Back & Neck Concerns in Richmond, VA", description: "Explore knee, low-back and neck concerns in one Richmond-area care overview. Learn questions to discuss and how to take an informed next step.", robots: { index: false, follow: true } };
 
 export default function PainReliefPage(): React.ReactElement {
-  return <main><PainHero /><PainNavigation /><PainKnee /><PainBack /><PainNeck /><PainDecisions /><PainFaq /><PainBooking /><PainSources /></main>;
+  return <main className="pain-page"><PainHero /><PainNavigation /><PainKnee /><PainBack /><PainNeck /><PainDecisions /><PainFaq /><PainBooking /><PainSources /></main>;
 }

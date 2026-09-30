@@ -7,28 +7,28 @@
       "implementation_owner": "src/components/interior/pain-relief/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "pain-relief/01-hero-01-person-walking.png"
+        "code-only movement visual and live concern labels"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -38,30 +38,28 @@
       "implementation_owner": "src/components/interior/pain-relief/navigation.tsx",
       "content_source": "section_manifest.json#02-pain-concern-navigation",
       "asset_roles": [
-        "pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
-        "pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
-        "pain-relief/02-pain-concern-navigation-03-neck-clinic.png"
+        "code-only knee, low-back and neck wayfinding"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -75,8 +73,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Retained section content and photo ownership need independent Art Director review with the source-truth successor captures."
         },
         "imagery": {
           "status": "PENDING",
@@ -106,8 +104,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Retained section content and photo ownership need independent Art Director review with the source-truth successor captures."
         },
         "imagery": {
           "status": "PENDING",
@@ -134,28 +132,28 @@
       "content_source": "section_manifest.json#05-neck-concerns",
       "asset_roles": [
         "pain-relief/05-neck-concerns-01-woman-reading.png",
-        "pain-relief/05-neck-concerns-02-clinic-lounge-strip.png"
+        "live neck preparation questions"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -165,28 +163,28 @@
       "implementation_owner": "src/components/interior/pain-relief/decisions.tsx",
       "content_source": "section_manifest.json#06-decision-factors",
       "asset_roles": [
-        "pain-relief/06-decision-factors-01-clinic-reception.png"
+        "code-only clinician question checklist"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -196,28 +194,28 @@
       "implementation_owner": "src/components/interior/pain-relief/faq.tsx",
       "content_source": "section_manifest.json#07-faq",
       "asset_roles": [
-        "pain-relief/07-faq-01-clinic-interior.png"
+        "code-only source orientation and FAQ"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -227,28 +225,28 @@
       "implementation_owner": "src/components/interior/pain-relief/booking.tsx",
       "content_source": "section_manifest.json#08-booking-cta",
       "asset_roles": [
-        "pain-relief/08-booking-cta-01-clinic-reception.png"
+        "code-only conversation preparation and scheduling link"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     },
@@ -258,29 +256,28 @@
       "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
       "content_source": "section_manifest.json#09-medical-sources",
       "asset_roles": [
-        "pain-relief/09-medical-sources-01-clinic-reception.png",
-        "pain-relief/09-medical-sources-02-clinic-lounge.png"
+        "code-only citations and reading boundary"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Source-truth successor replaces rejected facility frame assets; independent Art Director fidelity review remains required."
         }
       }
     }
