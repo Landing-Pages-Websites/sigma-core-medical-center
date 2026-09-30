@@ -11,8 +11,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Garden composition and image stay unchanged. Visible booking availability and CTA copy are revised locally; successor copy and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PASS",
@@ -23,12 +23,12 @@
           "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440x900 and 390x844 section captures are available; independent visual review remains pending. Garden image and crop remain intact."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local 1440x900 and 390x844 section captures are available; independent visual review remains pending. Garden image and crop remain intact."
         }
       }
     },
@@ -47,19 +47,19 @@
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "R1 independent art review called this privacy composition KEEP. Truthful successor frame/manifest/map approval is still pending; local 1440x900 and 390x844 captures are diagnostic."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "R1 independent art review called this privacy composition KEEP. Truthful successor frame/manifest/map approval is still pending; local 1440x900 and 390x844 captures are diagnostic."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "R1 independent art review called this privacy composition KEEP. Truthful successor frame/manifest/map approval is still pending; local 1440x900 and 390x844 captures are diagnostic."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "R1 independent art review called this privacy composition KEEP. Truthful successor frame/manifest/map approval is still pending; local 1440x900 and 390x844 captures are diagnostic."
         }
       }
     },
@@ -73,24 +73,24 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Ordered prompts remain; decorative counters are removed and unavailable booking is disclosed. Revised copy awaits successor contract and applicable review."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         }
       }
     },
@@ -104,8 +104,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Privacy copy, booking control and services link retained."
+          "status": "PENDING",
+          "evidence": "Privacy/process composition and copy remain unchanged; only the booking-control label now reflects unavailable scheduling. Contract review remains pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -135,24 +135,24 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Four answers remain in order. Folio is removed; title and booking answer/link are revised. Successor copy and clinical/compliance review remain pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         }
       }
     },
@@ -166,24 +166,24 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Status-oriented heading and control replace appointment-request language. Successor copy and booking approval remain pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         }
       }
     },
@@ -198,23 +198,23 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "The added NIDDK general-reference link was consulted for orientation; final source selection and any clinical claims still require qualified reviewer and compliance approval."
+          "evidence": "The NIDDK reference is limited to a consulted bladder-control overview. Final clinical sources and explanatory copy require clinical/compliance approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Source-truth successor departs from the approved photographic frame; designer review and successor frame/manifest/map approval are pending. Browser screenshots unavailable \u2014 bootstrap gap."
+          "evidence": "Source-truth r2 departs from the approved false-premises photographic frame; independent design review and truthful successor frame/manifest/map approval remain pending. Local section captures are diagnostic only."
         }
       }
     }
