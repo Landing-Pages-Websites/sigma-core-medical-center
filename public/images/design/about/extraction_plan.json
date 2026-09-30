@@ -468,8 +468,8 @@
           ],
           "verdict": "code",
           "section_owner": "04-care-principles",
-          "what": "question-led upper field",
-          "build_note": "Replace false signage with a live introductory label and first visitor question. Use the existing charcoal field, one blue diagonal edge and silver keyline; no wordmark or premises depiction."
+          "what": "visitor decision upper field",
+          "build_note": "R2 candidate: replace false signage with the live label 'Before choosing a service' and first prompt 'Which concern should I explore first?'. Keep the blue diagonal entry and silver keyline; no wordmark or premises depiction."
         },
         {
           "id": 12,
@@ -481,8 +481,8 @@
           ],
           "verdict": "code",
           "section_owner": "04-care-principles",
-          "what": "editorial question sequence",
-          "build_note": "Replace false lounge with two further live decision questions, divided by thin rules. Keep right-column mass and responsive reading order without a photo aperture."
+          "what": "single decision prompt",
+          "build_note": "R2 candidate: replace false lounge with one distinct prompt, 'What would help me decide if a visit is right for me?'. Keep one thin divider, right-column mass and responsive reading order; no uppercase closing line or photo aperture."
         }
       ],
       "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."
@@ -620,8 +620,8 @@
           ],
           "verdict": "code",
           "section_owner": "05-team-publication-gate",
-          "what": "verification checklist",
-          "build_note": "Replace false reception with a live, three-row source checklist for identity, qualifications and profiles. Use a compact navy inset, blue left rule and clipped lower corner; no staff card or portrait."
+          "what": "care team pending note",
+          "build_note": "R2 candidate: replace false reception and the three-row source checklist with one live care-team note. State that details are being confirmed, no individual provider profiles are available, and names, roles and credentials will appear once verified. Keep one blue left rule without an outlined card or portrait."
         }
       ],
       "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."
@@ -694,8 +694,8 @@
           ],
           "verdict": "code",
           "section_owner": "06-booking-cta",
-          "what": "booking path panel",
-          "build_note": "Replace false reception with live goals/questions/booking-status steps plus the actual calendar-pending statement. Keep the blue-to-navy angular band and link to /book in the left copy; imply no available appointment."
+          "what": "non-interactive booking status",
+          "build_note": "R2 candidate: replace false reception and static steps with one live scheduling-unavailable statement. Keep the blue-to-navy angular field subordinate to the honest /book status link in the left copy; no appointment can be requested or confirmed online."
         }
       ],
       "implementation_deviation": "PENDING truthful successor: native room pixels conflict with client-supplied facility evidence. Render this section with its live content and code-native angular composition; approved frame, manifest and composition map still require photographic slots and need a revised review contract."

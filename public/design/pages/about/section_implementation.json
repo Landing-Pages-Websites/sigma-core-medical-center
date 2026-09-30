@@ -103,8 +103,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Care principles, service and booking-status links remain live; the right field supplies decision questions."
+          "status": "PENDING",
+          "evidence": "Four visitor-facing principles and the live /services and /book links remain; two distinct decision prompts replace r1 copy pending revised native copy review."
         },
         "imagery": {
           "status": "PENDING",
@@ -112,15 +112,15 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "The right field is a live editorial question sequence instead of stacked room crops."
+          "evidence": "The right field now contains two distinct prompts instead of the r1 three-question sequence or stacked room crops; successor frame review is pending."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "About-scoped charcoal/blue angular field and silver rules carry the right column without false signage or lounge."
+          "evidence": "The shorter charcoal/blue angular field and single silver divider carry the right column without false signage or lounge; visual review is pending."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Desktop/mobile CSS stacks the question sequence after principles; screenshots unavailable because local Chromium cannot load libnspr4.so."
+          "evidence": "R2 CSS 1440x900 and 390x844 captures show the shorter two-prompt field, with no horizontal overflow; successor-frame responsive review remains pending."
         }
       },
       "frame": "04-care-principles"
@@ -134,8 +134,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Publication caveat and pending status remain live; source requirements are itemized without provider cards."
+          "status": "PENDING",
+          "evidence": "Public care-team pending language replaces the manifest's internal title and r1 checklist; no provider cards or identity claims appear. Revised native copy review is pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -143,15 +143,15 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "A live verification checklist replaces the reception slot, preserving the left statement/right supporting mass."
+          "evidence": "One concise live pending note replaces the reception slot and r1 verification checklist; successor frame review is pending."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "About-scoped navy inset, blue rule and clipped lower corner replace the room treatment."
+          "evidence": "A single blue rule and open navy field remove the competing outlined card and bracket collision; visual review is pending."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Desktop/mobile CSS keeps the gate after the heading and notice; screenshots unavailable because local Chromium cannot load libnspr4.so."
+          "evidence": "R2 CSS 1440x900 and 390x844 captures show the note after the heading and no bracket collision; successor-frame responsive review remains pending."
         }
       },
       "frame": "05-team-publication-gate"
@@ -165,8 +165,8 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Goals invitation and honest /book status action remain live; the right panel states that the calendar is not connected."
+          "status": "PENDING",
+          "evidence": "The goals invitation and honest /book status action remain live; a scheduling-unavailable statement replaces the r1 steps and active-booking frame copy pending revised native review."
         },
         "imagery": {
           "status": "PENDING",
@@ -174,15 +174,15 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "A live goals/questions/status path replaces the room crop beside the booking invitation."
+          "evidence": "A non-interactive status statement replaces the room crop and r1 step tiles beside the booking invitation; successor frame review is pending."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "About-scoped blue-to-navy angular field and step rail replace the room treatment."
+          "evidence": "A compact blue-to-navy angular status field replaces the step rail without implying an interactive workflow; visual review is pending."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Desktop/mobile CSS preserves CTA before status path; screenshots unavailable because local Chromium cannot load libnspr4.so."
+          "evidence": "R2 CSS 1440x900 and 390x844 captures show the /book action before the status statement and no horizontal overflow; successor-frame responsive review remains pending."
         }
       },
       "frame": "06-booking-cta"

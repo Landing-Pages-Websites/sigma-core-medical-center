@@ -1,4 +1,11 @@
-const publicationRequirements = [["Identity", "Names and roles"], ["Qualifications", "Credentials and license details"], ["Profiles", "Biographies and photographs"]];
 export function AboutTeam(): React.ReactElement {
-  return <section id="team-publication-gate" className="b3-section b3-ink b3-about-team"><div className="b3-shell b3-split"><div className="b3-bracket"><h2>Team<br />Publication Gate</h2><p>We are not publishing provider profiles until names, roles, credentials, biographies, and photos are supplied and approved.</p><div className="b3-status"><strong>Information pending</strong><span>Profiles will appear only after verification.</span></div></div><div className="b3-about-team-gate"><div className="b3-about-gate-head"><span>Publication requirements</span><strong>Awaiting approved source material</strong></div><ul>{publicationRequirements.map(([label, detail]) => <li key={label}><span>{label}</span><strong>{detail}</strong></li>)}</ul></div></div></section>;
+  return <section id="team-publication-gate" className="b3-section b3-ink b3-about-team">
+    <div className="b3-shell b3-split">
+      <div className="b3-bracket"><h2>About our<br />care team</h2></div>
+      <div className="b3-about-team-note">
+        <strong>Care team details are being confirmed.</strong>
+        <p>No individual provider profiles are available yet. Names, roles, and credentials will appear here once verified.</p>
+      </div>
+    </div>
+  </section>;
 }
