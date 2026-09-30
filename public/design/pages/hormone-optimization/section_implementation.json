@@ -74,7 +74,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "r2 retains four distinct live questions and the question strip with an 18px CSS floor. Successor frame and independent viewport review remain pending."
+          "evidence": "r3 retains four topic labels and seven distinct prompts, with 18px CSS question text and both real service links. Successor frame and independent review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -90,7 +90,7 @@
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "r2 compresses pale labels at desktop and mobile and separates the fourth panel from the navy strip; viewport capture remains pending after local Chromium launch failure."
+          "evidence": "r3 narrows card and lower-strip padding at 600px and below, preserves a 20px gap below the fourth card, and keeps question text at 18px. Chromium closed before r3 viewport capture; height, overflow, and painted seams remain unverified."
         }
       }
     },
@@ -105,7 +105,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "r2 states current scheduling unavailability and unapproved provider, process, and calendar details without a future booking guarantee; successor review pending."
+          "evidence": "r3 retains current scheduling unavailability and the three-part approval gate. The action moves forward to the FAQ instead of looping to goals. Successor review remains pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -136,7 +136,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "r2 booking answer states current unavailability, with four answers retained and 18px answer CSS declared; successor review pending."
+          "evidence": "r3 retains four answers and the booking and medical limits, with 18px answer CSS. Its guide now links forward to the source-review status. Successor review remains pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -167,7 +167,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "r2 Booking status has no future availability promise or active form; the only primary action links to live goals questions. Successor review pending."
+          "evidence": "r3 keeps the visible unavailability status and no booking link or active form. The primary action opens the live services overview; the duplicate FAQ-status link is removed. Successor review remains pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -175,7 +175,7 @@
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "r2 removes the three process-like booking tiles; native frame and composition-map successor plus independent viewport review remain pending."
+          "evidence": "r3 retains the tile-free two-part status composition and removes the duplicate FAQ-status link. Native frame and composition-map successor plus r3 viewport review remain pending."
         },
         "visual_treatment": {
           "status": "PENDING",
