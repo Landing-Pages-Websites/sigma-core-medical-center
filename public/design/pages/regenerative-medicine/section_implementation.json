@@ -7,28 +7,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "Exact clinic reception visual for 01-hero, not a staff or outcome representation"
+        "Live category-decision hero field with angled aperture, exact-option statement, product/use/provider line and real question anchor"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses live category-decision hero field with angled aperture, exact-option statement, product/use/provider line and real question anchor; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     },
@@ -37,7 +37,9 @@
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/interior/regenerative-medicine/orientation.tsx",
       "content_source": "section_manifest.json#02-category-orientation",
-      "asset_roles": ["Code-only category boundary, stepped bars, and independent information panel"],
+      "asset_roles": [
+        "Code-only category boundary, stepped bars, and independent information panel"
+      ],
       "fidelity": {
         "content": {
           "status": "PASS",
@@ -67,28 +69,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/questions.tsx",
       "content_source": "section_manifest.json#03-questions-for-a-consultation",
       "asset_roles": [
-        "Exact clinic interior strip visual for 03-questions-for-a-consultation, not a staff or outcome representation"
+        "Live consultation-preparation rail under the five questions with exact-option context and real service links"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses live consultation-preparation rail under the five questions with exact-option context and real service links; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     },
@@ -98,29 +100,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/decisions.tsx",
       "content_source": "section_manifest.json#04-decision-factors",
       "asset_roles": [
-        "Exact clinic left visual for 04-decision-factors, not a staff or outcome representation",
-        "Exact clinic right visual for 04-decision-factors, not a staff or outcome representation"
+        "Paired live starting-context and verification edges around the three decision questions"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "2 of 2 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses paired live starting-context and verification edges around the three decision questions; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     },
@@ -130,28 +131,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "Exact clinic reception visual for 05-faq, not a staff or outcome representation"
+        "Live diagonal reading-boundary aside beside the four FAQ answers"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses live diagonal reading-boundary aside beside the four faq answers; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     },
@@ -161,28 +162,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation"
+        "Live scheduling-status composition with unavailable calendar, preparation guidance and services link"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses live scheduling-status composition with unavailable calendar, preparation guidance and services link; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     },
@@ -192,28 +193,28 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "Exact clinic lounge visual for 07-medical-sources, not a staff or outcome representation"
+        "Live conditional source-review panel and category/regulatory/clinical review rail"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "No regenerative raster is rendered. This section uses live conditional source-review panel and category/regulatory/clinical review rail; source and Art Director review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "The native frame photo slot is replaced by live information within the same section hierarchy. Art Director comparison and revised contract pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Local 1440×900 and 390×844 captures show the proposed brand geometry and seams. Independent visual verdict pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Local browser captures show no horizontal overflow at 390px; 320px DOM check also passes. Independent responsive review pending."
         }
       }
     }
