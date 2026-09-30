@@ -4,7 +4,7 @@ const QUESTIONS = [
   { question: "Who is this page for?", answer: "Richmond-area visitors seeking general neuropathy information and questions to bring to a qualified healthcare professional." },
   { question: "Does this site diagnose neuropathy?", answer: "No. Similar symptoms can have different causes. Only a qualified healthcare professional can assess your personal concerns." },
   { question: "How can I request an appointment?", answer: "Online appointment requests are not available yet. The booking page shows the current status.", href: "/book", action: "View booking status" },
-  { question: "Where is the clinic?", answer: "Sigma Core serves the Richmond, Virginia area. Public address details await reconfirmation.", href: "/about", action: "About Sigma Core" },
+  { question: "Where is the clinic?", answer: "Sigma Core serves the Richmond, Virginia area. Public address details await reconfirmation.", href: "/contact#verified-location-details", action: "Check location status" },
   { question: "Why aren't treatments listed here?", answer: "Options depend on an individual assessment. Treatment details have not been approved for publication here." },
 ];
 

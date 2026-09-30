@@ -65,10 +65,9 @@
 .neuro-faq-top { grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: 24px; }
 .neuro-faq-top p { align-self: end; max-width: 24ch; }
 .neuro-faq-rows > div { grid-template-columns: 35% 65%; }
-.neuro-faq-rows dd { font-size: 1.125rem; line-height: 1.5; }
+.neuro-faq-rows dd:last-child { color: var(--color-ink); font-size: 1.125rem; font-weight: 400; line-height: 1.5; border-left: 0; }
 .neuro-faq-rows dd a { display: inline-block; margin-left: 12px; color: var(--color-action); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .neuro-faq-rows dd a:focus-visible { outline: 3px solid var(--color-action); outline-offset: 3px; }
-.neuro-faq-rows dd:last-child { border-left: 0; }
 
 .neuro-book-grid { grid-template-columns: minmax(0, 51fr) minmax(0, 49fr); gap: 22px; }
 .neuro-book h2 { max-width: 13ch; }
@@ -131,6 +130,7 @@
   .neuro-book-question-sheet { min-height: 0; padding: 36px 26px 26px; }
   .neuro-book-question-sheet li { font-size: 1.125rem; }
   .neuro-book-action { padding: 24px; }
+  .neuro-expect-steps { top: 36px; left: 26%; width: 30%; height: 22px; }
   .neuro-source-scope { min-height: 0; padding: 28px 24px; }
   .neuro-hero p:not(.eyebrow),
   .neuro-orientation p,
