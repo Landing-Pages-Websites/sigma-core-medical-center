@@ -12,7 +12,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "Category-first hero retains the question anchor and states that scheduling is unavailable and provider/calendar details are unverified. Source and successor-contract review remain pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -55,11 +55,11 @@
         },
         "visual_treatment": {
           "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "evidence": "Palette, typography, brackets and material seams are present in local r2 browser captures; independent fidelity review remains open."
         },
         "responsive": {
           "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "evidence": "Local r2 captures exist at 390×844 and 1440×900; independent responsive review remains open."
         }
       }
     },
@@ -74,7 +74,7 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "All five consultation prompts are unchanged from r1; the live preparation rail replaces a rejected photo role. Successor-contract review remains pending."
         },
         "imagery": {
           "status": "PENDING",
@@ -100,16 +100,16 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/decisions.tsx",
       "content_source": "section_manifest.json#04-decision-factors",
       "asset_roles": [
-        "Paired live starting-context and verification edges around the three decision questions"
+        "Distinct live start and verify edges around three criteria for assessing answers"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "Three visitor questions assess answers for a named option/use, evidence and risks versus alternatives, and qualified provider/follow-up. Successor-contract review remains pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "No regenerative raster is rendered. This section uses paired live starting-context and verification edges around the three decision questions; source and Art Director review pending."
+          "evidence": "No regenerative raster is rendered. Distinct start and verification edges frame the answer criteria; source and Art Director review remain pending."
         },
         "composition": {
           "status": "PENDING",
@@ -131,16 +131,16 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "Live diagonal reading-boundary aside beside the four FAQ answers"
+        "Live diagonal evidence-boundary aside with source-status anchor beside four FAQ answers"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "FAQ gives present-state scheduling and verification limits; its blue aside links to source status. Successor-contract review remains pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "No regenerative raster is rendered. This section uses live diagonal reading-boundary aside beside the four faq answers; source and Art Director review pending."
+          "evidence": "No regenerative raster or progress-like ticks are rendered. A live diagonal aside and source-status anchor replace the rejected photo role; Art Director review remains pending."
         },
         "composition": {
           "status": "PENDING",
@@ -162,16 +162,16 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "Live scheduling-status composition with unavailable calendar, preparation guidance and services link"
+        "Live unavailable-scheduling status with unverified details and real services link"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "Scheduling is unavailable; provider, calendar and service details are unverified; any future consultation is conditional. No form or booking control is rendered."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "No regenerative raster is rendered. This section uses live scheduling-status composition with unavailable calendar, preparation guidance and services link; source and Art Director review pending."
+          "evidence": "No regenerative raster is rendered. A live status composition and /services link replace the rejected booking photo role; Art Director review remains pending."
         },
         "composition": {
           "status": "PENDING",
@@ -193,16 +193,16 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "Live conditional source-review panel and category/regulatory/clinical review rail"
+        "Live evidence/status panel with category basis and needed regulatory/clinical review rail"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Cautious category copy and existing decision questions remain; booking action and source caveats change under the proposed successor. Clinical and contract review pending."
+          "evidence": "Evidence and source status names category basis and regulatory/clinical review needed without a citation or FDA approval claim. Product-specific source review remains pending."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "No regenerative raster is rendered. This section uses live conditional source-review panel and category/regulatory/clinical review rail; source and Art Director review pending."
+          "evidence": "No regenerative raster is rendered. A mineral source-status panel and three review labels replace the rejected lounge role; Art Director review remains pending."
         },
         "composition": {
           "status": "PENDING",

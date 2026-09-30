@@ -5,9 +5,9 @@ export function RegenHero(): React.ReactElement {
     <div className="r-hero-copy">
       <h1>Explore whether regenerative medicine belongs in your care conversation</h1>
       <p>Regenerative medicine is a broad service category. This page is a starting point for questions, not a recommendation for a particular procedure.</p>
-      <p>Specific offerings and responsible providers await written verification and clinical review. No outcome or procedure is promised.</p>
+      <p>Specific offerings and responsible providers are unverified for this page. No outcome or procedure is promised.</p>
       <Link className="b2-button" href="#questions-for-a-consultation">Prepare your questions <span aria-hidden="true">↗</span></Link>
-      <small>Online scheduling is unavailable while provider and calendar details are reviewed.</small>
+      <small>Online scheduling is unavailable on this page. Provider and calendar details have not been verified for publication.</small>
     </div>
     <div className="r-hero-art">
       <div className="r-hero-aperture" aria-hidden="true"><span /><span /><span /></div>
