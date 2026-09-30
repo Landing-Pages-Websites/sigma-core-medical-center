@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { InteriorImage } from "../interior-image";
 
 const QUESTIONS = [
   ["Why does individual assessment matter?", "Goals and symptoms can overlap with many health factors. Only an appropriate clinician can consider your individual context."],
@@ -9,5 +8,5 @@ const QUESTIONS = [
 ];
 
 export function HormoneFaq(): React.ReactElement {
-  return <section id="faq" className="b2-section h-faq"><div className="b2-wrap h-faq-layout"><div><h2>Faq</h2><p>Answers to common questions about hormone-health conversations.</p><InteriorImage slug="hormone-optimization" file="05-faq-01-clinic-lounge.png" alt="Interior lounge scene from the approved FAQ frame" /></div><div><dl>{QUESTIONS.map(([question, answer]) => <div key={question}><dt>{question}</dt><dd>{answer}</dd></div>)}</dl><div className="h-faq-links"><Link href="/services">All services →</Link><Link href="/services/neuropathy">Neuropathy care →</Link></div></div></div></section>;
+  return <section id="faq" className="b2-section h-faq"><div className="b2-wrap h-faq-layout"><div><h2>FAQ</h2><p>Answers to common questions about hormone-health conversations.</p><div className="h-faq-guide"><strong>Start with your own questions</strong><p>The answers here explain the page’s limits and booking status. Your personal context needs an appropriate clinician.</p><Link href="#goals-and-decision-factors">Review discussion prompts →</Link></div></div><div><dl>{QUESTIONS.map(([question, answer]) => <div key={question}><dt>{question}</dt><dd>{answer}</dd></div>)}</dl><div className="h-faq-links"><Link href="/services">All services →</Link><Link href="/services/neuropathy">Neuropathy care →</Link><Link href="/terms">Terms of Use →</Link></div></div></div></section>;
 }

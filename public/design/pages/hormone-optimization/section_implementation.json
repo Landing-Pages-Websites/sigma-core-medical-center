@@ -11,24 +11,24 @@
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Booking-shaped hero action now shows unavailability and links to live questions; successor frame/manifest review is pending."
         },
         "imagery": {
           "status": "PASS",
           "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Booking-shaped hero action now shows unavailability and links to live questions; successor frame/manifest review is pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Booking-shaped hero action now shows unavailability and links to live questions; successor frame/manifest review is pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Booking-shaped hero action now shows unavailability and links to live questions; successor frame/manifest review is pending."
         }
       }
     },
@@ -38,28 +38,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/orientation.tsx",
       "content_source": "section_manifest.json#02-visitor-orientation",
       "asset_roles": [
-        "Exact clinic reception visual for 02-visitor-orientation, not a staff or outcome representation"
+        "Code-only live orientation boundary rail; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     },
@@ -69,28 +69,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/goals.tsx",
       "content_source": "section_manifest.json#03-goals-and-decision-factors",
       "asset_roles": [
-        "Exact clinic interior strip visual for 03-goals-and-decision-factors, not a staff or outcome representation"
+        "Code-only live decision-question strip; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     },
@@ -100,28 +100,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/next-step.tsx",
       "content_source": "section_manifest.json#04-responsible-next-step",
       "asset_roles": [
-        "Exact visitor in clinic visual for 04-responsible-next-step, not a staff or outcome representation"
+        "Code-only publication gate; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     },
@@ -131,28 +131,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "Exact clinic lounge visual for 05-faq, not a staff or outcome representation"
+        "Code-only FAQ preparation guide; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     },
@@ -162,28 +162,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation"
+        "Code-only calendar-status panel; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     },
@@ -193,28 +193,28 @@
       "implementation_owner": "src/components/interior/hormone-optimization/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "Exact clinic reception visual for 07-medical-sources, not a staff or outcome representation"
+        "Code-only source-review ledger; zero section-owned rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Six rejected facility slots replaced with route-local live content; approved native frame/manifest/map successor and independent review pending."
         }
       }
     }
