@@ -1,573 +1,1797 @@
 {
-  "page": "educational-guide",
+  "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+  "coordinate_convention": "[left,top,right,bottom] CSS pixels at DPR1; page rows half-open; integer sampling boxes enclose fractional DOM bounds",
   "frames": [
     {
       "frame": "01-resource-hero",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "resource hero independently sized photographic media slot",
-        "width_share": "about 30% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.59:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
-      },
-      "focal_point": {
-        "what": "clinic interior",
-        "where": "right media field",
-        "region_ids": [
-          3
-        ]
-      },
-      "dominance": "Navylight guide introduction and pending-status guard occupy left; facility image is inset high right above a blue bottom pointer.",
-      "eye_path": [
-        "resource hero heading",
-        "clinic interior",
-        "primary action or next editorial group"
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/hero.tsx",
+      "file": "refs/01-resource-hero.png",
+      "sha256": "3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c",
+      "bytes": 171972,
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "measurement_evidence": "evidence/render-observations.json",
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        624
       ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        615.890625
       ],
-      "quiet_zones": [
-        "Leave a clear gap between pending notice and inset photo."
+      "page_rows_half_open": [
+        0,
+        624
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Navylight guide introduction and pending-status guard occupy left; facility image is inset high right above a blue bottom pointer.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "resource hero heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+      "viewport": [
+        1536,
+        624
       ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "resource hero hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Guide is pending: no fake downloadable PDF cover or active delivery promise."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
+      "dpr": 1,
+      "fonts_loaded": [
         {
-          "region_id": 3,
-          "container": "01-resource-hero / clinic interior \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.60:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "headline, action and primary media simultaneously visible"
+          "family": "Source Sans 3",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "Source Sans 3",
+          "weight": "600",
+          "status": "loaded"
+        }
+      ],
+      "actual_platform_fonts": [
+        "Source Sans 3",
+        "Source Sans 3 SemiBold"
+      ],
+      "full_frame_inspected": true,
+      "all_text_range_boxes_inside_frame": true,
+      "links": [
+        {
+          "label": "Explore current services",
+          "href": "/services"
+        },
+        {
+          "label": "Read the source overview",
+          "href": "#resource-summary"
+        }
+      ],
+      "forms_and_controls": 0,
+      "natural_section_height_css_px": 615.890625,
+      "native_canvas_remainder_css_px": 8.109375,
+      "white_terminal_row_count": 0,
+      "white_full_width_rows": [],
+      "canvas_color": [
+        6,
+        102,
+        165
+      ],
+      "content_pixels_above_fractional_boundary_identical_to_old": true,
+      "observed_regions": [
+        {
+          "role": "left open bracket",
+          "selector": ".b3-guide-intro",
+          "box": [
+            108,
+            80,
+            771.03125,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            108,
+            80,
+            772,
+            468
+          ],
+          "distinct_colors": 827,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "heading",
+          "selector": "h1",
+          "box": [
+            141,
+            80,
+            731.9375,
+            239.71875
+          ],
+          "pixel_sampling_box": [
+            141,
+            80,
+            732,
+            240
+          ],
+          "distinct_colors": 520,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "unavailable notice and lock",
+          "selector": "#resource-status",
+          "box": [
+            141,
+            267.71875,
+            661,
+            389.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            267,
+            661,
+            390
+          ],
+          "distinct_colors": 250,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "Services action",
+          "selector": ".b3-action",
+          "box": [
+            141,
+            413.890625,
+            397.46875,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            413,
+            398,
+            468
+          ],
+          "distinct_colors": 243,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "open paired-step motif",
+          "selector": ".b3-guide-stage",
+          "box": [
+            1008,
+            193.9375,
+            1428,
+            353.9375
+          ],
+          "pixel_sampling_box": [
+            1008,
+            193,
+            1428,
+            354
+          ],
+          "distinct_colors": 11,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source rail label",
+          "selector": ".b3-guide-rail span",
+          "box": [
+            108,
+            539.484375,
+            216.703125,
+            568.28125
+          ],
+          "pixel_sampling_box": [
+            108,
+            539,
+            217,
+            569
+          ],
+          "distinct_colors": 173,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source overview link",
+          "selector": ".b3-guide-rail a",
+          "box": [
+            1200.59375,
+            529.890625,
+            1428,
+            577.890625
+          ],
+          "pixel_sampling_box": [
+            1200,
+            529,
+            1428,
+            578
+          ],
+          "distinct_colors": 208,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-hero > .b3-split",
+          "box": [
+            108,
+            80,
+            1428,
+            467.890625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "387.891px",
+            "width": "1320px",
+            "gap": "92.16px"
+          },
+          "text": "Educational guide statusResource unavailableNo guide or video is available to view or download while its contents and delivery remain unapproved.Explore current services "
+        },
+        {
+          "selector": ".b3-guide-rail",
+          "box": [
+            0,
+            515.890625,
+            1536,
+            615.890625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px 0px 24px",
+            "marginTop": "48px",
+            "backgroundColor": "rgb(6, 102, 165)",
+            "height": "100px",
+            "width": "1536px",
+            "gap": "normal"
+          },
+          "text": "Source detailsRead the source overview "
+        }
+      ],
+      "dominant_colors": [
+        [
+          [
+            6,
+            102,
+            165
+          ],
+          163866
+        ],
+        [
+          [
+            12,
+            27,
+            48
+          ],
+          83300
+        ],
+        [
+          [
+            13,
+            28,
+            48
+          ],
+          73171
+        ],
+        [
+          [
+            15,
+            29,
+            50
+          ],
+          66921
+        ],
+        [
+          [
+            12,
+            27,
+            47
+          ],
+          65795
+        ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/hero.tsx",
+        "source_sha256": "7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c",
+        "dom_ids": [
+          "resource-hero",
+          "resource-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid. Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale. Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height. Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline. Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster. Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label. Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-resource-summary",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/summary.tsx",
+      "file": "refs/02-resource-summary.png",
+      "sha256": "28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a",
+      "bytes": 57422,
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "measurement_evidence": "evidence/render-observations.json",
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        624
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        611.65625
+      ],
+      "page_rows_half_open": [
+        624,
+        1248
+      ],
+      "viewport": [
+        1536,
+        624
+      ],
+      "dpr": 1,
+      "fonts_loaded": [
+        {
+          "family": "Source Sans 3",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "Source Sans 3",
+          "weight": "600",
+          "status": "loaded"
+        }
+      ],
+      "actual_platform_fonts": [
+        "Source Sans 3",
+        "Source Sans 3 SemiBold"
+      ],
+      "full_frame_inspected": true,
+      "all_text_range_boxes_inside_frame": true,
+      "links": [
+        {
+          "label": "Explore neuropathy",
+          "href": "/services/neuropathy"
+        }
+      ],
+      "forms_and_controls": 0,
+      "natural_section_height_css_px": 611.65625,
+      "native_canvas_remainder_css_px": 12.34375,
+      "white_terminal_row_count": 0,
+      "white_full_width_rows": [],
+      "canvas_color": [
+        6,
+        102,
+        165
+      ],
+      "content_pixels_above_fractional_boundary_identical_to_old": true,
+      "observed_regions": [
+        {
+          "role": "heading",
+          "selector": "h2",
+          "box": [
+            108,
+            64,
+            766.890625,
+            223.71875
+          ],
+          "pixel_sampling_box": [
+            108,
+            64,
+            767,
+            224
+          ],
+          "distinct_colors": 237,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "education caveat and book",
+          "selector": "#important-boundary",
+          "box": [
+            108,
+            255.71875,
+            628,
+            354.703125
+          ],
+          "pixel_sampling_box": [
+            108,
+            255,
+            628,
+            355
+          ],
+          "distinct_colors": 248,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source table with three rows",
+          "selector": ".b3-guide-source",
+          "box": [
+            843.6875,
+            64,
+            1428,
+            318.125
+          ],
+          "pixel_sampling_box": [
+            843,
+            64,
+            1428,
+            319
+          ],
+          "distinct_colors": 243,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "service panel heading and body",
+          "selector": ".b3-dark-panel",
+          "box": [
+            843.6875,
+            318.125,
+            1428,
+            555.65625
+          ],
+          "pixel_sampling_box": [
+            843,
+            318,
+            1428,
+            556
+          ],
+          "distinct_colors": 249,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "neuropathy action in service panel",
+          "selector": ".b3-dark-panel a",
+          "box": [
+            879.6875,
+            473.65625,
+            1061.546875,
+            521.65625
+          ],
+          "pixel_sampling_box": [
+            879,
+            473,
+            1062,
+            522
+          ],
+          "distinct_colors": 200,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-summary .b3-split",
+          "box": [
+            108,
+            64,
+            1428,
+            555.65625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "491.656px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Source and status overviewGeneral education onlyFuture material will not replace individualized medical advice.Current source statusApproved titleNot suppliedGuide or videoNot receivedAccess methodNot definedExplore neuropathy careRead the current service overview while guide details are pending.Explore neuropathy "
+        },
+        {
+          "selector": ".b3-guide-summary-copy",
+          "box": [
+            108,
+            64,
+            766.890625,
+            354.703125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "290.703px",
+            "width": "658.891px",
+            "gap": "normal"
+          },
+          "text": "Source and status overviewGeneral education onlyFuture material will not replace individualized medical advice."
+        },
+        {
+          "selector": ".b3-guide-summary-right",
+          "box": [
+            843.6875,
+            64,
+            1428,
+            555.65625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "491.656px",
+            "width": "584.312px",
+            "gap": "normal"
+          },
+          "text": "Current source statusApproved titleNot suppliedGuide or videoNot receivedAccess methodNot definedExplore neuropathy careRead the current service overview while guide details are pending.Explore neuropathy "
+        },
+        {
+          "selector": "#important-boundary svg",
+          "box": [
+            133,
+            291.203125,
+            161,
+            319.203125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "28px",
+            "width": "28px",
+            "gap": "normal"
+          },
+          "text": ""
+        },
+        {
+          "selector": ".b3-guide-source dl > div",
+          "box": [
+            879.6875,
+            154.4375,
+            1395,
+            198
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "15.36px",
+            "lineHeight": "24.576px",
+            "padding": "9px 0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "43.5625px",
+            "width": "515.312px",
+            "gap": "20px"
+          },
+          "text": "Approved titleNot supplied"
+        }
+      ],
+      "dominant_colors": [
+        [
+          [
+            6,
+            102,
+            165
+          ],
+          601676
+        ],
+        [
+          [
+            8,
+            98,
+            159
+          ],
+          140280
+        ],
+        [
+          [
+            16,
+            30,
+            51
+          ],
+          132545
+        ],
+        [
+          [
+            5,
+            82,
+            134
+          ],
+          46609
+        ],
+        [
+          [
+            247,
+            246,
+            243
+          ],
+          17566
+        ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/summary.tsx",
+        "source_sha256": "b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1",
+        "dom_ids": [
+          "resource-summary",
+          "important-boundary"
+        ],
+        "runtime_assets": [],
+        "recipe": "Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field. Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6. Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text. Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading. Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-lead-form",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/availability.tsx",
+      "file": "refs/03-lead-form.png",
+      "sha256": "eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985",
+      "bytes": 53073,
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "measurement_evidence": "evidence/render-observations.json",
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        549
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        548.625
+      ],
+      "page_rows_half_open": [
+        1248,
+        1797
+      ],
+      "viewport": [
+        1536,
+        549
+      ],
+      "dpr": 1,
+      "fonts_loaded": [
+        {
+          "family": "Source Sans 3",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "Source Sans 3",
+          "weight": "600",
+          "status": "loaded"
+        }
+      ],
+      "actual_platform_fonts": [
+        "Source Sans 3",
+        "Source Sans 3 SemiBold"
+      ],
+      "full_frame_inspected": true,
+      "all_text_range_boxes_inside_frame": true,
+      "links": [
+        {
+          "label": "Neuropathy",
+          "href": "/services/neuropathy"
+        }
+      ],
+      "forms_and_controls": 0,
+      "natural_section_height_css_px": 548.625,
+      "native_canvas_remainder_css_px": 0.375,
+      "white_terminal_row_count": 0,
+      "white_full_width_rows": [],
+      "canvas_color": [
+        247,
+        246,
+        243
+      ],
+      "content_pixels_above_fractional_boundary_identical_to_old": true,
+      "observed_regions": [
+        {
+          "role": "eyebrow and heading",
+          "selector": ".b3-split > div:first-child",
+          "box": [
+            108,
+            72,
+            791.75,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            72,
+            792,
+            358
+          ],
+          "distinct_colors": 256,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "access explanation",
+          "selector": ".b3-split > div:first-child > p:last-child",
+          "box": [
+            108,
+            292.78125,
+            602.265625,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            292,
+            603,
+            358
+          ],
+          "distinct_colors": 246,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "inactive card with lock and copy",
+          "selector": "#form-status",
+          "box": [
+            868.546875,
+            91.515625,
+            1428,
+            337.5
+          ],
+          "pixel_sampling_box": [
+            868,
+            91,
+            1428,
+            338
+          ],
+          "distinct_colors": 271,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "decision rail and copy",
+          "selector": ".b3-availability-foot",
+          "box": [
+            108,
+            389.03125,
+            1428,
+            492.625
+          ],
+          "pixel_sampling_box": [
+            108,
+            389,
+            1428,
+            493
+          ],
+          "distinct_colors": 258,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "navy Neuropathy action",
+          "selector": ".b3-availability-foot a",
+          "box": [
+            1279.234375,
+            417.328125,
+            1400,
+            465.328125
+          ],
+          "pixel_sampling_box": [
+            1279,
+            417,
+            1400,
+            466
+          ],
+          "distinct_colors": 182,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-availability .b3-split",
+          "box": [
+            108,
+            72,
+            1428,
+            357.03125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "285.031px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Access statusNo requests are being collected.This page cannot accept guide requests or personal details.No active formThe resource and delivery workflow still need approval."
+        },
+        {
+          "selector": ".b3-availability-foot",
+          "box": [
+            108,
+            389.03125,
+            1428,
+            492.625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "24px 28px 24px 32px",
+            "marginTop": "32px",
+            "backgroundColor": "rgb(234, 233, 229)",
+            "height": "103.594px",
+            "width": "1320px",
+            "gap": "30px"
+          },
+          "text": "Choose a starting pointLearn about care areas, beginning with neuropathy.Neuropathy "
+        }
+      ],
+      "dominant_colors": [
+        [
+          [
+            247,
+            246,
+            243
+          ],
+          542980
+        ],
+        [
+          [
+            234,
+            233,
+            229
+          ],
+          263441
+        ],
+        [
+          [
+            16,
+            30,
+            51
+          ],
+          19381
+        ],
+        [
+          [
+            8,
+            119,
+            190
+          ],
+          1388
+        ],
+        [
+          [
+            169,
+            181,
+            187
+          ],
+          1354
+        ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/availability.tsx",
+        "source_sha256": "38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283",
+        "dom_ids": [
+          "lead-form",
+          "form-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form. Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields. Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock. Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link. Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-privacy-note",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/privacy.tsx",
+      "file": "refs/04-privacy-note.png",
+      "sha256": "c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127",
+      "bytes": 41138,
+      "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+      "measurement_evidence": "provenance/q4-preserved.json",
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        512
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        400
+      ],
+      "page_rows_half_open": [
+        1797,
+        2309
+      ],
+      "viewport": [
+        1536,
+        512
+      ],
+      "dpr": 1,
+      "fonts_loaded": [
+        {
+          "family": "Source Sans 3",
+          "weight": "400",
+          "status": "loaded"
+        },
+        {
+          "family": "Source Sans 3",
+          "weight": "600",
+          "status": "loaded"
+        }
+      ],
+      "actual_platform_fonts": [
+        "Source Sans 3",
+        "Source Sans 3 SemiBold"
+      ],
+      "full_frame_inspected": true,
+      "all_text_range_boxes_inside_frame": true,
+      "links": [
+        {
+          "label": "See contact status",
+          "href": "/contact"
+        }
+      ],
+      "forms_and_controls": 0,
+      "natural_section_height_css_px": 400,
+      "native_canvas_remainder_css_px": 112,
+      "white_terminal_row_count": 0,
+      "white_full_width_rows": [],
+      "canvas_color": [
+        32,
+        39,
+        46
+      ],
+      "content_pixels_above_fractional_boundary_identical_to_old": true,
+      "observed_regions": [
+        {
+          "role": "heading with bracket",
+          "selector": "h2",
+          "box": [
+            108,
+            99.703125,
+            760.671875,
+            179.5625
+          ],
+          "pixel_sampling_box": [
+            108,
+            99,
+            761,
+            180
+          ],
+          "distinct_colors": 239,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "privacy explanation at shell edge",
+          "selector": ".b3-guide-privacy-copy > p",
+          "box": [
+            108,
+            199.5625,
+            602.265625,
+            300.296875
+          ],
+          "pixel_sampling_box": [
+            108,
+            199,
+            603,
+            301
+          ],
+          "distinct_colors": 237,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "pending-policy caveat and copy",
+          "selector": "#privacy-status",
+          "box": [
+            872.46875,
+            133.515625,
+            1396,
+            194.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            133,
+            1396,
+            195
+          ],
+          "distinct_colors": 237,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "Contact status action in caveat",
+          "selector": ".b3-guide-privacy-caveat a",
+          "box": [
+            872.46875,
+            218.46875,
+            1042.40625,
+            266.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            218,
+            1043,
+            267
+          ],
+          "distinct_colors": 205,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-privacy .b3-split",
+          "box": [
+            108,
+            88,
+            1428,
+            312
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "224px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Privacy NoteThere is no guide signup or collection of personal or health information on this page. Privacy and patient-notice content is being reviewed.Policy publication pendingDo not share personal health information through this page.See contact status "
+        },
+        {
+          "selector": ".b3-guide-privacy-caveat",
+          "box": [
+            837.46875,
+            88,
+            1428,
+            312
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "24px 32px",
+            "marginTop": "0px",
+            "backgroundColor": "rgb(39, 51, 60)",
+            "height": "224px",
+            "width": "590.531px",
+            "gap": "normal"
+          },
+          "text": "Policy publication pendingDo not share personal health information through this page.See contact status "
+        }
+      ],
+      "dominant_colors": [
+        [
+          [
+            32,
+            39,
+            46
+          ],
+          638105
+        ],
+        [
+          [
+            39,
+            51,
+            60
+          ],
+          126942
+        ],
+        [
+          [
+            247,
+            246,
+            243
+          ],
+          9151
+        ],
+        [
+          [
+            8,
+            119,
+            190
+          ],
+          1020
+        ],
+        [
+          [
+            109,
+            113,
+            117
+          ],
+          249
+        ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/privacy.tsx",
+        "source_sha256": "523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406",
+        "dom_ids": [
+          "privacy-note",
+          "privacy-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile. Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition. Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding. Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "observations": [
+    {
+      "frame": "01-resource-hero",
+      "regions": [
+        {
+          "role": "left open bracket",
+          "selector": ".b3-guide-intro",
+          "box": [
+            108,
+            80,
+            771.03125,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            108,
+            80,
+            772,
+            468
+          ],
+          "distinct_colors": 827,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "heading",
+          "selector": "h1",
+          "box": [
+            141,
+            80,
+            731.9375,
+            239.71875
+          ],
+          "pixel_sampling_box": [
+            141,
+            80,
+            732,
+            240
+          ],
+          "distinct_colors": 520,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "unavailable notice and lock",
+          "selector": "#resource-status",
+          "box": [
+            141,
+            267.71875,
+            661,
+            389.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            267,
+            661,
+            390
+          ],
+          "distinct_colors": 250,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "Services action",
+          "selector": ".b3-action",
+          "box": [
+            141,
+            413.890625,
+            397.46875,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            413,
+            398,
+            468
+          ],
+          "distinct_colors": 243,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "open paired-step motif",
+          "selector": ".b3-guide-stage",
+          "box": [
+            1008,
+            193.9375,
+            1428,
+            353.9375
+          ],
+          "pixel_sampling_box": [
+            1008,
+            193,
+            1428,
+            354
+          ],
+          "distinct_colors": 11,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source rail label",
+          "selector": ".b3-guide-rail span",
+          "box": [
+            108,
+            539.484375,
+            216.703125,
+            568.28125
+          ],
+          "pixel_sampling_box": [
+            108,
+            539,
+            217,
+            569
+          ],
+          "distinct_colors": 173,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source overview link",
+          "selector": ".b3-guide-rail a",
+          "box": [
+            1200.59375,
+            529.890625,
+            1428,
+            577.890625
+          ],
+          "pixel_sampling_box": [
+            1200,
+            529,
+            1428,
+            578
+          ],
+          "distinct_colors": 208,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-hero > .b3-split",
+          "box": [
+            108,
+            80,
+            1428,
+            467.890625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "387.891px",
+            "width": "1320px",
+            "gap": "92.16px"
+          },
+          "text": "Educational guide statusResource unavailableNo guide or video is available to view or download while its contents and delivery remain unapproved.Explore current services "
+        },
+        {
+          "selector": ".b3-guide-rail",
+          "box": [
+            0,
+            515.890625,
+            1536,
+            615.890625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px 0px 24px",
+            "marginTop": "48px",
+            "backgroundColor": "rgb(6, 102, 165)",
+            "height": "100px",
+            "width": "1536px",
+            "gap": "normal"
+          },
+          "text": "Source detailsRead the source overview "
         }
       ]
     },
     {
       "frame": "02-resource-summary",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "resource summary independently sized photographic media slot",
-        "width_share": "about 18% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.01:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          2
-        ]
-      },
-      "dominance": "Blue resource-summary panel leads into live key-topic rows, with a separate clinic photo and related-routes area at right.",
-      "eye_path": [
-        "resource summary heading",
-        "clinic reception",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Keep blue air above row list and below the inset photo."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Blue resource-summary panel leads into live key-topic rows, with a separate clinic photo and related-routes area at right.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "resource summary heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "resource summary hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Four key-topic rows and important boundary note remain separate live content."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
+      "regions": [
         {
-          "region_id": 2,
-          "container": "02-resource-summary / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.01:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "role": "heading",
+          "selector": "h2",
+          "box": [
+            108,
+            64,
+            766.890625,
+            223.71875
+          ],
+          "pixel_sampling_box": [
+            108,
+            64,
+            767,
+            224
+          ],
+          "distinct_colors": 237,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "education caveat and book",
+          "selector": "#important-boundary",
+          "box": [
+            108,
+            255.71875,
+            628,
+            354.703125
+          ],
+          "pixel_sampling_box": [
+            108,
+            255,
+            628,
+            355
+          ],
+          "distinct_colors": 248,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "source table with three rows",
+          "selector": ".b3-guide-source",
+          "box": [
+            843.6875,
+            64,
+            1428,
+            318.125
+          ],
+          "pixel_sampling_box": [
+            843,
+            64,
+            1428,
+            319
+          ],
+          "distinct_colors": 243,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "service panel heading and body",
+          "selector": ".b3-dark-panel",
+          "box": [
+            843.6875,
+            318.125,
+            1428,
+            555.65625
+          ],
+          "pixel_sampling_box": [
+            843,
+            318,
+            1428,
+            556
+          ],
+          "distinct_colors": 249,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "neuropathy action in service panel",
+          "selector": ".b3-dark-panel a",
+          "box": [
+            879.6875,
+            473.65625,
+            1061.546875,
+            521.65625
+          ],
+          "pixel_sampling_box": [
+            879,
+            473,
+            1062,
+            522
+          ],
+          "distinct_colors": 200,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-summary .b3-split",
+          "box": [
+            108,
+            64,
+            1428,
+            555.65625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "491.656px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Source and status overviewGeneral education onlyFuture material will not replace individualized medical advice.Current source statusApproved titleNot suppliedGuide or videoNot receivedAccess methodNot definedExplore neuropathy careRead the current service overview while guide details are pending.Explore neuropathy "
+        },
+        {
+          "selector": ".b3-guide-summary-copy",
+          "box": [
+            108,
+            64,
+            766.890625,
+            354.703125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "290.703px",
+            "width": "658.891px",
+            "gap": "normal"
+          },
+          "text": "Source and status overviewGeneral education onlyFuture material will not replace individualized medical advice."
+        },
+        {
+          "selector": ".b3-guide-summary-right",
+          "box": [
+            843.6875,
+            64,
+            1428,
+            555.65625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "491.656px",
+            "width": "584.312px",
+            "gap": "normal"
+          },
+          "text": "Current source statusApproved titleNot suppliedGuide or videoNot receivedAccess methodNot definedExplore neuropathy careRead the current service overview while guide details are pending.Explore neuropathy "
+        },
+        {
+          "selector": "#important-boundary svg",
+          "box": [
+            133,
+            291.203125,
+            161,
+            319.203125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "28px",
+            "width": "28px",
+            "gap": "normal"
+          },
+          "text": ""
+        },
+        {
+          "selector": ".b3-guide-source dl > div",
+          "box": [
+            879.6875,
+            154.4375,
+            1395,
+            198
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "15.36px",
+            "lineHeight": "24.576px",
+            "padding": "9px 0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "43.5625px",
+            "width": "515.312px",
+            "gap": "20px"
+          },
+          "text": "Approved titleNot supplied"
         }
       ]
     },
     {
       "frame": "03-lead-form",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "lead form independently sized photographic media slot",
-        "width_share": "about 30% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 2.42:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "clinic lounge",
-        "where": "right lower band",
-        "region_ids": [
-          15
-        ]
-      },
-      "dominance": "Cream form explanation at left faces a deliberately inactive integration aperture; photo strip anchors lower right.",
-      "eye_path": [
-        "lead form heading",
-        "clinic lounge",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Preserve white space around pending-status panel and the introductory text."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Cream form explanation at left faces a deliberately inactive integration aperture; photo strip anchors lower right.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "lead form heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "lead form hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Pending integration aperture is live status, not a fake enabled form."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
+      "regions": [
         {
-          "region_id": 15,
-          "container": "03-lead-form / clinic lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.43:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "role": "eyebrow and heading",
+          "selector": ".b3-split > div:first-child",
+          "box": [
+            108,
+            72,
+            791.75,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            72,
+            792,
+            358
+          ],
+          "distinct_colors": 256,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "access explanation",
+          "selector": ".b3-split > div:first-child > p:last-child",
+          "box": [
+            108,
+            292.78125,
+            602.265625,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            292,
+            603,
+            358
+          ],
+          "distinct_colors": 246,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "inactive card with lock and copy",
+          "selector": "#form-status",
+          "box": [
+            868.546875,
+            91.515625,
+            1428,
+            337.5
+          ],
+          "pixel_sampling_box": [
+            868,
+            91,
+            1428,
+            338
+          ],
+          "distinct_colors": 271,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "decision rail and copy",
+          "selector": ".b3-availability-foot",
+          "box": [
+            108,
+            389.03125,
+            1428,
+            492.625
+          ],
+          "pixel_sampling_box": [
+            108,
+            389,
+            1428,
+            493
+          ],
+          "distinct_colors": 258,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        },
+        {
+          "role": "navy Neuropathy action",
+          "selector": ".b3-availability-foot a",
+          "box": [
+            1279.234375,
+            417.328125,
+            1400,
+            465.328125
+          ],
+          "pixel_sampling_box": [
+            1279,
+            417,
+            1400,
+            466
+          ],
+          "distinct_colors": 182,
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-availability .b3-split",
+          "box": [
+            108,
+            72,
+            1428,
+            357.03125
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "285.031px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Access statusNo requests are being collected.This page cannot accept guide requests or personal details.No active formThe resource and delivery workflow still need approval."
+        },
+        {
+          "selector": ".b3-availability-foot",
+          "box": [
+            108,
+            389.03125,
+            1428,
+            492.625
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "24px 28px 24px 32px",
+            "marginTop": "32px",
+            "backgroundColor": "rgb(234, 233, 229)",
+            "height": "103.594px",
+            "width": "1320px",
+            "gap": "30px"
+          },
+          "text": "Choose a starting pointLearn about care areas, beginning with neuropathy.Neuropathy "
         }
       ]
     },
     {
       "frame": "04-privacy-note",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 512
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "privacy note independently sized photographic media slot",
-        "width_share": "about 13% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.03:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          9
-        ]
-      },
-      "dominance": "Dark privacy statement and policy links occupy left; right clinic photograph and resource-pending status remain subordinate.",
-      "eye_path": [
-        "privacy note heading",
-        "clinic reception",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Maintain dark margin between policy links and photo."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Dark privacy statement and policy links occupy left; right clinic photograph and resource-pending status remain subordinate.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "privacy note heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "privacy note hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Do not introduce unverified HIPAA assertions or active guide delivery."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
+      "regions": [
         {
-          "region_id": 9,
-          "container": "04-privacy-note / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.03:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "role": "heading with bracket",
+          "selector": "h2",
+          "box": [
+            108,
+            99.703125,
+            760.671875,
+            179.5625
+          ],
+          "pixel_sampling_box": [
+            108,
+            99,
+            761,
+            180
+          ],
+          "distinct_colors": 239,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "privacy explanation at shell edge",
+          "selector": ".b3-guide-privacy-copy > p",
+          "box": [
+            108,
+            199.5625,
+            602.265625,
+            300.296875
+          ],
+          "pixel_sampling_box": [
+            108,
+            199,
+            603,
+            301
+          ],
+          "distinct_colors": 237,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "pending-policy caveat and copy",
+          "selector": "#privacy-status",
+          "box": [
+            872.46875,
+            133.515625,
+            1396,
+            194.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            133,
+            1396,
+            195
+          ],
+          "distinct_colors": 237,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        },
+        {
+          "role": "Contact status action in caveat",
+          "selector": ".b3-guide-privacy-caveat a",
+          "box": [
+            872.46875,
+            218.46875,
+            1042.40625,
+            266.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            218,
+            1043,
+            267
+          ],
+          "distinct_colors": 205,
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+        }
+      ],
+      "geometry": [
+        {
+          "selector": ".b3-guide-privacy .b3-split",
+          "box": [
+            108,
+            88,
+            1428,
+            312
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "0px",
+            "marginTop": "0px",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "height": "224px",
+            "width": "1320px",
+            "gap": "76.8px"
+          },
+          "text": "Privacy NoteThere is no guide signup or collection of personal or health information on this page. Privacy and patient-notice content is being reviewed.Policy publication pendingDo not share personal health information through this page.See contact status "
+        },
+        {
+          "selector": ".b3-guide-privacy-caveat",
+          "box": [
+            837.46875,
+            88,
+            1428,
+            312
+          ],
+          "style": {
+            "fontFamily": "\"Source Sans 3\"",
+            "fontWeight": "400",
+            "fontSize": "18px",
+            "lineHeight": "28.8px",
+            "padding": "24px 32px",
+            "marginTop": "0px",
+            "backgroundColor": "rgb(39, 51, 60)",
+            "height": "224px",
+            "width": "590.531px",
+            "gap": "normal"
+          },
+          "text": "Policy publication pendingDo not share personal health information through this page.See contact status "
         }
       ]
     }
-  ]
+  ],
+  "pixel_validation": "evidence/pixel-validation.json",
+  "rule": "Fresh17 Q1-Q3 CODE boxes and retained4 Q4 CODE boxes with exact hash provenance; pixel sampling recomputed for all21. No inherited acceptance.",
+  "page": "educational-guide",
+  "reference_closure": {
+    "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+    "date": "2026-10-01",
+    "source_package": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-fallback-r1",
+    "independent_art_review": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/director-fallback-r1-art-review.md",
+    "independent_art_review_sha256": "81fa78e6d5a231470514e061e310e5947b7d965cf54c7c4857bdc8db503d5b98",
+    "archive": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/archive-reference-closure-r1",
+    "scope": "Guide canonical design-reference contract only; no runtime or Site Review approval",
+    "method": "COPY_ONLY; original candidate files and histories retained",
+    "next_gate": "Fresh controller independent source-contract verification; runtime implementation remains old until separately reviewed",
+    "runtime_implementation_updated": false,
+    "registry_updated": false,
+    "production_raster_assets": 0
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  }
 }

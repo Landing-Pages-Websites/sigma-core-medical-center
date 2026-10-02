@@ -1,0 +1,776 @@
+{
+  "page": "neuropathy",
+  "frames": [
+    {
+      "frame": "01-hero.png",
+      "bg": "#0464bc",
+      "section_owner": "01-hero",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            816
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1173,
+            690,
+            1432,
+            760
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/hero.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            876,
+            181,
+            1505,
+            674
+          ],
+          "verdict": "extract",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "person walking \u2014 independent photographic slot",
+          "narrative_job": "Exact person walking visual for 01-hero, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "01-hero-01-person-walking.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs/01-hero.png",
+            "source_box": [
+              876,
+              181,
+              1505,
+              674
+            ]
+          },
+          "source_component": "src/components/interior/neuropathy/hero.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/hero.tsx",
+        "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [
+          "/images/design/neuropathy/01-hero-01-person-walking.png"
+        ],
+        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-visitor-orientation.png",
+      "bg": "#045cac",
+      "section_owner": "02-visitor-orientation",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            141,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            116,
+            216,
+            558,
+            318
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            117,
+            352,
+            557,
+            430
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            391,
+            80,
+            829,
+            156
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            117,
+            467,
+            578,
+            513
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            111,
+            80,
+            364,
+            156
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            47,
+            45,
+            70,
+            189
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            8,
+            575,
+            806,
+            734
+          ],
+          "verdict": "code",
+          "section_owner": "02-visitor-orientation",
+          "what": "symptom-observation guidance rail",
+          "build_note": "Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+          "source_component": "src/components/interior/neuropathy/orientation.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/orientation.tsx",
+        "source_sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5",
+        "dom_ids": [
+          "visitor-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-goals-and-decision-factors.png",
+      "bg": "#f4f4f4",
+      "section_owner": "03-goals-and-decision-factors",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            99,
+            116,
+            707,
+            260
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            144,
+            511,
+            495,
+            633
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            143,
+            405,
+            528,
+            474
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            102,
+            319,
+            536,
+            363
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            548,
+            104,
+            705,
+            155
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            58,
+            83,
+            92,
+            289
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            1275,
+            69,
+            1498,
+            432
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "decision-factor source-truth panel",
+          "build_note": "Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            1121,
+            467,
+            1521,
+            760
+          ],
+          "verdict": "code",
+          "section_owner": "03-goals-and-decision-factors",
+          "what": "decision-factor continuation",
+          "build_note": "Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+          "source_component": "src/components/interior/neuropathy/goals.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/goals.tsx",
+        "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+        "dom_ids": [
+          "goals-and-decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-what-to-expect.png",
+      "bg": "#04142c",
+      "section_owner": "04-what-to-expect",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            590,
+            73,
+            1523,
+            742
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            67,
+            568,
+            551,
+            664
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            68,
+            381,
+            613,
+            458
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            466,
+            219,
+            773,
+            321
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            67,
+            217,
+            309,
+            300
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            334,
+            219,
+            435,
+            300
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            68,
+            483,
+            292,
+            515
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            114,
+            127,
+            343,
+            158
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            1060,
+            82,
+            1505,
+            622
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "retired photographic aperture, replaced by code-native composition",
+          "build_note": "Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+          "source_component": "src/components/interior/neuropathy/expect.tsx"
+        }
+      ],
+      "implementation_deviation": "Approved frame photo slots revised for photo-role ownership: Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/expect.tsx",
+        "source_sha256": "d2e635e440099ae588e820661488f757e96bd857257cdc25a92d87b9bdac99e5",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "05-faq.png",
+      "bg": "#041c34",
+      "section_owner": "05-faq",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            44,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/faq.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            952,
+            78,
+            1421,
+            251
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "FAQ wayfinding rail",
+          "build_note": "Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
+          "source_component": "src/components/interior/neuropathy/faq.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/faq.tsx",
+        "source_sha256": "d7b515255828ec842b68d122f9d73dbccf45c9f5ae845b12abb83635cc2f98b4",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta.png",
+      "bg": "#041434",
+      "section_owner": "06-booking-cta",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            66,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            62,
+            427,
+            304,
+            639
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            85,
+            108,
+            683,
+            219
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            125,
+            243,
+            462,
+            372
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            571,
+            489,
+            712,
+            639
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            324,
+            556,
+            461,
+            639
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            333,
+            482,
+            476,
+            529
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            1213,
+            91,
+            1467,
+            471
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "question sheet and availability panel",
+          "build_note": "Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+          "source_component": "src/components/interior/neuropathy/booking.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/booking.tsx",
+        "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "07-medical-sources.png",
+      "bg": "#fcf4f4",
+      "section_owner": "07-medical-sources",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            51,
+            45,
+            1496,
+            482
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/sources.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            187,
+            82,
+            735,
+            215
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/sources.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            187,
+            81,
+            446,
+            143
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/neuropathy/sources.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            1198,
+            49,
+            1482,
+            253
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "source scope sidebar",
+          "build_note": "Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
+          "source_component": "src/components/interior/neuropathy/sources.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/sources.tsx",
+        "source_sha256": "9c986bbdd0fd6a34d72868c4dfd1d5d0d3612e75feb090e63b8533cb98e74555",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  }
+}

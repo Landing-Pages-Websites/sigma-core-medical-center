@@ -1,5 +1,5 @@
 <!doctype html><meta charset='utf-8'>
-<title>Image asset review</title><style>
+<title>services — builder source review, visual pending</title><style>
 body{margin:0;padding:24px;background:#111;color:#eee;
      font:14px/1.5 -apple-system,'Segoe UI',sans-serif}
 a{color:#8bd} .muted{color:#999} h1{font-size:20px}
@@ -28,9 +28,9 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 .chip.unmapped{background:#630} .chip.client-copy{background:#444}
 .chip.composite{background:#536}
 </style>
-<h1>Image asset review</h1>
-<p class='muted'>30 CODE regions and 7 raster assets to review: 7 extract, 0 inpaint.</p>
-<div class='proto'><b>How to review:</b> judge every planned treatment against its design reference on the left. For CODE cards, verify the build note can preserve the region's silhouette, materiality, and compositing—not merely approximate its geometry. To swap a raster, replace the file directly in git — same path, push to main. Replaced files are authoritative — the pipeline never overwrites them. This page updates on every push. Complete the review subtask to approve; the build does not start until then.</div>
+<h1>services — builder source review, visual pending</h1>
+<p class='muted'>35 CODE regions and 2 raster assets to review: 2 extract, 0 inpaint.</p>
+<div class='proto'><b>Builder source review:</b> Compare the preserved native reference with the documented live-code recipe or retained asset. Retired documentary roles are recorded in builder_decisions.json and reversible archives. Source checks are complete; runtime desktop/mobile fidelity, section edges and independent Site Review remain pending. This sheet does not authorize publication.</div>
 <div class='card' id='01-hero-r1'>
 <b>01-hero-r1</b><span class='chip code'>code</span>
 <div class='muted'>mixed semantic layout and CSS field; independent photos split below</div>
@@ -72,14 +72,12 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <figure><div class='proto'><b>Planned code treatment</b><p>Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='01-hero-r6'>
-<b>01-hero-r6</b><span class='chip extract'>extract</span>
-<div class='muted'>reception — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1198, 134, 1513, 583], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/01-hero.png&quot;}</div>
+<b>01-hero-r6</b><span class='chip code'>code</span>
+<div class='muted'>service-direction field</div>
+<div class='muted'>Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.</div>
 <div class='pair'>
 <figure><a href='crops/01-hero-context.png'><img src='crops/01-hero-r6-ref.png' alt=''></a><figcaption>design reference — 01-hero (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/01-hero-01-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>01-hero-01-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/01-hero-01-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='02-neuropathy-feature-r1'>
 <b>02-neuropathy-feature-r1</b><span class='chip code'>code</span>
@@ -104,18 +102,16 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1252, 78, 1475, 337], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/02-neuropathy-feature-context.png'><img src='crops/02-neuropathy-feature-r3-ref.png' alt=''></a><figcaption>design reference — 02-neuropathy-feature (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/02-neuropathy-feature-01-walking-figure.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-neuropathy-feature-01-walking-figure.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/02-neuropathy-feature-01-walking-figure.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/services/02-neuropathy-feature-01-walking-figure.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-neuropathy-feature-01-walking-figure.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/services/02-neuropathy-feature-01-walking-figure.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='02-neuropathy-feature-r4'>
-<b>02-neuropathy-feature-r4</b><span class='chip extract'>extract</span>
-<div class='muted'>clinic reception — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [937, 644, 1505, 799], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png&quot;}</div>
+<b>02-neuropathy-feature-r4</b><span class='chip code'>code</span>
+<div class='muted'>supporting step strip</div>
+<div class='muted'>Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.</div>
 <div class='pair'>
 <figure><a href='crops/02-neuropathy-feature-context.png'><img src='crops/02-neuropathy-feature-r4-ref.png' alt=''></a><figcaption>design reference — 02-neuropathy-feature (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/02-neuropathy-feature-02-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>02-neuropathy-feature-02-clinic-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/02-neuropathy-feature-02-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='03-service-navigation-r1'>
 <b>03-service-navigation-r1</b><span class='chip code'>code</span>
@@ -140,18 +136,16 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [561, 471, 837, 687], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png&quot;}</div>
 <div class='pair'>
 <figure><a href='crops/03-service-navigation-context.png'><img src='crops/03-service-navigation-r3-ref.png' alt=''></a><figcaption>design reference — 03-service-navigation (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/03-service-navigation-01-active-couple.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-service-navigation-01-active-couple.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-service-navigation-01-active-couple.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='asset-preview'><img src='/images/design/services/03-service-navigation-01-active-couple.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-service-navigation-01-active-couple.png</code> (replace in git)</figcaption></figure>
+<figure><div class='intended-preview' style='background:#101E33'><img src='/images/design/services/03-service-navigation-01-active-couple.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
 </div></div>
 <div class='card' id='03-service-navigation-r4'>
-<b>03-service-navigation-r4</b><span class='chip extract'>extract</span>
-<div class='muted'>clinic reception — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1213, 78, 1521, 756], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png&quot;}</div>
+<b>03-service-navigation-r4</b><span class='chip code'>code</span>
+<div class='muted'>category direction rail</div>
+<div class='muted'>Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.</div>
 <div class='pair'>
 <figure><a href='crops/03-service-navigation-context.png'><img src='crops/03-service-navigation-r4-ref.png' alt=''></a><figcaption>design reference — 03-service-navigation (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/03-service-navigation-02-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>03-service-navigation-02-clinic-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/03-service-navigation-02-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='04-how-to-choose-next-step-r1'>
 <b>04-how-to-choose-next-step-r1</b><span class='chip code'>code</span>
@@ -242,14 +236,12 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='04-how-to-choose-next-step-r12'>
-<b>04-how-to-choose-next-step-r12</b><span class='chip extract'>extract</span>
-<div class='muted'>clinic reception — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [1260, 125, 1521, 428], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/04-how-to-choose-next-step.png&quot;}</div>
+<b>04-how-to-choose-next-step-r12</b><span class='chip code'>code</span>
+<div class='muted'>conversation path panel</div>
+<div class='muted'>Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.</div>
 <div class='pair'>
 <figure><a href='crops/04-how-to-choose-next-step-context.png'><img src='crops/04-how-to-choose-next-step-r12-ref.png' alt=''></a><figcaption>design reference — 04-how-to-choose-next-step (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/04-how-to-choose-next-step-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>04-how-to-choose-next-step-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/04-how-to-choose-next-step-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='05-booking-cta-r1'>
 <b>05-booking-cta-r1</b><span class='chip code'>code</span>
@@ -332,22 +324,20 @@ figcaption{font-size:12px;color:#999;margin-top:4px}
 <figure><div class='proto'><b>Planned code treatment</b><p>Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <div class='card' id='05-booking-cta-r11'>
-<b>05-booking-cta-r11</b><span class='chip extract'>extract</span>
-<div class='muted'>clinic reception — independent photographic slot</div>
-<div class='muted'>Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.</div>
-<div class='muted'>presentation: {&quot;alpha_required&quot;: false, &quot;crop_contract&quot;: &quot;Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.&quot;, &quot;intended_background&quot;: &quot;#101E33&quot;, &quot;minimum_visible_fraction&quot;: &quot;At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.&quot;, &quot;mode&quot;: &quot;framed-panel&quot;, &quot;source_box&quot;: [922, 134, 1505, 592], &quot;source_provenance&quot;: &quot;/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/05-booking-cta.png&quot;}</div>
+<b>05-booking-cta-r11</b><span class='chip code'>code</span>
+<div class='muted'>booking direction stage</div>
+<div class='muted'>Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.</div>
 <div class='pair'>
 <figure><a href='crops/05-booking-cta-context.png'><img src='crops/05-booking-cta-r11-ref.png' alt=''></a><figcaption>design reference — 05-booking-cta (click for full frame)</figcaption></figure>
-<figure><div class='asset-preview'><img src='../images/design/05-booking-cta-01-clinic-reception.png' alt=''></div><figcaption>shipped asset on transparency checkerboard — <code>05-booking-cta-01-clinic-reception.png</code> (replace in git)</figcaption></figure>
-<figure><div class='intended-preview' style='background:#101E33'><img src='../images/design/05-booking-cta-01-clinic-reception.png' alt=''></div><figcaption>asset on intended background — #101E33</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
 </div></div>
 <details><summary>NOTES.md — CSS/SVG techniques the build uses instead of images</summary><pre># services — Stage 9b / The Forward Standard
 
 Source: approved section frames; section manifest wins for content. CSS viewport used for review: 1440×900 laptop and 390×844 mobile. 
 Design frames are 1536×864 bitmaps (medical-sources and some privacy/CTA bands are 1536×512). Their CSS viewport and DPR are unknown.
-Use approved typography_contract roles h1/display, body and utility; preserve the approved palette_contract tokens ink, surface, action, electric, silver, charcoal and light. CSS owns fields, bars, brackets, beveled rails, labels, buttons and forms. Photography belongs to its section.
+Use approved typography_contract roles h1/display, body and utility; preserve the approved palette_contract tokens ink, surface, action, electric, silver, charcoal and light. CSS owns fields, bars, brackets, beveled rails, labels, buttons and forms. The retained walking-figure and active-couple rasters belong only to their own sections. The five unsupplied-premises slots below are code-native candidate deviations from the approved frames.
 No medical outcomes, team identities, credentials, facility contact details, guide delivery or calendar behavior may be inferred from these visual frames.
-Visual QA limitation: source frame photography is sometimes visibly clipped by approved geometric fields or other content; the crops preserve only source-visible subject pixels. Do not fabricate occluded parts, enlarge tiny photo strips beyond readable resolution, or present rendered source-frame rooms as verified client photographs. Client-copy assets are identified explicitly below.
+Visual QA limitation: source frame photography is sometimes visibly clipped by approved geometric fields or other content; the crops preserve only source-visible subject pixels. Do not fabricate occluded parts, enlarge tiny photo strips beyond readable resolution, or present rendered source-frame rooms as verified client photographs. Client-copy assets are identified explicitly below. The original affected region contracts and NOTES lines are backed up in `site_convergence/services/source-truth-r3-original-contract.md` (relative to the research root). These changes are a candidate, not a new design approval.
 
 
 ## 01-hero
@@ -358,7 +348,7 @@ Segmenter found 5 candidate regions; these are not semantic assets.
 - CODE r3: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r4: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r5: Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
-- EXTRACT r6: reception; 01-hero-01-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r6 (source-truth r6 candidate, zero owned raster): hero focal field. Keep one faceted navy-to-blue field with two restrained concentric arcs and one measured horizon line; retain the enlarged desktop heading and dominant neuropathy tile. On mobile crop the arcs intentionally in the short field between tile and four-category rail. Show no room, furniture, signage or photo. Narrative job: Visual direction for choosing a service, without implying a photographed premises. The frame crop remains a layout reference only; it is not supplied premises evidence.
 
 ## 02-neuropathy-feature
 
@@ -366,7 +356,7 @@ Segmenter found 2 candidate regions; these are not semantic assets.
 - CODE r1: Build the neuropathy feature section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r2: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - EXTRACT r3: walking-figure; 02-neuropathy-feature-01-walking-figure.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
-- EXTRACT r4: clinic-reception; 02-neuropathy-feature-02-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r4 (source-truth candidate, zero owned raster): quiet link support band. Place the four existing other-care links on one pale field with a blue lower keyline and local spacing below labels. Keep the two-row links inside that field at 390px and stack them singly at 320px, with no trailing ornament. The separate walking-figure raster keeps a legible natural-aspect crop. Narrative job: Secondary directional balance beside the other-care links, not premises proof. The frame crop remains a layout reference only; it is not supplied premises evidence.
 
 ## 03-service-navigation
 
@@ -374,7 +364,7 @@ Segmenter found 2 candidate regions; these are not semantic assets.
 - CODE r1: Build the service navigation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r2: Keep this service navigation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - EXTRACT r3: active-couple; 03-service-navigation-01-active-couple.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
-- EXTRACT r4: clinic-reception; 03-service-navigation-02-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r4 (source-truth r6 candidate, zero owned raster): attached category wayfinding. Keep the three live articles and links intact; give each card a distinct nonverbal open contour in its right-hand track. Vary contour and spacing by card, keep the structural desktop mass, and narrow mobile tracks to return width to the pelvic copy. No cue words, visible indices, controls or medical-data marks. Retain the separate active-couple raster in the Pain relief feature. Narrative job: Visual rhythm for three individually navigable service categories, not an office view. The frame crop remains a layout reference only; it is not supplied premises evidence.
 
 ## 04-how-to-choose-next-step
 
@@ -390,7 +380,7 @@ Segmenter found 11 candidate regions; these are not semantic assets.
 - CODE r9: Keep the how to choose next step horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r10: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r11: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
-- EXTRACT r12: clinic-reception; 04-how-to-choose-next-step-01-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r12 (source-truth r5 candidate, zero owned raster): conversation path panel. Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numbers or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile. Narrative job: Make the existing question-to-conversation decision path visible without depicting a clinic. The frame crop remains a layout reference only; it is not supplied premises evidence.
 
 ## 05-booking-cta
 
@@ -405,10 +395,23 @@ Segmenter found 10 candidate regions; these are not semantic assets.
 - CODE r8: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r9: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
 - CODE r10: Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.
-- EXTRACT r11: clinic-reception; 05-booking-cta-01-clinic-reception.png; crop approved frame, preserve photographed details; no generic substitute. CSS sizes the slot, not the file; keep its remaining annotations live.
+- CODE r11 (source-truth r5 candidate, zero owned raster): quiet booking direction field. Preserve the left booking statement, live action, integration-status note and lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core; reduce its width and height on mobile. Let the lower links and breathing room close the section; no post-link bars or inert control marks. Narrative job: Counterbalance the booking copy and direct attention to its live action without suggesting a service-specific reception. The frame crop remains a layout reference only; it is not supplied premises evidence.
 
 ## Review limitations
 
 - 02-neuropathy-feature: source walking figure is a very small photo panel; keep as an inset, not a hero-scale portrait.
 
+
+
+## Builder source closure r1
+
+Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.
+
+Earlier approval or pending-retirement statements above are historical and do not promote this candidate. Runtime ownership below supersedes obsolete photo slots. Native frames remain reference evidence. Unsupported public rasters are byte-preserved outside public under assets/retired-photo-roles/.
+
+- 01-hero: `src/components/interior/services/hero.tsx`; 0 runtime rasters. Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.
+- 02-neuropathy-feature: `src/components/interior/services/neuropathy.tsx`; 1 runtime rasters. Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.
+- 03-service-navigation: `src/components/interior/services/navigation.tsx`; 1 runtime rasters. Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.
+- 04-how-to-choose-next-step: `src/components/interior/services/choose.tsx`; 0 runtime rasters. Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.
+- 05-booking-cta: `src/components/interior/services/booking.tsx`; 0 runtime rasters. Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.
 </pre></details>

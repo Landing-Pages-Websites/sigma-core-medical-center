@@ -7,29 +7,42 @@
       "implementation_owner": "src/components/interior/services/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "services/01-hero-01-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/hero.tsx",
+        "source_sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -38,30 +51,43 @@
       "implementation_owner": "src/components/interior/services/neuropathy.tsx",
       "content_source": "section_manifest.json#02-neuropathy-feature",
       "asset_roles": [
-        "services/02-neuropathy-feature-01-walking-figure.png",
-        "services/02-neuropathy-feature-02-clinic-reception.png"
+        "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/neuropathy.tsx",
+        "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+        "dom_ids": [
+          "neuropathy"
+        ],
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -70,30 +96,43 @@
       "implementation_owner": "src/components/interior/services/navigation.tsx",
       "content_source": "section_manifest.json#03-service-navigation",
       "asset_roles": [
-        "services/03-service-navigation-01-active-couple.png",
-        "services/03-service-navigation-02-clinic-reception.png"
+        "/images/design/services/03-service-navigation-01-active-couple.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/navigation.tsx",
+        "source_sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6",
+        "dom_ids": [
+          "service-navigation"
+        ],
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -102,29 +141,41 @@
       "implementation_owner": "src/components/interior/services/choose.tsx",
       "content_source": "section_manifest.json#04-how-to-choose-next-step",
       "asset_roles": [
-        "services/04-how-to-choose-next-step-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/choose.tsx",
+        "source_sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292",
+        "dom_ids": [
+          "how-it-works"
+        ],
+        "runtime_assets": [],
+        "recipe": "Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -133,30 +184,43 @@
       "implementation_owner": "src/components/interior/services/booking.tsx",
       "content_source": "section_manifest.json#05-booking-cta",
       "asset_roles": [
-        "services/05-booking-cta-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/booking.tsx",
+        "source_sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
 }

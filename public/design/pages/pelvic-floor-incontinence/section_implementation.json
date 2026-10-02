@@ -7,29 +7,43 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "Exact person in garden visual for 01-hero, not a staff or outcome representation"
+        "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+        "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+        ],
+        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -38,29 +52,41 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
       "content_source": "section_manifest.json#02-private-orientation",
       "asset_roles": [
-        "Exact clinic lounge visual for 02-private-orientation, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+        "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+        "dom_ids": [
+          "private-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -69,29 +95,41 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
       "content_source": "section_manifest.json#03-concerns-and-goals",
       "asset_roles": [
-        "Exact clinic reception visual for 03-concerns-and-goals, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+        "source_sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1",
+        "dom_ids": [
+          "concerns-and-goals"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the concerns and goals section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this concerns and goals content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the concerns and goals horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this concerns and goals panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated reception with a dark, angled question field containing three real appointment-preparation prompts and a non-diagnostic note. Keep the left heading, daily-life concerns and booking action; render numbers, dividers and step bars with CSS.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -100,29 +138,41 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
       "content_source": "section_manifest.json#04-what-to-expect",
       "asset_roles": [
-        "code-only photo-role revision"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Privacy copy, booking control and services link retained."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "No photo: the former waiting-wall slot is now a distinct privacy-led code panel."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "The frame’s right photo is deliberately replaced; the dark privacy panel preserves asymmetry and reading order."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Existing navy, blue, mineral and bracket language retained in section-specific CSS; independent review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive code is present; local captures cannot certify a full section-edge or site-wide pass."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+        "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -131,29 +181,41 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "Exact clinic lounge visual for 05-faq, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+        "source_sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Remove the fabricated lounge. In the left editorial column, place a compact 01\u201304 question count and live boundary statement; keep the four FAQ answers, clinical-review note and related-care links in the right column. Use brand keylines, never a decorative photo slot.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -162,30 +224,41 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation",
-        "Exact clinic lounge visual for 06-booking-cta, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "2 of 2 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+        "source_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the false reception frame with one live booking-status stage: online scheduling is being prepared, approved details are pending, and /services is a working secondary link. Keep the left primary booking action and caveat; CSS supplies the clipped navy field. Remove the false lounge frame and its second media slot. The status stage uses the former right-side visual area as one continuous information region, with a measured CSS corner and no empty aperture or invented premises.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -194,30 +267,43 @@
       "implementation_owner": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "Exact clinic lounge visual for 07-medical-sources, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+        "source_sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
 }

@@ -1,5 +1,17 @@
-import { CalendarClock } from "lucide-react";
-import { DesignPhoto } from "../design-photo";
 export function BookHero(): React.ReactElement {
-  return <section id="booking-hero" className="b3-section b3-ink b3-book-hero"><div className="b3-shell b3-split"><div className="b3-book-intro"><h1 className="b3-bracket">Book your appointment with Sigma Core</h1><p>The approved scheduling calendar has not been connected. No appointment can be requested or confirmed on this page yet.</p><ol id="booking-steps" className="b3-book-steps"><li>Explore your goals</li><li>Review care options</li><li>Return when scheduling opens</li></ol><DesignPhoto slug="book" file="01-booking-hero-01-clinic-reception.png" className="b3-bevel b3-book-hero-media" priority /></div><div className="b3-calendar-aperture" id="integration-status"><CalendarClock size={56} aria-hidden /><strong>Calendar integration pending</strong><span>No dates, times, or availability are shown.</span></div></div></section>;
+  return (
+    <section id="booking-hero" className="book-section book-hero" aria-labelledby="book-title">
+      <svg className="book-hero-geometry" viewBox="0 0 1536 864" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <polyline points="1536,106 1364,106 1142,331 1329,516" />
+        <rect x="1280" y="574" width="55" height="46" />
+        <rect x="1356" y="537" width="55" height="83" />
+        <rect x="1431" y="486" width="56" height="134" />
+      </svg>
+      <div className="book-shell book-hero-copy">
+        <h1 id="book-title" className="book-bracket">Appointment <br />scheduling</h1>
+        <p className="book-availability">Online booking is not yet available.</p>
+        <p className="book-orientation">Explore service information and contact status below.</p>
+      </div>
+    </section>
+  );
 }

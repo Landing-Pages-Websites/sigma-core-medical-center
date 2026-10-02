@@ -167,7 +167,20 @@
       },
       "imagery": "Deep navy field with restrained core geometry; no generic clinical stock. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
       "internal_links": [],
-      "cta": ""
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/hero.tsx",
+        "source_sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "02-neuropathy-feature",
@@ -181,7 +194,21 @@
       "internal_links": [
         "/services/neuropathy"
       ],
-      "cta": ""
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/neuropathy.tsx",
+        "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+        "dom_ids": [
+          "neuropathy"
+        ],
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "03-service-navigation",
@@ -198,7 +225,21 @@
         "/services/pelvic-floor-incontinence",
         "/services/regenerative-medicine"
       ],
-      "cta": ""
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/navigation.tsx",
+        "source_sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6",
+        "dom_ids": [
+          "service-navigation"
+        ],
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "04-how-to-choose-next-step",
@@ -214,7 +255,19 @@
         "/book",
         "/terms"
       ],
-      "cta": "Book an Appointment"
+      "cta": "Book an Appointment",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/choose.tsx",
+        "source_sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292",
+        "dom_ids": [
+          "how-it-works"
+        ],
+        "runtime_assets": [],
+        "recipe": "Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "05-booking-cta",
@@ -229,7 +282,19 @@
       "internal_links": [
         "/book"
       ],
-      "cta": "Book an Appointment"
+      "cta": "Book an Appointment",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/booking.tsx",
+        "source_sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
   ],
   "seo_contract": {
@@ -349,5 +414,9 @@
     "Extend the customer-selected Direction B, The Forward Standard: kinetic Source Sans 3 performance typography, selective Playfair Display counterpoint, electric-blue/mineral fields, deep-navy anchors, angular apertures, stepped modules, asymmetric route panels, panoramic authentic-clinic bands, dramatic scale shifts, and stepped signal bars or squared brackets. Do not fall back to Direction A's calm magazine layouts.",
     "No visible decorative numbers, chapter numbers, folio markers, index numerals, or ghost numerals. Factual dates and address numbers are allowed.",
     "No 3D/sculptural Material Current imagery, portals, metallic ribbons, liquid chrome, fantasy architecture, product-render slabs, glowing energy streams, or abstract caves."
-  ]
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  }
 }

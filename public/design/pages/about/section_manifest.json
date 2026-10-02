@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 3,
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
   "page": {
     "slug": "about",
     "route": "/about",
@@ -8,338 +9,318 @@
     "audience": "a high-consideration visitor checking legitimacy",
     "primary_intent": "understanding who Sigma Core is and who is responsible for care/content",
     "publication": {
-      "status": "customer-review-required",
-      "gate": "Customer approval required before publication."
+      "status": "unchanged-pending",
+      "gate": "No approval or noindex promotion. Independent candidate review remains pending."
     }
   },
   "brand": {
     "name": "Sigma Core Medical Center",
     "wordmark": "Sigma Core Medical Center",
     "location": "Richmond, Virginia area",
-    "address": "725 Manakin Towne Lane, Manakin-Sabot, VA 23103 (reconfirm before launch)",
-    "phone": "",
-    "email": "",
-    "hours": "",
-    "opening_target": "September 8, 2026",
     "tagline": "Human Performance and Longevity",
     "brand_color_from_logo": "#0877BE",
-    "palette_guidance": "Preserve the supplied deep navy, silver, and electric-blue identity. Translate the dimensional logo into flat accessible web roles: deep navy #101E33, electric blue #0877BE, silver #C7CBD0, warm mineral #F7F6F3, charcoal #20272E, and restrained walnut #9A572B sampled from the real clinic. Metallic effects belong only to the supplied logo and fine structural keylines. No purple gradients, sterile hospital blue, or invented bright hues.",
     "voice": "Direct-response, concise, premium, calm, and patient-centered. Benefit-led without hype, jargon, fear, or unsupported medical claims.",
-    "identity_belief": "A longer, more active life starts with a clear, personalized next step focused on movement, function, recovery, and independence.",
-    "visual_metaphor": "The core mark becomes a precise field of concentric arcs and one measured horizon line: an organizing system for progress, not a medical diagram.",
     "taglines": [
       "Human Performance and Longevity"
-    ],
-    "logo_asset": "../sources/drive/logo-3.png",
-    "facility_assets": [
-      "../sources/drive/reception-1.png",
-      "../sources/drive/reception-2.png",
-      "../sources/drive/waiting-room.png"
-    ],
-    "asset_note": "The supplied reception and waiting-room photographs are authoritative Sigma Core location imagery. Preserve the real built environment and logo. Never regenerate the facility, redesign the wordmark, or imply a generic person is a Sigma Core provider or patient."
+    ]
   },
-  "customer_asks": [
-    {
-      "ask": "Use the supplied Sigma Core logo as the identity anchor and preserve the navy, silver, and electric-blue brand palette",
-      "source": "build_context.designDos",
-      "honored_by": "brand, all sections, hard_rules"
-    },
-    {
-      "ask": "Build from the physical clinic materiality: deep navy fields, brushed-silver accents, precise circular/core geometry, and restrained warm wood tones from the reception space",
-      "source": "build_context.designDos",
-      "honored_by": "01-movement-forward, 03-care-constellation, 04-place-of-care, page_flow, hard_rules"
-    },
-    {
-      "ask": "Use supplied reception and waiting-room imagery as authentic trust and location assets",
-      "source": "build_context.designDos",
-      "honored_by": "01-movement-forward, 04-place-of-care"
-    },
-    {
-      "ask": "Give neuropathy the strongest visual and navigational hierarchy among services",
-      "source": "build_context.designDos",
-      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
-    },
-    {
-      "ask": "Favor large, readable typography, strong contrast, obvious actions, and calm spacing for an older audience",
-      "source": "build_context.designDos",
-      "honored_by": "all sections, typography_contract, hard_rules"
-    },
-    {
-      "ask": "Keep each page focused around one primary action, with the educational resource and booking paths clearly differentiated",
-      "source": "build_context.designDos",
-      "honored_by": "06-two-ways-forward, interaction_contracts, hard_rules"
-    },
-    {
-      "ask": "Create modular team and testimonial structures that can accept approved real content later without showing fake placeholders publicly",
-      "source": "build_context.designDos",
-      "honored_by": "hard_rules"
-    },
-    {
-      "ask": "Richmond, Virginia care designed around movement, function, independence, recovery, and quality of life.",
-      "source": "build_context.keyMessaging",
-      "honored_by": "01-movement-forward, 02-neuropathy-first, 04-place-of-care"
-    },
-    {
-      "ask": "Neuropathy is the primary service and should receive the strongest hierarchy.",
-      "source": "build_context.keyMessaging",
-      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
-    },
-    {
-      "ask": "Concise, benefit-driven information helps visitors understand whether an option may fit without publishing treatment protocols.",
-      "source": "build_context.keyMessaging",
-      "honored_by": "02-neuropathy-first, 03-care-constellation, 05-what-happens-next, hard_rules"
-    },
-    {
-      "ask": "Visitors can choose their next step: request an educational resource or book an appointment.",
-      "source": "build_context.keyMessaging",
-      "honored_by": "06-two-ways-forward"
-    },
-    {
-      "ask": "Care is personalized; outcomes vary and no cure or reversal is promised.",
-      "source": "build_context.keyMessaging",
-      "honored_by": "02-neuropathy-first, 04-place-of-care, 07-answers-and-location, 08-verified-close, hard_rules"
-    },
-    {
-      "ask": "Build direction will preserve the existing logo and silver/navy palette",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "brand, palette_contract, hard_rules"
-    },
-    {
-      "ask": "The website will include separate pages for the primary services rather than one undifferentiated services page",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "03-care-constellation interaction_contract"
-    },
-    {
-      "ask": "The lead-capture page will be prepared now so the customer's educational video can be added later",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "06-two-ways-forward"
-    },
-    {
-      "ask": "Appointment booking will be wired to GoHighLevel and lead submissions will route into GoHighLevel CRM",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "01-movement-forward, 06-two-ways-forward, 07-answers-and-location interaction_contracts"
-    },
-    {
-      "ask": "The About page will be easy to update as the Medical Director, Nurse Practitioner, and team are hired",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "hard_rules"
-    },
-    {
-      "ask": "No cure or reversal claims will appear, and testimonial content will carry a visible 'Results not typical' disclaimer",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "02-neuropathy-first, 07-answers-and-location, hard_rules"
-    },
-    {
-      "ask": "The build team will treat September 8, 2026 as the clinic opening date and the need for a rapid launch as urgent",
-      "source": "build_context.explicitCustomerPromises",
-      "honored_by": "04-place-of-care, hard_rules"
-    },
-    {
-      "ask": "I think we can do more visually (feel free to generate images inspired by the reference photos)",
-      "source": "awb-home-design-review feedback, 2026-08-24",
-      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location"
-    },
-    {
-      "ask": "let's not use these 01, 02, 03 type numbers or folio numbers--these are a classic AI design tell",
-      "source": "awb-home-design-review feedback, 2026-08-24",
-      "honored_by": "05-what-happens-next, hard_rules"
-    },
-    {
-      "ask": "New Variation A is way too 3D and out there which doesn't make sense for a Medical Center; let's try a more photovisual style (and feel free to generate new images)",
-      "source": "awb-home-design-review feedback, 2026-08-24",
-      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location, hard_rules"
+  "source_brand_contract": {
+    "path": "../../pages/about/section_manifest.json#brand",
+    "disposition": "Source identity and selected B roles retained; conflicting address/opening/operational claims omitted under explicit user truth override. See source-truth.md. Canonical unchanged."
+  },
+  "direction": {
+    "name": "The Forward Standard",
+    "territory": "B",
+    "evidence": "../../variation/COMPARISON.md",
+    "typography": "Source Sans 3 oversized performance voice; no required serif counterpoint on this short informational route. Root serif-led contract is stale for B headline roles.",
+    "tokens": {
+      "ink": "#101E33",
+      "surface": "#F7F6F3",
+      "action": "#0666A5",
+      "electric": "#0877BE",
+      "silver": "#C7CBD0",
+      "charcoal": "#20272E",
+      "focus": "#72C7F3",
+      "light": "#FFFFFF",
+      "hover": "#054F80"
     }
-  ],
+  },
   "required_sections": [
     {
       "id": "01-hero",
       "name": "hero",
-      "job": "Establish Sigma Core's Richmond identity and purpose without substituting unverified provider authority.",
+      "anchor": "hero",
+      "additional_anchors": [],
+      "job": "Introduce the Richmond-area identity and neuropathy-first focus without asserting operational readiness.",
       "content": {
-        "headline": "A modern Richmond clinic built around your next chapter",
-        "body_direction": "Use the inventory headline and describe a new modern clinic focused on movement, function, recovery, and quality of life. Do not use 'premier,' physician-led, established-since, or experience claims.",
-        "supporting_points": [
-          "Sigma Core is a new medical center serving Richmond, Virginia and the surrounding market.",
-          "The supplied reception and waiting-room photos are authoritative facility assets.",
-          "Medical Director, Nurse Practitioner, and additional team names, photos, biographies, and credentials are unavailable.",
-          "Dr. Jason Hurst must not be presented as a treating provider or included in the public clinical team section."
-        ],
-        "cta": "Book an Appointment"
+        "eyebrow": "About Sigma Core \u00b7 Richmond area",
+        "headline": "A focus on movement, function and life.",
+        "body": "Sigma Core\u2019s focus is movement, function, recovery and quality of life for the Richmond, Virginia area. Neuropathy is the primary focus.",
+        "status": "Team, location and booking details remain unconfirmed.",
+        "actions": [
+          {
+            "label": "See booking status",
+            "href": "/book"
+          }
+        ]
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "CODE only; no photographic slots.",
       "internal_links": [
         "/book"
       ],
-      "cta": "Book an Appointment"
+      "reference_sha256": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d",
+      "reference_provenance": "BYTE_IDENTICAL_R4_FINAL_REFERENCE",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/hero.tsx",
+        "source_sha256": "5fb63109c04554e79b11490b574357a295dd40527e932234a940193e049d68e2",
+        "dom_ids": [
+          "hero",
+          "about-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background var(--ink), padded content container about 5vw at desktop; use natural block height. Set Source Sans 3 throughout. Keep decorative steps behind text and clip overflow at the right and bottom section edges. Use an aria-hidden absolute div at bottom right with electric #0877BE fill and clip-path polygon(0 72%,28% 72%,28% 50%,65% 50%,65% 23%,84% 23%,84% 0,100% 0,100% 100%,0 100%). The region includes incidental text and rule pixels: do not duplicate those. Extend geometry to actual section edges rather than segmentation inset. One h1 in Source Sans 3 weight 750\u2013800, clamp(3.25rem,9.6vw,9.25rem), line-height about .82\u2013.9 and tight letter-spacing. At reference width arrange lines A focus on / movement, / function and life.; function and life. use electric #0877BE, other words mineral #F7F6F3. IDs 2,5,6,8,10 are fragments of this single heading; maintain one accessible text occurrence and allow responsive reflow. Live p in Source Sans 3 weight 600, mineral #F7F6F3, font-size clamp(1.2rem,2.35vw,2.25rem), line-height 1.32; constrain to about 55rem at desktop and place below h1 with about 1.6rem gap. Anchor styled inline-flex with mineral #F7F6F3 background, ink #101E33 label, generous 1.4rem 2.5rem padding and square corners. Place action-colored arrow as a simple 3px SVG line and open chevron at right; Source Sans 3 bold label, visible keyboard focus. Render this segmentation fragment in the single h1 specified by ID 2, using Source Sans 3 with inherited weight, size and baseline; no separate positioned word or duplicate DOM copy. Render this segmentation fragment in the single h1 specified by ID 2; inline span color electric #0877BE, with inherited Source Sans 3 weight, size and baseline. Live p in Source Sans 3 at about 1.75rem and line-height 1.35; mineral text with modest opacity on ink. Use flex row with CTA and about 2.5rem gap at wide widths, stack with consistent reading order on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2; inline mineral #F7F6F3 text with inherited Source Sans 3 metrics. Live p with Source Sans 3 semibold, uppercase, letter-spacing .16em, font-size about 1.7rem and electric #0877BE; keep above h1 with small margin and allow wrapping on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2, mineral #F7F6F3 with inherited Source Sans 3 metrics and shared baseline. Use aria-hidden div with width about 11rem, height .7rem and mineral #F7F6F3 at reduced opacity; position relative to the stair decoration rather than to viewport text.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "02-clinic-purpose",
       "name": "clinic-purpose",
-      "job": "Explain the care philosophy and finite service scope in grounded terms.",
-      "content": {
-        "headline": "Clinic Purpose",
-        "body_direction": "Frame Sigma Core as a guide for adults seeking clearer next steps across neuropathy, pain, hormone health, pelvic-floor concerns, and regenerative goals. State that care is personalized and outcomes vary."
-      },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
-      "internal_links": [
-        "/services",
-        "/services/neuropathy"
+      "anchor": "clinic-purpose",
+      "additional_anchors": [
+        "our-mission"
       ],
-      "cta": ""
+      "job": "Orient visitors to information categories, with neuropathy first, then a distinct mission and principle rail.",
+      "content": {
+        "headline": "Neuropathy first.",
+        "body": "Start with general information about neuropathy, then explore pain, hormone health, pelvic-floor concerns and regenerative goals.",
+        "note": "Individual needs and outcomes vary.",
+        "mission_heading": "Our Mission",
+        "mission": "Help you understand the topics and consider a clear next step.",
+        "principles_label": "Grounded principles",
+        "principles": [
+          "You at the center.",
+          "Questions first.",
+          "Clear information.",
+          "Practical next steps."
+        ],
+        "actions": [
+          {
+            "label": "Explore neuropathy",
+            "href": "/services/neuropathy"
+          },
+          {
+            "label": "Explore all services",
+            "href": "/services"
+          }
+        ]
+      },
+      "imagery": "CODE only; no photographic slots.",
+      "internal_links": [
+        "/services/neuropathy",
+        "/services"
+      ],
+      "reference_sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+      "reference_provenance": "BYTE_IDENTICAL_R4_FINAL_REFERENCE",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/purpose.tsx",
+        "source_sha256": "fed1a6e0dc861180c561dabf826f5de8381b7d5324bbfd18af0ef3545df83400",
+        "dom_ids": [
+          "clinic-purpose",
+          "about-purpose-title",
+          "our-mission"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section with action #0666A5 upper field, ink #101E33 mission band and mineral #F7F6F3 principles field. All field heights follow content and padding. Build three 1px neutral vertical separators between four equal-width principle columns; use borders, changing to horizontal separation when stacked. Use nested divs for upper two-column grid and lower mission grid. Upper background action #0666A5; h2 Source Sans 3 bold about clamp(3rem,7.5vw,7.2rem), line-height .98, with Neuropathy / first. at desktop. Right p about 2.15rem/1.36 and small caveat 1.35rem with 4px mineral left border. Mission band ink #101E33: heading in left one-third, sentence and two inline-flex anchors in right two-thirds. Primary anchor action #0666A5 with mineral label; secondary transparent anchor with 2px mineral #F7F6F3 border and mineral label on ink #101E33, requiring text contrast >=4.5:1. Use simple line-and-chevron SVG arrows. Stack grids and actions on small screens; preserve every listed live text string. Fourth item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Practical / next steps.; padding aligns with the shared row and rules; allow natural mobile wrapping. First item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap You at / the center.; no isolated positioned words. Third item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Clear / information.; use shared column padding. Second item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Questions / first.; use shared column padding. Live h3 in Source Sans 3 semibold, action #0666A5, about 1.8rem; place above four-column list with about 1.6rem gap and align with section inset.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "03-facility-gallery",
       "name": "facility-gallery",
-      "job": "Provide authentic first-hand place detail that cannot be swapped onto a competitor site.",
+      "anchor": "facility-gallery",
+      "additional_anchors": [],
+      "job": "Explain location and visit publication status with zero photo assets, slots, captions or alt claims.",
       "content": {
-        "headline": "Facility Gallery",
-        "body_direction": "Caption the reception and waiting-room images factually as Sigma Core facility views. Do not claim amenities, accessibility, parking, privacy features, or technology not visible and verified."
+        "headline": "Location & visit details",
+        "body": "Address and visiting arrangements remain unconfirmed.",
+        "status_heading": "Details pending confirmation",
+        "status": "Address, hours, directions, parking and accessibility details are not confirmed for publication.",
+        "actions": [
+          {
+            "label": "Check location status",
+            "href": "/contact#verified-location-details"
+          }
+        ]
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "CODE only; zero photos, image slots, captions, alt claims or synthetic rooms.",
       "internal_links": [
-        "/contact"
+        "/contact#verified-location-details"
       ],
-      "cta": ""
+      "reference_sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+      "reference_provenance": "BYTE_IDENTICAL_R4_FINAL_REFERENCE",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/gallery.tsx",
+        "source_sha256": "df038873da2522c9df52decad830c1d02fc9cafdf92f8224c1c65e24af93b2bf",
+        "dom_ids": [
+          "facility-gallery",
+          "about-location-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background mineral #F7F6F3 with content-led padding. Use a 4px action #0666A5 vertical border and two short horizontal pseudo-elements to form the left bracket around heading group, plus a separate 5px by 5.5rem accent rule below. These thin elements fall outside segmentation boxes. Arrange lower link and status panel as a one-third/two-thirds grid; stack on small screens. Status div background ink #101E33, mineral text, padding about 3.5rem 4.8rem. Form 44px chamfer at upper left with clip-path polygon(44px 0,100% 0,100% 100%,0 100%,0 44px). Live h3 Source Sans 3 bold about 2.8rem followed by p 1.6rem/1.5; scale padding and chamfer responsively. Live h2 in Source Sans 3 bold, ink #101E33, clamp(2.3rem,4.9vw,4.8rem), line-height 1.08; desktop wraps after visiting. Keep in one heading and allow narrower widths to wrap naturally. Live section label or h2 according to semantic hierarchy, Source Sans 3 bold about 3rem in ink #101E33; align with main statement on same left content axis. Live anchor in Source Sans 3 semibold about 1.5rem, action #0666A5, underline with 2px thickness and .25em offset. Add adjacent line-and-chevron SVG arrow outside the text bbox, inline-flex gap 1.5rem and center alignment; keep link beneath heading group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "04-care-principles",
       "name": "care-principles",
-      "job": "Set expectations about clarity, personalization, and responsible claims.",
+      "anchor": "care-principles",
+      "additional_anchors": [],
+      "job": "Provide four information principles and two distinct questions for considering a next step.",
       "content": {
         "headline": "Care Principles",
-        "body_direction": "Use concise principles: one clear next step, general orientation without protocol disclosure, individualized questions belong in a care conversation, and outcomes vary. Avoid superiority claims."
+        "principles": [
+          [
+            "One clear next step.",
+            "General orientation helps you consider where to begin."
+          ],
+          [
+            "Your care, your conversation.",
+            "Individual questions belong in a care conversation."
+          ],
+          [
+            "Clear expectations.",
+            "We share what to expect without promising a treatment."
+          ],
+          [
+            "Outcomes vary.",
+            "Individual needs and results are different."
+          ]
+        ],
+        "question_label": "Before choosing a service",
+        "questions": [
+          "Which concern should I explore first?",
+          "What would help me decide if a visit is right for me?"
+        ],
+        "actions": [
+          {
+            "label": "Explore services",
+            "href": "/services"
+          },
+          {
+            "label": "Booking status",
+            "href": "/book"
+          }
+        ]
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "CODE only; no photographic slots.",
       "internal_links": [
         "/services",
         "/book"
       ],
-      "cta": ""
+      "reference_sha256": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc",
+      "reference_provenance": "ORIGINAL_R5_CANONICAL_IMAGE_EDIT_RETURN",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/principles.tsx",
+        "source_sha256": "990a71c691287764969d8280272948dbfac89bf745aed5b3bdaea445a31de958",
+        "dom_ids": [
+          "care-principles",
+          "about-care-title",
+          "about-questions-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS charcoal #20272E section, approximately2fr 1fr desktop columns. Main column contains live heading and open2\u00d72 grid. Four6px action #0666A5 rules and a mineral separator belong to this substrate even when segmentation misses them; actual separator ink y494\u2013497. Side panel begins x1032. Use natural content height and responsive stacking; never rasterize the frame or require864px section height. CSS mineral #F7F6F3 aside at the desktop right third, about504/1536 of width, with48px upper-left chamfer via clip-path polygon. Use Source Sans3 live label and two natural-width question headings, short3px action rules, and two stacked inline-flex links. Primary is action #0666A5/mineral; secondary is mineral/action border and text; simple SVG arrows. Starting question font-size about2.5rem/1.2 is a recipe to verify, not a measured CSS fact. Current ink boxes are1091,240\u20131439,327 and1092,398\u20131439,531. Keep all content and at least48px controls; stack below principles on mobile. One live article with Source Sans3 h3 and p, mineral #F7F6F3 on charcoal. The actual upper heading breaks after care, and its body ink begins y387. Share grid heading reserves and body row alignment with region3 using min-block-size:2lh; do not intentionally recreate the4px offset. Requested34\u201336px title and28px body are unachieved/uncertain image targets, with final font metrics requiring review. One live article in the2\u00d72 CSS grid, Source Sans3 mineral h3 and p with shared6px action left border and about2rem inset. Actual image title breaks after next and body starts y391; the one-line title plus blank second reserve was not returned. Use a shared two-line heading slot with region2; retain exact copy. The intended34\u201336px title/28px body require loaded-font verification, not a claim of pixel-matched CSS sizes. Second fragment of one live h2 Care Principles shared with region7; Source Sans3 bold about clamp(3rem,6.7vw,6.5rem), mineral #F7F6F3, line-height1.02. Keep one semantic heading; do not independently position fragments. Live p in article shared with region8, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35 for responsive verification. Native body ink box118,621\u2013484,690 is measurement only. Preserve the complete two-line sentence and shared grid padding. Live p in article shared with region9, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35, natural wrapping. Native body ink box594,621\u2013849,685 is evidence only; align both lower paragraphs through shared CSS grid spacing. First fragment of the single h2 shared with region4; Source Sans3 font-weight800, inherited responsive size and line-height. Keep Care Principles in normal flow; no duplicated heading. Live h3 paired with region5 in one article, Source Sans3 bold and mineral text. Actual heading ink is118,556\u2013488,599; the requested34\u201336px reduction is not proven by these43px glyph bounds. Use the same font/line-height system as the other titles and6px CSS action border. Live h3 paired with region6, Source Sans3 bold/mineral with shared CSS grid spacing, about2rem left padding and6px action rule. Actual heading ink593,558\u2013891,599; do not derive fixed CSS placement or exact font size from glyph bounds.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "05-team-publication-gate",
       "name": "team-publication-gate",
-      "job": "Prevent empty or fabricated team content while preserving a clear future insertion point.",
+      "anchor": "team-publication-gate",
+      "additional_anchors": [],
+      "job": "Explain the absence of provider profiles in public language without implying verified staff.",
       "content": {
-        "headline": "Team Publication Gate",
-        "body_direction": "Do not render public provider cards until Medical Director, Nurse Practitioner, and team names, photos, roles, credentials, license details, biographies, and review responsibilities are supplied and approved. Dr. Jason Hurst is not a treating-provider profile."
+        "headline": "About our care team",
+        "note_heading": "Care team details are not yet published.",
+        "body": "No individual provider profiles are available yet. Names, roles and credentials will appear here once verified.",
+        "actions": []
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "CODE only; no photographic slots.",
       "internal_links": [],
-      "cta": ""
+      "reference_sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+      "reference_provenance": "BYTE_IDENTICAL_R4_FINAL_REFERENCE",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/team.tsx",
+        "source_sha256": "51abd7bafe1249728601c5badb06c64529da67e68249956d473e8d36036c6b91",
+        "dom_ids": [
+          "team-publication-gate",
+          "about-team-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33. Use container padding, natural height and an indented status group about 8rem to the right of title at desktop; reduce indent on small screens. Add aria-hidden action #0666A5 horizontal rule 6rem by 5px above status statement. No raster, profile grid or empty media placeholder is needed. Live h3 Source Sans 3 bold about clamp(2rem,3.8vw,3.65rem), mineral #F7F6F3 with line-height 1.12; place in indented status group under short accent rule. Live p Source Sans 3 regular about 2.1rem/1.4, mineral #F7F6F3, max-width about 56rem, margin-top 1rem. Preserve the complete sentence and natural wrapping. Live h2 Source Sans 3 bold about clamp(2.75rem,5vw,4.9rem), mineral #F7F6F3. Align title with outer content inset, then use deliberate but responsive separation before status group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "id": "06-booking-cta",
-      "name": "booking-CTA",
-      "job": "Move visitors who trust the place and purpose into the approved booking path.",
+      "name": "booking-cta",
+      "anchor": "booking-cta",
+      "additional_anchors": [],
+      "job": "Give one useful booking-status action and state the current inability to request or confirm an appointment online.",
       "content": {
-        "headline": "Booking Cta",
-        "body_direction": "Invite an appointment to discuss goals and questions, without naming a provider until verified.",
-        "cta": "Book an Appointment"
+        "headline": "Start with your goals.",
+        "body": "See the current appointment status before planning your next step.",
+        "status_heading": "Online booking is not yet available.",
+        "status": "No appointment can be requested or confirmed online at this time.",
+        "actions": [
+          {
+            "label": "See booking status",
+            "href": "/book"
+          }
+        ]
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "CODE only; no photographic slots.",
       "internal_links": [
         "/book"
       ],
-      "cta": "Book an Appointment"
+      "reference_sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+      "reference_provenance": "BYTE_IDENTICAL_R4_FINAL_REFERENCE",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/booking.tsx",
+        "source_sha256": "c924a2cffa586f34a1cb254dc29749a89286b62cf3f65fd080ab3b1e45f62fd6",
+        "dom_ids": [
+          "booking-cta",
+          "about-booking-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33 with normal-flow title, paragraph, action and status card. Set Source Sans 3 throughout, use clamp-based padding and content-led height. Card is slightly indented relative to upper text at desktop; remove excess indent on narrow screens. Do not impose 864px height. Mineral #F7F6F3 status div with ink #101E33 live text and about 3rem 4.5rem padding. Build short upper-left outward shoulder with a pseudo-element or polygon and blue top-right triangle with CSS border or clip-path; keep text inset clear of both. Source Sans 3 bold heading about 3.6rem/1.1, body 2.5rem/1.3. Preserve complete status copy; geometry adapts to card height and wrapping. Inline-flex anchor with action #0666A5 fill and mineral #F7F6F3 bold Source Sans 3 label about 2.45rem. Use padding about 1.5rem 2.25rem and upper-right 32px clipped corner via polygon; adjacent white line-and-chevron SVG arrow. Preserve readable label and keyboard focus on the clickable wrapper. Live p Source Sans 3 regular about 2.4rem/1.3, mineral #F7F6F3, max-width about 48rem. Place between h2 and anchor with consistent block margins; desktop line break after before follows available measure. Part of a single live h2 Start with your goals. shared with IDs 5,6,7; Source Sans 3 bold about clamp(3rem,7.5vw,7.3rem), line-height 1.05, mineral #F7F6F3. Render once and allow natural mobile wrapping. Part of the single live h2 Start with your goals. shared with IDs 4,6,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,6; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Use aria-hidden SVG path with action #0666A5 stroke about 6px, no fill, square linecap: start at upper left, descend about 45% height, step right, descend to bottom, then return left. Anchor beside status card and scale vertical segments with card height; no baked raster.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
   ],
-  "seo_contract": {
-    "primary_intent": "understanding who Sigma Core is and who is responsible for care/content",
-    "audience": "a high-consideration visitor checking legitimacy",
-    "intent_questions": [
-      "what the clinic is",
-      "where it serves",
-      "what it values",
-      "what the facility looks like",
-      "who is responsible"
-    ],
-    "unique_information": [
-      "Supplied Sigma Core reception and waiting-room photography"
-    ],
-    "verified_sources": [
-      "build_context.json",
-      "content_inventory.json",
-      "page_blueprint.json"
-    ],
-    "customer_input_required": "legal/public business identity, final address, Medical Director and NP/team identities, photos, credentials, licenses, bios, clinical-content reviewer roles, and opening-date confirmation",
-    "contextual_internal_links": [
-      "/book",
-      "/contact",
-      "/services",
-      "/services/neuropathy"
-    ],
-    "content_owner": "Sigma Core Medical Center",
-    "review_requirement": "customer, provider, and legal/compliance approval"
-  },
-  "page_flow": {
-    "viewport_contract": {
-      "design_frame": "1536x864 native 16:9 primary composition; strip frame 1536x512",
-      "target_viewports": [
-        "1440x900",
-        "1536x1024",
-        "390x844"
-      ],
-      "rule": "Primary focal subject, headline, primary CTA, and load-bearing relationships fit together in the design frame. Supporting closure may extend outside the browser fold, but the primary content group may not be split or cropped to manufacture height."
+  "customer_asks": [
+    {
+      "ask": "Richmond only; neuropathy first; readable typography; real supplied identity; no fake providers or proof.",
+      "source": "build_context.json#/geo, /keyMessaging, /designDos, /messagingGuardrails",
+      "honored_by": "all six sections"
     },
-    "section_weights": {
-      "01-hero": "loud",
-      "02-clinic-purpose": "quiet",
-      "03-facility-gallery": "quiet",
-      "04-care-principles": "quiet",
-      "05-team-publication-gate": "quiet",
-      "06-booking-cta": "strip"
-    },
-    "background_progression": [
-      {
-        "sections": [
-          "01-hero"
-        ],
-        "band": "#101E33"
-      },
-      {
-        "sections": [
-          "02-clinic-purpose"
-        ],
-        "band": "#0877BE"
-      },
-      {
-        "sections": [
-          "03-facility-gallery"
-        ],
-        "band": "#F7F6F3"
-      },
-      {
-        "sections": [
-          "04-care-principles"
-        ],
-        "band": "#20272E"
-      },
-      {
-        "sections": [
-          "05-team-publication-gate"
-        ],
-        "band": "#101E33"
-      },
-      {
-        "sections": [
-          "06-booking-cta"
-        ],
-        "band": "#0877BE"
-      }
-    ],
-    "motif_continuity": [
-      "Squared brackets and stepped signal bars align selected entrances and terminate cleanly before the next section.",
-      "Angular apertures recur with varied scale; they do not become numbers, folios, anatomy, or medical data.",
-      "The page remains a quieter extension of The Forward Standard, with no more than two loud sections."
-    ],
-    "rhythm_rules": [
-      "Use a route-specific hero and at least three distinct composition anchors.",
-      "Do not reuse one generic service-page silhouette across sibling routes.",
-      "Preserve one broad quiet zone and one concise decision-oriented section.",
-      "No navigation or global footer inside the frames."
-    ]
-  },
+    {
+      "ask": "Preserve selected Forward Standard B language without new creative exploration.",
+      "source": "design_refs/variation/COMPARISON.md and user task",
+      "honored_by": "all six sections"
+    }
+  ],
   "hard_rules": [
     "Use the supplied Sigma Core logo and wordmark as-is. Never redesign, recolor, re-letter, regenerate, restyle, or reinterpret it; design references use plain type or a neutral reserved logo area.",
     "Richmond, Virginia is the only market. Exclude Fort Lauderdale and every Florida reference.",
@@ -349,20 +330,182 @@
     "Do not invent Medical Director or Nurse Practitioner names, photos, biographies, credentials, testimonials, ratings, awards, certifications, badges, statistics, patient outcomes, insurance details, appointment duration, availability, phone, email, or hours.",
     "Do not render empty provider cards, fake team portraits, fake testimonial cards, star ratings, before-and-after imagery, or unsupported trust signals. Team and testimonial components may be modular in code but remain absent publicly until approved real content exists. Any future testimonial must visibly state 'Results not typical'.",
     "Stock or AI-generated clinicians must never be shown as Sigma Core staff. Generic people must never be labeled as patients, providers, named individuals, or result examples.",
-    "Use supplied reception and waiting-room photos as the only authoritative facility imagery. Preserve their actual architecture, logo, and materiality; never fabricate a different Sigma Core clinic. Generated editorial lifestyle photography may show anonymous, fully clothed adults walking, stretching, gardening, or living actively in clearly non-clinical settings, but never as Sigma Core patients, staff, testimonials, before-and-after subjects, or evidence of results.",
-    "Direction A must be photovisual and medically credible. No 3D-rendered environments, abstract caves, portals, sculptural rooms, metallic ribbons, liquid chrome, glowing energy streams, fantasy architecture, product-render slabs, material mazes, or text embedded on rendered objects. Use photographic image fields, clean flat editorial layouts, restrained crop masks, and simple code-native lines or blocks.",
     "General marketing forms collect no free-text medical history, symptoms, diagnosis, or other PHI. Any PHI workflow requires an appropriate HIPAA agreement and safeguards.",
     "Do not load standard advertising or analytics trackers on authenticated or condition-specific patient flows without compliance review.",
     "The educational guide must not appear available until the customer supplies the approved resource title, media, delivery method, consent language, and GoHighLevel details.",
-    "The address 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and the September 8, 2026 opening date must be reconfirmed before launch and any time-sensitive opening treatment removed once stale.",
     "No generic hospital-blue template, sterile all-white system, purple-to-blue SaaS gradient, glassmorphism, decorative medical dashboard, DNA helix, molecule, lotus, glowing nerve, anatomical fear image, autoplay video, intrusive popup, fake scarcity, or tiny low-contrast silver copy.",
     "Do not use visible 01/02/03 sequence numbers, chapter numbers, folio numbers, oversized ghost numerals, or numbered editorial markers. Communicate sequence with language, spatial progression, material transitions, or unnumbered wayfinding.",
     "Primary body copy is at least 18px in the coded site, controls are at least 48px, contrast is WCAG AA or better, and reduced-motion preferences are honored.",
     "Every visually control-shaped element has the useful outcome defined in its section interaction_contract. State labels, steps, and principles are static content, not inert controls.",
-    "Direction A and Direction B are two complete creative territories. Direction B is generated in a fresh session from its own fingerprint and must not be a recolor or reference-edit of A.",
     "Frames cover content sections only. Global navigation and footer belong to the built design system and must never be rendered into interior-page frames.",
-    "Extend the customer-selected Direction B, The Forward Standard: kinetic Source Sans 3 performance typography, selective Playfair Display counterpoint, electric-blue/mineral fields, deep-navy anchors, angular apertures, stepped modules, asymmetric route panels, panoramic authentic-clinic bands, dramatic scale shifts, and stepped signal bars or squared brackets. Do not fall back to Direction A's calm magazine layouts.",
     "No visible decorative numbers, chapter numbers, folio markers, index numerals, or ghost numerals. Factual dates and address numbers are allowed.",
-    "No 3D/sculptural Material Current imagery, portals, metallic ribbons, liquid chrome, fantasy architecture, product-render slabs, glowing energy streams, or abstract caves."
-  ]
+    "No 3D/sculptural Material Current imagery, portals, metallic ribbons, liquid chrome, fantasy architecture, product-render slabs, glowing energy streams, or abstract caves.",
+    "No public street address, opening date, availability, experience, patient-volume or clinical/proof claims. Keep all status content tied to the pinned repository, not presumed current business operation.",
+    "All six candidate native frames are 1536x864 as requested. They are raster design references, never runtime section assets. No global navigation or footer is drawn.",
+    "Retain /about and all existing anchors: hero, clinic-purpose, our-mission, facility-gallery, care-principles, team-publication-gate, booking-cta. The existing Contact location-status fragment is absent; use verified-location-details for the candidate action.",
+    "Candidate only; no implementation, canonical promotion, raster retirement, registry/section-fidelity edits, noindex changes or approval is authorized by this package.",
+    "R1 is an offline code-rendered provisional source/copy/decomposition investigation. No r1 pixel geometry or offline frame is used as an API reference or canonical image-model output.",
+    "R5 authorizes exactly one Care-only edit using the unchanged r4 prompt and only r3 Care as source. Zero retries, seam calls, broad generation or offline redraw. Keep the other five r4 frame bytes and corrected Hero electric-token metadata."
+  ],
+  "page_flow": {
+    "viewport_contract": {
+      "generation_frame": "1536x864",
+      "canonical_css_viewport": "1440x900",
+      "target_viewports": [
+        "1440x900",
+        "1536x1024",
+        "390x844",
+        "320x844"
+      ],
+      "rule": "Bitmap reference size is separate from CSS section height. All native frames retain their full pixels in page.png; runtime spacing must follow semantic groups and the height intent."
+    },
+    "composition_score": {
+      "page_arc": "Strong identity \u2192 neuropathy-first information \u2192 location and visit status (zero photo) \u2192 practical questions \u2192 quiet provider note \u2192 emphatic online booking status close.",
+      "section_heights_vh": {
+        "01-hero": 0.78,
+        "02-clinic-purpose": 0.9,
+        "03-facility-gallery": 1.0,
+        "04-care-principles": 0.8,
+        "05-team-publication-gate": 0.45,
+        "06-booking-cta": 0.48
+      },
+      "dominant_axes": [
+        "broad left typography with low right flat signal geometry",
+        "blue purpose plus full-width mission/principle rails",
+        "wide location and visiting-arrangements statement above offset navy status band; zero photo",
+        "charcoal two-by-two principles with narrow mineral questions",
+        "quiet unboxed team note",
+        "navy close with blue action above wide mineral availability band"
+      ],
+      "cta_cadence": [
+        "booking status",
+        "neuropathy first, then services",
+        "location status",
+        "services and booking status",
+        "no action",
+        "booking status"
+      ]
+    },
+    "section_weights": {
+      "01-hero": "loud",
+      "02-clinic-purpose": "subject-led medium",
+      "03-facility-gallery": "emphatic location statement",
+      "04-care-principles": "dense principles and questions",
+      "05-team-publication-gate": "quiet",
+      "06-booking-cta": "emphatic status close"
+    },
+    "background_progression": [
+      {
+        "sections": [
+          "01-hero"
+        ],
+        "band": "navy #101E33 with blue step field touching lower-right edge"
+      },
+      {
+        "sections": [
+          "02-clinic-purpose"
+        ],
+        "band": "action blue #0666A5 upper; navy mission rail; mineral #F7F6F3 lower rail"
+      },
+      {
+        "sections": [
+          "03-facility-gallery"
+        ],
+        "band": "mineral #F7F6F3; inset navy status band"
+      },
+      {
+        "sections": [
+          "04-care-principles"
+        ],
+        "band": "charcoal #20272E with right mineral question panel touching bottom/right edges"
+      },
+      {
+        "sections": [
+          "05-team-publication-gate",
+          "06-booking-cta"
+        ],
+        "band": "navy #101E33 continuous reading field; 06 adds blue action and mineral availability band"
+      }
+    ],
+    "section_ownership": {
+      "01-hero": {
+        "file": "01-hero.png",
+        "height_px": 864,
+        "top_edge": "Own first row: navy. No neighboring content.",
+        "bottom_edge": "Own final row: navy left / blue step field right. Local shapes end at owner; no neighboring content."
+      },
+      "02-clinic-purpose": {
+        "file": "02-clinic-purpose.png",
+        "height_px": 864,
+        "top_edge": "Own first row: blue. No neighboring content.",
+        "bottom_edge": "Own final row: mineral. Local shapes end at owner; no neighboring content."
+      },
+      "03-facility-gallery": {
+        "file": "03-facility-gallery.png",
+        "height_px": 864,
+        "top_edge": "Own first row: mineral. No neighboring content.",
+        "bottom_edge": "Own final row: mineral. Local shapes end at owner; no neighboring content."
+      },
+      "04-care-principles": {
+        "file": "04-care-principles.png",
+        "height_px": 864,
+        "top_edge": "Own first row: charcoal. No neighboring content.",
+        "bottom_edge": "Own final row: charcoal left / mineral question field right. Local shapes end at owner; no neighboring content."
+      },
+      "05-team-publication-gate": {
+        "file": "05-team-publication-gate.png",
+        "height_px": 864,
+        "top_edge": "Own first row: navy. No neighboring content.",
+        "bottom_edge": "Own final row: navy. Local shapes end at owner; no neighboring content."
+      },
+      "06-booking-cta": {
+        "file": "06-booking-cta.png",
+        "height_px": 864,
+        "top_edge": "Own first row: navy. No neighboring content.",
+        "bottom_edge": "Own final row: navy. Local shapes end at owner; no neighboring content."
+      }
+    },
+    "anchor_windows": [],
+    "motif_continuity": "Hero local steps; Purpose mineral continues to Location; Care local fields end before Team; Team to Booking shared navy. Continuous seams 2 and 5 retain r3 repaired final pixels and require fresh exact evidence verification.",
+    "rhythm_rules": [
+      "Six 1536\u00d7864 reference frames establish sequence; they do not specify browser section heights.",
+      "Hero, three-band Purpose, location/visit statement, principles/questions, quiet Team note and emphatic online-status close have different silhouettes.",
+      "Global nav/footer absent. No cross-section connectors, folios, fake controls or photographic slots anywhere."
+    ]
+  },
+  "reference_medium": "Care is the original decoded r5 canonical image-edit return. The other five final refs are byte-identical to r4; existing r3 seam derivatives are inherited. Exact stitch only; no pixel redraw, masking or new seam repairs.",
+  "generation_provenance": "generation/selected-outputs.json and generation/04-care-principles-attempt-1.json: exactly one detached canonical gen_image.py edit, gpt-image-2/high/1536x864/n=1, runtime RETRIES=1, exit0 and valid output. Prior r4 completion/cost UNKNOWN; preserved in provenance/r4-generation.",
+  "independent_review": "PENDING; producer inspection is not independent approval",
+  "photo_policy": {
+    "mode": "zero-photo",
+    "runtime_asset_count": 0,
+    "source_inputs": [],
+    "active_owner": null,
+    "slots": 0,
+    "captions": 0,
+    "alt_claims": 0,
+    "reason": "User explicitly requires zero-photo Location and visit details."
+  },
+  "observed_prompt_variances": [
+    "Purpose retains three bands but API moves navy/mineral boundary from requested568 to actual597; lower values remain complete and subordinate.",
+    "Purpose generated upper blue median RGB(1,86,144) approximates action#0666A5; token recipe conflict is resolved, not a claim of exact generated hex.",
+    "Generated glyph shapes and requested point sizes are approximations; no browser typography or mobile behavior is proved.",
+    "New Care is a material revision, but exact repair targets remain unmet: first-row body ink y391/y387 (4px stagger, versus r4 36px); requested y382/y382 not reached. Left title wraps after next, rather than one line plus empty second-line reserve. Divider begins y494 (requested y493); blank clearance36/43px exceeds32px. Question typography is modestly lighter/narrower, but sidebar balance and natural uncondensed type require independent judgment. Requested CSS sizes are not proven by generated glyphs."
+  ],
+  "continuity_gate": {
+    "status": "PASS_TECHNICAL_CONTINUITY_ONLY",
+    "unresolved_seams": [],
+    "independent_art_review": "PENDING",
+    "care_repair": "NEW_FRAME_WITH_RESIDUAL_VARIANCES",
+    "validator_exit_code": 0
+  },
+  "repair_execution": {
+    "care": "VALID_NEW_FRAME_WITH_RESIDUAL_TARGET_VARIANCES",
+    "hero_metadata": "R4_CORRECTION_RETAINED_UNCHANGED",
+    "overall": "CANDIDATE_PENDING_INDEPENDENT_REVIEW"
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  }
 }

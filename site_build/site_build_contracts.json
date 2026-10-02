@@ -1,0 +1,247 @@
+{
+  "routes": {
+    "/services": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+          "section_owner": "02-neuropathy-feature.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        },
+        {
+          "path": "public/images/design/services/03-service-navigation-01-active-couple.png",
+          "section_owner": "03-service-navigation.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        }
+      ]
+    },
+    "/services/neuropathy": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/neuropathy/01-hero-01-person-walking.png",
+          "section_owner": "01-hero.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        }
+      ]
+    },
+    "/services/pain-relief": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
+          "section_owner": "03-knee-concerns.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        },
+        {
+          "path": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+          "section_owner": "04-low-back-concerns.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        },
+        {
+          "path": "public/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+          "section_owner": "05-neck-concerns.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        }
+      ]
+    },
+    "/services/hormone-optimization": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
+          "section_owner": "01-hero.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        }
+      ]
+    },
+    "/services/pelvic-floor-incontinence": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+          "section_owner": "01-hero.png",
+          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "reuse_intent": null
+        }
+      ]
+    },
+    "/services/regenerative-medicine": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/about": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/educational-guide": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/book": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "handoff_evidence": {
+        "research": "site_convergence/book/truthful-handoff-closure-r1-result.md",
+        "repository": "docs/audit/book/truthful-handoff-closure-r1/handoff-provenance.json",
+        "reference_review": "site_convergence/book/truthful-successor-r1-art-review.md",
+        "live_review": "site_convergence/book/truthful-successor-build-r1-art-review.md",
+        "approval_scope": "Current independent reference/live KEEP for Book sections; existing booleans are not evidence of historical customer approval or clinical/legal readiness.",
+        "edge_scope": "Unresolved until full-route header/footer and local-spacing threshold audit; local Book observations do not clear this flag."
+      }
+    },
+    "/contact": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/privacy": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/notice-of-privacy-practices": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/accessibility": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    },
+    "/terms": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": []
+    }
+  }
+}

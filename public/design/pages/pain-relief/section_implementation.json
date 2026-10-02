@@ -7,29 +7,41 @@
       "implementation_owner": "src/components/interior/pain-relief/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "pain-relief/01-hero-01-person-walking.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/hero.tsx",
+        "source_sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -38,31 +50,41 @@
       "implementation_owner": "src/components/interior/pain-relief/navigation.tsx",
       "content_source": "section_manifest.json#02-pain-concern-navigation",
       "asset_roles": [
-        "pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
-        "pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
-        "pain-relief/02-pain-concern-navigation-03-neck-clinic.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/navigation.tsx",
+        "source_sha256": "7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2",
+        "dom_ids": [
+          "pain-concern-navigation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -71,29 +93,43 @@
       "implementation_owner": "src/components/interior/pain-relief/knee.tsx",
       "content_source": "section_manifest.json#03-knee-concerns",
       "asset_roles": [
-        "pain-relief/03-knee-concerns-01-person-outdoors.png"
+        "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/knee.tsx",
+        "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+        "dom_ids": [
+          "knee-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+        ],
+        "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -102,29 +138,43 @@
       "implementation_owner": "src/components/interior/pain-relief/back.tsx",
       "content_source": "section_manifest.json#04-low-back-concerns",
       "asset_roles": [
-        "pain-relief/04-low-back-concerns-01-man-at-home.png"
+        "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/back.tsx",
+        "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+        "dom_ids": [
+          "low-back-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -133,30 +183,43 @@
       "implementation_owner": "src/components/interior/pain-relief/neck.tsx",
       "content_source": "section_manifest.json#05-neck-concerns",
       "asset_roles": [
-        "pain-relief/05-neck-concerns-01-woman-reading.png",
-        "pain-relief/05-neck-concerns-02-clinic-lounge-strip.png"
+        "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/neck.tsx",
+        "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+        "dom_ids": [
+          "neck-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -165,29 +228,41 @@
       "implementation_owner": "src/components/interior/pain-relief/decisions.tsx",
       "content_source": "section_manifest.json#06-decision-factors",
       "asset_roles": [
-        "pain-relief/06-decision-factors-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/decisions.tsx",
+        "source_sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -196,29 +271,41 @@
       "implementation_owner": "src/components/interior/pain-relief/faq.tsx",
       "content_source": "section_manifest.json#07-faq",
       "asset_roles": [
-        "pain-relief/07-faq-01-clinic-interior.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/faq.tsx",
+        "source_sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -227,29 +314,41 @@
       "implementation_owner": "src/components/interior/pain-relief/booking.tsx",
       "content_source": "section_manifest.json#08-booking-cta",
       "asset_roles": [
-        "pain-relief/08-booking-cta-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/booking.tsx",
+        "source_sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -258,31 +357,43 @@
       "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
       "content_source": "section_manifest.json#09-medical-sources",
       "asset_roles": [
-        "pain-relief/09-medical-sources-01-clinic-reception.png",
-        "pain-relief/09-medical-sources-02-clinic-lounge.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/sources.tsx",
+        "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
 }
