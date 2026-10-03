@@ -1,0 +1,433 @@
+{
+  "path": "assets/evidence-archives/fidelity-repair-r2.tar.gz",
+  "sha256": "67514557329ab14222a9026182dd9516fc2cb8345c5f15d38c85ae06cfa598c9",
+  "status": "PASS",
+  "members": [
+    {
+      "member": "after-canonical/design_assets/pages/hormone-optimization/NOTES.md",
+      "sha256": "5332d3ec24dedb60b2f9f7e8c58e296a6fbd580a15a2464d99408ba34ee57f3d"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/hormone-optimization/extraction_plan.json",
+      "sha256": "e8d16a98da34ae2c7984dcc6d5a1cb93b8215548175c9f9b77018f6a54e15357"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/neuropathy/NOTES.md",
+      "sha256": "cfc14f079e7cdaa7cae97470ab427174f90ce9792110f7a3bfb940cffed37fd3"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/neuropathy/extraction_plan.json",
+      "sha256": "1dc750741158433e37862e7862b69e80496bc6fdaca082ade6d576effb3f301e"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/pelvic-floor-incontinence/NOTES.md",
+      "sha256": "77e14e3cd9f46aa2bca09914e515d96e996e7da65e1ddf7e710ec8550c9a1243"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/pelvic-floor-incontinence/extraction_plan.json",
+      "sha256": "9d9f44e5e917ebc8cea675402462fa63dbcf7ed02dbfbbd46f6f1f5027ecadbe"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/services/NOTES.md",
+      "sha256": "dbc4330f12a846282dcd281c5a2ffc7e11f58e38564e53cb4ee52b184f76a354"
+    },
+    {
+      "member": "after-canonical/design_assets/pages/services/extraction_plan.json",
+      "sha256": "4aa2193f9e03e5f1f198ab4c4a876408f2df8fd72c41e590455cb6174eb72404"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/hormone-optimization/composition_map.json",
+      "sha256": "3ee77ff51f233e12fcea80a70be4cbb6163c4e96ea4d3745b2fe8fe83b9585e9"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/hormone-optimization/section_manifest.json",
+      "sha256": "d091e9c9221e041fb81b954665ad35da4110e04f4436ba40848ded35d2dfd2ba"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/neuropathy/composition_map.json",
+      "sha256": "4c399cd23d696122f0174c7758d26d9c2d01d2af6b10378f6b1099be9431e774"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/neuropathy/section_manifest.json",
+      "sha256": "d74d87b2e15c506b9df4ec1d884380f91fe6e501b9c4052ca1a8356aca3a823b"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/pelvic-floor-incontinence/composition_map.json",
+      "sha256": "fd0fbbc87d1264d4fe85c74cf2f3d1db7dde3372c105f7c003356f7b1e0f0f41"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+      "sha256": "68e7b415bc2574bfae10d3fb440e86127128202b3c6780a8a2ac61ddb76c4af2"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/services/composition_map.json",
+      "sha256": "a6b235018c31007a2118cc59bcebcedd19d9f864d9209f94ceeda5da0c6bbb32"
+    },
+    {
+      "member": "after-canonical/design_refs/pages/services/section_manifest.json",
+      "sha256": "d55a1dc100d8853ecc248e9966a56ee199883f351504bfb4f85d0d50b449775b"
+    },
+    {
+      "member": "after-canonical/site_build/builder_decisions.json",
+      "sha256": "f532a580e9f07deee61a53f3b978c6b9dc0548719fbbb090117465fa39c219d6"
+    },
+    {
+      "member": "audit-run.json",
+      "sha256": "62ef1fc63ca67b5f68cdd67052fabf5da3aef2913664a7a0c2ed8b5d90826f4a"
+    },
+    {
+      "member": "audits/canonical/about.json",
+      "sha256": "d29bceb5b59182a3f6bb45a393b82821ff064105faf963c23e12a4bcbc410e88"
+    },
+    {
+      "member": "audits/canonical/about.log",
+      "sha256": "908730a84b94f181903452965e2c4b20853a47eca674a96eb011170fe72ca499"
+    },
+    {
+      "member": "audits/canonical/book.json",
+      "sha256": "be6b781884f2038f483994b3a54ddb508bb0f52bd2af385f38733db8deaeb8a2"
+    },
+    {
+      "member": "audits/canonical/book.log",
+      "sha256": "845419c85255d47a68913f7416839867f356693d223ab422cd8fd7387dc75d60"
+    },
+    {
+      "member": "audits/canonical/contact.json",
+      "sha256": "9b614c5100d235cf52ccd96d6015c8c38623334b962be674537276047c382206"
+    },
+    {
+      "member": "audits/canonical/contact.log",
+      "sha256": "4f87aba752871250b055c3f46622767fcedd7db5e8a754cb7286471d077672b4"
+    },
+    {
+      "member": "audits/canonical/educational-guide.json",
+      "sha256": "56b2db2d7cbfac6dabcc452af7cf551f191f6b427a132fb7d3cb23c838e867c9"
+    },
+    {
+      "member": "audits/canonical/educational-guide.log",
+      "sha256": "941eff8f9e7f31f30f644947c6c040e8d79d185cc0665af6a292fa49ea9da228"
+    },
+    {
+      "member": "audits/canonical/hormone-optimization.json",
+      "sha256": "a2cf399a80dc462b918bfa2a31639cc640f72402093f33b91e70174d8ae2d13e"
+    },
+    {
+      "member": "audits/canonical/hormone-optimization.log",
+      "sha256": "7b55b411bd24a1453d02db6299cfff27f57ed33dd0b79134a5c298fb5e7ab840"
+    },
+    {
+      "member": "audits/canonical/neuropathy.json",
+      "sha256": "157ce6b30435b210bc7d23a2469cf7b11a134eebf9369a545855fd84cb7511dd"
+    },
+    {
+      "member": "audits/canonical/neuropathy.log",
+      "sha256": "3f97ff5aa45180a818b2408d415bee8c745bbff1de89212d82245a4ccdc1c148"
+    },
+    {
+      "member": "audits/canonical/pain-relief.json",
+      "sha256": "bf30f3cf4301d201d3744241d4d8ae3c2a7623d8deb08c5702536c9b1d289a66"
+    },
+    {
+      "member": "audits/canonical/pain-relief.log",
+      "sha256": "1b8198df713cddab458435eef913234d91d96caa5b3cf795da89e1436530f6cf"
+    },
+    {
+      "member": "audits/canonical/pelvic-floor-incontinence.json",
+      "sha256": "a8deeb06dd8f9d620634f3442ecbf00534e2da94eafc021e6153d392b3792b79"
+    },
+    {
+      "member": "audits/canonical/pelvic-floor-incontinence.log",
+      "sha256": "5df9a78e6885b47a903cf7ea97c3bfdd787df1d7c635cd22405b166aeaad2124"
+    },
+    {
+      "member": "audits/canonical/regenerative-medicine.json",
+      "sha256": "bb144ec0808c8c271578a1160d06e706fa62ab77bdcd469ac5f3d81289310797"
+    },
+    {
+      "member": "audits/canonical/regenerative-medicine.log",
+      "sha256": "fea9bd08e52d2c419599809767b9b22d89a0f6be39a5a5bfd183e7601a3d9a12"
+    },
+    {
+      "member": "audits/canonical/services.json",
+      "sha256": "855e557ffb13ba11c083031aebee45f468c9d24383e17b832813afc4e61afa37"
+    },
+    {
+      "member": "audits/canonical/services.log",
+      "sha256": "b28cb558f66aa3754d1fb8460e293b7c1f11a1778711830089a863ee934b51c2"
+    },
+    {
+      "member": "audits/repository/about.json",
+      "sha256": "d29bceb5b59182a3f6bb45a393b82821ff064105faf963c23e12a4bcbc410e88"
+    },
+    {
+      "member": "audits/repository/about.log",
+      "sha256": "3a513d74f85b2f6ae4e19706e9908e9bb241f8649656d1cdff64f9b4cfaddfb1"
+    },
+    {
+      "member": "audits/repository/book.json",
+      "sha256": "be6b781884f2038f483994b3a54ddb508bb0f52bd2af385f38733db8deaeb8a2"
+    },
+    {
+      "member": "audits/repository/book.log",
+      "sha256": "51951088229d0c72b920f30acd3185505416e0bf87b29d631e8798608ad46093"
+    },
+    {
+      "member": "audits/repository/contact.json",
+      "sha256": "9b614c5100d235cf52ccd96d6015c8c38623334b962be674537276047c382206"
+    },
+    {
+      "member": "audits/repository/contact.log",
+      "sha256": "3e2ab6332fd8886c3b6cefb2267ddafcdd72973fcb2c5c8ff09ebc2308f79399"
+    },
+    {
+      "member": "audits/repository/educational-guide.json",
+      "sha256": "56b2db2d7cbfac6dabcc452af7cf551f191f6b427a132fb7d3cb23c838e867c9"
+    },
+    {
+      "member": "audits/repository/educational-guide.log",
+      "sha256": "a5b2d78f6bd57b09a57da32dc9461150c2b3da1ca679e4f553662c3e1a8000d1"
+    },
+    {
+      "member": "audits/repository/hormone-optimization.json",
+      "sha256": "a2cf399a80dc462b918bfa2a31639cc640f72402093f33b91e70174d8ae2d13e"
+    },
+    {
+      "member": "audits/repository/hormone-optimization.log",
+      "sha256": "9124abf8bb8fbf438a8f25974ead04b93d423b157641d7f2b566752a2c9a6029"
+    },
+    {
+      "member": "audits/repository/neuropathy.json",
+      "sha256": "157ce6b30435b210bc7d23a2469cf7b11a134eebf9369a545855fd84cb7511dd"
+    },
+    {
+      "member": "audits/repository/neuropathy.log",
+      "sha256": "91d39cbc8715cf6a738ea16a283d41ee5dceff9486fcdf7ac1b45e294c24c2bc"
+    },
+    {
+      "member": "audits/repository/pain-relief.json",
+      "sha256": "bf30f3cf4301d201d3744241d4d8ae3c2a7623d8deb08c5702536c9b1d289a66"
+    },
+    {
+      "member": "audits/repository/pain-relief.log",
+      "sha256": "7dfd9698470f7dbd11a8d1d1e8e9ef2269d0b4753f44c2825b15ee2c414e4b03"
+    },
+    {
+      "member": "audits/repository/pelvic-floor-incontinence.json",
+      "sha256": "a8deeb06dd8f9d620634f3442ecbf00534e2da94eafc021e6153d392b3792b79"
+    },
+    {
+      "member": "audits/repository/pelvic-floor-incontinence.log",
+      "sha256": "49932766d896ae194102a03428f61aab30f75e55c26ce7c856aad98bc4a9b91c"
+    },
+    {
+      "member": "audits/repository/regenerative-medicine.json",
+      "sha256": "bb144ec0808c8c271578a1160d06e706fa62ab77bdcd469ac5f3d81289310797"
+    },
+    {
+      "member": "audits/repository/regenerative-medicine.log",
+      "sha256": "18460272c45f777e01b18690a69fb454844819741beea071ee25fdd956e5421c"
+    },
+    {
+      "member": "audits/repository/services.json",
+      "sha256": "855e557ffb13ba11c083031aebee45f468c9d24383e17b832813afc4e61afa37"
+    },
+    {
+      "member": "audits/repository/services.log",
+      "sha256": "a034733488e800ca1c1883a6a1907aa0b11a30d4b04a1464ebb09c73a396a896"
+    },
+    {
+      "member": "baseline-canonical.json",
+      "sha256": "92dcb4e4a8ea44df79b8ca1840a682e07a01063e98997193f0d834ef373c1439"
+    },
+    {
+      "member": "baseline-tools.json",
+      "sha256": "76edf347279c7a5cc61bbe1c36b98ac3694e1dce7259bccfcc7a18c6c5c4d8ea"
+    },
+    {
+      "member": "baseline-tracked.json",
+      "sha256": "9a1b390929ff0607767ca212cfbf8b6a18b162ab98763448711790583d02f817"
+    },
+    {
+      "member": "baseline-untracked.json",
+      "sha256": "224303385cc56f1f66dd4835a59d6d5a5b00d2e2072271b910edff59bdafdd1b"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/hormone-optimization/NOTES.md",
+      "sha256": "55cc6175ed30a1c14fb403650ee68161fcb30700f4ec268902f9cd39783d1a0c"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/hormone-optimization/extraction_plan.json",
+      "sha256": "c25b19a2b5b48883814e299bda534fd98b9f63083a855e0584c73f85534dc7d7"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/neuropathy/NOTES.md",
+      "sha256": "cf1412a7ea9f0aae6d199a80e266b5d066d40ff43288813ef5b5a7d4e9b53f31"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/neuropathy/extraction_plan.json",
+      "sha256": "4befedbcc63cfe07b46d2323492722bd7f69f6ed6bf4c1d30907d429f406019f"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pelvic-floor-incontinence/NOTES.md",
+      "sha256": "09f381a37927cdf96e404b2cef9dcbcdecef09a1d2285e389e60b8c4b79c94a6"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pelvic-floor-incontinence/extraction_plan.json",
+      "sha256": "caf638e0bb5404e69c87063c88fb255b65adcad95c3aef88aefca247d0d6304c"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/services/NOTES.md",
+      "sha256": "fb7a48ab7cba431a7c5a9c2c6bc030a05bae1fe893b6ac7f0bf967f6c81fac66"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/services/extraction_plan.json",
+      "sha256": "466098212561fa612bef0265a4383a3f79bd1bfaa3886cb2b38589164224ae8f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/composition_map.json",
+      "sha256": "c32b7bfbb640b6775d02eb177e19035cc51421cefbf857a527d62088365e3bbd"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/section_manifest.json",
+      "sha256": "c211c32716493eb35ca4fa10dced76896a0481097a9cf1609f31e3f3d152ef1c"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/composition_map.json",
+      "sha256": "d6e1c17b5e8d4d22418e7c597dc31bc2c6930acc63f76addc84a2d27eb1ef924"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/section_manifest.json",
+      "sha256": "acff4850523e8ddb340f96734cd406376064713b5c835f7900aa7c1955fab492"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/composition_map.json",
+      "sha256": "8eca9a0aba80fdbc6670777ee84a818a47593eac8aaecf1636b818df1a4459e4"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+      "sha256": "556e1892d319864aaab4d4b276dd5ea1eb5e9e783549bfd686c7425e1fde5835"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/composition_map.json",
+      "sha256": "788e331619437cc797099ee8452f4b5bb8894f6d0d761e95ed748a082ca2f5a9"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/section_manifest.json",
+      "sha256": "cc06cffa2e6f56213bd3bf4f77397064be3ded5c9c1b77eccaad1285951e97c8"
+    },
+    {
+      "member": "before-canonical/site_build/builder_decisions.json",
+      "sha256": "561529cb3cd7abe6db8fecafc0efff914b9311d882c9844b372e6bbc0cd2655e"
+    },
+    {
+      "member": "browser-attempt.log",
+      "sha256": "ac0b52d2cd866836ce371d9ed58970147a5d12a937c33e20958f13855ffa53dc"
+    },
+    {
+      "member": "build.log",
+      "sha256": "fe7c356fe3fcecf7d95bd689d496719f906cc5189f173b1b99b8ebaa333db2d1"
+    },
+    {
+      "member": "builder_decisions.json",
+      "sha256": "3303ba772f320fbe846a66443c490407ebbc64c5418ed616c1534dea6846cc98"
+    },
+    {
+      "member": "canonical-changes.json",
+      "sha256": "db7b5246274d90a3e97e31f4c2cd64f2d4c767c50a047828fc24d4e04d907d09"
+    },
+    {
+      "member": "checks.json",
+      "sha256": "920a72a811af8bbfe34fe73a92e716215c9ad33b18dfb53d998452ee1ba3e0a8"
+    },
+    {
+      "member": "code-review.md",
+      "sha256": "9731938240085e9947a1aa7d51013c012691f61291151f543b7826de3768d236"
+    },
+    {
+      "member": "contract-diff-review.json",
+      "sha256": "ae413c1958ae09a901b60719697a000199b9929d8d8b3b018c4f51df5cd01842"
+    },
+    {
+      "member": "diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "html-checks.json",
+      "sha256": "0857d1a8a73e7df46311fd7d731f3d46dd4af6e3aab841b5f2de80e076bfbcc3"
+    },
+    {
+      "member": "integrity.json",
+      "sha256": "c09dd31d6c91303b93a25d40987ff924d62f41d9024a07091b1082e857b2aa11"
+    },
+    {
+      "member": "lint.log",
+      "sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+    },
+    {
+      "member": "npm-dependencies.log",
+      "sha256": "2a83f343ddecf13d71edf2753a6c244aab0585eb52392bca6e8fda2d03d8eaae"
+    },
+    {
+      "member": "preservation.json",
+      "sha256": "221d57699af07291286a12aec8d4b6bf8399cf80719bc7afdaafe55da0105c07"
+    },
+    {
+      "member": "preservation.log",
+      "sha256": "3c2b6b1cdf8cf2c30c1a4a97a87060ff3782992e1be801b78a24e7fa5d5927f3"
+    },
+    {
+      "member": "preservation.py.snapshot",
+      "sha256": "9a27520b3aed4f2527f8495ab73e323e59baabcb5f02d5a91ce137e3ab3a5e07"
+    },
+    {
+      "member": "reconcile-contracts.py.snapshot",
+      "sha256": "3411870e0b40ab5abae7bcbc4d139c32f6cecbabf9db1b221c396de25d8c4f6a"
+    },
+    {
+      "member": "repair-plan.md",
+      "sha256": "5cbd970bcab4ef65fc37fb5840dcb86f71b1c48529e405dd0b1ee587ca0db01e"
+    },
+    {
+      "member": "repair-recipes.json",
+      "sha256": "c25c539e9a713cf19b10a6f4edf9bff7f1d037b82e790c07d9893068fde3fbfa"
+    },
+    {
+      "member": "review-sheets.json",
+      "sha256": "86c37b5a97d9827abb6a45d0fe27f1bdb6c82d725b8ffdc2b03f6bb41bbd0ce4"
+    },
+    {
+      "member": "review.py.snapshot",
+      "sha256": "a7f8d03ae932a71a146fb0c1193d75b1e42ee55c8065dfe88bd492d60a039deb"
+    },
+    {
+      "member": "selected-contract-diff.txt",
+      "sha256": "ade98377fc962bf63c6e8e7cbfedfdf210a39bb6b5703a79861b63e8a38ba057"
+    },
+    {
+      "member": "sheet-hormone-optimization.log",
+      "sha256": "5db287cc9d0307eaae21686672fabfef9e173f2faf104446392b747d1d66ef86"
+    },
+    {
+      "member": "sheet-neuropathy.log",
+      "sha256": "a525feae56d36432da936260e2542c01378e9ebb45e4c3d9887ac73ccc4db4b8"
+    },
+    {
+      "member": "sheet-pelvic-floor-incontinence.log",
+      "sha256": "81788744eb62c0a042d9725437bd3fdbaa03cc97289306eeed4dc1dcb1d09269"
+    },
+    {
+      "member": "sheet-services.log",
+      "sha256": "b0f5c6fb6823a3b6ba5dcd003ff7f71909b4d8da97f6a6572081920fbe6d9a79"
+    },
+    {
+      "member": "simplify.log",
+      "sha256": "993a6b0b460df0c14608f12da96bf2acf41cf8be4a712e43a30be004c267507c"
+    },
+    {
+      "member": "source-and-contract.diff",
+      "sha256": "994bce54aa25d584fdf16aae44b89be7423a2b8a26e1b73434610489c2a3c838"
+    }
+  ],
+  "restoration": "Extract into a separate evidence directory. Before/after canonical snapshots and the original code/contract diff are retained. No extraction overwrites were performed.",
+  "boundary": "Archived browser-attempt is failure evidence only. No round-2 browser screenshots exist."
+}

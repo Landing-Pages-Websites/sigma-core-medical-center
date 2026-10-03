@@ -1,0 +1,74 @@
+[
+  {
+    "public_path": "public/images/design/about/03-facility-gallery-01-real-reception.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/about/03-facility-gallery-01-real-reception.png",
+    "sha256": "41c902b385fc772ceab64b4ffb63247c9f1ec69f537fcb085b785d2cf6751346",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/contact/04-booking-cta-01-clinic-reception.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/contact/04-booking-cta-01-clinic-reception.png",
+    "sha256": "c584dc0399608f40dad61b0ce83817aa7b7176daaa0d515a88bf9119fe25c3d4",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/09-medical-sources-02-clinic-lounge.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/09-medical-sources-02-clinic-lounge.png",
+    "sha256": "642a9ff2030978dcab2378476e41a124da6828f5df7c88fcaad0081e224e99ff",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/02-pain-concern-navigation-03-neck-clinic.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-03-neck-clinic.png",
+    "sha256": "4514914205c2a809ad10bee31f109796b66d36ccea4c47db23be89df6d6bfa2a",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/09-medical-sources-01-clinic-reception.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/09-medical-sources-01-clinic-reception.png",
+    "sha256": "5c7d0d74c8e8b5f0e8707bdb6d36ac0c70a5ee59c9c4a234e3bea28a1e084ef9",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/07-faq-01-clinic-interior.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/07-faq-01-clinic-interior.png",
+    "sha256": "c70ad40c9ed3ba0266d77b32a415019f713d6646fb3025da3807a831ab5b1d8a",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/08-booking-cta-01-clinic-reception.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/08-booking-cta-01-clinic-reception.png",
+    "sha256": "dce397ba6796dd133fba019bd016a9205f13f07825253ce13cc934e3f241c18d",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
+    "sha256": "e7573b93a00013a783a74063ae58eea22d1d0323fb1d83d9fc767480bea22555",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/05-neck-concerns-02-clinic-lounge-strip.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/05-neck-concerns-02-clinic-lounge-strip.png",
+    "sha256": "534c733494edba3472320720a9701509591a1638701ad8943a3cbf5ee583283a",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/06-decision-factors-01-clinic-reception.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/06-decision-factors-01-clinic-reception.png",
+    "sha256": "92dca5afeeb3c029e23c62b8b74f254d07d3ad9b42d410f1f8e47009cb96d15d",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/01-hero-01-person-walking.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/01-hero-01-person-walking.png",
+    "sha256": "5863d27e796b5a9992d5cc08e8d8fc63cc952491b45aad84247f779087c74879",
+    "runtime_references": 0
+  },
+  {
+    "public_path": "public/images/design/pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
+    "archive": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
+    "sha256": "82900f47f4ea9d937b61b0a81c6568652881f6e55e2870a696eee692c5c4a597",
+    "runtime_references": 0
+  }
+]

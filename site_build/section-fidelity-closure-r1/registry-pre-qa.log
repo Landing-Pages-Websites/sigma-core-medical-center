@@ -1,0 +1,14 @@
+ERROR: /about: section_edge_clearance_audited must be true
+ERROR: /accessibility: section_edge_clearance_audited must be true
+ERROR: /book: section_edge_clearance_audited must be true
+ERROR: /contact: section_edge_clearance_audited must be true
+ERROR: /educational-guide: section_edge_clearance_audited must be true
+ERROR: /notice-of-privacy-practices: section_edge_clearance_audited must be true
+ERROR: /privacy: section_edge_clearance_audited must be true
+ERROR: /services: section_edge_clearance_audited must be true
+ERROR: /services/hormone-optimization: section_edge_clearance_audited must be true
+ERROR: /services/neuropathy: section_edge_clearance_audited must be true
+ERROR: /services/pain-relief: section_edge_clearance_audited must be true
+ERROR: /services/pelvic-floor-incontinence: section_edge_clearance_audited must be true
+ERROR: /services/regenerative-medicine: section_edge_clearance_audited must be true
+ERROR: /terms: section_edge_clearance_audited must be true

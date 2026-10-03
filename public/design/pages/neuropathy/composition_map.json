@@ -21,55 +21,46 @@
         }
       },
       "slot_contract": {
-        "container": "hero independently sized photographic media slot",
-        "width_share": "about 41% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.28:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/neuropathy/01-hero-01-person-walking.png"
+        ],
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       },
       "focal_point": {
-        "what": "person walking",
-        "where": "right media field",
-        "region_ids": [
-          3
-        ]
+        "what": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Walking figure is large on the right, facing away down a path; left reassurance and three stepping statements lead to booking.",
+      "dominance": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
       "eye_path": [
-        "hero heading",
-        "person walking",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Leave dark space between the headline and the three low stepping statements."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Walking figure is large on the right, facing away down a path; left reassurance and three stepping statements lead to booking.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/neuropathy/01-hero-01-person-walking.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "hero heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -77,25 +68,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "hero hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Keep the walking figure's body legible rather than cropping to anonymous trees."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -103,45 +89,114 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
+        "runtime_assets": [
+          "/images/design/neuropathy/01-hero-01-person-walking.png"
         ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       },
       "slot_contracts": [
         {
-          "region_id": 3,
-          "container": "01-hero / person walking \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.28:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "headline, action and primary media simultaneously visible"
+          "asset": "/images/design/neuropathy/01-hero-01-person-walking.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
         }
-      ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/hero.tsx",
+        "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [
+          "/images/design/neuropathy/01-hero-01-person-walking.png"
+        ],
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile narrow heading measure leaves day as a lone trailing line.",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          }
+        }
+      }
     },
     {
       "frame": "02-visitor-orientation",
@@ -163,55 +218,43 @@
         }
       },
       "slot_contract": {
-        "container": "visitor orientation independently sized photographic media slot",
-        "width_share": "about 52% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 5.00:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits."
       },
       "focal_point": {
-        "what": "clinic interior",
-        "where": "left lower band",
-        "region_ids": [
-          8
-        ]
+        "what": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Bright blue editorial field carries contrast between what the page provides and what requires a private conversation; narrow clinic image anchors bottom.",
+      "dominance": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
       "eye_path": [
-        "visitor orientation heading",
-        "clinic interior",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Preserve space on blue around the title, panels and lower photo ribbon."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Bright blue editorial field carries contrast between what the page provides and what requires a private conversation; narrow clinic image anchors bottom.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "visitor orientation heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -219,25 +262,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "visitor orientation hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Two boundary panels must remain distinct, neither implying a diagnosis."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -245,45 +283,57 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits."
       },
-      "slot_contracts": [
-        {
-          "region_id": 8,
-          "container": "02-visitor-orientation / clinic interior \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "5.02:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/orientation.tsx",
+        "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
+        "dom_ids": [
+          "visitor-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "03-goals-and-decision-factors",
@@ -305,55 +355,43 @@
         }
       },
       "slot_contract": {
-        "container": "goals and decision factors independently sized photographic media slot",
-        "width_share": "about 14% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.61:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          8
-        ]
+        "what": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+        "where": "section-owned live layout"
       },
-      "dominance": "White left explanation faces three diagonally stacked decision cards; two independent clinic photographs close the right edge.",
+      "dominance": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
       "eye_path": [
-        "goals and decision factors heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep clean white space between the left rationale and stacked goal cards."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "White left explanation faces three diagonally stacked decision cards; two independent clinic photographs close the right edge.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "goals and decision factors heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -361,25 +399,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "goals and decision factors hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The three goals are separate semantic cards, not one baked illustration."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -387,53 +420,57 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt."
       },
-      "slot_contracts": [
-        {
-          "region_id": 8,
-          "container": "03-goals-and-decision-factors / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.61:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 9,
-          "container": "03-goals-and-decision-factors / visitor in lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.37:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/goals.tsx",
+        "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+        "dom_ids": [
+          "goals-and-decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "04-what-to-expect",
@@ -455,55 +492,43 @@
         }
       },
       "slot_contract": {
-        "container": "what to expect independently sized photographic media slot",
-        "width_share": "about 29% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.82:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo."
       },
       "focal_point": {
-        "what": "real waiting room",
-        "where": "right media field",
-        "region_ids": [
-          9
-        ]
+        "what": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Dark left heading and booking action open into a large authentic waiting-room crop on the right.",
+      "dominance": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
       "eye_path": [
-        "what to expect heading",
-        "real waiting room",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep a calm dark text field left of the diagonal photo edge."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Dark left heading and booking action open into a large authentic waiting-room crop on the right.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "what to expect heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -511,25 +536,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "what to expect hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Real waiting-room signage remains visible and the booking link stays live."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -537,45 +557,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo."
       },
-      "slot_contracts": [
-        {
-          "region_id": 9,
-          "container": "04-what-to-expect / real waiting room \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.82:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/expect.tsx",
+        "source_sha256": "d2e635e440099ae588e820661488f757e96bd857257cdc25a92d87b9bdac99e5",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "05-faq",
@@ -597,55 +595,43 @@
         }
       },
       "slot_contract": {
-        "container": "faq independently sized photographic media slot",
-        "width_share": "about 30% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 2.71:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail."
       },
       "focal_point": {
-        "what": "clinic lounge",
-        "where": "right media field",
-        "region_ids": [
-          2
-        ]
+        "what": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Strong dark FAQ heading sits above five broad, independently readable question-answer rows; clinic image occupies only a shallow top-right strip.",
+      "dominance": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
       "eye_path": [
-        "faq heading",
-        "clinic lounge",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Leave the footer conclusion as its own short band, not part of the last answer."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Strong dark FAQ heading sits above five broad, independently readable question-answer rows; clinic image occupies only a shallow top-right strip.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "faq heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -653,25 +639,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "faq hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Keep all five FAQ rows separate live content with individual links."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -679,45 +660,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail."
       },
-      "slot_contracts": [
-        {
-          "region_id": 2,
-          "container": "05-faq / clinic lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.71:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/faq.tsx",
+        "source_sha256": "d7b515255828ec842b68d122f9d73dbccf45c9f5ae845b12abb83635cc2f98b4",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "06-booking-cta",
@@ -739,55 +698,43 @@
         }
       },
       "slot_contract": {
-        "container": "booking cta independently sized photographic media slot",
-        "width_share": "about 16% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.67:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection."
       },
       "focal_point": {
-        "what": "visitor in clinic",
-        "where": "right media field",
-        "region_ids": [
-          8
-        ]
+        "what": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Booking text and a three-step path lead into a right visitor-in-clinic image and emphatic blue booking panel.",
+      "dominance": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
       "eye_path": [
-        "booking cta heading",
-        "visitor in clinic",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Do not fill the dark upper left with extra imagery or testimonial claims."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Booking text and a three-step path lead into a right visitor-in-clinic image and emphatic blue booking panel.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "booking cta heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -795,25 +742,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "booking cta hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The final booking panel dominates the subordinate three-step navigation."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -821,45 +763,57 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection."
       },
-      "slot_contracts": [
-        {
-          "region_id": 8,
-          "container": "06-booking-cta / visitor in clinic \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.67:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/booking.tsx",
+        "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "07-medical-sources",
@@ -881,55 +835,43 @@
         }
       },
       "slot_contract": {
-        "container": "medical sources independently sized photographic media slot",
-        "width_share": "about 18% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.39:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image."
       },
       "focal_point": {
-        "what": "clinic lounge",
-        "where": "right media field",
-        "region_ids": [
-          4
-        ]
+        "what": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Compact white sources strip places heading and source institutions left of a narrow interior photograph.",
+      "dominance": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
       "eye_path": [
-        "medical sources heading",
-        "clinic lounge",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Allow generous white margin above source marks and around the narrow photo."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Compact white sources strip places heading and source institutions left of a narrow interior photograph.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "medical sources heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -937,25 +879,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "medical sources hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Medical source names and link destinations must remain live and verifiable."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -963,45 +900,37 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image."
       },
-      "slot_contracts": [
-        {
-          "region_id": 4,
-          "container": "07-medical-sources / clinic lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.39:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/sources.tsx",
+        "source_sha256": "9c986bbdd0fd6a34d72868c4dfd1d5d0d3612e75feb090e63b8533cb98e74555",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
-  ]
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
 }

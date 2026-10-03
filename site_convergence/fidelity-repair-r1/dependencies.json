@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "six_review_sheet_images_resolved": 284,
+  "current_image_owners": [
+    {
+      "owner": "services/02-neuropathy-feature.png",
+      "asset": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+      "sha256": "5d11d3c9c4d7c6ae3710421962e0eef7171a439d645d691f83d38554ebd3e323"
+    },
+    {
+      "owner": "services/03-service-navigation.png",
+      "asset": "public/images/design/services/03-service-navigation-01-active-couple.png",
+      "sha256": "a5f96f1bfee0623d7d6d9b2b6be0687a97cefc7eb15c170ce3085087f762acbf"
+    },
+    {
+      "owner": "neuropathy/01-hero.png",
+      "asset": "public/images/design/neuropathy/01-hero-01-person-walking.png",
+      "sha256": "58593844a83124784255a8ea098346860e89690f991b20798eaaa88bc9bcfd20"
+    },
+    {
+      "owner": "pain-relief/04-low-back-concerns.png",
+      "asset": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+      "sha256": "b7735e7bea63975a7eb53d1c68c93731a0693bf87061b7a309b784479b08e07a"
+    },
+    {
+      "owner": "pain-relief/05-neck-concerns.png",
+      "asset": "public/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+      "sha256": "c98a10ef6999a86548d8d20a596ff07994b35b44cc64a1e92723818bac46983f"
+    },
+    {
+      "owner": "hormone-optimization/01-hero.png",
+      "asset": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
+      "sha256": "bbbb1d56048107db759b0cc6429570ee15536deca04d8672314e9b79281c06d1"
+    },
+    {
+      "owner": "pelvic-floor-incontinence/01-hero.png",
+      "asset": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+      "sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e"
+    }
+  ],
+  "retired": [
+    {
+      "original": "public/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
+      "archive": "assets/retired-photo-roles/fidelity-repair-r1/pain-relief/03-knee-concerns-01-person-outdoors.png",
+      "sha256": "5e06ee2e212f07340325583d5c10ef29db115c27917a9e324592d787cad4cd42",
+      "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+    },
+    {
+      "original": "public/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+      "archive": "assets/retired-photo-roles/fidelity-repair-r1/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+      "sha256": "e250110033b586dd7a61d88c64b85beb91e96471f436d131c03a99f26d97de4b",
+      "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+    }
+  ],
+  "historical_frame_and_before_contract_references": "Intentionally retained, not runtime consumers",
+  "errors": []
+}

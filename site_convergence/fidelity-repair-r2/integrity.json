@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "prior_archives": [
+    {
+      "path": "assets/evidence-archives/builder-judgment-source-r1.tar.gz",
+      "sha256": "56f4892c5da4edb6b4d56aaa235d643a727600853fc334572276e0cf9fc6abbd",
+      "member_count": 694,
+      "all_members_readable": true
+    },
+    {
+      "path": "assets/evidence-archives/fidelity-repair-r1.tar.gz",
+      "sha256": "a24fff4d488e21f908e3d982f613dd2f951cf467b25c89d884d5663716411244",
+      "member_count": 209,
+      "all_members_readable": true
+    }
+  ],
+  "runtime_images_preserved": [
+    {
+      "path": "public/images/design/services/03-service-navigation-01-active-couple.png",
+      "sha256": "a5f96f1bfee0623d7d6d9b2b6be0687a97cefc7eb15c170ce3085087f762acbf"
+    },
+    {
+      "path": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+      "sha256": "5d11d3c9c4d7c6ae3710421962e0eef7171a439d645d691f83d38554ebd3e323"
+    },
+    {
+      "path": "public/images/design/neuropathy/01-hero-01-person-walking.png",
+      "sha256": "58593844a83124784255a8ea098346860e89690f991b20798eaaa88bc9bcfd20"
+    },
+    {
+      "path": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
+      "sha256": "bbbb1d56048107db759b0cc6429570ee15536deca04d8672314e9b79281c06d1"
+    },
+    {
+      "path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+      "sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e"
+    }
+  ],
+  "dependency_files_preserved": [
+    "package.json",
+    "package-lock.json"
+  ],
+  "npm_ls": "PASS; npm-dependencies.log",
+  "no_dependency_installation": true
+}

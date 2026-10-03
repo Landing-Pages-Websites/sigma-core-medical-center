@@ -1,0 +1,1094 @@
+{
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "review_scope": "Producer update of only changed Care decomposition; five unchanged r4 frame entries inherited. Fresh independent review pending.",
+  "inputs": "Actual r5 Care return and fresh segmentation; unchanged r4 refs and their existing measured contracts.",
+  "typography": {
+    "family": "Source Sans 3",
+    "all_roles": true,
+    "metrics": "CSS sizes in notes are starting recipes, to verify with the actual loaded font and responsive rendering."
+  },
+  "tokens": {
+    "ink": "#101E33",
+    "mineral": "#F7F6F3",
+    "charcoal": "#20272E",
+    "action": "#0666A5",
+    "electric": "#0877BE"
+  },
+  "constraints": [
+    "Reference and QA PNGs are evidence only, never runtime assets.",
+    "Zero photographic assets, photo slots, captions or photo-alt claims.",
+    "All semantic text remains live HTML; decorative geometry is aria-hidden CSS/SVG.",
+    "Use natural content-led section heights; 1536x864 is evidence geometry, not a CSS height.",
+    "Maintain one semantic text instance across overlapping or fragmented segmentation regions.",
+    "Purpose upper field uses action #0666A5. Purpose secondary action uses mineral #F7F6F3 label/border on ink #101E33 with text contrast >=4.5:1."
+  ],
+  "frames": [
+    {
+      "frame": "01-hero",
+      "reference_file": "refs/01-hero.png",
+      "reference_sha256": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/01-hero/regions.json",
+      "segmentation_sha256": "4fc3fb5d6635a8b1da9c461474a06f0ccab84f0736a940a93731f1ed0d83d9b3",
+      "bg": "#101E33",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Ink section substrate and responsive layout",
+          "content_group": "hero-substrate",
+          "build_note": "CSS section background var(--ink), padded content container about 5vw at desktop; use natural block height. Set Source Sans 3 throughout. Keep decorative steps behind text and clip overflow at the right and bottom section edges.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            974,
+            462,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Ascending blue stair silhouette",
+          "content_group": "hero-steps",
+          "build_note": "Use an aria-hidden absolute div at bottom right with electric #0877BE fill and clip-path polygon(0 72%,28% 72%,28% 50%,65% 50%,65% 23%,84% 23%,84% 0,100% 0,100% 100%,0 100%). The region includes incidental text and rule pixels: do not duplicate those. Extend geometry to actual section edges rather than segmentation inset.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            77,
+            158,
+            833,
+            476
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "A focus on movement, function and life.",
+          "content_group": "hero-title",
+          "build_note": "One h1 in Source Sans 3 weight 750\u2013800, clamp(3.25rem,9.6vw,9.25rem), line-height about .82\u2013.9 and tight letter-spacing. At reference width arrange lines A focus on / movement, / function and life.; function and life. use electric #0877BE, other words mineral #F7F6F3. IDs 2,5,6,8,10 are fragments of this single heading; maintain one accessible text occurrence and allow responsive reflow.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            80,
+            512,
+            922,
+            640
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Sigma Core\u2019s focus is movement, function, recovery and quality of life for the Richmond, Virginia area. Neuropathy is the primary focus.",
+          "content_group": "hero-description",
+          "build_note": "Live p in Source Sans 3 weight 600, mineral #F7F6F3, font-size clamp(1.2rem,2.35vw,2.25rem), line-height 1.32; constrain to about 55rem at desktop and place below h1 with about 1.6rem gap.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            80,
+            679,
+            535,
+            771
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "See booking status",
+          "content_group": "hero-action",
+          "build_note": "Anchor styled inline-flex with mineral #F7F6F3 background, ink #101E33 label, generous 1.4rem 2.5rem padding and square corners. Place action-colored arrow as a simple 3px SVG line and open chevron at right; Source Sans 3 bold label, visible keyboard focus.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            209,
+            128,
+            572,
+            238
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "focus",
+          "content_group": "hero-title",
+          "build_note": "Render this segmentation fragment in the single h1 specified by ID 2, using Source Sans 3 with inherited weight, size and baseline; no separate positioned word or duplicate DOM copy.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            944,
+            364,
+            1171,
+            475
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "life.",
+          "content_group": "hero-title",
+          "build_note": "Render this segmentation fragment in the single h1 specified by ID 2; inline span color electric #0877BE, with inherited Source Sans 3 weight, size and baseline.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            576,
+            699,
+            915,
+            759
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Team, location and booking details remain unconfirmed.",
+          "content_group": "hero-action-context",
+          "build_note": "Live p in Source Sans 3 at about 1.75rem and line-height 1.35; mineral text with modest opacity on ink. Use flex row with CTA and about 2.5rem gap at wide widths, stack with consistent reading order on narrow screens.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            662,
+            367,
+            903,
+            476
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "and",
+          "content_group": "hero-title",
+          "build_note": "Render this segmentation fragment in the single h1 specified by ID 2; inline mineral #F7F6F3 text with inherited Source Sans 3 metrics.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            83,
+            77,
+            699,
+            97
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "ABOUT SIGMA CORE \u00b7 RICHMOND AREA",
+          "content_group": "hero-eyebrow",
+          "build_note": "Live p with Source Sans 3 semibold, uppercase, letter-spacing .16em, font-size about 1.7rem and electric #0877BE; keep above h1 with small margin and allow wrapping on narrow screens.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 10,
+          "box": [
+            78,
+            130,
+            179,
+            237
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "A",
+          "content_group": "hero-title",
+          "build_note": "Render this segmentation fragment in the single h1 specified by ID 2, mineral #F7F6F3 with inherited Source Sans 3 metrics and shared baseline.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        },
+        {
+          "id": 11,
+          "box": [
+            1100,
+            622,
+            1276,
+            633
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Short mineral rule above the stair silhouette",
+          "content_group": "hero-rule",
+          "build_note": "Use aria-hidden div with width about 11rem, height .7rem and mineral #F7F6F3 at reduced opacity; position relative to the stair decoration rather than to viewport text.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/hero.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "01-hero",
+      "width": 1536,
+      "height": 864,
+      "stable_anchor": "hero",
+      "additional_anchors": [],
+      "actions": [
+        {
+          "label": "See booking status",
+          "href": "/book"
+        }
+      ],
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/hero.tsx",
+        "source_sha256": "5fb63109c04554e79b11490b574357a295dd40527e932234a940193e049d68e2",
+        "dom_ids": [
+          "hero",
+          "about-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background var(--ink), padded content container about 5vw at desktop; use natural block height. Set Source Sans 3 throughout. Keep decorative steps behind text and clip overflow at the right and bottom section edges. Use an aria-hidden absolute div at bottom right with electric #0877BE fill and clip-path polygon(0 72%,28% 72%,28% 50%,65% 50%,65% 23%,84% 23%,84% 0,100% 0,100% 100%,0 100%). The region includes incidental text and rule pixels: do not duplicate those. Extend geometry to actual section edges rather than segmentation inset. One h1 in Source Sans 3 weight 750\u2013800, clamp(3.25rem,9.6vw,9.25rem), line-height about .82\u2013.9 and tight letter-spacing. At reference width arrange lines A focus on / movement, / function and life.; function and life. use electric #0877BE, other words mineral #F7F6F3. IDs 2,5,6,8,10 are fragments of this single heading; maintain one accessible text occurrence and allow responsive reflow. Live p in Source Sans 3 weight 600, mineral #F7F6F3, font-size clamp(1.2rem,2.35vw,2.25rem), line-height 1.32; constrain to about 55rem at desktop and place below h1 with about 1.6rem gap. Anchor styled inline-flex with mineral #F7F6F3 background, ink #101E33 label, generous 1.4rem 2.5rem padding and square corners. Place action-colored arrow as a simple 3px SVG line and open chevron at right; Source Sans 3 bold label, visible keyboard focus. Render this segmentation fragment in the single h1 specified by ID 2, using Source Sans 3 with inherited weight, size and baseline; no separate positioned word or duplicate DOM copy. Render this segmentation fragment in the single h1 specified by ID 2; inline span color electric #0877BE, with inherited Source Sans 3 weight, size and baseline. Live p in Source Sans 3 at about 1.75rem and line-height 1.35; mineral text with modest opacity on ink. Use flex row with CTA and about 2.5rem gap at wide widths, stack with consistent reading order on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2; inline mineral #F7F6F3 text with inherited Source Sans 3 metrics. Live p with Source Sans 3 semibold, uppercase, letter-spacing .16em, font-size about 1.7rem and electric #0877BE; keep above h1 with small margin and allow wrapping on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2, mineral #F7F6F3 with inherited Source Sans 3 metrics and shared baseline. Use aria-hidden div with width about 11rem, height .7rem and mineral #F7F6F3 at reduced opacity; position relative to the stair decoration rather than to viewport text.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-clinic-purpose",
+      "reference_file": "refs/02-clinic-purpose.png",
+      "reference_sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/02-clinic-purpose/regions.json",
+      "segmentation_sha256": "accdcd771025ca0e7c024694df12ca5abdd6a132c18fe04975fe514cc236b02e",
+      "bg": "#101E33",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Three flat horizontal fields and principles separators",
+          "content_group": "purpose-substrate",
+          "build_note": "CSS section with action #0666A5 upper field, ink #101E33 mission band and mineral #F7F6F3 principles field. All field heights follow content and padding. Build three 1px neutral vertical separators between four equal-width principle columns; use borders, changing to horizontal separation when stacked.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            596
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Neuropathy first. | Start with general information about neuropathy, then explore pain, hormone health, pelvic-floor concerns and regenerative goals. | Individual needs and outcomes vary. | Our Mission | Help you understand the topics and consider a clear next step. | Explore neuropathy | Explore all services",
+          "content_group": "purpose-and-mission",
+          "build_note": "Use nested divs for upper two-column grid and lower mission grid. Upper background action #0666A5; h2 Source Sans 3 bold about clamp(3rem,7.5vw,7.2rem), line-height .98, with Neuropathy / first. at desktop. Right p about 2.15rem/1.36 and small caveat 1.35rem with 4px mineral left border. Mission band ink #101E33: heading in left one-third, sentence and two inline-flex anchors in right two-thirds. Primary anchor action #0666A5 with mineral label; secondary transparent anchor with 2px mineral #F7F6F3 border and mineral label on ink #101E33, requiring text contrast >=4.5:1. Use simple line-and-chevron SVG arrows. Stack grids and actions on small screens; preserve every listed live text string.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1228,
+            691,
+            1384,
+            766
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Practical next steps.",
+          "content_group": "grounded-principles",
+          "build_note": "Fourth item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Practical / next steps.; padding aligns with the shared row and rules; allow natural mobile wrapping.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            71,
+            691,
+            229,
+            759
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "You at the center.",
+          "content_group": "grounded-principles",
+          "build_note": "First item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap You at / the center.; no isolated positioned words.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            834,
+            691,
+            1017,
+            759
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Clear information.",
+          "content_group": "grounded-principles",
+          "build_note": "Third item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Clear / information.; use shared column padding.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            470,
+            691,
+            623,
+            759
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Questions first.",
+          "content_group": "grounded-principles",
+          "build_note": "Second item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Questions / first.; use shared column padding.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            64,
+            631,
+            324,
+            659
+          ],
+          "verdict": "code",
+          "section_owner": "02-clinic-purpose",
+          "asset_scope": "section",
+          "what": "Grounded principles",
+          "content_group": "grounded-principles-title",
+          "build_note": "Live h3 in Source Sans 3 semibold, action #0666A5, about 1.8rem; place above four-column list with about 1.6rem gap and align with section inset.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/purpose.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "02-clinic-purpose",
+      "width": 1536,
+      "height": 864,
+      "stable_anchor": "clinic-purpose",
+      "additional_anchors": [
+        "our-mission"
+      ],
+      "actions": [
+        {
+          "label": "Explore neuropathy",
+          "href": "/services/neuropathy"
+        },
+        {
+          "label": "Explore all services",
+          "href": "/services"
+        }
+      ],
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/purpose.tsx",
+        "source_sha256": "fed1a6e0dc861180c561dabf826f5de8381b7d5324bbfd18af0ef3545df83400",
+        "dom_ids": [
+          "clinic-purpose",
+          "about-purpose-title",
+          "our-mission"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section with action #0666A5 upper field, ink #101E33 mission band and mineral #F7F6F3 principles field. All field heights follow content and padding. Build three 1px neutral vertical separators between four equal-width principle columns; use borders, changing to horizontal separation when stacked. Use nested divs for upper two-column grid and lower mission grid. Upper background action #0666A5; h2 Source Sans 3 bold about clamp(3rem,7.5vw,7.2rem), line-height .98, with Neuropathy / first. at desktop. Right p about 2.15rem/1.36 and small caveat 1.35rem with 4px mineral left border. Mission band ink #101E33: heading in left one-third, sentence and two inline-flex anchors in right two-thirds. Primary anchor action #0666A5 with mineral label; secondary transparent anchor with 2px mineral #F7F6F3 border and mineral label on ink #101E33, requiring text contrast >=4.5:1. Use simple line-and-chevron SVG arrows. Stack grids and actions on small screens; preserve every listed live text string. Fourth item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Practical / next steps.; padding aligns with the shared row and rules; allow natural mobile wrapping. First item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap You at / the center.; no isolated positioned words. Third item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Clear / information.; use shared column padding. Second item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Questions / first.; use shared column padding. Live h3 in Source Sans 3 semibold, action #0666A5, about 1.8rem; place above four-column list with about 1.6rem gap and align with section inset.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-facility-gallery",
+      "reference_file": "refs/03-facility-gallery.png",
+      "reference_sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/03-facility-gallery/regions.json",
+      "segmentation_sha256": "2dbad3ed5a435415f6354d6cf350fe1de1fdab1b0d0e5bc3e09a62e9d4835641",
+      "bg": "#F7F6F3",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "Mineral field, bracket and underline geometry",
+          "content_group": "location-substrate",
+          "build_note": "CSS section background mineral #F7F6F3 with content-led padding. Use a 4px action #0666A5 vertical border and two short horizontal pseudo-elements to form the left bracket around heading group, plus a separate 5px by 5.5rem accent rule below. These thin elements fall outside segmentation boxes. Arrange lower link and status panel as a one-third/two-thirds grid; stack on small screens.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/gallery.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            501,
+            450,
+            1421,
+            719
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "Details pending confirmation | Address, hours, directions, parking and accessibility details are not confirmed for publication.",
+          "content_group": "location-status",
+          "build_note": "Status div background ink #101E33, mineral text, padding about 3.5rem 4.8rem. Form 44px chamfer at upper left with clip-path polygon(44px 0,100% 0,100% 100%,0 100%,0 44px). Live h3 Source Sans 3 bold about 2.8rem followed by p 1.6rem/1.5; scale padding and chamfer responsively.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/gallery.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            145,
+            212,
+            1284,
+            367
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "Address and visiting arrangements remain unconfirmed.",
+          "content_group": "location-heading",
+          "build_note": "Live h2 in Source Sans 3 bold, ink #101E33, clamp(2.3rem,4.9vw,4.8rem), line-height 1.08; desktop wraps after visiting. Keep in one heading and allow narrower widths to wrap naturally.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/gallery.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            151,
+            127,
+            674,
+            166
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "Location & visit details",
+          "content_group": "location-heading",
+          "build_note": "Live section label or h2 according to semantic hierarchy, Source Sans 3 bold about 3rem in ink #101E33; align with main statement on same left content axis.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/gallery.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            148,
+            570,
+            371,
+            598
+          ],
+          "verdict": "code",
+          "section_owner": "03-facility-gallery",
+          "asset_scope": "section",
+          "what": "Check location status",
+          "content_group": "location-link",
+          "build_note": "Live anchor in Source Sans 3 semibold about 1.5rem, action #0666A5, underline with 2px thickness and .25em offset. Add adjacent line-and-chevron SVG arrow outside the text bbox, inline-flex gap 1.5rem and center alignment; keep link beneath heading group.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/gallery.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "03-facility-gallery",
+      "width": 1536,
+      "height": 864,
+      "stable_anchor": "facility-gallery",
+      "additional_anchors": [],
+      "actions": [
+        {
+          "label": "Check location status",
+          "href": "/contact#verified-location-details"
+        }
+      ],
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/gallery.tsx",
+        "source_sha256": "df038873da2522c9df52decad830c1d02fc9cafdf92f8224c1c65e24af93b2bf",
+        "dom_ids": [
+          "facility-gallery",
+          "about-location-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background mineral #F7F6F3 with content-led padding. Use a 4px action #0666A5 vertical border and two short horizontal pseudo-elements to form the left bracket around heading group, plus a separate 5px by 5.5rem accent rule below. These thin elements fall outside segmentation boxes. Arrange lower link and status panel as a one-third/two-thirds grid; stack on small screens. Status div background ink #101E33, mineral text, padding about 3.5rem 4.8rem. Form 44px chamfer at upper left with clip-path polygon(44px 0,100% 0,100% 100%,0 100%,0 44px). Live h3 Source Sans 3 bold about 2.8rem followed by p 1.6rem/1.5; scale padding and chamfer responsively. Live h2 in Source Sans 3 bold, ink #101E33, clamp(2.3rem,4.9vw,4.8rem), line-height 1.08; desktop wraps after visiting. Keep in one heading and allow narrower widths to wrap naturally. Live section label or h2 according to semantic hierarchy, Source Sans 3 bold about 3rem in ink #101E33; align with main statement on same left content axis. Live anchor in Source Sans 3 semibold about 1.5rem, action #0666A5, underline with 2px thickness and .25em offset. Add adjacent line-and-chevron SVG arrow outside the text bbox, inline-flex gap 1.5rem and center alignment; keep link beneath heading group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-care-principles",
+      "reference_file": "refs/04-care-principles.png",
+      "reference_sha256": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/04-care-principles/regions.json",
+      "segmentation_sha256": "f182b4e454d01313c6597cf4ec090c78257074c1fb29b7d245a1df1ecb10ea07",
+      "bg": "#20272E",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Charcoal left field, principle rules and right panel layout",
+          "content_group": "care-substrate",
+          "build_note": "CSS charcoal #20272E section, approximately2fr 1fr desktop columns. Main column contains live heading and open2\u00d72 grid. Four6px action #0666A5 rules and a mineral separator belong to this substrate even when segmentation misses them; actual separator ink y494\u2013497. Side panel begins x1032. Use natural content height and responsive stacking; never rasterize the frame or require864px section height.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            1031,
+            70,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Both questions, label, Explore services then Booking status",
+          "content_group": "care-questions",
+          "build_note": "CSS mineral #F7F6F3 aside at the desktop right third, about504/1536 of width, with48px upper-left chamfer via clip-path polygon. Use Source Sans3 live label and two natural-width question headings, short3px action rules, and two stacked inline-flex links. Primary is action #0666A5/mineral; secondary is mineral/action border and text; simple SVG arrows. Starting question font-size about2.5rem/1.2 is a recipe to verify, not a measured CSS fact. Current ink boxes are1091,240\u20131439,327 and1092,398\u20131439,531. Keep all content and at least48px controls; stack below principles on mobile.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            592,
+            277,
+            940,
+            451
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Your care, your conversation. | Individual questions belong in a care conversation.",
+          "content_group": "care-conversation",
+          "build_note": "One live article with Source Sans3 h3 and p, mineral #F7F6F3 on charcoal. The actual upper heading breaks after care, and its body ink begins y387. Share grid heading reserves and body row alignment with region3 using min-block-size:2lh; do not intentionally recreate the4px offset. Requested34\u201336px title and28px body are unachieved/uncertain image targets, with final font metrics requiring review.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            118,
+            278,
+            466,
+            457
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "One clear next step. | General orientation helps you consider where to begin.",
+          "content_group": "care-next-step",
+          "build_note": "One live article in the2\u00d72 CSS grid, Source Sans3 mineral h3 and p with shared6px action left border and about2rem inset. Actual image title breaks after next and body starts y391; the one-line title plus blank second reserve was not returned. Use a shared two-line heading slot with region2; retain exact copy. The intended34\u201336px title/28px body require loaded-font verification, not a claim of pixel-matched CSS sizes.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            321,
+            118,
+            758,
+            217
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Principles",
+          "content_group": "care-title",
+          "build_note": "Second fragment of one live h2 Care Principles shared with region7; Source Sans3 bold about clamp(3rem,6.7vw,6.5rem), mineral #F7F6F3, line-height1.02. Keep one semantic heading; do not independently position fragments.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            118,
+            622,
+            482,
+            689
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "We share what to expect without promising a treatment.",
+          "content_group": "care-expectations",
+          "build_note": "Live p in article shared with region8, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35 for responsive verification. Native body ink box118,621\u2013484,690 is measurement only. Preserve the complete two-line sentence and shared grid padding.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            594,
+            621,
+            849,
+            685
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Individual needs and results are different.",
+          "content_group": "care-outcomes",
+          "build_note": "Live p in article shared with region9, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35, natural wrapping. Native body ink box594,621\u2013849,685 is evidence only; align both lower paragraphs through shared CSS grid spacing.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            89,
+            124,
+            291,
+            198
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Care",
+          "content_group": "care-title",
+          "build_note": "First fragment of the single h2 shared with region4; Source Sans3 font-weight800, inherited responsive size and line-height. Keep Care Principles in normal flow; no duplicated heading.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            117,
+            557,
+            487,
+            598
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Clear expectations.",
+          "content_group": "care-expectations",
+          "build_note": "Live h3 paired with region5 in one article, Source Sans3 bold and mineral text. Actual heading ink is118,556\u2013488,599; the requested34\u201336px reduction is not proven by these43px glyph bounds. Use the same font/line-height system as the other titles and6px CSS action border.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            592,
+            557,
+            889,
+            598
+          ],
+          "verdict": "code",
+          "section_owner": "04-care-principles",
+          "asset_scope": "section",
+          "what": "Outcomes vary.",
+          "content_group": "care-outcomes",
+          "build_note": "Live h3 paired with region6, Source Sans3 bold/mineral with shared CSS grid spacing, about2rem left padding and6px action rule. Actual heading ink593,558\u2013891,599; do not derive fixed CSS placement or exact font size from glyph bounds.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/principles.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "04-care-principles",
+      "width": 1536,
+      "height": 864,
+      "observed_residual": "New Care is a material revision, but exact repair targets remain unmet: first-row body ink y391/y387 (4px stagger, versus r4 36px); requested y382/y382 not reached. Left title wraps after next, rather than one line plus empty second-line reserve. Divider begins y494 (requested y493); blank clearance36/43px exceeds32px. Question typography is modestly lighter/narrower, but sidebar balance and natural uncondensed type require independent judgment. Requested CSS sizes are not proven by generated glyphs.",
+      "stable_anchor": "care-principles",
+      "additional_anchors": [],
+      "actions": [
+        {
+          "label": "Explore services",
+          "href": "/services"
+        },
+        {
+          "label": "Booking status",
+          "href": "/book"
+        }
+      ],
+      "measurement_evidence": "verification/care-measurements.json",
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/principles.tsx",
+        "source_sha256": "990a71c691287764969d8280272948dbfac89bf745aed5b3bdaea445a31de958",
+        "dom_ids": [
+          "care-principles",
+          "about-care-title",
+          "about-questions-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS charcoal #20272E section, approximately2fr 1fr desktop columns. Main column contains live heading and open2\u00d72 grid. Four6px action #0666A5 rules and a mineral separator belong to this substrate even when segmentation misses them; actual separator ink y494\u2013497. Side panel begins x1032. Use natural content height and responsive stacking; never rasterize the frame or require864px section height. CSS mineral #F7F6F3 aside at the desktop right third, about504/1536 of width, with48px upper-left chamfer via clip-path polygon. Use Source Sans3 live label and two natural-width question headings, short3px action rules, and two stacked inline-flex links. Primary is action #0666A5/mineral; secondary is mineral/action border and text; simple SVG arrows. Starting question font-size about2.5rem/1.2 is a recipe to verify, not a measured CSS fact. Current ink boxes are1091,240\u20131439,327 and1092,398\u20131439,531. Keep all content and at least48px controls; stack below principles on mobile. One live article with Source Sans3 h3 and p, mineral #F7F6F3 on charcoal. The actual upper heading breaks after care, and its body ink begins y387. Share grid heading reserves and body row alignment with region3 using min-block-size:2lh; do not intentionally recreate the4px offset. Requested34\u201336px title and28px body are unachieved/uncertain image targets, with final font metrics requiring review. One live article in the2\u00d72 CSS grid, Source Sans3 mineral h3 and p with shared6px action left border and about2rem inset. Actual image title breaks after next and body starts y391; the one-line title plus blank second reserve was not returned. Use a shared two-line heading slot with region2; retain exact copy. The intended34\u201336px title/28px body require loaded-font verification, not a claim of pixel-matched CSS sizes. Second fragment of one live h2 Care Principles shared with region7; Source Sans3 bold about clamp(3rem,6.7vw,6.5rem), mineral #F7F6F3, line-height1.02. Keep one semantic heading; do not independently position fragments. Live p in article shared with region8, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35 for responsive verification. Native body ink box118,621\u2013484,690 is measurement only. Preserve the complete two-line sentence and shared grid padding. Live p in article shared with region9, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35, natural wrapping. Native body ink box594,621\u2013849,685 is evidence only; align both lower paragraphs through shared CSS grid spacing. First fragment of the single h2 shared with region4; Source Sans3 font-weight800, inherited responsive size and line-height. Keep Care Principles in normal flow; no duplicated heading. Live h3 paired with region5 in one article, Source Sans3 bold and mineral text. Actual heading ink is118,556\u2013488,599; the requested34\u201336px reduction is not proven by these43px glyph bounds. Use the same font/line-height system as the other titles and6px CSS action border. Live h3 paired with region6, Source Sans3 bold/mineral with shared CSS grid spacing, about2rem left padding and6px action rule. Actual heading ink593,558\u2013891,599; do not derive fixed CSS placement or exact font size from glyph bounds.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "05-team-publication-gate",
+      "reference_file": "refs/05-team-publication-gate.png",
+      "reference_sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/05-team-publication-gate/regions.json",
+      "segmentation_sha256": "230c326e846cff733c10bf96ffb1517d510b235c1c5cf501e48d39f1ec34a343",
+      "bg": "#101E33",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "asset_scope": "section",
+          "what": "Ink section and short blue rule",
+          "content_group": "team-substrate",
+          "build_note": "CSS section background ink #101E33. Use container padding, natural height and an indented status group about 8rem to the right of title at desktop; reduce indent on small screens. Add aria-hidden action #0666A5 horizontal rule 6rem by 5px above status statement. No raster, profile grid or empty media placeholder is needed.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/team.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            278,
+            426,
+            1312,
+            483
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "asset_scope": "section",
+          "what": "Care team details are not yet published.",
+          "content_group": "team-status",
+          "build_note": "Live h3 Source Sans 3 bold about clamp(2rem,3.8vw,3.65rem), mineral #F7F6F3 with line-height 1.12; place in indented status group under short accent rule.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/team.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            278,
+            507,
+            1152,
+            587
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "asset_scope": "section",
+          "what": "No individual provider profiles are available yet. Names, roles and credentials will appear here once verified.",
+          "content_group": "team-status",
+          "build_note": "Live p Source Sans 3 regular about 2.1rem/1.4, mineral #F7F6F3, max-width about 56rem, margin-top 1rem. Preserve the complete sentence and natural wrapping.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/team.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            150,
+            207,
+            891,
+            268
+          ],
+          "verdict": "code",
+          "section_owner": "05-team-publication-gate",
+          "asset_scope": "section",
+          "what": "About our care team",
+          "content_group": "team-title",
+          "build_note": "Live h2 Source Sans 3 bold about clamp(2.75rem,5vw,4.9rem), mineral #F7F6F3. Align title with outer content inset, then use deliberate but responsive separation before status group.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/team.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "05-team-publication-gate",
+      "width": 1536,
+      "height": 864,
+      "stable_anchor": "team-publication-gate",
+      "additional_anchors": [],
+      "actions": [],
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/team.tsx",
+        "source_sha256": "51abd7bafe1249728601c5badb06c64529da67e68249956d473e8d36036c6b91",
+        "dom_ids": [
+          "team-publication-gate",
+          "about-team-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33. Use container padding, natural height and an indented status group about 8rem to the right of title at desktop; reduce indent on small screens. Add aria-hidden action #0666A5 horizontal rule 6rem by 5px above status statement. No raster, profile grid or empty media placeholder is needed. Live h3 Source Sans 3 bold about clamp(2rem,3.8vw,3.65rem), mineral #F7F6F3 with line-height 1.12; place in indented status group under short accent rule. Live p Source Sans 3 regular about 2.1rem/1.4, mineral #F7F6F3, max-width about 56rem, margin-top 1rem. Preserve the complete sentence and natural wrapping. Live h2 Source Sans 3 bold about clamp(2.75rem,5vw,4.9rem), mineral #F7F6F3. Align title with outer content inset, then use deliberate but responsive separation before status group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "reference_file": "refs/06-booking-cta.png",
+      "reference_sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+      "dimensions": {
+        "width": 1536,
+        "height": 864
+      },
+      "segmentation_file": "qa/06-booking-cta/regions.json",
+      "segmentation_sha256": "f3a1ed1eb6a2ce83a09a088959c3afad2d12d531343a6733ec615b1b0565f04c",
+      "bg": "#101E33",
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "Ink section and responsive content hierarchy",
+          "content_group": "booking-substrate",
+          "build_note": "CSS section background ink #101E33 with normal-flow title, paragraph, action and status card. Set Source Sans 3 throughout, use clamp-based padding and content-led height. Card is slightly indented relative to upper text at desktop; remove excess indent on narrow screens. Do not impose 864px height.",
+          "asset_files": [],
+          "synthetic_region": "whole-frame substrate and unsegmented geometric details only",
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            161,
+            516,
+            1271,
+            763
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "Online booking is not yet available. | No appointment can be requested or confirmed online at this time.",
+          "content_group": "booking-status",
+          "build_note": "Mineral #F7F6F3 status div with ink #101E33 live text and about 3rem 4.5rem padding. Build short upper-left outward shoulder with a pseudo-element or polygon and blue top-right triangle with CSS border or clip-path; keep text inset clear of both. Source Sans 3 bold heading about 3.6rem/1.1, body 2.5rem/1.3. Preserve complete status copy; geometry adapts to card height and wrapping.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            106,
+            374,
+            578,
+            470
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "See booking status",
+          "content_group": "booking-action",
+          "build_note": "Inline-flex anchor with action #0666A5 fill and mineral #F7F6F3 bold Source Sans 3 label about 2.45rem. Use padding about 1.5rem 2.25rem and upper-right 32px clipped corner via polygon; adjacent white line-and-chevron SVG arrow. Preserve readable label and keyboard focus on the clickable wrapper.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            107,
+            253,
+            835,
+            337
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "See the current appointment status before planning your next step.",
+          "content_group": "booking-description",
+          "build_note": "Live p Source Sans 3 regular about 2.4rem/1.3, mineral #F7F6F3, max-width about 48rem. Place between h2 and anchor with consistent block margins; desktop line break after before follows available measure.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            893,
+            120,
+            1197,
+            228
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "goals.",
+          "content_group": "booking-title",
+          "build_note": "Part of a single live h2 Start with your goals. shared with IDs 5,6,7; Source Sans 3 bold about clamp(3rem,7.5vw,7.3rem), line-height 1.05, mineral #F7F6F3. Render once and allow natural mobile wrapping.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            106,
+            119,
+            359,
+            205
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "Start",
+          "content_group": "booking-title",
+          "build_note": "Part of the single live h2 Start with your goals. shared with IDs 4,6,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            387,
+            116,
+            605,
+            204
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "with",
+          "content_group": "booking-title",
+          "build_note": "Part of the single live h2 Start with your goals. shared with IDs 4,5,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            636,
+            144,
+            867,
+            228
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "your",
+          "content_group": "booking-title",
+          "build_note": "Part of the single live h2 Start with your goals. shared with IDs 4,5,6; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            106,
+            558,
+            149,
+            763
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "asset_scope": "section",
+          "what": "Stepped bracket left of booking status panel",
+          "content_group": "booking-bracket",
+          "build_note": "Use aria-hidden SVG path with action #0666A5 stroke about 6px, no fill, square linecap: start at upper left, descend about 45% height, step right, descend to bottom, then return left. Anchor beside status card and scale vertical segments with card height; no baked raster.",
+          "asset_files": [],
+          "source_component": "src/components/batch-three/about/booking.tsx"
+        }
+      ],
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "section_owner": "06-booking-cta",
+      "width": 1536,
+      "height": 864,
+      "stable_anchor": "booking-cta",
+      "additional_anchors": [],
+      "actions": [
+        {
+          "label": "See booking status",
+          "href": "/book"
+        }
+      ],
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/booking.tsx",
+        "source_sha256": "c924a2cffa586f34a1cb254dc29749a89286b62cf3f65fd080ab3b1e45f62fd6",
+        "dom_ids": [
+          "booking-cta",
+          "about-booking-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33 with normal-flow title, paragraph, action and status card. Set Source Sans 3 throughout, use clamp-based padding and content-led height. Card is slightly indented relative to upper text at desktop; remove excess indent on narrow screens. Do not impose 864px height. Mineral #F7F6F3 status div with ink #101E33 live text and about 3rem 4.5rem padding. Build short upper-left outward shoulder with a pseudo-element or polygon and blue top-right triangle with CSS border or clip-path; keep text inset clear of both. Source Sans 3 bold heading about 3.6rem/1.1, body 2.5rem/1.3. Preserve complete status copy; geometry adapts to card height and wrapping. Inline-flex anchor with action #0666A5 fill and mineral #F7F6F3 bold Source Sans 3 label about 2.45rem. Use padding about 1.5rem 2.25rem and upper-right 32px clipped corner via polygon; adjacent white line-and-chevron SVG arrow. Preserve readable label and keyboard focus on the clickable wrapper. Live p Source Sans 3 regular about 2.4rem/1.3, mineral #F7F6F3, max-width about 48rem. Place between h2 and anchor with consistent block margins; desktop line break after before follows available measure. Part of a single live h2 Start with your goals. shared with IDs 5,6,7; Source Sans 3 bold about clamp(3rem,7.5vw,7.3rem), line-height 1.05, mineral #F7F6F3. Render once and allow natural mobile wrapping. Part of the single live h2 Start with your goals. shared with IDs 4,6,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,6; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Use aria-hidden SVG path with action #0666A5 stroke about 6px, no fill, square linecap: start at upper left, descend about 45% height, step right, descend to bottom, then return left. Anchor beside status card and scale vertical segments with card height; no baked raster.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "summary": {
+    "frames": 6,
+    "segmented_regions": 41,
+    "added_whole_frame_regions": 6,
+    "code": 47,
+    "extract": 0,
+    "inpaint": 0,
+    "raster_files": 0
+  },
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  }
+}

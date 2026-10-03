@@ -21,55 +21,43 @@
         }
       },
       "slot_contract": {
-        "container": "hero independently sized photographic media slot",
-        "width_share": "about 20% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.70:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance."
       },
       "focal_point": {
-        "what": "reception",
-        "where": "right media field",
-        "region_ids": [
-          6
-        ]
+        "what": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Large left headline and blue neuropathy feature counterweight a diagonal reception window above a four-service rail.",
+      "dominance": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
       "eye_path": [
-        "hero heading",
-        "reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep dark breathing room behind the left headline and between the story and lower service rail."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Large left headline and blue neuropathy feature counterweight a diagonal reception window above a four-service rail.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "hero heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -77,25 +65,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "hero hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Neuropathy remains larger and bluer than the four subordinate service routes."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -103,45 +86,61 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance."
       },
-      "slot_contracts": [
-        {
-          "region_id": 6,
-          "container": "01-hero / reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.70:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "headline, action and primary media simultaneously visible"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/hero.tsx",
+        "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33",
+          "app/services/interior.css": "135d2f17b1507aef229eef3f7e3d8a547b4c74ab7dc3fd26595c9b68f16eb8fc"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "02-neuropathy-feature",
@@ -163,55 +162,46 @@
         }
       },
       "slot_contract": {
-        "container": "neuropathy feature independently sized photographic media slot",
-        "width_share": "about 14% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.86:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links."
       },
       "focal_point": {
-        "what": "walking figure",
-        "where": "right media field",
-        "region_ids": [
-          3
-        ]
+        "what": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Oversized heading leads into one dominant navy neuropathy card; the solitary walking figure and reception photo remain secondary anchors.",
+      "dominance": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
       "eye_path": [
-        "neuropathy feature heading",
-        "walking figure",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep the upper blue field open so the headline can lead before the support band."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Oversized heading leads into one dominant navy neuropathy card; the solitary walking figure and reception photo remain secondary anchors.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "neuropathy feature heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -219,25 +209,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "neuropathy feature hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The neuropathy card outranks the four support tiles without merging their live labels into imagery."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -245,53 +230,70 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
         ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links."
       },
       "slot_contracts": [
         {
-          "region_id": 3,
-          "container": "02-neuropathy-feature / walking figure \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.86:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 4,
-          "container": "02-neuropathy-feature / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "3.66:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "asset": "/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
         }
-      ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/neuropathy.tsx",
+        "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+        "dom_ids": [
+          "neuropathy"
+        ],
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "03-service-navigation",
@@ -313,55 +315,46 @@
         }
       },
       "slot_contract": {
-        "container": "service navigation independently sized photographic media slot",
-        "width_share": "about 18% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.28:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature."
       },
       "focal_point": {
-        "what": "active couple",
-        "where": "right media field",
-        "region_ids": [
-          3
-        ]
+        "what": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Cream heading sits above an asymmetrical navy pain card and narrower stacked services against a vertical clinic image.",
+      "dominance": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
       "eye_path": [
-        "service navigation heading",
-        "active couple",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Preserve cream negative space above the wide dark pain card."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Cream heading sits above an asymmetrical navy pain card and narrower stacked services against a vertical clinic image.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/services/03-service-navigation-01-active-couple.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "service navigation heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -369,25 +362,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "service navigation hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Pain has its own active-life scene; three other categories remain individually navigable beside the photo."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -395,53 +383,32 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
         ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature."
       },
       "slot_contracts": [
         {
-          "region_id": 3,
-          "container": "03-service-navigation / active couple \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.28:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 4,
-          "container": "03-service-navigation / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.45:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "asset": "/images/design/services/03-service-navigation-01-active-couple.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
         }
-      ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/navigation.tsx",
+        "source_sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6",
+        "dom_ids": [
+          "service-navigation"
+        ],
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "04-how-to-choose-next-step",
@@ -463,55 +430,43 @@
         }
       },
       "slot_contract": {
-        "container": "how to choose next step independently sized photographic media slot",
-        "width_share": "about 17% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.86:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          12
-        ]
+        "what": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Dark instructional copy and consultation callout counterbalance the clipped right reception photograph; three bottom routes form a common rail.",
+      "dominance": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
       "eye_path": [
-        "how to choose next step heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Leave space below the headline and above the three destination rail items."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Dark instructional copy and consultation callout counterbalance the clipped right reception photograph; three bottom routes form a common rail.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "how to choose next step heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -519,25 +474,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "how to choose next step hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "CTA remains live on or beside the image, never printed into the cropped photo."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -545,45 +495,92 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording."
       },
-      "slot_contracts": [
-        {
-          "region_id": 12,
-          "container": "04-how-to-choose-next-step / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.86:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/choose.tsx",
+        "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+        "dom_ids": [
+          "how-it-works"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile unavailable-booking disclosure escapes the fixed-height blue field.",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+          }
+        }
+      }
     },
     {
       "frame": "05-booking-cta",
@@ -605,55 +602,43 @@
         }
       },
       "slot_contract": {
-        "container": "booking cta independently sized photographic media slot",
-        "width_share": "about 38% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.27:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          11
-        ]
+        "what": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Large left booking statement and action face a sharply clipped right reception image, with three smaller route tiles below.",
+      "dominance": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
       "eye_path": [
-        "booking cta heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Retain quiet navy above the main copy and below the route tiles."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Large left booking statement and action face a sharply clipped right reception image, with three smaller route tiles below.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "booking cta heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -661,25 +646,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "booking cta hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The booking action is primary and the lower paths are clearly subordinate."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -687,45 +667,71 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px."
       },
-      "slot_contracts": [
-        {
-          "region_id": 11,
-          "container": "05-booking-cta / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.27:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/booking.tsx",
+        "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
     }
-  ]
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
 }

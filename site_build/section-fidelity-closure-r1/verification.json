@@ -1,0 +1,102 @@
+{
+  "status": "PASS_WORKING_CONTRACT_SUBSET_ONLY",
+  "base": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+  "page_set": "14 unique ordered interiors; blueprint equality exact",
+  "batch_history": "4 historical main ancestors; each route entry present in its merge commit",
+  "mirrors": "canonical/repository inventory, registry, manifests, maps and both plans equal",
+  "runtime_assets": 7,
+  "section_count": 59,
+  "layer_counts": {
+    "PASS": 34,
+    "PENDING": 261
+  },
+  "source_audits": "20/20 PASS; current inputs; no bypass",
+  "strict": "10/10 exit 1 solely for 261 pending layers",
+  "registry_pre_qa": "exit 1 solely for 14 false edge flags",
+  "build": {
+    "exit_code": 0,
+    "log_sha256": "950413d989a7d1316755a9074acaed205518f17bc3de902f8497bed91ecdc425",
+    "log_scope": "Untouched canonical raw log",
+    "repository_log_sha256": "f8438010ea2586fec4a59522b1e600085aeaa04154027fdf332a28bf0fa1df4c"
+  },
+  "lint": {
+    "exit_code": 0,
+    "log_sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c",
+    "log_scope": "Untouched canonical raw log",
+    "repository_log_sha256": "205b975ac5d1ed823c2d76455e9582bb6d5d6a2fbba347bd4348f439c9b7693e"
+  },
+  "diff_check": "PASS",
+  "protected_source": {
+    "checked_files": 727,
+    "scope": "All baseline tracked app/src and binary/public assets; no runtime, Home/variant, image, font or dependency change."
+  },
+  "preexisting_untracked": {
+    "retained_paths": 937,
+    "scope": "All initial untracked paths still exist; no cleanup or staging of those artifacts. AGENTS preserved."
+  },
+  "history_refs": {
+    "main": "0f182b8b96c657c52dcc2e82e61bbeafef8febc0",
+    "origin_main": "7339ef01b06cbf15aac3c4c913248597c659504f",
+    "branch": "peter/sigma-photo-ownership-round1"
+  },
+  "changed_existing_files": [
+    "public/design/pages/about/NOTES.md",
+    "public/design/pages/about/section_implementation.json",
+    "public/design/pages/book/NOTES.md",
+    "public/design/pages/book/section_implementation.json",
+    "public/design/pages/contact/NOTES.md",
+    "public/design/pages/contact/section_implementation.json",
+    "public/design/pages/contact/section_manifest.json",
+    "public/design/pages/educational-guide/NOTES.md",
+    "public/design/pages/educational-guide/section_implementation.json",
+    "public/design/pages/hormone-optimization/NOTES.md",
+    "public/design/pages/hormone-optimization/composition_map.json",
+    "public/design/pages/hormone-optimization/extraction_plan.json",
+    "public/design/pages/hormone-optimization/section_implementation.json",
+    "public/design/pages/hormone-optimization/section_manifest.json",
+    "public/design/pages/neuropathy/NOTES.md",
+    "public/design/pages/neuropathy/section_implementation.json",
+    "public/design/pages/pain-relief/NOTES.md",
+    "public/design/pages/pain-relief/composition_map.json",
+    "public/design/pages/pain-relief/extraction_plan.json",
+    "public/design/pages/pain-relief/section_implementation.json",
+    "public/design/pages/pain-relief/section_manifest.json",
+    "public/design/pages/pelvic-floor-incontinence/NOTES.md",
+    "public/design/pages/pelvic-floor-incontinence/composition_map.json",
+    "public/design/pages/pelvic-floor-incontinence/extraction_plan.json",
+    "public/design/pages/pelvic-floor-incontinence/section_implementation.json",
+    "public/design/pages/pelvic-floor-incontinence/section_manifest.json",
+    "public/design/pages/regenerative-medicine/NOTES.md",
+    "public/design/pages/regenerative-medicine/section_implementation.json",
+    "public/design/pages/services/NOTES.md",
+    "public/design/pages/services/composition_map.json",
+    "public/design/pages/services/extraction_plan.json",
+    "public/design/pages/services/section_implementation.json",
+    "public/design/pages/services/section_manifest.json",
+    "public/images/design/about/NOTES.md",
+    "public/images/design/book/NOTES.md",
+    "public/images/design/contact/NOTES.md",
+    "public/images/design/educational-guide/NOTES.md",
+    "public/images/design/hormone-optimization/NOTES.md",
+    "public/images/design/hormone-optimization/extraction_plan.json",
+    "public/images/design/neuropathy/NOTES.md",
+    "public/images/design/pain-relief/NOTES.md",
+    "public/images/design/pain-relief/extraction_plan.json",
+    "public/images/design/pelvic-floor-incontinence/NOTES.md",
+    "public/images/design/pelvic-floor-incontinence/extraction_plan.json",
+    "public/images/design/regenerative-medicine/NOTES.md",
+    "public/images/design/services/NOTES.md",
+    "public/images/design/services/extraction_plan.json",
+    "site_build/README.md",
+    "site_build/site_build_contracts.json"
+  ],
+  "not_performed": [
+    "push",
+    "merge",
+    "deploy",
+    "task edit",
+    "convergence index write",
+    "independent art review",
+    "Director approval"
+  ]
+}

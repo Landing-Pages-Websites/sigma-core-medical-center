@@ -7,29 +7,41 @@
       "implementation_owner": "src/components/interior/pain-relief/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "pain-relief/01-hero-01-person-walking.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cMove toward a more informed plan for persistent pain\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 01-hero; native design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6; owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 01-hero; native design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6; owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 01-hero whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 01-hero; native design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6; owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 01-hero type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 01-hero; native design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6; owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 01-hero and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 01-hero; native design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6; owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/hero.tsx",
+        "source_sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -38,31 +50,41 @@
       "implementation_owner": "src/components/interior/pain-relief/navigation.tsx",
       "content_source": "section_manifest.json#02-pain-concern-navigation",
       "asset_roles": [
-        "pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
-        "pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
-        "pain-relief/02-pain-concern-navigation-03-neck-clinic.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cPain Concern Navigation\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 02-pain-concern-navigation; native design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f; owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 02-pain-concern-navigation; native design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f; owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 02-pain-concern-navigation whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 02-pain-concern-navigation; native design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f; owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 02-pain-concern-navigation type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 02-pain-concern-navigation; native design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f; owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 02-pain-concern-navigation and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 02-pain-concern-navigation; native design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f; owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/navigation.tsx",
+        "source_sha256": "7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2",
+        "dom_ids": [
+          "pain-concern-navigation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -71,29 +93,77 @@
       "implementation_owner": "src/components/interior/pain-relief/knee.tsx",
       "content_source": "section_manifest.json#03-knee-concerns",
       "asset_roles": [
-        "pain-relief/03-knee-concerns-01-person-outdoors.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cKnee Concerns\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 03-knee-concerns; native design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2; owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 03-knee-concerns; native design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2; owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 03-knee-concerns whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 03-knee-concerns; native design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2; owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 03-knee-concerns type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 03-knee-concerns; native design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2; owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 03-knee-concerns and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 03-knee-concerns; native design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2; owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/knee.tsx",
+        "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+        "dom_ids": [
+          "knee-concerns"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+          ],
+          "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -102,29 +172,82 @@
       "implementation_owner": "src/components/interior/pain-relief/back.tsx",
       "content_source": "section_manifest.json#04-low-back-concerns",
       "asset_roles": [
-        "pain-relief/04-low-back-concerns-01-man-at-home.png"
+        "04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cLow Back Concerns\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 04-low-back-concerns; native design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f; owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently inspect this exact retained raster at full resolution and its desktop/mobile visible bounds, then the current 1536 crop. Confirm the activity/subject role and source-limited anatomy; no documentary approval is implied. /services/pain-relief / 04-low-back-concerns; native design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f; owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 04-low-back-concerns whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 04-low-back-concerns; native design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f; owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 04-low-back-concerns type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 04-low-back-concerns; native design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f; owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 04-low-back-concerns and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 04-low-back-concerns; native design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f; owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/back.tsx",
+        "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+        "dom_ids": [
+          "low-back-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -133,30 +256,82 @@
       "implementation_owner": "src/components/interior/pain-relief/neck.tsx",
       "content_source": "section_manifest.json#05-neck-concerns",
       "asset_roles": [
-        "pain-relief/05-neck-concerns-01-woman-reading.png",
-        "pain-relief/05-neck-concerns-02-clinic-lounge-strip.png"
+        "05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cNeck Concerns\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 05-neck-concerns; native design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d; owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently inspect this exact retained raster at full resolution and its desktop/mobile visible bounds, then the current 1536 crop. Confirm the activity/subject role and source-limited anatomy; no documentary approval is implied. /services/pain-relief / 05-neck-concerns; native design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d; owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 05-neck-concerns whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 05-neck-concerns; native design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d; owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 05-neck-concerns type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 05-neck-concerns; native design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d; owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 05-neck-concerns and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 05-neck-concerns; native design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d; owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: 05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/neck.tsx",
+        "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+        "dom_ids": [
+          "neck-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -165,29 +340,41 @@
       "implementation_owner": "src/components/interior/pain-relief/decisions.tsx",
       "content_source": "section_manifest.json#06-decision-factors",
       "asset_roles": [
-        "pain-relief/06-decision-factors-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cDecision Factors\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 06-decision-factors; native design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8; owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 06-decision-factors; native design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8; owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 06-decision-factors whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 06-decision-factors; native design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8; owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 06-decision-factors type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 06-decision-factors; native design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8; owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 06-decision-factors and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 06-decision-factors; native design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8; owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/decisions.tsx",
+        "source_sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -196,29 +383,41 @@
       "implementation_owner": "src/components/interior/pain-relief/faq.tsx",
       "content_source": "section_manifest.json#07-faq",
       "asset_roles": [
-        "pain-relief/07-faq-01-clinic-interior.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cQuestions, answered.\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 07-faq; native design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd; owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 07-faq; native design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd; owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 07-faq whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 07-faq; native design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd; owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 07-faq type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 07-faq; native design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd; owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 07-faq and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 07-faq; native design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd; owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/faq.tsx",
+        "source_sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -227,29 +426,41 @@
       "implementation_owner": "src/components/interior/pain-relief/booking.tsx",
       "content_source": "section_manifest.json#08-booking-cta",
       "asset_roles": [
-        "pain-relief/08-booking-cta-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cBooking Cta\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 08-booking-cta; native design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e; owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 08-booking-cta; native design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e; owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 08-booking-cta whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 08-booking-cta; native design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e; owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 08-booking-cta type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 08-booking-cta; native design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e; owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 08-booking-cta and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 08-booking-cta; native design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e; owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/booking.tsx",
+        "source_sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -258,31 +469,82 @@
       "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
       "content_source": "section_manifest.json#09-medical-sources",
       "asset_roles": [
-        "pain-relief/09-medical-sources-01-clinic-reception.png",
-        "pain-relief/09-medical-sources-02-clinic-lounge.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cMedical Sources\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/pain-relief / 09-medical-sources; native design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b; owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/pain-relief / 09-medical-sources; native design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b; owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "evidence": "PENDING: compare 09-medical-sources whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/pain-relief / 09-medical-sources; native design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b; owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "evidence": "PENDING: review 09-medical-sources type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/pain-relief / 09-medical-sources; native design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b; owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "evidence": "PENDING: capture 09-medical-sources and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/pain-relief / 09-medical-sources; native design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b; owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-pain-relief-full.png sha256=1ef62e1b04c043e5a712ad166c76a804510cf84ed3fc8519cd22dfdb1d023286. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-pain-relief-full.png sha256=56646105bff75781d8b48299ad457de10117deb932ba157aff12ad8973f7a017. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/sources.tsx",
+        "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  }
 }

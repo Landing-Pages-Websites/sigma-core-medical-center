@@ -1,0 +1,51 @@
+{
+  "commands": [
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "build.log",
+      "sha256": "8ed84adc746f3b55220ca9fc85066c93c8377a1d447a9de40af49c811616f295"
+    },
+    {
+      "command": "npm run lint",
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "lint.log",
+      "sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+    },
+    {
+      "command": "command -v simplify",
+      "exit_code": 1,
+      "status": "UNAVAILABLE",
+      "log": "simplify.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": "Chromium headless --dump-dom about:blank (12-second limit)",
+      "exit_code": null,
+      "status": "UNAVAILABLE",
+      "log": "browser-attempt.log",
+      "sha256": "ac0b52d2cd866836ce371d9ed58970147a5d12a937c33e20958f13855ffa53dc",
+      "note": "Launch failed before page load; missing libnspr4.so is recorded in stderr. No separate exit receipt was retained."
+    },
+    {
+      "command": "validate_site_build_contracts.py --phase pre-qa --check",
+      "exit_code": 1,
+      "status": "PENDING",
+      "log": "registry-gate.log",
+      "sha256": "31782127ba788e369dcded8507cfe4b879dc0c98b4749c7bd6316b1ee9469dbe"
+    },
+    {
+      "command": "git diff --cached --check",
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "node": "v24.14.1",
+  "npm": "11.11.0",
+  "python": "Python 3.11.2",
+  "build_id": "tzI_se4_xzmCZrI_ceBW_"
+}

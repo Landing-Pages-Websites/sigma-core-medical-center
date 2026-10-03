@@ -1,0 +1,104 @@
+[
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/hormone-optimization/composition_map.json",
+    "relative_path": "design_refs/pages/hormone-optimization/composition_map.json",
+    "before_sha256": "c32b7bfbb640b6775d02eb177e19035cc51421cefbf857a527d62088365e3bbd",
+    "after_sha256": "3ee77ff51f233e12fcea80a70be4cbb6163c4e96ea4d3745b2fe8fe83b9585e9"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/hormone-optimization/section_manifest.json",
+    "relative_path": "design_refs/pages/hormone-optimization/section_manifest.json",
+    "before_sha256": "c211c32716493eb35ca4fa10dced76896a0481097a9cf1609f31e3f3d152ef1c",
+    "after_sha256": "d091e9c9221e041fb81b954665ad35da4110e04f4436ba40848ded35d2dfd2ba"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pelvic-floor-incontinence/composition_map.json",
+    "relative_path": "design_refs/pages/pelvic-floor-incontinence/composition_map.json",
+    "before_sha256": "8eca9a0aba80fdbc6670777ee84a818a47593eac8aaecf1636b818df1a4459e4",
+    "after_sha256": "fd0fbbc87d1264d4fe85c74cf2f3d1db7dde3372c105f7c003356f7b1e0f0f41"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+    "relative_path": "design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+    "before_sha256": "556e1892d319864aaab4d4b276dd5ea1eb5e9e783549bfd686c7425e1fde5835",
+    "after_sha256": "68e7b415bc2574bfae10d3fb440e86127128202b3c6780a8a2ac61ddb76c4af2"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/composition_map.json",
+    "relative_path": "design_refs/pages/neuropathy/composition_map.json",
+    "before_sha256": "d6e1c17b5e8d4d22418e7c597dc31bc2c6930acc63f76addc84a2d27eb1ef924",
+    "after_sha256": "4c399cd23d696122f0174c7758d26d9c2d01d2af6b10378f6b1099be9431e774"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/section_manifest.json",
+    "relative_path": "design_refs/pages/neuropathy/section_manifest.json",
+    "before_sha256": "acff4850523e8ddb340f96734cd406376064713b5c835f7900aa7c1955fab492",
+    "after_sha256": "d74d87b2e15c506b9df4ec1d884380f91fe6e501b9c4052ca1a8356aca3a823b"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/composition_map.json",
+    "relative_path": "design_refs/pages/services/composition_map.json",
+    "before_sha256": "788e331619437cc797099ee8452f4b5bb8894f6d0d761e95ed748a082ca2f5a9",
+    "after_sha256": "a6b235018c31007a2118cc59bcebcedd19d9f864d9209f94ceeda5da0c6bbb32"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/section_manifest.json",
+    "relative_path": "design_refs/pages/services/section_manifest.json",
+    "before_sha256": "cc06cffa2e6f56213bd3bf4f77397064be3ded5c9c1b77eccaad1285951e97c8",
+    "after_sha256": "d55a1dc100d8853ecc248e9966a56ee199883f351504bfb4f85d0d50b449775b"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/hormone-optimization/extraction_plan.json",
+    "relative_path": "design_assets/pages/hormone-optimization/extraction_plan.json",
+    "before_sha256": "c25b19a2b5b48883814e299bda534fd98b9f63083a855e0584c73f85534dc7d7",
+    "after_sha256": "e8d16a98da34ae2c7984dcc6d5a1cb93b8215548175c9f9b77018f6a54e15357"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/hormone-optimization/NOTES.md",
+    "relative_path": "design_assets/pages/hormone-optimization/NOTES.md",
+    "before_sha256": "55cc6175ed30a1c14fb403650ee68161fcb30700f4ec268902f9cd39783d1a0c",
+    "after_sha256": "5332d3ec24dedb60b2f9f7e8c58e296a6fbd580a15a2464d99408ba34ee57f3d"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/pelvic-floor-incontinence/extraction_plan.json",
+    "relative_path": "design_assets/pages/pelvic-floor-incontinence/extraction_plan.json",
+    "before_sha256": "caf638e0bb5404e69c87063c88fb255b65adcad95c3aef88aefca247d0d6304c",
+    "after_sha256": "9d9f44e5e917ebc8cea675402462fa63dbcf7ed02dbfbbd46f6f1f5027ecadbe"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/pelvic-floor-incontinence/NOTES.md",
+    "relative_path": "design_assets/pages/pelvic-floor-incontinence/NOTES.md",
+    "before_sha256": "09f381a37927cdf96e404b2cef9dcbcdecef09a1d2285e389e60b8c4b79c94a6",
+    "after_sha256": "77e14e3cd9f46aa2bca09914e515d96e996e7da65e1ddf7e710ec8550c9a1243"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/neuropathy/extraction_plan.json",
+    "relative_path": "design_assets/pages/neuropathy/extraction_plan.json",
+    "before_sha256": "4befedbcc63cfe07b46d2323492722bd7f69f6ed6bf4c1d30907d429f406019f",
+    "after_sha256": "1dc750741158433e37862e7862b69e80496bc6fdaca082ade6d576effb3f301e"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/neuropathy/NOTES.md",
+    "relative_path": "design_assets/pages/neuropathy/NOTES.md",
+    "before_sha256": "cf1412a7ea9f0aae6d199a80e266b5d066d40ff43288813ef5b5a7d4e9b53f31",
+    "after_sha256": "cfc14f079e7cdaa7cae97470ab427174f90ce9792110f7a3bfb940cffed37fd3"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/services/extraction_plan.json",
+    "relative_path": "design_assets/pages/services/extraction_plan.json",
+    "before_sha256": "466098212561fa612bef0265a4383a3f79bd1bfaa3886cb2b38589164224ae8f",
+    "after_sha256": "4aa2193f9e03e5f1f198ab4c4a876408f2df8fd72c41e590455cb6174eb72404"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_assets/pages/services/NOTES.md",
+    "relative_path": "design_assets/pages/services/NOTES.md",
+    "before_sha256": "fb7a48ab7cba431a7c5a9c2c6bc030a05bae1fe893b6ac7f0bf967f6c81fac66",
+    "after_sha256": "dbc4330f12a846282dcd281c5a2ffc7e11f58e38564e53cb4ee52b184f76a354"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/builder_decisions.json",
+    "relative_path": "site_build/builder_decisions.json",
+    "before_sha256": "561529cb3cd7abe6db8fecafc0efff914b9311d882c9844b372e6bbc0cd2655e",
+    "after_sha256": "f532a580e9f07deee61a53f3b978c6b9dc0548719fbbb090117465fa39c219d6"
+  }
+]

@@ -1,0 +1,1706 @@
+[
+  {
+    "path": "app/(batch-three)/about/about.css",
+    "sha256": "4fcb1045d2c7a37bccde9ccfd76b9cda55e09c4bf5dc21ca9074b0c18bae88fb"
+  },
+  {
+    "path": "app/(batch-three)/about/page.tsx",
+    "sha256": "5ee6d84475af093380ec97eb7cee5ede255af09f288c80a252c70889450c893c"
+  },
+  {
+    "path": "app/(batch-three)/batch-three.css",
+    "sha256": "733af0ce9885e1e2e9e44d81a14d4c45a95864021d48180838e31984ea1d99d7"
+  },
+  {
+    "path": "app/(batch-three)/book/fonts/LICENSE.txt",
+    "sha256": "f9e57d28452ab6162c7fc0d248b5a5e81bf64676a6950d56b2e137c1253f79e8"
+  },
+  {
+    "path": "app/(batch-three)/book/fonts/SourceSans3-700.woff2",
+    "sha256": "f70bb40e5fb4158ee1a6f0eb96d109d515524be3f1ea5e6a104f669756e62fcc"
+  },
+  {
+    "path": "app/(batch-three)/book/fonts/SourceSans3-800.woff2",
+    "sha256": "9ecfbe4a00ffc75bcbe1ee3bb5c8cf2fcfcccf73e55f96ec938545d0d86bbe4b"
+  },
+  {
+    "path": "app/(batch-three)/book/page.tsx",
+    "sha256": "35d15d7ac62081c879f4cb93b4c126273b9d80a22d39f7d69bde8239f3970069"
+  },
+  {
+    "path": "app/(batch-three)/contact/page.tsx",
+    "sha256": "192d14a7c97f0449013e5f7fbde89b4af84938e67a9bfb9f9830e1453c7d71ce"
+  },
+  {
+    "path": "app/(batch-three)/educational-guide/guide.css",
+    "sha256": "4964143781e54653c36265b616c73716b486fb3bcf273c05ab5919360f99757d"
+  },
+  {
+    "path": "app/(batch-three)/educational-guide/page.tsx",
+    "sha256": "4d78c170aa396203e145451cd9214431825bebb98c8262b639929a202591fb4c"
+  },
+  {
+    "path": "app/(utility)/layout.tsx",
+    "sha256": "4c8ea83b3daa3967a22b9dc11f8043baa01d32a319b832165835136b972f9f9a"
+  },
+  {
+    "path": "app/(utility)/utility.css",
+    "sha256": "708c924f62488230948ab3c3f164fdf3a092ff03abf32f8dee79c4236ec7c693"
+  },
+  {
+    "path": "app/services/hormone-optimization/page.css",
+    "sha256": "300af946e5aec0335decd2411ca43cbca23b95e780344a6bd62061d7c722ece6"
+  },
+  {
+    "path": "app/services/neuropathy/neuropathy.css",
+    "sha256": "ec678e77e74baee9bfc5322fff409de893a11c10bb3216e7df2492c1dfb72dff"
+  },
+  {
+    "path": "app/services/neuropathy/page.tsx",
+    "sha256": "3eaedcf815afde6d6f156a1565e17476ea0bcf43c3df2ed2e3125d1d4c0be7c9"
+  },
+  {
+    "path": "app/services/page.tsx",
+    "sha256": "a4939920a67ac5b6b4ee6a3298d066a7c9e8dcdb57b7dd3c1ca25dc290b953e1"
+  },
+  {
+    "path": "app/services/pain-relief/page.tsx",
+    "sha256": "90e1e6ccc720bc8ed7dce3f0bd4020bb8aa00fa45ca37231a3df2cdb7c39dd6f"
+  },
+  {
+    "path": "app/services/pain-relief/pain.css",
+    "sha256": "9c8ff9ba82dcd8dfd463491936dfcadb5e0d148fb1726e3b46c45e38f4d30efd"
+  },
+  {
+    "path": "app/services/pelvic-floor-incontinence/page.css",
+    "sha256": "31a504a8f75e3974aebc3f9d5e1a22b10261ef935aec5894c15656965d3b476b"
+  },
+  {
+    "path": "app/services/pelvic-floor-incontinence/page.tsx",
+    "sha256": "5381b39782d09547b7c83c44d3b2c5a3a604aa9e4c4cc8dc354406977fece3da"
+  },
+  {
+    "path": "app/services/regenerative-medicine/page.css",
+    "sha256": "0cc822151fef2b7670420d55c4c67a15b54d88524714c11bae283ebdc5072f53"
+  },
+  {
+    "path": "app/services/source-truth.css",
+    "sha256": "1d37116a9f4add8b37310502962dd7af81030c408d3614b553302052f8f18367"
+  },
+  {
+    "path": "app/sitemap.ts",
+    "sha256": "eec663e3d65fce8af30d9f90d5114ed4705d280c3d57b35f5619a1f464d4ecee"
+  },
+  {
+    "path": "assets/evidence-archives/builder-judgment-source-r1.tar.gz",
+    "sha256": "56f4892c5da4edb6b4d56aaa235d643a727600853fc334572276e0cf9fc6abbd"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/README.md",
+    "sha256": "3bb0e032adac5d26afa09572d479394c3cbf907c4bf78e4f1b96a602daef97f6"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/about/03-facility-gallery-01-real-reception.png",
+    "sha256": "41c902b385fc772ceab64b4ffb63247c9f1ec69f537fcb085b785d2cf6751346"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/contact/04-booking-cta-01-clinic-reception.png",
+    "sha256": "c584dc0399608f40dad61b0ce83817aa7b7176daaa0d515a88bf9119fe25c3d4"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/01-hero-01-person-walking.png",
+    "sha256": "5863d27e796b5a9992d5cc08e8d8fc63cc952491b45aad84247f779087c74879"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
+    "sha256": "e7573b93a00013a783a74063ae58eea22d1d0323fb1d83d9fc767480bea22555"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
+    "sha256": "82900f47f4ea9d937b61b0a81c6568652881f6e55e2870a696eee692c5c4a597"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/02-pain-concern-navigation-03-neck-clinic.png",
+    "sha256": "4514914205c2a809ad10bee31f109796b66d36ccea4c47db23be89df6d6bfa2a"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/05-neck-concerns-02-clinic-lounge-strip.png",
+    "sha256": "534c733494edba3472320720a9701509591a1638701ad8943a3cbf5ee583283a"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/06-decision-factors-01-clinic-reception.png",
+    "sha256": "92dca5afeeb3c029e23c62b8b74f254d07d3ad9b42d410f1f8e47009cb96d15d"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/07-faq-01-clinic-interior.png",
+    "sha256": "c70ad40c9ed3ba0266d77b32a415019f713d6646fb3025da3807a831ab5b1d8a"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/08-booking-cta-01-clinic-reception.png",
+    "sha256": "dce397ba6796dd133fba019bd016a9205f13f07825253ce13cc934e3f241c18d"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/09-medical-sources-01-clinic-reception.png",
+    "sha256": "5c7d0d74c8e8b5f0e8707bdb6d36ac0c70a5ee59c9c4a234e3bea28a1e084ef9"
+  },
+  {
+    "path": "assets/retired-photo-roles/builder-judgment-source-r1/pain-relief/09-medical-sources-02-clinic-lounge.png",
+    "sha256": "642a9ff2030978dcab2378476e41a124da6828f5df7c88fcaad0081e224e99ff"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/README.md",
+    "sha256": "5db7b09c44854510b0f421abea3a7528438f1a9df2135132d512cf7e5786ac43"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/about/03-facility-gallery-02-client-waiting-room.png",
+    "sha256": "cc8361272c7ba3468fa25bb18ae8d7a9938a25b8f7bffad3f912670e4ad62353"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/about/04-care-principles-01-clinic-signage.png",
+    "sha256": "7f5307021a14fdfb75c2f68d5a166b7f26e207cfddfe0d9ae7db75862902c63b"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/about/04-care-principles-02-clinic-lounge.png",
+    "sha256": "a4c51579fabb35be081fb3b7efde92d10c2b08af4e534de308d3e09311fa10bd"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/about/05-team-publication-gate-01-clinic-reception.png",
+    "sha256": "b7318e7d5a09100d21ec9557d80558d53f16788628544b2c1288b57c687db54b"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/about/06-booking-cta-01-clinic-reception.png",
+    "sha256": "9be1e535d846de0beed1c73e0b793a066e8a66d0909023cfc4668b24b4bebda7"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/book/01-booking-hero-01-clinic-reception.png",
+    "sha256": "7bf2ffebb5bbeb6e2e7388eb62e043abb48aefab8facb5edbefd1095e5fa77fd"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/book/02-gohighlevel-calendar-01-clinic-lounge.png",
+    "sha256": "51b1ddba2d204ac7f6fe8470b19abbadefad5a68c5e922d3b5afacec38fdc533"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/contact/03-facility-image-01-real-waiting-room.png",
+    "sha256": "cc8361272c7ba3468fa25bb18ae8d7a9938a25b8f7bffad3f912670e4ad62353"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/educational-guide/01-resource-hero-01-clinic-interior.png",
+    "sha256": "b1cf7313973aa2b4ba3d2f22227c649f5e8a4cd444aa3e2df41f790c2f17b598"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/educational-guide/02-resource-summary-01-clinic-reception.png",
+    "sha256": "96cf4b75d97e516612af8b8f5470b9b91b61fcaffa4525b957582e41c12f69ad"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/educational-guide/03-lead-form-01-clinic-lounge.png",
+    "sha256": "983c7af0854da218a7356c4dcf444f9a1c15eb5d6bbdde3dc1988c457e740684"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/educational-guide/04-privacy-note-01-clinic-reception.png",
+    "sha256": "7549fe24a7bccba9a2bc364e12c4a9a3313137f6335e0d7afcd79ab572bee2b1"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/02-visitor-orientation-01-clinic-reception.png",
+    "sha256": "2882357f7080f3c6214a3c2e8e5af24ffeb73529f46a2c9114cbb224c4ab650f"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/03-goals-and-decision-factors-01-clinic-interior-strip.png",
+    "sha256": "031747c2f0cee0a612da4085f1b15b509ac69a6983119db1054d68f038be0e92"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/04-responsible-next-step-01-visitor-in-clinic.png",
+    "sha256": "0e571038954ed14074ec42224b0be0e96eb57750c7752f8eb8be6074d6e02205"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/05-faq-01-clinic-lounge.png",
+    "sha256": "bdd48d472d45804a0c92a2ae837313d8f8fae5c2ffee8652d681c1e028e093fc"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/06-booking-cta-01-clinic-reception.png",
+    "sha256": "6ddfa7b23b1a613591b32b44d0e550a1a1a6528f7a9337b55c8da04922903949"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/hormone-optimization/07-medical-sources-01-clinic-reception.png",
+    "sha256": "35fd5fa8e3a0affc3a844be8cc643473fff034ebaaaf6131cdb7dfa9be1956a3"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/02-visitor-orientation-01-clinic-interior.png",
+    "sha256": "b2a09cadc8ab7e896e29be82981d1c4ba0c7dfd13428f157e1ec0a8db8838bd2"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/03-goals-and-decision-factors-01-clinic-reception.png",
+    "sha256": "654343d6e054b2bff7abd38c819e3c73a3a15c21a1b7500fe4f5d5d69231088f"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/03-goals-and-decision-factors-02-visitor-in-lounge.png",
+    "sha256": "bd624882a2b7908f630d6ad22940051fc143bc8177a23f03842e3380058867f6"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/05-faq-01-clinic-lounge.png",
+    "sha256": "3264c18e442ba183f0098748554ffd7282f1b05521ac42f01214e8468dadc324"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/06-booking-cta-01-visitor-in-clinic.png",
+    "sha256": "60852876568d9bf40a6533c3d9f3b4f82685f16263acef78d589dfa571d81f91"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/neuropathy/07-medical-sources-01-clinic-lounge.png",
+    "sha256": "6d910cc8e7e700b192fd23e6406b2b78fa6ad42ba2845e36b368a6aacff33ec8"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/02-private-orientation-01-clinic-lounge.png",
+    "sha256": "1c294472b3081ecb6c9554cbcc80bd10c3951e25d85ecd29066f25d5d0022e1d"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/03-concerns-and-goals-01-clinic-reception.png",
+    "sha256": "483dc695fb9f04332e0dede63b895e2d349a524a19bb76939c9bacf9d1c177b1"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/05-faq-01-clinic-lounge.png",
+    "sha256": "daa0d4a32e3c8c68bb01761ca34b7b55412fcd1d2185b19f970c026aa78a4336"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/06-booking-cta-01-clinic-reception.png",
+    "sha256": "e38ba3de785ac327f8b1ede8e3a832f5959acb91f20956e654db94fa58b5132a"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/06-booking-cta-02-clinic-lounge.png",
+    "sha256": "1ed15524531d727a1dc97ce716201f9272ed93e1b2bfd3e2af15fe6ee9b95e40"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/pelvic-floor-incontinence/07-medical-sources-01-clinic-lounge.png",
+    "sha256": "66898a3e06e08b7322478c0953e7bee42890ddf91b46bdedfc66d465d168b01a"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/01-hero-01-clinic-reception.png",
+    "sha256": "921f8dba482de21ae74cc4b68ed2c894672e4fb114594cb82644b3acf66205a9"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/03-questions-for-a-consultation-01-clinic-interior-strip.png",
+    "sha256": "33c6e76d48e5b5093ac0529df2b00c848db11e49871f7db61c13e59293ba0235"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/04-decision-factors-01-clinic-left.png",
+    "sha256": "594334e2ae3e79296cd80f4a131b6ff03b2782ba8c46c3254d66f61d186de3c0"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/04-decision-factors-02-clinic-right.png",
+    "sha256": "08958944e8d2edcb11c21e39c29e0ba81e4b459d82d79210a404990e7ffb6eb6"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/05-faq-01-clinic-reception.png",
+    "sha256": "f1e0d70108be79afd321b9667dc5b5f338e60f111b17d5191162661183cf9a9b"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/06-booking-cta-01-clinic-reception.png",
+    "sha256": "d14077736f2582aa8ecf81c25e14f741fec1494605bef99ee0912e9c80936c5d"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/regenerative-medicine/07-medical-sources-01-clinic-lounge.png",
+    "sha256": "7b0f940c4b8fd111e8dcca63cbec1c841dca4dda8e7b571f84ae6c16db8f777f"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/services/01-hero-01-reception.png",
+    "sha256": "0763d56641a7e7592e7e2fb0d4e8ef2bb352ffb29fc876c0153e4e55dce36cce"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/services/02-neuropathy-feature-02-clinic-reception.png",
+    "sha256": "c4a2c732698d72423624f5d67689fd8ea0654c587ff13a0f882c3420d8c18a0d"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/services/03-service-navigation-02-clinic-reception.png",
+    "sha256": "4ec0c4a2148dc96b4085ba56911c776eb6fbe4ffeecdcdbf4bed52334c865fe3"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/services/04-how-to-choose-next-step-01-clinic-reception.png",
+    "sha256": "187221ed3c3be33300521b92158bab1a36ad214a6ae2863df8a5953d33205e33"
+  },
+  {
+    "path": "assets/retired-photo-roles/pr40-successor/services/05-booking-cta-01-clinic-reception.png",
+    "sha256": "43231cdf32147636dad538e54f1fab0e7e649cc2c5f43935356f4fe680ce7c0b"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-context.png",
+    "sha256": "0cfac3125660c79baa1a733cd51b3af1fc0d439a432979750c37bda8d3ff9a78"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r0-ref.png",
+    "sha256": "7a2c3a5a449892769a2ea87e0a4c0789ff199b2f63a5abd4aa3effc4b7a6528b"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r1-ref.png",
+    "sha256": "108a83426cc06bc4fd109b2f6b584460c66cc05bf401f2c3c162bf932fb4e7b2"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r10-ref.png",
+    "sha256": "4df51349cd52fb30e4dd963fcc841c4cc7325b6ab3d984d3255217395bbe90ce"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r11-ref.png",
+    "sha256": "6f8fcbbbb25f16b232ea8c453258cb82f36930b1432547be16ec59aa3f525849"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r2-ref.png",
+    "sha256": "fe15cf143fa5df5d84caf639f0e5ce9d56f2f0597bb221a563ebe1e77545ae41"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r3-ref.png",
+    "sha256": "5f1f5dfbcf2a772be46f18c953b2d79126f1c9b0c99d156922794f194750a8b4"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r4-ref.png",
+    "sha256": "c0b8b71ac57ab778a48960b63c6e2a040a97c36c7b166c33436c6404dd40d5f9"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r5-ref.png",
+    "sha256": "2038a9cbb518927fa88d64f24f1d0d277b9bbe60aac54cb733dd9ab21adb4f23"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r6-ref.png",
+    "sha256": "380d389db0ff58ba3f167bf3d1f37ed511ddaf1597a62117d2f2f403887f77c3"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r7-ref.png",
+    "sha256": "e663491189d6f33f80fee148e26121e9fcc31eb7281929ec4c654423acdefccd"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r8-ref.png",
+    "sha256": "c846e65ce918197a33d371f245eff68e2400f162e75eb9463d60bbaa75d151df"
+  },
+  {
+    "path": "public/design-review/about/crops/01-hero-r9-ref.png",
+    "sha256": "771aea9b501965000e3496925b5ce20aa4b74ce52151ccd2df561ae361cee95b"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-context.png",
+    "sha256": "0976b20abff68cda7dc1f31b2d905bb9a2551615f73de0ef396a794038c4ef91"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r0-ref.png",
+    "sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r1-ref.png",
+    "sha256": "de6d9fb0d2532fbe6265bfabffc9ada787f9d06d3a9a61128a701a4fa37a5a7d"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r2-ref.png",
+    "sha256": "5217fe89d6ffa6f95731d931d0d827e72814ca0c0f3992d5b5e0a7660a9dbec4"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r3-ref.png",
+    "sha256": "a3c1d3352b1a4e31ad0f6f8dec74f80c9f427d1c4d42a8d931babfd4afce8c65"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r4-ref.png",
+    "sha256": "00cfa8d891b86f4ddad22c9dbb151eff1b2cf0618214997574ade1692fba9663"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r5-ref.png",
+    "sha256": "445ab84ac703d5392719e64d2e4ad8c4897d224a0c67f6fe2ca8948ce7db4d6f"
+  },
+  {
+    "path": "public/design-review/about/crops/02-clinic-purpose-r6-ref.png",
+    "sha256": "381e5d2a5cb7fb85f801e7ca4a294e9ad5ec63b6227cfe14ac1128753e889913"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-context.png",
+    "sha256": "79b39cdb90cc0e27a46ee4f44fb73e4430f2b0487a4e564499bd78654e7531dc"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-r0-ref.png",
+    "sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-r1-ref.png",
+    "sha256": "2ec6fa179fc1761fdbe571bc14d575b668f2b607ceb32f9cb84710bfb10206af"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-r2-ref.png",
+    "sha256": "6cb9b56b0c5b90fa2d0e07dbd670afe1cc4b15f08879c1fab37f540821c80a46"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-r3-ref.png",
+    "sha256": "358998e609bc43ae3652fe2b302653734e5af99ed7495459f9ec23a05e85df09"
+  },
+  {
+    "path": "public/design-review/about/crops/03-facility-gallery-r4-ref.png",
+    "sha256": "552c8b80f8e80ded94ad70d35a155c63211fa9640f841ad95dc3117f030ab1c2"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-context.png",
+    "sha256": "5c5d8de3ae2dccf520b236892c7fc9dece54c60741c8fd4c3b6b27184cccb962"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r0-ref.png",
+    "sha256": "12cac11f69a0372d66b27ab02a8087ac2b10d7f3660a5e918b2b4d72b70d3d66"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r1-ref.png",
+    "sha256": "0d83e69970b020509aa4012288475054c2fb7369d15d7101d7cb628570da1784"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r2-ref.png",
+    "sha256": "2d9fdb0a97b1a0b10c4daaef62809c69aaf364c9cd2808f334d3444714a83f90"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r3-ref.png",
+    "sha256": "eac4714f97b80d00b8ca3ea615766516a6dc8b1dc5aab49c5c2011ca41ff6fe6"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r4-ref.png",
+    "sha256": "2ce75bd41d61958741b766be036c88fac51e8a921088fd7384d5158671392dc3"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r5-ref.png",
+    "sha256": "f0cfd20474843c8a31195f748097eb32098e6e6a527083b9b00fc04283d1b727"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r6-ref.png",
+    "sha256": "3d56bec0554bb9933105fa2fe4b0fb8005ca443fa15f17a9604f929f9a4ed4d6"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r7-ref.png",
+    "sha256": "390478503e07cd66d704c974c750d4fc405d6c9a1bbc8ccf8179f57333281d9d"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r8-ref.png",
+    "sha256": "4216dc3156bbdc4c4c39c8af4b03d45bc112f7bae08fc76e77b4863c95ddd8ba"
+  },
+  {
+    "path": "public/design-review/about/crops/04-care-principles-r9-ref.png",
+    "sha256": "308dfb8677686845591854cc2fb0d1b118d33f7ab5ae2c87e3aa098cd929b1ca"
+  },
+  {
+    "path": "public/design-review/about/crops/05-team-publication-gate-context.png",
+    "sha256": "dcacb04dc8df005ee52bd9095e3b8120e734fb3143f1dd967071ed2a45a8485a"
+  },
+  {
+    "path": "public/design-review/about/crops/05-team-publication-gate-r0-ref.png",
+    "sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06"
+  },
+  {
+    "path": "public/design-review/about/crops/05-team-publication-gate-r1-ref.png",
+    "sha256": "9e42697edd670c4deb73c78fbb72f052f17bfaaf016674566e1b1b2d631a6bae"
+  },
+  {
+    "path": "public/design-review/about/crops/05-team-publication-gate-r2-ref.png",
+    "sha256": "417b94ec69d4fef705a4e45ff9ac24433c43a8a2f6b4eb644dea4708f59611e7"
+  },
+  {
+    "path": "public/design-review/about/crops/05-team-publication-gate-r3-ref.png",
+    "sha256": "c934672f133566c208049ecac18666045945af508e00b5db7429c6ce8d9152ee"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-context.png",
+    "sha256": "94fec817990d7ae6422bc00a436626bab5eefe2aba88d93ceb9fade93c308de3"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r0-ref.png",
+    "sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r1-ref.png",
+    "sha256": "af46f1fb8e7e17a70e5051123976ebfbe68878ab54e8880996d7221c4766e218"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r2-ref.png",
+    "sha256": "ceeccbd976e676989b0305b25f8f48cadd4b5fa9c589e5ec80051796ca0f8005"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r3-ref.png",
+    "sha256": "48c93fc1713a4e58c431fbb4462df9168d26404685028f0c6e9108659935fea8"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r4-ref.png",
+    "sha256": "424bb5f3aff5344a776059b1828722440e978d5accb70364abf612c728c16875"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r5-ref.png",
+    "sha256": "be65566a8a3cfd0f66a8639d633df72669f8c4409fadafe69f7ecc9cfac66796"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r6-ref.png",
+    "sha256": "30d61b4af8292b7bd46c9facad8de051e53fe5a61c52a04c2fd9b010811cec2b"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r7-ref.png",
+    "sha256": "d2414be290a5449d42e9e9314ccf8894447baebc5a8b5dfc26df157c56ea7ecf"
+  },
+  {
+    "path": "public/design-review/about/crops/06-booking-cta-r8-ref.png",
+    "sha256": "f56884d671bae87a4108b6d529609c54ded0d64f7b2261c38015de27d7a2e685"
+  },
+  {
+    "path": "public/design-review/about/index.html",
+    "sha256": "db5b08a429032fd91ea9f7bc8a365be2658bd4c20b5b34f66f3276c50b69f8ab"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-context.png",
+    "sha256": "524c6d870c991779cd53c0a8252f2a5d79b65697e082592f4f6e60cce7465b5e"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r0-ref.png",
+    "sha256": "488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r1-ref.png",
+    "sha256": "e8a019093a40fd0213f02060811e9dae57b6c36437640f46e27812e816bff81a"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r2-ref.png",
+    "sha256": "92ebfaed327289d7cadd2d91af2fb89df963668d3ad05d9660bb97fb0115b696"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r3-ref.png",
+    "sha256": "fcb015256af1764fd4153d104275194f85d35f2506ed63042263347885a3ca47"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r4-ref.png",
+    "sha256": "32900bdbbecd5a4259fbc9e3f8f9a40ac14195ae044237e3131cb01a5f16ce26"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r5-ref.png",
+    "sha256": "7c3bc15cc0507bc5ccf5342d4c8c624f2704ea3c55b6d657fad565ca36be0a7e"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r6-ref.png",
+    "sha256": "6ba5789fa453112ff046eb0853a5b68fbf7b3766c806e5ab8c232de21800125f"
+  },
+  {
+    "path": "public/design-review/book/crops/01-booking-hero-r7-ref.png",
+    "sha256": "1ae7abcf09370bf95fccd8e46f361e550b0da5dcf527faeaa2e4c5a593bda28e"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-context.png",
+    "sha256": "a7ee688778c5cb15e3ecf3166d14b7a21f7a6d40c4706ca9d190b74e7ab0dc1b"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r0-ref.png",
+    "sha256": "ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r1-ref.png",
+    "sha256": "6677eb5cd1c9d0dcf5df208e864fe895cf45f6e567edf4d9e96a86444363ea19"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r2-ref.png",
+    "sha256": "3370caad73e18d64d1a54d5a8ae31e35b4ec8e93f9dfd8ad862a0e5b4cf02ef7"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r3-ref.png",
+    "sha256": "f837efedfe30fce589da1b34edb89384fa848c77d656bbb932619b950d4d9098"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r4-ref.png",
+    "sha256": "09fa8046ff898898a46255635b6598f81c123524ec1209af0f79c2058f6dae9e"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r5-ref.png",
+    "sha256": "8ac541678bed20109d5df4d92e4f7798036e98ea0398cf903486fbbd0a3c55e7"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r6-ref.png",
+    "sha256": "80744e7ac1c94ae0dbea7adbf6c5aa3d9758675fff2273c4a29f846b154abbc1"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r7-ref.png",
+    "sha256": "74e2742abfc7240bbd767da9830fb08785d500b39d4c60f2aea8e6a9a9de154e"
+  },
+  {
+    "path": "public/design-review/book/crops/02-gohighlevel-calendar-r8-ref.png",
+    "sha256": "cd03a20c72e373f8c5c195a4c0165b7ad1ea8b8a92be4c2d236d6a3c0fdc74e2"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-context.png",
+    "sha256": "fedac0cb9b0486e019dde8a20b52b4d7b926d47021e5ad01d08068028b174088"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-r0-ref.png",
+    "sha256": "36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-r1-ref.png",
+    "sha256": "3d0590d19088708ea9ad5696718af0c952c70edbdc72b75dbeb4a703a4e4c394"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-r2-ref.png",
+    "sha256": "736baf44f7e39447cd920dd6d4099ffee59e6f4a92e1d5d83081d60444d6a144"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-r3-ref.png",
+    "sha256": "668e7206216f090ade8a331e21460210f53f9c3434f17aeaa97041a1f8f7f34c"
+  },
+  {
+    "path": "public/design-review/book/crops/03-privacy-note-r4-ref.png",
+    "sha256": "ed2dd717a99d71b8df97b05260cadae0bc5a414098244d7cf7a8fb5c3e08058a"
+  },
+  {
+    "path": "public/design-review/book/index.html",
+    "sha256": "aa647698267646dba2761a53ab9f5022a26791947cd680634f1414c24f053020"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-context.png",
+    "sha256": "4c079c53acf26f2fe9863297dd1c3e5013c082939ecea990593e6e3af77bd8a3"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-r1-ref.png",
+    "sha256": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-r2-ref.png",
+    "sha256": "b2d3a535542e0282e36d0319012d83c83f6849f5a2b0502e19065a62d6d6df84"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-r3-ref.png",
+    "sha256": "d6df74a5809392161d397ab8fa5ee968640c5ee9196365d2191e3238d336f051"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-r4-ref.png",
+    "sha256": "260f46ec1c2996a8f92826265dc57fd72f5fb6465b4170c58df40a1de4724959"
+  },
+  {
+    "path": "public/design-review/contact/crops/01-contact-hero-r5-ref.png",
+    "sha256": "e14ae401a573599eddfb5d446b1ca0fb094dca5cd289282e87bc830c023ac547"
+  },
+  {
+    "path": "public/design-review/contact/crops/02-verified-location-details-context.png",
+    "sha256": "5aec49643976254f9b90e800b0d392c88aedab578ecde7d76693754da0d56f15"
+  },
+  {
+    "path": "public/design-review/contact/crops/02-verified-location-details-r1-ref.png",
+    "sha256": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a"
+  },
+  {
+    "path": "public/design-review/contact/crops/02-verified-location-details-r2-ref.png",
+    "sha256": "d98552595fac5977f44b6767886b8ce0996f01e98256e7409001ee828265bd2b"
+  },
+  {
+    "path": "public/design-review/contact/crops/02-verified-location-details-r3-ref.png",
+    "sha256": "048f71af5cefe6dea4505e56e502667c52df16c75bf73a279809e87348ea3504"
+  },
+  {
+    "path": "public/design-review/contact/crops/02-verified-location-details-r4-ref.png",
+    "sha256": "6eef57826e4d98e30a38ed6dfa64cde7e544b528db7715a0fa11b1a34faee3a9"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-context.png",
+    "sha256": "86de186ffee36889462eac4e2c19e021bc758cf18831ba4fccc42cff00408cd5"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r1-ref.png",
+    "sha256": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r2-ref.png",
+    "sha256": "30aaf2fc253524eaf302154272a91e0b97d6540f6b26e23ae4818a3d4371db3c"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r3-ref.png",
+    "sha256": "bfd2c9b41d0f74ba8f6af10c8c04bf5e310fd67562f343f616a344de1d503b36"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r4-ref.png",
+    "sha256": "94c8b03b10126a54d9513579bb4ec90a9ebf7836d46d2ecf7769b7c78f12bb62"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r5-ref.png",
+    "sha256": "88d838750df00b1459b609efb4fa0d3dbc6d0a1defc40662ff37a9125bead930"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r6-ref.png",
+    "sha256": "4700431a9df803682df85b95cc49330979cedd4dca18cb9e3c36b088b400c93e"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r7-ref.png",
+    "sha256": "280330af48d87fd6442a3936373c31eb4503bc92831cdda07a4ddf2db96daaa9"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r8-ref.png",
+    "sha256": "cd97aacaabcda2c7e4cdc314e5c6ee311836fd5f0c60ba92f71ebcea2a9edac4"
+  },
+  {
+    "path": "public/design-review/contact/crops/03-facility-image-r9-ref.png",
+    "sha256": "bd42c190c5f1c658721a10265f4be3807994dc3adddfa43ac11d8fb9c57109a7"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-context.png",
+    "sha256": "378737b3be15f427b082bf1717542ac8b4aae43c27027f92f691da71400c494d"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r1-ref.png",
+    "sha256": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r2-ref.png",
+    "sha256": "d055422da2384c99be86fcd2c73898ba99a2a600d0a5b1762384243dfed38508"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r3-ref.png",
+    "sha256": "10fa7aa0e6d304d1b43439d2e868ccb731842aaa3ec1a02ef7568d9d89d9cf75"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r4-ref.png",
+    "sha256": "bdd05615dcac09f328e111f9d9906985ebd18c66bc537449cb38b2647a7c4ed0"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r5-ref.png",
+    "sha256": "58d3c9c78089d54c0166c4bd8cb92ebcfe6d5e5414ca6eb964fa0c399d062585"
+  },
+  {
+    "path": "public/design-review/contact/crops/04-booking-cta-r6-ref.png",
+    "sha256": "ac35f5d8992ea4095c53c82f8b1370e497797dde4bbe52481bdc4f963f82ef3e"
+  },
+  {
+    "path": "public/design-review/contact/index.html",
+    "sha256": "5c28738e2130f6fa6f68747322573a0cec58b75dc1ab82fb3d3bc82e47e8073d"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-context.png",
+    "sha256": "384312fe704106576d6b8946b18e983416195e22c10d06eed124739da267edf9"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r1-ref.png",
+    "sha256": "a9c4e3ef5830954d19fe4e0eb3308b6ba0769a3a5ac0088ad64a9beb186aef32"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r2-ref.png",
+    "sha256": "a892bc02838c244e7d71adc0a169c1f3803a204cd2d067b7b1e811483c1689a4"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r3-ref.png",
+    "sha256": "1c4403982f1e9e102fb8fee500f3fe51aecfb66a96a95e5b95761aef8997b97d"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r4-ref.png",
+    "sha256": "7af75d8d6e05ec5101b49c0a76dd8656b6f9f5154c5d99c5bf0eaec5db729be1"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r5-ref.png",
+    "sha256": "c91f5073962a6a28c04b49a0738c1cef5e95d0e6e1cde9eeee6f56a90c000711"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r6-ref.png",
+    "sha256": "addeed18202759bbe0906c0f0032c6ef3f5d0b36f4de4b6f5f765b95398e0638"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/01-resource-hero-r7-ref.png",
+    "sha256": "25a827edc388ab93703e6a1c0bfc5562c5af1d0f20157dbea152d1d8d090b12a"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-context.png",
+    "sha256": "a8c00c7fe47b96a6558be7946be54ba15d61fcd2f044deafb2a3dcb93f8e9c49"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-r1-ref.png",
+    "sha256": "c6ecf3c509994b8fce49ac762386adc0f3b4145ad09f71856940a1f477b95569"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-r2-ref.png",
+    "sha256": "43fb717f5eec352f025e4dfff88148bfe4b82348e26d73ec567fa45720775fcf"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-r3-ref.png",
+    "sha256": "3cb5d74aed87f76b9e456b62ec45d8980c8b03d0ce577dfdac05b2c90d2d5c8f"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-r4-ref.png",
+    "sha256": "b1203b30f2b94919e84c542dff63876460c780952c35f14075f9902c84976bdb"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/02-resource-summary-r5-ref.png",
+    "sha256": "1774072ec14dc7ba2e257b89b888529543bc04cfe90a123b4ce47d843feee683"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-context.png",
+    "sha256": "88098e59d3701f912b7d7b1735a3771425d7cb448af663fbeffcf47e6d9330ba"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-r1-ref.png",
+    "sha256": "7435a17281a7e714bee1100718d2fbc39061e4846dd19ccd1d363044d536d29a"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-r2-ref.png",
+    "sha256": "f0a67ae4d4466377b2aa197ff985de979e789b2d54f9546b1a2c78981471d901"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-r3-ref.png",
+    "sha256": "123bea417add31fb6f0a8af57430d8adcd6382796792f358010dbdd6073245d7"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-r4-ref.png",
+    "sha256": "eadbe3ac597a55944951a00ff1b95aa07225f4400102286b6a3f98e9da9ebb8e"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/03-lead-form-r5-ref.png",
+    "sha256": "7b2892fc7fad4cb3687c71b9884f94cc9f67fc2aa20f03557f770a258f1c8905"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/04-privacy-note-context.png",
+    "sha256": "9fc0e609d756e4d5910d3bb30f084688245475229533950710838b1db1b80d27"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/04-privacy-note-r1-ref.png",
+    "sha256": "0510c2394bd7d2be938e3e84c40da268b497fb19702a70eb7cc336a61a6309ef"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/04-privacy-note-r2-ref.png",
+    "sha256": "5a4e4c5dd1e29f9f19963c9ec1113a8d34607825add685a43bdc7377d8b77dc4"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/04-privacy-note-r3-ref.png",
+    "sha256": "4be8807c7f5d1e95d599d970e3dfc97d6184ad71f3ce5cae479b858199a59e1a"
+  },
+  {
+    "path": "public/design-review/educational-guide/crops/04-privacy-note-r4-ref.png",
+    "sha256": "4d8a86ed0e8e471c529a7e92bd42ef0845d16242193d2f6f8adfb0f05ed7e496"
+  },
+  {
+    "path": "public/design-review/educational-guide/index.html",
+    "sha256": "4ef6fdeb31f1587a750f02e97b13ab6185a549dd6f8fb5cd1e09152ebbaada3d"
+  },
+  {
+    "path": "public/design-review/hormone-optimization/index.html",
+    "sha256": "e64b41d6a1e2f4edd15bb2e744c63880739f9068c9eaa16973068b4b6ec75d6f"
+  },
+  {
+    "path": "public/design-review/neuropathy/index.html",
+    "sha256": "d0695d179cabda22108baacb110ee418f5dfdacd5f1d4834b6ca4212950dd7cc"
+  },
+  {
+    "path": "public/design-review/pain-relief/index.html",
+    "sha256": "c6bc87d90d884b68cfdaf86b84eb740d6dc5f25a4e88ca2472db00a211f530d5"
+  },
+  {
+    "path": "public/design-review/pelvic-floor-incontinence/index.html",
+    "sha256": "c899f1dfbfa944d780c8ad481c5d987c250fbb9112aeb1558cbf1cba90bfba8b"
+  },
+  {
+    "path": "public/design-review/regenerative-medicine/index.html",
+    "sha256": "fcdfbd46909a2f14365881cf2039fd7be5053942ff2c640cc5279acb84e3d234"
+  },
+  {
+    "path": "public/design-review/services/index.html",
+    "sha256": "bfffa44b6dba2b424d0a3b5c4253b362d0df4b68fbb57e4e8c514b5c2c7886be"
+  },
+  {
+    "path": "public/design/pages/about/NOTES.md",
+    "sha256": "8877b1427d152892dab92f648804890f5b841e4cc68665419655ecad8b06fdcb"
+  },
+  {
+    "path": "public/design/pages/about/composition_map.json",
+    "sha256": "9738e28d7966657523aabd1c5646433a432dd954e65c03fbd2f72f5839bfc0c6"
+  },
+  {
+    "path": "public/design/pages/about/extraction_plan.json",
+    "sha256": "6fc853bec63a42a345e9c8eef7b672d85adef35675466eebe6caf5a2a717e8bf"
+  },
+  {
+    "path": "public/design/pages/about/page.png",
+    "sha256": "8731c2c3a2b0097e27d197e1822ea7fde3281eda442df08094c2d0f64d139faa"
+  },
+  {
+    "path": "public/design/pages/about/refs/01-hero.png",
+    "sha256": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d"
+  },
+  {
+    "path": "public/design/pages/about/refs/02-clinic-purpose.png",
+    "sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9"
+  },
+  {
+    "path": "public/design/pages/about/refs/03-facility-gallery.png",
+    "sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206"
+  },
+  {
+    "path": "public/design/pages/about/refs/04-care-principles.png",
+    "sha256": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc"
+  },
+  {
+    "path": "public/design/pages/about/refs/05-team-publication-gate.png",
+    "sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06"
+  },
+  {
+    "path": "public/design/pages/about/refs/06-booking-cta.png",
+    "sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11"
+  },
+  {
+    "path": "public/design/pages/about/section_implementation.json",
+    "sha256": "f8d5f29f0134308c20797177155c7d66849621c06b4e4af7da6bc9c2a2140f8b"
+  },
+  {
+    "path": "public/design/pages/about/section_manifest.json",
+    "sha256": "8deb3ffccd918a02856bb6e2bc0777ba5f6cde5bf375a265b9b4b9a78e576903"
+  },
+  {
+    "path": "public/design/pages/book/NOTES.md",
+    "sha256": "fa498ce1fb0275a8548b3bded7c40d113ee9146295fe25d4524f65a68ced52f6"
+  },
+  {
+    "path": "public/design/pages/book/composition_map.json",
+    "sha256": "65bc1b8f899f1dcc47fbf5a80246bd23e88a920b7183d32c910ce54310267a1d"
+  },
+  {
+    "path": "public/design/pages/book/extraction_plan.json",
+    "sha256": "2355eea3446a7a0c350e350d79aacf2456d9d095776c19b725a24b3cdaf7f126"
+  },
+  {
+    "path": "public/design/pages/book/page.png",
+    "sha256": "3b2bb006fa77325c19004353cf49418479d96520f8ec92ebb0c3f1129abbab79"
+  },
+  {
+    "path": "public/design/pages/book/refs/01-booking-hero.png",
+    "sha256": "488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30"
+  },
+  {
+    "path": "public/design/pages/book/refs/02-gohighlevel-calendar.png",
+    "sha256": "ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e"
+  },
+  {
+    "path": "public/design/pages/book/refs/03-privacy-note.png",
+    "sha256": "36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236"
+  },
+  {
+    "path": "public/design/pages/book/section_implementation.json",
+    "sha256": "b0266b0266ca713efca8af7f7c43c9cedbcd937be612c7ca714f5986262463af"
+  },
+  {
+    "path": "public/design/pages/book/section_manifest.json",
+    "sha256": "d96fddd56c536e1bca8def59fe2baaaf410ba27a4bc27ee161e68ae96a8436c7"
+  },
+  {
+    "path": "public/design/pages/contact/NOTES.md",
+    "sha256": "82462cf61d06b48981877187093645d9eab77e30cc26f00aa779a40ca697014c"
+  },
+  {
+    "path": "public/design/pages/contact/composition_map.json",
+    "sha256": "0bb25837f1d360ceff5401d0d8b62c988fa351f31fc7535315b9a6b9e1582668"
+  },
+  {
+    "path": "public/design/pages/contact/extraction_plan.json",
+    "sha256": "081bf9444bbeda377ba788228de546dc8b415f38069b45a070bc7ad3b24d24a1"
+  },
+  {
+    "path": "public/design/pages/contact/page.png",
+    "sha256": "b5faf5cf49c7c8d919ec1776cdbbd0878379c70bea0a653c3e5a932d7d2ed90b"
+  },
+  {
+    "path": "public/design/pages/contact/refs/01-contact-hero.png",
+    "sha256": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1"
+  },
+  {
+    "path": "public/design/pages/contact/refs/02-verified-location-details.png",
+    "sha256": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a"
+  },
+  {
+    "path": "public/design/pages/contact/refs/03-facility-image.png",
+    "sha256": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146"
+  },
+  {
+    "path": "public/design/pages/contact/refs/04-booking-cta.png",
+    "sha256": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773"
+  },
+  {
+    "path": "public/design/pages/contact/section_implementation.json",
+    "sha256": "69de9178e292a5a37ddbed2a1b758b97b6395e993f6c1b4ce8634cba49ccdc58"
+  },
+  {
+    "path": "public/design/pages/contact/section_manifest.json",
+    "sha256": "2a98e48ba7f84c7c3f7c10080f31a9d4a3a51f4769251ddd67cab9ba896aeba1"
+  },
+  {
+    "path": "public/design/pages/educational-guide/NOTES.md",
+    "sha256": "89f3647404193299dfc1ce024e9f7f4099dc3126272f549748c17f96b1a31710"
+  },
+  {
+    "path": "public/design/pages/educational-guide/composition_map.json",
+    "sha256": "86dcc69cd9cfc50ffc1fdfd3a1bfd16964a2b3483d13da4711bd6be7ec2b6381"
+  },
+  {
+    "path": "public/design/pages/educational-guide/extraction_plan.json",
+    "sha256": "57020468e77e57e893ed01e112583ea54684323e4da5a7f9af45218e8fbdf25d"
+  },
+  {
+    "path": "public/design/pages/educational-guide/page.png",
+    "sha256": "204e1d45adcbf936b0ca5070c9110b966298788241ad92dd8022c23b225f92a1"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/01-resource-hero.png",
+    "sha256": "3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/02-resource-summary.png",
+    "sha256": "28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/03-lead-form.png",
+    "sha256": "eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/04-privacy-note.png",
+    "sha256": "c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127"
+  },
+  {
+    "path": "public/design/pages/educational-guide/section_implementation.json",
+    "sha256": "cc93528758ddffe4a75ab2c2067e88113dc1f4b8ddcdba1dfdc36128f8273437"
+  },
+  {
+    "path": "public/design/pages/educational-guide/section_manifest.json",
+    "sha256": "0c751ec92c0f04609a16a08ae10437f765531b25edb9681a3626f688349d787d"
+  },
+  {
+    "path": "public/design/pages/hormone-optimization/NOTES.md",
+    "sha256": "808eb028e1417e478aa02151e082c6c1c01eb3d96a108a6218f73e4c3307bb27"
+  },
+  {
+    "path": "public/design/pages/hormone-optimization/composition_map.json",
+    "sha256": "fbc2a16e924c91cb1c3de38def80c89d802b9c6052c7ec891ddae972600ef041"
+  },
+  {
+    "path": "public/design/pages/hormone-optimization/extraction_plan.json",
+    "sha256": "23ea364b7b7a882c9af91d50239f96d5552cfa021babef5e3dad3d9a866208d9"
+  },
+  {
+    "path": "public/design/pages/hormone-optimization/section_implementation.json",
+    "sha256": "d89a65b2c44fa89059b039987dcfc65ddc29452b9c9454f6fbef53a297b8c0dd"
+  },
+  {
+    "path": "public/design/pages/hormone-optimization/section_manifest.json",
+    "sha256": "307b9ccdc354df4d473d7d5d2779cdb63d079c77773004f5f4b8a1997c557529"
+  },
+  {
+    "path": "public/design/pages/neuropathy/NOTES.md",
+    "sha256": "78f9874326367a13802d479a67532e53bbc01a7d97e55696b3007416b3e864fc"
+  },
+  {
+    "path": "public/design/pages/neuropathy/composition_map.json",
+    "sha256": "de0e52496d8359e2806fa828f266f33aa1242680716c44791c4d907aa9d0ed7b"
+  },
+  {
+    "path": "public/design/pages/neuropathy/extraction_plan.json",
+    "sha256": "038ae0a34db6ba20f04285d3b7d7a468380c5574b81803d9b58e28290537d331"
+  },
+  {
+    "path": "public/design/pages/neuropathy/section_implementation.json",
+    "sha256": "479e24cd8300b7b1da1c55a1842a61c82d1c04d211aaba45a3926416878533f0"
+  },
+  {
+    "path": "public/design/pages/neuropathy/section_manifest.json",
+    "sha256": "142b60609479e542d32e07d4575e422bfc3b9cdcb5f98f7065626e220e4690d0"
+  },
+  {
+    "path": "public/design/pages/pain-relief/NOTES.md",
+    "sha256": "bbdf87800295ed19c78140cffb2d9ca7901b6864764a89c556546bff14e8e9f4"
+  },
+  {
+    "path": "public/design/pages/pain-relief/composition_map.json",
+    "sha256": "df296605a5917f12a3f809ebe7a58e357b4166a44bd6ea483cfd7b80122110cb"
+  },
+  {
+    "path": "public/design/pages/pain-relief/extraction_plan.json",
+    "sha256": "47eb8806ec17d32edfe0524fd42b5db03243d985cee1e2142b610e0c129ae46c"
+  },
+  {
+    "path": "public/design/pages/pain-relief/section_implementation.json",
+    "sha256": "d1e7a138e6512d8fbe54eae046e122a9711be5234a67de6328cf3839070003cf"
+  },
+  {
+    "path": "public/design/pages/pain-relief/section_manifest.json",
+    "sha256": "f379efefc58c06462bbb102665fa0384f62ddd24f8cdced0744e9dfce4c335c1"
+  },
+  {
+    "path": "public/design/pages/pelvic-floor-incontinence/NOTES.md",
+    "sha256": "a9477b68ffb24c4648f59c3ef7e9f4801540b1a476c8290bfa8280b7b841c365"
+  },
+  {
+    "path": "public/design/pages/pelvic-floor-incontinence/composition_map.json",
+    "sha256": "2209d44b9cf68a9299bb08011a1627e0d00b20a8689229d0336cf7d05b5c5324"
+  },
+  {
+    "path": "public/design/pages/pelvic-floor-incontinence/extraction_plan.json",
+    "sha256": "74435591bf5c16020c64c4661e9861a9954c5866fc8939ed3a7346cb4ed5f174"
+  },
+  {
+    "path": "public/design/pages/pelvic-floor-incontinence/section_implementation.json",
+    "sha256": "cb7dfe4b1510f888497560dd934c1155d9f5422d7a581c278162fe9dee14a422"
+  },
+  {
+    "path": "public/design/pages/pelvic-floor-incontinence/section_manifest.json",
+    "sha256": "cfd762542f041a38dd167923af4735d806b071dc5dc8a65ec9c7853034068de6"
+  },
+  {
+    "path": "public/design/pages/regenerative-medicine/NOTES.md",
+    "sha256": "5f3bece30933f9036044959c4acc124cd8fa8af8519e05683be36816c591607c"
+  },
+  {
+    "path": "public/design/pages/regenerative-medicine/composition_map.json",
+    "sha256": "b31ecc9454842076223a164c4963f729c32055498af755f201750adf021e0420"
+  },
+  {
+    "path": "public/design/pages/regenerative-medicine/extraction_plan.json",
+    "sha256": "a0bbe6cea27222bfef2e3c01e048222199baff4a34c58581b880bf38de0313ec"
+  },
+  {
+    "path": "public/design/pages/regenerative-medicine/section_implementation.json",
+    "sha256": "c03231241cad0fb59d891dbf6023eff52db4ec829f666760c716598542ec0d52"
+  },
+  {
+    "path": "public/design/pages/regenerative-medicine/section_manifest.json",
+    "sha256": "29b05f9882fa303bb8448e2f9a56e5d9c3c555e236ea28a88adb720cf5044b75"
+  },
+  {
+    "path": "public/design/pages/services/NOTES.md",
+    "sha256": "8a0635d5ff5c92a247dde11e0b03bbb7f36ea70b1e79c8e2c573bf6729e3e00d"
+  },
+  {
+    "path": "public/design/pages/services/composition_map.json",
+    "sha256": "ea3ac385d640843e1d090713e0453026fb2a7dfe5f89a85e9f4445571332fb76"
+  },
+  {
+    "path": "public/design/pages/services/extraction_plan.json",
+    "sha256": "ead10b51cba1f30edb5a3936767e5b02f862ba0347c6c8cf6d82993312dbd72a"
+  },
+  {
+    "path": "public/design/pages/services/section_implementation.json",
+    "sha256": "5c6336eb2d84b55d19de36a9ab1e50f48c22bc510f1e6290a0229b757a513f18"
+  },
+  {
+    "path": "public/design/pages/services/section_manifest.json",
+    "sha256": "8a207b4da86dd3b8218bdec425477df91ea4c138f38103465f543344e3f282c5"
+  },
+  {
+    "path": "public/images/design/about/NOTES.md",
+    "sha256": "8877b1427d152892dab92f648804890f5b841e4cc68665419655ecad8b06fdcb"
+  },
+  {
+    "path": "public/images/design/about/extraction_plan.json",
+    "sha256": "6fc853bec63a42a345e9c8eef7b672d85adef35675466eebe6caf5a2a717e8bf"
+  },
+  {
+    "path": "public/images/design/book/NOTES.md",
+    "sha256": "fa498ce1fb0275a8548b3bded7c40d113ee9146295fe25d4524f65a68ced52f6"
+  },
+  {
+    "path": "public/images/design/book/extraction_plan.json",
+    "sha256": "2355eea3446a7a0c350e350d79aacf2456d9d095776c19b725a24b3cdaf7f126"
+  },
+  {
+    "path": "public/images/design/contact/NOTES.md",
+    "sha256": "82462cf61d06b48981877187093645d9eab77e30cc26f00aa779a40ca697014c"
+  },
+  {
+    "path": "public/images/design/contact/extraction_plan.json",
+    "sha256": "081bf9444bbeda377ba788228de546dc8b415f38069b45a070bc7ad3b24d24a1"
+  },
+  {
+    "path": "public/images/design/educational-guide/NOTES.md",
+    "sha256": "89f3647404193299dfc1ce024e9f7f4099dc3126272f549748c17f96b1a31710"
+  },
+  {
+    "path": "public/images/design/educational-guide/extraction_plan.json",
+    "sha256": "57020468e77e57e893ed01e112583ea54684323e4da5a7f9af45218e8fbdf25d"
+  },
+  {
+    "path": "public/images/design/hormone-optimization/NOTES.md",
+    "sha256": "808eb028e1417e478aa02151e082c6c1c01eb3d96a108a6218f73e4c3307bb27"
+  },
+  {
+    "path": "public/images/design/hormone-optimization/extraction_plan.json",
+    "sha256": "23ea364b7b7a882c9af91d50239f96d5552cfa021babef5e3dad3d9a866208d9"
+  },
+  {
+    "path": "public/images/design/neuropathy/NOTES.md",
+    "sha256": "78f9874326367a13802d479a67532e53bbc01a7d97e55696b3007416b3e864fc"
+  },
+  {
+    "path": "public/images/design/neuropathy/extraction_plan.json",
+    "sha256": "038ae0a34db6ba20f04285d3b7d7a468380c5574b81803d9b58e28290537d331"
+  },
+  {
+    "path": "public/images/design/pain-relief/NOTES.md",
+    "sha256": "bbdf87800295ed19c78140cffb2d9ca7901b6864764a89c556546bff14e8e9f4"
+  },
+  {
+    "path": "public/images/design/pain-relief/extraction_plan.json",
+    "sha256": "47eb8806ec17d32edfe0524fd42b5db03243d985cee1e2142b610e0c129ae46c"
+  },
+  {
+    "path": "public/images/design/pelvic-floor-incontinence/NOTES.md",
+    "sha256": "a9477b68ffb24c4648f59c3ef7e9f4801540b1a476c8290bfa8280b7b841c365"
+  },
+  {
+    "path": "public/images/design/pelvic-floor-incontinence/extraction_plan.json",
+    "sha256": "74435591bf5c16020c64c4661e9861a9954c5866fc8939ed3a7346cb4ed5f174"
+  },
+  {
+    "path": "public/images/design/regenerative-medicine/NOTES.md",
+    "sha256": "5f3bece30933f9036044959c4acc124cd8fa8af8519e05683be36816c591607c"
+  },
+  {
+    "path": "public/images/design/regenerative-medicine/extraction_plan.json",
+    "sha256": "a0bbe6cea27222bfef2e3c01e048222199baff4a34c58581b880bf38de0313ec"
+  },
+  {
+    "path": "public/images/design/services/NOTES.md",
+    "sha256": "8a0635d5ff5c92a247dde11e0b03bbb7f36ea70b1e79c8e2c573bf6729e3e00d"
+  },
+  {
+    "path": "public/images/design/services/extraction_plan.json",
+    "sha256": "ead10b51cba1f30edb5a3936767e5b02f862ba0347c6c8cf6d82993312dbd72a"
+  },
+  {
+    "path": "site_build/README.md",
+    "sha256": "00d1344a99ef5f350c45859b0f6943535aaf772eb3b01c7d223de8df9b3b6013"
+  },
+  {
+    "path": "site_build/site_build_contracts.json",
+    "sha256": "7cebb5c35e01db314dc4fa350284f689747f4d639129ff13445865be9519df0e"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/PLAN.md",
+    "sha256": "cc18bf72da17d12dc72d401d4eaa0870e9624d7fff4bd244cbd1e87304faca8a"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/README.md",
+    "sha256": "a5ad47a3cddc09b897d1d09814491c9f9453025e6863ffc974b6a432fcca5ee8"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/additional-recipe-repairs.json",
+    "sha256": "7864ae09d86653a995f0efde7d346fa4a2d298e8d441c05c5572301bb7731058"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audit-run.json",
+    "sha256": "28b20e2b454bd54af7643ff15acf8e737ea9546197f6a805dd167c99a2ae812b"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/about.json",
+    "sha256": "2b8a202c3965ec4857529d28b6bb71c76029e7a29a5be143e54ebab8c359b649"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/book.json",
+    "sha256": "5f5e3674d35f22506737f3646c1a900bc046fa22a3a25ee330a4001d29e77c49"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/contact.json",
+    "sha256": "719223083622a3b5268223d1e436a763e7a9f7f317ab274eb4a323a244011da5"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/educational-guide.json",
+    "sha256": "b7ab335788a9a2ff1c28545ec084d90b721e893c124c4b629cc9995f5799e629"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/hormone-optimization.json",
+    "sha256": "6a202338ef51789af1bdbbcfea09fc9f7830ac154975eb8dfebb37bd2169f6af"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/neuropathy.json",
+    "sha256": "e3ea4eea0e6876453e5e6585be593bd938aa86ecd41aaf39324662d7c7510b2b"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/pain-relief.json",
+    "sha256": "55459f8453d52ddc9533b20a6e2d5d422c8df54caa416c47045e98dad64a1e5d"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/pelvic-floor-incontinence.json",
+    "sha256": "ae1b5cbd41576776cf93e8d5fc227e67c483753a876ee43029367b54ccfa981f"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/regenerative-medicine.json",
+    "sha256": "ff619477635892e856a4c5deb5fde46cd48ed3f97202cff5294a08879f90ef99"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/canonical/services.json",
+    "sha256": "3db58f715a04f1d5185f1b7b41b8bedb8f22171cef43109908194eb61ce594ac"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/about.json",
+    "sha256": "2b8a202c3965ec4857529d28b6bb71c76029e7a29a5be143e54ebab8c359b649"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/book.json",
+    "sha256": "5f5e3674d35f22506737f3646c1a900bc046fa22a3a25ee330a4001d29e77c49"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/contact.json",
+    "sha256": "719223083622a3b5268223d1e436a763e7a9f7f317ab274eb4a323a244011da5"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/educational-guide.json",
+    "sha256": "b7ab335788a9a2ff1c28545ec084d90b721e893c124c4b629cc9995f5799e629"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/hormone-optimization.json",
+    "sha256": "6a202338ef51789af1bdbbcfea09fc9f7830ac154975eb8dfebb37bd2169f6af"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/neuropathy.json",
+    "sha256": "e3ea4eea0e6876453e5e6585be593bd938aa86ecd41aaf39324662d7c7510b2b"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/pain-relief.json",
+    "sha256": "55459f8453d52ddc9533b20a6e2d5d422c8df54caa416c47045e98dad64a1e5d"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/pelvic-floor-incontinence.json",
+    "sha256": "ae1b5cbd41576776cf93e8d5fc227e67c483753a876ee43029367b54ccfa981f"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/regenerative-medicine.json",
+    "sha256": "ff619477635892e856a4c5deb5fde46cd48ed3f97202cff5294a08879f90ef99"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/audits/repository/services.json",
+    "sha256": "3db58f715a04f1d5185f1b7b41b8bedb8f22171cef43109908194eb61ce594ac"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/builder_decisions.json",
+    "sha256": "d7d9b4d008782476568b2b5e30653766c6a6bb41d5ca3bf779f10535017a80e7"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/checks.json",
+    "sha256": "99164b3cf21b16f6bad3b20504b9c037393d000313129fdcc952cc55692113a8"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/code-review.md",
+    "sha256": "f6a07f5f356d2ab1bd3d293c5a8dbc4eed134beb2471f3e9c561fa0f55f83c6d"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/evidence-archive.json",
+    "sha256": "787687b032460a76200a68785b2238773cf00967d712da64e254e7f621478036"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/http-checks.json",
+    "sha256": "cd06d752a21481fa16d4cc9fd5755a5d4b23349957322430744ec6b45e03f0d0"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/initial-hashes.json",
+    "sha256": "d3387e50215dd8f973e9abbef8bda2550402f75b4f9bca8cc4e39d108a844be3"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/installed-scanner-hashes.json",
+    "sha256": "5718994e3957cc5191cf99e6fa44039933b7b80116d8d509ddf27a7a31959f0a"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/integration-receipt.json",
+    "sha256": "20a52dd11eaef59b6e224a60ffae2c4810ffa7dcdae20df959241cda68a1be69"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/native-reference-inventory.json",
+    "sha256": "06c426c81987e5f26987eddc3ecb4dec65906fb71fad7bdefc310e2a7364a8d3"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/protected-hashes.json",
+    "sha256": "4ad60180eab940bfc538801d3f50cb8284d3773479155dbe194aee8769379007"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/regression-tests.json",
+    "sha256": "eea8119e1b5bfd7edca59ab3abdcb99988464f69dc6d62688947127c8dd65d2c"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/retained-assets.json",
+    "sha256": "278b37cd3914453e9cd0c89065efc802c34020427e577276e009b15caf756853"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/retirement-receipt.json",
+    "sha256": "f91bb529c2610778e50f4649ce0589a294a06692e5bdc627b7e5829826b0799d"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/review-sheets.json",
+    "sha256": "91231e1a4774fcd7535cc56bb49d1bfd20c9b7cb127287257c69ca1861c5b600"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/run_audits.py",
+    "sha256": "526766b428f188dd4c549ccdf73c83885cb7901381d379d4a42de85ee7805263"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/section-validation.json",
+    "sha256": "387dd412e3488e9014c4a11de8f738f1c0f53928e19fbf10bc552c828ae7dbe9"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/source-comparison.json",
+    "sha256": "3259e444a16b48436dfa45c454252d420679eb82f8cab43118491f9ea2086516"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/source-standards.json",
+    "sha256": "ea9e183142599fee2d95b55d2bba92b78b197b4eb3a3edfc896ac3903a7c7299"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/source-truth-comparison.json",
+    "sha256": "1e3cbf7bf820cf16361c83c7ddab64fbcd18640af0135ce5512894feea1ed576"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/verification.json",
+    "sha256": "e6fb6ec6de43af67b8eeb8ed03d79139c1c315a9ebfb8a08ae452ab5540ac76a"
+  },
+  {
+    "path": "site_convergence/builder-judgment-source-r1/verify_candidate.py",
+    "sha256": "06119e8ffeb3b750933e21fc6a2112ad76f1f7bc18083e02db289bac12bbeb78"
+  },
+  {
+    "path": "src/components/batch-three/about/booking.tsx",
+    "sha256": "c924a2cffa586f34a1cb254dc29749a89286b62cf3f65fd080ab3b1e45f62fd6"
+  },
+  {
+    "path": "src/components/batch-three/about/gallery.tsx",
+    "sha256": "df038873da2522c9df52decad830c1d02fc9cafdf92f8224c1c65e24af93b2bf"
+  },
+  {
+    "path": "src/components/batch-three/about/hero.tsx",
+    "sha256": "5fb63109c04554e79b11490b574357a295dd40527e932234a940193e049d68e2"
+  },
+  {
+    "path": "src/components/batch-three/about/principles.tsx",
+    "sha256": "990a71c691287764969d8280272948dbfac89bf745aed5b3bdaea445a31de958"
+  },
+  {
+    "path": "src/components/batch-three/about/purpose.tsx",
+    "sha256": "fed1a6e0dc861180c561dabf826f5de8381b7d5324bbfd18af0ef3545df83400"
+  },
+  {
+    "path": "src/components/batch-three/about/team.tsx",
+    "sha256": "51abd7bafe1249728601c5badb06c64529da67e68249956d473e8d36036c6b91"
+  },
+  {
+    "path": "src/components/batch-three/book/book.css",
+    "sha256": "6f86b01d7c812ecaa840342280a074c1bc4f006aca898bc3ea580127df3b3cae"
+  },
+  {
+    "path": "src/components/batch-three/book/calendar.tsx",
+    "sha256": "e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115"
+  },
+  {
+    "path": "src/components/batch-three/book/hero.tsx",
+    "sha256": "16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b"
+  },
+  {
+    "path": "src/components/batch-three/book/privacy.tsx",
+    "sha256": "4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf"
+  },
+  {
+    "path": "src/components/batch-three/contact/booking.css",
+    "sha256": "8189164e7f7badf794517d88cb09fab5be2f3e00fc61ba0020048bcf234e5a57"
+  },
+  {
+    "path": "src/components/batch-three/contact/booking.tsx",
+    "sha256": "ed93f5cddd38a935598db1ca388cbfcc2578b8b2242d99b0490b06dadffc1ae6"
+  },
+  {
+    "path": "src/components/batch-three/contact/contact.css",
+    "sha256": "c54205d80dea051d1e7f175c7a84d060e6cd38e8d701271e184fb9cc1442677c"
+  },
+  {
+    "path": "src/components/batch-three/contact/details.tsx",
+    "sha256": "10dd9a994d6d220dd854ac9791aaff14fbdd9caeaa116c1966c63a603cef01a2"
+  },
+  {
+    "path": "src/components/batch-three/contact/facility.css",
+    "sha256": "e82ca5753c9becc56dede2b5e86e295cd2c545f65d351c45cfd28ec1d864172f"
+  },
+  {
+    "path": "src/components/batch-three/contact/facility.tsx",
+    "sha256": "a975cb55a882ff4bf6586441de95d4be0bb58bff3a92b5f70f73e9672d1a371b"
+  },
+  {
+    "path": "src/components/batch-three/contact/hero.tsx",
+    "sha256": "c2cf730be3e04ff9bfa49a4458608189fe7d39620732719a51064fa7c725bfae"
+  },
+  {
+    "path": "src/components/batch-three/design-photo.tsx",
+    "sha256": "b3b55d05739c7e0bb8027fbc1912a12601145bc6adeea6d243d5cfb1b4a06728"
+  },
+  {
+    "path": "src/components/batch-three/educational-guide/availability.tsx",
+    "sha256": "38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283"
+  },
+  {
+    "path": "src/components/batch-three/educational-guide/hero.tsx",
+    "sha256": "7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c"
+  },
+  {
+    "path": "src/components/batch-three/educational-guide/privacy.tsx",
+    "sha256": "523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406"
+  },
+  {
+    "path": "src/components/batch-three/educational-guide/summary.tsx",
+    "sha256": "b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1"
+  },
+  {
+    "path": "src/components/interior/batch-booking.tsx",
+    "sha256": "1f69bec449e0a62b0a6257616d6de522d8624aa7ff8459be9e4a45317052dc18"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/booking.tsx",
+    "sha256": "e98dd3fb5c211b8236579a7122739c471b50b95277e23d2d53a699da28f8767c"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/faq.tsx",
+    "sha256": "e751e607d08c9e0eb4f5ee37013b6f9fb997a6b0bb027a57dd81a2d0367d0df0"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/goals.tsx",
+    "sha256": "d02ee2251ef73309e41b97718e6c9f646ab1f9c44d4e9c0873f1116124e5bd46"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/hero.tsx",
+    "sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/next-step.tsx",
+    "sha256": "9b82facf7969943dc90a46fd06bd8e1854895d1d8bd919edf455e6f5b27d8b00"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/orientation.tsx",
+    "sha256": "12bf65ffa4c34082b769b6d08ab79affabeb404252a94f7a78a11d8b30a3c721"
+  },
+  {
+    "path": "src/components/interior/hormone-optimization/sources.tsx",
+    "sha256": "f2195e5f9bea2249b690a4c43b189c9a1e1391ec86866e39467851af5655fc02"
+  },
+  {
+    "path": "src/components/interior/interior-image.tsx",
+    "sha256": "53750d77b4c4b3466bec2fc94192dfd721371ef3814c23222ab38bfb68741b2a"
+  },
+  {
+    "path": "src/components/interior/neuropathy/booking.tsx",
+    "sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996"
+  },
+  {
+    "path": "src/components/interior/neuropathy/expect.tsx",
+    "sha256": "d2e635e440099ae588e820661488f757e96bd857257cdc25a92d87b9bdac99e5"
+  },
+  {
+    "path": "src/components/interior/neuropathy/faq.tsx",
+    "sha256": "d7b515255828ec842b68d122f9d73dbccf45c9f5ae845b12abb83635cc2f98b4"
+  },
+  {
+    "path": "src/components/interior/neuropathy/goals.tsx",
+    "sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7"
+  },
+  {
+    "path": "src/components/interior/neuropathy/hero.tsx",
+    "sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add"
+  },
+  {
+    "path": "src/components/interior/neuropathy/orientation.tsx",
+    "sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5"
+  },
+  {
+    "path": "src/components/interior/neuropathy/sources.tsx",
+    "sha256": "9c986bbdd0fd6a34d72868c4dfd1d5d0d3612e75feb090e63b8533cb98e74555"
+  },
+  {
+    "path": "src/components/interior/pain-relief/back.tsx",
+    "sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524"
+  },
+  {
+    "path": "src/components/interior/pain-relief/booking.tsx",
+    "sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001"
+  },
+  {
+    "path": "src/components/interior/pain-relief/decisions.tsx",
+    "sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9"
+  },
+  {
+    "path": "src/components/interior/pain-relief/faq.tsx",
+    "sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440"
+  },
+  {
+    "path": "src/components/interior/pain-relief/hero.tsx",
+    "sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f"
+  },
+  {
+    "path": "src/components/interior/pain-relief/knee.tsx",
+    "sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec"
+  },
+  {
+    "path": "src/components/interior/pain-relief/navigation.tsx",
+    "sha256": "7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2"
+  },
+  {
+    "path": "src/components/interior/pain-relief/neck.tsx",
+    "sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf"
+  },
+  {
+    "path": "src/components/interior/pain-relief/sources.tsx",
+    "sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+    "sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+    "sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+    "sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+    "sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+    "sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+    "sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b"
+  },
+  {
+    "path": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+    "sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/booking.tsx",
+    "sha256": "19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/decisions.tsx",
+    "sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/faq.tsx",
+    "sha256": "ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/hero.tsx",
+    "sha256": "6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/questions.tsx",
+    "sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b"
+  },
+  {
+    "path": "src/components/interior/regenerative-medicine/sources.tsx",
+    "sha256": "fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6"
+  },
+  {
+    "path": "src/components/interior/services/booking.tsx",
+    "sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3"
+  },
+  {
+    "path": "src/components/interior/services/choose.tsx",
+    "sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292"
+  },
+  {
+    "path": "src/components/interior/services/hero.tsx",
+    "sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf"
+  },
+  {
+    "path": "src/components/interior/services/navigation.tsx",
+    "sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6"
+  },
+  {
+    "path": "src/components/interior/services/neuropathy.tsx",
+    "sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7"
+  },
+  {
+    "path": "src/components/variant-b/hero.tsx",
+    "sha256": "ef9dc85d8262cb08d4403b24bbb713581ba53a7cb2287f7003c595d3882db0ff"
+  },
+  {
+    "path": "src/components/variant-b/site-footer.tsx",
+    "sha256": "28739a0361c5cad78f10e209277600b147333f38db92253b80b2124553b91dee"
+  }
+]

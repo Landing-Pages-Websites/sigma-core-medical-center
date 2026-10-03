@@ -1,0 +1,205 @@
+{
+  "status": "FAIL_CLOSED_PENDING_LAYERS",
+  "results": [
+    {
+      "slug": "services",
+      "route": "/services",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/services/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "e758fd34b94245edaa9e9b457ec4a547f0ed1a95bb7588d8073a096876dae1c2",
+      "manifest_sha256": "fc76e200e759070079d25d992c6a5e221cc775f1a738edbd623ba4b09586c2e5",
+      "pending_layers": 25,
+      "other_issues": 0
+    },
+    {
+      "slug": "neuropathy",
+      "route": "/services/neuropathy",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/neuropathy/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "4b3914bb5d01332bfd4b8d26374b60688f425db4d2e56f1458bd71472f5a48b2",
+      "manifest_sha256": "d74d87b2e15c506b9df4ec1d884380f91fe6e501b9c4052ca1a8356aca3a823b",
+      "pending_layers": 35,
+      "other_issues": 0
+    },
+    {
+      "slug": "pain-relief",
+      "route": "/services/pain-relief",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/pain-relief/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pain-relief/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "caeadc4aad2a55f18295d65563350d4434402f2e11a6cb8942aa1e80062f761d",
+      "manifest_sha256": "432b8faf6e40450c62defecdd5985a24e97c384bbe4a230108d328bd30ccd2da",
+      "pending_layers": 45,
+      "other_issues": 0
+    },
+    {
+      "slug": "hormone-optimization",
+      "route": "/services/hormone-optimization",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/hormone-optimization/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/hormone-optimization/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "86237904f5fc1d5ad7aef4ef077ae9c46d78f2205a479b3be0ed70fb9695fa4a",
+      "manifest_sha256": "2341eb212f18274d81208524ef54cd2821d5b3390d3e2005198ea0743ea52939",
+      "pending_layers": 35,
+      "other_issues": 0
+    },
+    {
+      "slug": "pelvic-floor-incontinence",
+      "route": "/services/pelvic-floor-incontinence",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/pelvic-floor-incontinence/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "a4bcff19ba87173a68245ae3eb0f236187daf66e70452b522539d4fe78ec37fd",
+      "manifest_sha256": "d201bd13bcda7072ea27161cce5fd9a88304f20465c92be7757754ab4f272805",
+      "pending_layers": 35,
+      "other_issues": 0
+    },
+    {
+      "slug": "regenerative-medicine",
+      "route": "/services/regenerative-medicine",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/regenerative-medicine/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/regenerative-medicine/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "634e1534cfc20b3cf76b21b5a8bcba4bc8491ef3314e095938af658e8a843c13",
+      "manifest_sha256": "1f07bf2bb0eaaaadbfcee042e52870414ceb2f1eb75a5f37f5c5ac35b3f40b81",
+      "pending_layers": 35,
+      "other_issues": 0
+    },
+    {
+      "slug": "about",
+      "route": "/about",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/about/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "96bd0cbb6df53e154159d97f12438b5d97bf325272c85c03d90baaa2238130db",
+      "manifest_sha256": "8deb3ffccd918a02856bb6e2bc0777ba5f6cde5bf375a265b9b4b9a78e576903",
+      "pending_layers": 18,
+      "other_issues": 0
+    },
+    {
+      "slug": "educational-guide",
+      "route": "/educational-guide",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/educational-guide/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "f1ebd9760049b23b1150085a74c4eab9ac89405729e12660cf3319fa44a660d1",
+      "manifest_sha256": "0c751ec92c0f04609a16a08ae10437f765531b25edb9681a3626f688349d787d",
+      "pending_layers": 12,
+      "other_issues": 0
+    },
+    {
+      "slug": "book",
+      "route": "/book",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/book/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/book/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "6a5c95f7488dc222895f42f9c6a78c5733e546b456277906949712d8bf8d7b9b",
+      "manifest_sha256": "d96fddd56c536e1bca8def59fe2baaaf410ba27a4bc27ee161e68ae96a8436c7",
+      "pending_layers": 9,
+      "other_issues": 0
+    },
+    {
+      "slug": "contact",
+      "route": "/contact",
+      "argv": [
+        "python3",
+        "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py",
+        "--file",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design/pages/contact/section_implementation.json",
+        "--manifest",
+        "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/section_manifest.json",
+        "--source-root",
+        "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1",
+        "--check"
+      ],
+      "exit_code": 1,
+      "implementation_sha256": "e1960ca0a175da95fc1f7feaba079b123b4c68c8ca3b43e7976c03edcbe29360",
+      "manifest_sha256": "eddb6efc93bbee644cb12d05e9785117007d45ce9eb185347bc878b028393107",
+      "pending_layers": 12,
+      "other_issues": 0
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "git_diff_cached_binary_sha256": "a65292052349717c2c27b13a65d08f3fb1e21bbb1a6332f1072908a7ed34d0f5",
+  "paths": 426,
+  "scope": "Final staged payload before adding this receipt and changed-paths.json. Full committed diff is the candidate commit against 8c077d6e5aeacdab4b5b61d97987c8c05dc40d7a."
+}

@@ -6,124 +6,177 @@
       "implementation_owner": "src/components/batch-three/educational-guide/hero.tsx",
       "content_source": "section_manifest.json#01-resource-hero",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cEducational guide status\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /educational-guide / 01-resource-hero; native design_refs/pages/educational-guide/refs/01-resource-hero.png sha256=3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c; owner src/components/batch-three/educational-guide/hero.tsx sha256=7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /educational-guide / 01-resource-hero; native design_refs/pages/educational-guide/refs/01-resource-hero.png sha256=3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c; owner src/components/batch-three/educational-guide/hero.tsx sha256=7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Navylight guide introduction and pending-status guard occupy left; facility image is inset high right above a blue bottom pointer. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 01-resource-hero whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /educational-guide / 01-resource-hero; native design_refs/pages/educational-guide/refs/01-resource-hero.png sha256=3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c; owner src/components/batch-three/educational-guide/hero.tsx sha256=7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 01-resource-hero type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /educational-guide / 01-resource-hero; native design_refs/pages/educational-guide/refs/01-resource-hero.png sha256=3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c; owner src/components/batch-three/educational-guide/hero.tsx sha256=7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 01-resource-hero and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /educational-guide / 01-resource-hero; native design_refs/pages/educational-guide/refs/01-resource-hero.png sha256=3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c; owner src/components/batch-three/educational-guide/hero.tsx sha256=7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "01-resource-hero"
+      "frame": "01-resource-hero",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/hero.tsx",
+        "source_sha256": "7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c",
+        "dom_ids": [
+          "resource-hero",
+          "resource-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid. Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale. Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height. Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline. Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster. Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label. Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/educational-guide/summary.tsx",
       "content_source": "section_manifest.json#02-resource-summary",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cSource and status overview\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /educational-guide / 02-resource-summary; native design_refs/pages/educational-guide/refs/02-resource-summary.png sha256=28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a; owner src/components/batch-three/educational-guide/summary.tsx sha256=b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /educational-guide / 02-resource-summary; native design_refs/pages/educational-guide/refs/02-resource-summary.png sha256=28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a; owner src/components/batch-three/educational-guide/summary.tsx sha256=b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Blue resource-summary panel leads into live key-topic rows, with a separate clinic photo and related-routes area at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 02-resource-summary whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /educational-guide / 02-resource-summary; native design_refs/pages/educational-guide/refs/02-resource-summary.png sha256=28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a; owner src/components/batch-three/educational-guide/summary.tsx sha256=b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 02-resource-summary type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /educational-guide / 02-resource-summary; native design_refs/pages/educational-guide/refs/02-resource-summary.png sha256=28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a; owner src/components/batch-three/educational-guide/summary.tsx sha256=b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 02-resource-summary and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /educational-guide / 02-resource-summary; native design_refs/pages/educational-guide/refs/02-resource-summary.png sha256=28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a; owner src/components/batch-three/educational-guide/summary.tsx sha256=b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "02-resource-summary"
+      "frame": "02-resource-summary",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/summary.tsx",
+        "source_sha256": "b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1",
+        "dom_ids": [
+          "resource-summary",
+          "important-boundary"
+        ],
+        "runtime_assets": [],
+        "recipe": "Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field. Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6. Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text. Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading. Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/educational-guide/availability.tsx",
       "content_source": "section_manifest.json#03-lead-form",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cAccess status\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /educational-guide / 03-lead-form; native design_refs/pages/educational-guide/refs/03-lead-form.png sha256=eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985; owner src/components/batch-three/educational-guide/availability.tsx sha256=38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /educational-guide / 03-lead-form; native design_refs/pages/educational-guide/refs/03-lead-form.png sha256=eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985; owner src/components/batch-three/educational-guide/availability.tsx sha256=38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Cream form explanation at left faces a deliberately inactive integration aperture; photo strip anchors lower right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 03-lead-form whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /educational-guide / 03-lead-form; native design_refs/pages/educational-guide/refs/03-lead-form.png sha256=eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985; owner src/components/batch-three/educational-guide/availability.tsx sha256=38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 03-lead-form type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /educational-guide / 03-lead-form; native design_refs/pages/educational-guide/refs/03-lead-form.png sha256=eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985; owner src/components/batch-three/educational-guide/availability.tsx sha256=38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 03-lead-form and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /educational-guide / 03-lead-form; native design_refs/pages/educational-guide/refs/03-lead-form.png sha256=eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985; owner src/components/batch-three/educational-guide/availability.tsx sha256=38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "03-lead-form"
+      "frame": "03-lead-form",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/availability.tsx",
+        "source_sha256": "38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283",
+        "dom_ids": [
+          "lead-form",
+          "form-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form. Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields. Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock. Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link. Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/educational-guide/privacy.tsx",
       "content_source": "section_manifest.json#04-privacy-note",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cPrivacy Note\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /educational-guide / 04-privacy-note; native design_refs/pages/educational-guide/refs/04-privacy-note.png sha256=c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127; owner src/components/batch-three/educational-guide/privacy.tsx sha256=523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /educational-guide / 04-privacy-note; native design_refs/pages/educational-guide/refs/04-privacy-note.png sha256=c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127; owner src/components/batch-three/educational-guide/privacy.tsx sha256=523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Dark privacy statement and policy links occupy left; right clinic photograph and resource-pending status remain subordinate. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 04-privacy-note whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /educational-guide / 04-privacy-note; native design_refs/pages/educational-guide/refs/04-privacy-note.png sha256=c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127; owner src/components/batch-three/educational-guide/privacy.tsx sha256=523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 04-privacy-note type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /educational-guide / 04-privacy-note; native design_refs/pages/educational-guide/refs/04-privacy-note.png sha256=c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127; owner src/components/batch-three/educational-guide/privacy.tsx sha256=523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 04-privacy-note and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /educational-guide / 04-privacy-note; native design_refs/pages/educational-guide/refs/04-privacy-note.png sha256=c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127; owner src/components/batch-three/educational-guide/privacy.tsx sha256=523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/educational-guide-full.png sha256=068f1885ee163f6220e0f00e12df8a3951d2e92cd1b78c5ffdbb7ddbc1347fa8. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/educational-guide-full.png sha256=f1972201494d091fddaf02f2c28dc6b7f8441c88bfa1469d1f7a0cd4e8fb2468. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "04-privacy-note"
+      "frame": "04-privacy-note",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/privacy.tsx",
+        "source_sha256": "523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406",
+        "dom_ids": [
+          "privacy-note",
+          "privacy-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile. Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition. Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding. Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
 }

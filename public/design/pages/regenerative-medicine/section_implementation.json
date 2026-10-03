@@ -7,29 +7,41 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "Exact clinic reception visual for 01-hero, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cExplore whether regenerative medicine belongs in your care conversation\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 01-hero; native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc; owner src/components/interior/regenerative-medicine/hero.tsx sha256=6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 01-hero; native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc; owner src/components/interior/regenerative-medicine/hero.tsx sha256=6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 01-hero whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 01-hero; native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc; owner src/components/interior/regenerative-medicine/hero.tsx sha256=6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 01-hero type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 01-hero; native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc; owner src/components/interior/regenerative-medicine/hero.tsx sha256=6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 01-hero and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 01-hero; native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc; owner src/components/interior/regenerative-medicine/hero.tsx sha256=6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/hero.tsx",
+        "source_sha256": "6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a large angled electric-blue field with layered open rectangular apertures, an off-navy live statement about identifying the exact option, a three-part product/use/provider line and a grounded status line; no premises silhouette or implied clinical scene.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -37,28 +49,42 @@
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/interior/regenerative-medicine/orientation.tsx",
       "content_source": "section_manifest.json#02-category-orientation",
-      "asset_roles": ["Code-only category boundary, stepped bars, and independent information panel"],
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cCategory Orientation\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 02-category-orientation; native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2; owner src/components/interior/regenerative-medicine/orientation.tsx sha256=7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "0 of 0 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 02-category-orientation; native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2; owner src/components/interior/regenerative-medicine/orientation.tsx sha256=7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 02-category-orientation whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 02-category-orientation; native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2; owner src/components/interior/regenerative-medicine/orientation.tsx sha256=7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 02-category-orientation type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 02-category-orientation; native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2; owner src/components/interior/regenerative-medicine/orientation.tsx sha256=7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 02-category-orientation and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 02-category-orientation; native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2; owner src/components/interior/regenerative-medicine/orientation.tsx sha256=7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/orientation.tsx",
+        "source_sha256": "7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a",
+        "dom_ids": [
+          "category-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the category orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this category orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -67,29 +93,75 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/questions.tsx",
       "content_source": "section_manifest.json#03-questions-for-a-consultation",
       "asset_roles": [
-        "Exact clinic interior strip visual for 03-questions-for-a-consultation, not a staff or outcome representation"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cQuestions For A Consultation\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 03-questions-for-a-consultation; native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a; owner src/components/interior/regenerative-medicine/questions.tsx sha256=2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 03-questions-for-a-consultation; native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a; owner src/components/interior/regenerative-medicine/questions.tsx sha256=2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 03-questions-for-a-consultation whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 03-questions-for-a-consultation; native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a; owner src/components/interior/regenerative-medicine/questions.tsx sha256=2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 03-questions-for-a-consultation type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 03-questions-for-a-consultation; native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a; owner src/components/interior/regenerative-medicine/questions.tsx sha256=2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 03-questions-for-a-consultation and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 03-questions-for-a-consultation; native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a; owner src/components/interior/regenerative-medicine/questions.tsx sha256=2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+        "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+        "dom_ids": [
+          "questions-for-a-consultation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the questions for a consultation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this questions for a consultation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the questions for a consultation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -98,30 +170,75 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/decisions.tsx",
       "content_source": "section_manifest.json#04-decision-factors",
       "asset_roles": [
-        "Exact clinic left visual for 04-decision-factors, not a staff or outcome representation",
-        "Exact clinic right visual for 04-decision-factors, not a staff or outcome representation"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cDecision Factors\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 04-decision-factors; native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828; owner src/components/interior/regenerative-medicine/decisions.tsx sha256=3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "2 of 2 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 04-decision-factors; native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828; owner src/components/interior/regenerative-medicine/decisions.tsx sha256=3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 04-decision-factors whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 04-decision-factors; native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828; owner src/components/interior/regenerative-medicine/decisions.tsx sha256=3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 04-decision-factors type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 04-decision-factors; native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828; owner src/components/interior/regenerative-medicine/decisions.tsx sha256=3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 04-decision-factors and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 04-decision-factors; native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828; owner src/components/interior/regenerative-medicine/decisions.tsx sha256=3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+        "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the left edge as a compact teal starting field directing readers from the five consultation prompts to assessment of the answers. Keep three center panels as questions that test named option and intended use, evidence and risks versus alternatives including no procedure, and a qualified responsible provider with follow-up. On mobile, stack start, compact criteria, then verify in reading order. Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -130,29 +247,41 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "Exact clinic reception visual for 05-faq, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cFaq\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 05-faq; native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9; owner src/components/interior/regenerative-medicine/faq.tsx sha256=ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 05-faq; native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9; owner src/components/interior/regenerative-medicine/faq.tsx sha256=ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 05-faq whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 05-faq; native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9; owner src/components/interior/regenerative-medicine/faq.tsx sha256=ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 05-faq type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 05-faq; native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9; owner src/components/interior/regenerative-medicine/faq.tsx sha256=ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 05-faq and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 05-faq; native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9; owner src/components/interior/regenerative-medicine/faq.tsx sha256=ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/faq.tsx",
+        "source_sha256": "ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .r-faq-boundary as a blue CSS aside with a diagonal boundary and vertical rule; render the evidence-scope statement and working #medical-sources anchor. Keep four semantic dl answers and related-service navigation adjacent, then stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -161,29 +290,41 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "Exact clinic reception visual for 06-booking-cta, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cBooking Cta\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 06-booking-cta; native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2; owner src/components/interior/regenerative-medicine/booking.tsx sha256=19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 06-booking-cta; native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2; owner src/components/interior/regenerative-medicine/booking.tsx sha256=19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 06-booking-cta whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 06-booking-cta; native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2; owner src/components/interior/regenerative-medicine/booking.tsx sha256=19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 06-booking-cta type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 06-booking-cta; native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2; owner src/components/interior/regenerative-medicine/booking.tsx sha256=19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 06-booking-cta and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 06-booking-cta; native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2; owner src/components/interior/regenerative-medicine/booking.tsx sha256=19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/booking.tsx",
+        "source_sha256": "19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a two-column navy/teal status composition: online scheduling unavailable and provider, service and calendar details unverified for publication; any future consultation is conditional, with no opening guarantee. Include a no-confirmation caveat and link only to the live services overview.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -192,30 +333,48 @@
       "implementation_owner": "src/components/interior/regenerative-medicine/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "Exact clinic lounge visual for 07-medical-sources, not a staff or outcome representation"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
-          "status": "PASS",
-          "evidence": "Manifest heading and safe section-specific information preserved; pending claims explicitly gated."
+          "status": "PENDING",
+          "evidence": "PENDING: verify all live copy/actions for \u201cMedical Sources\u201d against the source-constrained runtime recipe and manifest override in a section-specific review. Historical native text includes superseded documentary or booking claims; route-level KEEP and source-audit PASS do not certify each content replacement. /services/regenerative-medicine / 07-medical-sources; native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d; owner src/components/interior/regenerative-medicine/sources.tsx sha256=fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "imagery": {
-          "status": "PASS",
-          "evidence": "1 of 1 section-owned raster slots rendered without cross-section reuse."
+          "status": "PENDING",
+          "evidence": "PENDING: independently confirm the complete image-free successor of this historical frame, including each retired image role and the live CSS/SVG substitute. Source absence alone does not prove visual fidelity. /services/regenerative-medicine / 07-medical-sources; native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d; owner src/components/interior/regenerative-medicine/sources.tsx sha256=fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "Section-specific DOM/CSS owner reproduces the approved main visual relationships."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 07-medical-sources whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /services/regenerative-medicine / 07-medical-sources; native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d; owner src/components/interior/regenerative-medicine/sources.tsx sha256=fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Palette, typography, brackets and material seams implemented; live frame comparison unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: review 07-medical-sources type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /services/regenerative-medicine / 07-medical-sources; native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d; owner src/components/interior/regenerative-medicine/sources.tsx sha256=fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "NEEDS_BROWSER_REVIEW",
-          "evidence": "Mobile layout and image order implemented; 390x844 browser capture unavailable due to browser bootstrap gap."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 07-medical-sources and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /services/regenerative-medicine / 07-medical-sources; native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d; owner src/components/interior/regenerative-medicine/sources.tsx sha256=fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/services-regenerative-medicine-full.png sha256=9478e8e45a827bd8a1b143353124d32f00f887402c2d6390371725dd5f3d4786. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/services-regenerative-medicine-full.png sha256=55ff4367c247388b530e7c4e1542bfcf017c7dc9ab49f30ee46ab1321dcb7982. Raster roles: no route raster; code-native narrative."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/sources.tsx",
+        "source_sha256": "fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .r-sources-caveat as a mineral keylined CSS panel stating that product-specific citations are unpublished. Follow with the three .r-sources-rail groups for category basis, regulatory review and clinical review; retain live headings/body and mobile stacking without fabricated citations.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  }
 }

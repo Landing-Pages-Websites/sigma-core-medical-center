@@ -1,0 +1,128 @@
+[
+  {
+    "path": "public/design/pages/about/refs/05-team-publication-gate.png",
+    "before": "f1f1930c40c8181b00106dbed7caafb091209aada22811551edacde039197a32",
+    "after": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/05-team-publication-gate.png"
+  },
+  {
+    "path": "public/design/pages/about/refs/03-facility-gallery.png",
+    "before": "7287a2331d0beeec4af66ba0108433892cd7652cc3b2c9665b4a761bd95578d9",
+    "after": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/03-facility-gallery.png"
+  },
+  {
+    "path": "public/design/pages/about/refs/01-hero.png",
+    "before": "d78774b43fb7f6cb9346b44792da26bf89e3b7f38d6e9e6a48d461c45b85a473",
+    "after": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/01-hero.png"
+  },
+  {
+    "path": "public/design/pages/about/refs/02-clinic-purpose.png",
+    "before": "35e1ca89b92c188bdde46f1d1399079e53a95c49c3b9e4f6f0442bd856dabeff",
+    "after": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/02-clinic-purpose.png"
+  },
+  {
+    "path": "public/design/pages/about/refs/06-booking-cta.png",
+    "before": "9aed6d9d0142b2bdda87876b949ba4e8e683b3131917ac06355ce44d41ebf77e",
+    "after": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/06-booking-cta.png"
+  },
+  {
+    "path": "public/design/pages/about/refs/04-care-principles.png",
+    "before": "3f44c1a2bff4eb9fd0352f27ea305080669eb63dd0184503d7e892f8a98fa49b",
+    "after": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/refs/04-care-principles.png"
+  },
+  {
+    "path": "public/design/pages/about/page.png",
+    "before": "db9e2285570ee72fb31f61781e1f003b237724fe33f536dc2cd5b06ad06addee",
+    "after": "8731c2c3a2b0097e27d197e1822ea7fde3281eda442df08094c2d0f64d139faa",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/about/page.png"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/01-resource-hero.png",
+    "before": "c367c1e43ba2bf4c72b8be37bc0c1b5a68d076dffa7493133930706fb69deb31",
+    "after": "3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/refs/01-resource-hero.png"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/02-resource-summary.png",
+    "before": "01d7402919160faecfb557e13e8a01d89a2857340b3d20056faccbfc0e4d0802",
+    "after": "28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/refs/02-resource-summary.png"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/03-lead-form.png",
+    "before": "7fd4c9718dcb71641447baf5ad3767ed8a380f2833eb4c134bc181d7e6980b0a",
+    "after": "eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/refs/03-lead-form.png"
+  },
+  {
+    "path": "public/design/pages/educational-guide/refs/04-privacy-note.png",
+    "before": "56812c3f97f5fcad96a9b839f3176f60d7c4e0fe5d7177be7945aa8487b36305",
+    "after": "c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/refs/04-privacy-note.png"
+  },
+  {
+    "path": "public/design/pages/educational-guide/page.png",
+    "before": "e612888ec59cca36d0a500e82c4759e243c5a6ab6f7ddefed6159310d568d006",
+    "after": "204e1d45adcbf936b0ca5070c9110b966298788241ad92dd8022c23b225f92a1",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/educational-guide/page.png"
+  },
+  {
+    "path": "public/design/pages/book/refs/02-gohighlevel-calendar.png",
+    "before": "1cd019b73a3cf5f69dd5c66cae2a9b828a917af0e472d1c9a70e8595158abfc4",
+    "after": "ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/book/refs/02-gohighlevel-calendar.png"
+  },
+  {
+    "path": "public/design/pages/book/refs/01-booking-hero.png",
+    "before": "f59c67833129e6aabdf5aee17ce9a82b54df49eafef8675a882e963816ecd71b",
+    "after": "488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/book/refs/01-booking-hero.png"
+  },
+  {
+    "path": "public/design/pages/book/refs/03-privacy-note.png",
+    "before": "790a87d6b20246392bbb2a20f9ac343c93b936338a74a90e01f32ba6f718674a",
+    "after": "36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/book/refs/03-privacy-note.png"
+  },
+  {
+    "path": "public/design/pages/book/page.png",
+    "before": "5a8bbd9763ca320780bf8bf78d7951dc12fdba1eca1127dedbe2a84cccac0e26",
+    "after": "3b2bb006fa77325c19004353cf49418479d96520f8ec92ebb0c3f1129abbab79",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/book/page.png"
+  },
+  {
+    "path": "public/design/pages/contact/refs/03-facility-image.png",
+    "before": "77133a277219df94d4126039d58a0173bb4f2797d71c7dd600a4c0158542574f",
+    "after": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/refs/03-facility-image.png"
+  },
+  {
+    "path": "public/design/pages/contact/refs/02-verified-location-details.png",
+    "before": "84d88d8b931b6300fa3192a06f384dd87e4761472cc089c5752bb0d48946ee1e",
+    "after": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/refs/02-verified-location-details.png"
+  },
+  {
+    "path": "public/design/pages/contact/refs/04-booking-cta.png",
+    "before": "5d1b6539dfba33107166fbb5ad800c543a3d237530cff51317f504dbc1615485",
+    "after": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/refs/04-booking-cta.png"
+  },
+  {
+    "path": "public/design/pages/contact/refs/01-contact-hero.png",
+    "before": "a3316711fb1e23393e174f93fd5b0b87c62e843487943b15d4a0c831a78a4fbb",
+    "after": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/refs/01-contact-hero.png"
+  },
+  {
+    "path": "public/design/pages/contact/page.png",
+    "before": "7e1d876d7fd2c49ba6b1e88c5af1b5aa9a68ab53f903bac07a26c0d5fd396fba",
+    "after": "b5faf5cf49c7c8d919ec1776cdbbd0878379c70bea0a653c3e5a932d7d2ed90b",
+    "native": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/contact/page.png"
+  }
+]

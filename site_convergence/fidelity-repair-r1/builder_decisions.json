@@ -1,0 +1,56 @@
+[
+  {
+    "route": "/services/pain-relief",
+    "section": "03-knee-concerns",
+    "finding": "Original 1175x233 extraction intrinsically lacks head and feet. Native frame contains stride but no head; no unused supported authentic replacement exists. Protected Variant A generated scenes are already owned and were rejected.",
+    "decision": "remove",
+    "reason": "Original 1175x233 extraction intrinsically lacks head and feet. Native frame contains stride but no head; no unused supported authentic replacement exists. Protected Variant A generated scenes are already owned and were rejected.",
+    "before": {
+      "original": "public/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
+      "archive": "assets/retired-photo-roles/fidelity-repair-r1/pain-relief/03-knee-concerns-01-person-outdoors.png",
+      "sha256": "5e06ee2e212f07340325583d5c10ef29db115c27917a9e324592d787cad4cd42",
+      "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+    },
+    "after": {
+      "runtime_assets": [],
+      "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+      "status": "PENDING",
+      "source_frame": "public/design/pages/pain-relief/refs/03-knee-concerns.png",
+      "source_sha256": "232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2"
+    }
+  },
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "section": "01-hero",
+    "finding": "Existing crop omitted source-visible head and chair. Deterministic wider extraction from unchanged approved frame recovers original pixels; no generation or inpainting.",
+    "decision": "replace-existing",
+    "reason": "Existing crop omitted source-visible head and chair. Deterministic wider extraction from unchanged approved frame recovers original pixels; no generation or inpainting.",
+    "before": {
+      "original": "public/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+      "archive": "assets/retired-photo-roles/fidelity-repair-r1/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+      "sha256": "e250110033b586dd7a61d88c64b85beb91e96471f436d131c03a99f26d97de4b",
+      "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+    },
+    "after": {
+      "runtime_assets": [
+        "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+      ],
+      "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+      "status": "PENDING",
+      "source_frame": "public/design/pages/pelvic-floor-incontinence/refs/01-hero.png",
+      "source_sha256": "a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c",
+      "source_box": [
+        1096,
+        200,
+        1434,
+        720
+      ],
+      "asset_sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e",
+      "dimensions": [
+        338,
+        520
+      ],
+      "method": "Pillow RGB crop only, no resize, no new pixels"
+    }
+  }
+]

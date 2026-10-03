@@ -1,0 +1,984 @@
+{
+  "page": "pelvic-floor-incontinence",
+  "frames": [
+    {
+      "frame": "01-hero.png",
+      "bg": "#041434",
+      "section_owner": "01-hero",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            134,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            70,
+            158,
+            746,
+            423
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live information panel or navigation rail",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            70,
+            592,
+            524,
+            681
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live heading or content text group",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            72,
+            459,
+            559,
+            561
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live heading or content text group",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            1187,
+            12,
+            1523,
+            153
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "live heading or content text group",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1096,
+            200,
+            1434,
+            720
+          ],
+          "verdict": "extract",
+          "section_owner": "01-hero",
+          "asset_scope": "section",
+          "what": "Seated outdoor lifestyle subject, deterministic wider source crop",
+          "narrative_job": "Exact person in garden visual for 01-hero, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "01-hero-02-seated-person.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Display all 338x520 source pixels at natural aspect; maximum 338 CSS px wide. No object-cover or clip path over the subject. Existing scene edge still bounds the chair.",
+            "minimum_visible_fraction": "100% of this extracted source; no invented anatomy or scene extension.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png",
+            "source_box": [
+              1096,
+              200,
+              1434,
+              720
+            ],
+            "source_sha256": "a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c",
+            "asset_sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e"
+          },
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+        "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+        ],
+        "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+          ],
+          "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "02-private-orientation.png",
+      "bg": "#046cb4",
+      "section_owner": "02-private-orientation",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            81,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "02-private-orientation",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            455,
+            85,
+            1051,
+            257
+          ],
+          "verdict": "code",
+          "section_owner": "02-private-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            458,
+            405,
+            1015,
+            497
+          ],
+          "verdict": "code",
+          "section_owner": "02-private-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            458,
+            320,
+            1004,
+            373
+          ],
+          "verdict": "code",
+          "section_owner": "02-private-orientation",
+          "what": "live heading or content text group",
+          "build_note": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            392,
+            635,
+            1160,
+            799
+          ],
+          "verdict": "code",
+          "section_owner": "02-private-orientation",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+        "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+        "dom_ids": [
+          "private-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "03-concerns-and-goals.png",
+      "bg": "#f4f4f4",
+      "section_owner": "03-concerns-and-goals",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            41,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            132,
+            148,
+            612,
+            334
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "live information panel or navigation rail",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            134,
+            413,
+            645,
+            501
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "live heading or content text group",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            137,
+            612,
+            382,
+            683
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            135,
+            529,
+            519,
+            583
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "live heading or content text group",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            86,
+            112,
+            125,
+            380
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            632,
+            112,
+            671,
+            380
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            1160,
+            69,
+            1490,
+            445
+          ],
+          "verdict": "code",
+          "section_owner": "03-concerns-and-goals",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+        "source_sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1",
+        "dom_ids": [
+          "concerns-and-goals"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-what-to-expect.png",
+      "bg": "#1c242c",
+      "section_owner": "04-what-to-expect",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            629,
+            66,
+            1523,
+            773
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live information panel or navigation rail",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            138,
+            517,
+            698,
+            590
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            140,
+            427,
+            725,
+            488
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            1022,
+            191,
+            1299,
+            354
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            139,
+            331,
+            759,
+            397
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            524,
+            170,
+            818,
+            267
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "live heading or content text group",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            129,
+            170,
+            372,
+            247
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            139,
+            659,
+            379,
+            710
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            397,
+            170,
+            495,
+            246
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 10,
+          "box": [
+            651,
+            71,
+            835,
+            125
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 11,
+          "box": [
+            71,
+            109,
+            104,
+            288
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 12,
+          "box": [
+            847,
+            156,
+            878,
+            288
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        },
+        {
+          "id": 13,
+          "box": [
+            1098,
+            86,
+            1505,
+            648
+          ],
+          "verdict": "code",
+          "section_owner": "04-what-to-expect",
+          "what": "retired photographic aperture, replaced by code-native composition",
+          "build_note": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx"
+        }
+      ],
+      "implementation_deviation": "Approved frame photo slots revised for photo-role ownership: Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+        "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop right L-bracket paints across the first paragraph reading zone.",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          }
+        }
+      }
+    },
+    {
+      "frame": "05-faq.png",
+      "bg": "#041c34",
+      "section_owner": "05-faq",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            85,
+            1473,
+            757
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            622,
+            75,
+            1465,
+            419
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "live information panel or navigation rail",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            12,
+            801,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "live heading or content text group",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            879,
+            476,
+            1325,
+            547
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "live heading or content text group",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            747,
+            446,
+            849,
+            547
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            83,
+            72,
+            111,
+            253
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            528,
+            73,
+            555,
+            253
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            23,
+            497,
+            545,
+            678
+          ],
+          "verdict": "code",
+          "section_owner": "05-faq",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+        "source_sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta.png",
+      "bg": "#046cc4",
+      "section_owner": "06-booking-cta",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            100,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1236,
+            156,
+            1452,
+            389
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            1236,
+            445,
+            1452,
+            674
+          ],
+          "verdict": "code",
+          "section_owner": "06-booking-cta",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+        "source_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "07-medical-sources.png",
+      "bg": "#f4f4f4",
+      "section_owner": "07-medical-sources",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            866,
+            21,
+            1486,
+            476
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            50,
+            254,
+            823,
+            458
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            63,
+            98,
+            633,
+            227
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            1114,
+            100,
+            1428,
+            289
+          ],
+          "verdict": "code",
+          "section_owner": "07-medical-sources",
+          "what": "source-truth code-native successor to false premises photo",
+          "build_note": "Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+          "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+        "source_sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
+}

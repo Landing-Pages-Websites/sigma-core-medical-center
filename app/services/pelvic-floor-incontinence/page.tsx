@@ -8,7 +8,7 @@ import { PelvicBooking } from "@/components/interior/pelvic-floor-incontinence/b
 import { PelvicSources } from "@/components/interior/pelvic-floor-incontinence/sources";
 import "./page.css";
 
-export const metadata: Metadata = { title: "Pelvic Floor & Incontinence Care in Richmond, VA", description: "A private, respectful starting point for pelvic-floor and incontinence concerns in the Richmond area.", robots: { index: false, follow: true } };
+export const metadata: Metadata = { title: "Pelvic Floor & Incontinence Care in Richmond, VA", description: "A private overview of pelvic-floor and incontinence concerns in the Richmond area. Online scheduling is unavailable; explore current services.", robots: { index: false, follow: true } };
 
 export default function PelvicPage(): React.ReactElement {
   return <main className="b2 pelvic"><PelvicHero /><PelvicOrientation /><PelvicGoals /><PelvicExpect /><PelvicFaq /><PelvicBooking /><PelvicSources /></main>;

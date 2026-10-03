@@ -1,0 +1,15 @@
+{
+  "files": 73,
+  "findings": [
+    {
+      "file": "src/components/variant-b/hero.tsx",
+      "name": "HeroB",
+      "lines": 68
+    },
+    {
+      "file": "src/components/variant-b/site-footer.tsx",
+      "name": "SiteFooterB",
+      "lines": 47
+    }
+  ]
+}

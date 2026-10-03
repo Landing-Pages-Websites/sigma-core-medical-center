@@ -1,0 +1,236 @@
+.b3-guide-hero {
+  padding-top: 80px;
+}
+
+.b3-guide-hero > .b3-shell.b3-split {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  gap: clamp(48px, 6vw, 104px);
+  align-items: center;
+}
+
+.b3-guide-intro h1 {
+  max-width: 15ch;
+}
+
+.b3-guide-intro .b3-action {
+  margin-top: 24px;
+  background: #f7f6f3;
+  color: #101e33;
+}
+
+.b3-guide-intro .b3-action:hover {
+  background: #c7cbd0;
+}
+
+.b3-guide-intro .b3-status {
+  align-items: flex-start;
+  background: #182c43;
+  border-color: #8fa4b5;
+  margin-top: 28px;
+}
+
+.b3-guide-visual {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.b3-guide-stage {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+}
+
+.b3-guide-stage path {
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.b3-guide-stage-bracket { stroke: #849fb2; }
+.b3-guide-stage-step { stroke: #0877be; }
+
+.b3-guide-rail {
+  margin-top: 48px;
+}
+
+.b3-guide-rail .b3-shell {
+  min-height: 76px;
+}
+
+.b3-guide-summary {
+  padding-block: 64px 56px;
+}
+
+.b3-guide-summary .b3-split {
+  grid-template-columns: minmax(0, 1.06fr) minmax(0, .94fr);
+  align-items: start;
+}
+
+.b3-guide-summary .b3-status {
+  border-color: #8ed1f5;
+  background: rgba(7, 45, 77, .35);
+}
+
+.b3-guide-summary-right {
+  min-width: 0;
+}
+
+.b3-guide-source {
+  display: grid;
+  gap: 28px;
+  min-height: 208px;
+  padding: 32px;
+  border: 1px solid #9bd5f4;
+  border-left: 4px solid #c7cbd0;
+  background: #08629f;
+}
+
+.b3-guide-source > strong {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.b3-guide-source dl {
+  margin: 0;
+}
+
+.b3-guide-source dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 9px 0;
+  border-top: 1px solid #8bc6e7;
+  font-size: .96rem;
+}
+
+.b3-guide-source dt { font-weight: 600; }
+.b3-guide-source dd { margin: 0; }
+
+.b3-guide-summary .b3-dark-panel {
+  padding: 34px 36px;
+}
+
+.b3-guide-availability {
+  padding: 72px 0 56px;
+}
+
+.b3-guide-availability .b3-split {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+  align-items: center;
+}
+
+.b3-guide-availability .b3-reserved {
+  align-items: start;
+  text-align: left;
+  min-height: 228px;
+  padding: 42px;
+  border: 1px solid #a9b5bb;
+  border-left: 4px solid #0877be;
+  background: #eae9e5;
+}
+
+.b3-guide-availability .b3-reserved strong {
+  margin-top: 20px;
+}
+
+.b3-guide-availability .b3-reserved p {
+  max-width: 32ch;
+  line-height: 1.55;
+}
+
+.b3-guide-availability .b3-availability-foot {
+  margin-top: 32px;
+  padding: 24px 28px 24px 32px;
+  border-left: 4px solid #0877be;
+  border-top: 1px solid #b3bec3;
+  background: #eae9e5;
+}
+
+.b3-guide-availability .b3-availability-foot strong {
+  font-size: 1.15rem;
+}
+
+.b3-guide-availability .b3-availability-foot .b3-text-link {
+  margin-top: 0;
+}
+
+.b3-guide-privacy {
+  padding-block: 88px;
+}
+
+.b3-guide-privacy .b3-split {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  align-items: stretch;
+}
+
+.b3-guide-privacy-copy {
+  align-self: center;
+}
+
+.b3-guide-privacy-copy > p {
+  max-width: 48ch;
+  line-height: 1.62;
+}
+
+.b3-guide-privacy-caveat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 224px;
+  padding: 24px 32px;
+  border-left: 3px solid #0877be;
+  background: #27333c;
+}
+
+.b3-guide-privacy-caveat .b3-status {
+  display: block;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.b3-guide-privacy-caveat .b3-status strong {
+  font-size: 1.28rem;
+}
+
+.b3-guide-privacy-caveat .b3-text-link {
+  align-self: start;
+  margin-top: 24px;
+}
+
+.b3-guide-rail a,
+.b3-guide-summary .b3-text-link,
+.b3-guide-availability .b3-text-link,
+.b3-guide-privacy .b3-text-link {
+  min-height: 48px;
+}
+
+@media (max-width: 760px) {
+  .b3-guide-hero { padding-top: 32px; }
+  .b3-guide-hero > .b3-shell.b3-split,
+  .b3-guide-availability .b3-split,
+  .b3-guide-privacy .b3-split { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .b3-guide-summary .b3-split { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .b3-guide-hero > .b3-shell.b3-split { gap: 28px; }
+  .b3-guide-intro h1 { max-width: 12ch; }
+  .b3-guide-stage { width: min(72%, 252px); }
+  .b3-guide-rail { margin-top: 28px; }
+  .b3-guide-summary { padding-block: 52px 44px; }
+  .b3-guide-source { min-height: 0; }
+  .b3-guide-availability { padding-block: 56px 44px; }
+  .b3-guide-availability .b3-reserved { min-height: 200px; padding: 30px; }
+  .b3-guide-availability .b3-availability-foot { margin-top: 28px; }
+  .b3-guide-privacy { padding-block: 72px; }
+  .b3-guide-privacy-caveat { min-height: 0; padding: 28px; }
+  .b3-guide-hero p,
+  .b3-guide-summary p,
+  .b3-guide-availability p,
+  .b3-guide-privacy p,
+  .b3-guide-hero .b3-status span,
+  .b3-guide-summary .b3-status span,
+  .b3-guide-privacy .b3-status span { font-size: 1.125rem; line-height: 1.6; }
+  .b3-guide-intro .b3-status { margin-top: 20px; }
+  .b3-guide-source dl > div { font-size: 1.125rem; }
+}

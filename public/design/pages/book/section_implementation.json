@@ -2,97 +2,137 @@
   "version": 1,
   "sections": [
     {
+      "frame": "01-booking-hero",
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/book/hero.tsx",
       "content_source": "section_manifest.json#01-booking-hero",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cAppointment scheduling\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /book / 01-booking-hero; native design_refs/pages/book/refs/01-booking-hero.png sha256=488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30; owner src/components/batch-three/book/hero.tsx sha256=16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /book / 01-booking-hero; native design_refs/pages/book/refs/01-booking-hero.png sha256=488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30; owner src/components/batch-three/book/hero.tsx sha256=16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Booking explanation sits to left of a large outlined calendar integration aperture; thin facility photo strip rests at bottom. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 01-booking-hero whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /book / 01-booking-hero; native design_refs/pages/book/refs/01-booking-hero.png sha256=488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30; owner src/components/batch-three/book/hero.tsx sha256=16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 01-booking-hero type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /book / 01-booking-hero; native design_refs/pages/book/refs/01-booking-hero.png sha256=488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30; owner src/components/batch-three/book/hero.tsx sha256=16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 01-booking-hero and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /book / 01-booking-hero; native design_refs/pages/book/refs/01-booking-hero.png sha256=488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30; owner src/components/batch-three/book/hero.tsx sha256=16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "01-booking-hero"
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/hero.tsx",
+        "source_sha256": "16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b",
+        "dom_ids": [
+          "booking-hero",
+          "book-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id booking-hero and responsive container. Flat approved CSS token: ink #101E33. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use a section pseudo-element with background var(--action) and clip-path polygon(0 88.66%,41.08% 88.66%,100% 72.57%,100% 100%,0 100%) in a section-local overlay. Draw three aria-hidden electric-blue rectangles near lower-right, unequal heights 46:83:134 with equal width55 and baseline620 in the native coordinate system. Separate rectangles from the plane; these are not a chart. One live h1 contains Appointment scheduling; desktop preferred break after Appointment. Load Source Sans 3 800. Native observed first line x148,y144 with width668; preserve heavy open-countered scale, never use raster text. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 800; line-height: 1.04. This region is the second line of the same h1, not another heading. Source Sans 3 800 with near1.0\u20131.08 line-height; preferred scheduling on line2. Mobile 44\u201348px with a two-line measure. Live paragraph following the h1, exact Online booking is not yet available. Source Sans 3 600/700, silver #C7CBD0 or light on ink. Keep at least twice body hierarchy where desktop room allows; mobile26\u201328px. No badge, link or control role. Live paragraph from manifest in Source Sans 3 400, light on ink, at least18px, max measure about40 characters on mobile and wider desktop. It has no interaction or scroll button. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Inline decorative SVG with viewBox 0 0 1536 864, polyline points 1536,106 1364,106 1142,331 1329,516; fill none; silver stroke8 at native scale. aria-hidden, focusable=false, pointer-events:none. Crop only right-edge geometry. Do not close into a widget. Simple SVG path M129 112 H95 V371 H129 with electric stroke9, no fill. Anchor to the h1 group, not entire section height. On mobile scale to a 24px-wide bracket with3px stroke and text-safe gap.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
+      "frame": "02-gohighlevel-calendar",
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/book/calendar.tsx",
       "content_source": "section_manifest.json#02-gohighlevel-calendar",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cScheduling calendar\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /book / 02-gohighlevel-calendar; native design_refs/pages/book/refs/02-gohighlevel-calendar.png sha256=ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e; owner src/components/batch-three/book/calendar.tsx sha256=e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /book / 02-gohighlevel-calendar; native design_refs/pages/book/refs/02-gohighlevel-calendar.png sha256=ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e; owner src/components/batch-three/book/calendar.tsx sha256=e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Left blue explanation and skinny facility photo sit beside a large white calendar reserve on the right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 02-gohighlevel-calendar whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /book / 02-gohighlevel-calendar; native design_refs/pages/book/refs/02-gohighlevel-calendar.png sha256=ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e; owner src/components/batch-three/book/calendar.tsx sha256=e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 02-gohighlevel-calendar type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /book / 02-gohighlevel-calendar; native design_refs/pages/book/refs/02-gohighlevel-calendar.png sha256=ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e; owner src/components/batch-three/book/calendar.tsx sha256=e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 02-gohighlevel-calendar and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /book / 02-gohighlevel-calendar; native design_refs/pages/book/refs/02-gohighlevel-calendar.png sha256=ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e; owner src/components/batch-three/book/calendar.tsx sha256=e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115 at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "02-gohighlevel-calendar"
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/calendar.tsx",
+        "source_sha256": "e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115",
+        "dom_ids": [
+          "gohighlevel-calendar",
+          "book-calendar-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id gohighlevel-calendar and responsive container. Flat approved CSS token: action #0666A5. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use surface #F7F6F3 pseudo-element polygon(0 98.61%,31.12% 86.34%,100% 86.34%,100% 100%,0 100%) over action-blue section. Position in closing space only; adjacent privacy shares exact surface token. No texture or raster crop. Semantic a href=/services, exact Explore services label, separate decorative right-arrow SVG M0 12 H30 M19 1 L30 12 L19 23. Mineral fill with right angular end made by clip-path polygon(0 0,91% 0,100% 50%,91% 100%,0 100%); navy label Source Sans 3 700; minimum48px hit area. Clip only pseudo-element, not focus ring or text. Live h2 Scheduling calendar in Source Sans 3 700, preferred two-line desktop break; keep smaller than hero. This is a status section, no invented calendar widget. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live Source Sans 3 paragraph Contact is for status information only. directly below the Contact anchor with16\u201324px gap. Light on action-blue; coded minimum18px. No alternate channel or booking promise. Semantic a href=/contact, exact Contact & location status, underlined live text and trailing thin arrow; no filled card. Use Source Sans 3 600/700, light on action blue. Two-line label allowed on mobile; arrow in its own flex slot, min48px hit area. Live paragraph Calendar connection pending. below h2, Source Sans 3 400, light on action. No role button, tabindex, form or iframe; no animated loading indicator. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Live paragraph Browse service information. directly below Services anchor; keep its relationship separate from Contact link/caveat. Source Sans 3 400, light on action blue. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Draw three aria-hidden rectangles with mineral fill, about54x15 at(150,580),62x15 at(188,555),95x15 at(234,530). Keep no axis, labels or progress semantics. Add the separately thin open rule as described in frame supplemental recipe.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
+      "frame": "03-privacy-note",
       "implementation_kind": "bespoke",
       "implementation_owner": "src/components/batch-three/book/privacy.tsx",
       "content_source": "section_manifest.json#03-privacy-note",
       "asset_roles": [
-        "live, code-only integration status"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "The undefined heading and visitor-facing status follow the approved manifest; unverified operational claims are withheld."
+          "evidence": "PASS for the source-safe live content of \u201cPrivacy & legal information\u201d: manifest text, useful link/status roles and native frame agree with the owner and the independently reviewed unchanged section. This is copy fidelity, not medical, legal or operational readiness. /book / 03-privacy-note; native design_refs/pages/book/refs/03-privacy-note.png sha256=36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236; owner src/components/batch-three/book/privacy.tsx sha256=4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "imagery": {
           "status": "PASS",
-          "evidence": "undefined uses a live CSS panel rather than a misleading screenshot or invented calendar."
+          "evidence": "PASS for the intentional zero-raster section role: native frame and extraction plan call for live type and CSS/SVG, the owner has no raster, and independent review explicitly retains this code-native status narrative. No facility/person/guide/calendar illustration is missing. Geometry/tokens remain separately pending; shared header/footer imagery is outside this section. /book / 03-privacy-note; native design_refs/pages/book/refs/03-privacy-note.png sha256=36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236; owner src/components/batch-three/book/privacy.tsx sha256=4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. R2\u219217c8008 runtime delta is Services hero padding only; this owner is unchanged. Independent fidelity-r1-independent-mobile.md and fidelity-r1-independent-cross-viewport.md describe this route; fidelity-r2-independent-visual.md preserves their limited scope."
         },
         "composition": {
-          "status": "PASS",
-          "evidence": "The section retains Privacy and emergency boundaries on cream align left; a separate bordered booking panel lives at right. Copy and photograph remain separate DOM elements."
+          "status": "PENDING",
+          "evidence": "PENDING: compare 03-privacy-note whole-section grouping, focal dominance, quiet space and joins against its composition_map invariants at 1440/390 and fresh 1536x1024. Lower-edge coverage and a route KEEP do not certify every relationship or top bound. /book / 03-privacy-note; native design_refs/pages/book/refs/03-privacy-note.png sha256=36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236; owner src/components/batch-three/book/privacy.tsx sha256=4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "visual_treatment": {
-          "status": "PASS",
-          "evidence": "The undefined owner uses the approved navy, mineral, and action-blue roles with live keylines."
+          "status": "PENDING",
+          "evidence": "PENDING: review 03-privacy-note type scale/wrap, palette contrast, rule/step continuity and corner treatments at native capture scale with fonts loaded; record focus-visible/hover states for its actual links where present. No all-layer token or interaction verdict exists. /book / 03-privacy-note; native design_refs/pages/book/refs/03-privacy-note.png sha256=36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236; owner src/components/batch-three/book/privacy.tsx sha256=4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         },
         "responsive": {
-          "status": "PASS",
-          "evidence": "At widths below 760px the undefined section switches to a single-column reading order; served HTML has one H1, valid image responses, and no dead links. Browser screenshots unavailable."
+          "status": "PENDING",
+          "evidence": "PENDING: capture 03-privacy-note and its neighbours at current 1536x1024 plus 320/360 narrow mobile; verify source-safe order, visible content/crops and any control hit/focus states. Existing 1440x900/390x844 evidence does not cover these sizes. /book / 03-privacy-note; native design_refs/pages/book/refs/03-privacy-note.png sha256=36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236; owner src/components/batch-three/book/privacy.tsx sha256=4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf at 17c800884d24b7067fb25416e0fabff4ed7702d7. desktop_1440x900 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/desktop_1440x900/book-full.png sha256=c9b7f539c90ddb7bba663ed848e419c8060972411a631a6697481390c21294a6. mobile_390x844 f-r2 628d69f8591a817bb28fe40dd3594a45e34db786: site_convergence/captures/fidelity-r2/mobile_390x844/book-full.png sha256=323dd4f786658b86ecf0a6995edac0dd65cc193e0d8b64674405269932bdd380. Raster roles: no route raster; code-native narrative."
         }
       },
-      "frame": "03-privacy-note"
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/privacy.tsx",
+        "source_sha256": "4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf",
+        "dom_ids": [
+          "privacy-note",
+          "book-privacy-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id privacy-note and responsive container. Flat approved CSS token: surface #F7F6F3. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Live h2 Privacy & legal information in Source Sans 3 700 with preferred desktop line break after legal. Navy on mineral; native x175\u2013605. Keep below hero scale. Do not render policy titles as links. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live paragraph Privacy and legal information will be linked here when supplied and approved. Source Sans 3 400, charcoal on mineral, coded18px minimum and comfortable1.5\u20131.6 line-height; max about38\u201344ch. No invented legal/privacy claims. Static live p Content pending using actual Playfair Display 500; keep as the only serif counterpoint and below hero scale. Native x834,y345. Do not style as a button, warning or consent control. Implement the reviewed typography in CSS: font-family: \"Playfair Display\"; font-weight: 500; line-height: 1.2. Decorative SVG path M159 147 H127 V344 H159, electric stroke5, fill none. Anchor to title block with about24px text gap; on mobile3px stroke. No box around whole section.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
-  ]
+  ],
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
 }
