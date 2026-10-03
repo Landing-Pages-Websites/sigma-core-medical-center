@@ -45,7 +45,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
         }
       },
       "visual_repair_r1": {
@@ -126,7 +126,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
         }
       },
       "visual_repair_r1": {
@@ -215,23 +215,23 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+          "evidence": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+          "evidence": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+          "evidence": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+          "evidence": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+          "evidence": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
         }
       },
       "runtime_contract": {
@@ -241,12 +241,12 @@
           "what-to-expect"
         ],
         "runtime_assets": [],
-        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
         }
       },
       "visual_repair_r1": {
@@ -279,6 +279,41 @@
           }
         },
         "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop right L-bracket paints across the first paragraph reading zone.",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          }
+        }
       }
     },
     {
@@ -416,5 +451,10 @@
     "status": "PENDING",
     "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
     "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
   }
 }

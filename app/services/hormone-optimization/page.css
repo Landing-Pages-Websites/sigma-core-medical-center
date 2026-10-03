@@ -98,7 +98,7 @@
 }
 
 @media (min-width: 801px) {
-  .h-hero-grid { grid-template-columns: 55% 45%; min-height: 620px; }
+  .h-hero-grid { width: min(calc(100% - 64px), 1160px); grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; min-height: 0; }
   .h-hero h1 { max-width: 17ch !important; font-size: clamp(3.6rem, 4.6vw, 5.1rem); }
   .h-hero-points { width: 110%; position: relative; z-index: 2; }
   .h-hero-points span { min-height: 96px; padding: 24px 16px; background: var(--color-ink); clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%); }
@@ -137,6 +137,7 @@
 .h-orientation-aside { border-top: 4px solid var(--color-silver); clip-path: polygon(24px 0,100% 0,100% 100%,0 100%,0 24px); }
 .h-orientation-boundary a { padding-block: 12px; }
 @media (min-width: 801px) {
+  .h-hero .h-hero-photo { justify-self: start; }
   .h-hero-points { width: 100%; }
   .h-orientation-aside { margin-top: 96px; }
 }

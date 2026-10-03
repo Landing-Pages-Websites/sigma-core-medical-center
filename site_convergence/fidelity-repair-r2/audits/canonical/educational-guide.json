@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "status": "PASS",
+  "checks": {
+    "frame_contract": "PASS",
+    "asset_mapping": "PASS",
+    "source_references": "PASS",
+    "asset_role_reuse": "PASS",
+    "duplicate_visual_content": "PASS"
+  },
+  "issues": [],
+  "frame_contract": {
+    "manifest": [
+      "01-resource-hero",
+      "02-resource-summary",
+      "03-lead-form",
+      "04-privacy-note"
+    ],
+    "composition_map": [
+      "01-resource-hero",
+      "02-resource-summary",
+      "03-lead-form",
+      "04-privacy-note"
+    ],
+    "extraction_plan": [
+      "01-resource-hero",
+      "02-resource-summary",
+      "03-lead-form",
+      "04-privacy-note"
+    ],
+    "missing_composition": [],
+    "extra_composition": [],
+    "missing_extraction": [],
+    "extra_extraction": []
+  },
+  "asset_contract": {
+    "mapped_assets": [],
+    "shipped_assets": [],
+    "missing_assets": [],
+    "unmapped_assets": []
+  },
+  "source_scope": {
+    "mode": "routes",
+    "routes": [
+      "/",
+      "/services",
+      "/services/neuropathy",
+      "/services/pain-relief",
+      "/services/hormone-optimization",
+      "/services/pelvic-floor-incontinence",
+      "/services/regenerative-medicine",
+      "/about",
+      "/educational-guide",
+      "/book",
+      "/contact",
+      "/privacy",
+      "/notice-of-privacy-practices",
+      "/accessibility",
+      "/terms"
+    ],
+    "entries": [
+      "app/(batch-three)/about/page.tsx",
+      "app/(batch-three)/book/page.tsx",
+      "app/(batch-three)/contact/page.tsx",
+      "app/(batch-three)/educational-guide/page.tsx",
+      "app/(batch-three)/layout.tsx",
+      "app/(utility)/accessibility/page.tsx",
+      "app/(utility)/layout.tsx",
+      "app/(utility)/notice-of-privacy-practices/page.tsx",
+      "app/(utility)/privacy/page.tsx",
+      "app/(utility)/terms/page.tsx",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "app/robots.ts",
+      "app/services/hormone-optimization/page.tsx",
+      "app/services/layout.tsx",
+      "app/services/neuropathy/page.tsx",
+      "app/services/page.tsx",
+      "app/services/pain-relief/page.tsx",
+      "app/services/pelvic-floor-incontinence/page.tsx",
+      "app/services/regenerative-medicine/page.tsx",
+      "app/sitemap.ts"
+    ],
+    "reachable_sources": 117,
+    "unmatched_routes": [],
+    "excluded_image_sources": [
+      "src/components/variant-a/faq-location.tsx",
+      "src/components/variant-a/hero.tsx",
+      "src/components/variant-a/informed-path.tsx",
+      "src/components/variant-a/neuropathy.tsx",
+      "src/components/variant-a/place-of-care.tsx",
+      "src/components/variant-a/services.tsx",
+      "src/components/variant-a/site-footer.tsx",
+      "src/components/variant-a/two-ways.tsx"
+    ]
+  },
+  "implementation_contract": {
+    "production_images": [
+      {
+        "asset": "images/design/hormone-optimization/01-hero-01-man-writing.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/hormone-optimization/hero.tsx",
+            "line": 5,
+            "column": 908,
+            "url": "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/neuropathy/01-hero-01-person-walking.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/neuropathy/hero.tsx",
+            "line": 5,
+            "column": 757,
+            "url": "/images/design/neuropathy/01-hero-01-person-walking.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/pain-relief/back.tsx",
+            "line": 11,
+            "column": 29,
+            "url": "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/pain-relief/neck.tsx",
+            "line": 8,
+            "column": 369,
+            "url": "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+            "line": 6,
+            "column": 615,
+            "url": "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/services/02-neuropathy-feature-01-walking-figure.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/services/neuropathy.tsx",
+            "line": 15,
+            "column": 27,
+            "url": "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/design/services/03-service-navigation-01-active-couple.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/interior/services/navigation.tsx",
+            "line": 8,
+            "column": 265,
+            "url": "/images/design/services/03-service-navigation-01-active-couple.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/shared/logo.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/variant-b/hero.tsx",
+            "line": 43,
+            "column": 18,
+            "url": "/images/shared/logo.png"
+          },
+          {
+            "source_file": "src/components/variant-b/site-footer.tsx",
+            "line": 51,
+            "column": 20,
+            "url": "/images/shared/logo.png"
+          },
+          {
+            "source_file": "src/components/interior/interior-header.tsx",
+            "line": 8,
+            "column": 106,
+            "url": "/images/shared/logo.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/shared/reception-1.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/variant-b/hero.tsx",
+            "line": 83,
+            "column": 22,
+            "url": "/images/shared/reception-1.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/shared/waiting-room.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/variant-b/place-of-care.tsx",
+            "line": 61,
+            "column": 16,
+            "url": "/images/shared/waiting-room.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/variant-b/logo-core.png",
+        "occurrences": [
+          {
+            "source_file": "src/components/variant-b/place-of-care.tsx",
+            "line": 46,
+            "column": 14,
+            "url": "/images/variant-b/logo-core.png"
+          }
+        ]
+      },
+      {
+        "asset": "images/variant-b/walnut-texture.jpg",
+        "occurrences": [
+          {
+            "source_file": "src/components/variant-b/services.tsx",
+            "line": 35,
+            "column": 14,
+            "url": "/images/variant-b/walnut-texture.jpg"
+          },
+          {
+            "source_file": "src/components/variant-b/site-footer.tsx",
+            "line": 21,
+            "column": 14,
+            "url": "/images/variant-b/walnut-texture.jpg"
+          },
+          {
+            "source_file": "src/components/variant-b/site-footer.tsx",
+            "line": 37,
+            "column": 16,
+            "url": "/images/variant-b/walnut-texture.jpg"
+          },
+          {
+            "source_file": "src/components/variant-b/place-of-care.tsx",
+            "line": 28,
+            "column": 14,
+            "url": "/images/variant-b/walnut-texture.jpg"
+          },
+          {
+            "source_file": "src/components/variant-b/place-of-care.tsx",
+            "line": 72,
+            "column": 18,
+            "url": "/images/variant-b/walnut-texture.jpg"
+          }
+        ]
+      }
+    ],
+    "references": [],
+    "missing_references": [],
+    "unused_mapped_assets": [],
+    "allowed_unused_assets": [],
+    "unapproved_reuse": [],
+    "duplicate_visual_content": [],
+    "allowed_duplicate_content": []
+  }
+}

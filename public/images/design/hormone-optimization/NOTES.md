@@ -107,3 +107,9 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 
 - 01-hero: Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.
 - 02-visitor-orientation: Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.
+
+## Visual repair round 2 — browser evidence pending
+
+Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
+
+01-hero: At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.

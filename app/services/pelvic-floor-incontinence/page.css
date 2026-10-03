@@ -41,7 +41,6 @@
 .p-expect-main p { font-size: 1.125rem; }
 .p-expect .b2-text-link { display:inline-block; }
 .p-expect-privacy { position:relative; min-height:370px; display:flex; flex-direction:column; justify-content:end; padding:80px clamp(28px,4vw,56px) 46px; background:#101e33; border-left:4px solid #aab7c1; clip-path:polygon(13% 0,100% 0,100% 92%,88% 100%,0 100%,0 20%); }
-.p-expect-privacy::before { content:""; position:absolute; top:50px; right:46px; width:92px; height:92px; border-right:6px solid #0877be; border-bottom:6px solid #0877be; }
 .p-expect-privacy > p, .p-expect-privacy > a { position:relative; z-index:1; }
 .p-expect-privacy p { font-size:1.15rem; line-height:1.55; }
 .p-expect-bars { position:absolute; top:72px; left:22%; width:112px; height:32px; background:#0877be; clip-path:polygon(0 75%,25% 75%,25% 50%,50% 50%,50% 25%,75% 25%,75% 0,100% 0,100% 100%,0 100%); }
@@ -98,7 +97,6 @@
   .p-expect-grid { gap: 28px; }
   .p-expect-privacy { min-height: 300px; }
   .p-expect-bars { top: 38px; left: 24px; }
-  .p-expect-privacy::before { display: none; }
   .p-faq-grid { gap: 30px; }
   .p-faq-boundary { display: none; }
   .p-book-panel { padding: 24px; }

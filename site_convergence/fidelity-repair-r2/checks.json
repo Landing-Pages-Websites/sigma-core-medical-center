@@ -1,0 +1,25 @@
+{
+  "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+  "source_audits": "PASS 20/20; unchanged driver, canonical ROOT/design_refs/review_routes.json, no allow flags",
+  "strict_changed_review_sheets": "PASS 4/4",
+  "build": {
+    "status": "PASS",
+    "log_sha256": "fe7c356fe3fcecf7d95bd689d496719f906cc5189f173b1b99b8ebaa333db2d1"
+  },
+  "lint": {
+    "status": "PASS",
+    "log_sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+  },
+  "git_diff_check": "PASS",
+  "production_html": "PASS 15 routes, 318 links/fragments, 181 review-sheet images",
+  "protected_bytes": "PASS; preservation.json",
+  "archive_dependency_integrity": "PASS; integrity.json",
+  "exact_diff_review": "PASS; code-review.md and contract-diff-review.json",
+  "simplify": "Unavailable exit127; focused manual equivalent PASS",
+  "browser_evidence": "PENDING \u2014 browser screenshots unavailable \u2014 bootstrap gap; libnspr4.so",
+  "fidelity": "PENDING (295 layers)",
+  "qa": "PENDING (14 routes)",
+  "section_edge_clearance_audited": false,
+  "canonical_changed_files": 17,
+  "push_merge_deploy_task_registry_actions": "NONE"
+}

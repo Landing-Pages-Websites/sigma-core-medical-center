@@ -121,6 +121,8 @@
   .neuro-book h2 { max-width: 18ch; }
 }
 @media (max-width: 600px) {
+  .neuro-hero h1 { max-width: none; text-wrap: balance; }
+  .neuro-hero-day { white-space: nowrap; }
   .neuro-hero .neuro-hero-mobile-action { display: block; width: fit-content; margin-top: 20px; }
   .neuro-hero .neuro-hero-mobile-action .interior-action { min-height: 52px; }
   .neuro-hero .neuro-hero-steps > div { display: none; }

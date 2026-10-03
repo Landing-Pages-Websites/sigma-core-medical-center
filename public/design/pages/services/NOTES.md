@@ -90,3 +90,9 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 - 02-neuropathy-feature: Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.
 - 04-how-to-choose-next-step: Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.
 - 05-booking-cta: Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.
+
+## Visual repair round 2 — browser evidence pending
+
+Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
+
+04-how-to-choose-next-step: At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.

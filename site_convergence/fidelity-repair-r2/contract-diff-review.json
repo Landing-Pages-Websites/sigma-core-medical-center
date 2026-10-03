@@ -1,0 +1,380 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "public/design/pages/hormone-optimization/composition_map.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/content_groups/0",
+        "/frames/0/image_copy_relation",
+        "/frames/0/viewport_intent/desktop_composition",
+        "/frames/0/assembly/responsive_contract",
+        "/frames/0/focal_point/what",
+        "/frames/0/dominance",
+        "/frames/0/image_framing/recipe",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/frames/0/slot_contract/recipe",
+        "/frames/1/runtime_contract/styles/app/services/hormone-optimization/page.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/regions/0/build_note",
+        "/frames/0/regions/1/build_note",
+        "/frames/0/regions/2/build_note",
+        "/frames/0/regions/3/build_note",
+        "/frames/0/regions/4/build_note",
+        "/frames/0/regions/5/build_note",
+        "/frames/0/regions/5/presentation/crop_contract",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/frames/1/runtime_contract/styles/app/services/hormone-optimization/page.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/section_implementation.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/sections/0/visual_repair_r2",
+        "/sections/0/fidelity/visual_treatment/evidence",
+        "/sections/0/fidelity/responsive/evidence",
+        "/sections/0/fidelity/content/evidence",
+        "/sections/0/fidelity/composition/evidence",
+        "/sections/0/fidelity/imagery/evidence",
+        "/sections/0/runtime_contract/boundary",
+        "/sections/0/runtime_contract/recipe",
+        "/sections/0/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/sections/1/runtime_contract/styles/app/services/hormone-optimization/page.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/section_manifest.json",
+      "changed_fields": [
+        "/required_sections/0/visual_repair_r2",
+        "/required_sections/0/runtime_contract/boundary",
+        "/required_sections/0/runtime_contract/recipe",
+        "/required_sections/0/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/required_sections/0/imagery",
+        "/required_sections/1/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/visual_repair_r2"
+      ]
+    },
+    {
+      "path": "public/design/pages/neuropathy/composition_map.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/content_groups/0",
+        "/frames/0/image_copy_relation",
+        "/frames/0/viewport_intent/desktop_composition",
+        "/frames/0/assembly/responsive_contract",
+        "/frames/0/focal_point/what",
+        "/frames/0/dominance",
+        "/frames/0/image_framing/recipe",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/source_sha256",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/0/slot_contract/recipe",
+        "/frames/1/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/2/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/5/runtime_contract/styles/app/services/neuropathy/neuropathy.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/neuropathy/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/regions/0/build_note",
+        "/frames/0/regions/1/build_note",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/source_sha256",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/1/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/2/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/5/runtime_contract/styles/app/services/neuropathy/neuropathy.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/neuropathy/section_implementation.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/sections/0/visual_repair_r2",
+        "/sections/0/fidelity/visual_treatment/evidence",
+        "/sections/0/fidelity/responsive/evidence",
+        "/sections/0/fidelity/content/evidence",
+        "/sections/0/fidelity/composition/evidence",
+        "/sections/0/fidelity/imagery/evidence",
+        "/sections/0/runtime_contract/source_sha256",
+        "/sections/0/runtime_contract/boundary",
+        "/sections/0/runtime_contract/recipe",
+        "/sections/0/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/sections/1/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/sections/2/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/sections/5/runtime_contract/styles/app/services/neuropathy/neuropathy.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/neuropathy/section_manifest.json",
+      "changed_fields": [
+        "/required_sections/0/visual_repair_r2",
+        "/required_sections/0/runtime_contract/source_sha256",
+        "/required_sections/0/runtime_contract/boundary",
+        "/required_sections/0/runtime_contract/recipe",
+        "/required_sections/0/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/required_sections/0/imagery",
+        "/required_sections/1/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/required_sections/2/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/required_sections/5/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/visual_repair_r2"
+      ]
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/composition_map.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/1/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/3/content_groups/0",
+        "/frames/3/image_copy_relation",
+        "/frames/3/viewport_intent/desktop_composition",
+        "/frames/3/assembly/responsive_contract",
+        "/frames/3/focal_point/what",
+        "/frames/3/dominance",
+        "/frames/3/image_framing/recipe",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/3/slot_contract/recipe"
+      ]
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/1/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/3/regions/0/build_note",
+        "/frames/3/regions/1/build_note",
+        "/frames/3/regions/2/build_note",
+        "/frames/3/regions/3/build_note",
+        "/frames/3/regions/4/build_note",
+        "/frames/3/regions/5/build_note",
+        "/frames/3/regions/6/build_note",
+        "/frames/3/regions/7/build_note",
+        "/frames/3/regions/8/build_note",
+        "/frames/3/regions/9/build_note",
+        "/frames/3/regions/10/build_note",
+        "/frames/3/regions/11/build_note",
+        "/frames/3/regions/12/build_note",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/section_implementation.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/sections/0/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/sections/1/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/sections/3/visual_repair_r2",
+        "/sections/3/fidelity/visual_treatment/evidence",
+        "/sections/3/fidelity/responsive/evidence",
+        "/sections/3/fidelity/content/evidence",
+        "/sections/3/fidelity/composition/evidence",
+        "/sections/3/fidelity/imagery/evidence",
+        "/sections/3/runtime_contract/boundary",
+        "/sections/3/runtime_contract/recipe",
+        "/sections/3/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/section_manifest.json",
+      "changed_fields": [
+        "/required_sections/0/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/required_sections/1/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/required_sections/3/visual_repair_r2",
+        "/required_sections/3/runtime_contract/boundary",
+        "/required_sections/3/runtime_contract/recipe",
+        "/required_sections/3/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/required_sections/3/imagery",
+        "/visual_repair_r2"
+      ]
+    },
+    {
+      "path": "public/design/pages/services/composition_map.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/1/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/3/content_groups/0",
+        "/frames/3/image_copy_relation",
+        "/frames/3/viewport_intent/desktop_composition",
+        "/frames/3/assembly/responsive_contract",
+        "/frames/3/focal_point/what",
+        "/frames/3/dominance",
+        "/frames/3/image_framing/recipe",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/3/slot_contract/recipe",
+        "/frames/4/runtime_contract/styles/app/services/source-truth.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/services/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/1/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/3/regions/0/build_note",
+        "/frames/3/regions/1/build_note",
+        "/frames/3/regions/2/build_note",
+        "/frames/3/regions/3/build_note",
+        "/frames/3/regions/4/build_note",
+        "/frames/3/regions/5/build_note",
+        "/frames/3/regions/6/build_note",
+        "/frames/3/regions/7/build_note",
+        "/frames/3/regions/8/build_note",
+        "/frames/3/regions/9/build_note",
+        "/frames/3/regions/10/build_note",
+        "/frames/3/regions/11/build_note",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/4/runtime_contract/styles/app/services/source-truth.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/services/section_implementation.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/sections/0/runtime_contract/styles/app/services/source-truth.css",
+        "/sections/1/runtime_contract/styles/app/services/source-truth.css",
+        "/sections/3/visual_repair_r2",
+        "/sections/3/fidelity/visual_treatment/evidence",
+        "/sections/3/fidelity/responsive/evidence",
+        "/sections/3/fidelity/content/evidence",
+        "/sections/3/fidelity/composition/evidence",
+        "/sections/3/fidelity/imagery/evidence",
+        "/sections/3/runtime_contract/boundary",
+        "/sections/3/runtime_contract/recipe",
+        "/sections/3/runtime_contract/styles/app/services/source-truth.css",
+        "/sections/4/runtime_contract/styles/app/services/source-truth.css"
+      ]
+    },
+    {
+      "path": "public/design/pages/services/section_manifest.json",
+      "changed_fields": [
+        "/required_sections/0/runtime_contract/styles/app/services/source-truth.css",
+        "/required_sections/1/runtime_contract/styles/app/services/source-truth.css",
+        "/required_sections/3/visual_repair_r2",
+        "/required_sections/3/content/body_direction",
+        "/required_sections/3/runtime_contract/boundary",
+        "/required_sections/3/runtime_contract/recipe",
+        "/required_sections/3/runtime_contract/styles/app/services/source-truth.css",
+        "/required_sections/3/imagery",
+        "/required_sections/4/runtime_contract/styles/app/services/source-truth.css",
+        "/visual_repair_r2"
+      ]
+    },
+    {
+      "path": "public/images/design/hormone-optimization/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/regions/0/build_note",
+        "/frames/0/regions/1/build_note",
+        "/frames/0/regions/2/build_note",
+        "/frames/0/regions/3/build_note",
+        "/frames/0/regions/4/build_note",
+        "/frames/0/regions/5/build_note",
+        "/frames/0/regions/5/presentation/crop_contract",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/hormone-optimization/page.css",
+        "/frames/1/runtime_contract/styles/app/services/hormone-optimization/page.css"
+      ]
+    },
+    {
+      "path": "public/images/design/neuropathy/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/regions/0/build_note",
+        "/frames/0/regions/1/build_note",
+        "/frames/0/visual_repair_r2",
+        "/frames/0/runtime_contract/source_sha256",
+        "/frames/0/runtime_contract/boundary",
+        "/frames/0/runtime_contract/recipe",
+        "/frames/0/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/1/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/2/runtime_contract/styles/app/services/neuropathy/neuropathy.css",
+        "/frames/5/runtime_contract/styles/app/services/neuropathy/neuropathy.css"
+      ]
+    },
+    {
+      "path": "public/images/design/pelvic-floor-incontinence/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/1/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css",
+        "/frames/3/regions/0/build_note",
+        "/frames/3/regions/1/build_note",
+        "/frames/3/regions/2/build_note",
+        "/frames/3/regions/3/build_note",
+        "/frames/3/regions/4/build_note",
+        "/frames/3/regions/5/build_note",
+        "/frames/3/regions/6/build_note",
+        "/frames/3/regions/7/build_note",
+        "/frames/3/regions/8/build_note",
+        "/frames/3/regions/9/build_note",
+        "/frames/3/regions/10/build_note",
+        "/frames/3/regions/11/build_note",
+        "/frames/3/regions/12/build_note",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/pelvic-floor-incontinence/page.css"
+      ]
+    },
+    {
+      "path": "public/images/design/services/extraction_plan.json",
+      "changed_fields": [
+        "/visual_repair_r2",
+        "/frames/0/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/1/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/3/regions/0/build_note",
+        "/frames/3/regions/1/build_note",
+        "/frames/3/regions/2/build_note",
+        "/frames/3/regions/3/build_note",
+        "/frames/3/regions/4/build_note",
+        "/frames/3/regions/5/build_note",
+        "/frames/3/regions/6/build_note",
+        "/frames/3/regions/7/build_note",
+        "/frames/3/regions/8/build_note",
+        "/frames/3/regions/9/build_note",
+        "/frames/3/regions/10/build_note",
+        "/frames/3/regions/11/build_note",
+        "/frames/3/visual_repair_r2",
+        "/frames/3/runtime_contract/boundary",
+        "/frames/3/runtime_contract/recipe",
+        "/frames/3/runtime_contract/styles/app/services/source-truth.css",
+        "/frames/4/runtime_contract/styles/app/services/source-truth.css"
+      ]
+    }
+  ]
+}

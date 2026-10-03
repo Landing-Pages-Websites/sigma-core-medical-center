@@ -25,13 +25,13 @@
         "runtime_assets": [
           "/images/design/hormone-optimization/01-hero-01-man-writing.png"
         ],
-        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source."
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
       },
       "focal_point": {
-        "what": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+        "what": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
         "where": "section-owned live layout"
       },
-      "dominance": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+      "dominance": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
       "eye_path": [
         "live heading",
         "section-specific narrative groups",
@@ -44,7 +44,7 @@
         "Keep a dark buffer above the three utility tiles and beside the photo."
       ],
       "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
-      "image_copy_relation": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+      "image_copy_relation": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
       "assembly": {
         "profile": "anchored-art",
         "surface": "Existing brand CSS fields",
@@ -54,13 +54,13 @@
           "live semantic content",
           "aria-hidden geometric accents"
         ],
-        "responsive_contract": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+        "responsive_contract": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
         "seam_contract": [
           "Preserve local section rhythm; formal edge review pending."
         ]
       },
       "content_groups": [
-        "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source."
+        "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -68,7 +68,7 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+        "desktop_composition": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
         "must_be_simultaneously_visible": [
           "heading",
           "primary narrative group"
@@ -93,7 +93,7 @@
         "runtime_assets": [
           "/images/design/hormone-optimization/01-hero-01-man-writing.png"
         ],
-        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source."
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
       },
       "slot_contracts": [
         {
@@ -110,12 +110,12 @@
         "runtime_assets": [
           "/images/design/hormone-optimization/01-hero-01-man-writing.png"
         ],
-        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
         "styles": {
-          "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
         }
       },
       "visual_repair_r1": {
@@ -152,6 +152,45 @@
           }
         },
         "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop source-bounded writer is isolated from copy by a broad empty grid gap.",
+        "before": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
+          }
+        }
       }
     },
     {
@@ -256,7 +295,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
         }
       },
       "visual_repair_r1": {
@@ -815,5 +854,10 @@
     "status": "PENDING",
     "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
     "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
   }
 }

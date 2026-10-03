@@ -181,7 +181,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
       },
       "visual_repair_r1": {
@@ -245,7 +245,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
       },
       "visual_repair_r1": {
@@ -321,10 +321,10 @@
       "job": "Help uncertain visitors choose booking rather than self-diagnosing from marketing content.",
       "content": {
         "headline": "How to choose your next step",
-        "body_direction": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+        "body_direction": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
         "availability": "Online scheduling is unavailable. No appointment can be confirmed here."
       },
-      "imagery": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+      "imagery": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
       "internal_links": [
         "/book",
         "/terms"
@@ -337,12 +337,12 @@
           "how-it-works"
         ],
         "runtime_assets": [],
-        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
         "styles": {
-          "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
       },
       "visual_repair_r1": {
@@ -375,6 +375,41 @@
           }
         },
         "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile unavailable-booking disclosure escapes the fixed-height blue field.",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+          }
+        }
       }
     },
     {
@@ -403,7 +438,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
         }
       },
       "visual_repair_r1": {
@@ -565,5 +600,10 @@
     "status": "PENDING",
     "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
     "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
   }
 }

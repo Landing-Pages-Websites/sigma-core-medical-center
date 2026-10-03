@@ -149,10 +149,12 @@
   .service-neuro-other { padding: 24px 16px 40px; }
   .service-neuro-other a { min-height: 104px; font-size: .93rem; }
   .service-hero-rail > a { padding: 16px; gap: 12px; }
-  .service-choose-cta { right: 16px; max-width: calc(100% - 32px); }
+  .service-choose-media { display: grid; gap: 16px; min-height: 0; padding-bottom: 24px; }
+  .service-choose-media::before { content: ""; position: absolute; inset: 0; background: linear-gradient(145deg, #122d49, #0e568b 75%, #103657); clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 0 160px); pointer-events: none; }
+  .service-choose-cta { position: relative; right: auto; bottom: auto; justify-self: end; margin-right: 16px; max-width: calc(100% - 32px); }
   .service-service-list article { grid-template-columns: minmax(0, 1fr) 44px; }
   .service-service-list article > div { padding: 20px 18px; }
-  .service-choose-path { height: 300px; padding: 35px 6% 75px 14%; }
+  .service-choose-path { position: relative; height: auto; padding: 40px 16px 0 24%; background: none; clip-path: none; }
   .service-choose-path span { min-height: 48px; font-size: .96rem; }
   .service-book-direction { width: 82%; height: 128px; margin-left: auto; }
 }

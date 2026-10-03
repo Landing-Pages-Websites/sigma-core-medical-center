@@ -109,3 +109,9 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 - 01-hero: Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.
 - 02-private-orientation: Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.
 - 04-what-to-expect: Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.
+
+## Visual repair round 2 — browser evidence pending
+
+Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
+
+04-what-to-expect: Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.

@@ -107,3 +107,9 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 - 02-visitor-orientation: Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.
 - 03-goals-and-decision-factors: Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.
 - 06-booking-cta: Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.
+
+## Visual repair round 2 — browser evidence pending
+
+Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
+
+01-hero: At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.
