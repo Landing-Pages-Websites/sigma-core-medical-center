@@ -113,3 +113,13 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
 
 01-hero: At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services/hormone-optimization`; 7 section contracts; 0 bounded fidelity layers PASS and 35 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.
+
+- `06-booking-cta`: Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.

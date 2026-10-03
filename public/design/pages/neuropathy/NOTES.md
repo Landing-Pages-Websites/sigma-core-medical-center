@@ -113,3 +113,11 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
 
 01-hero: At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services/neuropathy`; 7 section contracts; 0 bounded fidelity layers PASS and 35 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.

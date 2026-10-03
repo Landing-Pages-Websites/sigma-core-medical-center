@@ -96,3 +96,13 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
 
 04-how-to-choose-next-step: At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services`; 5 section contracts; 0 bounded fidelity layers PASS and 25 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.
+
+- `01-hero`: Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.

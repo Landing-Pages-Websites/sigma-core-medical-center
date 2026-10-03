@@ -1,0 +1,74 @@
+[
+  {
+    "route": "/services",
+    "section": "01-hero",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/services/hero.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+    "after": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  },
+  {
+    "route": "/services/pain-relief",
+    "section": "07-faq",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/pain-relief/faq.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+    "after": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  },
+  {
+    "route": "/services/hormone-optimization",
+    "section": "06-booking-cta",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/hormone-optimization/booking.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+    "after": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  },
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "section": "03-concerns-and-goals",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Build the concerns and goals section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this concerns and goals content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the concerns and goals horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this concerns and goals panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated reception with a dark, angled question field containing three real appointment-preparation prompts and a non-diagnostic note. Keep the left heading, daily-life concerns and booking action; render numbers, dividers and step bars with CSS.",
+    "after": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  },
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "section": "05-faq",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Remove the fabricated lounge. In the left editorial column, place a compact 01–04 question count and live boundary statement; keep the four FAQ answers, clinical-review note and related-care links in the right column. Use brand keylines, never a decorative photo slot.",
+    "after": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  },
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "section": "06-booking-cta",
+    "decision": "replace-existing",
+    "scope": "Working-contract description only; runtime and all reference/raster bytes unchanged.",
+    "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+    "owner": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+    "finding": "Active recipe omitted current spacing or described absent UI/booking behavior.",
+    "before": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the false reception frame with one live booking-status stage: online scheduling is being prepared, approved details are pending, and /services is a working secondary link. Keep the left primary booking action and caveat; CSS supplies the clipped navy field. Remove the false lounge frame and its second media slot. The status stage uses the former right-side visual area as one continuous information region, with a measured CSS corner and no empty aperture or invented premises.",
+    "after": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+    "reason": "Keep the same orientation, preparation or truthful status narrative in the current code-native successor. No documentary approval or visual PASS follows from the bookkeeping correction."
+  }
+]

@@ -410,15 +410,15 @@
       "name": "booking-CTA",
       "job": "Offer one measured action to visitors ready for a clinical conversation.",
       "content": {
-        "headline": "Booking Cta",
-        "body_direction": "Invite booking to discuss goals and questions; do not imply a prescription or treatment outcome.",
-        "cta": "Book an Appointment"
+        "headline": "Booking status",
+        "body_direction": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+        "runtime_copy_precedence": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
       },
-      "imagery": "Deep navy brand field. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
       "internal_links": [
-        "/book"
+        "/services"
       ],
-      "cta": "Book an Appointment",
+      "cta": "",
       "runtime_contract": {
         "source_component": "src/components/interior/hormone-optimization/booking.tsx",
         "source_sha256": "e98dd3fb5c211b8236579a7122739c471b50b95277e23d2d53a699da28f8767c",
@@ -426,7 +426,7 @@
           "form"
         ],
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

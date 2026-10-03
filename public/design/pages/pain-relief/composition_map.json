@@ -778,13 +778,13 @@
       "slot_contract": {
         "container": "Section-owned CSS grid",
         "runtime_assets": [],
-        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image."
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       },
       "focal_point": {
-        "what": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "what": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "where": "section-owned live layout"
       },
-      "dominance": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+      "dominance": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
       "eye_path": [
         "live heading",
         "section-specific narrative groups",
@@ -794,10 +794,10 @@
         "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
-        "Preserve cream breathing space around the left FAQ heading."
+        "Keep the navy gap between the introductory scope/source group and the four always-visible answers; separate the preparation link below the answers."
       ],
       "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
-      "image_copy_relation": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+      "image_copy_relation": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
       "assembly": {
         "profile": "code-first",
         "surface": "Existing brand CSS fields",
@@ -806,13 +806,13 @@
           "live semantic content",
           "aria-hidden geometric accents"
         ],
-        "responsive_contract": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "responsive_contract": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "seam_contract": [
           "Preserve local section rhythm; formal edge review pending."
         ]
       },
       "content_groups": [
-        "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image."
+        "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -820,7 +820,7 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "desktop_composition": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "must_be_simultaneously_visible": [
           "heading",
           "primary narrative group"
@@ -833,7 +833,7 @@
       "invariants": [
         "Live semantic content",
         "No documentary inference",
-        "Preserve supported lifestyle subject/crop"
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -843,7 +843,7 @@
       "image_framing": {
         "ownership_model": "independent-layers",
         "runtime_assets": [],
-        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image."
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       },
       "slot_contracts": [],
       "runtime_contract": {
@@ -853,7 +853,7 @@
           "faq"
         ],
         "runtime_assets": [],
-        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

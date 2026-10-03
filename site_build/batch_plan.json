@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "kind": "inventory-reconciliation",
+  "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+  "main_history_ref": "refs/remotes/origin/main",
+  "main_history_sha": "7339ef01b06cbf15aac3c4c913248597c659504f",
+  "scope": "Ordered reconstruction of already merged initial build groups from preserved local main history. Later repairs remain in that history. No fetch, ref rewrite, merge, push or deployment. PR40 remains controller-owned draft; this record does not claim it is merged.",
+  "batches": [
+    {
+      "order": 1,
+      "slugs": [
+        "services",
+        "neuropathy",
+        "pain-relief"
+      ],
+      "routes": [
+        "/services",
+        "/services/neuropathy",
+        "/services/pain-relief"
+      ],
+      "historical_pr": 24,
+      "historical_main_commit": "c7d03866a5d886005dbcc8854b1d7be80e5d6163",
+      "historical_subject": "Build Direction B services, neuropathy, and pain relief pages (#24)",
+      "status": "HISTORICAL_BATCH_MERGED_CURRENT_CANDIDATE_PENDING"
+    },
+    {
+      "order": 2,
+      "slugs": [
+        "hormone-optimization",
+        "pelvic-floor-incontinence",
+        "regenerative-medicine"
+      ],
+      "routes": [
+        "/services/hormone-optimization",
+        "/services/pelvic-floor-incontinence",
+        "/services/regenerative-medicine"
+      ],
+      "historical_pr": 26,
+      "historical_main_commit": "8fce33bbe39c7bfebcc1c9520358a4dde2faa891",
+      "historical_subject": "Build three consultation service interiors (#26)",
+      "status": "HISTORICAL_BATCH_MERGED_CURRENT_CANDIDATE_PENDING"
+    },
+    {
+      "order": 3,
+      "slugs": [
+        "about",
+        "educational-guide",
+        "book",
+        "contact"
+      ],
+      "routes": [
+        "/about",
+        "/educational-guide",
+        "/book",
+        "/contact"
+      ],
+      "historical_pr": 27,
+      "historical_main_commit": "51058f4a8dd72b46cb7fc6928caf58d5ad67ccb9",
+      "historical_subject": "Build Sigma Core about, guide, booking, and contact routes (#27)",
+      "status": "HISTORICAL_BATCH_MERGED_CURRENT_CANDIDATE_PENDING"
+    },
+    {
+      "order": 4,
+      "slugs": [
+        "privacy",
+        "notice-of-privacy-practices",
+        "accessibility",
+        "terms"
+      ],
+      "routes": [
+        "/privacy",
+        "/notice-of-privacy-practices",
+        "/accessibility",
+        "/terms"
+      ],
+      "historical_pr": 28,
+      "historical_main_commit": "4fc7d950c86079bc3871a03c5ddc9c6b27d233f6",
+      "historical_subject": "Add gated utility documents and synchronize approved routes (#28)",
+      "status": "HISTORICAL_BATCH_MERGED_CURRENT_CANDIDATE_PENDING"
+    }
+  ]
+}

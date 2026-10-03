@@ -828,7 +828,7 @@
           "verdict": "code",
           "section_owner": "07-faq",
           "what": "mixed semantic layout and CSS field; independent photos split below",
-          "build_note": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
           "source_component": "src/components/interior/pain-relief/faq.tsx"
         },
         {
@@ -842,7 +842,7 @@
           "verdict": "code",
           "section_owner": "07-faq",
           "what": "live heading or content text group",
-          "build_note": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
           "source_component": "src/components/interior/pain-relief/faq.tsx"
         },
         {
@@ -856,7 +856,7 @@
           "verdict": "code",
           "section_owner": "07-faq",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
           "source_component": "src/components/interior/pain-relief/faq.tsx"
         },
         {
@@ -870,7 +870,7 @@
           "verdict": "code",
           "section_owner": "07-faq",
           "what": "Live FAQ scope text, source link and bracket geometry replace the false clinic interior.",
-          "build_note": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
           "source_component": "src/components/interior/pain-relief/faq.tsx"
         }
       ],
@@ -881,7 +881,7 @@
           "faq"
         ],
         "runtime_assets": [],
-        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

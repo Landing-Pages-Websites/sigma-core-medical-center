@@ -132,3 +132,13 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 - 04-low-back-concerns: Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.
 - 05-neck-concerns: Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.
 - 09-medical-sources: Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services/pain-relief`; 9 section contracts; 0 bounded fidelity layers PASS and 45 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.
+
+- `07-faq`: Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.

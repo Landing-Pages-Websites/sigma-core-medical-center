@@ -1,0 +1,16 @@
+[
+  {
+    "canonical_raw_log": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/section-fidelity-closure-r1/build.log",
+    "canonical_raw_sha256": "950413d989a7d1316755a9074acaed205518f17bc3de902f8497bed91ecdc425",
+    "repository_log": "site_build/section-fidelity-closure-r1/build.log",
+    "repository_sha256": "f8438010ea2586fec4a59522b1e600085aeaa04154027fdf332a28bf0fa1df4c",
+    "transformation": "Only trailing whitespace and extra blank EOF removed from repository copy; raw canonical log preserved."
+  },
+  {
+    "canonical_raw_log": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/section-fidelity-closure-r1/lint.log",
+    "canonical_raw_sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c",
+    "repository_log": "site_build/section-fidelity-closure-r1/lint.log",
+    "repository_sha256": "205b975ac5d1ed823c2d76455e9582bb6d5d6a2fbba347bd4348f439c9b7693e",
+    "transformation": "Only trailing whitespace and extra blank EOF removed from repository copy; raw canonical log preserved."
+  }
+]

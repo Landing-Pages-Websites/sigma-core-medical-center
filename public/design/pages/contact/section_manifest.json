@@ -10,7 +10,7 @@
     "publication": {
       "status": "operational-details-gated",
       "no_publication_authorization": true,
-      "current_source_note": "Contact currently has no explicit robots override. This candidate does not change source or robots. /book and legal routes remain noindex, follow and readiness-gated."
+      "current_source_note": "At SHA17c8008, app/(batch-three)/contact/page.tsx explicitly sets robots index:false, follow:true. app/sitemap.ts excludes /contact from search publication while public/route-manifest.json retains it for review. Operational details remain gated."
     }
   },
   "brand": {

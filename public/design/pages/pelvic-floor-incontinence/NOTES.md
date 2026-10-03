@@ -115,3 +115,17 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.
 
 04-what-to-expect: Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services/pelvic-floor-incontinence`; 7 section contracts; 0 bounded fidelity layers PASS and 35 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.
+
+- `03-concerns-and-goals`: Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.
+
+- `05-faq`: Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.
+
+- `06-booking-cta`: Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.

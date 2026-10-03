@@ -18,7 +18,7 @@
           "verdict": "code",
           "section_owner": "01-hero",
           "what": "mixed semantic layout and CSS field; independent photos split below",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "source_component": "src/components/interior/services/hero.tsx"
         },
         {
@@ -32,7 +32,7 @@
           "verdict": "code",
           "section_owner": "01-hero",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "source_component": "src/components/interior/services/hero.tsx"
         },
         {
@@ -46,7 +46,7 @@
           "verdict": "code",
           "section_owner": "01-hero",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "source_component": "src/components/interior/services/hero.tsx"
         },
         {
@@ -60,7 +60,7 @@
           "verdict": "code",
           "section_owner": "01-hero",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "source_component": "src/components/interior/services/hero.tsx"
         },
         {
@@ -74,7 +74,7 @@
           "verdict": "code",
           "section_owner": "01-hero",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "source_component": "src/components/interior/services/hero.tsx"
         },
         {
@@ -89,7 +89,7 @@
           "section_owner": "01-hero",
           "what": "service-direction field",
           "narrative_job": "Visual direction for choosing a service, without implying a photographed premises.",
-          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
           "owned_raster_count": 0,
           "source_reference": {
             "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/01-hero.png",
@@ -112,12 +112,13 @@
           "trust-bar"
         ],
         "runtime_assets": [],
-        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33",
+          "app/services/interior.css": "135d2f17b1507aef229eef3f7e3d8a547b4c74ab7dc3fd26595c9b68f16eb8fc"
         }
       },
       "visual_repair_r1": {

@@ -104,3 +104,11 @@ Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh
 
 - 03-questions-for-a-consultation: Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.
 - 04-decision-factors: Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.
+
+## Working-contract evidence reconciliation — SHA17c8008
+
+This addendum supersedes stale active recipe descriptions below/above only where listed; archived before/after decisions and native frames remain evidence. No runtime or image pixels changed. Current route: `/services/regenerative-medicine`; 7 section contracts; 0 bounded fidelity layers PASS and 35 PENDING.
+
+Content/imagery PASS, where present, combines exact source/native roles with independent 1440/390 review and capture identity. It is not all-layer, documentary, medical, legal, edge, publication or site approval. Current 1536 and narrow-mobile proof remains missing. All route edge flags remain false and QA PENDING.
+
+Canonical evidence: `ROOT/site_build/section-fidelity-closure-r1.md`; versioned mirror: `site_build/section-fidelity-closure-r1.md`. Complete per-section hashes, image roles, layer evidence and next actions are in `site_build/section-fidelity-closure-r1/section-evidence.json`.

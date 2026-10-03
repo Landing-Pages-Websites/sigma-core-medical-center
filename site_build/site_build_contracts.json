@@ -14,18 +14,28 @@
       "assets": [
         {
           "path": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
-          "section_owner": "02-neuropathy-feature.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "02-neuropathy-feature",
+          "narrative_job": "Exact walking figure visual for 02-neuropathy-feature, not a staff or outcome representation",
           "reuse_intent": null
         },
         {
           "path": "public/images/design/services/03-service-navigation-01-active-couple.png",
-          "section_owner": "03-service-navigation.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "03-service-navigation",
+          "narrative_job": "Exact active couple visual for 03-service-navigation, not a staff or outcome representation",
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance. Services r2 full image predates changed hero padding. Current r3 hero seam is fresh; rest identity follows the one-file runtime delta, not a new full-page r3 image.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/services/neuropathy": {
       "design_refs_approved": true,
@@ -41,12 +51,22 @@
       "assets": [
         {
           "path": "public/images/design/neuropathy/01-hero-01-person-walking.png",
-          "section_owner": "01-hero.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact person walking visual for 01-hero, not a staff or outcome representation",
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/services/pain-relief": {
       "design_refs_approved": true,
@@ -62,18 +82,28 @@
       "assets": [
         {
           "path": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
-          "section_owner": "04-low-back-concerns.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "04-low-back-concerns",
+          "narrative_job": "Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation",
           "reuse_intent": null
         },
         {
           "path": "public/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
-          "section_owner": "05-neck-concerns.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "05-neck-concerns",
+          "narrative_job": "Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation",
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/services/hormone-optimization": {
       "design_refs_approved": true,
@@ -89,12 +119,22 @@
       "assets": [
         {
           "path": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
-          "section_owner": "01-hero.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact man writing visual for 01-hero, not a staff or outcome representation",
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/services/pelvic-floor-incontinence": {
       "design_refs_approved": true,
@@ -110,12 +150,22 @@
       "assets": [
         {
           "path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
-          "section_owner": "01-hero.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact person in garden visual for 01-hero, not a staff or outcome representation",
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/services/regenerative-medicine": {
       "design_refs_approved": true,
@@ -129,7 +179,17 @@
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
       "assets": [],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/about": {
       "design_refs_approved": true,
@@ -142,7 +202,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/educational-guide": {
       "design_refs_approved": true,
@@ -155,7 +225,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/book": {
       "design_refs_approved": true,
@@ -176,6 +256,16 @@
         "live_review": "site_convergence/book/truthful-successor-build-r1-art-review.md",
         "approval_scope": "Current independent reference/live KEEP for Book sections; existing booleans are not evidence of historical customer approval or clinical/legal readiness.",
         "edge_scope": "Unresolved until full-route header/footer and local-spacing threshold audit; local Book observations do not clear this flag."
+      },
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
       }
     },
     "/contact": {
@@ -189,7 +279,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      }
     },
     "/privacy": {
       "design_refs_approved": true,
@@ -202,7 +302,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "Inherited true design/decomposition/review-sheet fields represent system-only workflow bookkeeping, not ten-route native-frame coverage. Only r2 full/fold evidence exists; no edge-r3 system-only seam certification."
+      }
     },
     "/notice-of-privacy-practices": {
       "design_refs_approved": true,
@@ -215,7 +325,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "Inherited true design/decomposition/review-sheet fields represent system-only workflow bookkeeping, not ten-route native-frame coverage. Only r2 full/fold evidence exists; no edge-r3 system-only seam certification."
+      }
     },
     "/accessibility": {
       "design_refs_approved": true,
@@ -228,7 +348,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "Inherited true design/decomposition/review-sheet fields represent system-only workflow bookkeeping, not ten-route native-frame coverage. Only r2 full/fold evidence exists; no edge-r3 system-only seam certification."
+      }
     },
     "/terms": {
       "design_refs_approved": true,
@@ -241,7 +371,17 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "Inherited true design/decomposition/review-sheet fields represent system-only workflow bookkeeping, not ten-route native-frame coverage. Only r2 full/fold evidence exists; no edge-r3 system-only seam certification."
+      }
     }
   }
 }

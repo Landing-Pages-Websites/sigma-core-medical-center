@@ -290,12 +290,11 @@
       "job": "Help visitors identify useful topics for an appointment without a symptom checker.",
       "content": {
         "headline": "Concerns And Goals",
-        "body_direction": "Frame questions around how concerns affect routines, activity, sleep, travel, exercise, and confidence only after clinical review. Explain that online content cannot determine cause or eligibility."
+        "body_direction": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "runtime_copy_precedence": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals."
       },
-      "imagery": "Quiet editorial crop with generous negative space. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
-      "internal_links": [
-        "/book"
-      ],
+      "imagery": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+      "internal_links": [],
       "cta": "",
       "runtime_contract": {
         "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
@@ -304,7 +303,7 @@
           "concerns-and-goals"
         ],
         "runtime_assets": [],
-        "recipe": "Build the concerns and goals section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this concerns and goals content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the concerns and goals horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this concerns and goals panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated reception with a dark, angled question field containing three real appointment-preparation prompts and a non-diagnostic note. Keep the left heading, daily-life concerns and booking action; render numbers, dividers and step bars with CSS.",
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
@@ -412,14 +411,13 @@
       "name": "FAQ",
       "job": "Answer privacy and next-step questions in a non-diagnostic way.",
       "content": {
-        "headline": "Faq",
-        "body_direction": "Cover whether the conversation is private, how to book, where the clinic is, and why individual questions require a provider. Hold conditions, treatments, eligibility, insurance, price, and timeline pending approval."
+        "headline": "Common questions",
+        "body_direction": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "runtime_copy_precedence": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked."
       },
-      "imagery": "Code-native electric/mineral fields, squared brackets, stepped signal bars, and calibrated apertures. No medical-data implication.",
+      "imagery": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
       "internal_links": [
-        "/book",
-        "/privacy",
-        "/notice-of-privacy-practices"
+        "/services"
       ],
       "cta": "",
       "runtime_contract": {
@@ -429,7 +427,7 @@
           "faq"
         ],
         "runtime_assets": [],
-        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Remove the fabricated lounge. In the left editorial column, place a compact 01–04 question count and live boundary statement; keep the four FAQ answers, clinical-review note and related-care links in the right column. Use brand keylines, never a decorative photo slot.",
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
@@ -440,15 +438,15 @@
       "name": "booking-CTA",
       "job": "Offer a discreet appointment path as the page's one action.",
       "content": {
-        "headline": "Booking Cta",
-        "body_direction": "Invite a private conversation about concerns and goals without promising fit or results.",
-        "cta": "Book an Appointment"
+        "headline": "Booking status",
+        "body_direction": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "runtime_copy_precedence": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists."
       },
-      "imagery": "Deep navy field with subtle silver geometry. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
       "internal_links": [
-        "/book"
+        "/services"
       ],
-      "cta": "Book an Appointment",
+      "cta": "",
       "runtime_contract": {
         "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
         "source_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
@@ -456,7 +454,7 @@
           "form"
         ],
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the false reception frame with one live booking-status stage: online scheduling is being prepared, approved details are pending, and /services is a working secondary link. Keep the left primary booking action and caveat; CSS supplies the clipped navy field. Remove the false lounge frame and its second media slot. The status stage uses the former right-side visual area as one continuous information region, with a measured CSS corner and no empty aperture or invented premises.",
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

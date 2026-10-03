@@ -661,13 +661,13 @@
       "slot_contract": {
         "container": "Section-owned CSS grid",
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene."
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
       },
       "focal_point": {
-        "what": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+        "what": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
         "where": "section-owned live layout"
       },
-      "dominance": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+      "dominance": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
       "eye_path": [
         "live heading",
         "section-specific narrative groups",
@@ -677,10 +677,10 @@
         "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
-        "Preserve navy area above the process rail and outside the image."
+        "Keep navy breathing space around the preparation narrative and the calendar-status panel; no process rail or image aperture remains."
       ],
       "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
-      "image_copy_relation": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+      "image_copy_relation": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
       "assembly": {
         "profile": "code-first",
         "surface": "Existing brand CSS fields",
@@ -689,13 +689,13 @@
           "live semantic content",
           "aria-hidden geometric accents"
         ],
-        "responsive_contract": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+        "responsive_contract": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
         "seam_contract": [
           "Preserve local section rhythm; formal edge review pending."
         ]
       },
       "content_groups": [
-        "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene."
+        "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -703,7 +703,7 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+        "desktop_composition": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
         "must_be_simultaneously_visible": [
           "heading",
           "primary narrative group"
@@ -716,7 +716,7 @@
       "invariants": [
         "Live semantic content",
         "No documentary inference",
-        "Preserve supported lifestyle subject/crop"
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -726,7 +726,7 @@
       "image_framing": {
         "ownership_model": "independent-layers",
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene."
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
       },
       "slot_contracts": [],
       "runtime_contract": {
@@ -736,7 +736,7 @@
           "form"
         ],
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy status panel stating scheduling is unavailable before the action. The action leads to useful question preparation; preserve the step rail and mobile stack. No reception scene.",
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

@@ -434,13 +434,14 @@
       "name": "FAQ",
       "job": "Resolve hub-level questions while preserving unique content for each concern section.",
       "content": {
-        "headline": "Faq",
-        "body_direction": "Explain why concerns are grouped, that the page does not diagnose, how to book, and which information is currently unavailable. Do not state treatment, price, insurance, candidacy, or timeline facts."
+        "headline": "Questions, answered.",
+        "body_direction": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "runtime_copy_precedence": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       },
-      "imagery": "Code-native electric/mineral fields, squared brackets, stepped signal bars, and calibrated apertures. No medical-data implication.",
+      "imagery": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
       "internal_links": [
-        "/book",
-        "/terms"
+        "#medical-sources",
+        "#form"
       ],
       "cta": "",
       "runtime_contract": {
@@ -450,7 +451,7 @@
           "faq"
         ],
         "runtime_assets": [],
-        "recipe": "Place the FAQ scope statement and source anchor in the navy CSS bracket column; render actual expandable details/summary answers alongside it. Stack at mobile, preserving readable answer measure and keyboard operation; no facility image.",
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."

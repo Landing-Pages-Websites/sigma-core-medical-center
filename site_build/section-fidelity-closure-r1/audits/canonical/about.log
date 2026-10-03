@@ -1,0 +1,3 @@
+/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/audit_design_handoff.py:170: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  .getdata()
+OK: design handoff audit passed: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/section-fidelity-closure-r1/audits/canonical/about.json
