@@ -1,4 +1,3 @@
-import { InteriorImage } from "../interior-image";
 import { NextAction } from "../next-action";
 
 export function PainKnee(): React.ReactElement {
@@ -13,7 +12,8 @@ export function PainKnee(): React.ReactElement {
             <div><strong>Plan your next step</strong><span>Ask what kind of evaluation may be appropriate for you.</span></div>
           </div>
         </div>
-        <div className="pain-knee-media"><InteriorImage src="/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png" alt="Adult walking outdoors in the knee section" /><div><NextAction href="#decision-factors">Review care questions</NextAction><small>General information only, not medical advice. Scheduling is not connected.</small></div></div>
+        <div className="pain-knee-activities"><strong>What feels different in your day?</strong><ul aria-label="Activities to consider"><li>Walking</li><li>Stairs</li><li>Standing</li></ul><NextAction href="#decision-factors">Review care questions</NextAction></div>
+        <small>General information only, not medical advice. Scheduling is not connected.</small>
       </div>
     </section>
   );

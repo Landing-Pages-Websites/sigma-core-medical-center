@@ -166,24 +166,62 @@
         ],
         "cta": "Book an Appointment"
       },
-      "imagery": "Inclusive, dignified active-life scene or quiet facility detail; no anatomy, embarrassment cues, or gender stereotypes. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
       "internal_links": [
         "/book"
       ],
       "cta": "Book an Appointment",
       "runtime_contract": {
         "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
-        "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+        "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
         "dom_ids": [
           "hero"
         ],
         "runtime_assets": [
-          "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
         ],
-        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+        "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+          ],
+          "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -194,7 +232,7 @@
         "headline": "Private Orientation",
         "body_direction": "Use plain, inclusive language to state that pelvic-floor and incontinence concerns vary and deserve an individualized conversation. Do not list diagnoses, populations, or treatment claims until confirmed."
       },
-      "imagery": "Code-native electric/mineral fields, squared brackets, stepped signal bars, and calibrated apertures. No medical-data implication.",
+      "imagery": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
       "internal_links": [
         "/terms"
       ],
@@ -206,10 +244,44 @@
           "private-orientation"
         ],
         "runtime_assets": [],
-        "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -247,7 +319,7 @@
         "body_direction": "State only the approved booking mechanism and privacy-respectful intent. Publish provider gender, credentials, examination details, visit length, and treatment process only after explicit approval.",
         "cta": "Book an Appointment"
       },
-      "imagery": "Use supplied Sigma Core reception/waiting-room photography only for actual clinic context, cropped into angular Direction B apertures. Never fabricate the facility.",
+      "imagery": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
       "internal_links": [
         "/book",
         "/contact"
@@ -260,10 +332,44 @@
           "what-to-expect"
         ],
         "runtime_assets": [],
-        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -288,7 +394,7 @@
           "faq"
         ],
         "runtime_assets": [],
-        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Remove the fabricated lounge. In the left editorial column, place a compact 01\u201304 question count and live boundary statement; keep the four FAQ answers, clinical-review note and related-care links in the right column. Use brand keylines, never a decorative photo slot.",
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Remove the fabricated lounge. In the left editorial column, place a compact 01–04 question count and live boundary statement; keep the four FAQ answers, clinical-review note and related-care links in the right column. Use brand keylines, never a decorative photo slot.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
@@ -481,5 +587,10 @@
   "builder_source_closure": {
     "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
     "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
   }
 }

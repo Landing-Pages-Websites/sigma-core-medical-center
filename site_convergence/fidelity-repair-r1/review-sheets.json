@@ -1,0 +1,140 @@
+[
+  {
+    "slug": "hormone-optimization",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/hormone-optimization/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/hormone-optimization",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/hormone-optimization/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/hormone-optimization/NOTES.md",
+      "--asset-prefix",
+      "hormone-optimization/",
+      "--title",
+      "hormone-optimization \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/hormone-optimization",
+      "--strict"
+    ],
+    "exit_code": 0
+  },
+  {
+    "slug": "neuropathy",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/neuropathy/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/neuropathy",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/neuropathy/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/neuropathy/NOTES.md",
+      "--asset-prefix",
+      "neuropathy/",
+      "--title",
+      "neuropathy \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/neuropathy",
+      "--strict"
+    ],
+    "exit_code": 0
+  },
+  {
+    "slug": "pain-relief",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pain-relief/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pain-relief",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pain-relief/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pain-relief/NOTES.md",
+      "--asset-prefix",
+      "pain-relief/",
+      "--title",
+      "pain-relief \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/pain-relief",
+      "--strict"
+    ],
+    "exit_code": 1
+  },
+  {
+    "slug": "pelvic-floor-incontinence",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pelvic-floor-incontinence/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pelvic-floor-incontinence",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pelvic-floor-incontinence/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/pelvic-floor-incontinence/NOTES.md",
+      "--asset-prefix",
+      "pelvic-floor-incontinence/",
+      "--title",
+      "pelvic-floor-incontinence \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/pelvic-floor-incontinence",
+      "--strict"
+    ],
+    "exit_code": 1
+  },
+  {
+    "slug": "regenerative-medicine",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/regenerative-medicine/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/regenerative-medicine",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/regenerative-medicine/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/regenerative-medicine/NOTES.md",
+      "--asset-prefix",
+      "regenerative-medicine/",
+      "--title",
+      "regenerative-medicine \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/regenerative-medicine",
+      "--strict"
+    ],
+    "exit_code": 1
+  },
+  {
+    "slug": "services",
+    "argv": [
+      "python3",
+      "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py",
+      "--frames-dir",
+      "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs",
+      "--assets-dir",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/services",
+      "--plan",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/services/extraction_plan.json",
+      "--notes",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/images/design/services/NOTES.md",
+      "--asset-prefix",
+      "services/",
+      "--title",
+      "services \u2014 visual repair round 1, PENDING",
+      "--out",
+      "/var/lib/megaclaw/workspace/sigma-photo-ownership-round1/public/design-review/services",
+      "--strict"
+    ],
+    "exit_code": 1
+  }
+]

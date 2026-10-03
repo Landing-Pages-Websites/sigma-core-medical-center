@@ -93,43 +93,77 @@
       "implementation_owner": "src/components/interior/pain-relief/knee.tsx",
       "content_source": "section_manifest.json#03-knee-concerns",
       "asset_roles": [
-        "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         }
       },
       "runtime_contract": {
         "source_component": "src/components/interior/pain-relief/knee.tsx",
-        "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+        "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
         "dom_ids": [
           "knee-concerns"
         ],
-        "runtime_assets": [
-          "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
-        ],
-        "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+          ],
+          "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -143,23 +177,23 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         }
       },
       "runtime_contract": {
@@ -171,10 +205,48 @@
         "runtime_assets": [
           "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
         ],
-        "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -188,23 +260,23 @@
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         }
       },
       "runtime_contract": {
@@ -216,10 +288,48 @@
         "runtime_assets": [
           "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
         ],
-        "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -357,43 +467,82 @@
       "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
       "content_source": "section_manifest.json#09-medical-sources",
       "asset_roles": [
-        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "imagery": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "composition": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "visual_treatment": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         },
         "responsive": {
           "status": "PENDING",
-          "evidence": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+          "evidence": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
         }
       },
       "runtime_contract": {
         "source_component": "src/components/interior/pain-relief/sources.tsx",
-        "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+        "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
         "dom_ids": [
           "medical-sources"
         ],
         "runtime_assets": [],
-        "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     }
   ],
-  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  }
 }

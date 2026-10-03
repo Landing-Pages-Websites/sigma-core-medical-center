@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "protected_tracked_count": 340,
+  "original_untracked_count": 649,
+  "read_only_canonical_count": 193,
+  "old_retired_assets_unchanged": 62,
+  "failures": [],
+  "registry": {
+    "/services": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/services/neuropathy": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/services/pain-relief": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/services/hormone-optimization": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/services/pelvic-floor-incontinence": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/services/regenerative-medicine": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/about": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/educational-guide": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/book": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/contact": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/privacy": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/notice-of-privacy-practices": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/accessibility": {
+      "edge": false,
+      "qa": "PENDING"
+    },
+    "/terms": {
+      "edge": false,
+      "qa": "PENDING"
+    }
+  },
+  "baseline_head": "b21228f3d07ef578403b9c3f010f13e414621810"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "original": "public/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
+    "archive": "assets/retired-photo-roles/fidelity-repair-r1/pain-relief/03-knee-concerns-01-person-outdoors.png",
+    "sha256": "5e06ee2e212f07340325583d5c10ef29db115c27917a9e324592d787cad4cd42",
+    "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+  },
+  {
+    "original": "public/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+    "archive": "assets/retired-photo-roles/fidelity-repair-r1/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+    "sha256": "e250110033b586dd7a61d88c64b85beb91e96471f436d131c03a99f26d97de4b",
+    "restore": "Copy archive bytes back to original path, revert owned component and all contract/reference mappings together."
+  }
+]

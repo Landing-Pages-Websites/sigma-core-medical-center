@@ -144,3 +144,27 @@
   .pain-page .pain-nav-card, .pain-page .pain-text-link { transition: none; }
   .pain-page .pain-nav-card:hover { transform: none; }
 }
+
+/* Each retained lifestyle scene keeps its source-visible activity at native aspect. */
+.pain-page .pain-knee-top { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 32px; }
+.pain-page .pain-knee-prompts > div { padding: 32px max(28px, 14%); }
+.pain-page .pain-knee-activities { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: center; gap: 32px; margin-top: 80px; padding: 40px; background: var(--color-ink); color: var(--color-surface); border-left: 4px solid var(--color-action); }
+.pain-page .pain-knee-activities > strong { max-width: 14ch; font-size: clamp(1.6rem, 2.5vw, 2.5rem); line-height: 1.12; letter-spacing: -.03em; }
+.pain-page .pain-knee-activities ul { list-style: none; padding: 0; display: grid; gap: 12px; }
+.pain-page .pain-knee-activities li { padding-left: 16px; border-left: 2px solid var(--color-focus); font-size: 1.2rem; }
+.pain-page .pain-back-photo { width: min(100%, 469px); height: auto; min-height: 0; aspect-ratio: 469 / 527; justify-self: center; align-self: center; clip-path: polygon(4% 0,100% 0,100% 100%,0 100%,0 4%); }
+.pain-page .pain-neck-reader { width: min(100%, 561px); height: auto; min-height: 0; aspect-ratio: 561 / 355; justify-self: end; clip-path: none; }
+.pain-page .pain-back-photo img, .pain-page .pain-neck-reader img { object-fit: contain; }
+.pain-page .pain-source-list a { gap: 8px; }
+.pain-page .pain-source-list a > span:last-child { flex-shrink: 0; }
+@media (max-width: 900px) {
+  .pain-page .pain-knee-top { grid-template-columns: 1fr; }
+  .pain-page .pain-knee-activities { grid-template-columns: 1fr 1fr; margin-top: 40px; padding: 32px; }
+  .pain-page .pain-knee-activities .interior-action { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) {
+  .pain-page .pain-knee-activities { grid-template-columns: 1fr; gap: 24px; padding: 28px; }
+  .pain-page .pain-knee-activities ul { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .pain-page .pain-knee-activities li { padding-left: 8px; font-size: 1rem; }
+  .pain-page .pain-knee-prompts > div { padding: 24px 32px; }
+}

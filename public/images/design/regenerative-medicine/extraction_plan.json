@@ -184,7 +184,7 @@
           "verdict": "code",
           "section_owner": "03-questions-for-a-consultation",
           "what": "mixed semantic layout and CSS field; independent photos split below",
-          "build_note": "Build the questions for a consultation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
           "source_component": "src/components/interior/regenerative-medicine/questions.tsx"
         },
         {
@@ -198,7 +198,7 @@
           "verdict": "code",
           "section_owner": "03-questions-for-a-consultation",
           "what": "live information panel or navigation rail",
-          "build_note": "Keep this questions for a consultation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
           "source_component": "src/components/interior/regenerative-medicine/questions.tsx"
         },
         {
@@ -212,7 +212,7 @@
           "verdict": "code",
           "section_owner": "03-questions-for-a-consultation",
           "what": "live heading or content text group",
-          "build_note": "Keep the questions for a consultation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
           "source_component": "src/components/interior/regenerative-medicine/questions.tsx"
         },
         {
@@ -226,7 +226,7 @@
           "verdict": "code",
           "section_owner": "03-questions-for-a-consultation",
           "what": "live consultation-preparation rail",
-          "build_note": "Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph.",
+          "build_note": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
           "source_component": "src/components/interior/regenerative-medicine/questions.tsx"
         }
       ],
@@ -237,10 +237,44 @@
           "questions-for-a-consultation"
         ],
         "runtime_assets": [],
-        "recipe": "Build the questions for a consultation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this questions for a consultation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the questions for a consultation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph.",
+        "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the questions for a consultation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this questions for a consultation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the questions for a consultation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -260,7 +294,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live information panel or navigation rail",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -274,7 +308,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -288,7 +322,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -302,7 +336,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -316,7 +350,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -330,7 +364,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -344,7 +378,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -358,7 +392,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -372,7 +406,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -386,7 +420,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -400,7 +434,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live heading or content text group",
-          "build_note": "Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -414,7 +448,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -428,7 +462,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -442,7 +476,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -456,7 +490,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -470,7 +504,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -484,7 +518,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "small live label, icon or geometric accent",
-          "build_note": "Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -498,7 +532,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live starting-context edge",
-          "build_note": "Use the left edge as a compact teal starting field directing readers from the five consultation prompts to assessment of the answers. Keep three center panels as questions that test named option and intended use, evidence and risks versus alternatives including no procedure, and a qualified responsible provider with follow-up. On mobile, stack start, compact criteria, then verify in reading order.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         },
         {
@@ -512,7 +546,7 @@
           "verdict": "code",
           "section_owner": "04-decision-factors",
           "what": "live verification edge",
-          "build_note": "Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile.",
+          "build_note": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
           "source_component": "src/components/interior/regenerative-medicine/decisions.tsx"
         }
       ],
@@ -523,10 +557,44 @@
           "decision-factors"
         ],
         "runtime_assets": [],
-        "recipe": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the left edge as a compact teal starting field directing readers from the five consultation prompts to assessment of the answers. Keep three center panels as questions that test named option and intended use, evidence and risks versus alternatives including no procedure, and a qualified responsible provider with follow-up. On mobile, stack start, compact criteria, then verify in reading order. Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile.",
+        "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the left edge as a compact teal starting field directing readers from the five consultation prompts to assessment of the answers. Keep three center panels as questions that test named option and intended use, evidence and risks versus alternatives including no procedure, and a qualified responsible provider with follow-up. On mobile, stack start, compact criteria, then verify in reading order. Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -763,5 +831,10 @@
   "builder_source_closure": {
     "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
     "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
   }
 }

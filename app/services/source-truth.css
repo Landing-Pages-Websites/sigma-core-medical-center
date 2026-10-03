@@ -44,6 +44,13 @@
 .service-neuro-other { width: 100%; padding: 24px 28px 60px; }
 .service-neuro-other > span { margin-bottom: 14px; }
 .service-neuro-other a { min-height: 104px; font-size: 1.05rem; }
+.service-neuro-other a { padding-right: calc(10% + 18px); }
+.service-hero-rail > a { display: flex; flex-direction: column; gap: 12px; }
+.service-hero-rail a span { margin-top: auto; line-height: 1.4; }
+.service-hero-rail a:focus-visible { clip-path: none; outline-offset: -4px; }
+.service-choose-cta { right: 24px; max-width: calc(100% - 48px); }
+.service-choose-cta .interior-action { max-width: 100%; font-size: clamp(1.1rem, 1.7vw, 1.5rem); }
+.service-choose-cta small { max-width: 36ch; padding: 10px 14px; }
 
 .service-navigation-aside { display: block; }
 .service-service-list article { display: grid; grid-template-columns: minmax(0, 1fr) 106px; padding: 0; }
@@ -127,7 +134,7 @@
   .service-book-direction { margin-top: 28px; }
 }
 @media (min-width: 901px) {
-  .service-hero-rail > * { min-height: 128px; }
+  .service-hero-rail > * { min-height: 144px; padding-inline: 14% 16%; }
   .service-hero-grid, .service-hero-focus { min-height: 590px; }
   .service-hero-copy h1 { font-size: clamp(5rem, 6.1vw, 6.2rem); }
 }
@@ -141,6 +148,8 @@
   .service-neuro-walk { width: 65%; min-height: 0; }
   .service-neuro-other { padding: 24px 16px 40px; }
   .service-neuro-other a { min-height: 104px; font-size: .93rem; }
+  .service-hero-rail > a { padding: 16px; gap: 12px; }
+  .service-choose-cta { right: 16px; max-width: calc(100% - 32px); }
   .service-service-list article { grid-template-columns: minmax(0, 1fr) 44px; }
   .service-service-list article > div { padding: 20px 18px; }
   .service-choose-path { height: 300px; padding: 35px 6% 75px 14%; }

@@ -109,3 +109,27 @@
   .p-goals-questions { clip-path: polygon(12% 0,100% 0,100% 100%,0 100%,0 9%); }
   .p-book-status { clip-path: polygon(13% 0,100% 0,100% 92%,90% 100%,0 100%,0 9%); }
 }
+
+/* The wider extraction recovers existing source pixels, without extending the person. */
+.p-hero .p-hero-art { height: auto; min-height: 560px; padding: 24px 24px 64px; }
+.p-hero .p-hero-art .interior-photo { width: min(100%, 338px); height: auto; aspect-ratio: 338 / 520; flex-shrink: 0; }
+.p-hero-art .interior-photo img { object-fit: contain; }
+.p-hero-art .b2-serif { left: 0; bottom: 0; margin: 0; }
+.p-orientation-grid { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 24px 48px; min-height: 0; align-items: start; }
+.p-orientation-center { grid-column: 1; grid-row: 1 / 3; padding: 0; }
+.p-orientation-grid > aside { grid-column: 2; min-height: 0; padding: 40px; }
+.p-orientation-grid > aside:first-child { grid-row: 1; align-self: end; }
+.p-orientation-grid > aside:last-child { grid-row: 2; }
+.p-orientation-grid > aside:first-child { clip-path: polygon(0 0,calc(100% - 24px) 0,100% 24px,100% 100%,0 100%); }
+.p-orientation-grid > aside:last-child { clip-path: polygon(24px 0,100% 0,100% 100%,0 100%,0 24px); }
+.p-expect-grid { min-height: 0; }
+.p-expect-privacy { min-height: 0; padding-top: 112px; }
+@media (max-width: 800px) {
+  .p-hero .p-hero-art { min-height: 0; padding: 24px 0 96px; }
+  .p-orientation-grid { grid-template-columns: 1fr; gap: 16px; }
+  .p-orientation-center { grid-column: 1; grid-row: 1; padding: 0 0 16px; }
+  .p-orientation-grid > aside:first-child { grid-column: 1; grid-row: 2; }
+  .p-orientation-grid > aside:last-child { grid-column: 1; grid-row: 3; }
+  .p-orientation-grid > aside { padding: 24px; }
+  .p-expect-privacy { padding-top: 96px; }
+}

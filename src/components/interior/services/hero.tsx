@@ -14,7 +14,9 @@ export function ServicesHero(): React.ReactElement {
     </div>
     <nav id="trust-bar" aria-label="Other service categories" className="service-hero-rail interior-wrap">
       <Link href="/services/pain-relief">Pain relief <span>Explore pain-related concerns →</span></Link>
-      <Link href="/services/hormone-optimization">Hormone optimization</Link><Link href="/services/pelvic-floor-incontinence">Pelvic floor &amp; incontinence care</Link><Link href="/services/regenerative-medicine">Regenerative medicine</Link>
+      <Link href="/services/hormone-optimization">Hormone optimization<span>Prepare questions about your goals →</span></Link>
+      <Link href="/services/pelvic-floor-incontinence">Pelvic floor &amp; incontinence care<span>Explore comfort and daily function →</span></Link>
+      <Link href="/services/regenerative-medicine">Regenerative medicine<span>Understand the category and its limits →</span></Link>
     </nav>
   </section>;
 }

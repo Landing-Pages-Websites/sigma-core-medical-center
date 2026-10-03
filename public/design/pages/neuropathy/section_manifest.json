@@ -166,7 +166,7 @@
         ],
         "cta": "Book an Appointment"
       },
-      "imagery": "Respectful active adult in an everyday movement context, clearly generic and not a patient or staff member; avoid feet closeups, glowing nerves, or distress imagery. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
       "internal_links": [
         "/book"
       ],
@@ -181,10 +181,50 @@
         "runtime_assets": [
           "/images/design/neuropathy/01-hero-01-person-walking.png"
         ],
-        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -195,22 +235,56 @@
         "headline": "Visitor Orientation",
         "body_direction": "Define peripheral neuropathy only with clinically reviewed, authoritative general language; explain that symptoms can have different causes and individualized questions belong in a clinical appointment. Do not imply diagnosis."
       },
-      "imagery": "Subtle tactile material detail or core line motif, not anatomy. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
       "internal_links": [
         "/terms"
       ],
       "cta": "",
       "runtime_contract": {
         "source_component": "src/components/interior/neuropathy/orientation.tsx",
-        "source_sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5",
+        "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
         "dom_ids": [
           "visitor-orientation"
         ],
         "runtime_assets": [],
-        "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+        "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -221,7 +295,7 @@
         "headline": "Goals And Decision Factors",
         "body_direction": "Discuss goals such as daily function, comfort, balance confidence, and participation only as topics for conversation, not promised outcomes. Cover decision factors: appropriate evaluation, provider qualifications once supplied, benefits, risks, alternatives, costs, and expected follow-up, all source-gated."
       },
-      "imagery": "No treatment imagery. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
       "internal_links": [
         "/about",
         "/book"
@@ -234,10 +308,44 @@
           "goals-and-decision-factors"
         ],
         "runtime_assets": [],
-        "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+        "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -305,7 +413,7 @@
         "body_direction": "Invite a conversation about the visitor's goals and questions; avoid claiming suitability or relief.",
         "cta": "Book an Appointment"
       },
-      "imagery": "Deep navy field with electric-blue focus accent. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "imagery": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
       "internal_links": [
         "/book"
       ],
@@ -317,10 +425,44 @@
           "form"
         ],
         "runtime_assets": [],
-        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+        "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -482,5 +624,10 @@
   "builder_source_closure": {
     "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
     "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
   }
 }

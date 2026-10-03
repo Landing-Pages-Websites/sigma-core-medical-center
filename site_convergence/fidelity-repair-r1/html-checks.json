@@ -1,0 +1,199 @@
+{
+  "status": "PASS",
+  "method": "Production HTML parser; not browser layout or interaction evidence",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 21,
+      "robots": [],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 8,
+      "robots": [],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services/neuropathy",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 10,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services/pain-relief",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 11,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services/hormone-optimization",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 9,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 9,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/services/regenerative-medicine",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 9,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 16,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/educational-guide",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 10,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/book",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 8,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 14,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 5,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/notice-of-privacy-practices",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 5,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/accessibility",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 5,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "sections": 5,
+      "robots": [
+        "noindex, follow"
+      ],
+      "forms": 0,
+      "iframes": 0,
+      "missing_alt": 0
+    }
+  ],
+  "internal_links_checked": 318,
+  "errors": []
+}

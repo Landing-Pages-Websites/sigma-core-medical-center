@@ -24,7 +24,8 @@
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
           "reuse_intent": null
         }
-      ]
+      ],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/services/neuropathy": {
       "design_refs_approved": true,
@@ -44,7 +45,8 @@
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
           "reuse_intent": null
         }
-      ]
+      ],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/services/pain-relief": {
       "design_refs_approved": true,
@@ -59,12 +61,6 @@
       "qa_verdict": "PENDING",
       "assets": [
         {
-          "path": "public/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
-          "section_owner": "03-knee-concerns.png",
-          "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
-          "reuse_intent": null
-        },
-        {
           "path": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
           "section_owner": "04-low-back-concerns.png",
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
@@ -76,7 +72,8 @@
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
           "reuse_intent": null
         }
-      ]
+      ],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/services/hormone-optimization": {
       "design_refs_approved": true,
@@ -96,7 +93,8 @@
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
           "reuse_intent": null
         }
-      ]
+      ],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/services/pelvic-floor-incontinence": {
       "design_refs_approved": true,
@@ -111,12 +109,13 @@
       "qa_verdict": "PENDING",
       "assets": [
         {
-          "path": "public/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png",
+          "path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
           "section_owner": "01-hero.png",
           "narrative_job": "Existing illustrative lifestyle subject; not Sigma staff, patients, facility or results.",
           "reuse_intent": null
         }
-      ]
+      ],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/services/regenerative-medicine": {
       "design_refs_approved": true,
@@ -129,7 +128,8 @@
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
-      "assets": []
+      "assets": [],
+      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
     },
     "/about": {
       "design_refs_approved": true,
