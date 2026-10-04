@@ -113,7 +113,7 @@
 .neuro-source-scope p { max-width: 43ch; margin-bottom: 8px; }
 
 @media (min-width: 901px) {
-  .neuro-faq { padding-bottom: 64px; }
+  .neuro-faq { padding-bottom: 80px; }
 }
 @media (max-width: 900px) {
   .neuro-orientation-guidance { grid-template-columns: 1fr; gap: 12px; }
