@@ -112,6 +112,9 @@
 .neuro-source-scope > span:not(:first-child) { padding-top: 14px; border-top: 1px solid #6e879c; }
 .neuro-source-scope p { max-width: 43ch; margin-bottom: 8px; }
 
+@media (min-width: 901px) {
+  .neuro-faq { padding-bottom: 64px; }
+}
 @media (max-width: 900px) {
   .neuro-orientation-guidance { grid-template-columns: 1fr; gap: 12px; }
   .neuro-goals-grid,

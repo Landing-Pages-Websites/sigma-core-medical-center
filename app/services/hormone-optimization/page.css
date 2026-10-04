@@ -10,7 +10,6 @@
 .h-hero-note { margin-top: 28px !important; font-family: var(--font-display); font-style: italic; }
 .h-hero-photo { height: 620px !important; clip-path: polygon(7% 0,100% 0,100% 100%,0 100%,0 72%); }
 .h-hero-photo img { object-position: 35% center; }
-.h-orientation { padding-bottom: 50px; }
 .h-orientation-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: start; gap: 32px; }
 .h-orientation h2 { margin-bottom: 20px; }
 .h-orientation-paper { background: var(--color-surface); color: var(--color-ink); padding: 40px min(7vw,90px); border-left: 5px solid var(--color-electric); }
