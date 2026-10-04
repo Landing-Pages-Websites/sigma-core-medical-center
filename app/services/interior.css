@@ -107,7 +107,7 @@
   /* Keep live closing copy one local spacing unit clear of the next section. */
   .neuro-faq { padding-bottom: 56px; }
   .pain-back-note { padding-bottom: 74px; }
-  .service-hero { padding-top: 48px; }
+  .service-hero { padding-top: 56px; }
   .service-hero-grid { grid-template-columns: 56% 44%; min-height: 440px; }
   .service-hero-copy h1 { font-size: clamp(3.7rem, 4.6vw, 4.35rem); max-width: 17ch; }
   .service-hero-copy p { max-width: 28ch; margin-top: 12px; }
