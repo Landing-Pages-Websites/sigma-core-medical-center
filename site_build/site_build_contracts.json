@@ -656,7 +656,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -667,7 +667,7 @@
         "reference_review": "site_convergence/book/truthful-successor-r1-art-review.md",
         "live_review": "site_convergence/book/truthful-successor-build-r1-art-review.md",
         "approval_scope": "Current independent reference/live KEEP for Book sections; existing booleans are not evidence of historical customer approval or clinical/legal readiness.",
-        "edge_scope": "Unresolved until full-route header/footer and local-spacing threshold audit; local Book observations do not clear this flag."
+        "edge_scope": "PASS, independent c294ba19 exact d03cc784d164e5e41b8d114bc6a303a3110f0166 review of every Book header/section/terminal/footer boundary at 1440/1536/390. Report site_convergence/route-review-book-d03-edge-repair-followup.json sha256=cd87441957646fa3e17e3c2818d8bcbe981203b830ef2ce6adc87a2a80834381. 24 native hash-linked PNG/state records verified before==after with loaded fonts/images. Desktop conservative clearance65.921875/66.3125 exceeds64px; mobile42.03125 exceeds32px. Independent native PNG optical gaps72/72/47px confirm. GitHub deployment6851540834 explicitly binds d03cc78 to immutable9hhdkf8hr; controller binding receipt is site_convergence/book-edge-fix-r1/current-cd03/deployment-source-binding-controller.json. Book/runtime shared closure unchanged through01af77d. QA, three calendar fidelity layers, Stage10.5 and publication remain separately pending."
       },
       "design_surface": "design-refs",
       "evidence_scope": {
@@ -675,7 +675,7 @@
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "edge_scope": "PASS: see handoff_evidence.edge_scope for independent c294ba19 exact-d03 repair review and GitHub immutable source binding. Historical r2 capture notes retained; current boundary captures are route-review-book-d03-edge-repair-native at1440/1536/390. No whole-site or QA verdict.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
       },
