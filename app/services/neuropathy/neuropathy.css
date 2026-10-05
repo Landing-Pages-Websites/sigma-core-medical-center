@@ -11,7 +11,8 @@
 .neuro-hero-source a:focus-visible { color: var(--color-surface); }
 .neuro-hero-mobile-action { display: none; }
 .neuro-hero-steps > div small { color: var(--color-surface); font-size: 1.125rem; line-height: 1.5; }
-.neuro-hero { padding-bottom: 64px; }
+/* The final 32px step offset leaves 64px of painted closing space. */
+.neuro-hero { padding-bottom: 96px; }
 .neuro-hero .neuro-hero-walk { height: auto; min-height: 0; aspect-ratio: 629 / 493; clip-path: polygon(12% 0,100% 0,100% 100%,0 100%); }
 .neuro-hero-walk img { object-fit: contain; }
 .neuro-hero-steps .interior-action { clip-path: none; gap: 16px; }
@@ -116,6 +117,7 @@
   .neuro-faq { padding-bottom: 80px; }
 }
 @media (max-width: 900px) {
+  .neuro-hero { padding-bottom: 64px; }
   .neuro-orientation-guidance { grid-template-columns: 1fr; gap: 12px; }
   .neuro-goals-grid,
   .neuro-book-grid,

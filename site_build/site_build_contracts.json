@@ -59,13 +59,50 @@
       "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
       "design_surface": "design-refs",
       "evidence_scope": {
-        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
-        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
-        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "primary_capture": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: final-capture-75b native1440x900 and390x844 captures independently reviewed by cffdff2e. Seven frames:34 PASS,1 hero composition FAIL. Current source spacing repair has no independent rendered approval.",
+        "reference_viewport": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: four1536x1024 states, three360x800 states and four320x800 states additionally reviewed per route-review-neuropathy.json. Additional1536 hero evidence confirms the desktop closing defect.",
+        "edge_scope": "FAIL on source 75b2665c0370aaebd77944091e0ad17e694fe072: hero-to-orientation desktop painted closure32 < local64. Normal header, subsequent reviewed boundaries, terminal and footer PASS only per cffdff2e receipt. Scoped hero source repair pending independent immutable capture; edge remains false and QA PENDING.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
-        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+        "section_captures": "Source 75b2665c0370aaebd77944091e0ad17e694fe072:18desktop and24mobile required actual captures plus11additional states inspected; full inventory and actual filenames in originating route-review-neuropathy.json. Hero/join only require fresh immutable candidate recapture and independent review; unaffected section-relative geometry preserved by scoped source diff.",
+        "route_review": {
+          "route": "/services/neuropathy",
+          "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+          "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/neuropathy",
+          "reviewer": "Web Developer, independent read-only neuropathy subagent, session cffdff2e",
+          "artifacts": [
+            {
+              "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+              "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+            },
+            {
+              "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+              "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+            }
+          ],
+          "outcome": {
+            "PASS": 34,
+            "FAIL": 1
+          },
+          "verdict": "FAIL",
+          "edge_verdict": "FAIL",
+          "finding": {
+            "id": "NEURO-HERO-DESKTOP-CLOSURE",
+            "severity": "blocking",
+            "frame": "01-hero",
+            "owner": "controller / neuropathy hero builder",
+            "finding": "Desktop last meaningful light plaque closes32 CSS px, not required64 local unit. Numeric text-only PASS misses painted-panel extent.",
+            "next_action": "Make a narrowly scoped hero composition repair, preserve walker/crop, truthful copy and source-safe unavailable status; recapture this route on new immutable SHA and independently re-review hero whole section plus join at1440/390 and1536."
+          },
+          "prior_implementation": {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/neuropathy-hero-clearance-r1/before/repository/public/design/pages/neuropathy/section_implementation.json",
+            "sha256": "4b3914bb5d01332bfd4b8d26374b60688f425db4d2e56f1458bd71472f5a48b2"
+          },
+          "evidence_path_convention": "All relative paths are under the supplied ROOT. D=site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy; M=site_convergence/final-capture-75b/mobile_390x844/services-neuropathy; R=design_refs/pages/neuropathy/refs.",
+          "applicability": "34 PASS judgments remain bound to source 75b2665c0370aaebd77944091e0ad17e694fe072. Hero composition remains FAIL; desktop closing-reserve repair and independent recapture pending. Other sections retain section-relative geometry; a downstream page-y translation alone does not reopen their review.",
+          "boundary": "No registry edge, QA, phase, queue, publication or shipment promotion."
+        }
       }
     },
     "/services/pain-relief": {

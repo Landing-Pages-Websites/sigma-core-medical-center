@@ -25,13 +25,13 @@
         "runtime_assets": [
           "/images/design/neuropathy/01-hero-01-person-walking.png"
         ],
-        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       },
       "focal_point": {
-        "what": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "what": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "where": "section-owned live layout"
       },
-      "dominance": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+      "dominance": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
       "eye_path": [
         "live heading",
         "section-specific narrative groups",
@@ -44,7 +44,7 @@
         "Leave dark space between the headline and the three low stepping statements."
       ],
       "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
-      "image_copy_relation": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+      "image_copy_relation": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
       "assembly": {
         "profile": "anchored-art",
         "surface": "Existing brand CSS fields",
@@ -54,13 +54,13 @@
           "live semantic content",
           "aria-hidden geometric accents"
         ],
-        "responsive_contract": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "responsive_contract": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "seam_contract": [
           "Preserve local section rhythm; formal edge review pending."
         ]
       },
       "content_groups": [
-        "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
+        "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -68,7 +68,7 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "desktop_composition": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "must_be_simultaneously_visible": [
           "heading",
           "primary narrative group"
@@ -81,7 +81,8 @@
       "invariants": [
         "Live semantic content",
         "No documentary inference",
-        "Preserve supported lifestyle subject/crop"
+        "Preserve supported lifestyle subject/crop",
+        "Hero closing unit is 64 CSS px after meaningful paint: desktop container96 minus final plaque translation32; mobile container64 with no plaque translation."
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -93,7 +94,7 @@
         "runtime_assets": [
           "/images/design/neuropathy/01-hero-01-person-walking.png"
         ],
-        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling."
       },
       "slot_contracts": [
         {
@@ -111,12 +112,12 @@
         "runtime_assets": [
           "/images/design/neuropathy/01-hero-01-person-walking.png"
         ],
-        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
         "styles": {
-          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
         }
       },
       "visual_repair_r1": {
@@ -194,6 +195,48 @@
           "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
           "styles": {
             "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          }
+        }
+      },
+      "hero_clearance_r1": {
+        "baseline_commit": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "finding": "NEURO-HERO-DESKTOP-CLOSURE",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          }
+        },
+        "review_status": "FAIL",
+        "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
           }
         }
       }
@@ -300,7 +343,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
         }
       },
       "visual_repair_r1": {
@@ -437,7 +480,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
         }
       },
       "visual_repair_r1": {
@@ -780,7 +823,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
         }
       },
       "visual_repair_r1": {
