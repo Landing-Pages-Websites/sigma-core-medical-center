@@ -611,7 +611,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -622,7 +622,7 @@
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "edge_scope": "PASS: independent37e1f282 route-review-educational-guide-painted-edge-followup.json sha256=fe74471628cc7c21a3d3d6908a556a5e0ca905fb11138f87b10b8d45dde34cdb adjudicates all4section top/bottom/header/terminal/footer at exact75b immutableospevij94 1440/1536/390. Intentional whole-width Source details rail is substantive heading/link content within hero, not an ignored decorative field. Controller actual hero-bottom PNG and ownheroTSX/CSS confirm rail completes the section with 76px min-height,24px bottom reserve; preceding CTA48px-to-rail is internal grouping, not hero closing80px-unit deficit. Numeric paragraph-only heuristic warnings retained; unchanged source/import closure through01af77d proved by188file17route source-identity. All20fidelityPASS and resource/noindex gates remain; no QA/Stage10.5 or publication promotion.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
       },
