@@ -345,7 +345,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -357,14 +357,14 @@
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Original independent75b review applied: 30PASS/5FAIL; original edgePASS only; QA PENDING. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical.",
+      "visual_repair_r1": "Historical75b review 30PASS/5FAIL and edgePASS preserved. Current01af independent hero targeted review resolves3hero layers, cd26 targeted resolves2FAQ/content layers:35PASS current. Independent366ff055 subsequently reobserved all seven current route section boundaries and supports edgePASS, not blanket inheritance. QA, Stage10.5 and clinical/legal publication remain PENDING.",
       "design_surface": "design-refs",
       "evidence_scope": {
         "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "Original independent report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd; exact captures and hashes in section_implementation.json route_review.",
         "reference_viewport": "Current targeted01af native hero review at320x800,360x800,390x844,1440x900,1536x1024;102 hash-paired native PNGs. Desktop1440/1536 regression byte-equalcd26. Historical original75b viewport limitations remain in route_review.",
-        "edge_scope": "Registry false retained. Original75b edge PASS and cd26 targeted PASS remain historical; new01af hero entry/exit PASS_CLEAR does not recertify other route joins. Full-route review NOT_PERFORMED. Three current hero PASS plus32 unchanged PASS yield35; QA PENDING.",
+        "edge_scope": "PASS exact current01af77dc2936539a7b9288ad0436d48892dcebf9 independent366ff055 full-seven-section painted review route-review-pelvic-floor-incontinence-01af77d-full-edge-reconciliation.json sha256=4d9fd73444c97f44f488e73801949f2d8d745e127ae6297516155e0d0ee0283d. All header, hero and6 downstream joins, restored mobile FAQ, sources/footer and terminal actually reobserved 1440/1536/390/360/320: no blanket75b inheritance,175old/current relative crops and102current hash-linked native pairs. 1440/390 all7section top/bottom clear respective CSS local units including meaningful painted panels; header clears32D/24M floors and shared walnut footer is intentional. GHDpl6852280956/status19268768923 binds immutablem5is13r2h/dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Route-edge only;35fidelityPASS from preserved+targeted, QA/ArtDirector/Stage10.5 remain PENDING.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "Independent01af report inspected page-top/complete hero native states at all5widths with loaded fonts/images, stable before/after and no overflow. Current report hashes/source binding in current_followup; original75b and cd26 evidence remains history. No capture made by this application worker."
       },
@@ -424,6 +424,16 @@
         "qa_verdict": "PENDING",
         "scope": "Only three hero layers applied; other32 PASS unchanged. Hero entry/exit clear, mobile first-fold recognizable seated person and complete hero verified. Desktop1440/1536 same-state PNGs and geometry byte-equalcd26. All102 native PNG/sibling JSON hashes, fonts/images/overflow checks pass. Registry edge remains false; no whole-route, publication or launch approval.",
         "application_receipt": "site_convergence/landed-review-application-r3/receipt.json"
+      },
+      "full_edge_followup": {
+        "source_sha": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+        "reviewer": "independent366ff055",
+        "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-01af77d-full-edge-reconciliation.json",
+        "sha256": "4d9fd73444c97f44f488e73801949f2d8d745e127ae6297516155e0d0ee0283d",
+        "all_seven_section_edges": "PASS",
+        "missing_joins": [],
+        "source_binding": "GitHub deployment6852280956 success status19268768923 exact01af; Vercel dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ READY immutablem5is13r2h",
+        "scope": "Painted current route edge recertification only. Preserved prior original/cd26/hero target reviews and all35fidelityPASS; ArtDirector/QA/Stage10.5 not performed."
       },
       "historical_current_followup_cd26b81": {
         "source_sha": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
