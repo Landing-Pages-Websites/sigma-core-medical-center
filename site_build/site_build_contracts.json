@@ -330,19 +330,19 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": true,
+      "section_edge_clearance_audited": false,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
       "assets": [],
-      "visual_repair_r1": "Original independent75b review applied: 33PASS/2FAIL; original edgePASS only; QA PENDING. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS.",
+      "visual_repair_r1": "Original independent75b review applied: 33PASS/2FAIL; original edgePASS preserved historically. Candidate changed the <=340px decorative hero pseudo-element, so current edge remains FALSE pending exact-current independent 320px hero plus 1440/390 regression review.",
       "design_surface": "design-refs",
       "evidence_scope": {
         "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "Original independent report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1; exact captures and hashes in section_implementation.json route_review.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS.",
+        "edge_scope": "Original75b edge PASS is historical only. Candidate changes an absolute decorative pseudo-element at<=340px; current edge remains FALSE until the exact-current independent 320px hero and 1440/390 regression review completes. QA remains PENDING.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "Original final-capture-75b evidence only. Local screenshots unavailable; targeted immutable candidate captures/review pending."
       },
@@ -367,8 +367,8 @@
         "verdict": "FAIL",
         "edge_verdict": "PASS",
         "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
-        "candidate_edge_review": "UNCHANGED_MEANINGFUL_GEOMETRY_ORIGINAL_PASS",
-        "applicability": "Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS.",
+        "candidate_edge_review": "CURRENT_REVIEW_PENDING",
+        "applicability": "Original edge PASS is preserved as historical evidence only. Candidate changes the <=340px decorative pseudo-element; current candidate edge remains pending exact-current independent review. No new fidelity PASS.",
         "source_repair": {
           "frames": [
             "01-hero"
