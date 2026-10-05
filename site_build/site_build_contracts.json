@@ -497,19 +497,19 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
       "assets": [],
-      "visual_repair_r1": "Original independent75b review applied: 33PASS/2FAIL; original edgePASS preserved historically. Candidate changed the <=340px decorative hero pseudo-element, so current edge remains FALSE pending exact-current independent 320px hero plus 1440/390 regression review.",
+      "visual_repair_r1": "Original independent75b review33PASS/2heroFAIL and historicaledgePASS preserved. Exact a3c5b15 repair suppresses decorative 320px hero staircase; independent targeted9436f7b8 supports two repaired hero layers, current35PASS. Separate independent ce0fb5f9 reobserved full7section painted route boundaries atfivewidths and supports edgePASS. QA, Stage10.5 and clinical/legal publication remain PENDING.",
       "design_surface": "design-refs",
       "evidence_scope": {
         "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "Original independent report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1; exact captures and hashes in section_implementation.json route_review.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "Original75b edge PASS is historical only. Candidate changes an absolute decorative pseudo-element at<=340px; current edge remains FALSE until the exact-current independent 320px hero and 1440/390 regression review completes. QA remains PENDING.",
+        "edge_scope": "PASS exact a3c5b15d192b88736f11cc04a49e6508f2867165 immutable dpl_Dav9nnQVrMnXQZpKeWxEgBep5HYR READY independentce0fb5f9 full7section route-review-regenerative-medicine-a3-full-edge-reconciliation.json sha256=1cf22d524c84c084eb4f859a5e784523051474677127034d16f04007aa014c45. Controller GHdeploy6850598662 success status19264894836 binds exact SHA/immutablel1zvi88pr. Reviewer inspected45current actual native section-bottom/page-top/footer PNG at1440/1536/390/360/320, verified116 hash/state pairs; hero320 motif suppressed without vertical geometry change. All six joins header32D/24M sources-to-footer and terminal48 localunit PASS. Original75b vs current Questions+41.1875pxD and Orientation-27.890625px320 reflow acknowledged: not inherited screenshot equality, actual current relative painted units86.390625D1440/92.15625D1536/56M observed. Regen rendering closure a3→current unchanged. QA/Stage10.5 never performed.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "Original final-capture-75b evidence only. Local screenshots unavailable; targeted immutable candidate captures/review pending."
       },
@@ -534,7 +534,7 @@
         "verdict": "FAIL",
         "edge_verdict": "PASS",
         "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
-        "candidate_edge_review": "CURRENT_REVIEW_PENDING",
+        "candidate_edge_review": "PASS_FULL_ROUTE_INDEPENDENT_CE0FB5F9",
         "applicability": "Original edge PASS is preserved as historical evidence only. Candidate changes the <=340px decorative pseudo-element; current candidate edge remains pending exact-current independent review. No new fidelity PASS.",
         "source_repair": {
           "frames": [
@@ -565,6 +565,17 @@
         "targeted_edge_verdict": "PASS_SCOPED_ROUTE_EDGE",
         "route_verdict": "PASS_SCOPED_ONLY",
         "scope": "Targeted current-candidate repair review only; inherited layers and whole-route QA remain pending."
+      },
+      "full_edge_followup": {
+        "source_sha": "a3c5b15d192b88736f11cc04a49e6508f2867165",
+        "reviewer": "independentce0fb5f9",
+        "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-a3-full-edge-reconciliation.json",
+        "sha256": "1cf22d524c84c084eb4f859a5e784523051474677127034d16f04007aa014c45",
+        "github_deployment_id": 6850598662,
+        "github_status_id": 19264894836,
+        "vercel_deployment_id": "dpl_Dav9nnQVrMnXQZpKeWxEgBep5HYR",
+        "all_seven_section_edges": "PASS",
+        "scope": "Current a3 render closure byte-equal current contract-only head; actual 116 paired states and45 viewed current PNGs acrossfivewidths. No exact old/current bitmap identity claimed. QA/Stage10.5 NOT_PERFORMED."
       },
       "controller_application_r2": {
         "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
