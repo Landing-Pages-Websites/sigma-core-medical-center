@@ -1,6 +1,7 @@
 @import "../batch-two.css";
 .p-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 386px); max-width: 1200px; align-items: center; min-height: 670px; gap: clamp(32px, 5vw, 72px); }
 .p-hero h1 { max-width: none !important; }
+.p-hero-details { display: contents; }
 .p-hero-grid > div:first-child p { margin-top: 26px; }
 .p-hero-grid > div:first-child .p-hero-status { margin-top: 14px; color: #d6e6f0; font-size: 1.125rem; }
 /* The portrait frame is source-sized: 338px of imagery plus two 24px rails. */
@@ -83,6 +84,12 @@
   .p-hero-grid,.p-goals-grid,.p-expect-grid,.p-faq-grid,.p-book-panel,.p-sources-grid { grid-template-columns: 1fr; min-height: 0; }
   .b2 .p-hero::before { display: none; }
   .p-hero-grid { gap: 24px; }
+  /* Keep the source portrait between the heading and the complete copy group. */
+  .p-hero-copy { display: contents; }
+  .p-hero-copy h1 { grid-row: 1; }
+  .p-hero-art { grid-row: 2; }
+  .p-hero-details { display: block; grid-row: 3; }
+  .p-hero-copy .p-hero-details > p:first-child { margin-top: 0; }
   .p-hero h1 { max-width: 18ch !important; font-size: clamp(2rem, 8.9vw, 3.5rem); }
   .p-hero-grid > div:first-child p { margin-top: 16px; }
   .p-hero-art { width: min(100%, 338px); min-height: 0; padding: 0 0 80px; justify-self: center; }

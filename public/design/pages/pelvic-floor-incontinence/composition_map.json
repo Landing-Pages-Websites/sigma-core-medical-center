@@ -25,17 +25,17 @@
         "runtime_assets": [
           "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
         ],
-        "recipe": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome."
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
       },
       "focal_point": {
-        "what": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome.",
+        "what": "Recognizable source person as a substantial counterpart to the service heading; complete face/profile and upper body intended within first800px at320/360 and844px at390; independent painted verification pending.",
         "where": "section-owned live layout"
       },
-      "dominance": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome.",
+      "dominance": "Legible heading followed by a full-size source-bounded portrait on mobile, then complete explanation/status/action; unchanged desktop balance.",
       "eye_path": [
-        "live heading",
-        "section-specific narrative groups",
-        "useful information/status links"
+        "heading",
+        "portrait and caption (mobile)",
+        "complete explanation, unavailable status and Services action"
       ],
       "overlaps": [
         "Decorative geometry stays behind live text and focus rings."
@@ -44,7 +44,7 @@
         "Maintain navy whitespace around the sensitive-service heading."
       ],
       "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
-      "image_copy_relation": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome.",
+      "image_copy_relation": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
       "assembly": {
         "profile": "anchored-art",
         "surface": "Existing brand CSS fields",
@@ -54,13 +54,15 @@
           "live semantic content",
           "aria-hidden geometric accents"
         ],
-        "responsive_contract": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+        "responsive_contract": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
         "seam_contract": [
           "Preserve local section rhythm; formal edge review pending."
         ]
       },
       "content_groups": [
-        "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping."
+        "heading",
+        "full portrait and caption",
+        "complete paragraph, scheduling status and Services action"
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -68,14 +70,15 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+        "desktop_composition": "Retain baseline1200px grid, 386px image track, 670px stage and desktop typography;1440/1536 painted regression pending.",
         "must_be_simultaneously_visible": [
-          "heading",
-          "primary narrative group"
+          "legible complete heading",
+          "recognizable source face/profile and upper body in first fold; PENDING painted verification"
         ],
         "crop_invariants": [
           "No invented or damaged subject; native image crop retained where supported."
-        ]
+        ],
+        "mobile_composition": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
@@ -86,36 +89,37 @@
       "free": [
         "responsive type sizing and accessible focus styles",
         "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
+        "spacing tokens without altering group/section relationship",
+        "Builder-declared mobile-only portrait-before-long-copy visual order; coherent unchanged DOM reading order and all content retained. This freedom is a documented repair candidate, not reviewer approval."
       ],
       "image_framing": {
         "ownership_model": "independent-layers",
         "runtime_assets": [
           "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
         ],
-        "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping."
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
       },
       "slot_contracts": [
         {
           "asset": "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
-          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
+          "crop": "All338x520 source pixels, object-fit:contain, never larger than338 CSS px; no clipping."
         }
       ],
       "runtime_contract": {
         "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
-        "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+        "source_sha256": "eb6762352474efd3e01f78e6b5695bb3a84f5f49ad64f462327b5432a3dc3d58",
         "dom_ids": [
           "hero"
         ],
         "runtime_assets": [
           "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
         ],
-        "recipe": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome.",
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
-        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "boundary": "Builder mobile reordering decision only. Original and follow-up reviewer verdicts are source/width bounded in section_implementation.json. New mobile affected layers remain PENDING or residual FAIL; fresh immutable capture needed; QA PENDING; edge false.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+          "app/services/pelvic-floor-incontinence/page.css": "f8c917e30b94f061833da92eafd1fe7a46f70e65abddc11101eb07f191fc2812"
         }
       },
       "visual_repair_r1": {
@@ -152,6 +156,12 @@
           }
         },
         "review_status": "PENDING"
+      },
+      "responsive_decision_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "decision_type": "design_decision",
+        "approval": "PENDING_INDEPENDENT_REVIEW",
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
       }
     },
     {

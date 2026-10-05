@@ -532,7 +532,7 @@
       }
     }
   ],
-  "review_boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+  "review_boundary": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
   "visual_repair_r1": {
     "status": "PENDING",
     "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
@@ -579,5 +579,38 @@
     "evidence_path_convention": "All relative paths are under the supplied ROOT. D=site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy; M=site_convergence/final-capture-75b/mobile_390x844/services-neuropathy; R=design_refs/pages/neuropathy/refs.",
     "applicability": "34 PASS judgments remain bound to source 75b2665c0370aaebd77944091e0ad17e694fe072. Hero composition remains FAIL; desktop closing-reserve repair and independent recapture pending. Other sections retain section-relative geometry; a downstream page-y translation alone does not reopen their review.",
     "boundary": "No registry edge, QA, phase, queue, publication or shipment promotion."
+  },
+  "controller_application_r2": {
+    "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+    "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#neuropathy",
+    "original_report": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+        "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+        "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+      }
+    ],
+    "historical_review_blocks_preserved": true,
+    "previous_fidelity": {},
+    "qa_verdict": "PENDING",
+    "edge_flag_changed": false,
+    "followup": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.json",
+        "sha256": "f0af5f35844865fd2eb7df2c3a2a978fb63242601d8a4f57b6776a2d6e32d7e4"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.md",
+        "sha256": "b8bafa77da1a48ac46cb5f8485fc82a0b921e2452eedb6eb6dd687c8cefa371d"
+      }
+    ],
+    "applicability": "Original route_review 34 PASS/1 FAIL remains historical. Already-applied formal native548789e hero composition PASS plus34 inherited PASS yields35 current layers. Import closure/assets byte-equal from548789e through4ffef33 and current candidate. No new whole-route fidelity review or edge promotion.",
+    "current_layer_counts": {
+      "PASS": 35
+    },
+    "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged."
   }
 }

@@ -733,5 +733,54 @@
     "status": "PENDING",
     "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
     "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  },
+  "services_heading_role_reconciliation_r2": {
+    "scope": "/services only; five Direction B frame heading roles",
+    "headings": {
+      "elements": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "family": "Source Sans 3",
+      "weight": 600,
+      "css_owner": "app/services/interior.css"
+    },
+    "counterpoint": "Playfair Display optional only for explicitly named selective counterpoint roles; no new role or runtime change introduced.",
+    "precedence": "Selected Services Direction B manifest and native refs01-05 are more specific than the global Playfair display proposal. This builder/controller reconciliation closes only the Services role conflict; global typography and Home are untouched.",
+    "independent_adjudication": {
+      "report": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services-typography-followup.json",
+      "sha256": "dee82b6338665366ed2287faaba642cf86ac4ea02ce05827eca491c59602a86a",
+      "session": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:64ee209e",
+      "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072"
+    },
+    "source_manifest": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/section_manifest.json",
+      "sha256": "fc76e200e759070079d25d992c6a5e221cc775f1a738edbd623ba4b09586c2e5"
+    },
+    "native_refs": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/01-hero.png",
+        "sha256": "ab2e92ff69be3938ebfb01f10f5d55f795d5026c0b3ddb3f26208b9de6079da3"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png",
+        "sha256": "402b273a1105a3f5162c2592e754a8f807564c03656aa31f6bbcd86f4454b4de"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png",
+        "sha256": "11ae806043b4ce627a58a31542086f9c9ed9a28ccfb476338cfbf9c92cda464c"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/04-how-to-choose-next-step.png",
+        "sha256": "4fc798f507523cd5542531d4b527cde8e10704682b0e9a4f6e2ce14d463ea7a8"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/05-booking-cta.png",
+        "sha256": "469f82da2702fb31248a9d1c026bf058396512996b6ba8f9d48a9c7ae98b9905"
+      }
+    ],
+    "decision_owner": "Controller/builder; source-backed role reconciliation",
+    "qa_verdict": "PENDING"
   }
 }

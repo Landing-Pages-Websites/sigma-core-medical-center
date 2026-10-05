@@ -1,0 +1,174 @@
+{
+  "status": "PASS_STRUCTURAL_AND_SOURCE_ONLY",
+  "baseline": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+  "runtime_changed": [
+    "app/services/pelvic-floor-incontinence/page.css",
+    "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+  ],
+  "protected_file_count": 188,
+  "protected_paths_sha256": "2e87d8ec17888e164437d011d1f4d89a125f5a092c39b0501f9491eaf1a7a589",
+  "protected_routes": {
+    "/": {
+      "file_count": 26,
+      "changed": [],
+      "baseline_bundle_sha256": "439b9a308d70fc884b6725f5f9e36f86f3cc862d46a7b6e18c39ea1f65764fdb",
+      "candidate_bundle_sha256": "439b9a308d70fc884b6725f5f9e36f86f3cc862d46a7b6e18c39ea1f65764fdb"
+    },
+    "/services": {
+      "file_count": 24,
+      "changed": [],
+      "baseline_bundle_sha256": "1beda3b94349397d3409f9c1a0659bdb17fa7b8c2e59c577e97aefd703cbed13",
+      "candidate_bundle_sha256": "1beda3b94349397d3409f9c1a0659bdb17fa7b8c2e59c577e97aefd703cbed13"
+    },
+    "/services/neuropathy": {
+      "file_count": 26,
+      "changed": [],
+      "baseline_bundle_sha256": "c5b1455bb319590f803ee2ade5d407f30b0e5c6d4818e29773404c6e1688ce3a",
+      "candidate_bundle_sha256": "c5b1455bb319590f803ee2ade5d407f30b0e5c6d4818e29773404c6e1688ce3a"
+    },
+    "/services/pain-relief": {
+      "file_count": 28,
+      "changed": [],
+      "baseline_bundle_sha256": "77428f89d8582961f73a22cb879190dbb72f143bcb3cc402a911a3c026d74b96",
+      "candidate_bundle_sha256": "77428f89d8582961f73a22cb879190dbb72f143bcb3cc402a911a3c026d74b96"
+    },
+    "/services/hormone-optimization": {
+      "file_count": 26,
+      "changed": [],
+      "baseline_bundle_sha256": "056ff9788e4971ccb995e4d6b3bc0521b46a1c0451143e892beddab4366df577",
+      "candidate_bundle_sha256": "056ff9788e4971ccb995e4d6b3bc0521b46a1c0451143e892beddab4366df577"
+    },
+    "/services/pelvic-floor-incontinence": {
+      "file_count": 26,
+      "changed": [
+        "app/services/pelvic-floor-incontinence/page.css",
+        "src/components/interior/pelvic-floor-incontinence/hero.tsx"
+      ],
+      "baseline_bundle_sha256": "0b7685515a169aa93c10641fe274142fcb2d5d787c79486883e7dabdfbaa034c",
+      "candidate_bundle_sha256": "a9578b3c44cd511997be2af7915fd02e11f2e7f9f1fbd38f2340b111ebf94516"
+    },
+    "/services/regenerative-medicine": {
+      "file_count": 25,
+      "changed": [],
+      "baseline_bundle_sha256": "0caf5829dada8dfe8e24a738ae0aac8476eb56562d608ccc52edd6b3f658f318",
+      "candidate_bundle_sha256": "0caf5829dada8dfe8e24a738ae0aac8476eb56562d608ccc52edd6b3f658f318"
+    },
+    "/about": {
+      "file_count": 22,
+      "changed": [],
+      "baseline_bundle_sha256": "caa4c957de9da17d555618870a09f732daab7865a1d4fe65591d940555d8a87b",
+      "candidate_bundle_sha256": "caa4c957de9da17d555618870a09f732daab7865a1d4fe65591d940555d8a87b"
+    },
+    "/educational-guide": {
+      "file_count": 20,
+      "changed": [],
+      "baseline_bundle_sha256": "e0a04cbc57cb4bfaedb1f53bec09820bf7510782b75190211b0ceacaa842ae75",
+      "candidate_bundle_sha256": "e0a04cbc57cb4bfaedb1f53bec09820bf7510782b75190211b0ceacaa842ae75"
+    },
+    "/book": {
+      "file_count": 19,
+      "changed": [],
+      "baseline_bundle_sha256": "a1c01742d0e692fbf318c96d5e6f020954a029a8b3d4009ca65e9a0b04db92a0",
+      "candidate_bundle_sha256": "a1c01742d0e692fbf318c96d5e6f020954a029a8b3d4009ca65e9a0b04db92a0"
+    },
+    "/contact": {
+      "file_count": 22,
+      "changed": [],
+      "baseline_bundle_sha256": "2eda1990c58618b1b9e975725436fa4c1431e95fa423d82a54eef48dfd5519a3",
+      "candidate_bundle_sha256": "2eda1990c58618b1b9e975725436fa4c1431e95fa423d82a54eef48dfd5519a3"
+    },
+    "/privacy": {
+      "file_count": 17,
+      "changed": [],
+      "baseline_bundle_sha256": "028060d9fb8a4b9f2d0a74799430ad2511934ad0cfd20445d0430534f52e2ea3",
+      "candidate_bundle_sha256": "028060d9fb8a4b9f2d0a74799430ad2511934ad0cfd20445d0430534f52e2ea3"
+    },
+    "/notice-of-privacy-practices": {
+      "file_count": 17,
+      "changed": [],
+      "baseline_bundle_sha256": "254205b7429e276110634e873618d4371a10c14f58d02ab48a25740b302e94ba",
+      "candidate_bundle_sha256": "254205b7429e276110634e873618d4371a10c14f58d02ab48a25740b302e94ba"
+    },
+    "/accessibility": {
+      "file_count": 17,
+      "changed": [],
+      "baseline_bundle_sha256": "9cb59af8e89912bca810de268fd2b36910e6b8ee9aa9fe2ea85ed63981704290",
+      "candidate_bundle_sha256": "9cb59af8e89912bca810de268fd2b36910e6b8ee9aa9fe2ea85ed63981704290"
+    },
+    "/terms": {
+      "file_count": 17,
+      "changed": [],
+      "baseline_bundle_sha256": "98f074cca1e964a829fe9a6386428bd0d82b4cddc38b77993670108a3202165b",
+      "candidate_bundle_sha256": "98f074cca1e964a829fe9a6386428bd0d82b4cddc38b77993670108a3202165b"
+    },
+    "/variant-a": {
+      "file_count": 15,
+      "changed": [],
+      "baseline_bundle_sha256": "f3a97d81b61409b7b653a653f2f96017d82236d12e34fef3dc71b02cf31caf58",
+      "candidate_bundle_sha256": "f3a97d81b61409b7b653a653f2f96017d82236d12e34fef3dc71b02cf31caf58"
+    },
+    "/variant-b": {
+      "file_count": 15,
+      "changed": [],
+      "baseline_bundle_sha256": "617b75161a0581646a4e6f06b1617f2a5a5f0a5496aa9eb0294330747b01be7d",
+      "candidate_bundle_sha256": "617b75161a0581646a4e6f06b1617f2a5a5f0a5496aa9eb0294330747b01be7d"
+    }
+  },
+  "canonical_files_unchanged": 95,
+  "unrelated_canonical_log_concurrent_drift": {
+    "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/resume-route-review-75b.md": {
+      "before_sha256": "2e1236470510e6afc63d368a57782c8614116d8b18dfea4a9b5bdfd94c6ee77b",
+      "after_sha256": "90b145f33f54f84698baf62459f532e2893fbb53005eeefdb727133aca8c4fb5"
+    }
+  },
+  "registry_qa_and_edge_flags_unchanged": true,
+  "historical_review_blocks_unchanged": true,
+  "unchanged_pelvic30_regenerative33_neuropathy35_layers": true,
+  "current_layer_counts": {
+    "services": {
+      "PASS": 25
+    },
+    "about": {
+      "PASS": 27,
+      "FAIL": 3
+    },
+    "educational-guide": {
+      "PASS": 20
+    },
+    "book": {
+      "PASS": 12,
+      "PENDING": 3
+    },
+    "contact": {
+      "PASS": 12,
+      "FAIL": 8
+    },
+    "pelvic-floor-incontinence": {
+      "PASS": 32,
+      "PENDING": 2,
+      "FAIL": 1
+    },
+    "regenerative-medicine": {
+      "PASS": 35
+    },
+    "neuropathy": {
+      "PASS": 35
+    }
+  },
+  "hero_copy_alt_href_source_pixels_equal": true,
+  "built_html_a11y": {
+    "one_h1": true,
+    "duplicate_ids": false,
+    "meaningful_alt": true,
+    "decorative_svg_hidden": true,
+    "real_services_link": true,
+    "complete_copy_status_caption": true,
+    "noindex": true
+  },
+  "native_browser": "UNAVAILABLE: libnspr4.so; browser screenshots unavailable \u2014 bootstrap gap",
+  "painted_candidate_verdict": "PENDING independent new-source review; no numeric/CSS approval",
+  "audit_count": 20,
+  "audit_status": "PASS",
+  "audit_allow_flags": [],
+  "builder_history_entries_preserved": 92
+}
