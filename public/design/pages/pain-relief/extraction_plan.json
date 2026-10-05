@@ -142,7 +142,7 @@
       ],
       "runtime_contract": {
         "source_component": "src/components/interior/pain-relief/navigation.tsx",
-        "source_sha256": "7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2",
+        "source_sha256": "f5a05de1e7cac8e6aba750e4438e6fb2ce2f9263be2bfc28a9e4a3d0f82ae699",
         "dom_ids": [
           "pain-concern-navigation"
         ],

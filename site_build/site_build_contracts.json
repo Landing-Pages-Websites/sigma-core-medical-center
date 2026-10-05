@@ -7,7 +7,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -25,16 +25,40 @@
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "visual_repair_r1": "Original independent review applied: 20 PASS/5 FAIL; fidelity FAIL; edge PASS; QA PENDING. Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
       "design_surface": "design-refs",
       "evidence_scope": {
-        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
-        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance. Services r2 full image predates changed hero padding. Current r3 hero seam is fresh; rest identity follows the one-file runtime delta, not a new full-page r3 image.",
-        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.json sha256=3b27fcbca551db732ad16d38b3124c6da09c404cd7e1f1ab9e04d0a0892acc86; 20 PASS/5 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/services/section_implementation.json#route_review.",
+        "reference_viewport": "Exact desktop/mobile/wide/narrow inspected capture list and limitations preserved verbatim through originating JSON and route_review; no uninspected supplemental states promoted.",
+        "edge_scope": "Original PASS on 75b2665c0370aaebd77944091e0ad17e694fe072. All reviewed header/joins/terminal boundaries preserved; source identity verified. See original JSON #/boundaries and application source-identity.json.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
-        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+        "section_captures": "Original final-capture-75b evidence only; no new painted capture or geometry approval in this worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": "web-developer@gomega.ai; session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:8f08202d",
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.json",
+            "sha256": "3b27fcbca551db732ad16d38b3124c6da09c404cd7e1f1ab9e04d0a0892acc86"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.md",
+            "sha256": "e19d97f9cd0c7864fbd1e09477970dd9d87c7eaaf09a8ee08cb517d7d388dd08"
+          }
+        ],
+        "outcome": {
+          "PASS": 20,
+          "FAIL": 5
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "applicability": "Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+        "next_owner": "Controller",
+        "next_action": "Controller -> targeted typography adjudicator: preserve all five visual_treatment FAIL judgments. Reconcile typography.json Playfair display role with Source Sans reference headings; no site-wide font change or whole-route rerun.",
+        "boundary": "Original edge PASS only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
       }
     },
     "/services/neuropathy": {
@@ -130,16 +154,44 @@
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "visual_repair_r1": "Original independent review applied: 44 PASS/1 FAIL; fidelity FAIL; edge FAIL; QA PENDING. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim.",
       "design_surface": "design-refs",
       "evidence_scope": {
-        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
-        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
-        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07; 44 PASS/1 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/pain-relief/section_implementation.json#route_review.",
+        "reference_viewport": "1536x1024 numeric edge evidence only; no additional wide painted inspection inferred from Pain review.",
+        "edge_scope": "Original FAIL on 75b2665c0370aaebd77944091e0ad17e694fe072. Original alleged walnut terminal FAIL preserved pending independent targeted adjudication; shared approved footer unchanged. Heading candidate requires fresh affected-join review. See original JSON #/boundaries and application source-identity.json.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
-        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+        "section_captures": "Original final-capture-75b evidence only; no new painted capture or geometry approval in this worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": {
+          "identity": "MegaClaw Web Developer",
+          "email": "web-developer@gomega.ai",
+          "mode": "independent read-only route reviewer"
+        },
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json",
+            "sha256": "d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.md",
+            "sha256": "054bc05e5617d334ad4da353386e8cf84353705a0ad8b4c4c8ef67a36bddf420"
+          }
+        ],
+        "outcome": {
+          "PASS": 44,
+          "FAIL": 1
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "FAIL",
+        "applicability": "Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim.",
+        "next_owner": "Controller",
+        "next_action": "After controller Git push, recapture only Pain at required desktop/mobile/wide/narrow viewports. Review exact heading, changed wrapping/section height, affected joins and terminal/footer. Do not inherit changed geometry or rerun passed whole routes. Controller -> independent targeted footer adjudicator: retain F-02 and edge false pending adjudication of intentional shared SiteFooterB walnut rail (20px desktop right / 12px mobile top). Controller observation alone is not an independent PASS.",
+        "boundary": "Original edge FAIL only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
       }
     },
     "/services/hormone-optimization": {
@@ -149,7 +201,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -161,16 +213,44 @@
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "visual_repair_r1": "Original independent review applied: 24 PASS/11 FAIL; fidelity FAIL; edge PASS; QA PENDING. Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
       "design_surface": "design-refs",
       "evidence_scope": {
-        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
-        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
-        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.json sha256=c58241d1903b13c9aab9567e46667304bfe64c99d0505226a1d8b7d20f62aa21; 24 PASS/11 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/hormone-optimization/section_implementation.json#route_review.",
+        "reference_viewport": "Exact desktop/mobile/wide/narrow inspected capture list and limitations preserved verbatim through originating JSON and route_review; no uninspected supplemental states promoted.",
+        "edge_scope": "Original PASS on 75b2665c0370aaebd77944091e0ad17e694fe072. All reviewed header/joins/terminal boundaries preserved; source identity verified. See original JSON #/boundaries and application source-identity.json.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
-        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+        "section_captures": "Original final-capture-75b evidence only; no new painted capture or geometry approval in this worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": {
+          "name": "Web Developer independent read-only subagent",
+          "email": "web-developer@gomega.ai",
+          "session_id": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:3c8015d0"
+        },
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.json",
+            "sha256": "c58241d1903b13c9aab9567e46667304bfe64c99d0505226a1d8b7d20f62aa21"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.md",
+            "sha256": "4643a9ee76aeb8d13f6dcfd069ba26f8192c0efa2ae19878c5f6b611c9b9c255"
+          }
+        ],
+        "outcome": {
+          "PASS": 24,
+          "FAIL": 11
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "applicability": "Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+        "next_owner": "Controller",
+        "next_action": "Controller -> bounded independent reviewer: verify actual selected font roles/weights and hover/focus for seven visual_treatment FAIL layers; complete 1536/360/320 inspection for responsive FAIL frames 03/04/05/07 and affected seams. Preserve existing PASS results; no full-section or whole-route rerun. Supply explicit deployment-to-SHA binding.",
+        "boundary": "Original edge PASS only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
       }
     },
     "/services/pelvic-floor-incontinence": {
