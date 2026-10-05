@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "artifact_kind": "additive-negative-working-registry-correction-not-approval",
+  "base_source_sha": "cead5340cd20ad1f993d3069bd913fd15225dfce",
+  "registry_path": "site_build/site_build_contracts.json",
+  "prior_registry_sha256": "75c9d9ded3188f1c925f78337cfd165502268ec83756f3448fb8c4ddbef5cc0e",
+  "corrected_registry_sha256": "c7a1326037f9b2995dbc3e88bf00e6ee002a871d1aa0345ab13d0cbdcb24a397",
+  "successor_source_binding": "The local commit containing this ledger binds the correction; its exact Git SHA is reported in the controller handoff. No remote or canonical mirror written.",
+  "reason": "Unsupported inherited true flags conflict with native CHANGES_REQUESTED reviews and withheld edge promotion. Correct only these working flags to false; no route is recertified and this metadata correction has no visible-change ID.",
+  "corrections": [
+    {
+      "route": "/services",
+      "field": "section_edge_clearance_audited",
+      "prior_value": true,
+      "new_value": false
+    },
+    {
+      "route": "/about",
+      "field": "section_edge_clearance_audited",
+      "prior_value": true,
+      "new_value": false
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "field": "section_edge_clearance_audited",
+      "prior_value": true,
+      "new_value": false
+    }
+  ],
+  "native_artifacts": [
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/services/reviews/art-director-r5.json",
+      "sha256": "6e8ef60533794ab2f494013c57d9523e87f5e79c24b962dcfcbc8f5cffff857b",
+      "historical_native_fields": {
+        "verdict": "CHANGES_REQUESTED"
+      }
+    },
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/services/reviews/painted-edge-r5.json",
+      "sha256": "b5aebd6a86db9d62c41424096699f6ddfce7573fcfdf00bef4bfb2f8f2f910db",
+      "historical_native_fields": {
+        "source_sha": "c2aa38379a0d1b0cd37a7b58f2d880d6cc8cd090",
+        "verdict": "NEEDS_VISUAL_REVIEW",
+        "edge_promotion_supported": false
+      }
+    },
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/about/reviews/art-director-r5.json",
+      "sha256": "1d4100b2ad922d2039449ed8e2fb265b40690482eca792d576f456af48408709",
+      "historical_native_fields": {
+        "source_sha": "c2aa38379a0d1b0cd37a7b58f2d880d6cc8cd090",
+        "verdict": "CHANGES_REQUESTED",
+        "edge_flag_promotion": "WITHHELD"
+      }
+    },
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/about/reviews/painted-edge-r5.json",
+      "sha256": "e80cc3e8c7651b3f09d37830062ca3f1cd221935da956b67c0fc4dcac58f9afd",
+      "historical_native_fields": {
+        "source_sha": "c2aa38379a0d1b0cd37a7b58f2d880d6cc8cd090",
+        "status": "WITHHELD",
+        "section_edge_clearance_audited": false
+      }
+    },
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/pelvic-floor-incontinence/reviews/painted-edge-art-director-r6.json",
+      "sha256": "2c73baaad62dd047a69aaa14fa255b18642a976ffb0392fff79ec3aff2098ac0",
+      "historical_native_fields": {
+        "source_sha": "cead5340cd20ad1f993d3069bd913fd15225dfce",
+        "scoped_verdict": "CHANGES_REQUESTED",
+        "edge_promotion_supported": false
+      }
+    },
+    {
+      "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/pelvic-floor-incontinence/reviews/hero-art-director-r6.json",
+      "sha256": "0731d744fa6ef290eaa0b8642527ab0aefb2a738af28431c7052e9c931567bd4",
+      "historical_native_fields": {
+        "source_sha": "cead5340cd20ad1f993d3069bd913fd15225dfce",
+        "scoped_verdict": "PASS_SCOPED",
+        "holistic_outcome": "KEEP",
+        "edge_promotion_supported": false
+      }
+    }
+  ],
+  "contact": {
+    "prior_value": false,
+    "new_value": false,
+    "changed": false
+  },
+  "preservation": "Every other registry field and route is unchanged. Prior true values remain in the full base commit; raw FAIL/PASS/review files remain immutable. Hero r6 KEEP is scoped only; no successor applicability is claimed.",
+  "controller_next_step": "Mirror exact committed registry bytes only after exact commit verification.",
+  "approval_boundary": "Independent source review, preview build/captures, art direction, canonical history, keyboard/reduced-motion evidence, QA, production and Site Review remain PENDING; no true flag, edge promotion or route approval."
+}

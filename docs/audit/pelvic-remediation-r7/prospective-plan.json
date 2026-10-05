@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "artifact_kind": "prospective-bounded-successor-plan-not-canonical-decision-audit",
+  "authored_time_policy": "This file is authored now before spawning the r7 implementation. Actual tool write occurrence is authoritative; no invented/backdated wall-clock or canonical ordinal is asserted.",
+  "page": {"slug": "pelvic-floor-incontinence", "route": "/services/pelvic-floor-incontinence"},
+  "before_source_sha": "cead5340cd20ad1f993d3069bd913fd15225dfce",
+  "before_deployment_id": "dpl_Gvf6EsPDVY8iQCtYLn8fNeeGXE1n",
+  "implementation_base": "Same isolated unmerged Pelvic worktree at cead534; the prior repair has not passed its painted gate. No parallel batch is launched.",
+  "originating_painted_review": "reviews/painted-edge-art-director-r6.json",
+  "originating_reviewer_thread": "01a10e4b-b3e0-7b30-b638-322fb0f3104d",
+  "originating_hero_review": "reviews/hero-art-director-r6.json",
+  "preserved_hero_outcome": "KEEP / PASS_SCOPED only, not current successor applicability or route approval",
+  "plan": [
+    {
+      "id": "PFI-R7-LINK-ICON-GROUP",
+      "finding_ids": ["PFI-R6-EDGE-DANGLING-ORIENTATION-360", "PFI-R6-EDGE-DANGLING-SOURCE-320"],
+      "intent": "Keep the directional marker associated with each complete link label at narrow widths, instead of an isolated underlined arrow-only line.",
+      "implementation_scope": "Only the medical-information-limits link in orientation.tsx and the NIDDK title link in sources.tsx, plus route-local CSS. Preserve all meaningful label wording and exact destinations, source qualifications, ordering and noindex.",
+      "constraints": "Choose a small source-safe markup/CSS grouping solution after inspecting the actual native before/ref frames. No nowrap overflow, clipping or truncated text. Existing .p-sources-reference span styles apply broad margins/typography; do not let a new label/icon span accidentally inherit those top-label styles. Keep decorative arrows decorative and links semantically operable. No image bytes or shared CSS may change.",
+      "evidence_required": "Native whole-orientation and whole-sources before/after plus both adjacent joins at320/360/390 and desktop regression at1440/1536/1728; actual link activation and painted focus evidence where callable. Fresh independent holistic KEEP, not an implementer pass."
+    },
+    {
+      "id": "PFI-R7-HERO-CLOSING-UNIT",
+      "finding_ids": ["PFI-R6-EDGE-HERO-UNIT-RULE"],
+      "intent": "Remove ambiguity between the collector40px local unit and the working32px outgoing unit through a conservative explicit40px mobile hero closing reserve.",
+      "implementation_scope": "Mobile-only hero padding bottom32to40, with corresponding working recipe/spacing intent and a prospective NOTES addendum. Incoming40, portrait/top/group placement, typography, source asset and desktop hero stay unchanged.",
+      "constraints": "Do not lower/rewrite numeric thresholds or change old raw measurements, named exceptions or historical contracts. A real8px reserve increase preserves the accepted first-fold narrative/person placement and errs toward clearance rather than relabeling a39px result as40. The r6 plan and review remain immutable historical evidence.",
+      "evidence_required": "Fresh six-width fold/whole-hero/adjacent-boundary captures and unrounded numeric report, independent holistic regression review and actual caption-panel clearance judgment."
+    }
+  ],
+  "nonvisual_registry_correction": {
+    "routes": ["/services", "/about", "/services/pelvic-floor-incontinence"],
+    "change": "Set only their unsupported inherited working section_edge_clearance_audited flags false. No true promotion. Existing exact-byte research/repo registry mirror currently has these true despite current native CHANGES_REQUESTED/withheld promotion.",
+    "history": "Preserve all raw reviews and prior true/FAIL/PASS values in immutable Git history. Record an additive correction ledger with prior values, reviewer references and exact new source. This is not a visible-change audit plan item or a dummy visual change ID. Other route flags are not recertified. Controller will re-mirror only after exact committed registry readback."
+  },
+  "implementation": [],
+  "judgment": null,
+  "preserved_open_findings": ["PFI-R5-HANDOFF-AUTHORITY", "PFI-R5-INTERACTION-EVIDENCE", "PFI-R5-NATIVE-V2-ORIGIN-CLOSURE", "PFI-R6-EDGE-FOCUS-AND-SEAM-GEOMETRY", "PFI-R5-EDGE-RATIO, no canonical closure asserted"],
+  "scope_boundary": "No canonical event/ordinal/applicability, convergence, edge promotion, whole-route, QA, production or Site Review approval. This is a genuine prospective visible repair; it may not be relabeled as evidence-only to evade review budget. No new clinical/legal copy, booking, images or noindex lift."
+}
