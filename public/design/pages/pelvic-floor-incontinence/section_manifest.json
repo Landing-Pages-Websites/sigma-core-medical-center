@@ -180,12 +180,12 @@
         "runtime_assets": [
           "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
         ],
-        "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+        "recipe": "Retain the exact 338x520 source-frame illustrative portrait uncropped and never above source size. Use a compact 386px desktop art track (338px portrait plus two24px rails) beside the widened heading in a maximum1200px hero grid; keep670px desktop stage and the caption in its64px closing reserve. At<=800px use a natural single-column stack, a32px minimum heading,24px copy/art gap and80px caption reserve; suppress the decorative hero wedge. Keep all truthful status copy and the Services control before the portrait. Earlier mobile first-fold person visibility remains FAIL pending actual native capture, not an asserted outcome.",
         "status": "SOURCE_RECONCILED_VISUAL_PENDING",
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
         }
       },
       "visual_repair_r1": {
@@ -249,7 +249,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
         }
       },
       "visual_repair_r1": {
@@ -336,7 +336,7 @@
         "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
         "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
         "styles": {
-          "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
         }
       },
       "visual_repair_r1": {

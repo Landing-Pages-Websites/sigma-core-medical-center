@@ -129,3 +129,6 @@
 @media (prefers-reduced-motion: reduce) {
   .r-hero-art * { animation: none; transition: none; }
 }
+@media (max-width: 340px) {
+  .b2 .r-hero::before { display: none; }
+}
