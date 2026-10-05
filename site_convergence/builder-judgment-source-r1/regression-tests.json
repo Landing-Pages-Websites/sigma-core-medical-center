@@ -1,0 +1,48 @@
+[
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/tests/test_audit_design_handoff.py",
+    "sha256": "662313068eb649d4493a511e93240a0f9f276714c4f0ae50a37e73459631a813",
+    "passed": [
+      "test_accepts_consistent_handoff",
+      "test_allows_documented_duplicate_visual_content",
+      "test_allows_explicit_non_use_contract",
+      "test_allows_explicitly_approved_reuse",
+      "test_declared_route_that_renders_duplicate_still_fails",
+      "test_declared_route_without_page_fails",
+      "test_declared_routes_ignore_unreachable_duplicate",
+      "test_inventories_non_design_runtime_image",
+      "test_rejects_frame_drift_and_unmapped_assets",
+      "test_rejects_mapped_asset_unused_by_implementation",
+      "test_rejects_missing_non_design_runtime_image",
+      "test_rejects_same_asset_role_across_components_and_extensions",
+      "test_rejects_same_photo_saved_under_different_names",
+      "test_rejects_two_same_file_occurrences",
+      "test_review_sheet_does_not_turn_single_runtime_use_into_reuse",
+      "test_review_sheet_reference_does_not_make_unused_asset_pass",
+      "test_tree_without_router_falls_back_to_whole_tree",
+      "test_whole_tree_scan_still_flags_dormant_duplicate"
+    ]
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/tests/test_route_reachability.py",
+    "sha256": "bf17b8259a75debebf26a85ea15d87defa45e421c9cdac192f21705f77721824",
+    "passed": [
+      "test_catch_all_and_unmatched_routes",
+      "test_dynamic_segments_groups_and_layout_chain",
+      "test_load_routes_merges_file_and_args",
+      "test_no_router_is_unavailable",
+      "test_pages_router_and_css_imports"
+    ]
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/tests/test_validate_section_implementation.py",
+    "sha256": "7d58ab166502b1f2a016887009fa26a9d74d4a074d6df706eae1f26cc3478856",
+    "passed": [
+      "test_accepts_one_bespoke_owner_per_approved_frame",
+      "test_rejects_generic_fallback_and_missing_frame",
+      "test_rejects_one_generic_owner_disguised_as_bespoke",
+      "test_rejects_unreviewed_fidelity_layer",
+      "test_shared_composition_requires_design_evidence"
+    ]
+  }
+]

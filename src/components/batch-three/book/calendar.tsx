@@ -1,6 +1,29 @@
 import Link from "next/link";
-import { ArrowRight, CalendarClock } from "lucide-react";
-import { DesignPhoto } from "../design-photo";
+import { ArrowRight } from "lucide-react";
+
 export function BookCalendar(): React.ReactElement {
-  return <section id="gohighlevel-calendar" className="b3-section b3-blue b3-book-calendar"><div className="b3-shell"><h2>Scheduling calendar</h2><div className="b3-split"><div className="b3-calendar-copy"><p>GoHighLevel calendar integration requires an approved URL and verified workflow before appointments can be requested here.</p><div className="b3-status"><strong>No booking form is active</strong><span>We cannot confirm appointments until the calendar is connected.</span></div><Link href="/contact" className="b3-action b3-action-light">Contact & location status <ArrowRight size={20} /></Link><p className="b3-caption">No public phone, email, or alternate booking channel has been confirmed.</p></div><div className="b3-calendar-right"><div className="b3-calendar-reserved"><CalendarClock size={54} aria-hidden /><strong>Integration reserved</strong><p>The verified calendar will appear here when available. There are no selectable slots today.</p></div><DesignPhoto slug="book" file="02-gohighlevel-calendar-01-clinic-lounge.png" className="b3-calendar-photo b3-bevel" /></div></div></div></section>;
+  return (
+    <section id="gohighlevel-calendar" className="book-section book-calendar" aria-labelledby="book-calendar-title">
+      <div className="book-shell book-calendar-layout">
+        <div className="book-reserve">
+          <h2 id="book-calendar-title">Scheduling <br />calendar</h2>
+          <p>Calendar connection pending.</p>
+          <div className="book-reserve-rule" aria-hidden="true" />
+          <svg className="book-reserve-steps" viewBox="0 0 180 66" aria-hidden="true" focusable="false">
+            <path d="M0 58H54 M38 33H100 M84 8H179" />
+          </svg>
+        </div>
+        <div className="book-routes">
+          <div>
+            <Link href="/services" className="book-services-link"><span>Explore services</span><ArrowRight aria-hidden="true" /></Link>
+            <p>Browse service information.</p>
+          </div>
+          <div className="book-contact-route">
+            <Link href="/contact" className="book-contact-link"><span>Contact &amp; location status</span><ArrowRight aria-hidden="true" /></Link>
+            <p>Contact is for status information only.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

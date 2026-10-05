@@ -1,0 +1,20 @@
+{
+  "site_convergence/builder-judgment-source-r1/run_audits.py": "526766b428f188dd4c549ccdf73c83885cb7901381d379d4a42de85ee7805263",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_typography_contract.py": "5546de6ab2ef2521a0c5ce416539de083b71ca151e856aa85c86543b4c1178c3",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_site_build_contracts.py": "d119171aeab8d29c5e151c5e7981646fb962dac9752e157c5f16781499ffe3a2",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_design_convergence.py": "fb3e1d19b335030aed53cf073984f4099a9677e75b42234c0e74947f8742251e",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_palette_contract.py": "7b4ac88b3520f35e021ffe392ee5bc00117ea7fdd2f33d6f380b5e167bd0435a",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/promote_winner.py": "58e82149d33b2e48a0c8fdf62677dcbf193ef4577057f67188a39792c1a3b14d",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/verify_build_prompt.py": "3939940768722a296617b5d5f5f995136e5d6dd896b99d078cfe8559a0f0a1c3",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_design_decision_audit.py": "b090e1743af862d27f48e106dc0d0059b6c43845d07c45c5a1853dbd11be2515",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_site_convergence.py": "a9eb2db3a5d220247f465a5975dd0a76d2dd2503fa10d9b12f130d50642d6dda",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/route_reachability.py": "8ac142c4c748a317abdfd9657c226ae7ee9358e34b9bebabe589a65538e8269d",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/audit_design_handoff.py": "1257d562015878454d2b3943962a86a7c982c5dd4278c3d9b3f41deebbb27180",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_section_implementation.py": "33bf6f9cc87b1ebc27d5119049d3967146218cf2f669d043d6b03197ad5b180c",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_review_bridge.py": "cf56d10042a7dfd47661d309ba18852ef01277000411253d0e0b5ebd86684a74",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/capture_remote.py": "b3be22a1f2058d2f162804f6d3d865f5c03c64bc52153142d20b015456d39a41",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/design_handoff_schema.py": "622fa0e5f7b413c83bdc8876c3323525021f023f2aa817f0e89bab8370bb6846",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_design_directions.py": "ee697b94f21866b71559c49e1402721cda2d8ed7e8bc70f33e319ce1d6315070",
+  "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_build_conformance.py": "e4006b861f8b0427267fcfe44364412505ffe062013e677c70178eef9e585bca",
+  "/var/lib/megaclaw/workspace/skills/design-frame-decomposition/scripts/make_review_sheet.py": "2956c2a0a75a3af702417c9852041aca536af4c328edfd6414d7079f480860c4"
+}

@@ -21,55 +21,43 @@
         }
       },
       "slot_contract": {
-        "container": "hero independently sized photographic media slot",
-        "width_share": "about 20% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.55:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image."
       },
       "focal_point": {
-        "what": "person walking",
-        "where": "right media field",
-        "region_ids": [
-          2
-        ]
+        "what": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Three blue branching labels for knee, low back and neck connect left pain orientation to a right walking figure.",
+      "dominance": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
       "eye_path": [
-        "hero heading",
-        "person walking",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Maintain a dark buffer between the left heading and the branching labels."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Three blue branching labels for knee, low back and neck connect left pain orientation to a right walking figure.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "hero heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -77,25 +65,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "hero hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "One branching system links three conditions, not three separate hero images."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -103,45 +86,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image."
       },
-      "slot_contracts": [
-        {
-          "region_id": 2,
-          "container": "01-hero / person walking \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.55:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "headline, action and primary media simultaneously visible"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/hero.tsx",
+        "source_sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "02-pain-concern-navigation",
@@ -163,55 +124,43 @@
         }
       },
       "slot_contract": {
-        "container": "pain concern navigation independently sized photographic media slot",
-        "width_share": "about 33% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 2.35:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile."
       },
       "focal_point": {
-        "what": "knee clinic",
-        "where": "left media field",
-        "region_ids": [
-          4
-        ]
+        "what": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Blue title bar gives way to three parallel photograph-led category cards with a quiet explanatory footer.",
+      "dominance": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
       "eye_path": [
-        "pain concern navigation heading",
-        "knee clinic",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep clear spacing between the three cards and footer statement."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Blue title bar gives way to three parallel photograph-led category cards with a quiet explanatory footer.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "pain concern navigation heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -219,25 +168,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "pain concern navigation hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Three distinct photographs and labels must remain independently owned."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -245,61 +189,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile."
       },
-      "slot_contracts": [
-        {
-          "region_id": 4,
-          "container": "02-pain-concern-navigation / knee clinic \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.35:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 5,
-          "container": "02-pain-concern-navigation / low back clinic \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.85:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 6,
-          "container": "02-pain-concern-navigation / neck clinic \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.31:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/navigation.tsx",
+        "source_sha256": "f5a05de1e7cac8e6aba750e4438e6fb2ce2f9263be2bfc28a9e4a3d0f82ae699",
+        "dom_ids": [
+          "pain-concern-navigation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "03-knee-concerns",
@@ -321,55 +227,44 @@
         }
       },
       "slot_contract": {
-        "container": "knee concerns independently sized photographic media slot",
-        "width_share": "about 76% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 5.04:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim."
       },
       "focal_point": {
-        "what": "person outdoors",
-        "where": "right lower band",
-        "region_ids": [
-          5
-        ]
+        "what": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Cream editorial header and three narrow decision cards sit above a full-width walking scene.",
+      "dominance": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
       "eye_path": [
-        "knee concerns heading",
-        "person outdoors",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep clear cream space to the left of the cards and above the photo band."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Cream editorial header and three narrow decision cards sit above a full-width walking scene.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "knee concerns heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -377,25 +272,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "knee concerns hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Do not let the three live cards or CTA become baked into the walking photograph."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -403,45 +293,59 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim."
       },
-      "slot_contracts": [
-        {
-          "region_id": 5,
-          "container": "03-knee-concerns / person outdoors \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "5.04:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/knee.tsx",
+        "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+        "dom_ids": [
+          "knee-concerns"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+          ],
+          "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "04-low-back-concerns",
@@ -463,55 +367,46 @@
         }
       },
       "slot_contract": {
-        "container": "low back concerns independently sized photographic media slot",
-        "width_share": "about 30% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.89:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile."
       },
       "focal_point": {
-        "what": "man at home",
-        "where": "right media field",
-        "region_ids": [
-          9
-        ]
+        "what": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Charcoal title and bright-blue action slab counterbalance a tall man-at-home photograph on the right.",
+      "dominance": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
       "eye_path": [
-        "low back concerns heading",
-        "man at home",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep breathing space between the left title and photo diagonal."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Charcoal title and bright-blue action slab counterbalance a tall man-at-home photograph on the right.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "low back concerns heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -519,25 +414,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "low back concerns hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The gardening subject must remain visible across desktop and mobile, separate from the CTA slab."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -545,45 +435,70 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
         ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile."
       },
       "slot_contracts": [
         {
-          "region_id": 9,
-          "container": "04-low-back-concerns / man at home \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.89:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "asset": "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
         }
-      ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/back.tsx",
+        "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+        "dom_ids": [
+          "low-back-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "05-neck-concerns",
@@ -605,55 +520,46 @@
         }
       },
       "slot_contract": {
-        "container": "neck concerns independently sized photographic media slot",
-        "width_share": "about 36% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.58:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original."
       },
       "focal_point": {
-        "what": "woman reading",
-        "where": "right media field",
-        "region_ids": [
-          8
-        ]
+        "what": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Left dark headline faces a woman reading; a separate facility strip below bridges to the booking route.",
+      "dominance": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
       "eye_path": [
-        "neck concerns heading",
-        "woman reading",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Retain dark buffer around the reading figure and route panel."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Left dark headline faces a woman reading; a separate facility strip below bridges to the booking route.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
       "assembly": {
         "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "neck concerns heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -661,25 +567,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "neck concerns hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The woman and clinic strip are separate semantic photos with different responsive behaviors."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -687,53 +588,70 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
         ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original."
       },
       "slot_contracts": [
         {
-          "region_id": 8,
-          "container": "05-neck-concerns / woman reading \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.58:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 9,
-          "container": "05-neck-concerns / clinic lounge strip \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "9.62:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "asset": "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
         }
-      ]
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/neck.tsx",
+        "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+        "dom_ids": [
+          "neck-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
     },
     {
       "frame": "06-decision-factors",
@@ -755,55 +673,43 @@
         }
       },
       "slot_contract": {
-        "container": "decision factors independently sized photographic media slot",
-        "width_share": "about 28% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.43:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          7
-        ]
+        "what": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Seven alternating question columns span the lower half beneath blue explanation and right facility photography.",
+      "dominance": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
       "eye_path": [
-        "decision factors heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep the blue title/explanation distinct from the narrow question band."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Seven alternating question columns span the lower half beneath blue explanation and right facility photography.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "decision factors heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -811,25 +717,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "decision factors hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The seven questions remain live, separate decision prompts rather than a decorative chart."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -837,45 +738,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise."
       },
-      "slot_contracts": [
-        {
-          "region_id": 7,
-          "container": "06-decision-factors / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.42:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/decisions.tsx",
+        "source_sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "07-faq",
@@ -897,55 +776,43 @@
         }
       },
       "slot_contract": {
-        "container": "faq independently sized photographic media slot",
-        "width_share": "about 28% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 2.30:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       },
       "focal_point": {
-        "what": "clinic interior",
-        "where": "left lower band",
-        "region_ids": [
-          4
-        ]
+        "what": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Large cream FAQ introduction stands beside a dark question-answer ladder, with small clinic image beneath.",
+      "dominance": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
       "eye_path": [
-        "faq heading",
-        "clinic interior",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
-        "Preserve cream breathing space around the left FAQ heading."
+        "Keep the navy gap between the introductory scope/source group and the four always-visible answers; separate the preparation link below the answers."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Large cream FAQ introduction stands beside a dark question-answer ladder, with small clinic image beneath.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "faq heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -953,25 +820,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "faq hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Do not turn the large first question into a static screenshot of all FAQs."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -979,45 +841,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted."
       },
-      "slot_contracts": [
-        {
-          "region_id": 4,
-          "container": "07-faq / clinic interior \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.31:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/faq.tsx",
+        "source_sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "08-booking-cta",
@@ -1039,55 +879,43 @@
         }
       },
       "slot_contract": {
-        "container": "booking cta independently sized photographic media slot",
-        "width_share": "about 28% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.20:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          7
-        ]
+        "what": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Charcoal left booking invitation meets a large clipped right reception image; a blue three-condition footer maps onward.",
+      "dominance": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
       "eye_path": [
-        "booking cta heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Keep separation between main invitation and lower condition navigation."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Charcoal left booking invitation meets a large clipped right reception image; a blue three-condition footer maps onward.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "booking cta heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -1095,25 +923,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "booking cta hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The booking button outranks the footer condition links."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -1121,45 +944,23 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise."
       },
-      "slot_contracts": [
-        {
-          "region_id": 7,
-          "container": "08-booking-cta / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.20:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/booking.tsx",
+        "source_sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
       "frame": "09-medical-sources",
@@ -1181,55 +982,43 @@
         }
       },
       "slot_contract": {
-        "container": "medical sources independently sized photographic media slot",
-        "width_share": "about 17% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.67:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
-          5
-        ]
+        "what": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+        "where": "section-owned live layout"
       },
-      "dominance": "Compact dark sources table for three concerns pairs with two independent right-side clinic crops.",
+      "dominance": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
       "eye_path": [
-        "medical sources heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "Decorative geometry stays behind live text and focus rings."
       ],
       "quiet_zones": [
         "Retain dark space between the headings and the sources columns."
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Compact dark sources table for three concerns pairs with two independent right-side clinic crops.",
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
         "layer_stack": [
           "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "live semantic content",
+          "aria-hidden geometric accents"
         ],
-        "connector_relationships": [],
+        "responsive_contract": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+          "Preserve local section rhythm; formal edge review pending."
+        ]
       },
       "content_groups": [
-        "medical sources heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow."
       ],
       "space_roles": {
         "internal_grouping": "heading and explanatory copy stay close",
@@ -1237,25 +1026,20 @@
         "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "heading",
+          "primary narrative group"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "No invented or damaged subject; native image crop retained where supported."
         ]
       },
       "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "medical sources hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Knee, low-back and neck citations must remain legible as live text."
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
       ],
       "free": [
         "responsive type sizing and accessible focus styles",
@@ -1263,53 +1047,66 @@
         "spacing tokens without altering group/section relationship"
       ],
       "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
         "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow."
       },
-      "slot_contracts": [
-        {
-          "region_id": 5,
-          "container": "09-medical-sources / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.66:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 6,
-          "container": "09-medical-sources / clinic lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.34:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/sources.tsx",
+        "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
         }
-      ]
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
     }
-  ]
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  }
 }

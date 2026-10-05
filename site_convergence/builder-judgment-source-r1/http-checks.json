@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "responses": [
+    {
+      "route": "/",
+      "status": 200,
+      "body_sha256": "9f14ca940acb22a1652cee7e5dcb49237fafd15b3c9933108723c6979fa72b5c"
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "body_sha256": "fce03803ae4c03ec7fb3196487280c54ac2c965422a015ec076d05db23a8294b"
+    },
+    {
+      "route": "/services/neuropathy",
+      "status": 200,
+      "body_sha256": "9a7a21ecddfbe3e2819b1aff1f79140b671c1a8948a9627bd14c91f3d53d8fdc"
+    },
+    {
+      "route": "/services/pain-relief",
+      "status": 200,
+      "body_sha256": "d89cee74d2a030c191cad30d00eb2eb43338a112573cb397ca54f434da64c377"
+    },
+    {
+      "route": "/services/hormone-optimization",
+      "status": 200,
+      "body_sha256": "3763c5711d1acfa8b9c2d14d3f835469df224ce2caa32b6477e1cf7df8fdbdb3"
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "status": 200,
+      "body_sha256": "e7f8b0711d7a517485cb6d04e7aebb75520ab6943fc1fda9e023e5c9d08a22a1"
+    },
+    {
+      "route": "/services/regenerative-medicine",
+      "status": 200,
+      "body_sha256": "eb35f12ed2bfcafce651af2661265bd8e9304941607666e91436bdb31d5a96bd"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "body_sha256": "b25dabc797b0e99e9ee8f1bdee8bd491a99063496fdb6f28282644e2b1f6b5e3"
+    },
+    {
+      "route": "/educational-guide",
+      "status": 200,
+      "body_sha256": "6e704984d13f6f40b47fef20770d21165c4785c97291b146fb55a115041d49cc"
+    },
+    {
+      "route": "/book",
+      "status": 200,
+      "body_sha256": "6ef92828c867b8b637dab361704915d6b4b6dad21d432553fc509b93f755e388"
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "body_sha256": "26bdc805ae70710d288e81d5f547f175b4f118d908f4d650cef086c14eb2d509"
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "body_sha256": "6e3f314c41b3a42b5197b50a6ba10cace09625a3bdfb90405e9aa639cbe38f4a"
+    },
+    {
+      "route": "/notice-of-privacy-practices",
+      "status": 200,
+      "body_sha256": "cbbc14c06d6813378e45893f5213fe1ef72ba2a5d01ff23c04767c5d8256a5e2"
+    },
+    {
+      "route": "/accessibility",
+      "status": 200,
+      "body_sha256": "33da1a25933d4ea633924f233516fb2804251d1d383eae99e4f8c412c4e8e9b3"
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "body_sha256": "236b8b3e41e8741bbec708ec8404ab054ad0f53cb184ee4f8bd92dc3aafb0659"
+    },
+    {
+      "route": "/variant-a",
+      "status": 404,
+      "body_sha256": "b38c8d7d674f2e927468af3e3567e1b6f682b4af8824704b38b79e5ccedaee7d"
+    },
+    {
+      "route": "/variant-b",
+      "status": 404,
+      "body_sha256": "421a723afb1a23baad4a66f47060614f2f395ff96fb4f99dc4df04f1721405d3"
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "body_sha256": "b6e943f31ecf48f1096817c686aeb475331e0d125324a1a2cd2ff7aa4a058b8a"
+    }
+  ],
+  "internal_links_checked": 318,
+  "broken_links": [],
+  "scope": "Local HTTP + DOM only; no painted visual pass."
+}

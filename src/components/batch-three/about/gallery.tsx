@@ -1,9 +1,22 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { DesignPhoto } from "../design-photo";
+
 export function AboutGallery(): React.ReactElement {
-  return <section id="facility-gallery" className="b3-section b3-paper b3-about-gallery"><div className="b3-shell"><div className="b3-split b3-gallery-top">
-    <div className="b3-gallery-copy"><h2>Facility Gallery</h2><p className="b3-bracket">These design references show Sigma Core-branded reception and waiting-area scenes. Physical location details are being verified.</p><Link href="/contact" className="b3-action">Location updates <ArrowRight size={20} /></Link></div>
-    <DesignPhoto slug="about" file="03-facility-gallery-01-real-reception.png" className="b3-bevel" /></div><DesignPhoto slug="about" file="03-facility-gallery-02-waiting-area.png" className="b3-gallery-panorama" />
-  </div></section>;
+  return (
+    <section id="facility-gallery" className="about-location" aria-labelledby="about-location-title">
+      <div className="about-shell">
+        <div className="about-location-intro">
+          <h2 id="about-location-title">Location &amp; visit details</h2>
+          <p>Address and visiting<br className="about-wide-break" /> arrangements remain unconfirmed.</p>
+        </div>
+        <div className="about-location-lower">
+          <div className="about-location-status">
+            <h3>Details pending confirmation</h3>
+            <p>Address, hours, directions, parking and accessibility details are not confirmed for publication.</p>
+          </div>
+          <Link href="/contact#verified-location-details" className="about-location-link">Check location status <ArrowRight aria-hidden="true" /></Link>
+        </div>
+      </div>
+    </section>
+  );
 }

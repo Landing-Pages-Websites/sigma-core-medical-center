@@ -1,0 +1,124 @@
+.contact-facility {
+  padding: 80px 0 152px;
+  background: var(--color-surface);
+  color: var(--color-ink);
+}
+.contact-facility::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: auto 0 -1px;
+  height: 97px;
+  background: var(--color-charcoal);
+}
+.contact-visit-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 43%) minmax(0, 53%);
+  grid-template-areas: "title title" "photo panel";
+  column-gap: 4%;
+  width: 91%;
+  max-width: 1504px;
+  margin-left: 5.6%;
+}
+.contact-visit-layout > h2 { grid-area: title; }
+.contact-visit-panel {
+  position: relative;
+  isolation: isolate;
+  grid-area: panel;
+  padding: 68px 40px 80px 56px;
+  color: #fff;
+}
+.contact-visit-panel::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: var(--color-ink);
+  clip-path: polygon(44px 0, 100% 0, 100% 100%, 0 100%, 0 44px);
+}
+.contact-visit-panel::after {
+  content: "";
+  position: absolute;
+  inset: 44px auto 0 0;
+  width: 8px;
+  background: var(--color-electric);
+}
+.contact-visit-bracket {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 80px;
+  height: 80px;
+  border-top: 4px solid var(--color-silver);
+  border-right: 4px solid var(--color-silver);
+  pointer-events: none;
+}
+.b3 .contact-visit-panel h3 { font-size: clamp(28px, 2.6vw, 40px); padding-right: 80px; }
+.contact-visit-panel dl { margin-top: 32px; }
+.contact-visit-panel dl > div {
+  display: grid;
+  grid-template-columns: 56% 44%;
+  align-items: baseline;
+  padding-block: 24px;
+  border-bottom: 1px solid var(--color-silver);
+  line-height: 1.4;
+}
+.contact-visit-panel dt { padding-right: 12px; font-size: 26px; font-weight: 600; }
+.contact-visit-panel dd { margin: 0; font-size: 24px; }
+.b3 .contact-visit-panel p { max-width: 42ch; margin-top: 40px; }
+.contact-photo-source { grid-area: photo; padding-top: 120px; }
+.b3 .contact-photo-source h3 { font-family: var(--font-display); font-weight: 500; font-size: 40px; }
+.b3 .contact-photo-source > p:first-of-type { margin-top: 16px; }
+.b3 .contact-photo-source a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 100%;
+  margin-top: 32px;
+  color: var(--color-action);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.b3 .contact-photo-source a:hover { color: var(--color-hover); }
+.b3 .contact-photo-source a:focus-visible { box-shadow: 0 0 0 7px var(--color-ink); }
+.b3 .contact-photo-source #contact-photo-caveat {
+  max-width: 43ch;
+  margin-top: 20px;
+  color: var(--color-muted);
+  font-size: 22px;
+}
+@media (max-width: 1200px) and (min-width: 761px) {
+  .contact-visit-panel { padding: 56px 28px 56px 36px; }
+  .contact-visit-panel dl > div { display: block; }
+  .contact-visit-panel dd { margin-top: 8px; }
+  .contact-visit-bracket { width: 40px; height: 40px; top: 24px; right: 24px; }
+  .b3 .contact-visit-panel h3 { padding-right: 40px; }
+}
+@media (max-width: 760px) {
+  .contact-facility { padding: 48px 0 80px; }
+  .contact-facility::after { height: 33px; }
+  .contact-visit-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "title" "panel" "photo";
+    gap: 32px;
+    width: calc(100% - 40px);
+    margin-inline: 20px;
+  }
+  .contact-visit-panel { padding: 32px 24px 28px; }
+  .contact-visit-panel::before { clip-path: polygon(22px 0, 100% 0, 100% 100%, 0 100%, 0 22px); }
+  .contact-visit-panel::after { top: 22px; width: 5px; }
+  .contact-visit-bracket { top: 16px; right: 16px; width: 24px; height: 24px; border-top-width: 3px; border-right-width: 3px; }
+  .b3 .contact-visit-panel h3 { padding-right: 16px; font-size: 28px; }
+  .contact-visit-panel dl { margin-top: 24px; }
+  .contact-visit-panel dl > div { display: block; padding-block: 20px; }
+  .contact-visit-panel dt { padding: 0; font-size: 20px; }
+  .contact-visit-panel dd { margin-top: 8px; font-size: 18px; }
+  .b3 .contact-visit-panel p { margin-top: 24px; }
+  .contact-photo-source { padding: 0; }
+  .b3 .contact-photo-source h3 { font-size: 30px; }
+  .b3 .contact-photo-source a { margin-top: 20px; font-size: 18px; }
+  .b3 .contact-photo-source #contact-photo-caveat { margin-top: 20px; font-size: 18px; }
+}

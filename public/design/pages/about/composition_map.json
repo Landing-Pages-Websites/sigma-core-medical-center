@@ -1,873 +1,1428 @@
 {
-  "page": "about",
+  "schema_version": "1.0",
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "purpose": "R5 Care-only candidate with actual measured decomposition; five r4 frames and corrected Hero metadata retained. Independent review pending.",
+  "input_scope": "Producer full-Care, overlay, exact-stack overview and native-seam inspection. R4 unchanged frame contracts inherited; this is not independent review.",
+  "measurement_convention": "All observed_pixel_bounds and supplemental boxes are native bitmap [x0,y0,x1,y1] evidence, intended half-open; inherited segmentation bounds are recorded verbatim. ROI selection is manual, pixel thresholds are deterministic. These measurements are not absolute CSS placement instructions.",
+  "style_contract": {
+    "font_family": "Source Sans 3",
+    "ink": "#101E33",
+    "action": "#0666A5",
+    "surface": "#F7F6F3",
+    "charcoal": "#20272E",
+    "authority": "Tokens supplied with task. Raster samples are approximations. Purpose upper field and action controls use action #0666A5; Hero function/life and steps use electric #0877BE.",
+    "electric": "#0877BE"
+  },
+  "provenance_notes": [
+    "One valid original r5 API return replaces only Care.",
+    "R4 interrupted invocation completion and cost remain UNKNOWN.",
+    "Five unchanged r4 frames and their contracts are preserved; no new seam repairs."
+  ],
   "frames": [
     {
       "frame": "01-hero",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/01-hero.png",
+      "source_sha256": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d",
+      "section_owner": "01-hero",
       "viewport_context": {
         "reference_kind": "section-frame",
         "bitmap_dimensions": {
           "width": 1536,
           "height": 864
         },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
         "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
+          "width": null,
+          "height": null,
+          "status": "unknown"
         },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
       },
       "slot_contract": {
-        "container": "hero independently sized photographic media slot",
-        "width_share": "about 33% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.74:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "headline, primary action and recognizable photo visible together in laptop first fold"
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
       },
       "focal_point": {
-        "what": "real reception",
-        "where": "right media field",
+        "what": "Movement/function/life headline",
+        "where": "upper-left across roughly three quarters of the frame",
         "region_ids": [
-          8
-        ]
-      },
-      "dominance": "Real reception desk anchors the right half while a large left Richmond identity statement fills the navy field.",
-      "eye_path": [
-        "hero heading",
-        "real reception",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Keep navy air above the left booking action and around title."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Real reception desk anchors the right half while a large left Richmond identity statement fills the navy field.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "hero heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "hero hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The supplied reception photograph, not a generated clinic variant, is the identity anchor."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
-        {
-          "region_id": 8,
-          "container": "01-hero / real reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.74:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "headline, action and primary media simultaneously visible"
-        }
-      ]
-    },
-    {
-      "frame": "02-clinic-purpose",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "clinic purpose independently sized photographic media slot",
-        "width_share": "about 31% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.94:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "real waiting room",
-        "where": "right media field",
-        "region_ids": [
-          7
-        ]
-      },
-      "dominance": "Bright blue purpose and real waiting-room photo sit over a separate navy mission band and light principles rail.",
-      "eye_path": [
-        "clinic purpose heading",
-        "real waiting room",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Keep blue space between purpose copy and the photo diagonal."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Bright blue purpose and real waiting-room photo sit over a separate navy mission band and light principles rail.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "clinic purpose heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "clinic purpose hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Mission and principles rails remain semantic, not merged into the waiting-room photograph."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
-        {
-          "region_id": 7,
-          "container": "02-clinic-purpose / real waiting room \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.94:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
-    },
-    {
-      "frame": "03-facility-gallery",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "facility gallery independently sized photographic media slot",
-        "width_share": "about 37% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.15:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "real reception",
-        "where": "right media field",
-        "region_ids": [
-          5
-        ]
-      },
-      "dominance": "Cream left gallery introduction faces supplied reception image; a separate panoramic waiting scene spans the bottom.",
-      "eye_path": [
-        "facility gallery heading",
-        "real reception",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Maintain gallery breathing room between introduction and gallery photographs."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Cream left gallery introduction faces supplied reception image; a separate panoramic waiting scene spans the bottom.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "facility gallery heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "facility gallery hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "The real reception and the bottom waiting panorama are two discrete images."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
-        {
-          "region_id": 5,
-          "container": "03-facility-gallery / real reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.15:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 6,
-          "container": "03-facility-gallery / waiting area \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "6.83:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
-    },
-    {
-      "frame": "04-care-principles",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "care principles independently sized photographic media slot",
-        "width_share": "about 28% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 2.64:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "clinic signage",
-        "where": "right media field",
-        "region_ids": [
-          11
-        ]
-      },
-      "dominance": "Charcoal left principle list faces two individually cropped facility details at right.",
-      "eye_path": [
-        "care principles heading",
-        "clinic signage",
-        "primary action or next editorial group"
-      ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
-      "quiet_zones": [
-        "Preserve charcoal space between left list and staggered photo pair."
-      ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Charcoal left principle list faces two individually cropped facility details at right.",
-      "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
-        "signals": [
-          "photo anchor"
-        ],
-        "surface": "CSS brand-color field sampled from approved frame",
-        "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
-        ],
-        "connector_relationships": [],
-        "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
-        ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
-      },
-      "content_groups": [
-        "care principles heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
-      ],
-      "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
-      },
-      "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
-        "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
-        ],
-        "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
-        ],
-        "crop_invariants": [
-          "recognizable photographic subject remains visible"
-        ]
-      },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
-      "invariants": [
-        "care principles hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Four care principles remain separate live statements; upper and lower photos stay distinct."
-      ],
-      "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
-      ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
-      },
-      "slot_contracts": [
-        {
-          "region_id": 11,
-          "container": "04-care-principles / clinic signage \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "2.66:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        },
-        {
-          "region_id": 12,
-          "container": "04-care-principles / clinic lounge \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.98:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
-    },
-    {
-      "frame": "05-team-publication-gate",
-      "viewport_context": {
-        "reference_kind": "section-frame",
-        "bitmap_dimensions": {
-          "width": 1536,
-          "height": 864
-        },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
-        "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
-        },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
-      },
-      "slot_contract": {
-        "container": "team publication gate independently sized photographic media slot",
-        "width_share": "about 25% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 0.59:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
-      },
-      "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
-        "region_ids": [
+          2,
+          5,
+          6,
+          8,
           10
         ]
       },
-      "dominance": "Large publication-gate statement dominates left; clinic detail sits at right without team portraits.",
+      "dominance": "Oversized headline dominates; primary button is a secondary pale focal rectangle.",
       "eye_path": [
-        "team publication gate heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "Eyebrow",
+        "large three-line statement",
+        "supporting explanation",
+        "booking-status action",
+        "adjacent unconfirmed-details note"
       ],
       "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
+        "No semantic text overlaps another element. Step geometry intentionally exits the right and bottom frame edges."
       ],
       "quiet_zones": [
-        "Keep dark area around the approval notice rather than filling it with people."
+        "Upper-right dark field",
+        "Gap between copy and stepped lower-right accent"
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Large publication-gate statement dominates left; clinic detail sits at right without team portraits.",
+      "tension": "Heavy left-aligned type is counterweighted by a stepped lower-right blue silhouette.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
+        "profile": "code-first",
+        "score": 0,
         "signals": [
-          "photo anchor"
+          "semantic typography",
+          "simple geometric surfaces"
         ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "ink field; electric #0877BE emphasis on function/life and steps; light text and button; action controls retain #0666A5",
         "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
         ],
         "connector_relationships": [],
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
         ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+        "responsive_contract": "Keep heading, body, CTA and qualification in reading order; reduce accent footprint before reducing body legibility."
       },
       "content_groups": [
-        "team publication gate heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        {
+          "id": "identity",
+          "what": "eyebrow",
+          "region_ids": [
+            9
+          ],
+          "observed_pixel_bounds": [
+            83,
+            77,
+            699,
+            97
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "hero-message",
+          "what": "three-line headline",
+          "region_ids": [
+            2,
+            5,
+            6,
+            8,
+            10
+          ],
+          "observed_pixel_bounds": [
+            77,
+            128,
+            1172,
+            477
+          ],
+          "measurement_method": "ROI threshold: light pixels or blue contrast; separated heading fragments reunited."
+        },
+        {
+          "id": "orientation",
+          "what": "three-line introductory paragraph",
+          "region_ids": [
+            3
+          ],
+          "observed_pixel_bounds": [
+            80,
+            512,
+            922,
+            640
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "booking-status",
+          "what": "primary button and adjacent qualifying note",
+          "region_ids": [
+            4,
+            7
+          ],
+          "observed_pixel_bounds": [
+            80,
+            679,
+            915,
+            771
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "step-accent",
+          "what": "right-edge ascending blue geometry and small pale dash",
+          "region_ids": [
+            1,
+            11
+          ],
+          "observed_pixel_bounds": [
+            974,
+            462,
+            1536,
+            864
+          ],
+          "measurement_method": "Manual native-pixel inspection of field-edge continuation; segmentation trims the bitmap border."
+        }
       ],
       "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Upper-right dark field",
+          "Gap between copy and stepped lower-right accent"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
+          "A control and its qualifying status copy when space permits"
         ],
         "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "Later content groups when natural flow exceeds the viewport"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "Never crop or mask semantic text or controls."
         ]
       },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "team publication gate hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "No unapproved provider biographies, staff photos, claims or faux profile placeholders."
+        "Headline remains dominant and left aligned.",
+        "Function and life receive electric #0877BE emphasis while other headline words remain light; steps also use electric #0877BE. Action controls retain #0666A5.",
+        "CTA and unconfirmed-details qualifier form one reading group.",
+        "Step motif remains secondary and clear of text."
       ],
       "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
+        "Scale type and wrap for the real viewport while retaining hierarchy.",
+        "Stack the CTA qualifier below its action on narrow screens.",
+        "Reduce or simplify steps to protect copy clearance."
       ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Height follows the headline, paragraph and CTA/qualification group plus responsive padding; decoration is positioned independently and cannot create section height.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
       },
-      "slot_contracts": [
-        {
-          "region_id": 10,
-          "container": "05-team-publication-gate / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "0.59:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
-        }
-      ]
+      "ownership": {
+        "section_owner": "01-hero",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "The headline third line is much wider than the first two, while the supporting copy stays narrower. This is observed asymmetry, not evidence of repair."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/01-hero/regions.json",
+        "segmentation_limits": "Morphology may merge text with fields, split headings, omit thin rules, and trim frame-edge regions. Named groups and supplemental measurements address those limits.",
+        "supplemental_geometry": [
+          {
+            "what": "Small pale dash",
+            "box": [
+              1100,
+              622,
+              1276,
+              633
+            ],
+            "method": "current segmentation"
+          },
+          {
+            "what": "Step contour",
+            "points": [
+              [
+                974,
+                864
+              ],
+              [
+                974,
+                754
+              ],
+              [
+                1131,
+                754
+              ],
+              [
+                1131,
+                670
+              ],
+              [
+                1337,
+                670
+              ],
+              [
+                1337,
+                566
+              ],
+              [
+                1442,
+                566
+              ],
+              [
+                1442,
+                462
+              ],
+              [
+                1536,
+                462
+              ],
+              [
+                1536,
+                864
+              ]
+            ],
+            "method": "manual native-pixel contour reading; approximately one-pixel precision"
+          }
+        ]
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/hero.tsx",
+        "source_sha256": "5fb63109c04554e79b11490b574357a295dd40527e932234a940193e049d68e2",
+        "dom_ids": [
+          "hero",
+          "about-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background var(--ink), padded content container about 5vw at desktop; use natural block height. Set Source Sans 3 throughout. Keep decorative steps behind text and clip overflow at the right and bottom section edges. Use an aria-hidden absolute div at bottom right with electric #0877BE fill and clip-path polygon(0 72%,28% 72%,28% 50%,65% 50%,65% 23%,84% 23%,84% 0,100% 0,100% 100%,0 100%). The region includes incidental text and rule pixels: do not duplicate those. Extend geometry to actual section edges rather than segmentation inset. One h1 in Source Sans 3 weight 750\u2013800, clamp(3.25rem,9.6vw,9.25rem), line-height about .82\u2013.9 and tight letter-spacing. At reference width arrange lines A focus on / movement, / function and life.; function and life. use electric #0877BE, other words mineral #F7F6F3. IDs 2,5,6,8,10 are fragments of this single heading; maintain one accessible text occurrence and allow responsive reflow. Live p in Source Sans 3 weight 600, mineral #F7F6F3, font-size clamp(1.2rem,2.35vw,2.25rem), line-height 1.32; constrain to about 55rem at desktop and place below h1 with about 1.6rem gap. Anchor styled inline-flex with mineral #F7F6F3 background, ink #101E33 label, generous 1.4rem 2.5rem padding and square corners. Place action-colored arrow as a simple 3px SVG line and open chevron at right; Source Sans 3 bold label, visible keyboard focus. Render this segmentation fragment in the single h1 specified by ID 2, using Source Sans 3 with inherited weight, size and baseline; no separate positioned word or duplicate DOM copy. Render this segmentation fragment in the single h1 specified by ID 2; inline span color electric #0877BE, with inherited Source Sans 3 weight, size and baseline. Live p in Source Sans 3 at about 1.75rem and line-height 1.35; mineral text with modest opacity on ink. Use flex row with CTA and about 2.5rem gap at wide widths, stack with consistent reading order on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2; inline mineral #F7F6F3 text with inherited Source Sans 3 metrics. Live p with Source Sans 3 semibold, uppercase, letter-spacing .16em, font-size about 1.7rem and electric #0877BE; keep above h1 with small margin and allow wrapping on narrow screens. Render this segmentation fragment in the single h1 specified by ID 2, mineral #F7F6F3 with inherited Source Sans 3 metrics and shared baseline. Use aria-hidden div with width about 11rem, height .7rem and mineral #F7F6F3 at reduced opacity; position relative to the stair decoration rather than to viewport text.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     },
     {
-      "frame": "06-booking-cta",
+      "frame": "02-clinic-purpose",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/02-clinic-purpose.png",
+      "source_sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+      "section_owner": "02-clinic-purpose",
       "viewport_context": {
         "reference_kind": "section-frame",
         "bitmap_dimensions": {
           "width": 1536,
-          "height": 512
+          "height": 864
         },
-        "reference_css_viewport": null,
-        "reference_device_pixel_ratio": null,
         "primary_css_viewport": {
-          "width": 1440,
-          "height": 900
+          "width": null,
+          "height": null,
+          "status": "unknown"
         },
-        "mobile_css_viewport": {
-          "width": 390,
-          "height": 844
-        }
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
       },
       "slot_contract": {
-        "container": "booking cta independently sized photographic media slot",
-        "width_share": "about 21% of source-frame width before responsive slot sizing",
-        "target_aspect_ratio": "reference source crop about 1.47:1; use the full visible media window, not the inset source crop, to size the CSS destination slot",
-        "intended_crop": "preserve room/subject identity; clip with CSS only where the reference shows a beveled edge",
-        "fold_requirement": "no forced viewport-height scaling"
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
       },
       "focal_point": {
-        "what": "clinic reception",
-        "where": "right media field",
+        "what": "Neuropathy first",
+        "where": "left half of upper action field",
         "region_ids": [
-          5
+          1
         ]
       },
-      "dominance": "Compact blue booking band places live booking copy at left and clinic detail at right.",
+      "dominance": "Upper heading is largest; stacked action, ink and light fields make the section read as three distinct bands.",
       "eye_path": [
-        "booking cta heading",
-        "clinic reception",
-        "primary action or next editorial group"
+        "Neuropathy-first statement",
+        "right-hand topic overview and caveat",
+        "mission statement",
+        "two service actions",
+        "four grounded principles"
       ],
-      "overlaps": [
-        "photo crop meets a clipped CSS field, with live content layered outside the photo"
-      ],
+      "overlaps": [],
       "quiet_zones": [
-        "Retain a calm clear gap between the booking invitation and photo crop."
+        "Padding around upper-band heading and intro",
+        "Small open lower strip below principle columns"
       ],
-      "tension": "offset photo mass against live copy and measured bars",
-      "image_copy_relation": "Compact blue booking band places live booking copy at left and clinic detail at right.",
+      "tension": "A large two-line priority statement faces a denser explanatory column; the mission strip bridges toward a quieter four-column rail.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
       "assembly": {
-        "profile": "anchored-art",
-        "score": 1,
+        "profile": "code-first",
+        "score": 0,
         "signals": [
-          "photo anchor"
+          "semantic typography",
+          "simple geometric surfaces"
         ],
-        "surface": "CSS brand-color field sampled from approved frame",
+        "surface": "action upper field, ink middle field, surface lower field; token action is #0666A5",
         "layer_stack": [
-          "CSS field",
-          "owned photographed media",
-          "live semantic text/controls",
-          "responsive geometric SVG accents"
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
         ],
         "connector_relationships": [],
         "seam_contract": [
-          "keep photo contained by its section; decorative step bars remain CSS"
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
         ],
-        "responsive_contract": "on mobile place the heading/action before or alongside the media while preserving the subject; never proportionally shrink desktop frame"
+        "responsive_contract": "Stack the priority before explanation, mission label before its copy and actions, then principles; wrap controls without clipping."
       },
       "content_groups": [
-        "booking cta heading, explanatory copy and primary action",
-        "owned photo slot and any adjacent geometric bars"
+        {
+          "id": "priority",
+          "what": "Neuropathy first heading",
+          "region_ids": [
+            1
+          ],
+          "observed_pixel_bounds": [
+            72,
+            91,
+            674,
+            290
+          ],
+          "measurement_method": "Threshold on manually selected ROI, RGB channels all >150; half-open pixel bbox."
+        },
+        {
+          "id": "topic-orientation",
+          "what": "introductory topics and outcomes caveat",
+          "region_ids": [
+            1
+          ],
+          "observed_pixel_bounds": [
+            764,
+            78,
+            1363,
+            314
+          ],
+          "measurement_method": "Heading/body threshold plus manually observed caveat rule extent."
+        },
+        {
+          "id": "mission",
+          "what": "mission label, statement and two service links",
+          "region_ids": [
+            1
+          ],
+          "observed_pixel_bounds": [
+            76,
+            425,
+            1390,
+            555
+          ],
+          "measurement_method": "Supplemental light/blue threshold ROIs inside merged region 1."
+        },
+        {
+          "id": "principle-rail",
+          "what": "rail label and four principle columns",
+          "region_ids": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "observed_pixel_bounds": [
+            64,
+            631,
+            1385,
+            784
+          ],
+          "measurement_method": "Current segmented label bounds plus native-pixel divider endpoints."
+        }
       ],
       "space_roles": {
-        "internal_grouping": "heading and explanatory copy stay close",
-        "quiet_space": "space around meaningful content separates it from decorative bars",
-        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Padding around upper-band heading and intro",
+          "Small open lower strip below principle columns"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
       },
       "viewport_intent": {
-        "desktop_composition": "section frame, not a stitched page viewport",
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
         "must_be_simultaneously_visible": [
-          "headline",
-          "primary action",
-          "primary photo subject"
+          "A control and its qualifying status copy when space permits"
         ],
         "may_continue_below_fold": [
-          "secondary proof, source links or navigation rails"
+          "Later content groups when natural flow exceeds the viewport"
         ],
         "crop_invariants": [
-          "recognizable photographic subject remains visible"
+          "Never crop or mask semantic text or controls."
         ]
       },
-      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
       "invariants": [
-        "booking cta hierarchy and contrast",
-        "all copy/controls remain live",
-        "distinct photo subjects must remain distinct section-owned slots",
-        "Booking button and small brand line remain live over their own fields."
+        "Preserve three-band sequence: action field, ink mission strip, light principles rail.",
+        "Priority and explanatory copy share the upper band.",
+        "Caveat stays with the explanatory copy.",
+        "Both mission actions remain adjacent to their mission statement.",
+        "Four principles remain clearly distinct."
       ],
       "free": [
-        "responsive type sizing and accessible focus styles",
-        "mobile stacking order provided hierarchy remains intact",
-        "spacing tokens without altering group/section relationship"
+        "Stack upper-band columns at narrow widths.",
+        "Use two or one principle columns when needed.",
+        "Normalize column padding without altering content hierarchy."
       ],
-      "image_framing": {
-        "visual_intent": "Photo anchors the brand field without becoming a generic floating rounded card.",
-        "observed_mechanism": "Rectangular or diagonally clipped photo window abuts a flat CSS field; overlaid lines, buttons and brackets are live.",
-        "implementation_freedom": "Implement diagonal as CSS clip-path or a separate CSS pseudo-element; do not clip recognizable people or signage.",
-        "ownership_model": "independent-layers",
-        "owned_parts": [
-          "one photograph per named slot"
-        ],
-        "external_relations": [
-          "live heading, CTA and section field",
-          "CSS geometric rails and edge mask"
-        ],
-        "ownership_reason": "photo crops and live semantic controls need independent responsive behavior",
-        "base_geometry": "section-owned rectangular media slot",
-        "foreground_occluders": [
-          "CSS clipped field where observed"
-        ],
-        "breakout_elements": [],
-        "bridge_elements": [
-          "measured bars or bracket strokes outside photo"
-        ],
-        "shared_contour_language": "sharp angles and thin silver/blue keylines",
-        "layer_order": [
-          "CSS surface",
-          "owned photographs",
-          "CSS clip and accents",
-          "semantic copy and buttons"
-        ],
-        "responsive_topology": "reposition slot without forcing source bitmap dimensions onto layout"
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Each band sizes to its own live content and padding; the section height is the sum of these bands, not a fixed frame ratio.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
       },
-      "slot_contracts": [
+      "ownership": {
+        "section_owner": "02-clinic-purpose",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "Upper explanatory copy starts substantially farther right than the mission copy, producing a visible stagger between bands.",
+        "Principle labels have unequal optical insets within their four columns; retain the distinction as observed, with alignment refinements permitted."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/02-clinic-purpose/regions.json",
+        "segmentation_limits": "Morphology may merge text with fields, split headings, omit thin rules, and trim frame-edge regions. Named groups and supplemental measurements address those limits.",
+        "supplemental_geometry": [
+          {
+            "what": "Band boundaries",
+            "y": [
+              375,
+              596
+            ],
+            "method": "Manual native-pixel reading of full-width color transitions."
+          },
+          {
+            "what": "Primary action",
+            "box": [
+              510,
+              479,
+              893,
+              555
+            ],
+            "method": "Threshold on manually selected ROI, B-R>60 and G-R>35; half-open pixel bbox."
+          },
+          {
+            "what": "Secondary action",
+            "box": [
+              919,
+              480,
+              1291,
+              555
+            ],
+            "method": "Threshold on manually selected ROI, RGB channels all >150; half-open pixel bbox."
+          },
+          {
+            "what": "Principle dividers",
+            "x": [
+              389,
+              763,
+              1145
+            ],
+            "y_extent": [
+              676,
+              784
+            ],
+            "method": "Manual native-pixel inspection; thin rules omitted by segmentation."
+          }
+        ]
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/purpose.tsx",
+        "source_sha256": "fed1a6e0dc861180c561dabf826f5de8381b7d5324bbfd18af0ef3545df83400",
+        "dom_ids": [
+          "clinic-purpose",
+          "about-purpose-title",
+          "our-mission"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section with action #0666A5 upper field, ink #101E33 mission band and mineral #F7F6F3 principles field. All field heights follow content and padding. Build three 1px neutral vertical separators between four equal-width principle columns; use borders, changing to horizontal separation when stacked. Use nested divs for upper two-column grid and lower mission grid. Upper background action #0666A5; h2 Source Sans 3 bold about clamp(3rem,7.5vw,7.2rem), line-height .98, with Neuropathy / first. at desktop. Right p about 2.15rem/1.36 and small caveat 1.35rem with 4px mineral left border. Mission band ink #101E33: heading in left one-third, sentence and two inline-flex anchors in right two-thirds. Primary anchor action #0666A5 with mineral label; secondary transparent anchor with 2px mineral #F7F6F3 border and mineral label on ink #101E33, requiring text contrast >=4.5:1. Use simple line-and-chevron SVG arrows. Stack grids and actions on small screens; preserve every listed live text string. Fourth item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Practical / next steps.; padding aligns with the shared row and rules; allow natural mobile wrapping. First item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap You at / the center.; no isolated positioned words. Third item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Clear / information.; use shared column padding. Second item in one four-column semantic list; Source Sans 3 semibold, ink #101E33, about 2.2rem/1.2. Desktop wrap Questions / first.; use shared column padding. Live h3 in Source Sans 3 semibold, action #0666A5, about 1.8rem; place above four-column list with about 1.6rem gap and align with section inset.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-facility-gallery",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/03-facility-gallery.png",
+      "source_sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+      "section_owner": "03-facility-gallery",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "primary_css_viewport": {
+          "width": null,
+          "height": null,
+          "status": "unknown"
+        },
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
+      },
+      "slot_contract": {
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
+      },
+      "focal_point": {
+        "what": "Address and visiting arrangements remain unconfirmed",
+        "where": "broad heading in upper central field",
+        "region_ids": [
+          2
+        ]
+      },
+      "dominance": "Large dark headline leads; the broad lower-right dark status panel is the second major mass.",
+      "eye_path": [
+        "Location label",
+        "unconfirmed-location headline",
+        "dark confirmation panel",
+        "left-hand location-status link"
+      ],
+      "overlaps": [
+        "Panel has a geometric upper-left corner cut; copy remains fully inside its live content area."
+      ],
+      "quiet_zones": [
+        "Surface around the left-side status link",
+        "Outer margins around the broad heading and panel"
+      ],
+      "tension": "A wide headline over a right-weighted panel is balanced by a small left-aligned action.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "signals": [
+          "semantic typography",
+          "simple geometric surfaces"
+        ],
+        "surface": "surface field, ink panel and text, action bracket/rule/link",
+        "layer_stack": [
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
+        ],
+        "responsive_contract": "Keep label and headline together; follow with status panel and associated link in a clear linear reading order."
+      },
+      "content_groups": [
         {
-          "region_id": 5,
-          "container": "06-booking-cta / clinic reception \u2014 independent photographic slot",
-          "source_crop_aspect_ratio": "1.47:1",
-          "destination_slot": "Independently sized CSS media window matching the approved full visible photo footprint; never resize the section to match intrinsic source pixels.",
-          "crop": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
-          "fold": "media may continue naturally below first fold"
+          "id": "location-introduction",
+          "what": "label and large unconfirmed-location statement",
+          "region_ids": [
+            2,
+            3
+          ],
+          "observed_pixel_bounds": [
+            145,
+            127,
+            1284,
+            367
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "location-link",
+          "what": "underlined status link and arrow",
+          "region_ids": [
+            4
+          ],
+          "observed_pixel_bounds": [
+            148,
+            568,
+            429,
+            598
+          ],
+          "measurement_method": "Current text segmentation plus blue ROI threshold for arrow."
+        },
+        {
+          "id": "location-status",
+          "what": "notched dark panel with heading and explanation",
+          "region_ids": [
+            1
+          ],
+          "observed_pixel_bounds": [
+            501,
+            450,
+            1421,
+            719
+          ],
+          "measurement_method": "current regions.json; related components united"
         }
-      ]
+      ],
+      "space_roles": {
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Surface around the left-side status link",
+          "Outer margins around the broad heading and panel"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
+      },
+      "viewport_intent": {
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
+        "must_be_simultaneously_visible": [
+          "A control and its qualifying status copy when space permits"
+        ],
+        "may_continue_below_fold": [
+          "Later content groups when natural flow exceeds the viewport"
+        ],
+        "crop_invariants": [
+          "Never crop or mask semantic text or controls."
+        ]
+      },
+      "invariants": [
+        "Keep the location uncertainty explicit in headline and panel.",
+        "Panel remains subordinate to the headline but visually substantial.",
+        "Left bracket groups the introductory label and headline.",
+        "Status link and panel remain part of one lower content group."
+      ],
+      "free": [
+        "Stack link and panel on mobile.",
+        "Adjust panel padding and corner-cut size to fit live text.",
+        "Reduce outer whitespace while retaining breathing room."
+      ],
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Intro group plus lower action/status group and padding determines height; preserve no large blank canvas below the panel.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
+      },
+      "ownership": {
+        "section_owner": "03-facility-gallery",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "The label and headline share a left edge while the panel begins much farther right. The action occupies a comparatively empty left column. This is an observed imbalance to assess in live layout."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/03-facility-gallery/regions.json",
+        "segmentation_limits": "Morphology may merge text with fields, split headings, omit thin rules, and trim frame-edge regions. Named groups and supplemental measurements address those limits.",
+        "supplemental_geometry": [
+          {
+            "what": "Introductory bracket",
+            "box": [
+              97,
+              117,
+              124,
+              361
+            ],
+            "method": "Threshold on manually selected ROI, B-R>60 and G-R>35; half-open pixel bbox."
+          },
+          {
+            "what": "Short rule under heading",
+            "box": [
+              147,
+              393,
+              236,
+              399
+            ],
+            "method": "Threshold on manually selected ROI, B-R>60 and G-R>35; half-open pixel bbox."
+          },
+          {
+            "what": "Panel filled pixels",
+            "box": [
+              502,
+              451,
+              1421,
+              719
+            ],
+            "method": "Threshold on manually selected ROI, RGB channels all <130; half-open pixel bbox."
+          }
+        ]
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/gallery.tsx",
+        "source_sha256": "df038873da2522c9df52decad830c1d02fc9cafdf92f8224c1c65e24af93b2bf",
+        "dom_ids": [
+          "facility-gallery",
+          "about-location-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background mineral #F7F6F3 with content-led padding. Use a 4px action #0666A5 vertical border and two short horizontal pseudo-elements to form the left bracket around heading group, plus a separate 5px by 5.5rem accent rule below. These thin elements fall outside segmentation boxes. Arrange lower link and status panel as a one-third/two-thirds grid; stack on small screens. Status div background ink #101E33, mineral text, padding about 3.5rem 4.8rem. Form 44px chamfer at upper left with clip-path polygon(44px 0,100% 0,100% 100%,0 100%,0 44px). Live h3 Source Sans 3 bold about 2.8rem followed by p 1.6rem/1.5; scale padding and chamfer responsively. Live h2 in Source Sans 3 bold, ink #101E33, clamp(2.3rem,4.9vw,4.8rem), line-height 1.08; desktop wraps after visiting. Keep in one heading and allow narrower widths to wrap naturally. Live section label or h2 according to semantic hierarchy, Source Sans 3 bold about 3rem in ink #101E33; align with main statement on same left content axis. Live anchor in Source Sans 3 semibold about 1.5rem, action #0666A5, underline with 2px thickness and .25em offset. Add adjacent line-and-chevron SVG arrow outside the text bbox, inline-flex gap 1.5rem and center alignment; keep link beneath heading group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-care-principles",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/04-care-principles.png",
+      "source_sha256": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc",
+      "section_owner": "04-care-principles",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "primary_css_viewport": {
+          "width": null,
+          "height": null,
+          "status": "unknown"
+        },
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
+      },
+      "slot_contract": {
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
+      },
+      "focal_point": {
+        "what": "Care Principles and contrasting decision panel",
+        "where": "large title on the left, light panel on right third",
+        "region_ids": [
+          1,
+          4,
+          7
+        ]
+      },
+      "dominance": "Large Care Principles title leads the charcoal field; two substantial first-row headings now both wrap. The bright504px question panel still draws secondary attention despite slightly narrower question typography.",
+      "eye_path": [
+        "Care Principles title",
+        "top principle pair",
+        "lower principle pair",
+        "right-hand preparatory questions",
+        "Explore services",
+        "Booking status"
+      ],
+      "overlaps": [
+        "Light right panel is clipped at its upper-left corner and reaches the right/bottom frame boundaries; no text overlap."
+      ],
+      "quiet_zones": [
+        "Dark space below the four principles",
+        "Gap between principle grid and right panel"
+      ],
+      "tension": "Wide dark editorial grid contrasts with a narrow light question-and-action panel.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "signals": [
+          "semantic typography",
+          "simple geometric surfaces"
+        ],
+        "surface": "charcoal main field, surface side panel, light left text, ink panel text and action accents",
+        "layer_stack": [
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
+        ],
+        "responsive_contract": "Move side panel below principle grid; allow principles to become one column without shrinking text or questions."
+      },
+      "content_groups": [
+        {
+          "id": "principles-title",
+          "what": "single Care Principles h2",
+          "region_ids": [
+            4,
+            7
+          ],
+          "observed_pixel_bounds": [
+            89,
+            118,
+            759,
+            217
+          ],
+          "measurement_method": "Native RGB>150 ink threshold in declared ROI"
+        },
+        {
+          "id": "principles-grid",
+          "what": "four complete principles in open2\u00d72 grid; both upper titles use two lines",
+          "region_ids": [
+            2,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "observed_pixel_bounds": [
+            82,
+            270,
+            959,
+            692
+          ],
+          "measurement_method": "Manual group envelope includes CSS rules omitted by segmentation"
+        },
+        {
+          "id": "decision-panel",
+          "what": "clipped mineral sidebar with two complete questions and Services then Booking actions",
+          "region_ids": [
+            1
+          ],
+          "observed_pixel_bounds": [
+            1032,
+            70,
+            1536,
+            864
+          ],
+          "measurement_method": "Panel boundary threshold and native visual reading"
+        }
+      ],
+      "space_roles": {
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Dark space below the four principles",
+          "Gap between principle grid and right panel"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
+      },
+      "viewport_intent": {
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
+        "must_be_simultaneously_visible": [
+          "A control and its qualifying status copy when space permits"
+        ],
+        "may_continue_below_fold": [
+          "Later content groups when natural flow exceeds the viewport"
+        ],
+        "crop_invariants": [
+          "Never crop or mask semantic text or controls."
+        ]
+      },
+      "invariants": [
+        "Keep four principles paired in a coherent grid at desktop.",
+        "Blue leading rules attach to each principle.",
+        "Horizontal separator divides grid rows.",
+        "Right panel contains both preparatory questions followed by the service and status actions.",
+        "Heading and body remain live semantic content."
+      ],
+      "free": [
+        "Stack right panel after principles at narrow widths.",
+        "Use shared two-line heading reserves and body baselines; do not preserve the residual4px offset as an intentional feature.",
+        "Adapt clipped corner and panel padding without widening its desktop role."
+      ],
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Use the greater natural content height of desktop grid and decision panel, plus padding; mobile stacks both content heights. Side panel extends to section edge through layout, not fixed 864px sizing.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
+      },
+      "ownership": {
+        "section_owner": "04-care-principles",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "Body ink starts y391/y387; residual4px offset, not exact y382 alignment.",
+        "Left upper heading wraps after next; requested single line plus blank second slot was not returned.",
+        "Principle titles remain visually substantial; requested size reduction and uncondensed family are not established.",
+        "Sidebar is modestly lighter but still prominent; balance remains an independent-review question."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/04-care-principles/regions.json",
+        "segmentation_limits": "Morphology fragments the large heading, merges complete first-row articles, excludes thin rules and truncates the outer13px; boxes are detection evidence, not CSS bounds.",
+        "supplemental_geometry": [
+          {
+            "what": "grid separator",
+            "box": [
+              83,
+              494,
+              958,
+              497
+            ]
+          },
+          {
+            "what": "panel contour",
+            "points": [
+              [
+                1080,
+                70
+              ],
+              [
+                1536,
+                70
+              ],
+              [
+                1536,
+                864
+              ],
+              [
+                1032,
+                864
+              ],
+              [
+                1032,
+                121
+              ]
+            ]
+          }
+        ],
+        "fresh_measurement_file": "verification/care-measurements.json",
+        "fresh_measurement_sha256": "7e4c1a38b0fc810e91f5e1495db51e4b27eab6bd31762c55afe75d232c6279d5",
+        "actual_top_row_body_y": [
+          391,
+          387
+        ],
+        "actual_clearance_to_divider_px": [
+          36,
+          43
+        ]
+      },
+      "repair_residual": "New Care is a material revision, but exact repair targets remain unmet: first-row body ink y391/y387 (4px stagger, versus r4 36px); requested y382/y382 not reached. Left title wraps after next, rather than one line plus empty second-line reserve. Divider begins y494 (requested y493); blank clearance36/43px exceeds32px. Question typography is modestly lighter/narrower, but sidebar balance and natural uncondensed type require independent judgment. Requested CSS sizes are not proven by generated glyphs.",
+      "requested_repair_unmet": {
+        "exact_body_y": [
+          382,
+          382
+        ],
+        "left_title_single_line_plus_blank_second_line": true,
+        "exact_type_sizes_not_established": {
+          "title_px": [
+            34,
+            36
+          ],
+          "body_px": 28,
+          "question_px": 40
+        },
+        "reason": "Documented separately from actual pixels; no further call authorized."
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/principles.tsx",
+        "source_sha256": "990a71c691287764969d8280272948dbfac89bf745aed5b3bdaea445a31de958",
+        "dom_ids": [
+          "care-principles",
+          "about-care-title",
+          "about-questions-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS charcoal #20272E section, approximately2fr 1fr desktop columns. Main column contains live heading and open2\u00d72 grid. Four6px action #0666A5 rules and a mineral separator belong to this substrate even when segmentation misses them; actual separator ink y494\u2013497. Side panel begins x1032. Use natural content height and responsive stacking; never rasterize the frame or require864px section height. CSS mineral #F7F6F3 aside at the desktop right third, about504/1536 of width, with48px upper-left chamfer via clip-path polygon. Use Source Sans3 live label and two natural-width question headings, short3px action rules, and two stacked inline-flex links. Primary is action #0666A5/mineral; secondary is mineral/action border and text; simple SVG arrows. Starting question font-size about2.5rem/1.2 is a recipe to verify, not a measured CSS fact. Current ink boxes are1091,240\u20131439,327 and1092,398\u20131439,531. Keep all content and at least48px controls; stack below principles on mobile. One live article with Source Sans3 h3 and p, mineral #F7F6F3 on charcoal. The actual upper heading breaks after care, and its body ink begins y387. Share grid heading reserves and body row alignment with region3 using min-block-size:2lh; do not intentionally recreate the4px offset. Requested34\u201336px title and28px body are unachieved/uncertain image targets, with final font metrics requiring review. One live article in the2\u00d72 CSS grid, Source Sans3 mineral h3 and p with shared6px action left border and about2rem inset. Actual image title breaks after next and body starts y391; the one-line title plus blank second reserve was not returned. Use a shared two-line heading slot with region2; retain exact copy. The intended34\u201336px title/28px body require loaded-font verification, not a claim of pixel-matched CSS sizes. Second fragment of one live h2 Care Principles shared with region7; Source Sans3 bold about clamp(3rem,6.7vw,6.5rem), mineral #F7F6F3, line-height1.02. Keep one semantic heading; do not independently position fragments. Live p in article shared with region8, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35 for responsive verification. Native body ink box118,621\u2013484,690 is measurement only. Preserve the complete two-line sentence and shared grid padding. Live p in article shared with region9, Source Sans3 mineral #F7F6F3; starting font-size28px and line-height1.35, natural wrapping. Native body ink box594,621\u2013849,685 is evidence only; align both lower paragraphs through shared CSS grid spacing. First fragment of the single h2 shared with region4; Source Sans3 font-weight800, inherited responsive size and line-height. Keep Care Principles in normal flow; no duplicated heading. Live h3 paired with region5 in one article, Source Sans3 bold and mineral text. Actual heading ink is118,556\u2013488,599; the requested34\u201336px reduction is not proven by these43px glyph bounds. Use the same font/line-height system as the other titles and6px CSS action border. Live h3 paired with region6, Source Sans3 bold/mineral with shared CSS grid spacing, about2rem left padding and6px action rule. Actual heading ink593,558\u2013891,599; do not derive fixed CSS placement or exact font size from glyph bounds.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "05-team-publication-gate",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/05-team-publication-gate.png",
+      "source_sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+      "section_owner": "05-team-publication-gate",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "primary_css_viewport": {
+          "width": null,
+          "height": null,
+          "status": "unknown"
+        },
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
+      },
+      "slot_contract": {
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
+      },
+      "focal_point": {
+        "what": "Care team details are not yet published",
+        "where": "indented central content group below section title",
+        "region_ids": [
+          1
+        ]
+      },
+      "dominance": "Two levels of large light typography dominate an otherwise nearly empty ink field.",
+      "eye_path": [
+        "About our care team",
+        "small action-color rule",
+        "team-publication status",
+        "verification explanation"
+      ],
+      "overlaps": [],
+      "quiet_zones": [
+        "Large top margin",
+        "Large lower dark field below the explanation",
+        "Open right side above status group"
+      ],
+      "tension": "The status group is indented from the section heading, with unusually generous vertical separation.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "signals": [
+          "semantic typography",
+          "simple geometric surfaces"
+        ],
+        "surface": "ink field with light text and a short action-color rule",
+        "layer_stack": [
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
+        ],
+        "responsive_contract": "Use one readable column; reduce indentation and outer whitespace while preserving title, status and explanation order."
+      },
+      "content_groups": [
+        {
+          "id": "team-title",
+          "what": "About our care team",
+          "region_ids": [
+            3
+          ],
+          "observed_pixel_bounds": [
+            150,
+            207,
+            891,
+            268
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "team-publication-status",
+          "what": "accent rule, unpublished-team heading and explanation",
+          "region_ids": [
+            1,
+            2
+          ],
+          "observed_pixel_bounds": [
+            275,
+            387,
+            1312,
+            587
+          ],
+          "measurement_method": "Current segmented heading/body with blue ROI threshold rule."
+        }
+      ],
+      "space_roles": {
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Large top margin",
+          "Large lower dark field below the explanation",
+          "Open right side above status group"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
+      },
+      "viewport_intent": {
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
+        "must_be_simultaneously_visible": [
+          "A control and its qualifying status copy when space permits"
+        ],
+        "may_continue_below_fold": [
+          "Later content groups when natural flow exceeds the viewport"
+        ],
+        "crop_invariants": [
+          "Never crop or mask semantic text or controls."
+        ]
+      },
+      "invariants": [
+        "Publication status remains explicit and prominent.",
+        "Explanation stays attached to the status heading.",
+        "No profiles, names or credentials are implied by decoration.",
+        "Keep a visible hierarchy between section title and status statement."
+      ],
+      "free": [
+        "Reduce excessive vertical margins for a natural content height.",
+        "Refine the title/status indentation while preserving grouping.",
+        "Allow status heading to wrap on narrow screens."
+      ],
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Fit title and publication-status group with deliberate spacing; do not preserve the reference\u2019s large top/bottom blank areas as mandatory viewport-height whitespace.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
+      },
+      "ownership": {
+        "section_owner": "05-team-publication-gate",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "Title begins around one quarter down the frame.",
+        "A large gap separates title from status rule, and more than a quarter-frame of dark space remains beneath the explanation.",
+        "Status group is indented considerably relative to the title; alignment and density are observable, not certified repaired."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/05-team-publication-gate/regions.json",
+        "segmentation_limits": "Morphology may merge text with fields, split headings, omit thin rules, and trim frame-edge regions. Named groups and supplemental measurements address those limits.",
+        "supplemental_geometry": [
+          {
+            "what": "Short status rule",
+            "box": [
+              275,
+              387,
+              371,
+              394
+            ],
+            "method": "Threshold on manually selected ROI, B-R>60 and G-R>35; half-open pixel bbox."
+          }
+        ]
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/team.tsx",
+        "source_sha256": "51abd7bafe1249728601c5badb06c64529da67e68249956d473e8d36036c6b91",
+        "dom_ids": [
+          "team-publication-gate",
+          "about-team-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33. Use container padding, natural height and an indented status group about 8rem to the right of title at desktop; reduce indent on small screens. Add aria-hidden action #0666A5 horizontal rule 6rem by 5px above status statement. No raster, profile grid or empty media placeholder is needed. Live h3 Source Sans 3 bold about clamp(2rem,3.8vw,3.65rem), mineral #F7F6F3 with line-height 1.12; place in indented status group under short accent rule. Live p Source Sans 3 regular about 2.1rem/1.4, mineral #F7F6F3, max-width about 56rem, margin-top 1rem. Preserve the complete sentence and natural wrapping. Live h2 Source Sans 3 bold about clamp(2.75rem,5vw,4.9rem), mineral #F7F6F3. Align title with outer content inset, then use deliberate but responsive separation before status group.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "source_image": "refs/06-booking-cta.png",
+      "source_sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+      "section_owner": "06-booking-cta",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "primary_css_viewport": {
+          "width": null,
+          "height": null,
+          "status": "unknown"
+        },
+        "device_pixel_ratio": null,
+        "normalization": "CSS viewport and DPR unknown; bitmap coordinates are measurement evidence only, never CSS layout instructions."
+      },
+      "slot_contract": {
+        "container": "Live semantic section content",
+        "raster_slots": [],
+        "dominant_raster": null,
+        "width_share": "not applicable; no raster",
+        "target_aspect_ratio": null,
+        "fold_requirement": "Preserve reading sequence and complete controls; validate actual laptop and mobile viewports after implementation."
+      },
+      "focal_point": {
+        "what": "Start with your goals, followed by current availability",
+        "where": "large upper heading; broad pale lower status panel",
+        "region_ids": [
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "dominance": "The heading establishes scale, while the pale lower panel carries a second strong focal point and the substantive booking limitation.",
+      "eye_path": [
+        "Start with your goals",
+        "appointment-status prompt",
+        "See booking status",
+        "Online booking is not yet available",
+        "No online requests or confirmations explanation"
+      ],
+      "overlaps": [
+        "Blue triangular fold occupies the panel upper-right corner.",
+        "A stepped blue bracket sits outside the panel left edge; the panel has a lower-left inset."
+      ],
+      "quiet_zones": [
+        "Open right side beside introduction and CTA",
+        "Narrow dark perimeter around availability panel"
+      ],
+      "tension": "A compact left action leads into a much wider indented pale notice, making the current limitation difficult to overlook.",
+      "image_copy_relation": "No imagery. Live copy is the visual subject; CSS fields and geometric accents establish hierarchy.",
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "signals": [
+          "semantic typography",
+          "simple geometric surfaces"
+        ],
+        "surface": "ink field, action CTA and accents, surface availability panel",
+        "layer_stack": [
+          "CSS section fields",
+          "CSS geometric accents and panel shapes",
+          "live HTML headings, paragraphs and links"
+        ],
+        "connector_relationships": [],
+        "seam_contract": [
+          "Keep field changes continuous across full section width; do not carry bitmap margins into section heights."
+        ],
+        "responsive_contract": "Keep heading, supporting prompt, action and availability notice in sequence; panel grows with text and never crops the booking limitation."
+      },
+      "content_groups": [
+        {
+          "id": "booking-introduction",
+          "what": "headline and supporting prompt",
+          "region_ids": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "observed_pixel_bounds": [
+            105,
+            116,
+            1198,
+            337
+          ],
+          "measurement_method": "Headline ROI light threshold plus current paragraph segmentation."
+        },
+        {
+          "id": "booking-action",
+          "what": "notched booking-status action",
+          "region_ids": [
+            2
+          ],
+          "observed_pixel_bounds": [
+            106,
+            374,
+            578,
+            470
+          ],
+          "measurement_method": "current regions.json; related components united"
+        },
+        {
+          "id": "booking-availability",
+          "what": "light booking-status panel and attached geometric accents",
+          "region_ids": [
+            1,
+            8
+          ],
+          "observed_pixel_bounds": [
+            106,
+            516,
+            1271,
+            763
+          ],
+          "measurement_method": "current regions.json; related components united"
+        }
+      ],
+      "space_roles": {
+        "internal_grouping": "Keep heading, explanation and associated control adjacent inside each named group.",
+        "quiet_space": [
+          "Open right side beside introduction and CTA",
+          "Narrow dark perimeter around availability panel"
+        ],
+        "section_transition": "Outer padding may adapt to content and neighboring section rhythm; internal groups must remain coherent."
+      },
+      "viewport_intent": {
+        "desktop_composition": "Native 1536\u00d7864 reference bitmap; CSS viewport unknown.",
+        "must_be_simultaneously_visible": [
+          "A control and its qualifying status copy when space permits"
+        ],
+        "may_continue_below_fold": [
+          "Later content groups when natural flow exceeds the viewport"
+        ],
+        "crop_invariants": [
+          "Never crop or mask semantic text or controls."
+        ]
+      },
+      "invariants": [
+        "CTA asks to view status, without implying an online appointment request.",
+        "Availability notice stays prominent and close to the CTA.",
+        "Large heading remains primary typographic entry point.",
+        "Corner fold and left bracket remain secondary geometric details with full text clearance."
+      ],
+      "free": [
+        "Simplify bracket and corner notch at small widths.",
+        "Use a full-width content panel on mobile.",
+        "Adjust notice indentation and padding for line wrapping."
+      ],
+      "natural_height_contract": {
+        "mode": "content-driven",
+        "rule": "Height derives from introductory copy, CTA, notice and inter-group spacing; bracket and fold must not extend the section or establish fixed geometry.",
+        "prohibited": [
+          "Fixed section height derived from the 864-pixel reference",
+          "Viewport-height padding used to reproduce unused bitmap canvas",
+          "Raster intrinsic geometry controlling section height"
+        ]
+      },
+      "ownership": {
+        "section_owner": "06-booking-cta",
+        "raster_assets": [],
+        "live_elements": "All copy, buttons, rules, brackets, panels and fields belong to this section.",
+        "cross_section_borrowing": false
+      },
+      "observed_alignment_density_defects": [
+        "Notice panel is inset farther right than the CTA; its text is inset farther again. This stepped alignment is visible and should be assessed after responsive reflow."
+      ],
+      "measurement_evidence": {
+        "region_source": "qa/06-booking-cta/regions.json",
+        "segmentation_limits": "Morphology may merge text with fields, split headings, omit thin rules, and trim frame-edge regions. Named groups and supplemental measurements address those limits.",
+        "supplemental_geometry": [
+          {
+            "what": "Headline",
+            "box": [
+              105,
+              116,
+              1198,
+              228
+            ],
+            "method": "Threshold on manually selected ROI, RGB channels all >150; half-open pixel bbox."
+          },
+          {
+            "what": "Availability heading",
+            "box": [
+              236,
+              567,
+              1204,
+              623
+            ],
+            "method": "Threshold on manually selected ROI, RGB channels all <130; half-open pixel bbox."
+          },
+          {
+            "what": "Availability body",
+            "box": [
+              240,
+              642,
+              1126,
+              722
+            ],
+            "method": "Threshold on manually selected ROI, RGB channels all <130; half-open pixel bbox."
+          }
+        ]
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/about/booking.tsx",
+        "source_sha256": "c924a2cffa586f34a1cb254dc29749a89286b62cf3f65fd080ab3b1e45f62fd6",
+        "dom_ids": [
+          "booking-cta",
+          "about-booking-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "CSS section background ink #101E33 with normal-flow title, paragraph, action and status card. Set Source Sans 3 throughout, use clamp-based padding and content-led height. Card is slightly indented relative to upper text at desktop; remove excess indent on narrow screens. Do not impose 864px height. Mineral #F7F6F3 status div with ink #101E33 live text and about 3rem 4.5rem padding. Build short upper-left outward shoulder with a pseudo-element or polygon and blue top-right triangle with CSS border or clip-path; keep text inset clear of both. Source Sans 3 bold heading about 3.6rem/1.1, body 2.5rem/1.3. Preserve complete status copy; geometry adapts to card height and wrapping. Inline-flex anchor with action #0666A5 fill and mineral #F7F6F3 bold Source Sans 3 label about 2.45rem. Use padding about 1.5rem 2.25rem and upper-right 32px clipped corner via polygon; adjacent white line-and-chevron SVG arrow. Preserve readable label and keyboard focus on the clickable wrapper. Live p Source Sans 3 regular about 2.4rem/1.3, mineral #F7F6F3, max-width about 48rem. Place between h2 and anchor with consistent block margins; desktop line break after before follows available measure. Part of a single live h2 Start with your goals. shared with IDs 5,6,7; Source Sans 3 bold about clamp(3rem,7.5vw,7.3rem), line-height 1.05, mineral #F7F6F3. Render once and allow natural mobile wrapping. Part of the single live h2 Start with your goals. shared with IDs 4,6,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,7; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Part of the single live h2 Start with your goals. shared with IDs 4,5,6; inherit Source Sans 3 size, weight, color and baseline, without separate absolute positioning. Use aria-hidden SVG path with action #0666A5 stroke about 6px, no fill, square linecap: start at upper left, descend about 45% height, step right, descend to bottom, then return left. Anchor beside status card and scale vertical segments with card height; no baked raster.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
     }
-  ]
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  }
 }

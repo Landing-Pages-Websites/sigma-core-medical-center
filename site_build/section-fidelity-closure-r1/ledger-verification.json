@@ -1,0 +1,145 @@
+{
+  "status": "VERIFIED_EXISTING_CAPTURE_PROVENANCE_ONLY",
+  "ledgers": [
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-ledger.json",
+      "sha256": "96607f8eb7080cfda293f5967184e73e08d856c6b8d34776a43c9b4759e861b0",
+      "seams": 5,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-ledger.json",
+      "sha256": "677d9b54af472c9e75d52fbec4866bdd326297605b9bd898c6b6831f3ace1901",
+      "seams": 5,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-neuropathy-ledger.json",
+      "sha256": "ac6126d0965fcd8972f3f1d3a8eec43e6df4e8b60510875f5dbf399864af8d87",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-neuropathy-ledger.json",
+      "sha256": "569b021f508312b2aacd6e5516a9daa06a49256fec58814b82569e96e8bd229e",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-pain-relief-ledger.json",
+      "sha256": "30591d59a9666c172966c47a4b7619c327ae8faef45a80cc38aa52a3ad8d0475",
+      "seams": 9,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-pain-relief-ledger.json",
+      "sha256": "fea9b784e15c30a3a66759fd1b53858d90c216ac3622ecf4206ce795d3ab5e30",
+      "seams": 9,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-hormone-optimization-ledger.json",
+      "sha256": "605c0cae02228951e162d9ab67ce3b1b0616f7fc11e784bf09df9b3668b195ee",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-hormone-optimization-ledger.json",
+      "sha256": "879f253f0aa78f36160d07930c4a2a5458f12faa3823bf576af40638f9e8474e",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-pelvic-floor-incontinence-ledger.json",
+      "sha256": "5a5b511030cee2bfba7388f5b53c74e6a1581cf86c670216b2cdce76b98df492",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-pelvic-floor-incontinence-ledger.json",
+      "sha256": "85df3592e7ba79297a2c372639fd7171e23d4549a8f44405443ba37df723dd7f",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/services-regenerative-medicine-ledger.json",
+      "sha256": "80cd1b03fb8b35a76969307d7147868332574a9dba2f050286cac31196905da2",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/services-regenerative-medicine-ledger.json",
+      "sha256": "bd84928ee17ac60eecfd4dcc764736d00a9d38c66790534c49e78c3c8ee9e89e",
+      "seams": 7,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/about-ledger.json",
+      "sha256": "63ea23c5344cd1519ec99888c38e9345337c3c3f3f81a2c16d863ac90d3b858d",
+      "seams": 6,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/about-ledger.json",
+      "sha256": "f6f5853a2a6a489ba81f6511508618c35119b5675df4264cdfb7f05bead4a18c",
+      "seams": 6,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/educational-guide-ledger.json",
+      "sha256": "16f243253b1f925d362bded028a335954c7bf089de55dd3e7a0f714f0b1c4e4f",
+      "seams": 4,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/educational-guide-ledger.json",
+      "sha256": "8ed0c492dab5491f542fb66c75b6e84e3977a4c9b5df4fd2ee879db57eac0255",
+      "seams": 4,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/book-ledger.json",
+      "sha256": "c75f3350a0775015c8e29ff42050229157f357705463bcecd2cc1c8895ff7700",
+      "seams": 3,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/book-ledger.json",
+      "sha256": "525e051ed93061252dff032334b5dea4cf1d9ec4068b10466616072b7bd1b273",
+      "seams": 3,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/desktop_1440x900/same-state-seams/contact-ledger.json",
+      "sha256": "99601c899976ce83f27378212ef366c4ee1f4341af51d1d8e457a5f9010ec079",
+      "seams": 4,
+      "fonts": "loaded",
+      "state": "stable"
+    },
+    {
+      "path": "site_convergence/captures/edge-r3/mobile_390x844/same-state-seams/contact-ledger.json",
+      "sha256": "77f386b03103926fde0ef4204f8fbc5f06b53d0d73722aecf7aac6066d0b81a2",
+      "seams": 4,
+      "fonts": "loaded",
+      "state": "stable"
+    }
+  ]
+}

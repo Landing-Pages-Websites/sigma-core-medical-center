@@ -1,0 +1,172 @@
+[
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "section": "04-what-to-expect",
+    "finding": "Desktop right L-bracket paints across the first paragraph reading zone.",
+    "decision": "remove",
+    "reason": "Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+    "scope": "Code/CSS composition only; no raster change or image-role replacement.",
+    "round": 2,
+    "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+    "before": {
+      "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+      "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+      "dom_ids": [
+        "what-to-expect"
+      ],
+      "runtime_assets": [],
+      "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "styles": {
+        "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+      }
+    },
+    "after": {
+      "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+      "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+      "dom_ids": [
+        "what-to-expect"
+      ],
+      "runtime_assets": [],
+      "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+      "styles": {
+        "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+      }
+    }
+  },
+  {
+    "route": "/services",
+    "section": "04-how-to-choose-next-step",
+    "finding": "Mobile unavailable-booking disclosure escapes the fixed-height blue field.",
+    "decision": "replace-existing",
+    "reason": "At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+    "scope": "Code/CSS composition only; no raster change or image-role replacement.",
+    "round": 2,
+    "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+    "before": {
+      "source_component": "src/components/interior/services/choose.tsx",
+      "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+      "dom_ids": [
+        "how-it-works"
+      ],
+      "runtime_assets": [],
+      "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "styles": {
+        "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+      }
+    },
+    "after": {
+      "source_component": "src/components/interior/services/choose.tsx",
+      "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+      "dom_ids": [
+        "how-it-works"
+      ],
+      "runtime_assets": [],
+      "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+      "styles": {
+        "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+      }
+    }
+  },
+  {
+    "route": "/services/hormone-optimization",
+    "section": "01-hero",
+    "finding": "Desktop source-bounded writer is isolated from copy by a broad empty grid gap.",
+    "decision": "replace-existing",
+    "reason": "At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+    "scope": "Code/CSS composition only; no raster change or image-role replacement.",
+    "round": 2,
+    "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+    "before": {
+      "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+      "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+      "dom_ids": [
+        "hero"
+      ],
+      "runtime_assets": [
+        "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+      ],
+      "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "styles": {
+        "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+      }
+    },
+    "after": {
+      "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+      "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+      "dom_ids": [
+        "hero"
+      ],
+      "runtime_assets": [
+        "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+      ],
+      "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+      "styles": {
+        "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
+      }
+    }
+  },
+  {
+    "route": "/services/neuropathy",
+    "section": "01-hero",
+    "finding": "Mobile narrow heading measure leaves day as a lone trailing line.",
+    "decision": "replace-existing",
+    "reason": "At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+    "scope": "Code/CSS composition only; no raster change or image-role replacement.",
+    "round": 2,
+    "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+    "before": {
+      "source_component": "src/components/interior/neuropathy/hero.tsx",
+      "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+      "dom_ids": [
+        "hero",
+        "trust-bar"
+      ],
+      "runtime_assets": [
+        "/images/design/neuropathy/01-hero-01-person-walking.png"
+      ],
+      "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "styles": {
+        "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+      }
+    },
+    "after": {
+      "source_component": "src/components/interior/neuropathy/hero.tsx",
+      "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+      "dom_ids": [
+        "hero",
+        "trust-bar"
+      ],
+      "runtime_assets": [
+        "/images/design/neuropathy/01-hero-01-person-walking.png"
+      ],
+      "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+      "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+      "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+      "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+      "styles": {
+        "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+      }
+    }
+  }
+]

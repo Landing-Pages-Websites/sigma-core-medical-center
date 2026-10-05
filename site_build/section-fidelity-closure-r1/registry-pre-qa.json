@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "python3",
+    "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/validate_site_build_contracts.py",
+    "--blueprint",
+    "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/page_blueprint.json",
+    "--registry",
+    "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/site_build_contracts.json",
+    "--phase",
+    "pre-qa",
+    "--check"
+  ],
+  "exit_code": 1
+}

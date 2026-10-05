@@ -1,6 +1,23 @@
-import { InteriorImage } from "../interior-image";
-import { NextAction } from "../next-action";
+import Link from "next/link";
+import { ArrowDownRight } from "lucide-react";
 
 export function PainHero(): React.ReactElement {
-  return <section id="hero" className="interior-section pain-hero"><div className="interior-wrap pain-hero-grid"><div className="bracket"><h1>Move toward a more informed plan for persistent pain</h1><p>Start with movement, daily function and your questions—not a self-diagnosis.</p><p>Knee, low-back and neck concerns belong together on this page because pain can affect daily life in different ways.</p><NextAction href="/book">Book an appointment</NextAction><small>Approved scheduling integration pending.</small></div><div className="pain-hero-branches" aria-label="Areas of concern"><div><span>Knee</span><span>Low back</span><span>Neck</span></div></div><InteriorImage slug="pain-relief" file="01-hero-01-person-walking.png" alt="Adult walking across a clinic floor in the approved pain design" className="pain-hero-photo" priority /></div></section>;
+  return (
+    <section id="hero" className="interior-section pain-hero">
+      <div className="interior-wrap pain-hero-grid">
+        <div className="pain-hero-copy bracket">
+          <p className="pain-kicker">Knee · low back · neck · joints</p>
+          <h1>Move toward a more informed plan for persistent pain</h1>
+          <p className="pain-hero-lede">Start with how pain affects your movement and daily life, then bring your questions to a qualified healthcare professional.</p>
+          <Link href="#pain-concern-navigation" className="interior-action">Find your concern <ArrowDownRight size={20} aria-hidden /></Link>
+        </div>
+        <div className="pain-movement" aria-label="Knee, low-back and neck concerns connect through everyday movement">
+          <div className="pain-movement-line" aria-hidden="true" />
+          <p>Movement is personal.</p>
+          <div className="pain-movement-labels"><span>Walking &amp; stairs</span><span>Sitting &amp; lifting</span><span>Turning &amp; looking</span></div>
+          <small>Different concerns call for different questions. This page cannot diagnose your symptoms.</small>
+        </div>
+      </div>
+    </section>
+  );
 }

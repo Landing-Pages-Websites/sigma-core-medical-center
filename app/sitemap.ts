@@ -8,6 +8,7 @@ const NOINDEX_PATHS = new Set([
   "/services/regenerative-medicine",
   "/educational-guide",
   "/book",
+  "/contact",
   "/privacy",
   "/notice-of-privacy-practices",
   "/accessibility",

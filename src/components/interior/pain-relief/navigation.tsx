@@ -1,12 +1,20 @@
 import Link from "next/link";
-import { InteriorImage } from "../interior-image";
+import { ArrowDownRight } from "lucide-react";
 
 const CONCERNS = [
-  { href: "#knee-concerns", name: "Knee", file: "02-pain-concern-navigation-01-knee-clinic.png", alt: "Reception and seating in the knee orientation frame", body: "Questions about walking, stairs and daily activities." },
-  { href: "#low-back-concerns", name: "Low back", file: "02-pain-concern-navigation-02-low-back-clinic.png", alt: "Hallway in the low-back orientation frame", body: "Questions about sitting, lifting, rest and movement." },
-  { href: "#neck-concerns", name: "Neck", file: "02-pain-concern-navigation-03-neck-clinic.png", alt: "Chair and plant in the neck orientation frame", body: "Questions about range of motion and daily comfort." },
+  { href: "#knee-concerns", name: "Knee", cue: "Walking · stairs · standing", question: "What changes when you put weight on your knee?" },
+  { href: "#low-back-concerns", name: "Low back", cue: "Sitting · lifting · sleep", question: "Which daily positions or tasks raise questions?" },
+  { href: "#neck-concerns", name: "Neck", cue: "Turning · desk work · driving", question: "When does limited movement affect your day?" },
 ];
 
 export function PainNavigation(): React.ReactElement {
-  return <section id="pain-concern-navigation" className="interior-section pain-navigation"><div className="pain-navigation-head"><div className="interior-wrap"><span className="eyebrow">Richmond, Virginia area</span><h2 className="bracket">Explore pain concerns</h2><p>Joint pain can show up in different places. Location alone does not determine a cause or a plan.</p></div></div><div className="interior-wrap pain-navigation-cards">{CONCERNS.map((concern) => <Link key={concern.name} href={concern.href} className="pain-nav-card"><InteriorImage slug="pain-relief" file={concern.file} alt={concern.alt} /><div><strong>{concern.name}</strong><span>{concern.body} ↓</span></div></Link>)}</div><p className="interior-wrap pain-navigation-note">Each concern is a different starting point. Individual questions deserve a personal conversation.</p></section>;
+  return (
+    <section id="pain-concern-navigation" className="interior-section pain-navigation">
+      <div className="pain-navigation-head"><div className="interior-wrap"><h2 className="bracket">Pain Concern Navigation</h2><p>Joint pain can show up in different places. Location alone does not determine a cause or a plan.</p></div></div>
+      <nav className="interior-wrap pain-navigation-cards" aria-label="Pain concerns">
+        {CONCERNS.map((concern) => <Link key={concern.name} href={concern.href} className="pain-nav-card"><span className="pain-nav-cue">{concern.cue}</span><strong>{concern.name}</strong><span className="pain-nav-question">{concern.question}</span><span className="pain-nav-link">Read {concern.name.toLowerCase()} questions <ArrowDownRight size={19} aria-hidden /></span></Link>)}
+      </nav>
+      <p className="interior-wrap pain-navigation-note">Choose a starting point, then compare the questions that matter to your own daily function.</p>
+    </section>
+  );
 }

@@ -4,5 +4,5 @@ import "../services/interior.css";
 import "./utility.css";
 
 export default function UtilityLayout({ children }: Readonly<{ children: React.ReactNode }>): React.ReactElement {
-  return <><InteriorHeader />{children}<SiteFooterB /></>;
+  return <div className="utility-shell"><InteriorHeader />{children}<SiteFooterB /></div>;
 }

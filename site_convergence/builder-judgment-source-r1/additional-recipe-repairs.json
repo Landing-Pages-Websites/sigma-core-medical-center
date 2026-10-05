@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "hormone-optimization",
+    "frame": "02-visitor-orientation.png",
+    "region": 2,
+    "before": "Build a live navy boundary rail under the two general-information statements. Link to the question guide; preserve the mineral paper, blue field, and mobile reading order. No premises imagery.",
+    "after": "Build .h-orientation-boundary as a navy CSS grid below the two statements, with 24px 34px padding, an 8px gap and a silver top border; preserve the working #goals-and-decision-factors anchor and mobile reading order."
+  },
+  {
+    "slug": "hormone-optimization",
+    "frame": "05-faq.png",
+    "region": 17,
+    "before": "Use a compact preparation guide beside the four real answers and related links. Retain the navy FAQ reading field; no lounge or fabricated sign.",
+    "after": "Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image."
+  },
+  {
+    "slug": "hormone-optimization",
+    "frame": "07-medical-sources.png",
+    "region": 4,
+    "before": "Use a restrained mineral ledger for pending clinical relevance review. Keep FDA and guidance provenance conditional until a licensed reviewer approves specific links; do not imply sourced treatment claims or clinic premises.",
+    "after": "Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "02-visitor-orientation.png",
+    "region": 8,
+    "before": "Replace rejected wooden/marble reception with live observation prompts: where sensation changes occur, when they began, and how walking, balance, sleep or hand use is affected. Keep the blue/navy horizontal split, accessible #goals-and-decision-factors link, and mobile copy-first order. No premises or patient depiction.",
+    "after": "Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "03-goals-and-decision-factors.png",
+    "region": 8,
+    "before": "Replace false navy sign and slat reception with a live dark decision lens beside the three icon-led goal steps. Number evaluation, evidence for benefits/risks, and alternatives/cost/follow-up; avoid clinic signage, staff, or outcome claims.",
+    "after": "Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "03-goals-and-decision-factors.png",
+    "region": 9,
+    "before": "The lower visitor-lounge image has zero raster ownership. Continue the single decision lens through the former lower-photo footprint with the third question and a blue rule; preserve three-step goal hierarchy and mobile reading order.",
+    "after": "Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "04-what-to-expect.png",
+    "region": 9,
+    "before": "The waiting-wall photograph is removed. Build the booking-status and personalized-care statement as live text inside a dark diagonal panel with code-native steps; keep the /book action.",
+    "after": "Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "05-faq.png",
+    "region": 2,
+    "before": "Replace NEURO PERFORMANCE lounge with a live dark page-guide nav linking to orientation, goals and medical sources. Use three fine rules and numbered endpoints, with keyboard focus states; no facility photo or service-specific venue.",
+    "after": "Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "06-booking-cta.png",
+    "region": 8,
+    "before": "Replace false window lounge with a live three-question sheet and a distinct action panel. State online booking unavailable; primary link returns to the useful goals guide, secondary link compares services. Keep the navy/electric geometry and no appointment promise.",
+    "after": "Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image."
+  },
+  {
+    "slug": "neuropathy",
+    "frame": "07-medical-sources.png",
+    "region": 4,
+    "before": "Replace three-chair alternate room with live NINDS source-scope copy: what the citation supports and what this page cannot establish. Use a restrained dark side rail and visible medical-source link/status; no interior image.",
+    "after": "Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image."
+  },
+  {
+    "slug": "pelvic-floor-incontinence",
+    "frame": "04-what-to-expect.png",
+    "region": 13,
+    "before": "The waiting-wall photograph is removed. Build a distinct privacy-led code panel for the publication limits; retain the working booking control and services link.",
+    "after": "Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits."
+  },
+  {
+    "slug": "pelvic-floor-incontinence",
+    "frame": "07-medical-sources.png",
+    "region": 4,
+    "before": "Remove the invented corridor. Use a live source ledger with a specific NIDDK reference actually consulted for general orientation, a clear non-endorsement/clinical-review boundary, and a real external link. Keep the left heading and source-review note; use a quiet mineral field and one blue top rule.",
+    "after": "Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile."
+  },
+  {
+    "slug": "regenerative-medicine",
+    "frame": "03-questions-for-a-consultation.png",
+    "region": 4,
+    "before": "Use a navy, blue-keylined text rail below the five question panels: one preparation headline, one sentence linking evidence to exact option and intended use, and the two existing real service links. No room or photo texture.",
+    "after": "Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph."
+  },
+  {
+    "slug": "regenerative-medicine",
+    "frame": "04-decision-factors.png",
+    "region": 19,
+    "before": "Use the right edge as a distinct lighter-teal verification field inviting readers to identify missing details in the answers. Keep it visually separate from the start edge and free of facility or treatment imagery.",
+    "after": "Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile."
+  },
+  {
+    "slug": "regenerative-medicine",
+    "frame": "05-faq.png",
+    "region": 2,
+    "before": "Use a diagonal blue aside with a vertical keyline, a live evidence-boundary statement, and a functional anchor to the source-status section. Keep answers and real service links adjacent. Do not add progress-like ticks or a photo placeholder.",
+    "after": "Use .r-faq-boundary as a blue CSS aside with a diagonal boundary and vertical rule; render the evidence-scope statement and working #medical-sources anchor. Keep four semantic dl answers and related-service navigation adjacent, then stack on mobile."
+  },
+  {
+    "slug": "regenerative-medicine",
+    "frame": "07-medical-sources.png",
+    "region": 8,
+    "before": "Use a mineral keylined panel stating that product-specific citations are not published and no modality, FDA approval or clinical outcome is established. Below it, label the three public rail items Category basis, Regulatory review needed, and Clinical review needed; no inventory jargon or fabricated citation.",
+    "after": "Build .r-sources-caveat as a mineral keylined CSS panel stating that product-specific citations are unpublished. Follow with the three .r-sources-rail groups for category basis, regulatory review and clinical review; retain live headings/body and mobile stacking without fabricated citations."
+  },
+  {
+    "slug": "services",
+    "frame": "01-hero.png",
+    "region": 6,
+    "before": "Balance live hero copy and the dominant neuropathy focus tile with one faceted navy-to-blue field, two open concentric arcs and one measured horizon line. Keep the enlarged desktop heading clear of the tile. Crop the arcs intentionally in the short mobile field between tile and four-category rail; show no room, furniture, signage or photo.",
+    "after": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image."
+  }
+]

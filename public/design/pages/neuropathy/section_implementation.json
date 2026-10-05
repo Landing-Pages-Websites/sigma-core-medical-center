@@ -7,28 +7,167 @@
       "implementation_owner": "src/components/interior/neuropathy/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "neuropathy/01-hero-01-person-walking.png"
+        "01-hero-01-person-walking.png: Exact person walking visual for 01-hero, not a staff or outcome representation; source crop [876, 181, 1505, 674]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/0-hero-top.png and M/0-hero-top.png preserve the neuropathy headline, Richmond orientation, movement/function/independence goals, outcomes-vary qualifier and pending clinical review. Prepare your questions replaces unsupported booking under current source-safe runtime contract; no cure, reversal or treatment promise. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/01-hero.png; design_assets/pages/neuropathy/01-hero-01-person-walking.png; D/0-hero-top.png; M/0-hero-middle-1.png and 0-hero-bottom.png. Same anonymous older outdoor walker, both source-visible feet, path/fence and blue lower field retained. Natural-aspect slot and upper-left diagonal remain; no invented clinic or patient identity. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Historical75b evidence recorded a 32px desktop plaque closure. Independent exact548789e native follow-up now verifies the repaired desktop and mobile hero composition and hero-to-orientation seam: the final plaque closes at64px against the64px local unit at1440 and390, with paired native receipts, stable states and no overflow. Original report and images remain preserved separately; see site_convergence/route-review-neuropathy-548789e-native-followup.{md,json} and candidate-548789e-native/{desktop_1440x900,mobile_390x844}/services-neuropathy."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/0-hero-top.png and M/0-hero-middle-1.png retain navy/blue/mineral stepped fields, dominant readable white type, restrained italic qualifier and independently live outlined desktop question action. Current source-safe recipe, not obsolete literal Book an Appointment art, governs. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/0-hero-top.png, middle-1.png and bottom.png stack action, natural-aspect walker and unoffset plaques. Additional mobile_360x800 and mobile_320x800 services-neuropathy/0-hero-{top,bottom}.png keep your day together without lone day or clipping. desktop_1536x1024/0-hero-top.png retains crop and confirms same desktop closing defect rather than clearing it. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/0-hero-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/hero.tsx",
+        "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [
+          "/images/design/neuropathy/01-hero-01-person-walking.png"
+        ],
+        "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the hero horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile narrow heading measure leaves day as a lone trailing line.",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "f173d82e6cabac46a430680c55b10edb734b3091254fa6c9ef15ee2201891add",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          }
+        }
+      },
+      "hero_clearance_r1": {
+        "baseline_commit": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "finding": "NEURO-HERO-DESKTOP-CLOSURE",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Reduce desktop step offsets to 16/32 CSS px and reserve 64 CSS px hero closing padding. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "54060f31e8aeab68155e443e731c3d54b9862c096129fe1e0e2999cde8573526"
+          }
+        },
+        "review_status": "FAIL",
+        "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
+        "after": {
+          "source_component": "src/components/interior/neuropathy/hero.tsx",
+          "source_sha256": "d23522bd9fa4c2c96c4cf493f93e9714e1b521dc5697266fbeb05bdfc37c66a9",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [
+            "/images/design/neuropathy/01-hero-01-person-walking.png"
+          ],
+          "recipe": "Retain the same 629x493 outdoor walker in a natural-aspect media slot with a 12% upper-left diagonal; preserve source-visible feet. Retain desktop step offsets of 16/32 CSS px. Above 900px, reserve 96 CSS px container bottom padding so the final 32px-translated plaque leaves 64 CSS px painted closing clearance. At max-width 900px explicitly retain 64 CSS px bottom padding with the existing separate action row; at max-width 600px keep the existing unoffset stacked plaques and 64 CSS px painted closing clearance. Use an unclipped outlined question-sheet action. Mobile steps have no offsets and the source keeps its aspect. At max-width 600px only, remove the H1 max-width, balance wrapping and keep the inline phrase your day unbroken. Preserve all wording and existing font scale, the unchanged 629:493 walker size, CTA and step closure. At desktop the phrase span remains ordinary inline text with no new styling.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Hero source spacing repair only; originating 75b2665c0370aaebd77944091e0ad17e694fe072 review remains 34 PASS / 1 composition FAIL with edge FAIL. Fresh immutable hero/join independent review pending; QA PENDING and registry edge false.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
+          }
         }
       }
     },
@@ -38,29 +177,75 @@
       "implementation_owner": "src/components/interior/neuropathy/orientation.tsx",
       "content_source": "section_manifest.json#02-visitor-orientation",
       "asset_roles": [
-        "neuropathy/02-visitor-orientation-01-clinic-interior.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/1-visitor-orientation-top.png and M/1-visitor-orientation-top.png explain peripheral nerves, varied causes and non-diagnosis; light/dark articles distinguish general information from individual conversation. Notice the pattern retains sensation/onset/activity prompts. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/02-visitor-orientation.png is historical photo-bearing evidence. Current extraction-plan/NOTES runtime recipe retires the unsupported premises strip. D/1-visitor-orientation-bottom.png and M/1-visitor-orientation-middle-1.png visibly replace it with live guidance and question-sheet link, no facility photo. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/1-visitor-orientation-top.png places lead beside two content-sized comparison articles; bottom.png shows attached full-width guidance band. M/top,middle-1,bottom retain lead, comparison then guidance order without stretched empty towers. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/1-visitor-orientation-bottom.png and M/1-visitor-orientation-middle-1.png preserve electric-blue field, mineral/dark contrast panels, clipped shoulders, thin dividers and cyan-topped guidance rail. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/1-visitor-orientation-top.png, middle-1.png, bottom.png retain all text and status link in readable stacked panels. Narrow hero-bottom observations also show clean two-line orientation title at320/360. Wider desktop_1536x1024/1-visitor-orientation-bottom.png preserves composed band. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/1-visitor-orientation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/1-visitor-orientation-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/orientation.tsx",
+        "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
+        "dom_ids": [
+          "visitor-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "31ca2ce5685753a225fd908ed51153e5cb53c9ca385272350c20f1685e4542d5",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this visitor orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the visitor orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render observation prompts in .neuro-orientation-guidance as live text within the blue/navy CSS layout, followed by the actual #form question-sheet anchor. Keep the adjacent information/individual-conversation articles; stack in source order on mobile and show no premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/orientation.tsx",
+          "source_sha256": "23009ce97da731cd71b6c56873490ce0113d3ca7d12a2590c5c6de128bc9de89",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the lead and two comparison articles in the primary row; move the existing Notice the pattern prompt and #form link into a full-width attached guidance band below. Articles size to the primary row instead of stretching to the prompt. Stack guidance on mobile with all original clinical limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -69,30 +254,75 @@
       "implementation_owner": "src/components/interior/neuropathy/goals.tsx",
       "content_source": "section_manifest.json#03-goals-and-decision-factors",
       "asset_roles": [
-        "neuropathy/03-goals-and-decision-factors-01-clinic-reception.png",
-        "neuropathy/03-goals-and-decision-factors-02-visitor-in-lounge.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/2-goals-and-decision-factors-middle-1.png and M/top,middle-1,bottom show daily function, comfort, balance and participation as discussion topics, evaluation, benefits/risks, alternatives/cost/follow-up and qualifications only when confirmed; expressly not treatment recommendations. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/03-goals-and-decision-factors.png contains superseded premises imagery. D/middle-1 and M/middle-1 show current source-safe three Lucide goal plaques plus individual-question aside, no clinic, staff or outcome raster. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/2-goals-and-decision-factors-middle-1.png shows copy left, three staggered plaques center, content-sized dark question aside right, centered rather than an empty full-height tower. M/middle-1 and bottom stack plaques into the question aside in narrative order. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/middle-1 and M/middle-1 preserve mineral background, navy copy, slanted plaques, blue Lucide strokes and small blue rule terminals. No decorative numbering. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/2-goals-and-decision-factors-top.png, middle-1.png and bottom.png preserve all copy, three plaques and three questions at390 without overflow or clipping. Closing dark panel is genuinely painted55 before next field, not text-audit101. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/2-goals-and-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/2-goals-and-decision-factors-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/goals.tsx",
+        "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+        "dom_ids": [
+          "goals-and-decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the goals and decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this goals and decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile. Build .neuro-goals-lens as one dark CSS aside beside the three Lucide goal steps, using a live ordered list for evaluation, benefits/risks and alternatives/costs/follow-up. The third question and blue rule occupy the former lower-photo area; stack in narrative order on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/goals.tsx",
+          "source_sha256": "47e186b45d36f25e948f0b52c99eb6632fa8d39a5f7929ad30e686715d9b82d7",
+          "dom_ids": [
+            "goals-and-decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three Lucide goal plaques and the dark individual-question aside; vertically center the content-sized track beside the copy, with the aside centered rather than stretched into a tall empty tower. Preserve every goal and evaluation/benefit/risk/alternative/cost/follow-up prompt.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -101,29 +331,41 @@
       "implementation_owner": "src/components/interior/neuropathy/expect.tsx",
       "content_source": "section_manifest.json#04-what-to-expect",
       "asset_roles": [
-        "neuropathy/04-what-to-expect-01-real-waiting-room.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/3-what-to-expect-top.png and M/top,middle-1 describe preparation using FAQ/question sheet, individual questions for qualified professionals and explicitly unavailable scheduling. Current recipe supersedes historical verified-GHL assertion; no appointment duration, test, treatment or invented availability. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/04-what-to-expect.png versus D/top and M/middle-1: retired waiting-wall room is absent, replaced by actual code-native diagonal status panel, blue steps and silver corner motif. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/top and bottom show preparation/action left and substantial status panel right; M/top,middle-1,bottom reorder into lead/action then status. Status pane, not empty missing-photo area, owns the right side. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/top and M/middle-1 preserve charcoal field, navy beveled panel, blue steps/rules and silver corner treatment with strong readable hierarchy. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/3-what-to-expect-top.png, middle-1.png and bottom.png keep FAQ action, individual-question explanation and unavailable status visible without truncation. Panel closes55 before FAQ navy field. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/3-what-to-expect-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/3-what-to-expect-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/expect.tsx",
+        "source_sha256": "d2e635e440099ae588e820661488f757e96bd857257cdc25a92d87b9bdac99e5",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-expect-grid for preparation copy and the real #faq action beside a dark diagonal .neuro-expect-status panel, CSS steps and explicit scheduling-unavailable text. Stack on mobile; there is no booking control or waiting-room photo.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -132,29 +374,41 @@
       "implementation_owner": "src/components/interior/neuropathy/faq.tsx",
       "content_source": "section_manifest.json#05-faq",
       "asset_roles": [
-        "neuropathy/05-faq-01-clinic-lounge.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/4-faq-top.png,middle-1.png,bottom.png and M/top,middle-1,middle-2,bottom cover all five approved topics: audience, non-diagnosis, unavailable appointment requests, Richmond with unconfirmed public address, unpublished treatments. Booking/location status links remain real visible text; no cure/price/insurance claims. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-2.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/05-faq.png includes retired premises collage. D/4-faq-top.png and M/4-faq-top.png visibly present current image-free heading/scope and five semantic rows, not unsupported facility imagery. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-2.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/top,middle-1,bottom retain strong heading plus scope and five light answer bands. M/middle-1,middle-2 stack questions above answers/status links. D/bottom paired panels show final light card bottom3816.0625 and section bottom3896.0625:80px closing, exactly own80unit. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-2.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/middle-1 and M/middle-2 retain navy field, readable mineral answer panels, blue bracket/rule markers and clear underlined links. Current source-safe image-free wayfinding recipe governs. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-2.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "All four M/4-faq PNGs inspected, complete five-row mobile coverage with uncut questions, answers and links. Mobile final painted card closes55 against55unit. Older74px text clearance is not current evidence; current desktop text clearance98 includes18 inside the light card. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/4-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-middle-2.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/4-faq-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/faq.tsx",
+        "source_sha256": "d7b515255828ec842b68d122f9d73dbccf45c9f5ae845b12abb83635cc2f98b4",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render .neuro-faq-top heading and scope copy above five semantic dl rows in .neuro-faq-rows. Each answer retains its actual booking/location status link where present. Use the section CSS rules and mobile text stack; no auxiliary photo or invented page-guide rail.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -163,29 +417,75 @@
       "implementation_owner": "src/components/interior/neuropathy/booking.tsx",
       "content_source": "section_manifest.json#06-booking-cta",
       "asset_roles": [
-        "neuropathy/06-booking-cta-01-visitor-in-clinic.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/5-form-top.png,bottom.png and M/top,middle-1,bottom present personal local notes, three specific prompts, no health information collection, unavailable booking and source-limit action. No form, calendar or false successful booking. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/06-booking-cta.png has unsupported facility/person slot. D/top,bottom and M/middle-1 show genuine current code-native question-sheet and electric-blue availability panel, no invented room or person. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/5-form-bottom.png keeps preparation left and attached question/status track right; source-limit action has safe inset beyond desktop diagonal. Painted track closes80 against80unit, explaining text-audit125.8. M/middle-1 and bottom stack all three prompts then status/action. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/bottom and M/middle-1 retain navy field, blue-topped question track, electric status panel and mineral arrow action. Distinct status and action remain readable, not decorative controls. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/5-form-top.png,middle-1.png,bottom.png plus mobile_360x800 and mobile_320x800/5-form-bottom.png show wrapped source-limit labels fully inside the24px-inset square mobile panel; no clipping or overflow. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/5-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/5-form-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/booking.tsx",
+        "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/neuropathy/neuropathy.css": "365248a705333c1f253eae18dbf744f3eadd726c5adbbe4452b58ea993248680"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this booking cta panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this booking cta content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .neuro-book-grid for preparation copy beside .neuro-book-question-sheet, a semantic three-item ordered list, and the distinct .neuro-book-action panel. State booking unavailable; its actual anchor is #medical-sources. Stack the navy/electric fields on mobile; no form or room image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/neuropathy/booking.tsx",
+          "source_sha256": "4c766862230034f0367450de68e2fd3b9cc186ef9a1d15983c0932d7aa0c2996",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the local-notes question sheet and source-limit action. Inset the blue status panel beyond its 8% diagonal by another 24 CSS px desktop; use 24 CSS px on mobile where the panel is square. Preserve unavailable booking and no data collection.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/neuropathy/neuropathy.css": "ffcec5b8988a5729e84d33dda86e7c6a81abc4d3f498b6e3e252f733d5905165"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -194,30 +494,123 @@
       "implementation_owner": "src/components/interior/neuropathy/sources.tsx",
       "content_source": "section_manifest.json#07-medical-sources",
       "asset_roles": [
-        "neuropathy/07-medical-sources-01-clinic-lounge.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "D/6-medical-sources-top.png,bottom.png and M/top,middle-1,bottom name NINDS peripheral-neuropathy overview, separate general definition from individual diagnosis/options, state no endorsement/provider/treatment/outcome verification and pending clinical review. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "R/07-medical-sources.png is superseded photo/multiple-source art. Current D/top,bottom and M/middle-1 visibly replace it with a single truthful source link and scope sidebar, no invented premises or unsupported CDC/NASS endorsement. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/top,bottom place explanatory copy/source/disclaimer left and dark two-part scope aside right. M/top,middle-1,bottom preserve source and disclaimer before the scope panel and footer transition. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "D/bottom and M/middle-1 retain mineral field, navy scope panel, blue vertical rule and clear source link with restrained separators. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "M/6-medical-sources-top.png,middle-1.png,bottom.png and mobile_320x800/6-medical-sources-top.png show readable wrapped long source name and full disclaimer. Mobile scope panel closes55 before walnut/footer rail; no truncation. Applied verbatim originating judgment: route /services/neuropathy; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer, independent read-only neuropathy subagent, session cffdff2e; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json sha256=2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277. Actual desktop/mobile section files: site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy/6-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-neuropathy/6-medical-sources-bottom.png. Source binding is controller-supplied; this is not candidate repair approval."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/neuropathy/sources.tsx",
+        "source_sha256": "9c986bbdd0fd6a34d72868c4dfd1d5d0d3612e75feb090e63b8533cb98e74555",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .neuro-sources-grid with a named NINDS external source link and disclaimer beside the dark .neuro-source-scope aside. Separate the supported definition from individual questions using live labels and paragraphs; stack on mobile, retaining the source URL and no clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     }
-  ]
+  ],
+  "review_boundary": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  },
+  "route_review": {
+    "route": "/services/neuropathy",
+    "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/neuropathy",
+    "reviewer": "Web Developer, independent read-only neuropathy subagent, session cffdff2e",
+    "artifacts": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+        "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+        "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+      }
+    ],
+    "outcome": {
+      "PASS": 34,
+      "FAIL": 1
+    },
+    "verdict": "FAIL",
+    "edge_verdict": "FAIL",
+    "finding": {
+      "id": "NEURO-HERO-DESKTOP-CLOSURE",
+      "severity": "blocking",
+      "frame": "01-hero",
+      "owner": "controller / neuropathy hero builder",
+      "finding": "Desktop last meaningful light plaque closes32 CSS px, not required64 local unit. Numeric text-only PASS misses painted-panel extent.",
+      "next_action": "Make a narrowly scoped hero composition repair, preserve walker/crop, truthful copy and source-safe unavailable status; recapture this route on new immutable SHA and independently re-review hero whole section plus join at1440/390 and1536."
+    },
+    "prior_implementation": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/neuropathy-hero-clearance-r1/before/repository/public/design/pages/neuropathy/section_implementation.json",
+      "sha256": "4b3914bb5d01332bfd4b8d26374b60688f425db4d2e56f1458bd71472f5a48b2"
+    },
+    "evidence_path_convention": "All relative paths are under the supplied ROOT. D=site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy; M=site_convergence/final-capture-75b/mobile_390x844/services-neuropathy; R=design_refs/pages/neuropathy/refs.",
+    "applicability": "34 PASS judgments remain bound to source 75b2665c0370aaebd77944091e0ad17e694fe072. Hero composition remains FAIL; desktop closing-reserve repair and independent recapture pending. Other sections retain section-relative geometry; a downstream page-y translation alone does not reopen their review.",
+    "boundary": "No registry edge, QA, phase, queue, publication or shipment promotion."
+  },
+  "controller_application_r2": {
+    "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+    "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#neuropathy",
+    "original_report": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+        "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+        "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+      }
+    ],
+    "historical_review_blocks_preserved": true,
+    "previous_fidelity": {},
+    "qa_verdict": "PENDING",
+    "edge_flag_changed": false,
+    "followup": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.json",
+        "sha256": "f0af5f35844865fd2eb7df2c3a2a978fb63242601d8a4f57b6776a2d6e32d7e4"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.md",
+        "sha256": "b8bafa77da1a48ac46cb5f8485fc82a0b921e2452eedb6eb6dd687c8cefa371d"
+      }
+    ],
+    "applicability": "Original route_review 34 PASS/1 FAIL remains historical. Already-applied formal native548789e hero composition PASS plus34 inherited PASS yields35 current layers. Import closure/assets byte-equal from548789e through4ffef33 and current candidate. No new whole-route fidelity review or edge promotion.",
+    "current_layer_counts": {
+      "PASS": 35
+    },
+    "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged."
+  }
 }

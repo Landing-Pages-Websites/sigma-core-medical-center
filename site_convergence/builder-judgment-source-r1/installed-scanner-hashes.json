@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/audit_design_handoff.py",
+    "sha256": "1257d562015878454d2b3943962a86a7c982c5dd4278c3d9b3f41deebbb27180"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/design_handoff_schema.py",
+    "sha256": "622fa0e5f7b413c83bdc8876c3323525021f023f2aa817f0e89bab8370bb6846"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/route_reachability.py",
+    "sha256": "8ac142c4c748a317abdfd9657c226ae7ee9358e34b9bebabe589a65538e8269d"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/tests/test_audit_design_handoff.py",
+    "sha256": "662313068eb649d4493a511e93240a0f9f276714c4f0ae50a37e73459631a813"
+  },
+  {
+    "path": "/var/lib/megaclaw/workspace/skills/website-orchestrator/scripts/tests/test_route_reachability.py",
+    "sha256": "bf17b8259a75debebf26a85ea15d87defa45e421c9cdac192f21705f77721824"
+  }
+]

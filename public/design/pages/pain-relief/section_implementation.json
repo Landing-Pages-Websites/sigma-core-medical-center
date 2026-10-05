@@ -7,29 +7,41 @@
       "implementation_owner": "src/components/interior/pain-relief/hero.tsx",
       "content_source": "section_manifest.json#01-hero",
       "asset_roles": [
-        "pain-relief/01-hero-01-person-walking.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Live approved headline, movement/daily-function copy, concern scope, CTA, and diagnosis disclaimer are visible in desktop 0-hero-top/bottom and mobile 0-hero-top/middle-1/bottom. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/0/layers. Reviewed owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f. Native reference design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Code-native successor is intentional. Contract removes unsupported documentary/facility imagery and uses live movement geometry; no invented photo is required. composition_map.json and section_implementation.json declare zero runtime rasters. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/0/layers. Reviewed owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f. Native reference design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop two-column hierarchy retains left narrative and right movement panel; mobile stacks the narrative before the panel. Blue line/keyline remains behind content. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/0/layers. Reviewed owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f. Native reference design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Navy/electric-blue/mineral treatment, bracket, angled field, type hierarchy, rules, and CTA treatment are visibly coherent in the inspected native PNGs. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/0/layers. Reviewed owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f. Native reference design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Desktop and mobile preserve the headline, movement panel, labels, disclaimer, and CTA without clipping or horizontal overflow in the inspected captures. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/0/layers. Reviewed owner src/components/interior/pain-relief/hero.tsx sha256=956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f. Native reference design_refs/pages/pain-relief/refs/01-hero.png sha256=ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/hero.tsx",
+        "source_sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -38,31 +50,41 @@
       "implementation_owner": "src/components/interior/pain-relief/navigation.tsx",
       "content_source": "section_manifest.json#02-pain-concern-navigation",
       "asset_roles": [
-        "pain-relief/02-pain-concern-navigation-01-knee-clinic.png",
-        "pain-relief/02-pain-concern-navigation-02-low-back-clinic.png",
-        "pain-relief/02-pain-concern-navigation-03-neck-clinic.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Current navigation-content PASS retained: exact Pain Concern Navigation heading on immutable e62ceba67bcec87ba49192299e8dcc33cf52aeb3, GitHub deployment6850357413, hwoktxcvs. Independent b25d61df targeted report JSON sha256=787258835dce0cd45b5b81ec26becac30a815c2e9c7a6d59f80d70d2df50e351 and independent 2c92 formal supplement JSON sha256=2d450d482c06af163e73dcf9b37c3b39fe6cdb4a300eae59e987d7e5a6c83f17 are under ROOT/site_convergence. Supplement closes formal capture gap with78 native paired PNGs at1536x1024/360x800/320x800; exact complete two-line heading and adjacent painted joins PASS. Original1440/390 pairs21/29 retained. Source97/97 closure e62-to277 plus metadata-only277-to-c7 extension applies, not a new current deployment review. Current45 layers PASS. Parent-approved Pain-only edge promotion is recorded in registry current_followup; QA PENDING. The entire following prior application text is historical, not current evidence: Current e62ceba repair matches the manifest exactly: Pain Concern Navigation. Independent b25d61df report route-review-pain-relief-e62-targeted-followup.json sha256=787258835dce0cd45b5b81ec26becac30a815c2e9c7a6d59f80d70d2df50e351#/contract_check confirms content PASS with native paired desktop1440/mobile390 heading PNGs in candidate-e62ceba-native. GitHub deployment6850357413 binds e62ceba67bcec87ba49192299e8dcc33cf52aeb3 to immutablehwoktxcvs. Controller inspected actual mobile390 PNG with exact heading and all semantic concern content; runtime closure remains unchanged through277b88e. This content-only update does not promote edge, the supplemental full-page captures have integrity gaps and formal supplemental review remains pending. Historical75b finding follows, superseded only for this content layer: Heading was 'Explore pain concerns' in navigation.tsx and the native PNGs; section_manifest.json#02 specifies 'Pain Concern Navigation'. Three fragment targets, concern cues, questions, and location/cause disclaimer are otherwise present. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/1/layers. Reviewed owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2. Native reference design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Code-native electric/mineral fields and live cards are the authorized successor; the contract explicitly removes unsupported facility tiles and declares zero runtime rasters. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/1/layers. Reviewed owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2. Native reference design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Blue heading field leads into three concern cards, followed by the explanatory note. Desktop rail and mobile stack preserve the intended wayfinding hierarchy. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/1/layers. Reviewed owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2. Native reference design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Blue field, dark card variants, cyan top rules, clipped lower corners, readable type, and card link affordances are visibly retained. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/1/layers. Reviewed owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2. Native reference design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile cards stack in Knee, Low back, Neck order and retain readable cue, question, and link content; no visible clipping. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/1/layers. Reviewed owner src/components/interior/pain-relief/navigation.tsx sha256=7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2. Native reference design_refs/pages/pain-relief/refs/02-pain-concern-navigation.png sha256=15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/navigation.tsx",
+        "source_sha256": "f5a05de1e7cac8e6aba750e4438e6fb2ce2f9263be2bfc28a9e4a3d0f82ae699",
+        "dom_ids": [
+          "pain-concern-navigation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -71,29 +93,77 @@
       "implementation_owner": "src/components/interior/pain-relief/knee.tsx",
       "content_source": "section_manifest.json#03-knee-concerns",
       "asset_roles": [
-        "pain-relief/03-knee-concerns-01-person-outdoors.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Knee concerns copy, three preparation prompts, walking/stairs/standing activity band, review-care-questions action, and non-medical disclaimer are visible in the paired desktop and mobile captures. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/2/layers. Reviewed owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3. Native reference design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "The intrinsically headless/footless historical extraction is intentionally replaced by the declared code-native daily-activity band. No substitute person or treatment claim is demanded. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/2/layers. Reviewed owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3. Native reference design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Heading/copy and three prompt cards lead to the dark activity band. Mobile preserves the prompt sequence and action after the content group. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/2/layers. Reviewed owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3. Native reference design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Mineral background, oblique prompt cards, dark/cyan activity band, bracketed copy, and readable CTA treatment match the working source-safe successor. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/2/layers. Reviewed owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3. Native reference design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile changes the prompt row and activity band to a readable stacked layout; activity labels remain simultaneously visible and the action remains usable. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/2/layers. Reviewed owner src/components/interior/pain-relief/knee.tsx sha256=5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3. Native reference design_refs/pages/pain-relief/refs/03-knee-concerns.png sha256=232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/knee.tsx",
+        "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+        "dom_ids": [
+          "knee-concerns"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+          ],
+          "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -102,29 +172,82 @@
       "implementation_owner": "src/components/interior/pain-relief/back.tsx",
       "content_source": "section_manifest.json#04-low-back-concerns",
       "asset_roles": [
-        "pain-relief/04-low-back-concerns-01-man-at-home.png"
+        "04-low-back-concerns-01-man-at-home.png: Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation; source crop [1021, 95, 1490, 622]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Low-back daily-task orientation, varied-causes/non-diagnosis copy, preparation CTA, disconnected-scheduling statement, and educational disclaimer are visible. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/3/layers. Reviewed owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524. Native reference design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Rendered gardening scene matches the exact source-safe asset. Source and runtime hashes match: b7735e7bea63975a7eb53d1c68c93731a0693bf87061b7a309b784479b08e07a. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/3/layers. Reviewed owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524. Native reference design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop pairs copy/action with the right-side portrait-oriented image; mobile stacks action, image, and disclaimer with the image legible and no crop distortion. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/3/layers. Reviewed owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524. Native reference design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Charcoal field, cyan bracket, blue preparation panel, angled image corner, and white/cyan type are visibly coherent. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/3/layers. Reviewed owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524. Native reference design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile preserves the copy then action then image order; image remains source-aspect and readable, with no visible overflow. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/3/layers. Reviewed owner src/components/interior/pain-relief/back.tsx sha256=147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524. Native reference design_refs/pages/pain-relief/refs/04-low-back-concerns.png sha256=74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/back.tsx",
+        "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+        "dom_ids": [
+          "low-back-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -133,30 +256,82 @@
       "implementation_owner": "src/components/interior/pain-relief/neck.tsx",
       "content_source": "section_manifest.json#05-neck-concerns",
       "asset_roles": [
-        "pain-relief/05-neck-concerns-01-woman-reading.png",
-        "pain-relief/05-neck-concerns-02-clinic-lounge-strip.png"
+        "05-neck-concerns-01-woman-reading.png: Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation; source crop [929, 112, 1490, 467]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Neck range-of-motion, desk/driving, daily-function qualification, three questions, and compare-care-questions action are visible. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/4/layers. Reviewed owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf. Native reference design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Rendered reader scene matches the exact source-safe asset. Source and runtime hashes match: c98a10ef6999a86548d8d20a596ff07994b35b44cc64a1e92723818bac46983f. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/4/layers. Reviewed owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf. Native reference design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop pairs left narrative with right reader image and places the question rail below; mobile preserves image followed by the three question cells and link. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/4/layers. Reviewed owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf. Native reference design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Navy field, cyan bracket/bars, dark-blue question rail, fine rules, and underlined link treatment are visibly consistent with the working frame. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/4/layers. Reviewed owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf. Native reference design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile reader crop, question cells, and comparison link remain visible and readable without clipping. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/4/layers. Reviewed owner src/components/interior/pain-relief/neck.tsx sha256=575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf. Native reference design_refs/pages/pain-relief/refs/05-neck-concerns.png sha256=bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/neck.tsx",
+        "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+        "dom_ids": [
+          "neck-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     },
     {
@@ -165,29 +340,41 @@
       "implementation_owner": "src/components/interior/pain-relief/decisions.tsx",
       "content_source": "section_manifest.json#06-decision-factors",
       "asset_roles": [
-        "pain-relief/06-decision-factors-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "All eight approved clinician-conversation questions, qualifying paragraph, three internal links, and no-confirmation disclaimer are visible. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/5/layers. Reviewed owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9. Native reference design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Code-native checklist and geometric mark are authorized; historical facility imagery is explicitly replaced and no route raster is required. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/5/layers. Reviewed owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9. Native reference design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop large question title balances the question grid; mobile converts the grid to one column and retains the link cluster. Numeric bottom ratio 3.51 desktop/1.51 mobile was visually cleared as deliberate quiet space after the final link cluster. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/5/layers. Reviewed owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9. Native reference design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Electric-blue field, white type, thin rules, square bullets, and restrained geometric mark preserve the intended decision-workbench treatment. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/5/layers. Reviewed owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9. Native reference design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile question list is readable as a single sequence and all final links remain visible; no evidence of clipping or horizontal overflow. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/5/layers. Reviewed owner src/components/interior/pain-relief/decisions.tsx sha256=5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9. Native reference design_refs/pages/pain-relief/refs/06-decision-factors.png sha256=f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/decisions.tsx",
+        "source_sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -196,29 +383,41 @@
       "implementation_owner": "src/components/interior/pain-relief/faq.tsx",
       "content_source": "section_manifest.json#07-faq",
       "asset_roles": [
-        "pain-relief/07-faq-01-clinic-interior.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Questions, answered. intro, scope statement, four always-visible question/answer pairs, medical-sources link, Make it personal panel, and preparation link are present. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/6/layers. Reviewed owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440. Native reference design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "FAQ is correctly code-native with no facility raster or fake accordion imagery; this matches the section contract. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/6/layers. Reviewed owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440. Native reference design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop intro and answer/action surface form a two-part composition; mobile stacks the intro and answer/action groups. Numeric bottom ratio 1.66 desktop/2.12 mobile was visually cleared as quiet space, not crowding. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/6/layers. Reviewed owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440. Native reference design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Mineral background, navy answer frame, blue action panel, brackets, rules, and link hierarchy are visibly coherent. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/6/layers. Reviewed owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440. Native reference design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile answer rows and action panel stack without clipped text; all four answers and actions remain readable. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/6/layers. Reviewed owner src/components/interior/pain-relief/faq.tsx sha256=938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440. Native reference design_refs/pages/pain-relief/refs/07-faq.png sha256=eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/faq.tsx",
+        "source_sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -227,29 +426,41 @@
       "implementation_owner": "src/components/interior/pain-relief/booking.tsx",
       "content_source": "section_manifest.json#08-booking-cta",
       "asset_roles": [
-        "pain-relief/08-booking-cta-01-clinic-reception.png"
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Conversation-preparation headline, daily-activity prompt, disconnected-calendar warning, two preparation questions, booking-status link, and return-to-concern rail are visible. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/7/layers. Reviewed owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001. Native reference design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Code-native preparation panel is the authorized successor; no unsupported facility image or connected booking behavior is represented. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/7/layers. Reviewed owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001. Native reference design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop splits narrative and preparation panel, then uses a full-width return rail. Mobile stacks narrative/panel and retains the three concern return links. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/7/layers. Reviewed owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001. Native reference design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Charcoal field, angled blue panel, fine cyan line, navy/cyan return rail, and underlined status action are visibly consistent. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/7/layers. Reviewed owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001. Native reference design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile preparation panel and return rail fit within the viewport and maintain readable order; no live form is incorrectly introduced. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/7/layers. Reviewed owner src/components/interior/pain-relief/booking.tsx sha256=8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001. Native reference design_refs/pages/pain-relief/refs/08-booking-cta.png sha256=9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/booking.tsx",
+        "source_sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
       }
     },
     {
@@ -258,31 +469,346 @@
       "implementation_owner": "src/components/interior/pain-relief/sources.tsx",
       "content_source": "section_manifest.json#09-medical-sources",
       "asset_roles": [
-        "pain-relief/09-medical-sources-01-clinic-reception.png",
-        "pain-relief/09-medical-sources-02-clinic-lounge.png"
+        "code-only: live activity questions and section-owned CSS; no raster"
       ],
       "fidelity": {
         "content": {
           "status": "PASS",
-          "evidence": "Section renders manifest-approved category copy and links as live HTML."
+          "evidence": "Medical sources heading, NIH/MedlinePlus scope, acute-only low-back qualification, three concern-separated links, non-endorsement note, and reading-boundary copy are visible. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/8/layers. Reviewed owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db. Native reference design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "imagery": {
-          "status": "PENDING",
-          "evidence": "Approved section-owned raster slots are wired; browser crop review pending."
+          "status": "PASS",
+          "evidence": "Code-native reading-boundary panel is authorized and the implementation declares zero runtime rasters for this frame. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/8/layers. Reviewed owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db. Native reference design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "composition": {
-          "status": "PENDING",
-          "evidence": "Bespoke section grid follows composition map; browser comparison pending."
+          "status": "PASS",
+          "evidence": "Desktop source copy/list balances the right reading-boundary panel; mobile stacks source list and boundary panel before the footer. The source content has 160.62px mobile bottom clearance, but the terminal has a separate painted-strip failure. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/8/layers. Reviewed owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db. Native reference design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "visual_treatment": {
-          "status": "PENDING",
-          "evidence": "Approved tokens and geometric motifs coded; visual browser comparison pending."
+          "status": "PASS",
+          "evidence": "Navy field, cyan bracket and boundary rule, bordered source list, and blue-charcoal reading panel are visibly coherent. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/8/layers. Reviewed owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db. Native reference design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         },
         "responsive": {
-          "status": "PENDING",
-          "evidence": "Responsive CSS present; screenshots unavailable due to browser bootstrap gap."
+          "status": "PASS",
+          "evidence": "Mobile source cards stack and preserve link readability; the boundary panel remains inside the viewport with no visible text clipping. Applied verbatim originating judgment: route /services/pain-relief; source 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer {\"identity\": \"MegaClaw Web Developer\", \"email\": \"web-developer@gomega.ai\", \"mode\": \"independent read-only route reviewer\"}; JSON /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07 #/sections/8/layers. Reviewed owner src/components/interior/pain-relief/sources.tsx sha256=7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db. Native reference design_refs/pages/pain-relief/refs/09-medical-sources.png sha256=f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b. Actual inspected section PNGs: site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png; site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png. Original boundary judgments: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json#/boundaries, copied unchanged into route_review.boundaries. Relative paths resolve under route_review.evidence_path_base. Deployment/source association is controller-supplied; receipts do not independently bind Git SHA. Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim."
         }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/sources.tsx",
+        "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
       }
     }
-  ]
+  ],
+  "review_boundary": "Original edge FAIL only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval. Historical source-audit/repair metadata remains provenance, not a current layer verdict.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "route_review": {
+    "route": "/services/pain-relief",
+    "slug": "pain-relief",
+    "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/pain-relief",
+    "reviewer": {
+      "identity": "MegaClaw Web Developer",
+      "email": "web-developer@gomega.ai",
+      "mode": "independent read-only route reviewer"
+    },
+    "artifacts": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json",
+        "sha256": "d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.md",
+        "sha256": "054bc05e5617d334ad4da353386e8cf84353705a0ad8b4c4c8ef67a36bddf420"
+      }
+    ],
+    "outcome": {
+      "PASS": 44,
+      "FAIL": 1
+    },
+    "verdict": "FAIL",
+    "edge_verdict": "FAIL",
+    "review_completion": "See original review scope",
+    "prior_implementation": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/first-wave-application-r1/before/pain-relief/repository/public/design/pages/pain-relief/section_implementation.json",
+      "sha256": "caeadc4aad2a55f18295d65563350d4434402f2e11a6cb8942aa1e80062f761d"
+    },
+    "evidence_path_base": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a",
+    "captures_inspected": [
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/page-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/0-hero-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/1-pain-concern-navigation-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/2-knee-concerns-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-middle-1.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/3-low-back-concerns-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/4-neck-concerns-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/5-decision-factors-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/6-faq-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/7-form-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-top.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png",
+      "site_convergence/final-capture-75b/desktop_1440x900/services-pain-relief/footer-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/page-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/0-hero-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/1-pain-concern-navigation-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/2-knee-concerns-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/3-low-back-concerns-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/4-neck-concerns-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/5-decision-factors-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/6-faq-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/7-form-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-top.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-middle-1.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/8-medical-sources-bottom.png",
+      "site_convergence/final-capture-75b/mobile_390x844/services-pain-relief/footer-bottom.png"
+    ],
+    "numeric_and_edge_inputs": [
+      "site_convergence/edge-audit-75b/raw/services-pain-relief/desktop_1536x1024.json"
+    ],
+    "boundaries": [
+      {
+        "name": "header-to-01-hero-top",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "desktop_1440x900/services-pain-relief/page-top.png",
+          "desktop_1440x900/services-pain-relief/0-hero-top.png",
+          "mobile_390x844/services-pain-relief/page-top.png",
+          "mobile_390x844/services-pain-relief/0-hero-top.png"
+        ],
+        "observation": "Normal-flow header; hero starts at 106px desktop and 178px mobile, with no overlap."
+      },
+      {
+        "name": "01-hero-to-02-navigation",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "0-hero-bottom.png",
+          "1-pain-concern-navigation-top.png"
+        ],
+        "observation": "Clean dark-to-blue join; no clipped bracket, panel, or text."
+      },
+      {
+        "name": "02-navigation-to-03-knee",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "1-pain-concern-navigation-bottom.png",
+          "2-knee-concerns-top.png"
+        ],
+        "observation": "Intentional card overlap into the navigation field; terminal note clears the successor."
+      },
+      {
+        "name": "03-knee-to-04-low-back",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "2-knee-concerns-bottom.png",
+          "3-low-back-concerns-top.png"
+        ],
+        "observation": "Activity band/disclaimer clear the join; numeric clearances 75.59px desktop and 55.59px mobile."
+      },
+      {
+        "name": "04-low-back-to-05-neck",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "3-low-back-concerns-bottom.png",
+          "4-neck-concerns-top.png"
+        ],
+        "observation": "Exact photo and disclaimer finish cleanly. Mobile disclaimer painted ink is 60.25px versus 55px local target after the 8px repair, above the 24px floor."
+      },
+      {
+        "name": "05-neck-to-06-decision",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "4-neck-concerns-bottom.png",
+          "5-decision-factors-top.png"
+        ],
+        "observation": "Question rail/link and reader content complete before the decision field."
+      },
+      {
+        "name": "06-decision-to-07-faq",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "5-decision-factors-bottom.png",
+          "6-faq-top.png"
+        ],
+        "observation": "Numeric ratios are flagged, but native PNGs show intentional quiet space after links, not crowding or a severed motif."
+      },
+      {
+        "name": "07-faq-to-08-booking",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "6-faq-bottom.png",
+          "7-form-top.png"
+        ],
+        "observation": "Action panel has visible quiet space before booking section; no clipped answer row."
+      },
+      {
+        "name": "08-booking-to-09-sources",
+        "desktop_status": "PASS",
+        "mobile_status": "PASS",
+        "evidence": [
+          "7-form-bottom.png",
+          "8-medical-sources-top.png"
+        ],
+        "observation": "Return rail and booking terminal clear before sources; no clipped link."
+      },
+      {
+        "name": "09-sources-to-footer-terminal",
+        "desktop_status": "FAIL",
+        "mobile_status": "FAIL",
+        "evidence": [
+          "desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png",
+          "desktop_1440x900/services-pain-relief/footer-bottom.png",
+          "mobile_390x844/services-pain-relief/8-medical-sources-bottom.png",
+          "mobile_390x844/services-pain-relief/footer-bottom.png"
+        ],
+        "observation": "A stray walnut/brown painted strip is visible at the far right of the current sources/footer transition. It is not declared by the route source-safe treatment and prevents terminal certification."
+      },
+      {
+        "name": "footer-terminal",
+        "desktop_status": "FAIL",
+        "mobile_status": "FAIL",
+        "evidence": [
+          "desktop_1440x900/services-pain-relief/footer-bottom.png",
+          "mobile_390x844/services-pain-relief/footer-bottom.png"
+        ],
+        "observation": "Footer content is readable and clear, but the unresolved walnut strip remains part of the painted route boundary."
+      }
+    ],
+    "findings": [
+      {
+        "id": "F-01",
+        "severity": "blocking",
+        "type": "content",
+        "status": "open",
+        "evidence": [
+          "design_refs/pages/pain-relief/section_manifest.json#02-pain-concern-navigation",
+          "sigma-photo-ownership-round1/src/components/interior/pain-relief/navigation.tsx",
+          "desktop_1440x900/services-pain-relief/1-pain-concern-navigation-top.png",
+          "mobile_390x844/services-pain-relief/1-pain-concern-navigation-top.png"
+        ],
+        "finding": "Visible heading is 'Explore pain concerns'; approved contract headline is 'Pain Concern Navigation'."
+      },
+      {
+        "id": "F-02",
+        "severity": "blocking",
+        "type": "painted-boundary",
+        "status": "open",
+        "evidence": [
+          "desktop_1440x900/services-pain-relief/8-medical-sources-bottom.png",
+          "desktop_1440x900/services-pain-relief/footer-bottom.png",
+          "mobile_390x844/services-pain-relief/8-medical-sources-bottom.png",
+          "mobile_390x844/services-pain-relief/footer-bottom.png"
+        ],
+        "finding": "Stray walnut/brown painted strip at current sources/footer terminal is unresolved."
+      },
+      {
+        "id": "F-03",
+        "severity": "non-blocking",
+        "type": "numeric-edge-review",
+        "status": "rationalized",
+        "evidence": [
+          "site_convergence/edge-audit-75b/edge-review.json",
+          "site_convergence/edge-audit-75b/raw/services-pain-relief/desktop_1440x900.json",
+          "site_convergence/edge-audit-75b/raw/services-pain-relief/mobile_390x844.json",
+          "site_convergence/edge-audit-75b/raw/services-pain-relief/desktop_1536x1024.json"
+        ],
+        "finding": "Decision, FAQ, and sources ratios triggered NEEDS_VISUAL_REVIEW. Decision and FAQ were visibly rationalized as quiet space; source terminal remains failed due F-02."
+      }
+    ],
+    "applicability": "Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim.",
+    "source_identity": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/first-wave-application-r1/source-identity.json",
+      "sha256": "fe57ab845cb2adecac345d4a33062ceb781e0bbc8881c3ab03ecc68aa7d4cc5c"
+    },
+    "next_owner": "Controller",
+    "next_action": "After controller Git push, recapture only Pain at required desktop/mobile/wide/narrow viewports. Review exact heading, changed wrapping/section height, affected joins and terminal/footer. Do not inherit changed geometry or rerun passed whole routes. Controller -> independent targeted footer adjudicator: retain F-02 and edge false pending adjudication of intentional shared SiteFooterB walnut rail (20px desktop right / 12px mobile top). Controller observation alone is not an independent PASS.",
+    "boundary": "Original edge FAIL only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval.",
+    "source_repair": {
+      "source_component": "src/components/interior/pain-relief/navigation.tsx",
+      "before_sha256": "7c06154145e8b130e3920ef1b9ad8189ec1c45d757b5d40dd26b1c1950080fc2",
+      "after_sha256": "f5a05de1e7cac8e6aba750e4438e6fb2ce2f9263be2bfc28a9e4a3d0f82ae699",
+      "old_heading": "Explore pain concerns",
+      "new_heading": "Pain Concern Navigation",
+      "content_status": "FAIL",
+      "candidate_status": "REPAIR_PENDING_FRESH_REVIEW",
+      "next_owner": "Controller -> independent targeted Pain reviewer",
+      "next_action": "After controller Git push, recapture only Pain at required desktop/mobile/wide/narrow viewports. Review exact heading, changed wrapping/section height, affected joins and terminal/footer. Do not inherit changed geometry or rerun passed whole routes."
+    }
+  }
 }

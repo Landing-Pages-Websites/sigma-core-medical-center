@@ -1,0 +1,9 @@
+INVALID: 01-booking-hero.fidelity.composition.status must be PASS
+INVALID: 01-booking-hero.fidelity.visual_treatment.status must be PASS
+INVALID: 01-booking-hero.fidelity.responsive.status must be PASS
+INVALID: 02-gohighlevel-calendar.fidelity.composition.status must be PASS
+INVALID: 02-gohighlevel-calendar.fidelity.visual_treatment.status must be PASS
+INVALID: 02-gohighlevel-calendar.fidelity.responsive.status must be PASS
+INVALID: 03-privacy-note.fidelity.composition.status must be PASS
+INVALID: 03-privacy-note.fidelity.visual_treatment.status must be PASS
+INVALID: 03-privacy-note.fidelity.responsive.status must be PASS
