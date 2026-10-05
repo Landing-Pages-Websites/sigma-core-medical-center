@@ -321,6 +321,19 @@
         "next_owner": "Controller -> independent targeted route reviewer",
         "next_action": "Controller: Git push this exact commit, bind the immutable deployment to its SHA, recapture hero page-top/whole-section/top/middle/bottom and hero-to-orientation at 1440x900,1536x1024,390x844,360x800,320x800. Capture mobile FAQ top/middle/bottom and expectations-to-FAQ/FAQ-to-booking joins at 390/360/320, plus desktop FAQ unchanged regression. Independent targeted reviewer must assess original hero composition/visual_treatment/responsive and FAQ content/responsive; keep all other original PASS layers. Verify full 338x520 source-visible person, headline quiet zone, complete status/control, earlier mobile focal subject, both FAQ boundary sentences, all four answers and legal caveat. First-fold portrait remains unresolved without fresh native PNGs; do not infer PASS from CSS or DOM.",
         "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+      },
+      "current_followup": {
+        "source_sha": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "preview_url": "https://sigma-core-medical-review-hr68f2y7m-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+        "artifacts": [
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json",
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.md"
+        ],
+        "supported_layers": ["01-hero.composition", "01-hero.visual_treatment", "05-faq.content", "05-faq.responsive"],
+        "remaining_layers": ["01-hero.responsive"],
+        "targeted_edge_verdict": "PASS_TARGETED",
+        "route_verdict": "FAIL",
+        "scope": "Targeted current-candidate review only; no full-route edge or QA promotion."
       }
     },
     "/services/regenerative-medicine": {
