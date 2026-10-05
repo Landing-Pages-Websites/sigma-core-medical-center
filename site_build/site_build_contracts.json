@@ -396,6 +396,18 @@
         "next_owner": "Controller -> independent targeted route reviewer",
         "next_action": "Controller: Git push this exact commit and bind deployment to SHA. Recapture 320x800 hero page-top with 1440x900 and390x844 unaffected regressions; independently re-review only hero visual_treatment/responsive and confirm decorative wedge no longer crosses Explore whether. All other original PASS layers and source geometry remain preserved.",
         "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+      },
+      "current_followup": {
+        "source_sha": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "preview_url": "https://sigma-core-medical-review-hr68f2y7m-mega-websites.vercel.app/services/regenerative-medicine",
+        "artifacts": [
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json",
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.md"
+        ],
+        "supported_layers": ["01-hero.visual_treatment", "01-hero.responsive"],
+        "targeted_edge_verdict": "PASS_SCOPED_ROUTE_EDGE",
+        "route_verdict": "PASS_SCOPED_ONLY",
+        "scope": "Targeted current-candidate repair review only; inherited layers and whole-route QA remain pending."
       }
     },
     "/about": {
