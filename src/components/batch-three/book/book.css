@@ -63,6 +63,14 @@
 body:has(#booking-hero) .interior-header-inner { min-height: 104px; }
 body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 
+@media (min-width: 761px) {
+  .book-calendar::after {
+    /* Two 8px steps restore the 64px desktop caveat reserve without moving content. */
+    --book-calendar-plateau: calc(86.34% + 16px);
+    clip-path: polygon(0 98.61%, 31.12% var(--book-calendar-plateau), 100% var(--book-calendar-plateau), 100% 100%, 0 100%);
+  }
+}
+
 @media (max-width: 1100px) and (min-width: 761px) {
   .book-calendar-layout { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; }
   .book-page .book-availability { max-width: 23ch; }
