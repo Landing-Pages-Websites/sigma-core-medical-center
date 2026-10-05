@@ -843,7 +843,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -854,7 +854,7 @@
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING deployment binding. Independent route-review-notice-of-privacy-practices-utility reports painted PASS at 1440/1536/390, but its captures use a mutable branch alias. Formal source applicability is being independently verified before flag promotion.",
+        "edge_scope": "PASS route-specific original painted review route-review-notice-of-privacy-practices-utility.json sha256=3dc30c89c7fd2635e6d0e9d8575db7d317b9672b29e55432c7978bb7bf8a7272, combined with independent exact01af immutable followup route-review-notice-of-privacy-practices-immutable-identity-followup.json sha256=2f92ed074a8921c79345cdee56cfe46e84db4c2752f490ad96e2bd0239123ff6. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar and matching DOM bounds, 16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h with served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ; original mutable alias remains classified mutable. Terminal clearance92.593px desktop/60.594px mobile exceeds32px/24px floors. Route legal publication unresolved, QA PENDING; no other route or accessibility certification.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
       }
@@ -866,7 +866,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -877,7 +877,7 @@
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING deployment binding. Independent route-review-accessibility-utility reports painted PASS at 1440/1536/390, but its captures use a mutable branch alias. Formal source applicability is being independently verified before flag promotion.",
+        "edge_scope": "PASS route-specific original painted review route-review-accessibility-utility.json plus independent exact01af immutable followup route-review-accessibility-immutable-identity-followup.json sha256=a6e5eabae13dc5a1056cb4a667bfb9566c15e1e404f7b4c59f765daf6ba8c8f0. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar, matching DOM bounds, all16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h and served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Original mutable alias retained as mutable. Terminal92.59375px desktop/60.59375px mobile clears32px/24px floors; fallback-font error recorded, actual SourceSans faces loaded. Legal, accessibility conformance, QA remain UNRESOLVED. Only painted-edge flag promoted.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
       }
@@ -889,7 +889,7 @@
       "build_complete": true,
       "viewport_normalized": true,
       "primary_laptop_capture": true,
-      "section_edge_clearance_audited": false,
+      "section_edge_clearance_audited": true,
       "desktop_section_captures": true,
       "mobile_section_captures": true,
       "qa_verdict": "PENDING",
@@ -900,7 +900,7 @@
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
         "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
-        "edge_scope": "PENDING deployment binding. Independent route-review-terms-utility reports painted PASS at 1440/1536/390, but its captures use a mutable branch alias. Formal source applicability is being independently verified before flag promotion.",
+        "edge_scope": "PASS route-specific original painted review route-review-terms-utility.json plus independent exact01af immutable followup route-review-terms-immutable-identity-followup.json sha256=787fcefe5ab235d56b5728a42fbb3ce1386512a93ffddde698284fe9cacb852f. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar, matching DOM bounds and16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h and served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Original mutable alias retained as mutable. Terminal92.59375px desktop/60.59375px mobile clears32px/24px floors; fallback-font error disclosed, actual faces loaded. Legal and QA remain UNRESOLVED. Only this route's edge flag promoted.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
       }
