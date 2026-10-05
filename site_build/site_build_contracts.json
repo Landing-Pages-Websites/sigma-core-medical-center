@@ -80,14 +80,14 @@
           "reuse_intent": null
         }
       ],
-      "visual_repair_r1": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+      "visual_repair_r1": "Original75b hero failure was repaired at548789e. Independent formal native follow-up passed hero composition and full D/M painted-edge closure at exact548789e; QA remains PENDING and whole-route fidelity is not reissued.",
       "design_surface": "design-refs",
       "evidence_scope": {
         "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
         "contract_closure": "section-fidelity-closure-r1.md",
         "primary_capture": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: final-capture-75b native1440x900 and390x844 captures independently reviewed by cffdff2e. Seven frames:34 PASS,1 hero composition FAIL. Current source spacing repair has no independent rendered approval.",
         "reference_viewport": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: four1536x1024 states, three360x800 states and four320x800 states additionally reviewed per route-review-neuropathy.json. Additional1536 hero evidence confirms the desktop closing defect.",
-        "edge_scope": "FAIL on source 75b2665c0370aaebd77944091e0ad17e694fe072: hero-to-orientation desktop painted closure32 < local64. Normal header, subsequent reviewed boundaries, terminal and footer PASS only per cffdff2e receipt. Scoped hero source repair pending independent immutable capture; edge remains false and QA PENDING.",
+        "edge_scope": "Original75b edge failure was the32px desktop hero closure. Independent exact548789e native follow-up now passes header, repaired hero-to-orientation64px closure, all subsequent D/M joins, terminal and footer; receipts are ROOT/site_convergence/candidate-548789e-native and route-review-neuropathy-548789e-native-followup.{md,json}. QA remains PENDING.",
         "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
         "section_captures": "Source 75b2665c0370aaebd77944091e0ad17e694fe072:18desktop and24mobile required actual captures plus11additional states inspected; full inventory and actual filenames in originating route-review-neuropathy.json. Hero/join only require fresh immutable candidate recapture and independent review; unaffected section-relative geometry preserved by scoped source diff.",
         "route_review": {
