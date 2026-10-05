@@ -83,17 +83,15 @@
 @media (max-width: 800px) {
   .p-hero-grid,.p-goals-grid,.p-expect-grid,.p-faq-grid,.p-book-panel,.p-sources-grid { grid-template-columns: 1fr; min-height: 0; }
   .b2 .p-hero::before { display: none; }
-  .p-hero-grid { gap: 24px; }
-  /* Keep the source portrait between the heading and the complete copy group. */
-  .p-hero-copy { display: contents; }
-  .p-hero-copy h1 { grid-row: 1; }
-  .p-hero-art { grid-row: 2; }
-  .p-hero-details { display: block; grid-row: 3; }
-  .p-hero-copy .p-hero-details > p:first-child { margin-top: 0; }
-  .p-hero h1 { max-width: 18ch !important; font-size: clamp(2rem, 8.9vw, 3.5rem); }
-  .p-hero-grid > div:first-child p { margin-top: 16px; }
-  .p-hero-art { width: min(100%, 338px); min-height: 0; padding: 0 0 80px; justify-self: center; }
-  .p-hero-art .b2-serif { font-size: 1.25rem; padding: 14px; }
+  /* PFI-R6-HERO-GROUP: one narrative/action group, then supporting media, in DOM order. */
+  .pelvic .p-hero { --p-hero-portrait-height: clamp(220px, 60vw, 260px); padding-block: 40px 32px; }
+  .p-hero-grid { gap: 16px; }
+  .p-hero h1 { font-size: clamp(1.75rem, 8vw, 3.5rem); }
+  .p-hero-grid > div:first-child p { margin-top: 12px; font-size: 1rem; line-height: 1.5; }
+  .p-hero-grid > div:first-child .p-hero-status { margin-top: 8px; font-size: 1rem; }
+  .pelvic .p-hero .b2-button { min-height: 48px; margin-top: 12px; padding-block: 12px; font-size: 1rem; }
+  .p-hero-art { width: min(100%, calc(var(--p-hero-portrait-height) * 338 / 520)); min-height: 0; padding: 0; flex-direction: column; align-items: stretch; justify-self: center; }
+  .p-hero-art .b2-serif { position: static; font-size: 1.25rem; padding: 8px 12px; }
   .p-orientation-grid { grid-template-columns: 1fr; min-height: 0; }
   .p-orientation-grid > aside { min-height: 0; padding: 18px 24px; font-size: 1.1rem; clip-path: none !important; }
   .p-orientation-grid > aside:last-child { order: 2; }
@@ -134,4 +132,18 @@
   .p-orientation-grid > aside:last-child { grid-column: 1; grid-row: 3; }
   .p-orientation-grid > aside { padding: 24px; }
   .p-expect-privacy { padding-top: 96px; }
+}
+
+/* PFI-R6-EDGE-RHYTHM: reduce nested closing reserves before the outer unit. */
+@media (min-width: 801px) {
+  .p-orientation-rail { padding-bottom: 16px; }
+}
+@media (max-width: 800px) {
+  .pelvic { --p-section-closing-space: 48px; --p-panel-closing-space: 16px; }
+  .pelvic :is(.p-orientation, .p-goals, .p-expect, .p-faq, .p-sources) { padding-bottom: var(--p-section-closing-space); }
+  .p-orientation-grid > aside:last-child,
+  .p-goals-questions,
+  .p-expect-privacy,
+  .p-book-status,
+  .p-sources-reference { padding-bottom: var(--p-panel-closing-space); }
 }

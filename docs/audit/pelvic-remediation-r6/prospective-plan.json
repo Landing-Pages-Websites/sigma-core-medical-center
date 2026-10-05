@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "artifact_kind": "prospective-bounded-remediation-plan-not-review-or-canonical-event",
+  "authored_at": "2026-10-05T22:31:39.971870344Z",
+  "timestamp_provenance": "Original file creation/write mtime. Future placeholder 22:35 corrected at 22:33 before implementation; no historical review timestamp or ordinal is asserted.",
+  "page": {"slug": "pelvic-floor-incontinence", "route": "/services/pelvic-floor-incontinence"},
+  "reviewed_before_source_sha": "c2aa38379a0d1b0cd37a7b58f2d880d6cc8cd090",
+  "implementation_base_sha": "a1444694fcfcf70b4860235e44f0238d578f8710",
+  "base_difference_disclosed": "Merged main adds seven blog Markdown source files absent at c2; the implementation is a successor, never an exact-c2 approval. Their build-scanner effect must be accounted for in new-source capture evidence.",
+  "review_source": "../reviews/art-director-r5.json",
+  "before_capture": "../captures/r5/mobile_320x800/fold.png",
+  "reference_capture": "../reference/refs/01-hero.png",
+  "canonical_global_ordinal": null,
+  "plan": [
+    {
+      "id": "PFI-R6-HERO-GROUP",
+      "finding_ids": ["PFI-R5-MOBILE-HERO-GROUPING"],
+      "problem": "The mobile illustration separates the headline from all explanation, scheduling status and Services action. The 320px hero is 1135px tall.",
+      "reference_strength": "The source portrait is a recognizable, substantial supporting human subject balanced against a sensitive-service narrative, not a generic background.",
+      "planned_outcome": "At mobile widths, put the headline, a complete explanatory sentence, truthful unavailable status and the working Services action together before a source-bounded supporting portrait of approximately 220-260px height. Keep every existing factual sentence, relocating the service-category sentence into a supporting note only if needed, without weakening status or inventing availability. Fit the caption to its actual text. Preserve desktop composition.",
+      "planned_medium": "css-layout-and-live-html",
+      "required_relationships": ["headline, explanation, status and Services action remain one uninterrupted readable group", "full source-visible head, hands and chair remain in the contained portrait", "supporting portrait remains recognizable at 320, 360 and 390 including first-fold subject visibility", "caption does not create an empty 80px reserve", "desktop title, media track and balance retain their current hierarchy"],
+      "prohibited_substitutions": ["cropped or upscaled subject", "generated imagery", "hidden or truncated status text", "invented scheduling controls or clinical claims", "duplicated responsive text", "source or CSS-only visual PASS"],
+      "acceptance_criteria": ["native first-fold and whole-hero images show complete primary action group and recognizable subject at 320x800, 360x800 and 390x844", "desktop 1440x900, 1536x1024 and 1728x1117 preserve balance", "native before/reference/after comparison receives independent KEEP; otherwise repair remains open"]
+    },
+    {
+      "id": "PFI-R6-EDGE-RHYTHM",
+      "finding_ids": ["PFI-R5-EDGE-RATIO"],
+      "problem": "Six nonhero phone sections and desktop orientation have excessive final meaningful-group clearance relative to their incoming ink clearance.",
+      "reference_strength": "Distinct mineral, blue and charcoal surfaces with content-sized panels preserve a calm, intentional sequence.",
+      "planned_outcome": "Use route-local changes to existing bottom margins/panel padding and section spacing to reduce excessive closing reserves while retaining each group's minimum 24px mobile or 32px desktop floor and its explicit local unit. Do not add magic allow-list flags or report proxy arithmetic as painted approval.",
+      "planned_medium": "css-layout-and-live-html",
+      "required_relationships": ["closing clearance remains at least the documented local spacing unit", "final meaningful panel or text stays clear of the next field", "ratio outliers are independently judged against native incoming/outgoing joins", "only this route's layout changes"],
+      "prohibited_substitutions": ["blanket ratio exceptions", "tightening below floors", "changing shared batch-two styles", "altering or overwriting historic edge measurements", "promoting edge or fidelity flags before fresh independent painted review"],
+      "acceptance_criteria": ["fresh protocol-validated full, section, all-join and terminal captures at all six widths", "new collector measurements and independent painted adjudication preserve original outliers and name unresolved ones"]
+    }
+  ],
+  "implementation": [],
+  "judgment": null,
+  "scope_limitations": ["No canonical history is fabricated or renumbered", "PFI-R5-HANDOFF-AUTHORITY remains open pending a separate truthful target reconciliation", "PFI-R5-INTERACTION-EVIDENCE and PFI-R5-NATIVE-V2-ORIGIN-CLOSURE remain open", "Contact chronology and edge promotion are out of scope", "No QA, publication, production or Site Review readiness"]
+}
