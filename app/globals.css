@@ -12,9 +12,15 @@
   --color-muted: #55616a;
   --color-hover: #054f80;
   --color-focus: #72c7f3;
+  --color-navy: #061a33;
+  --color-royal: #0a62c4;
+  --color-royal-hover: #084f9e;
+  --color-slate: #1b222b;
+  --color-chalk: #f4f2ed;
 
   --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
   --font-body: var(--font-source-sans), Arial, sans-serif;
+  --font-heading: var(--font-source-sans-heavy), var(--font-source-sans), Arial, sans-serif;
 }
 
 @layer base {

@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "generated_for": "sigma-core-medical-center homepage pair",
-  "routes": ["/", "/variant-a", "/variant-b"]
+  "generated_for": "sigma-core-medical-center public website",
+  "routes": [
+    "/",
+    "/services",
+    "/services/neuropathy",
+    "/services/pain-relief",
+    "/services/hormone-optimization",
+    "/services/pelvic-floor-incontinence",
+    "/services/regenerative-medicine",
+    "/about",
+    "/educational-guide",
+    "/book",
+    "/contact"
+  ]
 }

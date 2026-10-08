@@ -12,6 +12,10 @@ import { SITE_DESCRIPTION } from "@/content/site";
 export const metadata: Metadata = {
   title: "Direction A — Life in Motion",
   description: SITE_DESCRIPTION,
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function VariantAPage(): React.ReactElement {

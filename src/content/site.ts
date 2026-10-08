@@ -189,6 +189,11 @@ export const PENDING = {
     message:
       "The Sigma Core educational guide is pending final approval. The resource title, media, and delivery details will be published once approved; it is not available yet.",
   },
+  policy: {
+    title: "Policy pages in preparation",
+    message:
+      "Sigma Core's Terms of Use, Privacy Policy, and Notice of Privacy Practices are being finalized and will be published before launch.",
+  },
   page: {
     title: "Page in preparation",
     message:

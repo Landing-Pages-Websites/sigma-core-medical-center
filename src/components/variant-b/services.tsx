@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { PENDING, SERVICES } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { SERVICES } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, GhostWord } from "@/components/variant-b/motifs";
 import { outlineButtonB } from "@/components/variant-b/buttons";
@@ -28,6 +28,13 @@ const MODULE_CUTS = [
   "polygon(0 30%, 5% 30%, 5% 0, 100% 0, 100% 100%, 0 100%)",
 ];
 
+const SERVICE_ROUTES = [
+  "/services/pain-relief",
+  "/services/hormone-optimization",
+  "/services/pelvic-floor-incontinence",
+  "/services/regenerative-medicine",
+] as const;
+
 function WalnutRail({ className }: { className: string }): React.ReactElement {
   return (
     <div aria-hidden className={`overflow-hidden ${className}`}>
@@ -52,8 +59,9 @@ function ServiceModule({ index }: { index: number }): React.ReactElement {
           className="absolute inset-0 translate-x-2.5 translate-y-2.5 bg-black/20"
           style={{ clipPath: MODULE_CUTS[index] }}
         />
-        <article
-          className={`relative p-6 pl-7 ${MODULE_TONES[index]}`}
+        <Link
+          href={SERVICE_ROUTES[index]}
+          className={`relative block p-6 pl-7 transition-transform hover:-translate-y-0.5 ${MODULE_TONES[index]}`}
           style={{ clipPath: MODULE_CUTS[index] }}
         >
           {index === SERVICES.secondary.length - 1 && (
@@ -61,7 +69,8 @@ function ServiceModule({ index }: { index: number }): React.ReactElement {
           )}
           <h3 className="pr-6 text-2xl font-semibold tracking-tight">{service.name}</h3>
           <p className="mt-2 max-w-md pr-6 text-lg opacity-80">{service.summary}</p>
-        </article>
+          <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">Explore <ArrowRight size={16} /></span>
+        </Link>
       </div>
     </Reveal>
   );
@@ -83,20 +92,13 @@ function PrimaryServiceB(): React.ReactElement {
           <p className="mt-4 max-w-sm text-lg text-white lg:text-xl">
             {SERVICES.primary.summary}
           </p>
-          <ArrowRight size={26} aria-hidden className="mt-6 lg:mt-auto" />
+          <Link href="/services/neuropathy" className="mt-6 inline-flex items-center gap-2 font-semibold hover:underline lg:mt-auto">Explore neuropathy care <ArrowRight size={20} aria-hidden /></Link>
         </article>
       </Reveal>
       <p className="mt-6 max-w-md text-lg text-muted">{SERVICES.body}</p>
-      <PendingAction
-        label={
-          <>
-            {SERVICES.cta} <ArrowRight size={18} aria-hidden />
-          </>
-        }
-        title={PENDING.page.title}
-        message={PENDING.page.message}
-        className={`${outlineButtonB} mt-6 w-full sm:w-auto`}
-      />
+      <Link href="/services" className={`${outlineButtonB} mt-6 w-full sm:w-auto`}>
+        {SERVICES.cta} <ArrowRight size={18} aria-hidden />
+      </Link>
     </div>
   );
 }

@@ -17,3 +17,10 @@ export const sourceSans = localFont({
   variable: "--font-source-sans",
   display: "swap",
 });
+
+/** Heavy heading cut used by the interior page designs. Separate instance so existing weights are unaffected. */
+export const sourceSansHeavy = localFont({
+  src: [{ path: "../../app/fonts/SourceSans3-700.woff2", weight: "700", style: "normal" }],
+  variable: "--font-source-sans-heavy",
+  display: "swap",
+});
