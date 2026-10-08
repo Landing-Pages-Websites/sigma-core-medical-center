@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { NEUROPATHY } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
@@ -78,9 +79,9 @@ export function NeuropathyB(): React.ReactElement {
           </span>
           <SlabList />
           <div className="mt-8 lg:hidden">
-            <a href="#services" className={`${primaryButtonB} w-full`}>
+            <Link href="/services/neuropathy" className={`${primaryButtonB} w-full`}>
               {NEUROPATHY.cta} <ArrowRight size={18} aria-hidden />
-            </a>
+            </Link>
           </div>
           <div className="relative hidden lg:-mt-16 lg:ml-[16%] lg:block">
             <div
@@ -89,9 +90,9 @@ export function NeuropathyB(): React.ReactElement {
               style={{ clipPath: "polygon(0 86%, 12% 78%, 100% 14%, 100% 100%, 0 100%)" }}
             />
             <div className="relative flex h-48 items-end justify-end pr-8 pb-8">
-              <a href="#services" className={inkButtonB}>
+              <Link href="/services/neuropathy" className={inkButtonB}>
                 {NEUROPATHY.cta} <ArrowRight size={18} aria-hidden />
-              </a>
+              </Link>
             </div>
           </div>
           <p className="mt-8 flex items-center gap-3 text-white/70 lg:hidden">

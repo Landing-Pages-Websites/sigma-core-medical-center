@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { PENDING, WAYS } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { WAYS } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, BracketMarkEnd, GhostWord } from "@/components/variant-b/motifs";
 import { inverseButtonB, outlineButtonB } from "@/components/variant-b/buttons";
@@ -19,16 +19,9 @@ function GuidePanelB(): React.ReactElement {
         {WAYS.guide.headline}
       </h3>
       <p className="mt-3 max-w-md text-lg text-charcoal/80">{WAYS.guide.body}</p>
-      <PendingAction
-        label={
-          <>
-            {WAYS.guide.cta} <ArrowRight size={18} aria-hidden />
-          </>
-        }
-        title={PENDING.guide.title}
-        message={PENDING.guide.message}
-        className={`${outlineButtonB} mt-7 w-full sm:w-auto`}
-      />
+      <Link href="/educational-guide" className={`${outlineButtonB} mt-7 w-full sm:w-auto`}>
+        {WAYS.guide.cta} <ArrowRight size={18} aria-hidden />
+      </Link>
       <p className="mt-5 border-l-4 border-electric bg-white/70 p-3 text-sm text-muted">
         The resource title, media, and delivery details are pending customer approval. The guide
         is not yet available.
@@ -57,16 +50,9 @@ function BookingPanelB(): React.ReactElement {
           word="Movement"
           className="-right-1 -bottom-3 text-[3.25rem] whitespace-nowrap text-white/15 sm:text-[5.75rem] lg:-right-4"
         />
-        <PendingAction
-          label={
-            <>
-              {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
-            </>
-          }
-          title={PENDING.booking.title}
-          message={PENDING.booking.message}
-          className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}
-        />
+        <Link href="/book" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
+          {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
+        </Link>
       </div>
     </Reveal>
   );

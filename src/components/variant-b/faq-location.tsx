@@ -1,9 +1,9 @@
 "use client";
 
 import { ChevronDown } from "lucide-react";
-import { FAQ, PENDING } from "@/content/site";
+import Link from "next/link";
+import { FAQ } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
-import { PendingAction } from "@/components/shared/pending-action";
 import { Reveal } from "@/components/shared/reveal";
 import { GhostWord } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
@@ -78,12 +78,7 @@ export function FaqLocationB(): React.ReactElement {
             <p className="mt-5 max-w-60 border-l-2 border-silver/50 pl-4 text-base text-white/70">
               {FAQ.addressNote}
             </p>
-            <PendingAction
-              label={FAQ.cta}
-              title={PENDING.booking.title}
-              message={PENDING.booking.message}
-              className={`${primaryButtonB} mt-10 w-full`}
-            />
+            <Link href="/book" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
           </div>
         </Reveal>
       </div>
