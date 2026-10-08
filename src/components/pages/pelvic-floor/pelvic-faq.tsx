@@ -4,13 +4,13 @@ import { ArrowRight } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
-type FaqRow = { question: string; answer: string; action: { label: string; href?: string } };
+type FaqRow = { question: string; answer: string; action: { label: string; href?: string; policy?: "/privacy" } };
 
 const FAQ_ROWS: readonly FaqRow[] = [
   {
     question: "Is my conversation private?",
     answer: "Yes. Your privacy is a priority. Conversations and health information are kept confidential and protected.",
-    action: { label: "Learn about privacy" },
+    action: { label: "Learn about privacy", policy: "/privacy" },
   },
   {
     question: "How do I book?",
@@ -64,7 +64,7 @@ export function PelvicFaq(): React.ReactElement {
                       {row.action.label} <ArrowRight size={16} aria-hidden />
                     </Link>
                   ) : (
-                    <PolicyLink label={<>{row.action.label} <ArrowRight size={16} aria-hidden /></>} className={ROW_ACTION} />
+                    <PolicyLink href={row.action.policy} label={<>{row.action.label} <ArrowRight size={16} aria-hidden /></>} className={ROW_ACTION} />
                   )}
                 </div>
               </div>
@@ -88,6 +88,7 @@ function PrivacyFirst(): React.ReactElement {
         We do not collect personal details here. To learn how we protect your information, review our Notice of Privacy Practices.
       </p>
       <PolicyLink
+        href="/notice-of-privacy-practices"
         label={<>Notice of Privacy Practices <ArrowRight size={16} aria-hidden /></>}
         className="mt-4 inline-flex h-11 items-center gap-3 border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal"
       />

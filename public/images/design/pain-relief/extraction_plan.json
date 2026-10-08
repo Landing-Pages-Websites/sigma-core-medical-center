@@ -1,0 +1,1156 @@
+{
+  "page": "pain-relief",
+  "frames": [
+    {
+      "frame": "01-hero.png",
+      "bg": "#046cbc",
+      "section_owner": "01-hero",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            794
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+          "source_component": "src/components/interior/pain-relief/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1190,
+            125,
+            1505,
+            696
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "Live movement typography and a continuous CSS line replace the invented branded reception. No person, office or treatment is implied.",
+          "build_note": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+          "source_component": "src/components/interior/pain-relief/hero.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/hero.tsx",
+        "source_sha256": "956774a0d5d3c905d5b071c05e7057661a5c29ec0e0bff4538ce5c3fa0942b2f",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the pain-hero two-column CSS grid: live H1, concern anchor and scope copy on the left; movement typography, one continuous CSS line and three daily-activity labels on the right. Stack at the mobile breakpoint; no person or clinic image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-pain-concern-navigation.png",
+      "bg": "#f4f4ec",
+      "section_owner": "02-pain-concern-navigation",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            724
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1087,
+            750,
+            1487,
+            825
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "live heading or content text group",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            119,
+            763,
+            411,
+            803
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "live heading or content text group",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            84,
+            350,
+            591,
+            566
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "Live knee wayfinding with walking, stairs and standing cues replaces the false clinic tile.",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            668,
+            350,
+            1068,
+            566
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "Live low-back wayfinding with sitting, lifting and sleep cues replaces the false corridor tile.",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1175,
+            350,
+            1459,
+            566
+          ],
+          "verdict": "code",
+          "section_owner": "02-pain-concern-navigation",
+          "what": "Live neck wayfinding with turning, desk work and driving cues replaces the false lounge tile.",
+          "build_note": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+          "source_component": "src/components/interior/pain-relief/navigation.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/navigation.tsx",
+        "source_sha256": "f5a05de1e7cac8e6aba750e4438e6fb2ce2f9263be2bfc28a9e4a3d0f82ae699",
+        "dom_ids": [
+          "pain-concern-navigation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a blue heading band followed by three mineral CSS grid anchors for knee, low back and neck. Each link groups daily-function cues, a question and ArrowDownRight; retain the uncut focus-visible outline and real concern fragment targets. Stack the links on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-knee-concerns.png",
+      "bg": "#fcf4f4",
+      "section_owner": "03-knee-concerns",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            113,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "03-knee-concerns",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "source_component": "src/components/interior/pain-relief/knee.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            115,
+            235,
+            598,
+            350
+          ],
+          "verdict": "code",
+          "section_owner": "03-knee-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "source_component": "src/components/interior/pain-relief/knee.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            322,
+            114,
+            709,
+            187
+          ],
+          "verdict": "code",
+          "section_owner": "03-knee-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "source_component": "src/components/interior/pain-relief/knee.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            91,
+            116,
+            293,
+            187
+          ],
+          "verdict": "code",
+          "section_owner": "03-knee-concerns",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "source_component": "src/components/interior/pain-relief/knee.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            315,
+            475,
+            1490,
+            708
+          ],
+          "verdict": "code",
+          "section_owner": "03-knee-concerns",
+          "what": "Live daily-activity prompt band; photographic role removed",
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "build_note": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim."
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/knee.tsx",
+        "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+        "dom_ids": [
+          "knee-concerns"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "cc3da8501122e215a90eaeded1ded2e8b66c5c5727aef1e358de5b681506ecec",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/03-knee-concerns-01-person-outdoors.png"
+          ],
+          "recipe": "Keep the existing outdoor lifestyle crop beside live knee concerns and activity questions in a two-column CSS grid, then stack copy and image on mobile. It is illustrative lifestyle, not a Sigma patient or result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/knee.tsx",
+          "source_sha256": "5b863a5b6e17d58818f92d8caa9b0dcb8bb1bb85e6a44f13d891c0745fce15d3",
+          "dom_ids": [
+            "knee-concerns"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace the intrinsically headless, footless 1175x233 walking extraction with a code-native daily-activity band: What feels different in your day?, Walking, Stairs, Standing, and the working #decision-factors action. Keep all knee text and the three oblique prompts; inset their semantic content 14% or at least 28 CSS px desktop and 32 mobile. No substitute person or treatment claim.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "04-low-back-concerns.png",
+      "bg": "#1c2424",
+      "section_owner": "04-low-back-concerns",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            599,
+            68,
+            1523,
+            783
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            62,
+            517,
+            806,
+            784
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            107,
+            94,
+            537,
+            262
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            107,
+            395,
+            517,
+            480
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            109,
+            306,
+            521,
+            363
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            62,
+            812,
+            658,
+            841
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            1161,
+            691,
+            1492,
+            741
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            62,
+            65,
+            85,
+            285
+          ],
+          "verdict": "code",
+          "section_owner": "04-low-back-concerns",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            1021,
+            95,
+            1490,
+            622
+          ],
+          "verdict": "extract",
+          "section_owner": "04-low-back-concerns",
+          "asset_scope": "section",
+          "what": "man at home — independent photographic slot",
+          "narrative_job": "Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "04-low-back-concerns-01-man-at-home.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pain-relief/refs/04-low-back-concerns.png",
+            "source_box": [
+              1021,
+              95,
+              1490,
+              622
+            ]
+          },
+          "source_component": "src/components/interior/pain-relief/back.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/back.tsx",
+        "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+        "dom_ids": [
+          "low-back-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+        ],
+        "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Keep the existing man-at-home lifestyle crop beside low-back daily-function questions, with an independently sized CSS media slot and mobile stack. It is not a clinic, patient or treatment result.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/back.tsx",
+          "source_sha256": "147d04836180e0a6c6c1fa0b35960b9f5fc8a50f94ccfa62acdc056107f50524",
+          "dom_ids": [
+            "low-back-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png"
+          ],
+          "recipe": "Retain the byte-identical 469x527 gardening source at its full aspect, capped at 469 CSS px wide; a 4% upper-left corner remains clear of the source-visible head. Keep daily-function copy, qualified-care action, and disclaimer. Stack naturally on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "05-neck-concerns.png",
+      "bg": "#041c34",
+      "section_owner": "05-neck-concerns",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            662,
+            71,
+            1523,
+            568
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            12,
+            600,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            155,
+            102,
+            659,
+            292
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            156,
+            327,
+            574,
+            473
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            184,
+            487,
+            504,
+            558
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "live heading or content text group",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1045,
+            653,
+            1225,
+            760
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            71,
+            79,
+            119,
+            306
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            929,
+            112,
+            1490,
+            467
+          ],
+          "verdict": "extract",
+          "section_owner": "05-neck-concerns",
+          "asset_scope": "section",
+          "what": "woman reading — independent photographic slot",
+          "narrative_job": "Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "05-neck-concerns-01-woman-reading.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/pain-relief/refs/05-neck-concerns.png",
+            "source_box": [
+              929,
+              112,
+              1490,
+              467
+            ]
+          },
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            23,
+            596,
+            860,
+            683
+          ],
+          "verdict": "code",
+          "section_owner": "05-neck-concerns",
+          "what": "Neck-specific appointment preparation questions replace the false lounge strip; the woman-reading image remains owned by this frame.",
+          "build_note": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "source_component": "src/components/interior/pain-relief/neck.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/neck.tsx",
+        "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+        "dom_ids": [
+          "neck-concerns"
+        ],
+        "runtime_assets": [
+          "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+        ],
+        "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Keep the woman-reading lifestyle crop as the only photo. Replace the lounge strip with neck-specific preparation questions in a ruled CSS copy group below the narrative; stack the section on mobile without repeating the image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/neck.tsx",
+          "source_sha256": "575dd96804e4b8b0cdd518bb9c3141f86604d2d4adfc074b6bbfd1d41d8beedf",
+          "dom_ids": [
+            "neck-concerns"
+          ],
+          "runtime_assets": [
+            "/images/design/pain-relief/05-neck-concerns-01-woman-reading.png"
+          ],
+          "recipe": "Retain the byte-identical 561x355 reading source at its full aspect, capped at 561 CSS px wide, with no subject clip. Preserve all source-visible hand/book pixels and the neck preparation rows; do not invent detail outside the original.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "06-decision-factors.png",
+      "bg": "#0464b4",
+      "section_owner": "06-decision-factors",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            51,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            115,
+            241,
+            493,
+            382
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            63,
+            78,
+            443,
+            177
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            476,
+            78,
+            807,
+            177
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "live heading or content text group",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            64,
+            216,
+            102,
+            400
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            503,
+            216,
+            541,
+            400
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            1068,
+            99,
+            1505,
+            406
+          ],
+          "verdict": "code",
+          "section_owner": "06-decision-factors",
+          "what": "A live clinician-question checklist and code-native movement line replace the false reception image.",
+          "build_note": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+          "source_component": "src/components/interior/pain-relief/decisions.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/decisions.tsx",
+        "source_sha256": "5ae2f71836ba4a93bc281f2fe5441b4ac2bedec1686b54a7cefd7b24d84bc2a9",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a CSS grid with an introductory heading, three decorative steps and a semantic eight-question clinician checklist. Thin border rules separate questions; contextual About, Neuropathy and scheduling-status anchors follow. No reception image or confirmed-care promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "07-faq.png",
+      "bg": "#f4f4f4",
+      "section_owner": "07-faq",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            91,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "07-faq",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+          "source_component": "src/components/interior/pain-relief/faq.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            101,
+            81,
+            397,
+            239
+          ],
+          "verdict": "code",
+          "section_owner": "07-faq",
+          "what": "live heading or content text group",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+          "source_component": "src/components/interior/pain-relief/faq.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            48,
+            43,
+            130,
+            228
+          ],
+          "verdict": "code",
+          "section_owner": "07-faq",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+          "source_component": "src/components/interior/pain-relief/faq.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            23,
+            527,
+            461,
+            717
+          ],
+          "verdict": "code",
+          "section_owner": "07-faq",
+          "what": "Live FAQ scope text, source link and bracket geometry replace the false clinic interior.",
+          "build_note": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+          "source_component": "src/components/interior/pain-relief/faq.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/faq.tsx",
+        "source_sha256": "938263a1bbebcd4341502bd38b963e8fccf0f0f0aae3951b465b70d345702440",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place Questions, answered., the scope statement and #medical-sources anchor in the left navy bracket column. Render the four always-visible question/answer pairs as a semantic dl alongside it, followed by Make it personal and #form preparation navigation. There is no details/summary accordion or facility raster. Mobile stacks these narrative groups; no booking request is accepted.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "08-booking-cta.png",
+      "bg": "#1c242c",
+      "section_owner": "08-booking-cta",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            101,
+            1523,
+            791
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            129,
+            240,
+            449,
+            424
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            90,
+            464,
+            479,
+            543
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            94,
+            113,
+            440,
+            208
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            1135,
+            232,
+            1321,
+            317
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            467,
+            116,
+            617,
+            188
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            1060,
+            125,
+            1490,
+            484
+          ],
+          "verdict": "code",
+          "section_owner": "08-booking-cta",
+          "what": "Live appointment-preparation questions and an honest scheduling-status link replace the false reception image.",
+          "build_note": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+          "source_component": "src/components/interior/pain-relief/booking.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/booking.tsx",
+        "source_sha256": "8925bec5002aa9a9d8f31c58c8b7523289bedfbb32c3a2b707b758eea1794001",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build a blue CSS grid with activity-preparation copy and two ruled prompts. Show that the calendar is disconnected and link to real booking status. End with the three concern return anchors; no form, photo or appointment promise.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "09-medical-sources.png",
+      "bg": "#04142c",
+      "section_owner": "09-medical-sources",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            791,
+            17,
+            1523,
+            492
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            72,
+            59,
+            689,
+            430
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "live information panel or navigation rail",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            742,
+            226,
+            1003,
+            430
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            42,
+            38,
+            68,
+            189
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            1229,
+            38,
+            1490,
+            195
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "Live named MedlinePlus knee, low-back and neck citations replace the false reception crop.",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1244,
+            279,
+            1490,
+            384
+          ],
+          "verdict": "code",
+          "section_owner": "09-medical-sources",
+          "what": "A live reading-boundary explanation and code-native line replace the false lounge crop.",
+          "build_note": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "source_component": "src/components/interior/pain-relief/sources.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pain-relief/sources.tsx",
+        "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "1da0bbcf464d68e3b61d06302f2efe11f0bcf7d036ec887adba295a1ff48667b",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use a mineral CSS grid: named MedlinePlus knee, low-back and neck source anchors on one side, a reading-boundary explanation and restrained line geometry on the other. Keep URLs accessible and stack on mobile; no room crops.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pain-relief/sources.tsx",
+          "source_sha256": "7e8663f2c20bd898b1460f30e1aa7874e3e4b054c5a858855989128c04efe3db",
+          "dom_ids": [
+            "medical-sources"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain all three source URLs, acute-low-back scope and non-endorsement limits. Keep each external-link arrow in its own nonshrinking flex span beside the wrapping label, avoiding an orphaned arrow.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pain-relief/pain.css": "45c129cc065aaa30f00a00c0764ab0df24584891f7c4bdcca79ccfff35000abb"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  }
+}

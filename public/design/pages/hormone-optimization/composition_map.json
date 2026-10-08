@@ -1,0 +1,863 @@
+{
+  "page": "hormone-optimization",
+  "frames": [
+    {
+      "frame": "01-hero",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+        ],
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
+      },
+      "focal_point": {
+        "what": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep a dark buffer above the three utility tiles and beside the photo."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+      "assembly": {
+        "profile": "anchored-art",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "/images/design/hormone-optimization/01-hero-01-man-writing.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [
+          "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+        ],
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged."
+      },
+      "slot_contracts": [
+        {
+          "asset": "/images/design/hormone-optimization/01-hero-01-man-writing.png",
+          "crop": "Preserve existing source-specific subject and independently sized CSS crop."
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+        "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [
+          "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+        ],
+        "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop source-bounded writer is isolated from copy by a broad empty grid gap.",
+        "before": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/hormone-optimization/hero.tsx",
+          "source_sha256": "53ed757d4aa269fc992153570945c140dd28fce4648955b1cb6ac30d7b9b11de",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/hormone-optimization/01-hero-01-man-writing.png"
+          ],
+          "recipe": "Preserve the supported 500x583 back/profile writer at natural aspect, capped at 500 CSS px desktop and 400 mobile; no added clip path, cover crop, or source redraw. The visible hand and notebook carry preparation. Keep hero points within their copy column. The historical page stitch frontal pose is not recoverable from this approved frame source. At min-width 801px, constrain the whole hero assembly to min(100% - 64px, 1160px), use minmax(0, 1.2fr)/minmax(0, 1fr) CSS tracks with a 40px gap and no grid minimum height, and start-align the capped image within its track. All image pixels and the 500:583 natural aspect remain; no upscale or additional crop. Keep copy, points and note within the narrower copy track. At <=800px preserve the round-1 writer KEEP composition unchanged.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
+          }
+        }
+      }
+    },
+    {
+      "frame": "02-visitor-orientation",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px."
+      },
+      "focal_point": {
+        "what": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep breathing room around the white panel and the dark side rail."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/orientation.tsx",
+        "source_sha256": "12bf65ffa4c34082b769b6d08ab79affabeb404252a94f7a78a11d8b30a3c721",
+        "dom_ids": [
+          "visitor-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/hormone-optimization/page.css": "53e7db9990a2e08903f5d0c03344e1144f61e9b542d9e4e4e89bd5eb6eb2a025"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/hormone-optimization/orientation.tsx",
+          "source_sha256": "12bf65ffa4c34082b769b6d08ab79affabeb404252a94f7a78a11d8b30a3c721",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the visitor orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .h-orientation-boundary as a navy CSS grid below the two statements, with 24px 34px padding, an 8px gap and a silver top border; preserve the working #goals-and-decision-factors anchor and mobile reading order.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/hormone-optimization/orientation.tsx",
+          "source_sha256": "12bf65ffa4c34082b769b6d08ab79affabeb404252a94f7a78a11d8b30a3c721",
+          "dom_ids": [
+            "visitor-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use an aligned two-column content-led composition with a 32 CSS px gap, pale information paper and dark general/personal distinction. Remove 370 CSS px minimums from both aside children; keep a compact question link below. Offset the aside 96 CSS px only on desktop to retain the stepped silhouette, and stack at 800px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/hormone-optimization/page.css": "a41ada6b2c0edfa0af8b930f0923f252d4ed1810be99ba24f96cb6b38a75b119"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "03-goals-and-decision-factors",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage."
+      },
+      "focal_point": {
+        "what": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep cream above the four panels and before the clinic strip."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/goals.tsx",
+        "source_sha256": "d02ee2251ef73309e41b97718e6c9f646ab1f9c44d4e9c0873f1116124e5bd46",
+        "dom_ids": [
+          "goals-and-decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the goals and decision factors section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this goals and decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a navy horizontal strip of practical questions under the four live goals. Preserve the related service links and mobile stacking. No office strip or signage.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-responsible-next-step",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order."
+      },
+      "focal_point": {
+        "what": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Preserve dark space around the introduction and card sequence."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/next-step.tsx",
+        "source_sha256": "9b82facf7969943dc90a46fd06bd8e1854895d1d8bd919edf455e6f5b27d8b00",
+        "dom_ids": [
+          "responsible-next-step"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this responsible next step content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this responsible next step panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the branded visitor-clinic image with a status-led gate naming the provider, process, and calendar approvals still needed. Preserve the three-column desktop hierarchy and mobile order.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "05-faq",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image."
+      },
+      "focal_point": {
+        "what": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Leave navy margin around the large FAQ heading."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/faq.tsx",
+        "source_sha256": "e751e607d08c9e0eb4f5ee37013b6f9fb997a6b0bb027a57dd81a2d0367d0df0",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this faq content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the faq horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this faq panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .h-faq-guide with max-width 34ch, 26px padding, a 4px blue top border and #1c334e background beside the four semantic dl answers. Retain the real #medical-sources and related-page links; no lounge image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
+      },
+      "focal_point": {
+        "what": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep navy breathing space around the preparation narrative and the calendar-status panel; no process rail or image aperture remains."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/booking.tsx",
+        "source_sha256": "e98dd3fb5c211b8236579a7122739c471b50b95277e23d2d53a699da28f8767c",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the navy booking-status group within the blue section. The left copy prepares questions, names the missing provider/process/calendar approvals and links to /services as Compare care categories. The right Calendar status panel states Online scheduling is unavailable. and explicitly says this page has no booking link. Keep Your goals. Our focus. as the serif counterpoint. No action leading to preparation, step rail or reception scene is rendered.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 512
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image."
+      },
+      "focal_point": {
+        "what": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Maintain white gutter between portrait photograph and citation panel."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/hormone-optimization/sources.tsx",
+        "source_sha256": "f2195e5f9bea2249b690a4c43b189c9a1e1391ec86866e39467851af5655fc02",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the three-column .h-sources-grid with a mineral flex ledger at left, conditional FDA/guidance review text in the middle and a navy pending aside at right. Stack on mobile and publish no product-specific citation or premises image.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+  "page": {
+    "slug": "educational-guide",
+    "route": "/educational-guide",
+    "title": "Educational Guide Status",
+    "intent": "Truthful resource-absent status; no offer activation"
+  },
+  "authority": {
+    "director": "Atlas",
+    "comment": "8d4d0cbd-7296-5def-976d-ee300c45c710",
+    "date": "2026-10-01",
+    "runtime_head": "f4390378b2f69b6753b84ed97f2bccc282d35aac",
+    "runtime_frozen": true,
+    "method": "NON-GENERATIVE CODE-native source component rendering",
+    "exception": "Explicitly supersedes image-model-only and protected-raster-identity restrictions for Q1\u2013Q4",
+    "acceptance": "evidence/director-fallback-r1-art-review.md",
+    "review": "Independent KEEP for reference-only scoped acceptance; source-contract verification is next.",
+    "historical_authority": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-fallback-r1/historical-provenance/full-scoped-acceptance.md"
+  },
+  "brand": {
+    "name": "Sigma Core Medical Center",
+    "wordmark": "Sigma Core Medical Center",
+    "location": "Richmond, Virginia area",
+    "address": "725 Manakin Towne Lane, Manakin-Sabot, VA 23103 (reconfirm before launch)",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "opening_target": "September 8, 2026",
+    "tagline": "Human Performance and Longevity",
+    "brand_color_from_logo": "#0877BE",
+    "palette_guidance": "Preserve the supplied deep navy, silver, and electric-blue identity. Translate the dimensional logo into flat accessible web roles: deep navy #101E33, electric blue #0877BE, silver #C7CBD0, warm mineral #F7F6F3, charcoal #20272E, and restrained walnut #9A572B sampled from the real clinic. Metallic effects belong only to the supplied logo and fine structural keylines. No purple gradients, sterile hospital blue, or invented bright hues.",
+    "voice": "Direct-response, concise, premium, calm, and patient-centered. Benefit-led without hype, jargon, fear, or unsupported medical claims.",
+    "identity_belief": "A longer, more active life starts with a clear, personalized next step focused on movement, function, recovery, and independence.",
+    "visual_metaphor": "The core mark becomes a precise field of concentric arcs and one measured horizon line: an organizing system for progress, not a medical diagram.",
+    "taglines": [
+      "Human Performance and Longevity"
+    ],
+    "logo_asset": "../sources/drive/logo-3.png",
+    "facility_assets": [
+      "../sources/drive/reception-1.png",
+      "../sources/drive/reception-2.png",
+      "../sources/drive/waiting-room.png"
+    ],
+    "asset_note": "The supplied reception and waiting-room photographs are authoritative Sigma Core location imagery. Preserve the real built environment and logo. Never regenerate the facility, redesign the wordmark, or imply a generic person is a Sigma Core provider or patient."
+  },
+  "hard_rules": [
+    "Use the supplied Sigma Core logo and wordmark as-is. Never redesign, recolor, re-letter, regenerate, restyle, or reinterpret it; design references use plain type or a neutral reserved logo area.",
+    "Richmond, Virginia is the only market. Exclude Fort Lauderdale and every Florida reference.",
+    "Never claim Sigma Core cures or reverses any disease or condition, guarantees outcomes, restores youth, eliminates pain, avoids surgery, or provides a named treatment that has not been verified.",
+    "Keep service information concise, benefit-led, non-diagnostic, and at category level. Do not publish treatment protocols, mechanisms, prices, candidacy, timelines, medications, tests, devices, or unverified modalities.",
+    "Do not identify Dr. Jason Hurst as a treating provider or show him in a public clinical team structure.",
+    "Do not invent Medical Director or Nurse Practitioner names, photos, biographies, credentials, testimonials, ratings, awards, certifications, badges, statistics, patient outcomes, insurance details, appointment duration, availability, phone, email, or hours.",
+    "Do not render empty provider cards, fake team portraits, fake testimonial cards, star ratings, before-and-after imagery, or unsupported trust signals. Team and testimonial components may be modular in code but remain absent publicly until approved real content exists. Any future testimonial must visibly state 'Results not typical'.",
+    "Stock or AI-generated clinicians must never be shown as Sigma Core staff. Generic people must never be labeled as patients, providers, named individuals, or result examples.",
+    "Use supplied reception and waiting-room photos as the only authoritative facility imagery. Preserve their actual architecture, logo, and materiality; never fabricate a different Sigma Core clinic. Generated editorial lifestyle photography may show anonymous, fully clothed adults walking, stretching, gardening, or living actively in clearly non-clinical settings, but never as Sigma Core patients, staff, testimonials, before-and-after subjects, or evidence of results.",
+    "Direction A must be photovisual and medically credible. No 3D-rendered environments, abstract caves, portals, sculptural rooms, metallic ribbons, liquid chrome, glowing energy streams, fantasy architecture, product-render slabs, material mazes, or text embedded on rendered objects. Use photographic image fields, clean flat editorial layouts, restrained crop masks, and simple code-native lines or blocks.",
+    "General marketing forms collect no free-text medical history, symptoms, diagnosis, or other PHI. Any PHI workflow requires an appropriate HIPAA agreement and safeguards.",
+    "Do not load standard advertising or analytics trackers on authenticated or condition-specific patient flows without compliance review.",
+    "The educational guide must not appear available until the customer supplies the approved resource title, media, delivery method, consent language, and GoHighLevel details.",
+    "The address 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and the September 8, 2026 opening date must be reconfirmed before launch and any time-sensitive opening treatment removed once stale.",
+    "No generic hospital-blue template, sterile all-white system, purple-to-blue SaaS gradient, glassmorphism, decorative medical dashboard, DNA helix, molecule, lotus, glowing nerve, anatomical fear image, autoplay video, intrusive popup, fake scarcity, or tiny low-contrast silver copy.",
+    "Do not use visible 01/02/03 sequence numbers, chapter numbers, folio numbers, oversized ghost numerals, or numbered editorial markers. Communicate sequence with language, spatial progression, material transitions, or unnumbered wayfinding.",
+    "Primary body copy is at least 18px in the coded site, controls are at least 48px, contrast is WCAG AA or better, and reduced-motion preferences are honored.",
+    "Every visually control-shaped element has the useful outcome defined in its section interaction_contract. State labels, steps, and principles are static content, not inert controls.",
+    "Direction A and Direction B are two complete creative territories. Direction B is generated in a fresh session from its own fingerprint and must not be a recolor or reference-edit of A.",
+    "CONTENT sections only; no global header, navigation, logo, footer or neighboring-section peeks in frames.",
+    "For this Guide successor, zero resource/facility/lifestyle photography and zero fake proof. All visual elements are semantic text or simple CODE geometry.",
+    "Keep exactly four stable section and DOM IDs. No fields, download controls, notification signup, success state, or unsupported delivery/privacy/legal promise.",
+    "Keep Richmond-only scope and neuropathy-first service exits. No clinical efficacy or service-specific treatment claim.",
+    "Retain unavailable resource gate, noindex/follow and sitemap exclusion. Noindex is not access control.",
+    "Candidate only. No canonical/registry/source-audit/edge/fidelity closure, retirement, Site Review, remote Git or runtime mutation.",
+    "Exactly one non-generative candidate, three fresh full viewport screenshots at DPR1 plus byte-preserved Q4; no image/model API calls, retries, crops, resizes or screenshot padding.",
+    "Preserve exact source copy, fonts, palette roles and geometry. No runtime, canonical, registry, implementation-contract, Git or remote changes.",
+    "Privacy core KEEP: 88 entry +224 complete group +88 source exit; extra112 is the isolated browser canvas background outside the natural section, never runtime CSS padding/height.",
+    "If complete source content cannot fit, record the exact constraint and a non-generative fallback; never manufacture acceptance."
+  ],
+  "required_sections": [
+    {
+      "id": "01-resource-hero",
+      "dom_id": "resource-hero",
+      "name": "Educational guide status",
+      "job": "Explain unavailable resource and offer current services",
+      "content": {
+        "heading": "Educational guide status",
+        "status": "Resource unavailable",
+        "description": "No guide or video is available to view or download while its contents and delivery remain unapproved.",
+        "rail": "Source details"
+      },
+      "links": [
+        {
+          "label": "Explore current services",
+          "href": "/services"
+        },
+        {
+          "label": "Read the source overview",
+          "href": "#resource-summary"
+        }
+      ],
+      "mobile": "At <=760px stack intro then decorative motif. Services link remains before motif. Hero motif width min(72%,252px); source-rail label is hidden; source-overview anchor remains.",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/hero.tsx",
+      "interaction_contract": {
+        "type": "navigation-only; all notices static",
+        "links": [
+          {
+            "label": "Explore current services",
+            "href": "/services"
+          },
+          {
+            "label": "Read the source overview",
+            "href": "#resource-summary"
+          }
+        ],
+        "no_forms": true
+      },
+      "copy_authority": "Exact current source strings rendered as live HTML; no generated glyphs.",
+      "edge_contract": {
+        "top": "navy",
+        "bottom": "blue source rail #0666a5",
+        "no_neighbor_content": true,
+        "no_crossing_motif": true
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/hero.tsx",
+        "source_sha256": "7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c",
+        "dom_ids": [
+          "resource-hero",
+          "resource-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid. Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale. Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height. Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline. Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster. Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label. Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "02-resource-summary",
+      "dom_id": "resource-summary",
+      "name": "Source and status overview",
+      "job": "Show missing source facts with a separate real service exit",
+      "content": {
+        "heading": "Source and status overview",
+        "caveat_heading": "General education only",
+        "caveat": "Future material will not replace individualized medical advice.",
+        "table_heading": "Current source status",
+        "rows": [
+          [
+            "Approved title",
+            "Not supplied"
+          ],
+          [
+            "Guide or video",
+            "Not received"
+          ],
+          [
+            "Access method",
+            "Not defined"
+          ]
+        ],
+        "panel_heading": "Explore neuropathy care",
+        "panel_copy": "Read the current service overview while guide details are pending."
+      },
+      "links": [
+        {
+          "label": "Explore neuropathy",
+          "href": "/services/neuropathy"
+        }
+      ],
+      "mobile": "At <=760px stack heading and education caveat before source rows and neuropathy panel; preserve each dt/dd relationship and source panel before service panel.",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/summary.tsx",
+      "interaction_contract": {
+        "type": "navigation-only; all notices static",
+        "links": [
+          {
+            "label": "Explore neuropathy",
+            "href": "/services/neuropathy"
+          }
+        ],
+        "no_forms": true
+      },
+      "copy_authority": "Exact current source strings rendered as live HTML; no generated glyphs.",
+      "edge_contract": {
+        "top": "blue #0666a5",
+        "bottom": "blue #0666a5",
+        "no_neighbor_content": true,
+        "no_crossing_motif": true
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/summary.tsx",
+        "source_sha256": "b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1",
+        "dom_ids": [
+          "resource-summary",
+          "important-boundary"
+        ],
+        "runtime_assets": [],
+        "recipe": "Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field. Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6. Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text. Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading. Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "03-lead-form",
+      "dom_id": "lead-form",
+      "name": "Access status",
+      "job": "Explain inactivity and provide a real neuropathy decision rail",
+      "content": {
+        "eyebrow": "Access status",
+        "heading": "No requests are being collected.",
+        "description": "This page cannot accept guide requests or personal details.",
+        "status": "No active form",
+        "status_copy": "The resource and delivery workflow still need approval.",
+        "rail_heading": "Choose a starting point",
+        "rail_copy": "Learn about care areas, beginning with neuropathy."
+      },
+      "links": [
+        {
+          "label": "Neuropathy",
+          "href": "/services/neuropathy"
+        }
+      ],
+      "mobile": "At <=760px stack explanation before inactive card; decision rail becomes a column, with Neuropathy link after copy. Static lock icon does not represent a security guarantee.",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/availability.tsx",
+      "interaction_contract": {
+        "type": "navigation-only; all notices static",
+        "links": [
+          {
+            "label": "Neuropathy",
+            "href": "/services/neuropathy"
+          }
+        ],
+        "no_forms": true
+      },
+      "copy_authority": "Exact current source strings rendered as live HTML; no generated glyphs.",
+      "edge_contract": {
+        "top": "mineral #f7f6f3",
+        "bottom": "mineral #f7f6f3",
+        "no_neighbor_content": true,
+        "no_crossing_motif": true
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/availability.tsx",
+        "source_sha256": "38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283",
+        "dom_ids": [
+          "lead-form",
+          "form-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form. Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields. Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock. Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link. Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "04-privacy-note",
+      "dom_id": "privacy-note",
+      "name": "Privacy Note",
+      "job": "State scope and pending policy publication without legal assurances",
+      "content": {
+        "heading": "Privacy Note",
+        "description": "There is no guide signup or collection of personal or health information on this page. Privacy and patient-notice content is being reviewed.",
+        "status": "Policy publication pending",
+        "caveat": "Do not share personal health information through this page."
+      },
+      "links": [
+        {
+          "label": "See contact status",
+          "href": "/contact"
+        }
+      ],
+      "mobile": "At <=760px stack statement before ruled caveat; retain Contact link within caveat; minimum card height removed, content determines height.",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/privacy.tsx",
+      "interaction_contract": {
+        "type": "navigation-only; all notices static",
+        "links": [
+          {
+            "label": "See contact status",
+            "href": "/contact"
+          }
+        ],
+        "no_forms": true
+      },
+      "copy_authority": "Exact current source strings rendered as live HTML; no generated glyphs.",
+      "edge_contract": {
+        "top": "charcoal #20272e",
+        "bottom": "charcoal #20272e",
+        "no_neighbor_content": true,
+        "no_crossing_motif": true
+      },
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/privacy.tsx",
+        "source_sha256": "523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406",
+        "dom_ids": [
+          "privacy-note",
+          "privacy-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile. Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition. Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding. Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "publication_gate": {
+    "state": "required_resource_absent",
+    "robots": {
+      "index": false,
+      "follow": true
+    },
+    "sitemap_included": false,
+    "activation_requires": [
+      "approved media",
+      "approved title and summary",
+      "approved thumbnail or video key points",
+      "verified access/delivery and GoHighLevel workflow",
+      "consent/follow-up details",
+      "approved privacy and patient-notice content",
+      "tested real outcomes"
+    ]
+  },
+  "page_flow": {
+    "viewport_contract": {
+      "reference_kind": "CODE-native full viewport screenshot of one complete source owner",
+      "css_viewports": [
+        [
+          1536,
+          624
+        ],
+        [
+          1536,
+          624
+        ],
+        [
+          1536,
+          549
+        ],
+        [
+          1536,
+          512
+        ]
+      ],
+      "device_pixel_ratio": 1,
+      "native_page": {
+        "width": 1536,
+        "height": 2309
+      },
+      "runtime_section_heights": "Content-driven, unchanged",
+      "privacy": "Natural section400 +112 native terminal canvas; no height/padding extension of privacy section",
+      "capture": "Q1-Q3 fresh full viewport, no clip/fullPage/resize/fill; Q4 exact preserved native512, not recaptured",
+      "font_wait": "document.fonts.load for400/600, document.fonts.ready, platform-font verification",
+      "canonical_stitch": "page.png"
+    },
+    "composition_score": {
+      "page_arc": "Unavailable status and compact open geometry \u2192 factual blue source rows \u2192 mineral inactive card and useful decision rail \u2192 quiet charcoal caveat",
+      "runtime_retained_section_heights_1440": [
+        605.921875,
+        609.65625,
+        534.65625,
+        400
+      ],
+      "frame_heights_px": [
+        624,
+        624,
+        549,
+        512
+      ],
+      "cta_cadence": [
+        "Services",
+        "source anchor",
+        "Neuropathy",
+        "Neuropathy",
+        "Contact status"
+      ],
+      "privacy_native_budget": {
+        "entry": 88,
+        "complete_group": 224,
+        "source_exit": 88,
+        "terminal_native_allowance": 112,
+        "total": 512
+      }
+    },
+    "section_ownership": {
+      "01-resource-hero": {
+        "file": "01-resource-hero.png",
+        "height_px": 624,
+        "top_edge": "navy",
+        "bottom_edge": "blue source rail #0666a5",
+        "width_px": 1536,
+        "page_rows_half_open": [
+          0,
+          624
+        ],
+        "pixel_owner": "01-resource-hero",
+        "native_only": true,
+        "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+      },
+      "02-resource-summary": {
+        "file": "02-resource-summary.png",
+        "height_px": 624,
+        "top_edge": "blue #0666a5",
+        "bottom_edge": "blue #0666a5",
+        "width_px": 1536,
+        "page_rows_half_open": [
+          624,
+          1248
+        ],
+        "pixel_owner": "02-resource-summary",
+        "native_only": true,
+        "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+      },
+      "03-lead-form": {
+        "file": "03-lead-form.png",
+        "height_px": 549,
+        "top_edge": "mineral #f7f6f3",
+        "bottom_edge": "mineral #f7f6f3",
+        "width_px": 1536,
+        "page_rows_half_open": [
+          1248,
+          1797
+        ],
+        "pixel_owner": "03-lead-form",
+        "native_only": true,
+        "capture_state": "FRESH_FULL_VIEWPORT_DPR1"
+      },
+      "04-privacy-note": {
+        "file": "04-privacy-note.png",
+        "height_px": 512,
+        "top_edge": "charcoal #20272e",
+        "bottom_edge": "charcoal #20272e",
+        "width_px": 1536,
+        "page_rows_half_open": [
+          1797,
+          2309
+        ],
+        "pixel_owner": "04-privacy-note",
+        "native_only": true,
+        "terminal_native_allowance": {
+          "local_rows_half_open": [
+            400,
+            512
+          ],
+          "page_rows_half_open": [
+            2197,
+            2309
+          ],
+          "surface": "#20272e preserved original native browser canvas pixels",
+          "runtime_padding": false
+        },
+        "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE"
+      }
+    },
+    "section_weights": {
+      "01-resource-hero": "loud",
+      "02-resource-summary": "quiet",
+      "03-lead-form": "quiet",
+      "04-privacy-note": "quiet"
+    },
+    "background_progression": [
+      "navy #101e33 to #09192d with owned blue source rail",
+      "blue #0666a5",
+      "mineral #f7f6f3",
+      "charcoal #20272e"
+    ],
+    "motif_continuity": "Hero paired open step/bracket motif terminates inside hero. No decorative path crosses section boundaries. Hero blue rail hands to blue summary; blue/mineral and mineral/charcoal are deliberate hard transitions.",
+    "anchor_windows": [],
+    "edge_contracts": [
+      {
+        "from": "01-resource-hero",
+        "to": "02-resource-summary",
+        "page_y": 624,
+        "intent": "CONTINUOUS",
+        "surface": "complete shared #0666a5 hero rail and summary; no fake hard transition"
+      },
+      {
+        "from": "02-resource-summary",
+        "to": "03-lead-form",
+        "page_y": 1248,
+        "intent": "HARD_TRANSITION",
+        "surface": "#0666a5 to #f7f6f3; complete content clears edge"
+      },
+      {
+        "from": "03-lead-form",
+        "to": "04-privacy-note",
+        "page_y": 1797,
+        "intent": "HARD_TRANSITION",
+        "surface": "#f7f6f3 to #20272e",
+        "spacing_target": {
+          "access_rail_bottom": 492.625,
+          "access_natural_height": 548.625,
+          "access_native_height": 549,
+          "access_exit": 56,
+          "privacy_entry": 88,
+          "natural_css_interval": 144,
+          "rounding_remainder": 0.375,
+          "raster_interval": 144.375
+        }
+      }
+    ]
+  },
+  "mobile_contract": {
+    "source_files": [
+      "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/app/(batch-three)/educational-guide/guide.css",
+      "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/app/(batch-three)/batch-three.css"
+    ],
+    "breakpoint_max_px": 760,
+    "shell": "width:min(100% - 36px,600px)",
+    "typography": "Source Sans body family; paragraphs and status spans 1.125rem/1.6 in Guide mobile rules",
+    "controls": "Source rail and text links minimum48px; Services action54px",
+    "proof_status": "Retained r2/r3 captures are historical evidence only; no fresh responsive execution in this task"
+  },
+  "supersession_proposal": {
+    "status": "CANONICAL_REFERENCE_ONLY_PROMOTED_BY_COPY",
+    "promotion_authorized": true,
+    "authorization": "Current user instruction after independent KEEP",
+    "runtime_contract_refresh": "Separate after fresh controller independent source-contract verification and runtime review"
+  },
+  "production_verdict": "REFERENCE_ONLY_NO_RUNTIME_OR_SITE_REVIEW_APPROVAL",
+  "independent_review_status": "KEEP_REFERENCE_ONLY",
+  "replacement_targets": [
+    {
+      "request": "Q1",
+      "owner": "01-resource-hero",
+      "replaces": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-r1/refs/01-resource-hero.png",
+      "candidate": "refs/01-resource-hero.png",
+      "native_size": [
+        1536,
+        624
+      ],
+      "page_rows_half_open": [
+        0,
+        624
+      ],
+      "scoped_acceptance": "Keep navy hierarchy and exact subordinate420\u00d7160 motif; shared blue rail #0666a5.",
+      "source": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/hero.tsx",
+      "method": "HTML/CSS/SVG browser render, no raster input",
+      "actual_native_size": [
+        1536,
+        624
+      ],
+      "status": "FRESH_FULL_VIEWPORT_DPR1",
+      "sha256": "3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c"
+    },
+    {
+      "request": "Q2",
+      "owner": "02-resource-summary",
+      "replaces": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-r1/refs/02-resource-summary.png",
+      "candidate": "refs/02-resource-summary.png",
+      "native_size": [
+        1536,
+        624
+      ],
+      "page_rows_half_open": [
+        624,
+        1248
+      ],
+      "scoped_acceptance": "Quiet aligned columns, source-scale heading, book28, caveat gap32, all3 rows, adjoining service panel.",
+      "source": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/summary.tsx",
+      "method": "HTML/CSS/SVG browser render, no raster input",
+      "actual_native_size": [
+        1536,
+        624
+      ],
+      "status": "FRESH_FULL_VIEWPORT_DPR1",
+      "sha256": "28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a"
+    },
+    {
+      "request": "Q3",
+      "owner": "03-lead-form",
+      "replaces": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-r1/refs/03-lead-form.png",
+      "candidate": "refs/03-lead-form.png",
+      "native_size": [
+        1536,
+        549
+      ],
+      "page_rows_half_open": [
+        1248,
+        1797
+      ],
+      "scoped_acceptance": "Source geometry frozen: card42, separation32, natural height548.625, observed rail492.625, source exit56; native viewport549, CSS interval144/raster144.375, rounding0.375 disclosed.",
+      "source": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/availability.tsx",
+      "method": "HTML/CSS/SVG browser render, no raster input",
+      "actual_native_size": [
+        1536,
+        549
+      ],
+      "status": "FRESH_FULL_VIEWPORT_DPR1",
+      "sha256": "eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985"
+    },
+    {
+      "request": "Q4",
+      "owner": "04-privacy-note",
+      "replaces": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-r1/refs/04-privacy-note.png",
+      "candidate": "refs/04-privacy-note.png",
+      "native_size": [
+        1536,
+        512
+      ],
+      "page_rows_half_open": [
+        1797,
+        2309
+      ],
+      "scoped_acceptance": "Privacy content/core KEEP; placement entry88, complete224 group, exit88 plus112 terminal native canvas.",
+      "source": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/privacy.tsx",
+      "method": "Byte-for-byte reuse of original CODE-native privacy owner; not a fresh capture",
+      "actual_native_size": [
+        1536,
+        512
+      ],
+      "status": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+      "sha256": "c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127"
+    }
+  ],
+  "render_result": {
+    "actual_sizes": [
+      [
+        1536,
+        624
+      ],
+      [
+        1536,
+        624
+      ],
+      [
+        1536,
+        549
+      ],
+      [
+        1536,
+        512
+      ]
+    ],
+    "fresh_capture_count": 3,
+    "preserved_owner_count": 1,
+    "font_loading_verified": true,
+    "q4_font_verification": "Original CDP evidence preserved; no fresh capture",
+    "observations": "evidence/render-observations.json",
+    "q4_provenance": "provenance/q4-preserved.json",
+    "state": "OBSERVED"
+  },
+  "fallback_amendment": {
+    "recorded_before_render": true,
+    "recorded_at": "2026-10-01T14:00:28.033349+00:00",
+    "authority": "director8d4d0cbd-7296-5def-976d-ee300c45c710; controller explicitly adopts concrete fallback",
+    "review": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/director-replacement-r1-art-review.md:19-26",
+    "scope": "One non-generative fallback; no image API or network except local browser; source geometry/runtime and all visual gates remain frozen. Acceptance pending fresh independent review.",
+    "superseded_only": {
+      "access_isolated_viewport": 560,
+      "access_rail_bottom_exact_raster_target": 504,
+      "exact_raster_interval": 144,
+      "stitch_height": 2320
+    },
+    "adopted": {
+      "heights": [
+        624,
+        624,
+        549,
+        512
+      ],
+      "stitch": [
+        1536,
+        2309
+      ],
+      "joins": [
+        624,
+        1248,
+        1797
+      ],
+      "access_natural_height_css": 548.625,
+      "access_native_height": 549,
+      "height_derivation": "ceil(548.625); CODE viewport, no image API multiple-of-16 restriction",
+      "observed_access_rail_bottom": 492.625,
+      "source_exit_css": 56,
+      "privacy_entry_css": 88,
+      "natural_css_interval": 144,
+      "native_rounding_remainder": 0.375,
+      "raster_interval": 144.375,
+      "dpr": 1
+    },
+    "paint_only": {
+      "01-resource-hero": "#0666a5",
+      "02-resource-summary": "#0666a5",
+      "03-lead-form": "#f7f6f3",
+      "04-privacy-note": "#20272e unchanged"
+    },
+    "forbidden": "No content movement, spacers, forced section height, added padding, transforms, owner crop/resize/raster fill, source/runtime changes, generative calls, canonical/registry/implementation contracts/retirement/Git/remotes",
+    "q4": "Exact512 native reused byte for byte, not fresh capture; 88+224+88+112 retained"
+  },
+  "continuity": {
+    "official_validator_exit_code": 0,
+    "fresh_worker_seam_statuses": [
+      "PASS",
+      "PASS",
+      "PASS"
+    ],
+    "intents": [
+      "CONTINUOUS",
+      "HARD_TRANSITION",
+      "HARD_TRANSITION"
+    ],
+    "independent_acceptance": "KEEP_REFERENCE_ONLY",
+    "evidence": "evidence/continuity-result.json",
+    "independent_review": "evidence/director-fallback-r1-art-review.md"
+  },
+  "reference_closure": {
+    "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+    "date": "2026-10-01",
+    "source_package": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-fallback-r1",
+    "independent_art_review": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/director-fallback-r1-art-review.md",
+    "independent_art_review_sha256": "81fa78e6d5a231470514e061e310e5947b7d965cf54c7c4857bdc8db503d5b98",
+    "archive": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/archive-reference-closure-r1",
+    "scope": "Guide canonical design-reference contract only; no runtime or Site Review approval",
+    "method": "COPY_ONLY; original candidate files and histories retained",
+    "next_gate": "Fresh controller independent source-contract verification; runtime implementation remains old until separately reviewed",
+    "runtime_implementation_updated": false,
+    "registry_updated": false,
+    "production_raster_assets": 0
+  },
+  "reference_precedence": {
+    "text": "required_sections exact source copy",
+    "layout": "Four canonical refs and page.png from accepted fallback",
+    "transitions": "page_flow, refs/SEAM-LEDGER.json and refs/FLOW-CHECK.md",
+    "decomposition": "Fresh 21 CODE roles; zero production raster assets",
+    "historical_only": [
+      "page-draft.png",
+      "prompts/"
+    ],
+    "historical_amendment": "fallback_amendment is the verbatim pre-render record; its then-pending review/no-promotion scope is historical and superseded only by this authorized reference closure"
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  }
+}

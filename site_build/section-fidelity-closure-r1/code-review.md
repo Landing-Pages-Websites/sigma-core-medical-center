@@ -1,0 +1,14 @@
+# Focused working-contract review
+
+`simplify` was attempted once and returned exit 127 (command not found). No simplify skill is installed in the available catalog. This manual review is the local code/contract review fallback, not an independent art-director verdict.
+
+- Scope: only working JSON/Markdown contracts and evidence receipts. No app/src, shared UI, Home/variant, asset pixels, dependency, task or deployment changes.
+- Inventory: 14 exact non-Home paths, 10 canonical design directory mappings, four existing utility mappings. All blueprint objects compare equal; four ordered historical merges are ancestors of preserved main history and each includes its recorded route entries. PR40 state is not inferred from this inventory.
+- Fidelity: reviewed all 59 source owners and native references against supplied 1440/390 images and the seven named independent reports. Only 17 current code-native sections have bounded content and zero-raster-role PASS. The remaining 261 layers retain specific missing proofs. Source-audit and route KEEP verdicts are not copied to other fidelity layers. No 60th section was invented.
+- Successors: six recipes now describe actual visible status/FAQ/navigation behavior. Corrected five quiet-space descriptions that still reserved retired rail/photo/control space. Fixed `.services-hero` to the actual `.service-hero` selector during review; source CSS was never edited. Documentary source ambiguity remains explicitly gated.
+- Simplification: preserved original JSON serialization style to avoid unrelated Unicode churn; kept the joined blueprint data untouched; matrix and full evidence are separate readable/machine records. Historical decision logs and archived contracts were retained instead of rewritten.
+- Evidence: every r3 seam hash matches its loaded-font, stable-state ledger. r2 full-page evidence is not relabeled r3. Services needs a fresh current full/fold capture; its new hero seam and unchanged remainder do not imply whole-page acceptance. No current 1536 claim is made.
+- Verification: 20 current unbypassed source audits PASS. Build/lint PASS on the unchanged runtime. Strict sections fail only on the 261 pending layers; pre-QA registry fails only on 14 retained false edge flags. Inventory, canonical mirrors, asset ownership and 727 protected source/asset hashes pass. Whitespace check passes.
+- Remaining gates: per-section composition/treatment/responsive review, full-resolution retained lifestyle/crop verdicts and remaining successor-layer review, current 1536 and narrow mobile, current Services whole page, complete controller edge certification including utility routes, and independent full-site art review. Clinical/legal/operational source gates remain in force.
+
+Disposition: coherent source/contract bookkeeping subset suitable for a local commit. Site Build, convergence, Site Review and publication remain incomplete.

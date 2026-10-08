@@ -1,0 +1,1646 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "01-hero-02-seated-person.png: Exact person in garden visual for 01-hero, not a staff or outcome representation; source crop [1096, 200, 1434, 720]; illustrative only, not Sigma people, premises or outcomes",
+        "code: live semantic copy, navigation and section-owned CSS geometry"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/page-top.png and390/0-hero-top.png preserve the exact sensitive-service headline, daily-life orientation and private conversation intent. Explicit unavailable scheduling replaces unsupported native Book an Appointment promise; Services action is truthful. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/0/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png sha256=a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440/0-hero-top.png,390/0-hero-middle-1.png,360/0-hero-middle-1.png and320/0-hero-middle-1.png show the same seated adult, complete source-visible head, hands/cup and chair. Native338x520 crop pixel-equal to approved frame and staged bytes identical; illustration is not presented as a provider or Sigma premises. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/0/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png sha256=a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Current independent 01af77d hero composition PASS at 320/360/390/1440/1536: heading, complete source-sized portrait/caption, then complete copy/status/Services action on mobile; desktop balance retained. First fold shows recognizable head/profile and upper body at all three mobile widths. Reviewer web-developer@gomega.ai, independent session d1776852; source 01af77dc2936539a7b9288ad0436d48892dcebf9; report route-review-pelvic-floor-incontinence-01af77d-hero-followup.json sha256=fcc1b3fdf1d64dfef171aa7548891dc38008220d91275ac335bac94913b96877#/hero_layers/composition, ROOT/site_convergence. Exact widths/images, 102 hash-paired native captures and immutable deployment binding are in current_followup. Desktop1440/1536 pixels and geometry equal cd26. Full-route review NOT_PERFORMED; edge false; QA PENDING. Historical pre-01af application evidence, not current measurements or verdict: Current mobile layout changed in this worker: mobile PENDING; reviewed desktop PASS retained with 1440/1536 regression capture required. page-top and hero-bottom. Three-line widened heading and compact source-sized image track now balance the left copy against the full seated-person portrait. Broad empty charcoal scaffold is gone; mineral/charcoal rails stay closely attached to the portrait. Native visual relationship is resolved through the documented source-safe successor, not by enlarging or extending the image. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; reviewer session session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json sha256=29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad#/affected_layers/0. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-middle-1.png. Four resolved layers apply only within reviewer widths; original30 PASS unchanged. Targeted edge PASS_TARGETED belongs to reviewedcd26b81 only; registry edge remains false. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval.",
+          "applicability": {
+            "desktop_1440_1536": "PASS independent01af review; same-state pixels and geometry byte-equalcd26",
+            "mobile_320_360_390": "PASS independent01af first-fold, complete hero and scoped entry/exit review; full-route NOT_PERFORMED"
+          }
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Current independent 01af77d visual_treatment PASS at320/360/390/1440/1536: coherent navy field, exact portrait, caption plaque, desktop rails/steps and clean mobile quiet zone; no motif/text intersection, crop, invented pixels or severed anatomy. Reviewer web-developer@gomega.ai, independent d1776852; source01af77dc2936539a7b9288ad0436d48892dcebf9; ROOT/site_convergence/route-review-pelvic-floor-incontinence-01af77d-hero-followup.json sha256=fcc1b3fdf1d64dfef171aa7548891dc38008220d91275ac335bac94913b96877#/hero_layers/visual_treatment. Exact widths/images and capture hashes are in current_followup. Desktop1440/1536 regression byte-equal cd26. Targeted hero only; full-route NOT_PERFORMED; edge false; QA PENDING. Historical pre-01af application evidence, not current measurements or verdict: Current mobile layout changed in this worker: mobile PENDING; reviewed desktop PASS retained with 1440/1536 regression capture required. page-top and hero-middle/bottom. Mobile hero motif is absent; full heading quiet zone is clean at320/360/390. Desktop isolated upper-right steps, navy field, mineral rails and italic live caption remain. No decoration intersects text. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; reviewer session session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json sha256=29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad#/affected_layers/1. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-middle-1.png. Four resolved layers apply only within reviewer widths; original30 PASS unchanged. Targeted edge PASS_TARGETED belongs to reviewedcd26b81 only; registry edge remains false. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval.",
+          "applicability": {
+            "desktop_1440_1536": "PASS independent01af review; same-state pixels and geometry byte-equalcd26",
+            "mobile_320_360_390": "PASS independent01af first-fold, complete hero and scoped entry/exit review; full-route NOT_PERFORMED"
+          }
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "Current independent01af hero responsive PASS at320x800/360x800/390x844: first-fold portrait top391.0625/391.3125/402.3125 CSS px exposes recognizable head/profile and upper body. Complete hero native middle/bottom states retain full source-visible head, cup/hands, torso, chair, caption, paragraph, truthful status and Services action; CTA not claimed above fold. No overflow. Reviewer web-developer@gomega.ai independent d1776852; source01af77dc2936539a7b9288ad0436d48892dcebf9; ROOT/site_convergence/route-review-pelvic-floor-incontinence-01af77d-hero-followup.json sha256=fcc1b3fdf1d64dfef171aa7548891dc38008220d91275ac335bac94913b96877#/hero_layers/responsive. Native widths/images and hash receipts in current_followup. Desktop1440/1536 byte-equalcd26; full-route NOT_PERFORMED, edge false, QA PENDING. Historical pre-01af application evidence, not current coordinates or verdict: Remaining responsive FAIL is unresolved by review. A new mobile reorder is implemented but its actual painted outcome is PENDING fresh independent review; do not read the old coordinates as new candidate measurements. Initial page-top PNGs:390 shows only the person's crown at the very bottom;360 and320 show garden without a recognizable person. Image begins681.656/698.547/726.188 CSS px respectively, against844/800/800 folds. Middle PNGs prove complete loaded head, hand/cup and chair, but do not cure first-fold focal loss. Status and Services control remain complete; no overflow. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; reviewer session session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json sha256=29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad#/affected_layers/2. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/0-hero-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/0-hero-middle-1.png. Four resolved layers apply only within reviewer widths; original30 PASS unchanged. Targeted edge PASS_TARGETED belongs to reviewedcd26b81 only; registry edge remains false. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+        "source_sha256": "eb6762352474efd3e01f78e6b5695bb3a84f5f49ad64f462327b5432a3dc3d58",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+        ],
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder mobile reordering decision only. Original and follow-up reviewer verdicts are source/width bounded in section_implementation.json. New mobile affected layers remain PENDING or residual FAIL; fresh immutable capture needed; QA PENDING; edge false.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "f8c917e30b94f061833da92eafd1fe7a46f70e65abddc11101eb07f191fc2812"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+          ],
+          "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png",
+          "sha256": "a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/page-top.png",
+            "sha256": "d6236b791cbd047182b3e946e38e91f8a5986f931bf3044779c0acc41478667c",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "80944a3524083639c79f1289cc2ee0af90bf81bd415175669ae61a83a412381d"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-top.png",
+            "sha256": "d6236b791cbd047182b3e946e38e91f8a5986f931bf3044779c0acc41478667c",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "2a4d12ccde6ba96c75cad571a6edcdc713e271d724bcd232177f33e0ac8c6a26"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-bottom.png",
+            "sha256": "731189c58ba70bdf37e822976c734953f0bf15e3ea062830f98e83b5d68cfa87",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "73f33ba2ca60197092be3437d7beb972a1487980e77a5bd50a50ba9171afc29f"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+            "sha256": "3666530d5f36641313242215603ef56ee0fb75460d9e3f93e02869622755ac29",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "e255d659c50a6466e31563e71d6ec3014e9beb4d952f77ae945ff3f034d2b806"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/0-hero-top.png",
+            "sha256": "0cebf105a3e922ba065c1a81b718ae5b7015a3b36d17e0977724ea6c6844ca16",
+            "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+            "state_sha256": "dfcde4c2f0d0ae21503a944a781a8993bc4b4fd1a8ba71fd6fa434df6350f633"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/0-hero-top.png",
+            "sha256": "7e68ebebfdce16756cea58b8b878c19a5454d3e2defc20ab2459421feea802b2",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "464e0e4d7cc1fe14819e32cfc9edb70358dc381504c1e212e632e840a05f99bf"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+            "sha256": "22e53c550c1787e7e8c0a172d3192b7068b405a2bde463124ad8ab0118323fce",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "f2268f95ed5d4a6e289acdb061c89fb6159e27399eb1d15dcb7aaaa938dabd10"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/page-top.png",
+            "sha256": "8d19c5f7b4b2946894c96ef2d3c1bd3af9a662f0b24564b5be14a618634a29c8",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "0fe4aa748b1506e535e7aee4c00b3135b671ea5c2a52fd4ec393ac281d2d8a87"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+            "sha256": "ba4bb74d7d3c0df1ab0a7dcc7d0d5655ff298de03773e672b0e8e52ffa1607d3",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "f2bbbd468562f0ca1e2634d0b12c709efbe8e82b102f1c0bdb169355b221dfa0"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/page-top.png",
+            "sha256": "9fe0c94ca934c749f96d84ed6fcc311811b22522025b52d89406d6398431137b",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "1758f46c0ef2b8f47cd3e03bb45bf58d7fb45d38931a21c6ff3630bca271d0a3"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-top.png",
+            "sha256": "9fe0c94ca934c749f96d84ed6fcc311811b22522025b52d89406d6398431137b",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "81310e428b77b2f8cb64f2194cf2dbcab37095f89491eaf2e71a5b822c865825"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-bottom.png",
+            "sha256": "1dc9141180a9d9d0d70fd276d9d01b6d95af75fb3fe644a9e733405742dc51e3",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "99ba101e82b4725a729605c1318722ff80968e6f53bf40f1f952eecc545c7c91"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+            "sha256": "0da0fed652ae624a6feaf8d409b3daac8bce57b2bdd1d80b822ecc0567f8ffd8",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "dab70e9ef6ef89852744d9fd36b7527ae00b01b0299d25c83d7b08c2568d4d36"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/0/layers"
+      },
+      "source_repair_second_wave_r1": {
+        "frames": [
+          "01-hero",
+          "05-faq"
+        ],
+        "decision": "Tighten the hero to a 1200px maximum grid with a 386px portrait frame (338px original image plus 24px rails), expand heading measure, and retain the desktop 670px stage. On mobile remove the decorative wedge, reduce excess copy/art spacing and use a 32px minimum heading without hiding text. Restore the clinical-context FAQ boundary as a natural-height mobile panel.",
+        "residual": "Hero responsive remains FAIL: earlier first-fold source person, including at320/360, is not visually verified. No source pixels enlarged/cropped/generated and no status/control truncated. All five original FAIL layers await independent fresh review.",
+        "source_file": "app/services/pelvic-floor-incontinence/page.css",
+        "before_sha256": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2",
+        "after_sha256": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3",
+        "status": "REPAIR_PENDING_INDEPENDENT_REVIEW",
+        "next_action": "Controller: Git push this exact commit, bind the immutable deployment to its SHA, recapture hero page-top/whole-section/top/middle/bottom and hero-to-orientation at 1440x900,1536x1024,390x844,360x800,320x800. Capture mobile FAQ top/middle/bottom and expectations-to-FAQ/FAQ-to-booking joins at 390/360/320, plus desktop FAQ unchanged regression. Independent targeted reviewer must assess original hero composition/visual_treatment/responsive and FAQ content/responsive; keep all other original PASS layers. Verify full 338x520 source-visible person, headline quiet zone, complete status/control, earlier mobile focal subject, both FAQ boundary sentences, all four answers and legal caveat. First-fold portrait remains unresolved without fresh native PNGs; do not infer PASS from CSS or DOM."
+      },
+      "responsive_decision_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "decision_type": "design_decision",
+        "approval": "PENDING_INDEPENDENT_REVIEW",
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
+      }
+    },
+    {
+      "frame": "02-private-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+      "content_source": "section_manifest.json#02-private-orientation",
+      "asset_roles": [
+        "code-only: live activity questions and section-owned CSS; no raster"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/1-private-orientation-bottom.png and390/1-private-orientation-top.png show individualized conversation, no assessment/eligibility/treatment-plan claims, Services overview and medical-information-limits link. The two notes say share only what feels comfortable and use an appropriate clinical conversation; no unsupported stays here confidentiality promise. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/1/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png sha256=18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440/1-private-orientation-bottom.png and390/1-private-orientation-middle-1.png replace the native invented lounge/reception strip with a live blue boundary rail; no room raster or empty photo aperture remains. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/1/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png sha256=18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom and1536/1-private-orientation-bottom.png lead with the left explanation/rail; two compact charcoal right notes retain secondary dominance. This is the documented two-column successor, not an undocumented recreation of the native flank towers. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/1/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png sha256=18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440/1-private-orientation-bottom.png shows action-blue field, silver left rail and opposite24px beveled note corners, with legible sans heading/body hierarchy. Mobile rectangle notes are explicitly responsive, not missing photography. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/1/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png sha256=18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and320/360 bottom captures preserve explanation, boundary link then both notes. At360 the link arrow wraps alone but remains visible and usable; no clipped qualifier or horizontal overflow. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/1/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png sha256=18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+        "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+        "dom_ids": [
+          "private-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png",
+          "sha256": "18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/1-private-orientation-top.png",
+            "sha256": "ce05febf17931fc5b99cd504e9bce53c8b768fb5450975eaad6539e5d965514a",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "9de84c623ff6cd730ed8bf535a77b7a5914fff3a9d257333ca88e8384be3e8c8"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+            "sha256": "e96f94b5c5b244fb412e41721fba9c929b5b7a91570c670e8191cba1e9785e34",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "e77a2eee6d3dd94c51faab6ca1a9ad0de75bbc2f1a54c95e0fed5be686862a9f"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+            "sha256": "8b0fc1d94c40b1c8afff4edfa0689fb8cd46f3fa06bc11f0c694a0ad2cdc8816",
+            "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+            "state_sha256": "aa67211e9e642869d1d03671940a0d030fbfd8f888a6f823484aed5d88008e79"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+            "sha256": "44b8c3259aaf5d5c664f3c7dfa3dc55465943f520139c7f67f66bbdc2f5e5662",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "53abcc834b6baf18669ad4c3474214985d427a0a23c14af757b228d2d023f793"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+            "sha256": "dbf9f2096b4788ddf26759bb5e3f1c580b25fcc9e7fd9fb50f11b4ca355cc170",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "53beaa4baf55933602c0d7074b8f9436fa6e04c9f67795d23ce3a15016c28e3b"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-top.png",
+            "sha256": "a564613563da0e1ea0ede56192797a3d85d85699d0d8274fd101dc95c75bf019",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "29515a4e3c53f932e97ddcb2e3484b874d0470434f579c10832dd0a8507f09a6"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+            "sha256": "925580736573dc0ec73a35dd29849d6f2918b92259a8f50589886dbb7aed3e99",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "976e2328488ac978b5ac459399dfc11018475b0878e1d91da301d467b4da00cf"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-middle-1.png",
+            "sha256": "7ba08b10b47e91c236dd340a4c73f339cbf15846c94bb6d79a95a556da4d3082",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "659093832271951e886de00cc46448edd36c0c0afe53a38312f58272b996d07d"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/1/layers"
+      }
+    },
+    {
+      "frame": "03-concerns-and-goals",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+      "content_source": "section_manifest.json#03-concerns-and-goals",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/2-concerns-and-goals-top.png and390/2-concerns-and-goals-top.png preserve daily routines/activity/sleep/travel/exercise/confidence, clinician context, online limits and unavailable scheduling. Three preparation prompts remain unnumbered, not diagnostic controls. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/2/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png sha256=466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom and390 middle/bottom show a code-native question field instead of native fabricated reception; no false clinic or substitute stock photograph. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/2/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png sha256=466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440/2-concerns-and-goals-top.png balances left narrative with a substantial angled navy aside containing heading, three ruled questions and distinct non-diagnostic caveat. The successor maintains narrative-to-preparation relationship rather than an empty retired photo slot. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/2/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png sha256=466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440 top and390 middle retain mineral/navy contrast, sans hierarchy, thin silver dividers and upper-right measured blue steps. No decorative numerical badges or broken graphic termination observed. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/2/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png sha256=466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and320/360 bottom show narrative before the full-width question panel. All three prompts and the caveat remain readable, with local closing space and no overflow. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/2/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png sha256=466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+        "source_sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1",
+        "dom_ids": [
+          "concerns-and-goals"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png",
+          "sha256": "466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/2-concerns-and-goals-top.png",
+            "sha256": "9e4142f8539bd2032d48d37d9649b419c80ae27cb720f2d3a32ff2edea294c74",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "7ef9443ce4ddef65dcf80ee3ad5d360cc4046c2b07ce39e32ab50a3ae81e06a1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+            "sha256": "23d458e317e8dfda7ad712eeedcd139d3b012ffc436bd1dd5f6f05f07e3aef65",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "64e38843cef366af24842aeb61fade56d4314f1577e2a18699d16e5227df06a0"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+            "sha256": "87af2c74cd946da91a5138e7260f1989edddc5b94538fe53cce71bc41eb2704f",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "b7638c286db763576c4a16f3a024a2f4268a1cd88efbcf6b09d027e72d157f91"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+            "sha256": "77435fc0306316a838c2221577ca0253b1c0d6dd41d51d1256ec419f69299f32",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "5e3d72808e061247e6915a08d825a8ae5fab439ce9244a2a85e90fb3b73edb04"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-top.png",
+            "sha256": "3630bda4155e55d6d4bb272c70876c440605225890115dc73a700eb45c495cd8",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "f1aa49c68632532a0a0e7b384c21a56e7e9e8da426034888151a3070ae43331c"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+            "sha256": "37c2ef6a62ca811c69faa40ef4923617c1f404ac1c72e19303df155cf1e0d11f",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "4dfd6263b579b262d38436e2c066d86704fa1cfe15a26a4647a351e435ace3a8"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-middle-1.png",
+            "sha256": "600f28486151477a6717d7ebd0f07120508b90c4165d1edb447734e034840ba1",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "20764d5ed23f6f1ab971622e5fcaf5b8443aa84631d14218f3766202686bb032"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/2/layers"
+      }
+    },
+    {
+      "frame": "04-what-to-expect",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+      "content_source": "section_manifest.json#04-what-to-expect",
+      "asset_roles": [
+        "code-only: live activity questions and section-owned CSS; no raster"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/3-what-to-expect-top.png and390/3-what-to-expect-top.png state scheduling unavailable, requests cannot be submitted, visit details unconfirmed. Right panel explicitly withholds provider identity, examination details, visit length and care processes; only Services navigation remains. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/3/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png sha256=0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440/3-what-to-expect-top.png and390/3-what-to-expect-bottom.png contain no waiting-wall/facility photo. Live status panel is the documented source-safe successor; fabricated native branding is not restored. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/3/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png sha256=0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440 top and1536 bottom retain charcoal transition, left visit-status copy and content-sized angular right panel. The former520px grid/370px panel minima are overridden; upper motif zone is deliberate and no right L-bracket remains. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/3/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png sha256=0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom and390 top/bottom show clear white sans hierarchy, navy inset, silver left rule and blue stair mark isolated above prose. The panel closes without a dangling right bracket. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/3/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png sha256=0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/bottom and320/360 bottom preserve complete status paragraph, provider-publication limitation and Services link in stacked composition. Panel grows for narrower text without losing content or overflowing. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/3/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png sha256=0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+        "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop right L-bracket paints across the first paragraph reading zone.",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          }
+        }
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png",
+          "sha256": "0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/3-what-to-expect-top.png",
+            "sha256": "1bb2989edd3e7b880520512d58cc5ba2620940ab918f61081697dd6af0a89363",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "652768005de630a1ae950b96519ac9cc2599c5a40a829aed040e883912debe80"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+            "sha256": "adb9f76f08e5aa11ba1de87e7959bcd458d15aaa55e3b0d18165e6c41088e99f",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "71eae0e41fdbf2d1fa33694ddef13abfe5ec0407a12cedf5e7634d12375221af"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+            "sha256": "75cbcc02ee25f3656daa6a3640f5683acfdee7c2c244e50e523a3facbaee47f0",
+            "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+            "state_sha256": "6761410576cda6c6e2817029376e06dcc473c77cacfb08f96ac5c57c81f8e331"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+            "sha256": "eccb4280a12a66e9a3650c667f4ad440ef48e2f51d37bfc3a5fe66f1b8ca3c26",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "1c7f2cd1d2e512e992e4ee20c73a6f14399a3b93b6beeda3f582e489fbfe7c84"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+            "sha256": "75cc13de90133ae7036aba499b0103c53b0b183cbe9f5539b11c855c93829dc1",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "12a3b2b93f338dc6b3c691961d7ecf36de59a64e1166a95bc698babc7d1f0c71"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/3-what-to-expect-top.png",
+            "sha256": "f0c71057fa7c7ad8ae4240869ad4a57584ac3a598e6817baa227ba01f089b5b1",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "d4d049d7a73b06a9572fca5d6e5aa34c5896b62294435cb801f7991673b0ae67"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+            "sha256": "10e3c4014613f9043bf7a63b971c6ee28d75b53fd98c6cc7113d5c80d1f62c15",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "c7d4b627d72cc9813db4d7af0f3617afa1c64a29fc092272eacdd0dcc2bd420b"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/3/layers"
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "FAQ top/middle/bottom PNGs show both Start with a question. and Individual care questions need your own clinical context. at every width. All four answers, clinical limitation and Services action remain visible over the complete sequence. No removed privacy or booking claims restored. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; reviewer session session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json sha256=29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad#/affected_layers/3. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-middle-2.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-middle-2.png. Four resolved layers apply only within reviewer widths; original30 PASS unchanged. Targeted edge PASS_TARGETED belongs to reviewedcd26b81 only; registry edge remains false. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440/4-faq-bottom.png and390/4-faq-middle-1.png show no fabricated lounge, decorative count or empty photo slot. Editorial boundary replaces the native room on desktop. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/4/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png sha256=d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom retain left editorial heading/scope and lower boundary, with four always-visible two-column answers and clinical-review note on the right. No accordion fallback or invented privacy-document action. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/4/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png sha256=d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440/4-faq-bottom.png and390/4-faq-middle-1.png show navy field, readable mineral answer panels, electric-blue left keylines and separated questions/answers. Bold sans matches local native typography, not a brand-only serif mandate. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/4/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png sha256=d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "Required boundary becomes a natural-height panel before the first answer with30px external gap,139.55px painted panel height and20px internal closing padding. Text is complete and legible at320, not clipped or hidden. Four answer panels stack coherently and the final action clears the next section. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; reviewer session session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9880200f; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json sha256=29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad#/affected_layers/4. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/desktop_1536x1024/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_390x844/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_360x800/services-pelvic-floor-incontinence/4-faq-middle-2.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-middle-1.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/current-followup-cd26b81-native/mobile_320x800/services-pelvic-floor-incontinence/4-faq-middle-2.png. Four resolved layers apply only within reviewer widths; original30 PASS unchanged. Targeted edge PASS_TARGETED belongs to reviewedcd26b81 only; registry edge remains false. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+        "source_sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+        }
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png",
+          "sha256": "d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-top.png",
+            "sha256": "5d72a8c7a8d1e2265d3b123a30a9005477f852c9667ba90e5563b94ee553950c",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "4e2f92accdbfdb028a35076d6e0d5ac9624955df46bb7233818ded33157da3ce"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-bottom.png",
+            "sha256": "947c498db483fc4e452a05bd7a9829e075175dd17a03207c1314a94d1fbdc71d",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "2b4753d8131b5ae97d2e1d57a884b84e29ca146cfa2204609c3662d0a0c5ca43"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/4-faq-bottom.png",
+            "sha256": "808240023d6d039e7b2ceaec86537abbf0b54353f0c9bff5cbef7ff9cef9e208",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "88530c753f3de2148307750c66b3a60f78327cec51a69e6188c6258ab894c91a"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/4-faq-bottom.png",
+            "sha256": "67e6826786d8a0b6d479415cd2e51d5a72f757d5de07c1a3bccb4c8465687aa8",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "4f902f42985645ef349e4759e37679ddf1c13bfa2d894331c0e5642eacf3c069"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-top.png",
+            "sha256": "6c74bdaff2dbd2ba44e9199f292f032f768887658c2cd16a9a197a12fc3bf233",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "23b8b2c1ad7cdde70dcaec18a03bf370f2e38730ff66eef6f9762be2149dcb49"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-bottom.png",
+            "sha256": "1b154cf049a68cb3925e9f74246be1ee938e4e459b5ae4e0c47b9ac4812bc599",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "511479631c4f3146a92241233bafee670d2af55a8b834c6a5e7b2adf2486625e"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-middle-1.png",
+            "sha256": "0d0edcfdcb85642d31cf1bfd0856d14f1195630c569ed9aba463a331f7e929b2",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "48faa6a1e19a15750ad90fbc2c668776107bea81bff36ba0ad0045fd7fa78835"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/4/layers"
+      },
+      "source_repair_second_wave_r1": {
+        "frames": [
+          "01-hero",
+          "05-faq"
+        ],
+        "decision": "Tighten the hero to a 1200px maximum grid with a 386px portrait frame (338px original image plus 24px rails), expand heading measure, and retain the desktop 670px stage. On mobile remove the decorative wedge, reduce excess copy/art spacing and use a 32px minimum heading without hiding text. Restore the clinical-context FAQ boundary as a natural-height mobile panel.",
+        "residual": "Hero responsive remains FAIL: earlier first-fold source person, including at320/360, is not visually verified. No source pixels enlarged/cropped/generated and no status/control truncated. All five original FAIL layers await independent fresh review.",
+        "source_file": "app/services/pelvic-floor-incontinence/page.css",
+        "before_sha256": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2",
+        "after_sha256": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3",
+        "status": "REPAIR_PENDING_INDEPENDENT_REVIEW",
+        "next_action": "Controller: Git push this exact commit, bind the immutable deployment to its SHA, recapture hero page-top/whole-section/top/middle/bottom and hero-to-orientation at 1440x900,1536x1024,390x844,360x800,320x800. Capture mobile FAQ top/middle/bottom and expectations-to-FAQ/FAQ-to-booking joins at 390/360/320, plus desktop FAQ unchanged regression. Independent targeted reviewer must assess original hero composition/visual_treatment/responsive and FAQ content/responsive; keep all other original PASS layers. Verify full 338x520 source-visible person, headline quiet zone, complete status/control, earlier mobile focal subject, both FAQ boundary sentences, all four answers and legal caveat. First-fold portrait remains unresolved without fresh native PNGs; do not infer PASS from CSS or DOM."
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/5-form-top.png and390/5-form-middle-1.png show Booking status, explicit scheduling/request unavailability, Respectful. Personal. Richmond., no-fit/no-result caveat, Bring your questions. and Services-only link. DOM id form is not a working form claim; no calendar or request mechanism appears. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/5/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png sha256=4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440/5-form-top.png and390/5-form-middle-1.png replace both fabricated native premises slots with one live information stage. No invented room, clinician, booking availability or photographic aperture. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/5/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png sha256=4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom show a navy panel enclosed by an action-blue section, left status/caveat group and right angled question stage. The section has a clear closure and is distinct from the preceding answer grid. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/5/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png sha256=4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440/5-form-top.png and390 middle/bottom retain large sans status title, quieter italic Richmond line, navy/blue framing, silver rule and measured upper-right bracket, with no contact/process invention. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/5/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png sha256=4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and320/360 bottom stack status/caveat before the complete information stage and Services link. Narrow title wraps intentionally; no clipped text or overflow. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/5/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png sha256=4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+        "source_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png",
+          "sha256": "4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/5-form-top.png",
+            "sha256": "9fdb6df57b233854b9d9edae143827e12ab4c0fcfdd7a9d9e7ebd4f806989fd8",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "205f479fb519caf0bb2bb776713b46152d84d971968940fa37f3e85a6f5f0fb1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/5-form-bottom.png",
+            "sha256": "2818deed6959c6e512adbff56e4e573eda3dc20b7eaa44ec0a74c355e3b60fce",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "6dde3f3a3434bd2923920ad5f4a6a177042681364c9ab0182f312241964f553b"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/5-form-bottom.png",
+            "sha256": "c73e8c2ba1970140791b00f777881de49fc25d290bf7a368e0838d35f97a8474",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "fe34908be553bfc614b442dc9e8cb8b9fa21417e429d87f2a80c553f1d4a8844"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/5-form-bottom.png",
+            "sha256": "63a2dc7781b018c1a12553f2d278082bc976fe23ffe54609c0e9ed7eb1578847",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "6223a9c87beba5799991bb45c4a08cbae05bb0862c9071716b14196d2c0b3344"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-top.png",
+            "sha256": "ce6512633ae64d5eda386d0c311829f3c9042f72e7dcfedfac3e8e1a10c1f182",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "eaa60c6a4beef3b4abffaa493a8cb15194a0fc7f1b07ba101a77a1e57fc924e4"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-bottom.png",
+            "sha256": "653696a3f728852db2d40429c8ef630796d32c8a985d85785aecd92d61719a05",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "5593b3003666856a13ccdcad2578bdbeea6cf8e79b79b58fba0790f978ec1cb2"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-middle-1.png",
+            "sha256": "ca096dca43568caf693990f963fe8d47890e222893ed953d2ba6fcc797b6d811",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "5d9fb8128ddd4f7ab6c8981baed2ae4f09960308a1b2c12e49dcccf6b131a54c"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/5/layers"
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/6-medical-sources-top.png and390 top/middle show About this source, clinical explanations/final sources await review, NIDDK covers bladder control only and not broad pelvic-floor care, non-endorsement and non-individualized-advice boundaries. No AUA citation or broad evidence-based treatment assertion is invented. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/6/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png sha256=914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "1440 top/bottom and390 middle/bottom remove native invented reception; mineral NIDDK reference panel carries the actual citation role without premises imagery. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/6/layers/imagery. Native design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png sha256=914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440/6-medical-sources-top.png shows left scope/disclaimer beside a separately weighted right source card.390 top/middle/bottom stack scope before citation; the final card finishes before the intended shared footer stripe. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/6/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png sha256=914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "1440 top and390 middle preserve mineral field, action-blue5px top border, navy corner and readable sans source title. Source card is not a branded medical endorsement badge. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/6/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png sha256=914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and320/360 bottom preserve the narrow source title, caveat and non-endorsement copy. At320 the external arrow wraps to a separate line without loss or overflow. Intended12px walnut footer stripe is not a stray artifact. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/6/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png sha256=914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+        "source_sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547",
+        "reference": {
+          "path": "design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png",
+          "sha256": "914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/6-medical-sources-top.png",
+            "sha256": "36d114b862c33d6b608fb6f1db2b273fd74a1f377723c681bb7d0f6d70f10b5b",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "da0a86f73219ff9f63a0796bbe749598fd8494c097ac1a54dbecbc5497f14fe4"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+            "sha256": "306da93f4ec0d7c6378097821ac95278603ed09dc4d25e4d78aad08ab0fbdba7",
+            "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+            "state_sha256": "fcfc463800ea99c87aae45bde8f128724d5fcd23c0880edcf900efce5ff4d336"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+            "sha256": "428791eabaaa0a6ebebf857f1cb42546018f419dcd09eaea1aeb1029e74da668",
+            "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+            "state_sha256": "8b3b243711a571b106595cfb21f276550ceeac286aba9f0558de73e92f30092b"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+            "sha256": "8096f565561c9e8c8e3e04966fa71d4bd81f9007ff41f5bd9c4bb83893ab9339",
+            "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+            "state_sha256": "88bba1a5d87ca598dd3977d6cabddd21086f1d3ce4bc2555f0ab37fbdb06b7a1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-top.png",
+            "sha256": "31d88a448a4ad1f4272962b7cc7bc8fbe2e5281767b1347a170180f7ebec7950",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "e61635f2f42a5b7fb0f72c934d5fd1b9f10ca057c9fc5d026ad9e43621820a55"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+            "sha256": "7a9962d0a2cd65efc54d5e05378fab78cda0f4d24dbaa736ab58af22d0ef2a45",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "03117249f157a4fbeefe89d11d564428cb70ed5593b12b03caf1b1a6743fc8b1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-middle-1.png",
+            "sha256": "6a380a7a4420d7497c670beace572fe2229a442a2a247258fa76fd6559f21b44",
+            "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+            "state_sha256": "e8e2c682183231ff3274ea3a15bee195d426008da09777a8ff7c838f26465cd9"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json#/sections/6/layers"
+      }
+    }
+  ],
+  "review_boundary": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  },
+  "route_review": {
+    "route": "/services/pelvic-floor-incontinence",
+    "slug": "pelvic-floor-incontinence",
+    "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+    "reviewer": "Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment",
+    "artifacts": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json",
+        "sha256": "39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.md",
+        "sha256": "9e45df6928c097c80139de6be0638d8020ac6fde73e476e9e1da65807fd84cfe"
+      }
+    ],
+    "outcome": {
+      "PASS": 30,
+      "FAIL": 5
+    },
+    "verdict": "FAIL",
+    "edge_verdict": "PASS",
+    "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "candidate_edge_review": "PENDING_AFFECTED_JOINS",
+    "prior_implementation": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/before/pelvic-floor-incontinence/repository/section_implementation.json",
+      "sha256": "a4bcff19ba87173a68245ae3eb0f236187daf66e70452b522539d4fe78ec37fd"
+    },
+    "evidence_path_base": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a",
+    "captures_inspected": [
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/page-top.png",
+        "sha256": "d6236b791cbd047182b3e946e38e91f8a5986f931bf3044779c0acc41478667c",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "80944a3524083639c79f1289cc2ee0af90bf81bd415175669ae61a83a412381d"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/footer-bottom.png",
+        "sha256": "dc2bb2b2e6a186251bfe58aa7f0f57cf297cea285d629d79ae98e4b019f26561",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "372978f703eaa552dd8e6dcb8ba51b21bfd799c84cabded9d8ab5c6b045b8f8a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-top.png",
+        "sha256": "d6236b791cbd047182b3e946e38e91f8a5986f931bf3044779c0acc41478667c",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "2a4d12ccde6ba96c75cad571a6edcdc713e271d724bcd232177f33e0ac8c6a26"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-bottom.png",
+        "sha256": "731189c58ba70bdf37e822976c734953f0bf15e3ea062830f98e83b5d68cfa87",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "73f33ba2ca60197092be3437d7beb972a1487980e77a5bd50a50ba9171afc29f"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+        "sha256": "3666530d5f36641313242215603ef56ee0fb75460d9e3f93e02869622755ac29",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "e255d659c50a6466e31563e71d6ec3014e9beb4d952f77ae945ff3f034d2b806"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/1-private-orientation-top.png",
+        "sha256": "ce05febf17931fc5b99cd504e9bce53c8b768fb5450975eaad6539e5d965514a",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "9de84c623ff6cd730ed8bf535a77b7a5914fff3a9d257333ca88e8384be3e8c8"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+        "sha256": "e96f94b5c5b244fb412e41721fba9c929b5b7a91570c670e8191cba1e9785e34",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "e77a2eee6d3dd94c51faab6ca1a9ad0de75bbc2f1a54c95e0fed5be686862a9f"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/2-concerns-and-goals-top.png",
+        "sha256": "9e4142f8539bd2032d48d37d9649b419c80ae27cb720f2d3a32ff2edea294c74",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "7ef9443ce4ddef65dcf80ee3ad5d360cc4046c2b07ce39e32ab50a3ae81e06a1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+        "sha256": "23d458e317e8dfda7ad712eeedcd139d3b012ffc436bd1dd5f6f05f07e3aef65",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "64e38843cef366af24842aeb61fade56d4314f1577e2a18699d16e5227df06a0"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/3-what-to-expect-top.png",
+        "sha256": "1bb2989edd3e7b880520512d58cc5ba2620940ab918f61081697dd6af0a89363",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "652768005de630a1ae950b96519ac9cc2599c5a40a829aed040e883912debe80"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+        "sha256": "adb9f76f08e5aa11ba1de87e7959bcd458d15aaa55e3b0d18165e6c41088e99f",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "71eae0e41fdbf2d1fa33694ddef13abfe5ec0407a12cedf5e7634d12375221af"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-top.png",
+        "sha256": "5d72a8c7a8d1e2265d3b123a30a9005477f852c9667ba90e5563b94ee553950c",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "4e2f92accdbfdb028a35076d6e0d5ac9624955df46bb7233818ded33157da3ce"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/4-faq-bottom.png",
+        "sha256": "947c498db483fc4e452a05bd7a9829e075175dd17a03207c1314a94d1fbdc71d",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "2b4753d8131b5ae97d2e1d57a884b84e29ca146cfa2204609c3662d0a0c5ca43"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/5-form-top.png",
+        "sha256": "9fdb6df57b233854b9d9edae143827e12ab4c0fcfdd7a9d9e7ebd4f806989fd8",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "205f479fb519caf0bb2bb776713b46152d84d971968940fa37f3e85a6f5f0fb1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/5-form-bottom.png",
+        "sha256": "2818deed6959c6e512adbff56e4e573eda3dc20b7eaa44ec0a74c355e3b60fce",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "6dde3f3a3434bd2923920ad5f4a6a177042681364c9ab0182f312241964f553b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/6-medical-sources-top.png",
+        "sha256": "36d114b862c33d6b608fb6f1db2b273fd74a1f377723c681bb7d0f6d70f10b5b",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "da0a86f73219ff9f63a0796bbe749598fd8494c097ac1a54dbecbc5497f14fe4"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+        "sha256": "306da93f4ec0d7c6378097821ac95278603ed09dc4d25e4d78aad08ab0fbdba7",
+        "receipt_sha256": "ea5230cca303fc3aba9db9121cb9224927c2707fe83b91f84b10407305b4ba11",
+        "state_sha256": "fcfc463800ea99c87aae45bde8f128724d5fcd23c0880edcf900efce5ff4d336"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/0-hero-top.png",
+        "sha256": "0cebf105a3e922ba065c1a81b718ae5b7015a3b36d17e0977724ea6c6844ca16",
+        "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+        "state_sha256": "dfcde4c2f0d0ae21503a944a781a8993bc4b4fd1a8ba71fd6fa434df6350f633"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+        "sha256": "8b0fc1d94c40b1c8afff4edfa0689fb8cd46f3fa06bc11f0c694a0ad2cdc8816",
+        "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+        "state_sha256": "aa67211e9e642869d1d03671940a0d030fbfd8f888a6f823484aed5d88008e79"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+        "sha256": "75cbcc02ee25f3656daa6a3640f5683acfdee7c2c244e50e523a3facbaee47f0",
+        "receipt_sha256": "70c4409d8a2b7092a3facb1489095adfa7805474088643ae673200c85e428585",
+        "state_sha256": "6761410576cda6c6e2817029376e06dcc473c77cacfb08f96ac5c57c81f8e331"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/footer-bottom.png",
+        "sha256": "ca557b3ed0121c2850939bf0d9d3efcf42064f9688a9764f2ff5e097184f0b37",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "30fd1698f0ee5b9e6c5356ed3efd92537b9099352d70471092836ff77c6af5cf"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/0-hero-top.png",
+        "sha256": "7e68ebebfdce16756cea58b8b878c19a5454d3e2defc20ab2459421feea802b2",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "464e0e4d7cc1fe14819e32cfc9edb70358dc381504c1e212e632e840a05f99bf"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+        "sha256": "22e53c550c1787e7e8c0a172d3192b7068b405a2bde463124ad8ab0118323fce",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "f2268f95ed5d4a6e289acdb061c89fb6159e27399eb1d15dcb7aaaa938dabd10"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+        "sha256": "44b8c3259aaf5d5c664f3c7dfa3dc55465943f520139c7f67f66bbdc2f5e5662",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "53abcc834b6baf18669ad4c3474214985d427a0a23c14af757b228d2d023f793"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+        "sha256": "87af2c74cd946da91a5138e7260f1989edddc5b94538fe53cce71bc41eb2704f",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "b7638c286db763576c4a16f3a024a2f4268a1cd88efbcf6b09d027e72d157f91"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+        "sha256": "eccb4280a12a66e9a3650c667f4ad440ef48e2f51d37bfc3a5fe66f1b8ca3c26",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "1c7f2cd1d2e512e992e4ee20c73a6f14399a3b93b6beeda3f582e489fbfe7c84"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/4-faq-bottom.png",
+        "sha256": "808240023d6d039e7b2ceaec86537abbf0b54353f0c9bff5cbef7ff9cef9e208",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "88530c753f3de2148307750c66b3a60f78327cec51a69e6188c6258ab894c91a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/5-form-bottom.png",
+        "sha256": "c73e8c2ba1970140791b00f777881de49fc25d290bf7a368e0838d35f97a8474",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "fe34908be553bfc614b442dc9e8cb8b9fa21417e429d87f2a80c553f1d4a8844"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+        "sha256": "428791eabaaa0a6ebebf857f1cb42546018f419dcd09eaea1aeb1029e74da668",
+        "receipt_sha256": "f33b723d1f5143bae08d19f4c5c4973a45c650e78ffcb772aa9b6bc8cfe189f0",
+        "state_sha256": "8b3b243711a571b106595cfb21f276550ceeac286aba9f0558de73e92f30092b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/page-top.png",
+        "sha256": "8d19c5f7b4b2946894c96ef2d3c1bd3af9a662f0b24564b5be14a618634a29c8",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "0fe4aa748b1506e535e7aee4c00b3135b671ea5c2a52fd4ec393ac281d2d8a87"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+        "sha256": "ba4bb74d7d3c0df1ab0a7dcc7d0d5655ff298de03773e672b0e8e52ffa1607d3",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "f2bbbd468562f0ca1e2634d0b12c709efbe8e82b102f1c0bdb169355b221dfa0"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+        "sha256": "dbf9f2096b4788ddf26759bb5e3f1c580b25fcc9e7fd9fb50f11b4ca355cc170",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "53beaa4baf55933602c0d7074b8f9436fa6e04c9f67795d23ce3a15016c28e3b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+        "sha256": "77435fc0306316a838c2221577ca0253b1c0d6dd41d51d1256ec419f69299f32",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "5e3d72808e061247e6915a08d825a8ae5fab439ce9244a2a85e90fb3b73edb04"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+        "sha256": "75cc13de90133ae7036aba499b0103c53b0b183cbe9f5539b11c855c93829dc1",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "12a3b2b93f338dc6b3c691961d7ecf36de59a64e1166a95bc698babc7d1f0c71"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/4-faq-bottom.png",
+        "sha256": "67e6826786d8a0b6d479415cd2e51d5a72f757d5de07c1a3bccb4c8465687aa8",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "4f902f42985645ef349e4759e37679ddf1c13bfa2d894331c0e5642eacf3c069"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/5-form-bottom.png",
+        "sha256": "63a2dc7781b018c1a12553f2d278082bc976fe23ffe54609c0e9ed7eb1578847",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "6223a9c87beba5799991bb45c4a08cbae05bb0862c9071716b14196d2c0b3344"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+        "sha256": "8096f565561c9e8c8e3e04966fa71d4bd81f9007ff41f5bd9c4bb83893ab9339",
+        "receipt_sha256": "9f00a4ac41510bf1ae5f2a20d610353216db041e0e03b6d17bd7adf3ad082ed3",
+        "state_sha256": "88bba1a5d87ca598dd3977d6cabddd21086f1d3ce4bc2555f0ab37fbdb06b7a1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/page-top.png",
+        "sha256": "9fe0c94ca934c749f96d84ed6fcc311811b22522025b52d89406d6398431137b",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "1758f46c0ef2b8f47cd3e03bb45bf58d7fb45d38931a21c6ff3630bca271d0a3"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/footer-bottom.png",
+        "sha256": "3359a5aafa9cd8e216e6576c40354215b8ec7f8894ba25bbb4d1a71e6944fb98",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "d248f7f860b85252b41aebbc22f5ee076927e52bedded5b3b870894b1e7cf03e"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-top.png",
+        "sha256": "9fe0c94ca934c749f96d84ed6fcc311811b22522025b52d89406d6398431137b",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "81310e428b77b2f8cb64f2194cf2dbcab37095f89491eaf2e71a5b822c865825"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-bottom.png",
+        "sha256": "1dc9141180a9d9d0d70fd276d9d01b6d95af75fb3fe644a9e733405742dc51e3",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "99ba101e82b4725a729605c1318722ff80968e6f53bf40f1f952eecc545c7c91"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/0-hero-middle-1.png",
+        "sha256": "0da0fed652ae624a6feaf8d409b3daac8bce57b2bdd1d80b822ecc0567f8ffd8",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "dab70e9ef6ef89852744d9fd36b7527ae00b01b0299d25c83d7b08c2568d4d36"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-top.png",
+        "sha256": "a564613563da0e1ea0ede56192797a3d85d85699d0d8274fd101dc95c75bf019",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "29515a4e3c53f932e97ddcb2e3484b874d0470434f579c10832dd0a8507f09a6"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-bottom.png",
+        "sha256": "925580736573dc0ec73a35dd29849d6f2918b92259a8f50589886dbb7aed3e99",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "976e2328488ac978b5ac459399dfc11018475b0878e1d91da301d467b4da00cf"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/1-private-orientation-middle-1.png",
+        "sha256": "7ba08b10b47e91c236dd340a4c73f339cbf15846c94bb6d79a95a556da4d3082",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "659093832271951e886de00cc46448edd36c0c0afe53a38312f58272b996d07d"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-top.png",
+        "sha256": "3630bda4155e55d6d4bb272c70876c440605225890115dc73a700eb45c495cd8",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "f1aa49c68632532a0a0e7b384c21a56e7e9e8da426034888151a3070ae43331c"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-bottom.png",
+        "sha256": "37c2ef6a62ca811c69faa40ef4923617c1f404ac1c72e19303df155cf1e0d11f",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "4dfd6263b579b262d38436e2c066d86704fa1cfe15a26a4647a351e435ace3a8"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/2-concerns-and-goals-middle-1.png",
+        "sha256": "600f28486151477a6717d7ebd0f07120508b90c4165d1edb447734e034840ba1",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "20764d5ed23f6f1ab971622e5fcaf5b8443aa84631d14218f3766202686bb032"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/3-what-to-expect-top.png",
+        "sha256": "f0c71057fa7c7ad8ae4240869ad4a57584ac3a598e6817baa227ba01f089b5b1",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "d4d049d7a73b06a9572fca5d6e5aa34c5896b62294435cb801f7991673b0ae67"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/3-what-to-expect-bottom.png",
+        "sha256": "10e3c4014613f9043bf7a63b971c6ee28d75b53fd98c6cc7113d5c80d1f62c15",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "c7d4b627d72cc9813db4d7af0f3617afa1c64a29fc092272eacdd0dcc2bd420b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-top.png",
+        "sha256": "6c74bdaff2dbd2ba44e9199f292f032f768887658c2cd16a9a197a12fc3bf233",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "23b8b2c1ad7cdde70dcaec18a03bf370f2e38730ff66eef6f9762be2149dcb49"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-bottom.png",
+        "sha256": "1b154cf049a68cb3925e9f74246be1ee938e4e459b5ae4e0c47b9ac4812bc599",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "511479631c4f3146a92241233bafee670d2af55a8b834c6a5e7b2adf2486625e"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/4-faq-middle-1.png",
+        "sha256": "0d0edcfdcb85642d31cf1bfd0856d14f1195630c569ed9aba463a331f7e929b2",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "48faa6a1e19a15750ad90fbc2c668776107bea81bff36ba0ad0045fd7fa78835"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-top.png",
+        "sha256": "ce6512633ae64d5eda386d0c311829f3c9042f72e7dcfedfac3e8e1a10c1f182",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "eaa60c6a4beef3b4abffaa493a8cb15194a0fc7f1b07ba101a77a1e57fc924e4"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-bottom.png",
+        "sha256": "653696a3f728852db2d40429c8ef630796d32c8a985d85785aecd92d61719a05",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "5593b3003666856a13ccdcad2578bdbeea6cf8e79b79b58fba0790f978ec1cb2"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/5-form-middle-1.png",
+        "sha256": "ca096dca43568caf693990f963fe8d47890e222893ed953d2ba6fcc797b6d811",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "5d9fb8128ddd4f7ab6c8981baed2ae4f09960308a1b2c12e49dcccf6b131a54c"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-top.png",
+        "sha256": "31d88a448a4ad1f4272962b7cc7bc8fbe2e5281767b1347a170180f7ebec7950",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "e61635f2f42a5b7fb0f72c934d5fd1b9f10ca057c9fc5d026ad9e43621820a55"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-bottom.png",
+        "sha256": "7a9962d0a2cd65efc54d5e05378fab78cda0f4d24dbaa736ab58af22d0ef2a45",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "03117249f157a4fbeefe89d11d564428cb70ed5593b12b03caf1b1a6743fc8b1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-pelvic-floor-incontinence/6-medical-sources-middle-1.png",
+        "sha256": "6a380a7a4420d7497c670beace572fe2229a442a2a247258fa76fd6559f21b44",
+        "receipt_sha256": "62350479e8c76449c745e16f1485889f7140988ed351891906ec4880eba55fb8",
+        "state_sha256": "e8e2c682183231ff3274ea3a15bee195d426008da09777a8ff7c838f26465cd9"
+      }
+    ],
+    "references": {
+      "design_refs/pages/pelvic-floor-incontinence/page.png": "3b4da2a44a5577313a6a747c3c3096107314019edf474e5a773722acafa9897a",
+      "design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png": "d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953",
+      "design_refs/pages/pelvic-floor-incontinence/refs/02-private-orientation.png": "18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe",
+      "design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png": "a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c",
+      "design_refs/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png": "466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c",
+      "design_refs/pages/pelvic-floor-incontinence/refs/06-booking-cta.png": "4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe",
+      "design_refs/pages/pelvic-floor-incontinence/refs/07-medical-sources.png": "914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339",
+      "design_refs/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png": "0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b"
+    },
+    "boundaries": [
+      {
+        "boundary": "normal-flow header top and header-to-hero",
+        "status": "PASS",
+        "desktop_css_px": {
+          "top_painted": 39,
+          "bottom_painted": 36,
+          "control_box_bottom": 30
+        },
+        "mobile_css_px": {
+          "top_painted": 29,
+          "bottom_painted": 32,
+          "control_box_bottom": 22
+        },
+        "local_unit": "32px laptop /24px mobile absolute painted floor",
+        "evidence": "1440/page-top.png,1536/0-hero-top.png,390/page-top.png,360/page-top.png,320/0-hero-top.png. Native DPR1 PNG nonbackground threshold25 detects actual logo/nav ink; normal flow header not excluded. Control boxes are smaller than painted-floor clearance but do not themselves paint. No overlap with hero heading."
+      },
+      {
+        "boundary": "hero top and hero -> private-orientation",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          117.69,
+          117.39
+        ],
+        "mobile_top_bottom_css_px": [
+          48,
+          56
+        ],
+        "local_unit": "86.39px desktop closing section rhythm;56px mobile",
+        "evidence": "1440/0-hero-top,middle-1,bottom.png and390/0-hero-top,middle-1,bottom.png; full source image and painted caption terminate before blue join. Desktop broad scaffold is composition FAIL, not a crowded lower seam."
+      },
+      {
+        "boundary": "private-orientation top and -> concerns-and-goals",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          71.39,
+          86.39
+        ],
+        "mobile_top_bottom_css_px": [
+          47,
+          56
+        ],
+        "local_unit": "86.39px desktop /56px mobile",
+        "evidence": "1440/1-private-orientation-top,bottom.png and390/1-private-orientation-top,middle-1,bottom.png. Last meaningful painted rail/note, not only text baseline, has a full closing unit. Raw text ratio1.53desktop/1.73mobile flag is resolved by actual painted bounds and noncrowded seam."
+      },
+      {
+        "boundary": "concerns-and-goals top and -> what-to-expect",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          106.77,
+          106.78
+        ],
+        "mobile_top_bottom_css_px": [
+          47,
+          56
+        ],
+        "local_unit": "86.39px desktop /56px mobile",
+        "evidence": "1440/2-concerns-and-goals-top,bottom.png and390 top,middle-1,bottom. Aside itself is meaningful painted content. Raw mobile text ratio1.94does not describe the panel-to-edge gap."
+      },
+      {
+        "boundary": "what-to-expect top and -> FAQ",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          86.39,
+          86.39
+        ],
+        "mobile_top_bottom_css_px": [
+          47,
+          56
+        ],
+        "local_unit": "86.39px desktop /56px mobile",
+        "evidence": "1440/3-what-to-expect-top,bottom.png;390 top,bottom;1536/3-what-to-expect-bottom;320/360 bottom. Angular panel closes cleanly; mobile raw text ratio2.23counts internal panel padding and is not outside-panel dead space."
+      },
+      {
+        "boundary": "FAQ top and -> booking status",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          71.39,
+          86.39
+        ],
+        "mobile_top_bottom_css_px": [
+          47,
+          56
+        ],
+        "local_unit": "86.39px desktop /56px mobile",
+        "evidence": "1440/4-faq-top,bottom.png and390 top,middle-1,bottom. Last Services control and desktop editorial boundary clear the blue join; no severed line. Missing mobile editorial message is a content/responsive FAIL, independent of edge clearance."
+      },
+      {
+        "boundary": "booking status top and -> medical sources",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          45,
+          45
+        ],
+        "mobile_top_bottom_css_px": [
+          45,
+          45
+        ],
+        "local_unit": "45px outer blue section padding",
+        "evidence": "1440/5-form-top,bottom.png and390 top,middle-1,bottom;320/360 bottom. Meaningful enclosing navy stage has45px blue top/bottom. Internal stage border clears its card boundary and Services text remains inside; raw mobile text ratio1.76does not measure this enclosing stage."
+      },
+      {
+        "boundary": "medical-sources top /terminal -> shared footer",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          86.39,
+          86.39
+        ],
+        "mobile_top_bottom_css_px": [
+          47,
+          56
+        ],
+        "local_unit": "86.39px desktop /56px mobile",
+        "evidence": "1440/6-medical-sources-top,bottom.png,390 top,middle-1,bottom and320/360 bottom. Source panel corner is fully contained and56px mineral closing band precedes the intentional12px mobile walnut stripe. Desktop20px right rail is the unchanged shared approved footer."
+      },
+      {
+        "boundary": "footer top / meaningful groups / page terminal",
+        "status": "PASS",
+        "desktop_top_bottom_css_px": [
+          48,
+          49
+        ],
+        "mobile_top_bottom_css_px": [
+          60,
+          49
+        ],
+        "local_unit": "48px footer interior padding;12px mobile stripe intentionally adds to top",
+        "evidence": "1440/footer-bottom.png,390/footer-bottom.png,320/footer-bottom.png. Logo, tagline, booking-status control, utility links and disclaimer fully visible; utility links wrap into orderly rows. Decorative silver cap and walnut rail/stripe excluded from meaningful bounds, not flagged as stray."
+      }
+    ],
+    "findings": [
+      {
+        "id": "PFC-01",
+        "status": "FAIL",
+        "frame": "01-hero",
+        "layers": [
+          "composition"
+        ],
+        "owner": "Builder / design owner",
+        "action": "Rebalance the desktop heading and mineral/charcoal scaffold around the capped exact338x520 portrait. Preserve head/hands/cup/chair and truthful status; do not enlarge beyond source or recreate the missing landscape through generation. Recapture1440/1536whole hero and seams."
+      },
+      {
+        "id": "PFC-02",
+        "status": "FAIL",
+        "frame": "01-hero",
+        "layers": [
+          "visual_treatment",
+          "responsive"
+        ],
+        "owner": "Builder",
+        "action": "Keep the blue stair motif out of320/360heading paint and recompose the mobile first fold so the seated-person focal subject is not deferred entirely below it. Preserve status and useful Services action. Recapture320/360/390hero top/middle/bottom."
+      },
+      {
+        "id": "PFC-03",
+        "status": "FAIL",
+        "frame": "05-faq",
+        "layers": [
+          "content",
+          "responsive"
+        ],
+        "owner": "Builder",
+        "action": "Recompose the required Start with a question. clinical-context boundary on mobile instead of display:none. Verify all four answers and clinical limitation remain readable; recapture390/360/320FAQ and neighbours."
+      }
+    ],
+    "applicability": "Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical.",
+    "source_identity": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/source-identity.json",
+      "sha256": "dd87ab1612ecc550207c78673b120804d59735d4ef1dc5fb3864c890396e11c3"
+    },
+    "source_repair": {
+      "frames": [
+        "01-hero",
+        "05-faq"
+      ],
+      "decision": "Tighten the hero to a 1200px maximum grid with a 386px portrait frame (338px original image plus 24px rails), expand heading measure, and retain the desktop 670px stage. On mobile remove the decorative wedge, reduce excess copy/art spacing and use a 32px minimum heading without hiding text. Restore the clinical-context FAQ boundary as a natural-height mobile panel.",
+      "residual": "Hero responsive remains FAIL: earlier first-fold source person, including at320/360, is not visually verified. No source pixels enlarged/cropped/generated and no status/control truncated. All five original FAIL layers await independent fresh review.",
+      "source_file": "app/services/pelvic-floor-incontinence/page.css",
+      "before_sha256": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2",
+      "after_sha256": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3",
+      "status": "REPAIR_PENDING_INDEPENDENT_REVIEW"
+    },
+    "next_owner": "Controller -> independent targeted route reviewer",
+    "next_action": "Controller: Git push this exact commit, bind the immutable deployment to its SHA, recapture hero page-top/whole-section/top/middle/bottom and hero-to-orientation at 1440x900,1536x1024,390x844,360x800,320x800. Capture mobile FAQ top/middle/bottom and expectations-to-FAQ/FAQ-to-booking joins at 390/360/320, plus desktop FAQ unchanged regression. Independent targeted reviewer must assess original hero composition/visual_treatment/responsive and FAQ content/responsive; keep all other original PASS layers. Verify full 338x520 source-visible person, headline quiet zone, complete status/control, earlier mobile focal subject, both FAQ boundary sentences, all four answers and legal caveat. First-fold portrait remains unresolved without fresh native PNGs; do not infer PASS from CSS or DOM.",
+    "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+  },
+  "controller_application_r2": {
+    "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+    "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#pelvic-floor-incontinence",
+    "original_report": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json",
+        "sha256": "39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.md",
+        "sha256": "9e45df6928c097c80139de6be0638d8020ac6fde73e476e9e1da65807fd84cfe"
+      }
+    ],
+    "historical_review_blocks_preserved": true,
+    "previous_fidelity": {
+      "01-hero": {
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440/page-top.png and1536/0-hero-top.png show a narrow portrait on the far right inside a much wider mostly empty charcoal/mineral scaffold. The native frame's landscape-to-copy counterweight becomes broad blank geometry; the headline wraps into five lines despite the wide viewport. Approved extraction limits are respected, but the surrounding composition has not resolved the open broad-scaffold/counterweight issue. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/0/layers/composition. Native design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png sha256=a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Navy/blue fields, Source Sans600 headings and italic caption retain the local frame vocabulary. However320/0-hero-top.png and360/page-top.png show the blue stair motif painting into/behind the final portion of the first headline line, unlike the native quiet zone. This is a visible decoration/text collision, not an unused-font failure. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/0/layers/visual_treatment. Native design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png sha256=a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "FAIL",
+          "evidence": "390/0-hero-top.png includes only the top garden strip at the first fold;320/0-hero-top.png and360/page-top.png contain no seated-person focal subject. The full source-safe subject is available in middle captures, but first-fold focal loss and320/360 motif collision fail the responsive composition gate. No horizontal overflow. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/0/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/01-hero.png sha256=a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      },
+      "05-faq": {
+        "content": {
+          "status": "PASS",
+          "evidence": "1440/4-faq-bottom.png visibly includes the required Start with a question. / Individual care questions need your own clinical context. boundary. It is absent in all390 top/middle/bottom images. page.css line101 sets p-faq-boundary display:none at<=800px. Four answers and general limitations survive, but this specific manifest-required message is dropped on mobile. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/4/layers/content. Native design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png sha256=d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and320/360 bottom preserve all four answers, qualification note and Services link without overflow, but omit the required editorial boundary rather than recomposing it. Failure is missing meaningful content, not mobile text size. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd#/sections/4/layers/responsive. Native design_refs/pages/pelvic-floor-incontinence/refs/05-faq.png sha256=d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical."
+        }
+      }
+    },
+    "qa_verdict": "PENDING",
+    "edge_flag_changed": false,
+    "adjudicated_layers_at_cd26b81": [
+      {
+        "frame": "01-hero",
+        "layer": "composition",
+        "original": "FAIL",
+        "current": "PASS",
+        "widths": [
+          1440,
+          1536
+        ],
+        "evidence": "page-top and hero-bottom. Three-line widened heading and compact source-sized image track now balance the left copy against the full seated-person portrait. Broad empty charcoal scaffold is gone; mineral/charcoal rails stay closely attached to the portrait. Native visual relationship is resolved through the documented source-safe successor, not by enlarging or extending the image."
+      },
+      {
+        "frame": "01-hero",
+        "layer": "visual_treatment",
+        "original": "FAIL",
+        "current": "PASS",
+        "widths": [
+          1440,
+          1536,
+          390,
+          360,
+          320
+        ],
+        "evidence": "page-top and hero-middle/bottom. Mobile hero motif is absent; full heading quiet zone is clean at320/360/390. Desktop isolated upper-right steps, navy field, mineral rails and italic live caption remain. No decoration intersects text."
+      },
+      {
+        "frame": "01-hero",
+        "layer": "responsive",
+        "original": "FAIL",
+        "current": "FAIL",
+        "widths": [
+          390,
+          360,
+          320
+        ],
+        "evidence": "Initial page-top PNGs:390 shows only the person's crown at the very bottom;360 and320 show garden without a recognizable person. Image begins681.656/698.547/726.188 CSS px respectively, against844/800/800 folds. Middle PNGs prove complete loaded head, hand/cup and chair, but do not cure first-fold focal loss. Status and Services control remain complete; no overflow."
+      },
+      {
+        "frame": "05-faq",
+        "layer": "content",
+        "original": "FAIL",
+        "current": "PASS",
+        "widths": [
+          1440,
+          1536,
+          390,
+          360,
+          320
+        ],
+        "evidence": "FAQ top/middle/bottom PNGs show both Start with a question. and Individual care questions need your own clinical context. at every width. All four answers, clinical limitation and Services action remain visible over the complete sequence. No removed privacy or booking claims restored."
+      },
+      {
+        "frame": "05-faq",
+        "layer": "responsive",
+        "original": "FAIL",
+        "current": "PASS",
+        "widths": [
+          390,
+          360,
+          320
+        ],
+        "evidence": "Required boundary becomes a natural-height panel before the first answer with30px external gap,139.55px painted panel height and20px internal closing padding. Text is complete and legible at320, not clipped or hidden. Four answer panels stack coherently and the final action clears the next section."
+      }
+    ],
+    "followup": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json",
+        "sha256": "29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.md",
+        "sha256": "cdc3e98a5c1174dc56c2bd16299d9321819fb50f5ce06d609c60c2e2ecc3bbec"
+      }
+    ],
+    "current_layer_counts": {
+      "PASS": 32,
+      "PENDING": 2,
+      "FAIL": 1
+    },
+    "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged."
+  },
+  "current_followup": {
+    "source_sha": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+    "reviewer": "web-developer@gomega.ai independent read-only d1776852",
+    "preview_url": "https://sigma-core-medical-review-m5is13r2h-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+    "github_deployment_id": 6852280956,
+    "vercel_deployment_id": "dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ",
+    "ready_state": "READY",
+    "artifacts": [
+      {"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-01af77d-hero-followup.json", "sha256": "fcc1b3fdf1d64dfef171aa7548891dc38008220d91275ac335bac94913b96877"},
+      {"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-01af77d-hero-followup.md", "sha256": "10fd8cba22b035ad628a3ee832898f7a1bc4e05b30dd8b85058435938cdf1740"}
+    ],
+    "supported_layers": ["01-hero.composition", "01-hero.visual_treatment", "01-hero.responsive"],
+    "widths": [320, 360, 390, 1440, 1536],
+    "current_layer_counts": {"PASS": 35},
+    "other_32_layers": "UNCHANGED, inherited applicability, not fresh visual recertification",
+    "portrait": {"path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png", "sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e", "dimensions": [338, 520]},
+    "capture_root": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-01af77d-native",
+    "capture_integrity": "102 native PNG/sibling JSON pairs; viewport counts1440:17,1536:16,390:22,360:23,320:24. All hashes/dimensions match, complete before/after equal, fonts loaded, images decoded, clientWidth==scrollWidth. Representative per-width hero hashes and receipt hashes in report#/capture_integrity.",
+    "desktop_regression": "1440/1536 same-state native PNG bytes and geometry identicalcd26; zero changed pixels",
+    "targeted_verdict": "PASS_TARGETED",
+    "full_route_verdict": "NOT_PERFORMED",
+    "section_edge_clearance_audited": false,
+    "qa_verdict": "PENDING",
+    "scope": "Only three hero statuses/current rationale applied. Original FAIL and cd26 followup/controller_application_r2 retained as history, never rewritten. Hero entry/exit clear does not recertify other route joins. No code/runtime/canonical mirror, QA, publication or launch changes."
+  }
+}

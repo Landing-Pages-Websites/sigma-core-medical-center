@@ -1,12 +1,16 @@
-import { PendingAction } from "@/components/shared/pending-action";
-import { PENDING } from "@/content/site";
+import Link from "next/link";
 
 type PolicyLinkProps = {
   label: React.ReactNode;
   className: string;
+  href?: "/terms" | "/privacy" | "/notice-of-privacy-practices";
 };
 
-/** Terms, privacy, and notice links point to pages that are not published yet; explain that honestly. */
-export function PolicyLink({ label, className }: PolicyLinkProps): React.ReactElement {
-  return <PendingAction label={label} title={PENDING.policy.title} message={PENDING.policy.message} className={className} />;
+/** Link to one of the site policy pages (terms by default). */
+export function PolicyLink({ label, className, href = "/terms" }: PolicyLinkProps): React.ReactElement {
+  return (
+    <Link href={href} className={className}>
+      {label}
+    </Link>
+  );
 }

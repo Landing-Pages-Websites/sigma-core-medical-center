@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "production_html_routes": 15,
+  "internal_links_fragments_checked": 318,
+  "review_sheet_images_resolved": 181,
+  "section_ids": {
+    "/": [
+      "hero",
+      "neuropathy",
+      "services",
+      "place-of-care",
+      "how-it-works",
+      "next-steps",
+      "faq"
+    ],
+    "/services": [
+      "hero",
+      "neuropathy",
+      "service-navigation",
+      "how-it-works",
+      "form"
+    ],
+    "/services/neuropathy": [
+      "hero",
+      "visitor-orientation",
+      "goals-and-decision-factors",
+      "what-to-expect",
+      "faq",
+      "form",
+      "medical-sources"
+    ],
+    "/services/pain-relief": [
+      "hero",
+      "pain-concern-navigation",
+      "knee-concerns",
+      "low-back-concerns",
+      "neck-concerns",
+      "decision-factors",
+      "faq",
+      "form",
+      "medical-sources"
+    ],
+    "/services/hormone-optimization": [
+      "hero",
+      "visitor-orientation",
+      "goals-and-decision-factors",
+      "responsible-next-step",
+      "faq",
+      "form",
+      "medical-sources"
+    ],
+    "/services/pelvic-floor-incontinence": [
+      "hero",
+      "private-orientation",
+      "concerns-and-goals",
+      "what-to-expect",
+      "faq",
+      "form",
+      "medical-sources"
+    ],
+    "/services/regenerative-medicine": [
+      "hero",
+      "category-orientation",
+      "questions-for-a-consultation",
+      "decision-factors",
+      "faq",
+      "form",
+      "medical-sources"
+    ],
+    "/about": [
+      "hero",
+      "clinic-purpose",
+      "facility-gallery",
+      "care-principles",
+      "team-publication-gate",
+      "booking-cta"
+    ],
+    "/educational-guide": [
+      "resource-hero",
+      "resource-summary",
+      "lead-form",
+      "privacy-note"
+    ],
+    "/book": [
+      "booking-hero",
+      "gohighlevel-calendar",
+      "privacy-note"
+    ],
+    "/contact": [
+      "contact-hero",
+      "verified-location-details",
+      "facility-image",
+      "booking-cta"
+    ],
+    "/privacy": [
+      null
+    ],
+    "/notice-of-privacy-practices": [
+      null
+    ],
+    "/accessibility": [
+      null
+    ],
+    "/terms": [
+      null
+    ]
+  },
+  "errors": [],
+  "boundary": "Prerendered HTML checks only; no browser, layout, focus or hydration claim."
+}

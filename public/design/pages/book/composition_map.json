@@ -1,0 +1,638 @@
+{
+  "version": 1,
+  "page": "book",
+  "status": "REVIEWED_SUCCESSOR_HANDOFF",
+  "reference_resolution": "1536x864 per frame",
+  "source_commit": "b867d855adb287c71bef1e07487e934edff314c4",
+  "candidate_only": false,
+  "independent_review": "KEEP",
+  "frames": [
+    {
+      "frame": "01-booking-hero",
+      "reference": "refs/01-booking-hero.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "evidence_limit": "Native design frame only; mobile rules are a proposed responsive design contract, not a tested implementation."
+      },
+      "focal_point": {
+        "what": "Truthful scheduling H1 followed by the single dominant unavailable statement",
+        "where": "H1 observed bounds x148\u2013816,y144\u2013364; status x150\u20131006,y445\u2013499"
+      },
+      "dominance": "The title is the largest type in the page. Availability is the second reading target and spans more width than the title. Right open bracket and blue bars remain subordinate geometry.",
+      "eye_path": [
+        "Appointment scheduling",
+        "Online booking is not yet available.",
+        "Explore service information and contact status below.",
+        "right open geometry and angled blue transition"
+      ],
+      "quiet_zones": [
+        "Between the main text block and the open right aperture",
+        "Navy below the body and above the angled transition"
+      ],
+      "overlaps": [
+        "No text overlaps decoration. Open silver aperture crops at the right frame boundary; lower blue plane abuts the next blue section."
+      ],
+      "tension": "Broad left typographic mass balances a cropped open angular contour and small right steps; there is no closed calendar box.",
+      "content_groups": [
+        {
+          "id": "hero-copy",
+          "elements": [
+            "h1",
+            "availability",
+            "body"
+          ],
+          "observed_bounds": [
+            148,
+            144,
+            1006,
+            556
+          ]
+        },
+        {
+          "id": "hero-geometry",
+          "elements": [
+            "left squared bracket",
+            "right open silver aperture",
+            "three cobalt steps"
+          ],
+          "semantic_role": "decorative aria-hidden"
+        }
+      ],
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Exact approved palette CSS tokens; do not sample the provider noise into CSS.",
+        "layer_stack": [
+          "flat CSS field",
+          "CSS/SVG decorative geometry",
+          "semantic HTML text"
+        ],
+        "raster_assets": [],
+        "raster_count": 0,
+        "source_of_truth": "section_manifest.json exact text and action outcomes; observed native layout plus these relational invariants"
+      },
+      "observed_geometry": {
+        "left_bracket": [
+          90,
+          108,
+          129,
+          375
+        ],
+        "right_open_aperture_polyline": [
+          [
+            1536,
+            106
+          ],
+          [
+            1364,
+            106
+          ],
+          [
+            1142,
+            331
+          ],
+          [
+            1329,
+            516
+          ]
+        ],
+        "stepped_bars": [
+          [
+            1280,
+            574,
+            1335,
+            620
+          ],
+          [
+            1356,
+            537,
+            1411,
+            620
+          ],
+          [
+            1431,
+            486,
+            1487,
+            620
+          ]
+        ],
+        "blue_plane_polygon": [
+          [
+            0,
+            766
+          ],
+          [
+            631,
+            766
+          ],
+          [
+            1536,
+            627
+          ],
+          [
+            1536,
+            864
+          ],
+          [
+            0,
+            864
+          ]
+        ],
+        "units": "native frame px, observed composition anchors, never asset-crop coordinates"
+      },
+      "invariants": [
+        "H1 must say Appointment scheduling; never restore the old Book your appointment imperative while unavailable.",
+        "Show the status once, immediately below H1 and above supporting copy, within the same unbroken primary group.",
+        "Keep title\u2192status\u2192body hierarchy; unavailable status must remain unmistakable at 1440 and 390.",
+        "No real or invented photography, calendar icon, date grid, boxed widget or new explanatory status card.",
+        "Preserve open right geometry, squared opening bracket and stepped bars as the selected B motif; do not turn them into an axis, progress indicator or control.",
+        "Keep all meaningful text left of x~1010 in the native composition; right contour may crop only as decoration.",
+        "Blue plane resolves into the next section without an extra separator, margin or mismatched band."
+      ],
+      "free": [
+        "Fluid type sizes and moderate wrap changes while preserving words, order and status prominence",
+        "Mobile decorative scale and clipping; decoration must not add another viewport of height",
+        "Entry/exit space outside the content group; native frame height is not min-height:864px"
+      ],
+      "viewport_intent": {
+        "must_be_simultaneously_visible": [
+          "complete H1",
+          "complete unavailable statement",
+          "supporting sentence"
+        ],
+        "may_continue_below_fold": [
+          "non-semantic lower transition geometry"
+        ],
+        "crop_invariants": [
+          "Never crop text; only the outer decorative aperture may crop"
+        ]
+      },
+      "responsive_contract": {
+        "desktop": "Use a wide primary text group with room for right decoration, not two equal content cards. At 1440 the complete H1/status/body remain together with no oversized blank stage.",
+        "mobile": "One semantic column with 24px side gutters. H1 44\u201348px Source Sans 3 800, preferred two lines Appointment / scheduling; status 26\u201328px with natural two/three-line wrap; body 18\u201320px. Keep 20\u201328px H1/status spacing and 16\u201320px status/body spacing. Shrink right geometry into a quiet lower-right accent, preserve at least the bracket/step motif, and avoid overlap; hide excess purely decorative contour if needed. No fixed frame-ratio or viewport-height hero."
+      },
+      "typography_contract": {
+        "headline": "Source Sans 3 800; native approx112px; intended desktop 80\u2013110px according to available measure",
+        "status": "Source Sans 3 600/700; native approx54px; preserve hierarchy, silver/light on navy",
+        "body": "Source Sans 3 400; native approx28px; coded min18px"
+      },
+      "seam_contract": {
+        "top": "ink #101E33 in code, raw provider navy variation retained",
+        "bottom": "action #0666A5 exact shared edge",
+        "geometry": "angle rises toward right; no motif crosses seam"
+      },
+      "dom_id": "booking-hero",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/hero.tsx",
+        "source_sha256": "16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b",
+        "dom_ids": [
+          "booking-hero",
+          "book-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id booking-hero and responsive container. Flat approved CSS token: ink #101E33. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use a section pseudo-element with background var(--action) and clip-path polygon(0 88.66%,41.08% 88.66%,100% 72.57%,100% 100%,0 100%) in a section-local overlay. Draw three aria-hidden electric-blue rectangles near lower-right, unequal heights 46:83:134 with equal width55 and baseline620 in the native coordinate system. Separate rectangles from the plane; these are not a chart. One live h1 contains Appointment scheduling; desktop preferred break after Appointment. Load Source Sans 3 800. Native observed first line x148,y144 with width668; preserve heavy open-countered scale, never use raster text. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 800; line-height: 1.04. This region is the second line of the same h1, not another heading. Source Sans 3 800 with near1.0\u20131.08 line-height; preferred scheduling on line2. Mobile 44\u201348px with a two-line measure. Live paragraph following the h1, exact Online booking is not yet available. Source Sans 3 600/700, silver #C7CBD0 or light on ink. Keep at least twice body hierarchy where desktop room allows; mobile26\u201328px. No badge, link or control role. Live paragraph from manifest in Source Sans 3 400, light on ink, at least18px, max measure about40 characters on mobile and wider desktop. It has no interaction or scroll button. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Inline decorative SVG with viewBox 0 0 1536 864, polyline points 1536,106 1364,106 1142,331 1329,516; fill none; silver stroke8 at native scale. aria-hidden, focusable=false, pointer-events:none. Crop only right-edge geometry. Do not close into a widget. Simple SVG path M129 112 H95 V371 H129 with electric stroke9, no fill. Anchor to the h1 group, not entire section height. On mobile scale to a 24px-wide bracket with3px stroke and text-safe gap.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-gohighlevel-calendar",
+      "reference": "refs/02-gohighlevel-calendar.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "evidence_limit": "Native design frame only; mobile rules are a proposed responsive design contract, not a tested implementation."
+      },
+      "focal_point": {
+        "what": "Open scheduling reserve and two information navigation routes",
+        "where": "Heading x151\u2013614,y130\u2013280; primary Services link x1015\u20131470,y197\u2013293"
+      },
+      "dominance": "A left reserve occupies roughly three fifths; a narrower right navigation column starts below the title top. The Services anchor is filled; Contact is a subordinate underlined link with a visible caveat.",
+      "eye_path": [
+        "Scheduling calendar",
+        "Calendar connection pending.",
+        "Explore services",
+        "Browse service information.",
+        "Contact & location status",
+        "Contact is for status information only."
+      ],
+      "quiet_zones": [
+        "Open blue space under the pending status and rule",
+        "Blue gap between reserve and navigation, and above mineral transition"
+      ],
+      "overlaps": [
+        "No card overlaps the reserve. The mineral lower plane abuts the quiet section."
+      ],
+      "tension": "A large open blue expanse and long rule balance one sharp mineral action and one lighter text link.",
+      "content_groups": [
+        {
+          "id": "inactive-reserve",
+          "elements": [
+            "h2",
+            "pending paragraph",
+            "open silver rule",
+            "three short steps"
+          ],
+          "semantic_role": "Static section content; never focusable or input-capable"
+        },
+        {
+          "id": "routes",
+          "elements": [
+            "Services anchor and description",
+            "Contact anchor and caveat"
+          ],
+          "semantic_role": "Two existing-route anchors only"
+        }
+      ],
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Exact approved palette CSS tokens; do not sample the provider noise into CSS.",
+        "layer_stack": [
+          "flat CSS field",
+          "CSS/SVG decorative geometry",
+          "semantic HTML text and real anchor navigation"
+        ],
+        "raster_assets": [],
+        "raster_count": 0,
+        "source_of_truth": "section_manifest.json exact text and action outcomes; observed native layout plus these relational invariants"
+      },
+      "observed_geometry": {
+        "reserve_group": [
+          150,
+          130,
+          946,
+          595
+        ],
+        "open_rule_polyline": [
+          [
+            150,
+            428
+          ],
+          [
+            945,
+            428
+          ],
+          [
+            945,
+            456
+          ]
+        ],
+        "services_anchor_polygon": [
+          [
+            1015,
+            197
+          ],
+          [
+            1431,
+            197
+          ],
+          [
+            1470,
+            246
+          ],
+          [
+            1431,
+            293
+          ],
+          [
+            1015,
+            293
+          ]
+        ],
+        "contact_link_group": [
+          1042,
+          427,
+          1459,
+          555
+        ],
+        "mineral_plane_polygon": [
+          [
+            0,
+            852
+          ],
+          [
+            478,
+            746
+          ],
+          [
+            1536,
+            746
+          ],
+          [
+            1536,
+            864
+          ],
+          [
+            0,
+            864
+          ]
+        ],
+        "units": "native frame px, observed composition anchors, never asset-crop coordinates"
+      },
+      "invariants": [
+        "Show only static Calendar connection pending. in the reserve; do not reconstruct the retired white calendar slot or invent any dates, slots, fields, selector, loading or submission state.",
+        "Keep reserve and navigation visually distinct without a boxed widget or equal card grid.",
+        "Only Explore services\u2192/services and Contact & location status\u2192/contact look clickable.",
+        "Contact caveat stays visually grouped directly below its link at body size and high contrast; never imply a verified alternate booking channel.",
+        "Services remains stronger than Contact through filled mineral versus underlined text treatment.",
+        "Long body copy uses white/light on exact action-blue #0666A5 in code, never long white text on electric #0877BE.",
+        "Open rule stops before the route column; it has no node, selector or chart interpretation.",
+        "Mineral plane matches the next section; no photo strip or after-booking assurance is restored."
+      ],
+      "free": [
+        "Responsive grid ratio and link width; keep source/route relationships",
+        "Small line-break adjustments, focus ring and minimum hit area",
+        "Natural coded section height may be substantially shorter than 864px as long as primary content remains grouped"
+      ],
+      "viewport_intent": {
+        "must_be_simultaneously_visible": [
+          "heading",
+          "pending status",
+          "both links and their supporting text at desktop"
+        ],
+        "may_continue_below_fold": [
+          "lower link on narrow/mobile viewport through natural flow"
+        ],
+        "crop_invariants": [
+          "No clipping of link label, arrow or Contact caveat"
+        ]
+      },
+      "responsive_contract": {
+        "desktop": "About 60/40 reserve/navigation grid with 56\u201396px gap, common section gutter. Right route column is offset down approximately one heading line; no artificial centered vertical alignment.",
+        "mobile": "Stack H2 then pending sentence then compact open rule, followed by Services and Contact routes. H2 34\u201340px; body/link labels at least18px. Use full available width with 48px minimum focusable link height; Contact label wraps and its arrow stays in a separate trailing slot. Keep caveat directly below Contact, no detached rail. Compress blue negative space and the decorative steps. The reserve adds no blank widget height."
+      },
+      "typography_contract": {
+        "heading": "Source Sans 3 700; native approx90px; quieter than hero",
+        "body": "Source Sans 3 400; native approx30px",
+        "links": "Source Sans 3 700, native approx36px Services and30px Contact; coded min18px"
+      },
+      "action_outcomes": [
+        {
+          "label": "Explore services",
+          "href": "/services",
+          "element": "a",
+          "outcome": "Navigate to existing Services page with service-category information; no appointment request or confirmation."
+        },
+        {
+          "label": "Contact & location status",
+          "href": "/contact",
+          "element": "a",
+          "outcome": "Navigate to existing Contact page with current contact/location status; this is not an alternate booking channel."
+        }
+      ],
+      "seam_contract": {
+        "top": "action #0666A5 exact edge matching hero",
+        "bottom": "surface #F7F6F3 exact edge matching privacy",
+        "geometry": "mineral diagonal rises from lower-left to x478,y746 then flattens; no motif crosses"
+      },
+      "dom_id": "gohighlevel-calendar",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/calendar.tsx",
+        "source_sha256": "e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115",
+        "dom_ids": [
+          "gohighlevel-calendar",
+          "book-calendar-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id gohighlevel-calendar and responsive container. Flat approved CSS token: action #0666A5. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use surface #F7F6F3 pseudo-element polygon(0 98.61%,31.12% 86.34%,100% 86.34%,100% 100%,0 100%) over action-blue section. Position in closing space only; adjacent privacy shares exact surface token. No texture or raster crop. Semantic a href=/services, exact Explore services label, separate decorative right-arrow SVG M0 12 H30 M19 1 L30 12 L19 23. Mineral fill with right angular end made by clip-path polygon(0 0,91% 0,100% 50%,91% 100%,0 100%); navy label Source Sans 3 700; minimum48px hit area. Clip only pseudo-element, not focus ring or text. Live h2 Scheduling calendar in Source Sans 3 700, preferred two-line desktop break; keep smaller than hero. This is a status section, no invented calendar widget. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live Source Sans 3 paragraph Contact is for status information only. directly below the Contact anchor with16\u201324px gap. Light on action-blue; coded minimum18px. No alternate channel or booking promise. Semantic a href=/contact, exact Contact & location status, underlined live text and trailing thin arrow; no filled card. Use Source Sans 3 600/700, light on action blue. Two-line label allowed on mobile; arrow in its own flex slot, min48px hit area. Live paragraph Calendar connection pending. below h2, Source Sans 3 400, light on action. No role button, tabindex, form or iframe; no animated loading indicator. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Live paragraph Browse service information. directly below Services anchor; keep its relationship separate from Contact link/caveat. Source Sans 3 400, light on action blue. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Draw three aria-hidden rectangles with mineral fill, about54x15 at(150,580),62x15 at(188,555),95x15 at(234,530). Keep no axis, labels or progress semantics. Add the separately thin open rule as described in frame supplemental recipe.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-privacy-note",
+      "reference": "refs/03-privacy-note.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "evidence_limit": "Native design frame only; mobile rules are a proposed responsive design contract, not a tested implementation."
+      },
+      "focal_point": {
+        "what": "Concise privacy/legal title and offset pending-content note",
+        "where": "Title x175\u2013605,y183\u2013304; note x832\u20131392,y310\u2013529"
+      },
+      "dominance": "Smaller title holds upper-left; the right note begins lower and combines a selective serif status with one readable sentence. Broad mineral quiet space closes the sequence.",
+      "eye_path": [
+        "Privacy & legal information",
+        "Content pending",
+        "Privacy and legal information will be linked here when supplied and approved.",
+        "small blue terminating line"
+      ],
+      "quiet_zones": [
+        "Wide space between title and note",
+        "Broad lower mineral field; breathing room, not a required future section height"
+      ],
+      "overlaps": [],
+      "tension": "Left sans heading with bracket offsets a lower right serif note and thin rule; the open arrangement avoids a centered legal card.",
+      "content_groups": [
+        {
+          "id": "privacy-title",
+          "elements": [
+            "h2",
+            "decorative left bracket"
+          ]
+        },
+        {
+          "id": "pending-note",
+          "elements": [
+            "silver top rule",
+            "Content pending",
+            "single explanatory sentence",
+            "small blue terminal mark"
+          ],
+          "semantic_role": "Static content, no links or controls"
+        }
+      ],
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Exact approved palette CSS tokens; do not sample the provider noise into CSS.",
+        "layer_stack": [
+          "flat CSS field",
+          "CSS/SVG decorative geometry",
+          "semantic HTML text"
+        ],
+        "raster_assets": [],
+        "raster_count": 0,
+        "source_of_truth": "section_manifest.json exact text and action outcomes; observed native layout plus these relational invariants"
+      },
+      "observed_geometry": {
+        "title_group": [
+          124,
+          144,
+          605,
+          347
+        ],
+        "open_note_rule": [
+          [
+            832,
+            311
+          ],
+          [
+            1392,
+            311
+          ]
+        ],
+        "status_bounds": [
+          834,
+          345,
+          1209,
+          397
+        ],
+        "body_bounds": [
+          835,
+          425,
+          1319,
+          493
+        ],
+        "terminal_rule": [
+          834,
+          523,
+          935,
+          529
+        ],
+        "units": "native frame px, observed composition anchors, never asset-crop coordinates"
+      },
+      "invariants": [
+        "Keep only the three exact copy items; do not restore emergency/security/HIPAA language, promises about information use, policy titles as links or booking copy.",
+        "Pending content note is a quiet static surface, never an alert, consent box, fake policy card or booking CTA.",
+        "Source Sans 3 title/body remain dominant page system; Content pending is the single restrained Playfair Display counterpoint.",
+        "Note begins visibly lower than the left title at desktop; preserve the asymmetric relationship.",
+        "Keep broad negative space and the open rule, without adding a side/bottom outline or invented content.",
+        "All policy links remain absent until actual supplied approved content/destinations; candidate does not supply legal copy.",
+        "Terminate motif within section, without creating global footer content."
+      ],
+      "free": [
+        "Natural compact section height in code and mobile",
+        "Title/note vertical spacing within a clear asymmetric desktop and sequential mobile group",
+        "Readable responsive line wraps; do not reduce copy below18px to imitate the bitmap"
+      ],
+      "viewport_intent": {
+        "must_be_simultaneously_visible": [
+          "title",
+          "Content pending",
+          "single complete sentence"
+        ],
+        "may_continue_below_fold": [
+          "only decorative closing space"
+        ],
+        "crop_invariants": [
+          "All copy fully visible; no image crops exist"
+        ]
+      },
+      "responsive_contract": {
+        "desktop": "Approximately 46/54 open grid, right note offset by 100\u2013140px from title top; no filled card. Do not force an 864px section height.",
+        "mobile": "Title then pending note in one column, left aligned. Title 32\u201336px Source Sans 3 700; Content pending 26\u201330px Playfair Display; body18\u201320px. Note rule starts 32\u201340px after title, sentence follows status by16\u201320px, terminal line 24px below sentence. Use 56\u201372px outer section space and discard oversized native lower blank area."
+      },
+      "typography_contract": {
+        "heading": "Source Sans 3 700; native approx64px",
+        "status": "Playfair Display 500; native approx52px; selective counterpoint",
+        "body": "Source Sans 3 400; native approx28px; coded min18px"
+      },
+      "seam_contract": {
+        "top": "surface #F7F6F3 exact entry edge",
+        "bottom": "surface #F7F6F3 in code; slight provider tone retained in native core",
+        "geometry": "no new band, no footer or motif crossing"
+      },
+      "dom_id": "privacy-note",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/privacy.tsx",
+        "source_sha256": "4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf",
+        "dom_ids": [
+          "privacy-note",
+          "book-privacy-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id privacy-note and responsive container. Flat approved CSS token: surface #F7F6F3. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Live h2 Privacy & legal information in Source Sans 3 700 with preferred desktop line break after legal. Navy on mineral; native x175\u2013605. Keep below hero scale. Do not render policy titles as links. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live paragraph Privacy and legal information will be linked here when supplied and approved. Source Sans 3 400, charcoal on mineral, coded18px minimum and comfortable1.5\u20131.6 line-height; max about38\u201344ch. No invented legal/privacy claims. Static live p Content pending using actual Playfair Display 500; keep as the only serif counterpoint and below hero scale. Native x834,y345. Do not style as a button, warning or consent control. Implement the reviewed typography in CSS: font-family: \"Playfair Display\"; font-weight: 500; line-height: 1.2. Decorative SVG path M159 147 H127 V344 H159, electric stroke5, fill none. Anchor to title block with about24px text gap; on mobile3px stroke. No box around whole section.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "page_relational_invariants": [
+    "Navy status\u2192open blue inactive surface and real information routes\u2192quiet mineral legal-content status.",
+    "Three different anchors: broad kinetic type, open reserve/navigation, offset quiet note. Never flatten to repeated centered cards.",
+    "No image slot survives in this successor. Native PNGs are review references only, never build backgrounds.",
+    "One booking unavailable statement only; other statuses are distinct pending calendar connection and legal content.",
+    "Retain noindex, follow and integration gate; no service or Contact link creates an appointment."
+  ],
+  "render_limits": [
+    "Provider glyphs approximate named fonts; code must load the actual approved Source Sans 3 and Playfair Display families.",
+    "Provider core fields have small color/noise variations; exact palette tokens in manifest/recipes own code.",
+    "No native mobile frame exists. Independent live review judged responsive relationships at 1440/390 and supplied 320/360/768/1536/1728 captures; see handoff_review. Full-route edge clearance remains unaudited."
+  ],
+  "handoff_review": {
+    "status": "REVIEWED_SUCCESSOR_HANDOFF",
+    "scope": "Book content sections only; authorized automated handoff reconciliation, not historical customer approval, QA, clinical/legal approval, booking activation or site convergence.",
+    "reference_review": {
+      "research_path": "site_convergence/book/truthful-successor-r1-art-review.md",
+      "sha256": "31153d5792f0c727885201056c2ff4562c65fba3f4a8147caa393362f9443f90",
+      "verdict": "CANDIDATE_KEEP_PENDING_IMPLEMENTATION"
+    },
+    "live_review": {
+      "research_path": "site_convergence/book/truthful-successor-build-r1-art-review.md",
+      "sha256": "cabe4134a89bdeb3bdae39eeceedf6a41adb989d20d582483c3dc9993c245f37",
+      "verdict": "KEEP",
+      "reviewed_commit": "0e435d6a160de7f432338e40122837131307b49a",
+      "layers": [
+        "content",
+        "imagery",
+        "composition",
+        "visual_treatment",
+        "responsive"
+      ]
+    },
+    "details": "HANDOFF.json"
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  }
+}

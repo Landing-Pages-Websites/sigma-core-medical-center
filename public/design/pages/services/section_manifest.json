@@ -1,0 +1,659 @@
+{
+  "version": 1,
+  "page": {
+    "slug": "services",
+    "route": "/services",
+    "title": "Medical Services in Richmond, VA | Sigma Core Medical Center",
+    "intent": "commercial",
+    "audience": "a solution-aware Richmond adult unsure which category fits",
+    "primary_intent": "comparing Sigma Core's confirmed service categories",
+    "publication": {
+      "status": "customer-review-required",
+      "gate": "Customer approval required before publication."
+    }
+  },
+  "brand": {
+    "name": "Sigma Core Medical Center",
+    "wordmark": "Sigma Core Medical Center",
+    "location": "Richmond, Virginia area",
+    "address": "725 Manakin Towne Lane, Manakin-Sabot, VA 23103 (reconfirm before launch)",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "opening_target": "September 8, 2026",
+    "tagline": "Human Performance and Longevity",
+    "brand_color_from_logo": "#0877BE",
+    "palette_guidance": "Preserve the supplied deep navy, silver, and electric-blue identity. Translate the dimensional logo into flat accessible web roles: deep navy #101E33, electric blue #0877BE, silver #C7CBD0, warm mineral #F7F6F3, charcoal #20272E, and restrained walnut #9A572B sampled from the real clinic. Metallic effects belong only to the supplied logo and fine structural keylines. No purple gradients, sterile hospital blue, or invented bright hues.",
+    "voice": "Direct-response, concise, premium, calm, and patient-centered. Benefit-led without hype, jargon, fear, or unsupported medical claims.",
+    "identity_belief": "A longer, more active life starts with a clear, personalized next step focused on movement, function, recovery, and independence.",
+    "visual_metaphor": "The core mark becomes a precise field of concentric arcs and one measured horizon line: an organizing system for progress, not a medical diagram.",
+    "taglines": [
+      "Human Performance and Longevity"
+    ],
+    "logo_asset": "../sources/drive/logo-3.png",
+    "facility_assets": [
+      "../sources/drive/reception-1.png",
+      "../sources/drive/reception-2.png",
+      "../sources/drive/waiting-room.png"
+    ],
+    "asset_note": "The supplied reception and waiting-room photographs are authoritative Sigma Core location imagery. Preserve the real built environment and logo. Never regenerate the facility, redesign the wordmark, or imply a generic person is a Sigma Core provider or patient."
+  },
+  "customer_asks": [
+    {
+      "ask": "Use the supplied Sigma Core logo as the identity anchor and preserve the navy, silver, and electric-blue brand palette",
+      "source": "build_context.designDos",
+      "honored_by": "brand, all sections, hard_rules"
+    },
+    {
+      "ask": "Build from the physical clinic materiality: deep navy fields, brushed-silver accents, precise circular/core geometry, and restrained warm wood tones from the reception space",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 03-care-constellation, 04-place-of-care, page_flow, hard_rules"
+    },
+    {
+      "ask": "Use supplied reception and waiting-room imagery as authentic trust and location assets",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 04-place-of-care"
+    },
+    {
+      "ask": "Give neuropathy the strongest visual and navigational hierarchy among services",
+      "source": "build_context.designDos",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
+    },
+    {
+      "ask": "Favor large, readable typography, strong contrast, obvious actions, and calm spacing for an older audience",
+      "source": "build_context.designDos",
+      "honored_by": "all sections, typography_contract, hard_rules"
+    },
+    {
+      "ask": "Keep each page focused around one primary action, with the educational resource and booking paths clearly differentiated",
+      "source": "build_context.designDos",
+      "honored_by": "06-two-ways-forward, interaction_contracts, hard_rules"
+    },
+    {
+      "ask": "Create modular team and testimonial structures that can accept approved real content later without showing fake placeholders publicly",
+      "source": "build_context.designDos",
+      "honored_by": "hard_rules"
+    },
+    {
+      "ask": "Richmond, Virginia care designed around movement, function, independence, recovery, and quality of life.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 04-place-of-care"
+    },
+    {
+      "ask": "Neuropathy is the primary service and should receive the strongest hierarchy.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation"
+    },
+    {
+      "ask": "Concise, benefit-driven information helps visitors understand whether an option may fit without publishing treatment protocols.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "02-neuropathy-first, 03-care-constellation, 05-what-happens-next, hard_rules"
+    },
+    {
+      "ask": "Visitors can choose their next step: request an educational resource or book an appointment.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "06-two-ways-forward"
+    },
+    {
+      "ask": "Care is personalized; outcomes vary and no cure or reversal is promised.",
+      "source": "build_context.keyMessaging",
+      "honored_by": "02-neuropathy-first, 04-place-of-care, 07-answers-and-location, 08-verified-close, hard_rules"
+    },
+    {
+      "ask": "Build direction will preserve the existing logo and silver/navy palette",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "brand, palette_contract, hard_rules"
+    },
+    {
+      "ask": "The website will include separate pages for the primary services rather than one undifferentiated services page",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "03-care-constellation interaction_contract"
+    },
+    {
+      "ask": "The lead-capture page will be prepared now so the customer's educational video can be added later",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "06-two-ways-forward"
+    },
+    {
+      "ask": "Appointment booking will be wired to GoHighLevel and lead submissions will route into GoHighLevel CRM",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "01-movement-forward, 06-two-ways-forward, 07-answers-and-location interaction_contracts"
+    },
+    {
+      "ask": "The About page will be easy to update as the Medical Director, Nurse Practitioner, and team are hired",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "hard_rules"
+    },
+    {
+      "ask": "No cure or reversal claims will appear, and testimonial content will carry a visible 'Results not typical' disclaimer",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "02-neuropathy-first, 07-answers-and-location, hard_rules"
+    },
+    {
+      "ask": "The build team will treat September 8, 2026 as the clinic opening date and the need for a rapid launch as urgent",
+      "source": "build_context.explicitCustomerPromises",
+      "honored_by": "04-place-of-care, hard_rules"
+    },
+    {
+      "ask": "I think we can do more visually (feel free to generate images inspired by the reference photos)",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location"
+    },
+    {
+      "ask": "let's not use these 01, 02, 03 type numbers or folio numbers--these are a classic AI design tell",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "05-what-happens-next, hard_rules"
+    },
+    {
+      "ask": "New Variation A is way too 3D and out there which doesn't make sense for a Medical Center; let's try a more photovisual style (and feel free to generate new images)",
+      "source": "awb-home-design-review feedback, 2026-08-24",
+      "honored_by": "01-movement-forward, 02-neuropathy-first, 03-care-constellation, 04-place-of-care, 05-what-happens-next, 06-two-ways-forward, 07-answers-and-location, hard_rules"
+    }
+  ],
+  "required_sections": [
+    {
+      "id": "01-hero",
+      "name": "hero",
+      "job": "Orient visitors to the finite service set and make neuropathy priority obvious.",
+      "content": {
+        "headline": "Care organized around what you want to keep doing",
+        "body_direction": "Use the inventory headline and explain that each page offers concise orientation for an informed next step, not diagnosis or protocol details.",
+        "supporting_points": [
+          "Neuropathy receives the strongest hierarchy.",
+          "Service categories include neuropathy, pain relief, hormone optimization, pelvic floor and incontinence care, and regenerative medicine.",
+          "Information must stay brief, benefit-led, and non-diagnostic.",
+          "Do not publish protocols, prices, unsupported treatments, or outcome promises."
+        ]
+      },
+      "imagery": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+      "internal_links": [],
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/hero.tsx",
+        "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33",
+          "app/services/interior.css": "135d2f17b1507aef229eef3f7e3d8a547b4c74ab7dc3fd26595c9b68f16eb8fc"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "id": "02-neuropathy-feature",
+      "name": "neuropathy-feature",
+      "job": "Direct neuropathy researchers to the primary service page before secondary choices compete for attention.",
+      "content": {
+        "headline": "Neuropathy Feature",
+        "body_direction": "State that neuropathy is Sigma Core's primary care focus and frame the page around movement, function, independence, and a personalized conversation. No cure or reversal language."
+      },
+      "imagery": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+      "internal_links": [
+        "/services/neuropathy"
+      ],
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/neuropathy.tsx",
+        "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+        "dom_ids": [
+          "neuropathy"
+        ],
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "id": "03-service-navigation",
+      "name": "service-navigation",
+      "job": "Give every confirmed secondary service a clear, descriptive route without making unsupported promises.",
+      "content": {
+        "headline": "Service Navigation",
+        "body_direction": "Summarize pain relief, hormone optimization, pelvic floor and incontinence, and regenerative medicine with one grounded sentence each. Group knee, low-back, and neck concerns under pain relief."
+      },
+      "imagery": "Mix subtle facility details and neutral active-life scenes; never show treatments or staff. Render as a bold Direction B composition; anonymous people are never staff, patients, testimonials, or proof.",
+      "internal_links": [
+        "/services/pain-relief",
+        "/services/hormone-optimization",
+        "/services/pelvic-floor-incontinence",
+        "/services/regenerative-medicine"
+      ],
+      "cta": "",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/navigation.tsx",
+        "source_sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6",
+        "dom_ids": [
+          "service-navigation"
+        ],
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "04-how-to-choose-next-step",
+      "name": "how-to-choose-next-step",
+      "job": "Help uncertain visitors choose booking rather than self-diagnosing from marketing content.",
+      "content": {
+        "headline": "How to choose your next step",
+        "body_direction": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+        "availability": "Online scheduling is unavailable. No appointment can be confirmed here."
+      },
+      "imagery": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+      "internal_links": [
+        "/book",
+        "/terms"
+      ],
+      "cta": "See booking status",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/choose.tsx",
+        "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+        "dom_ids": [
+          "how-it-works"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile unavailable-booking disclosure escapes the fixed-height blue field.",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+          }
+        }
+      }
+    },
+    {
+      "id": "05-booking-cta",
+      "name": "booking-CTA",
+      "job": "Move visitors who have identified a relevant category into the booking path.",
+      "content": {
+        "headline": "Prepare for your next step.",
+        "body_direction": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+        "availability": "Online scheduling is unavailable. No appointment can be confirmed here."
+      },
+      "imagery": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+      "internal_links": [
+        "/book"
+      ],
+      "cta": "See booking status",
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/booking.tsx",
+        "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    }
+  ],
+  "seo_contract": {
+    "primary_intent": "comparing Sigma Core's confirmed service categories",
+    "audience": "a solution-aware Richmond adult unsure which category fits",
+    "intent_questions": [
+      "which categories exist",
+      "how they differ at a high level",
+      "why neuropathy leads",
+      "how to ask individual questions"
+    ],
+    "unique_information": [
+      "Neuropathy receives the strongest hierarchy.",
+      "Service categories include neuropathy, pain relief, hormone optimization, pelvic floor and incontinence care, and regenerative medicine.",
+      "Information must stay brief, benefit-led, and non-diagnostic."
+    ],
+    "verified_sources": [
+      "build_context.json",
+      "content_inventory.json",
+      "page_blueprint.json"
+    ],
+    "customer_input_required": "approved clinical descriptions and reviewer identity",
+    "contextual_internal_links": [
+      "/book",
+      "/services/hormone-optimization",
+      "/services/neuropathy",
+      "/services/pain-relief",
+      "/services/pelvic-floor-incontinence",
+      "/services/regenerative-medicine",
+      "/terms"
+    ],
+    "content_owner": "Sigma Core Medical Center",
+    "review_requirement": "clinical/compliance review"
+  },
+  "page_flow": {
+    "viewport_contract": {
+      "design_frame": "1536x864 native 16:9 primary composition; strip frame 1536x512",
+      "target_viewports": [
+        "1440x900",
+        "1536x1024",
+        "390x844"
+      ],
+      "rule": "Primary focal subject, headline, primary CTA, and load-bearing relationships fit together in the design frame. Supporting closure may extend outside the browser fold, but the primary content group may not be split or cropped to manufacture height."
+    },
+    "section_weights": {
+      "01-hero": "loud",
+      "02-neuropathy-feature": "quiet",
+      "03-service-navigation": "quiet",
+      "04-how-to-choose-next-step": "quiet",
+      "05-booking-cta": "quiet"
+    },
+    "background_progression": [
+      {
+        "sections": [
+          "01-hero"
+        ],
+        "band": "#101E33"
+      },
+      {
+        "sections": [
+          "02-neuropathy-feature"
+        ],
+        "band": "#0877BE"
+      },
+      {
+        "sections": [
+          "03-service-navigation"
+        ],
+        "band": "#F7F6F3"
+      },
+      {
+        "sections": [
+          "04-how-to-choose-next-step"
+        ],
+        "band": "#20272E"
+      },
+      {
+        "sections": [
+          "05-booking-cta"
+        ],
+        "band": "#101E33"
+      }
+    ],
+    "motif_continuity": [
+      "Squared brackets and stepped signal bars align selected entrances and terminate cleanly before the next section.",
+      "Angular apertures recur with varied scale; they do not become numbers, folios, anatomy, or medical data.",
+      "The page remains a quieter extension of The Forward Standard, with no more than two loud sections."
+    ],
+    "rhythm_rules": [
+      "Use a route-specific hero and at least three distinct composition anchors.",
+      "Do not reuse one generic service-page silhouette across sibling routes.",
+      "Preserve one broad quiet zone and one concise decision-oriented section.",
+      "No navigation or global footer inside the frames."
+    ]
+  },
+  "hard_rules": [
+    "Use the supplied Sigma Core logo and wordmark as-is. Never redesign, recolor, re-letter, regenerate, restyle, or reinterpret it; design references use plain type or a neutral reserved logo area.",
+    "Richmond, Virginia is the only market. Exclude Fort Lauderdale and every Florida reference.",
+    "Never claim Sigma Core cures or reverses any disease or condition, guarantees outcomes, restores youth, eliminates pain, avoids surgery, or provides a named treatment that has not been verified.",
+    "Keep service information concise, benefit-led, non-diagnostic, and at category level. Do not publish treatment protocols, mechanisms, prices, candidacy, timelines, medications, tests, devices, or unverified modalities.",
+    "Do not identify Dr. Jason Hurst as a treating provider or show him in a public clinical team structure.",
+    "Do not invent Medical Director or Nurse Practitioner names, photos, biographies, credentials, testimonials, ratings, awards, certifications, badges, statistics, patient outcomes, insurance details, appointment duration, availability, phone, email, or hours.",
+    "Do not render empty provider cards, fake team portraits, fake testimonial cards, star ratings, before-and-after imagery, or unsupported trust signals. Team and testimonial components may be modular in code but remain absent publicly until approved real content exists. Any future testimonial must visibly state 'Results not typical'.",
+    "Stock or AI-generated clinicians must never be shown as Sigma Core staff. Generic people must never be labeled as patients, providers, named individuals, or result examples.",
+    "Use supplied reception and waiting-room photos as the only authoritative facility imagery. Preserve their actual architecture, logo, and materiality; never fabricate a different Sigma Core clinic. Generated editorial lifestyle photography may show anonymous, fully clothed adults walking, stretching, gardening, or living actively in clearly non-clinical settings, but never as Sigma Core patients, staff, testimonials, before-and-after subjects, or evidence of results.",
+    "Direction A must be photovisual and medically credible. No 3D-rendered environments, abstract caves, portals, sculptural rooms, metallic ribbons, liquid chrome, glowing energy streams, fantasy architecture, product-render slabs, material mazes, or text embedded on rendered objects. Use photographic image fields, clean flat editorial layouts, restrained crop masks, and simple code-native lines or blocks.",
+    "General marketing forms collect no free-text medical history, symptoms, diagnosis, or other PHI. Any PHI workflow requires an appropriate HIPAA agreement and safeguards.",
+    "Do not load standard advertising or analytics trackers on authenticated or condition-specific patient flows without compliance review.",
+    "The educational guide must not appear available until the customer supplies the approved resource title, media, delivery method, consent language, and GoHighLevel details.",
+    "The address 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and the September 8, 2026 opening date must be reconfirmed before launch and any time-sensitive opening treatment removed once stale.",
+    "No generic hospital-blue template, sterile all-white system, purple-to-blue SaaS gradient, glassmorphism, decorative medical dashboard, DNA helix, molecule, lotus, glowing nerve, anatomical fear image, autoplay video, intrusive popup, fake scarcity, or tiny low-contrast silver copy.",
+    "Do not use visible 01/02/03 sequence numbers, chapter numbers, folio numbers, oversized ghost numerals, or numbered editorial markers. Communicate sequence with language, spatial progression, material transitions, or unnumbered wayfinding.",
+    "Primary body copy is at least 18px in the coded site, controls are at least 48px, contrast is WCAG AA or better, and reduced-motion preferences are honored.",
+    "Every visually control-shaped element has the useful outcome defined in its section interaction_contract. State labels, steps, and principles are static content, not inert controls.",
+    "Direction A and Direction B are two complete creative territories. Direction B is generated in a fresh session from its own fingerprint and must not be a recolor or reference-edit of A.",
+    "Frames cover content sections only. Global navigation and footer belong to the built design system and must never be rendered into interior-page frames.",
+    "Extend the customer-selected Direction B, The Forward Standard: kinetic Source Sans 3 performance typography, selective Playfair Display counterpoint, electric-blue/mineral fields, deep-navy anchors, angular apertures, stepped modules, asymmetric route panels, panoramic authentic-clinic bands, dramatic scale shifts, and stepped signal bars or squared brackets. Do not fall back to Direction A's calm magazine layouts.",
+    "No visible decorative numbers, chapter numbers, folio markers, index numerals, or ghost numerals. Factual dates and address numbers are allowed.",
+    "No 3D/sculptural Material Current imagery, portals, metallic ribbons, liquid chrome, fantasy architecture, product-render slabs, glowing energy streams, or abstract caves."
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  },
+  "services_heading_role_reconciliation_r2": {
+    "scope": "/services only; five Direction B frame heading roles",
+    "headings": {
+      "elements": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "family": "Source Sans 3",
+      "weight": 600,
+      "css_owner": "app/services/interior.css"
+    },
+    "counterpoint": "Playfair Display optional only for explicitly named selective counterpoint roles; no new role or runtime change introduced.",
+    "precedence": "Selected Services Direction B manifest and native refs01-05 are more specific than the global Playfair display proposal. This builder/controller reconciliation closes only the Services role conflict; global typography and Home are untouched.",
+    "independent_adjudication": {
+      "report": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services-typography-followup.json",
+      "sha256": "dee82b6338665366ed2287faaba642cf86ac4ea02ce05827eca491c59602a86a",
+      "session": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:64ee209e",
+      "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072"
+    },
+    "source_manifest": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/section_manifest.json",
+      "sha256": "fc76e200e759070079d25d992c6a5e221cc775f1a738edbd623ba4b09586c2e5"
+    },
+    "native_refs": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/01-hero.png",
+        "sha256": "ab2e92ff69be3938ebfb01f10f5d55f795d5026c0b3ddb3f26208b9de6079da3"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png",
+        "sha256": "402b273a1105a3f5162c2592e754a8f807564c03656aa31f6bbcd86f4454b4de"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png",
+        "sha256": "11ae806043b4ce627a58a31542086f9c9ed9a28ccfb476338cfbf9c92cda464c"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/04-how-to-choose-next-step.png",
+        "sha256": "4fc798f507523cd5542531d4b527cde8e10704682b0e9a4f6e2ce14d463ea7a8"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/05-booking-cta.png",
+        "sha256": "469f82da2702fb31248a9d1c026bf058396512996b6ba8f9d48a9c7ae98b9905"
+      }
+    ],
+    "decision_owner": "Controller/builder; source-backed role reconciliation",
+    "qa_verdict": "PENDING"
+  }
+}

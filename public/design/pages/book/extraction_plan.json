@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "page": "book",
+  "status": "REVIEWED_SUCCESSOR_HANDOFF",
+  "independent_review": "KEEP",
+  "expected_asset_count": 0,
+  "raster_assets": [],
+  "frames": [
+    {
+      "frame": "01-booking-hero.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "section_owner": "01-booking-hero",
+      "reference": "refs/01-booking-hero.png",
+      "tier": "pure-code",
+      "assembly_profile": "code-first",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "flat semantic section surface",
+          "build_note": "Use a semantic section with the existing DOM id booking-hero and responsive container. Flat approved CSS token: ink #101E33. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio.",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            12,
+            486,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "blue lower plane and three stepped blocks",
+          "build_note": "Use a section pseudo-element with background var(--action) and clip-path polygon(0 88.66%,41.08% 88.66%,100% 72.57%,100% 100%,0 100%) in a section-local overlay. Draw three aria-hidden electric-blue rectangles near lower-right, unequal heights 46:83:134 with equal width55 and baseline620 in the native coordinate system. Separate rectangles from the plane; these are not a chart.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            148,
+            144,
+            816,
+            251
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "first line of semantic H1",
+          "build_note": "One live h1 contains Appointment scheduling; desktop preferred break after Appointment. Load Source Sans 3 800. Native observed first line x148,y144 with width668; preserve heavy open-countered scale, never use raster text. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 800; line-height: 1.04.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            150,
+            256,
+            704,
+            364
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "second line of the same H1",
+          "build_note": "This region is the second line of the same h1, not another heading. Source Sans 3 800 with near1.0\u20131.08 line-height; preferred scheduling on line2. Mobile 44\u201348px with a two-line measure.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            150,
+            445,
+            1006,
+            499
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "single dominant availability statement",
+          "build_note": "Live paragraph following the h1, exact Online booking is not yet available. Source Sans 3 600/700, silver #C7CBD0 or light on ink. Keep at least twice body hierarchy where desktop room allows; mobile26\u201328px. No badge, link or control role.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            151,
+            535,
+            825,
+            555
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "hero orientation sentence",
+          "build_note": "Live paragraph from manifest in Source Sans 3 400, light on ink, at least18px, max measure about40 characters on mobile and wider desktop. It has no interaction or scroll button. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1138,
+            101,
+            1523,
+            515
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "open silver angular aperture",
+          "build_note": "Inline decorative SVG with viewBox 0 0 1536 864, polyline points 1536,106 1364,106 1142,331 1329,516; fill none; silver stroke8 at native scale. aria-hidden, focusable=false, pointer-events:none. Crop only right-edge geometry. Do not close into a widget.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            90,
+            108,
+            129,
+            375
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "01-booking-hero",
+          "what": "opening bracket beside hero title",
+          "build_note": "Simple SVG path M129 112 H95 V371 H129 with electric stroke9, no fill. Anchor to the h1 group, not entire section height. On mobile scale to a 24px-wide bracket with3px stroke and text-safe gap.",
+          "source_geometry": "qa/01-booking-hero/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/hero.tsx"
+        }
+      ],
+      "supplemental_recipe": "Keep all typography and geometry independent. Match left-aligned title/status/body relationships from map; no shadow around glyphs or bars.",
+      "geometry_limit": "Connected-component boxes are diagnostic grouping bounds, not raster crop instructions; thin geometry is described explicitly. No extraction takes place.",
+      "dom_id": "booking-hero",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/hero.tsx",
+        "source_sha256": "16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b",
+        "dom_ids": [
+          "booking-hero",
+          "book-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id booking-hero and responsive container. Flat approved CSS token: ink #101E33. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use a section pseudo-element with background var(--action) and clip-path polygon(0 88.66%,41.08% 88.66%,100% 72.57%,100% 100%,0 100%) in a section-local overlay. Draw three aria-hidden electric-blue rectangles near lower-right, unequal heights 46:83:134 with equal width55 and baseline620 in the native coordinate system. Separate rectangles from the plane; these are not a chart. One live h1 contains Appointment scheduling; desktop preferred break after Appointment. Load Source Sans 3 800. Native observed first line x148,y144 with width668; preserve heavy open-countered scale, never use raster text. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 800; line-height: 1.04. This region is the second line of the same h1, not another heading. Source Sans 3 800 with near1.0\u20131.08 line-height; preferred scheduling on line2. Mobile 44\u201348px with a two-line measure. Live paragraph following the h1, exact Online booking is not yet available. Source Sans 3 600/700, silver #C7CBD0 or light on ink. Keep at least twice body hierarchy where desktop room allows; mobile26\u201328px. No badge, link or control role. Live paragraph from manifest in Source Sans 3 400, light on ink, at least18px, max measure about40 characters on mobile and wider desktop. It has no interaction or scroll button. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Inline decorative SVG with viewBox 0 0 1536 864, polyline points 1536,106 1364,106 1142,331 1329,516; fill none; silver stroke8 at native scale. aria-hidden, focusable=false, pointer-events:none. Crop only right-edge geometry. Do not close into a widget. Simple SVG path M129 112 H95 V371 H129 with electric stroke9, no fill. Anchor to the h1 group, not entire section height. On mobile scale to a 24px-wide bracket with3px stroke and text-safe gap.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-gohighlevel-calendar.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "section_owner": "02-gohighlevel-calendar",
+      "reference": "refs/02-gohighlevel-calendar.png",
+      "tier": "pure-code",
+      "assembly_profile": "code-first",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "flat semantic section surface",
+          "build_note": "Use a semantic section with the existing DOM id gohighlevel-calendar and responsive container. Flat approved CSS token: action #0666A5. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio.",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            17,
+            745,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "mineral angled lower handoff",
+          "build_note": "Use surface #F7F6F3 pseudo-element polygon(0 98.61%,31.12% 86.34%,100% 86.34%,100% 100%,0 100%) over action-blue section. Position in closing space only; adjacent privacy shares exact surface token. No texture or raster crop.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            1015,
+            197,
+            1468,
+            293
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "real Services navigation anchor",
+          "build_note": "Semantic a href=/services, exact Explore services label, separate decorative right-arrow SVG M0 12 H30 M19 1 L30 12 L19 23. Mineral fill with right angular end made by clip-path polygon(0 0,91% 0,100% 50%,91% 100%,0 100%); navy label Source Sans 3 700; minimum48px hit area. Clip only pseudo-element, not focus ring or text.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            151,
+            130,
+            614,
+            280
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "calendar section heading",
+          "build_note": "Live h2 Scheduling calendar in Source Sans 3 700, preferred two-line desktop break; keep smaller than hero. This is a status section, no invented calendar widget. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            1043,
+            496,
+            1291,
+            555
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "Contact status caveat",
+          "build_note": "Live Source Sans 3 paragraph Contact is for status information only. directly below the Contact anchor with16\u201324px gap. Light on action-blue; coded minimum18px. No alternate channel or booking promise.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            1042,
+            427,
+            1392,
+            458
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "real Contact navigation anchor",
+          "build_note": "Semantic a href=/contact, exact Contact & location status, underlined live text and trailing thin arrow; no filled card. Use Source Sans 3 600/700, light on action blue. Two-line label allowed on mobile; arrow in its own flex slot, min48px hit area.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            150,
+            343,
+            536,
+            372
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "inactive calendar connection status",
+          "build_note": "Live paragraph Calendar connection pending. below h2, Source Sans 3 400, light on action. No role button, tabindex, form or iframe; no animated loading indicator. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            1042,
+            324,
+            1382,
+            344
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "Services description",
+          "build_note": "Live paragraph Browse service information. directly below Services anchor; keep its relationship separate from Contact link/caveat. Source Sans 3 400, light on action blue. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            150,
+            529,
+            329,
+            594
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "02-gohighlevel-calendar",
+          "what": "short decorative stepped bars",
+          "build_note": "Draw three aria-hidden rectangles with mineral fill, about54x15 at(150,580),62x15 at(188,555),95x15 at(234,530). Keep no axis, labels or progress semantics. Add the separately thin open rule as described in frame supplemental recipe.",
+          "source_geometry": "qa/02-gohighlevel-calendar/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/calendar.tsx"
+        }
+      ],
+      "supplemental_recipe": "Thin open rule omitted by connected-component segmenter: decorative SVG polyline points150,428 945,428 945,456, fill none, silver stroke2. Keep rule inside reserve, away from the navigation column. Focus outline for both anchors:3px focus #72C7F3 with3px offset, not clipped; hover changes among approved tokens only. No interaction exists on reserve or decorative bars.",
+      "geometry_limit": "Connected-component boxes are diagnostic grouping bounds, not raster crop instructions; thin geometry is described explicitly. No extraction takes place.",
+      "dom_id": "gohighlevel-calendar",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/calendar.tsx",
+        "source_sha256": "e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115",
+        "dom_ids": [
+          "gohighlevel-calendar",
+          "book-calendar-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id gohighlevel-calendar and responsive container. Flat approved CSS token: action #0666A5. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use surface #F7F6F3 pseudo-element polygon(0 98.61%,31.12% 86.34%,100% 86.34%,100% 100%,0 100%) over action-blue section. Position in closing space only; adjacent privacy shares exact surface token. No texture or raster crop. Semantic a href=/services, exact Explore services label, separate decorative right-arrow SVG M0 12 H30 M19 1 L30 12 L19 23. Mineral fill with right angular end made by clip-path polygon(0 0,91% 0,100% 50%,91% 100%,0 100%); navy label Source Sans 3 700; minimum48px hit area. Clip only pseudo-element, not focus ring or text. Live h2 Scheduling calendar in Source Sans 3 700, preferred two-line desktop break; keep smaller than hero. This is a status section, no invented calendar widget. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live Source Sans 3 paragraph Contact is for status information only. directly below the Contact anchor with16\u201324px gap. Light on action-blue; coded minimum18px. No alternate channel or booking promise. Semantic a href=/contact, exact Contact & location status, underlined live text and trailing thin arrow; no filled card. Use Source Sans 3 600/700, light on action blue. Two-line label allowed on mobile; arrow in its own flex slot, min48px hit area. Live paragraph Calendar connection pending. below h2, Source Sans 3 400, light on action. No role button, tabindex, form or iframe; no animated loading indicator. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Live paragraph Browse service information. directly below Services anchor; keep its relationship separate from Contact link/caveat. Source Sans 3 400, light on action blue. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Draw three aria-hidden rectangles with mineral fill, about54x15 at(150,580),62x15 at(188,555),95x15 at(234,530). Keep no axis, labels or progress semantics. Add the separately thin open rule as described in frame supplemental recipe.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-privacy-note.png",
+      "status": "REVIEWED_SUCCESSOR_HANDOFF",
+      "section_owner": "03-privacy-note",
+      "reference": "refs/03-privacy-note.png",
+      "tier": "pure-code",
+      "assembly_profile": "code-first",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 0,
+          "box": [
+            0,
+            0,
+            1536,
+            864
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "03-privacy-note",
+          "what": "flat semantic section surface",
+          "build_note": "Use a semantic section with the existing DOM id privacy-note and responsive container. Flat approved CSS token: surface #F7F6F3. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio.",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/privacy.tsx"
+        },
+        {
+          "id": 1,
+          "box": [
+            175,
+            183,
+            605,
+            304
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "03-privacy-note",
+          "what": "privacy/legal title",
+          "build_note": "Live h2 Privacy & legal information in Source Sans 3 700 with preferred desktop line break after legal. Navy on mineral; native x175\u2013605. Keep below hero scale. Do not render policy titles as links. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04.",
+          "source_geometry": "qa/03-privacy-note/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/privacy.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            835,
+            425,
+            1319,
+            493
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "03-privacy-note",
+          "what": "single pending-content sentence",
+          "build_note": "Live paragraph Privacy and legal information will be linked here when supplied and approved. Source Sans 3 400, charcoal on mineral, coded18px minimum and comfortable1.5\u20131.6 line-height; max about38\u201344ch. No invented legal/privacy claims.",
+          "source_geometry": "qa/03-privacy-note/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/privacy.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            834,
+            345,
+            1209,
+            397
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "03-privacy-note",
+          "what": "selective serif pending label",
+          "build_note": "Static live p Content pending using actual Playfair Display 500; keep as the only serif counterpoint and below hero scale. Native x834,y345. Do not style as a button, warning or consent control. Implement the reviewed typography in CSS: font-family: \"Playfair Display\"; font-weight: 500; line-height: 1.2.",
+          "source_geometry": "qa/03-privacy-note/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/privacy.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            124,
+            144,
+            159,
+            347
+          ],
+          "verdict": "code",
+          "medium": "CODE",
+          "section_owner": "03-privacy-note",
+          "what": "title opening bracket",
+          "build_note": "Decorative SVG path M159 147 H127 V344 H159, electric stroke5, fill none. Anchor to title block with about24px text gap; on mobile3px stroke. No box around whole section.",
+          "source_geometry": "qa/03-privacy-note/regions.json",
+          "asset_files": [],
+          "owned_raster_count": 0,
+          "source_component": "src/components/batch-three/book/privacy.tsx"
+        }
+      ],
+      "supplemental_recipe": "Thin lines omitted by segmenter: top note rule from(832,311) to(1392,311), silver stroke2; terminal rectangle(834,523,101,6), electric fill. Both aria-hidden and bound to the note column. Use no extra panel fill/border or link styling.",
+      "geometry_limit": "Connected-component boxes are diagnostic grouping bounds, not raster crop instructions; thin geometry is described explicitly. No extraction takes place.",
+      "dom_id": "privacy-note",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/privacy.tsx",
+        "source_sha256": "4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf",
+        "dom_ids": [
+          "privacy-note",
+          "book-privacy-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id privacy-note and responsive container. Flat approved CSS token: surface #F7F6F3. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Live h2 Privacy & legal information in Source Sans 3 700 with preferred desktop line break after legal. Navy on mineral; native x175\u2013605. Keep below hero scale. Do not render policy titles as links. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live paragraph Privacy and legal information will be linked here when supplied and approved. Source Sans 3 400, charcoal on mineral, coded18px minimum and comfortable1.5\u20131.6 line-height; max about38\u201344ch. No invented legal/privacy claims. Static live p Content pending using actual Playfair Display 500; keep as the only serif counterpoint and below hero scale. Native x834,y345. Do not style as a button, warning or consent control. Implement the reviewed typography in CSS: font-family: \"Playfair Display\"; font-weight: 500; line-height: 1.2. Decorative SVG path M159 147 H127 V344 H159, electric stroke5, fill none. Anchor to title block with about24px text gap; on mobile3px stroke. No box around whole section.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "ownership_contract": "All regions are CODE. Lowercase code is used for unchanged ownership-validator compatibility. Native refs, stitch, raw provider images and masks are review-only artifacts, never runtime assets.",
+  "raster_test": "Every visible element is semantic text/navigation, flat field or simple geometry. No photography, organic illustration or materiality requiring a raster exists.",
+  "review_boundary": "Reference KEEP and independent live KEEP cover all CODE regions. Current user separately authorizes reversible preservation and relocation of only the two retired Book PNGs, with hash and dependency checks. No permanent deletion, shared-reception cleanup, clinical/legal approval or publication is authorized.",
+  "handoff_review": {
+    "status": "REVIEWED_SUCCESSOR_HANDOFF",
+    "scope": "Book content sections only; authorized automated handoff reconciliation, not historical customer approval, QA, clinical/legal approval, booking activation or site convergence.",
+    "reference_review": {
+      "research_path": "site_convergence/book/truthful-successor-r1-art-review.md",
+      "sha256": "31153d5792f0c727885201056c2ff4562c65fba3f4a8147caa393362f9443f90",
+      "verdict": "CANDIDATE_KEEP_PENDING_IMPLEMENTATION"
+    },
+    "live_review": {
+      "research_path": "site_convergence/book/truthful-successor-build-r1-art-review.md",
+      "sha256": "cabe4134a89bdeb3bdae39eeceedf6a41adb989d20d582483c3dc9993c245f37",
+      "verdict": "KEEP",
+      "reviewed_commit": "0e435d6a160de7f432338e40122837131307b49a",
+      "layers": [
+        "content",
+        "imagery",
+        "composition",
+        "visual_treatment",
+        "responsive"
+      ]
+    },
+    "details": "HANDOFF.json"
+  },
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  }
+}

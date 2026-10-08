@@ -1,0 +1,12 @@
+INVALID: 01-contact-hero.fidelity.composition.status must be PASS
+INVALID: 01-contact-hero.fidelity.visual_treatment.status must be PASS
+INVALID: 01-contact-hero.fidelity.responsive.status must be PASS
+INVALID: 02-verified-location-details.fidelity.composition.status must be PASS
+INVALID: 02-verified-location-details.fidelity.visual_treatment.status must be PASS
+INVALID: 02-verified-location-details.fidelity.responsive.status must be PASS
+INVALID: 03-facility-image.fidelity.composition.status must be PASS
+INVALID: 03-facility-image.fidelity.visual_treatment.status must be PASS
+INVALID: 03-facility-image.fidelity.responsive.status must be PASS
+INVALID: 04-booking-cta.fidelity.composition.status must be PASS
+INVALID: 04-booking-cta.fidelity.visual_treatment.status must be PASS
+INVALID: 04-booking-cta.fidelity.responsive.status must be PASS

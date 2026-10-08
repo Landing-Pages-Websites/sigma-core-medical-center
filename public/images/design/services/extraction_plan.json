@@ -1,0 +1,922 @@
+{
+  "page": "services",
+  "frames": [
+    {
+      "frame": "01-hero.png",
+      "bg": "#0c142c",
+      "section_owner": "01-hero",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            83,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            114,
+            637,
+            330,
+            727
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            116,
+            369,
+            383,
+            426
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            116,
+            452,
+            362,
+            509
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            117,
+            537,
+            364,
+            581
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            1198,
+            134,
+            1513,
+            583
+          ],
+          "verdict": "code",
+          "section_owner": "01-hero",
+          "what": "service-direction field",
+          "narrative_job": "Visual direction for choosing a service, without implying a photographed premises.",
+          "build_note": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+          "owned_raster_count": 0,
+          "source_reference": {
+            "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/01-hero.png",
+            "region_box": [
+              1198,
+              134,
+              1513,
+              583
+            ]
+          },
+          "source_truth_deviation": "Candidate: approved frame depicts an unsupplied Sigma Core interior; client Drive supplies only reception-1.png, reception-2.png and waiting-room.png. No source photo is assigned to this region.",
+          "source_component": "src/components/interior/services/hero.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/hero.tsx",
+        "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+        "dom_ids": [
+          "hero",
+          "trust-bar"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image. At SHA17c8008, .service-hero has 48px bottom padding desktop and 32px at the mobile breakpoint in app/services/interior.css. This separates painted navigation cards from the following neuropathy field; it is not a whole-page or all-edge acceptance.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33",
+          "app/services/interior.css": "135d2f17b1507aef229eef3f7e3d8a547b4c74ab7dc3fd26595c9b68f16eb8fc"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "0aaeacf017c0e87c896f30dbf25c0ebacfe4fcfa2bedd4aa95908c583d5ddbaf",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Use .service-hero-grid with live hero copy and the dominant neuropathy anchor beside .service-hero-direction. Build the faceted navy/blue field, two open arcs and horizon line with CSS pseudo-elements; crop the geometry in the mobile field above the four-category navigation rail. No premises or signage image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/hero.tsx",
+          "source_sha256": "33c1b982967bd18894fe3b3b5c6ced1471640f95bbdeacc046a3a3fef2d04197",
+          "dom_ids": [
+            "hero",
+            "trust-bar"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the dominant neuropathy wedge and four-category rail. Give every secondary category a title and supporting destination description; desktop rails use symmetric diagonal-safe insets, mobile retains the 2x2 hierarchy above 360px. No premises image.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "02-neuropathy-feature.png",
+      "bg": "#f4f4f4",
+      "section_owner": "02-neuropathy-feature",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            815
+          ],
+          "verdict": "code",
+          "section_owner": "02-neuropathy-feature",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "source_component": "src/components/interior/services/neuropathy.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            45,
+            694,
+            206,
+            760
+          ],
+          "verdict": "code",
+          "section_owner": "02-neuropathy-feature",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "source_component": "src/components/interior/services/neuropathy.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            1252,
+            78,
+            1475,
+            337
+          ],
+          "verdict": "extract",
+          "section_owner": "02-neuropathy-feature",
+          "asset_scope": "section",
+          "what": "walking figure — independent photographic slot",
+          "narrative_job": "Exact walking figure visual for 02-neuropathy-feature, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "02-neuropathy-feature-01-walking-figure.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png",
+            "source_box": [
+              1252,
+              78,
+              1475,
+              337
+            ]
+          },
+          "source_component": "src/components/interior/services/neuropathy.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            937,
+            644,
+            1505,
+            799
+          ],
+          "verdict": "code",
+          "section_owner": "02-neuropathy-feature",
+          "what": "supporting step strip",
+          "narrative_job": "Secondary directional balance beside the other-care links, not premises proof.",
+          "build_note": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "owned_raster_count": 0,
+          "source_reference": {
+            "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/02-neuropathy-feature.png",
+            "region_box": [
+              937,
+              644,
+              1505,
+              799
+            ]
+          },
+          "source_truth_deviation": "Candidate: approved frame depicts an unsupplied Sigma Core interior; client Drive supplies only reception-1.png, reception-2.png and waiting-room.png. No source photo is assigned to this region.",
+          "source_component": "src/components/interior/services/neuropathy.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/neuropathy.tsx",
+        "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+        "dom_ids": [
+          "neuropathy"
+        ],
+        "runtime_assets": [
+          "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+        ],
+        "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Use one quiet pale support band behind the four existing other-care links, with a blue lower keyline and a full local spacing unit below labels. At 390px the band contains the two-row link grid; at 320px it stacks links singly, without a trailing ornament. Keep the separate walking-figure raster at its natural aspect so the figure remains legible.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/neuropathy.tsx",
+          "source_sha256": "3bf761baf21e63877bbea679fe0edc417de629d6b299f1c480370beb445860e7",
+          "dom_ids": [
+            "neuropathy"
+          ],
+          "runtime_assets": [
+            "/images/design/services/02-neuropathy-feature-01-walking-figure.png"
+          ],
+          "recipe": "Preserve the architectural walker and blue/navy/pale sequence. Inset each category arrow by the full 10% diagonal depth plus 18 CSS px so it stays on the card at desktop and mobile. Retain the support-band bottom spacing and responsive 2x2 links.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "03-service-navigation.png",
+      "bg": "#f4f4ec",
+      "section_owner": "03-service-navigation",
+      "expected_asset_count": 1,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            12,
+            12,
+            1523,
+            851
+          ],
+          "verdict": "code",
+          "section_owner": "03-service-navigation",
+          "what": "mixed semantic layout and CSS field; independent photos split below",
+          "build_note": "Build the service navigation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/services/navigation.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            69,
+            40,
+            112,
+            325
+          ],
+          "verdict": "code",
+          "section_owner": "03-service-navigation",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep this service navigation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+          "source_component": "src/components/interior/services/navigation.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            561,
+            471,
+            837,
+            687
+          ],
+          "verdict": "extract",
+          "section_owner": "03-service-navigation",
+          "asset_scope": "section",
+          "what": "active couple — independent photographic slot",
+          "narrative_job": "Exact active couple visual for 03-service-navigation, not a staff or outcome representation",
+          "treatment": "framed",
+          "source": "extract",
+          "asset_file": "03-service-navigation-01-active-couple.png",
+          "reuse_intent": null,
+          "fidelity_drivers": "Source-specific photographed room, lighting, materials and object silhouette; cannot reproduce with CSS or stock photos.",
+          "build_note": "Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "presentation": {
+            "mode": "framed-panel",
+            "alpha_required": false,
+            "intended_background": "#101E33",
+            "crop_contract": "Keep the photographed subject and identifying room features legible; maintain source-specific composition at desktop and mobile.",
+            "minimum_visible_fraction": "At least 75% of the source-visible photographic subject in the approved live slot; do not invent any occluded anatomy or room detail.",
+            "source_provenance": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png",
+            "source_box": [
+              561,
+              471,
+              837,
+              687
+            ]
+          },
+          "source_component": "src/components/interior/services/navigation.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            1213,
+            78,
+            1521,
+            756
+          ],
+          "verdict": "code",
+          "section_owner": "03-service-navigation",
+          "what": "category direction rail",
+          "narrative_job": "Visual rhythm for three individually navigable service categories, not an office view.",
+          "build_note": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+          "owned_raster_count": 0,
+          "source_reference": {
+            "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/03-service-navigation.png",
+            "region_box": [
+              1213,
+              78,
+              1521,
+              756
+            ]
+          },
+          "source_truth_deviation": "Candidate: approved frame depicts an unsupplied Sigma Core interior; client Drive supplies only reception-1.png, reception-2.png and waiting-room.png. No source photo is assigned to this region.",
+          "source_component": "src/components/interior/services/navigation.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/navigation.tsx",
+        "source_sha256": "66059f825580735e8ae0d1280f4a0805f781a94da48fc58e1d09cd6865d1a0a6",
+        "dom_ids": [
+          "service-navigation"
+        ],
+        "runtime_assets": [
+          "/images/design/services/03-service-navigation-01-active-couple.png"
+        ],
+        "recipe": "Keep the three live category articles and links intact. Give each an attached right track with a distinct nonverbal open contour and varied spacing. Narrow the tracks on mobile so the pelvic title and paragraph have sufficient width; real category names and links stay in the card text. The contours are static structure, never controls, medical data or visible indices. Retain the separate active-couple raster in the Pain relief feature.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-how-to-choose-next-step.png",
+      "bg": "#141c2c",
+      "section_owner": "04-how-to-choose-next-step",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            676,
+            72,
+            1523,
+            592
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            63,
+            610,
+            651,
+            747
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live heading or content text group",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            115,
+            247,
+            637,
+            432
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            112,
+            460,
+            547,
+            540
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live heading or content text group",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            111,
+            124,
+            770,
+            179
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live heading or content text group",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            67,
+            776,
+            468,
+            808
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "live heading or content text group",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            1023,
+            635,
+            1115,
+            747
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            111,
+            201,
+            391,
+            217
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            1169,
+            680,
+            1395,
+            702
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 10,
+          "box": [
+            677,
+            681,
+            837,
+            707
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 11,
+          "box": [
+            959,
+            635,
+            1012,
+            708
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        },
+        {
+          "id": 12,
+          "box": [
+            1260,
+            125,
+            1521,
+            428
+          ],
+          "verdict": "code",
+          "section_owner": "04-how-to-choose-next-step",
+          "what": "conversation path panel",
+          "narrative_job": "Make the existing question-to-conversation decision path visible without depicting a clinic.",
+          "build_note": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "owned_raster_count": 0,
+          "source_reference": {
+            "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/04-how-to-choose-next-step.png",
+            "region_box": [
+              1260,
+              125,
+              1521,
+              428
+            ]
+          },
+          "source_truth_deviation": "Candidate: approved frame depicts an unsupplied Sigma Core interior; client Drive supplies only reception-1.png, reception-2.png and waiting-room.png. No source photo is assigned to this region.",
+          "source_component": "src/components/interior/services/choose.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/choose.tsx",
+        "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+        "dom_ids": [
+          "how-it-works"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "6377a86a9fdeb8759dbad0b267ae0c1c890d7ea0796df3d03ed7a1c72bff1292",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the right-side clipped media footprint and live booking action. Build three staggered live rows from the existing ideas: Your questions, A conversation, Your next step; join them with light bracket rules and no visible sequence numerals or CSS counters. Keep the action and booking-status note readable below. Recompose to a shorter stacked stage on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Mobile unavailable-booking disclosure escapes the fixed-height blue field.",
+        "before": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/services/choose.tsx",
+          "source_sha256": "3f51c15bb92171a0a47b89122350f181178a441d6ed48c53c7b62e14e241d99a",
+          "dom_ids": [
+            "how-it-works"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep three staggered preparation rows in the angular field. Inset the status action from the right edge by 24 CSS px desktop and 16 mobile. The /book link says See booking status; no appointment can be confirmed. Preparation copy makes no current personal-conversation promise. At max-width 600px, replace absolute positioning with a normal-flow CSS grid status module: preparation rows, 16px gap, action and disclosure, 24px bottom padding. A separate absolute pseudo-element paints the angular blue gradient behind the complete content. Rows use 40px top, 24% left and 16px right padding. Keep the CTA/disclosure group 16px from the right edge and the existing 36px navigation gap. Preserve desktop geometry, See booking status, /book and no-confirmation wording.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+          }
+        }
+      }
+    },
+    {
+      "frame": "05-booking-cta.png",
+      "bg": "#04142c",
+      "section_owner": "05-booking-cta",
+      "expected_asset_count": 0,
+      "regions": [
+        {
+          "id": 1,
+          "box": [
+            825,
+            122,
+            1498,
+            696
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 2,
+          "box": [
+            36,
+            610,
+            920,
+            818
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 3,
+          "box": [
+            142,
+            332,
+            549,
+            548
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "live information panel or navigation rail",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 4,
+          "box": [
+            142,
+            207,
+            545,
+            322
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "live heading or content text group",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 5,
+          "box": [
+            573,
+            206,
+            741,
+            298
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 6,
+          "box": [
+            68,
+            155,
+            129,
+            581
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 7,
+          "box": [
+            734,
+            155,
+            796,
+            581
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 8,
+          "box": [
+            671,
+            611,
+            772,
+            696
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 9,
+          "box": [
+            486,
+            611,
+            574,
+            696
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 10,
+          "box": [
+            599,
+            611,
+            644,
+            696
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "small live label, icon or geometric accent",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        },
+        {
+          "id": 11,
+          "box": [
+            922,
+            134,
+            1505,
+            592
+          ],
+          "verdict": "code",
+          "section_owner": "05-booking-cta",
+          "what": "booking direction stage",
+          "narrative_job": "Counterbalance the booking copy and direct attention to its live action without suggesting a service-specific reception.",
+          "build_note": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "owned_raster_count": 0,
+          "source_reference": {
+            "approved_frame": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/pages/services/refs/05-booking-cta.png",
+            "region_box": [
+              922,
+              134,
+              1505,
+              592
+            ]
+          },
+          "source_truth_deviation": "Candidate: approved frame depicts an unsupplied Sigma Core interior; client Drive supplies only reception-1.png, reception-2.png and waiting-room.png. No source photo is assigned to this region.",
+          "source_component": "src/components/interior/services/booking.tsx"
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/services/booking.tsx",
+        "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/source-truth.css": "9cc559d2552fb2aee2bd3e4db10b18c8501b344ff1ac44465a7b2f22be21de33"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "797c75eb8c0f5ebf0e6e588f8a6255cc8870f9a965e9de68cfc6ae82cb2888b3",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Preserve the large left booking statement, live action, integration-status note and subordinate lower routes. Use a smaller, quieter clipped navy/blue field with an open silver/blue bracket and axis, distinct from the hero core. Reduce its mobile height and width. End with the route links and section breathing room, without a post-link bar row.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/services/booking.tsx",
+          "source_sha256": "c3e64439285f6456fa1021d4e8a6adc5da452d82d45c64c6be2721f3ce803fbd",
+          "dom_ids": [
+            "form"
+          ],
+          "runtime_assets": [],
+          "recipe": "Keep the bracketed statement and smaller angular field. Headline Prepare for your next step, preparation copy, and See booking status link to /book replace available-appointment wording. Explicit online-scheduling-unavailable and no-confirmation note stays visible; route links remain. Build .service-book-grid as two CSS columns with the existing navy #101e33 field, 3px bracket rules and clipped .service-book-direction; stack at 900px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/source-truth.css": "fa8dcae600dee25af13446d030bf39e784e1b956badeaed0233243016aaa32e1"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
+}

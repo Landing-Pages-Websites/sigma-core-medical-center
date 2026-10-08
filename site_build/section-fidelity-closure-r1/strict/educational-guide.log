@@ -1,0 +1,12 @@
+INVALID: 01-resource-hero.fidelity.composition.status must be PASS
+INVALID: 01-resource-hero.fidelity.visual_treatment.status must be PASS
+INVALID: 01-resource-hero.fidelity.responsive.status must be PASS
+INVALID: 02-resource-summary.fidelity.composition.status must be PASS
+INVALID: 02-resource-summary.fidelity.visual_treatment.status must be PASS
+INVALID: 02-resource-summary.fidelity.responsive.status must be PASS
+INVALID: 03-lead-form.fidelity.composition.status must be PASS
+INVALID: 03-lead-form.fidelity.visual_treatment.status must be PASS
+INVALID: 03-lead-form.fidelity.responsive.status must be PASS
+INVALID: 04-privacy-note.fidelity.composition.status must be PASS
+INVALID: 04-privacy-note.fidelity.visual_treatment.status must be PASS
+INVALID: 04-privacy-note.fidelity.responsive.status must be PASS

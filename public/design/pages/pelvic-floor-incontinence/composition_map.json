@@ -1,0 +1,903 @@
+{
+  "page": "pelvic-floor-incontinence",
+  "frames": [
+    {
+      "frame": "01-hero",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+        ],
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
+      },
+      "focal_point": {
+        "what": "Recognizable source person as a substantial counterpart to the service heading; complete face/profile and upper body intended within first800px at320/360 and844px at390; independent painted verification pending.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Legible heading followed by a full-size source-bounded portrait on mobile, then complete explanation/status/action; unchanged desktop balance.",
+      "eye_path": [
+        "heading",
+        "portrait and caption (mobile)",
+        "complete explanation, unavailable status and Services action"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Maintain navy whitespace around the sensitive-service heading."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
+      "assembly": {
+        "profile": "anchored-art",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "heading",
+        "full portrait and caption",
+        "complete paragraph, scheduling status and Services action"
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Retain baseline1200px grid, 386px image track, 670px stage and desktop typography;1440/1536 painted regression pending.",
+        "must_be_simultaneously_visible": [
+          "legible complete heading",
+          "recognizable source face/profile and upper body in first fold; PENDING painted verification"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ],
+        "mobile_composition": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship",
+        "Builder-declared mobile-only portrait-before-long-copy visual order; coherent unchanged DOM reading order and all content retained. This freedom is a documented repair candidate, not reviewer approval."
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+        ],
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
+      },
+      "slot_contracts": [
+        {
+          "asset": "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+          "crop": "All338x520 source pixels, object-fit:contain, never larger than338 CSS px; no clipping."
+        }
+      ],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+        "source_sha256": "eb6762352474efd3e01f78e6b5695bb3a84f5f49ad64f462327b5432a3dc3d58",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [
+          "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+        ],
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder mobile reordering decision only. Original and follow-up reviewer verdicts are source/width bounded in section_implementation.json. New mobile affected layers remain PENDING or residual FAIL; fresh immutable capture needed; QA PENDING; edge false.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "f8c917e30b94f061833da92eafd1fe7a46f70e65abddc11101eb07f191fc2812"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "712702208296271ec7675ffbaafa3cfc0118d3be31bc0c8d65e150e13c5d093e",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-01-person-in-garden.png"
+          ],
+          "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the owned image inside a sized media slot; CSS clip-path may restore the reference diagonal. Keep overlaid text and calls to action outside the raster.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/hero.tsx",
+          "source_sha256": "1e57c8b09c4e4e7373ed0a5152fe865fb1c85ffcc83599bc13c7d60f6ac6019c",
+          "dom_ids": [
+            "hero"
+          ],
+          "runtime_assets": [
+            "/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png"
+          ],
+          "recipe": "Use deterministic source re-extraction from the unchanged approved 1536x864 frame at half-open bbox [1096,200,1434,720], output 338x520. Preserve full source-visible head, hand/cup and more chair; retain natural aspect and cap at 338 CSS px. Surrounding mineral/charcoal geometry and live caption carry the silhouette; no new subject pixels or subject clipping.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "responsive_decision_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "decision_type": "design_decision",
+        "approval": "PENDING_INDEPENDENT_REVIEW",
+        "recipe": "Retain the exact338x520 portrait, full source-visible head, hands/cup and chair, object-fit:contain and width capped at338 CSS px; never crop, upscale or invent scenery. Preserve the desktop1200px maximum grid, 386px art track with24px rails, min-height670px, typography and64px caption reserve. At<=800px use three grid rows: heading, full portrait with its80px caption reserve, then complete paragraph/status/Services action group; use24px gaps. The existing mobile font scale and full-width portrait are unchanged. A display:contents copy wrapper lets h1 and the grouped details participate in the grid; the details wrapper is display:contents on desktop and block on mobile. The first details paragraph has no extra top margin on mobile because the grid supplies24px separation. DOM reading remains heading -> explanatory paragraph -> scheduling status -> Services link -> illustrative portrait and caption: coherent complete narrative, one unchanged focusable action, no duplicate text. CSS visual order places the noninteractive illustration between heading and explanation on mobile only. No aria-owns, tabindex or duplicated accessible text. Mobile composition/visual_treatment PENDING, responsive FAIL unresolved pending fresh independent native first-fold, whole-hero and join review at320/360/390; desktop1440/1536 regression capture required. Oldcd26b81 PASS_TARGETED is history only; no current edge approval."
+      }
+    },
+    {
+      "frame": "02-private-orientation",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier."
+      },
+      "focal_point": {
+        "what": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep blue space around the center copy without crowding it with props."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+        "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+        "dom_ids": [
+          "private-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the private orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this private orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the private orientation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Replace the fabricated lounge strip with a live two-column boundary rail beneath the orientation copy: name what belongs in an individual conversation, link to /terms, and retain the flanking privacy statements on the native blue field. Use CSS keylines and one clipped corner, no room image or empty photo aperture.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/orientation.tsx",
+          "source_sha256": "0bbbad1d008c68ea2c498071297218385b84e2e11e9c283bc229b77df17d742b",
+          "dom_ids": [
+            "private-orientation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Retain the central privacy explanation and actual overview/terms links as the dominant left column. Recompose the former empty flank towers into two compact dark notes in a right column, each with a fixed 24 CSS px diagonal. On mobile, lead with the explanation then the two notes; retain every availability and clinical qualifier.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      }
+    },
+    {
+      "frame": "03-concerns-and-goals",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals."
+      },
+      "focal_point": {
+        "what": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep readable mineral space below the heading and narrative; group the unavailable-scheduling sentence with that narrative and the three prompts within the navy aside."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/goals.tsx",
+        "source_sha256": "4ff52773f2146362ac7325084ec961d1a457c37ff88fa0438c426f1f4a1be2b1",
+        "dom_ids": [
+          "concerns-and-goals"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a mineral two-column CSS layout. The live Concerns And Goals narrative explains daily routines and the limit of online information, then states that online scheduling is unavailable and requests cannot be submitted. The navy aside groups What matters most to you? with three semantic list prompts and a non-diagnostic caveat. No visible numbered badges, booking action or premises photo; the list semantics do not imply decorative numerals.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-what-to-expect",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition."
+      },
+      "focal_point": {
+        "what": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep dark breathing space around the short orientation paragraphs."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+        "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+        "dom_ids": [
+          "what-to-expect"
+        ],
+        "runtime_assets": [],
+        "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+        "styles": {
+          "app/services/pelvic-floor-incontinence/page.css": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this what to expect content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the what to expect horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this what to expect panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-expect-grid with unavailability copy beside .p-expect-privacy, a navy clipped CSS panel, blue pseudo-element bracket and stepped polygon. Keep the real /services link; there is no booking control. Stack below 760px and retain source publication limits.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "visual_repair_r2": {
+        "baseline_commit": "f8795adc6e12b08c3947af4bb48622ae948a1f84",
+        "finding": "Desktop right L-bracket paints across the first paragraph reading zone.",
+        "before": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "a3a683d6fe1c0cd8322d0a9037350685c7ef46e8e201d766ed57f6524c1083f4"
+          }
+        },
+        "review_status": "PENDING",
+        "after": {
+          "source_component": "src/components/interior/pelvic-floor-incontinence/expect.tsx",
+          "source_sha256": "81fa83a20fed935a4781f8963484edbc087b9d934491464c408c061c7dcb3172",
+          "dom_ids": [
+            "what-to-expect"
+          ],
+          "runtime_assets": [],
+          "recipe": "Remove the 520 CSS px grid minimum and 370 CSS px panel minimum. Keep the existing visit-details-unavailable message and services link in a content-sized angular panel with a reserved upper motif zone; retain the charcoal transition and mobile stack. Remove the right L-bracket pseudo-element entirely. Preserve the upper blue stepped mark, charcoal transition, content-sized angular panel, unchanged visit-status paragraph and Services link. Mobile keeps its existing bracket-free composition.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push.",
+          "styles": {
+            "app/services/pelvic-floor-incontinence/page.css": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2"
+          }
+        }
+      }
+    },
+    {
+      "frame": "05-faq",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked."
+      },
+      "focal_point": {
+        "what": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep space between four static answers, the clinical-review note and the /services link; do not reserve space for a question counter."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/faq.tsx",
+        "source_sha256": "f1bd1579fbf6e08ccbdd5a8dd365cf97eb100f592540fffb82f94d719fc312a2",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use the left editorial Common questions heading, scope paragraph and Start with a question. boundary. The right column contains four always-visible semantic dl answers, a clinical-review limitation and /services navigation. There is no visible 01–04 count, accordion, privacy-document navigation or lounge image. Keep the questions and answers readable when stacked.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists."
+      },
+      "focal_point": {
+        "what": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Keep separation between the unavailable-booking narrative and the questions/status stage; no bottom photo or booking-control reserve."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve explicit unavailable scheduling and useful information navigation; no route raster in this section"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/booking.tsx",
+        "source_sha256": "97b9d85e0444ccfc17ae07b38c7047b876122a7972ed24eb9a627ca2c0ad7f34",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Keep the navy booking-status panel within the action-blue section. The left group states that scheduling is unavailable and requests cannot be submitted, followed by Respectful. Personal. Richmond. and the no-fit/no-result caveat. The right information stage says Bring your questions. and links only to /services. No primary booking action, form, calendar or photographic aperture exists.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "viewport_context": {
+        "reference_kind": "section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 512
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "slot_contract": {
+        "container": "Section-owned CSS grid",
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile."
+      },
+      "focal_point": {
+        "what": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "where": "section-owned live layout"
+      },
+      "dominance": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+      "eye_path": [
+        "live heading",
+        "section-specific narrative groups",
+        "useful information/status links"
+      ],
+      "overlaps": [
+        "Decorative geometry stays behind live text and focus rings."
+      ],
+      "quiet_zones": [
+        "Maintain clear cream around source list and closing note."
+      ],
+      "tension": "Section-owned copy and geometry; documented photo removal is intentional.",
+      "image_copy_relation": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+      "assembly": {
+        "profile": "code-first",
+        "surface": "Existing brand CSS fields",
+        "layer_stack": [
+          "CSS field",
+          "live semantic content",
+          "aria-hidden geometric accents"
+        ],
+        "responsive_contract": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "seam_contract": [
+          "Preserve local section rhythm; formal edge review pending."
+        ]
+      },
+      "content_groups": [
+        "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile."
+      ],
+      "space_roles": {
+        "internal_grouping": "heading and explanatory copy stay close",
+        "quiet_space": "space around meaningful content separates it from decorative bars",
+        "section_transition": "keep an independently sized closing gap, not a gap inside the title/copy group"
+      },
+      "viewport_intent": {
+        "desktop_composition": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "must_be_simultaneously_visible": [
+          "heading",
+          "primary narrative group"
+        ],
+        "crop_invariants": [
+          "No invented or damaged subject; native image crop retained where supported."
+        ]
+      },
+      "section_edge_clearance_intent": "Respect the source seam; reserve a local spacing unit after last meaningful content, except for explicitly edge-touching media or color bands.",
+      "invariants": [
+        "Live semantic content",
+        "No documentary inference",
+        "Preserve supported lifestyle subject/crop"
+      ],
+      "free": [
+        "responsive type sizing and accessible focus styles",
+        "mobile stacking order provided hierarchy remains intact",
+        "spacing tokens without altering group/section relationship"
+      ],
+      "image_framing": {
+        "ownership_model": "independent-layers",
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile."
+      },
+      "slot_contracts": [],
+      "runtime_contract": {
+        "source_component": "src/components/interior/pelvic-floor-incontinence/sources.tsx",
+        "source_sha256": "7c16412513d43e01a3f961737f30ecbb3722ac8a6efc1171542192947832a547",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .p-sources-grid with the source boundary copy beside .p-sources-reference: mineral #e7e9e8, a 5px action-blue top border and a navy triangular corner. Preserve the actual NIDDK bladder-control URL and its narrow non-endorsement caveat; stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  },
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "visual_repair_r2": {
+    "status": "PENDING",
+    "plan": "site_convergence/fidelity-repair-r2/repair-plan.md",
+    "boundary": "Visual repair round 2 candidate; browser evidence PENDING. Fidelity PENDING, QA PENDING, section-edge flags false. Requires fresh same-state desktop/mobile whole-section and painted-seam review after controller push."
+  }
+}

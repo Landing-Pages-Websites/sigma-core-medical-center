@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_for": "sigma-core-medical-center public website",
+  "generated_for": "sigma-core-medical-center approved sitemap",
   "routes": [
     "/",
     "/services",
@@ -12,6 +12,10 @@
     "/about",
     "/educational-guide",
     "/book",
-    "/contact"
+    "/contact",
+    "/privacy",
+    "/notice-of-privacy-practices",
+    "/accessibility",
+    "/terms"
   ]
 }

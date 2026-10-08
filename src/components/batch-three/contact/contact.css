@@ -1,0 +1,203 @@
+/* Local faces reuse existing files; no shared typography or Book source changes. */
+@font-face {
+  font-family: "Contact Source Sans";
+  src: url("../../../../app/fonts/SourceSans3-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Contact Source Sans";
+  src: url("../../../../app/fonts/SourceSans3-600.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Contact Source Sans";
+  src: url("../../../../app/(batch-three)/book/fonts/SourceSans3-700.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Contact Source Sans";
+  src: url("../../../../app/(batch-three)/book/fonts/SourceSans3-800.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+/* The existing route wrapper remains unchanged; only Contact opts out of clipping. */
+.b3:has(> .contact-section) { overflow: visible; }
+.b3 .contact-section {
+  position: relative;
+  isolation: isolate;
+  font-family: "Contact Source Sans", var(--font-body);
+  font-size: 18px;
+  scroll-margin-top: 96px;
+}
+.b3 .contact-section h1,
+.b3 .contact-section h2,
+.b3 .contact-section h3 {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: -.025em;
+  line-height: 1.05;
+  text-wrap: initial;
+}
+.b3 .contact-section h2 { font-size: clamp(36px, 4.5vw, 68px); }
+.b3 .contact-section p {
+  max-width: none;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.b3 .contact-section a {
+  min-height: 48px;
+  transition: color 180ms ease;
+}
+.b3 .contact-section a svg { flex: none; }
+.b3 .contact-section a:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
+.b3 .contact-section .contact-aperture {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 100%;
+  padding: 20px 32px;
+  color: var(--color-ink);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.contact-aperture::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: var(--color-surface);
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+  transition: background-color 180ms ease;
+}
+.b3 .contact-section .contact-aperture:hover { text-decoration: none; }
+.contact-aperture:hover::before { background: var(--color-silver); }
+.contact-aperture:active::before { background: var(--color-focus); }
+
+.contact-hero {
+  --contact-transition: clamp(112px, 11.5vw, 184px);
+  padding: clamp(72px, 5.7vw, 96px) 0 calc(var(--contact-transition) + 40px);
+  background: var(--color-ink);
+  color: #fff;
+}
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: auto 0 -1px;
+  height: calc(var(--contact-transition) + 1px);
+  background: var(--color-action);
+  clip-path: polygon(0 65%, 100% 0, 100% 100%, 0 100%);
+}
+.contact-hero-copy { width: min(70%, 1056px); margin-left: 6.6%; }
+.b3 .contact-hero .contact-name {
+  margin-bottom: 24px;
+  color: var(--color-silver);
+  font-size: clamp(22px, 2.1vw, 32px);
+  font-weight: 600;
+}
+.b3 .contact-hero h1 {
+  font-size: clamp(64px, 8.1vw, 124px);
+  font-weight: 800;
+  line-height: .98;
+  letter-spacing: -.035em;
+}
+.contact-hero h1 span { display: block; }
+.b3 .contact-hero .contact-area {
+  margin-top: 20px;
+  color: var(--color-silver);
+  font-size: clamp(28px, 3.2vw, 48px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.b3 .contact-hero .contact-pending {
+  max-width: 40ch;
+  margin-top: 28px;
+  font-size: clamp(24px, 2.4vw, 36px);
+  line-height: 1.4;
+}
+.contact-hero .contact-aperture { margin-top: 32px; }
+.contact-hero-motif {
+  position: absolute;
+  right: 0;
+  top: 6%;
+  width: 23.5%;
+  height: auto;
+  pointer-events: none;
+}
+
+.contact-details {
+  --contact-transition: clamp(128px, 13.6vw, 216px);
+  padding: 104px 0 calc(var(--contact-transition) + 48px);
+  background: var(--color-action);
+  color: #fff;
+}
+.contact-details::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: auto 0 -1px;
+  height: calc(var(--contact-transition) + 1px);
+  background: var(--color-surface);
+  clip-path: polygon(0 0, 33.1% 0, 42.8% 23.4%, 100% 23.4%, 100% 100%, 0 100%);
+}
+.contact-register { width: 83.2%; max-width: 1440px; margin-inline: auto; }
+.contact-register dl { margin-top: 56px; }
+.contact-register dl > div {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: baseline;
+  padding-block: 20px;
+  border-top: 1px solid var(--color-silver);
+  font-size: clamp(26px, 2.2vw, 34px);
+  line-height: 1.4;
+}
+.contact-register dl > div:last-child { border-bottom: 1px solid var(--color-silver); }
+.contact-register dt { font-weight: 700; }
+.contact-register dd { margin: 0; }
+.contact-register-steps { display: block; width: 108px; height: 42px; margin: 48px 0 0 auto; }
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .contact-hero-copy { width: 71%; }
+  .b3 .contact-hero h1 { font-size: 8vw; }
+}
+@media (max-width: 760px) {
+  .b3 .contact-section { scroll-margin-top: 176px; }
+  .b3 .contact-section h2 { font-size: 36px; }
+  .b3 .contact-section p { font-size: 18px; line-height: 1.5; }
+  .contact-hero { --contact-transition: 48px; padding-top: 56px; }
+  .contact-hero-copy { width: calc(100% - 40px); margin-inline: 20px; }
+  .b3 .contact-hero .contact-name { font-size: 20px; margin-bottom: 24px; }
+  .b3 .contact-hero h1 { font-size: clamp(44px, 12vw, 58px); line-height: 1.02; }
+  .contact-hero h1 span { display: inline; }
+  .b3 .contact-hero .contact-area { margin-top: 24px; font-size: 24px; }
+  .b3 .contact-hero .contact-pending { margin-top: 24px; font-size: 18px; line-height: 1.5; }
+  .contact-hero .contact-aperture { margin-top: 28px; }
+  .b3 .contact-section .contact-aperture { gap: 24px; padding: 18px 24px; font-size: 20px; }
+  .contact-hero-motif { display: none; }
+  .contact-details { --contact-transition: 56px; padding-top: 56px; padding-bottom: 104px; }
+  .contact-register { width: calc(100% - 40px); }
+  .contact-register dl { margin-top: 28px; }
+  .contact-register dl > div { display: block; padding-block: 20px; }
+  .contact-register dt { font-size: 20px; font-weight: 600; }
+  .contact-register dd { margin-top: 8px; font-size: 18px; }
+  .contact-register-steps { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .b3 .contact-section a, .contact-aperture::before { transition: none; }
+}

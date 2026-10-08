@@ -1,24 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { BRAND, HERO } from "@/content/site";
-import { BracketMark, GhostWord } from "@/components/variant-b/motifs";
+import { BRAND, HERO, PENDING } from "@/content/site";
+import { PendingAction } from "@/components/shared/pending-action";
+import { BracketMark, GhostWord, SteppedBars } from "@/components/variant-b/motifs";
 import { paperButtonB } from "@/components/variant-b/buttons";
 
 function HeroActionsB(): React.ReactElement {
   return (
     <div className="flex w-full max-w-sm flex-col gap-3">
-      <Link href="/book" className={paperButtonB}>
-        <span className="flex items-center gap-3"><BracketMark />{HERO.primaryCta}</span>
-        <ArrowRight size={18} aria-hidden />
-      </Link>
-      <Link href="/services/neuropathy" className={paperButtonB}>
+      <PendingAction
+        label={
+          <>
+            <span className="flex items-center gap-3">
+              <BracketMark />
+              {HERO.primaryCta}
+            </span>
+            <ArrowRight size={18} aria-hidden />
+          </>
+        }
+        title={PENDING.booking.title}
+        message={PENDING.booking.message}
+        className={paperButtonB}
+      />
+      <a href="#neuropathy" className={paperButtonB}>
         <span className="flex items-center gap-3">
           <BracketMark />
           {HERO.secondaryCta}
         </span>
         <ArrowRight size={18} aria-hidden />
-      </Link>
+      </a>
     </div>
   );
 }
@@ -26,6 +37,23 @@ function HeroActionsB(): React.ReactElement {
 export function HeroB(): React.ReactElement {
   return (
     <section id="hero" aria-label="Introduction" className="bg-ink">
+      <div className="bg-surface">
+        <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
+          <Image
+            src="/images/shared/logo.png"
+            alt="Sigma Core Medical Center"
+            width={300}
+            height={81}
+            priority
+            className="h-12 w-auto sm:h-14"
+          />
+          <nav aria-label="Main navigation" className="flex items-center gap-3 text-sm font-semibold text-ink max-[360px]:w-full max-[360px]:justify-between sm:gap-6 sm:text-base">
+            <Link href="/services/neuropathy" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Neuropathy</Link>
+            <Link href="/services" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Services</Link>
+            <SteppedBars className="hidden items-end sm:flex" />
+          </nav>
+        </div>
+      </div>
       <div className="relative overflow-hidden">
         <div
           aria-hidden

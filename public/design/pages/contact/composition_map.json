@@ -1,0 +1,559 @@
+{
+  "version": 1,
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "page": "contact",
+  "method": "Producer composition reading of actual native generated frames; not a fresh independent approval.",
+  "frames": [
+    {
+      "frame": "01-contact-hero",
+      "anchor": "typographic-landscape",
+      "weight": "loud",
+      "focal_point": {
+        "what": "Subject-led Contact & location status H1",
+        "where": "left upper two-thirds"
+      },
+      "dominance": "Subject title dominates; operational limitation is clear secondary copy. Area text stays silver, never electric. Right bracket/steps are subordinate decoration.",
+      "eye_path": [
+        "clinic name",
+        "H1 subject",
+        "Richmond area",
+        "pending contact sentence",
+        "View current details"
+      ],
+      "quiet_zones": [
+        "Keep the outer-right geometry field free of words and controls.",
+        "Keep the pending sentence immediately after the service area; do not put a large empty geometry reserve between them."
+      ],
+      "tension": "Wide readable subject mass balanced by narrow cropped stepped contour.",
+      "overlaps": [
+        "Bottom action-blue color plane underlays decoration but never text."
+      ],
+      "content_groups": [
+        "name/H1/area/pending body/details anchor",
+        "decorative right bracket and stepped bars"
+      ],
+      "invariants": [
+        "H1 is the first focal mass and at least 1.8 times the pending-body font size.",
+        "Name, title, area, pending statement and details anchor remain in one semantic group with no interposed art.",
+        "At desktop copy owns 62\u201370% of usable width; motif owns at most 24% and cannot overlap glyphs.",
+        "Area is #C7CBD0 or #FFFFFF on #101E33, never electric-blue letters.",
+        "CTA follows pending statement with 24\u201340 CSS px spacing; decorative transition begins at least 40 CSS px after the control."
+      ],
+      "mobile": {
+        "order": [
+          "name",
+          "H1",
+          "area",
+          "pending body",
+          "details anchor"
+        ],
+        "width": "100% minus 40px side padding at 390px",
+        "type": "H1 clamp(44px,12vw,58px), line-height 1.02; area 24px; body 18px with 1.5 line-height. Wrap at words; no forced desktop br across narrow mobile.",
+        "geometry": "Shrink or hide the right cropped bracket; a small unlabelled step accent may sit below anchor. Do not reserve a media-height void.",
+        "spacing": "48\u201364px top; 24\u201332px after body; at least 40px after anchor; transition height 36\u201356px.",
+        "fold": "At 390x844 name, title, area, pending sentence and anchor should be encountered together without a decorative viewport. Natural height may continue if larger user type requires it."
+      },
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "viewport_context": {
+        "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+        "reference_kind": "native-section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "alternate_css_viewport": {
+          "width": 1536,
+          "height": 1024
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime_raster_assets": 0
+      },
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Flat approved CSS tokens. Generated tonal noise is incidental and not an asset.",
+        "layer_stack": [
+          "section field and transition pseudo-element",
+          "decorative aria-hidden inline SVG or CSS geometry",
+          "semantic text and anchors with unclipped focus"
+        ],
+        "owned_raster_parts": [],
+        "connector_relationships": [],
+        "responsive_contract": {
+          "order": [
+            "name",
+            "H1",
+            "area",
+            "pending body",
+            "details anchor"
+          ],
+          "width": "100% minus 40px side padding at 390px",
+          "type": "H1 clamp(44px,12vw,58px), line-height 1.02; area 24px; body 18px with 1.5 line-height. Wrap at words; no forced desktop br across narrow mobile.",
+          "geometry": "Shrink or hide the right cropped bracket; a small unlabelled step accent may sit below anchor. Do not reserve a media-height void.",
+          "spacing": "48\u201364px top; 24\u201332px after body; at least 40px after anchor; transition height 36\u201356px.",
+          "fold": "At 390x844 name, title, area, pending sentence and anchor should be encountered together without a decorative viewport. Natural height may continue if larger user type requires it."
+        }
+      },
+      "free": [
+        "Tune fluid CSS sizing and natural section height while preserving hierarchy, pairing and outcomes.",
+        "Use CSS Grid or Flexbox; preserve documented desktop relationships and mobile order.",
+        "Improve focus and text contrast using approved tokens only.",
+        "Remove provider grain, shading and imperfect glyph details; use actual approved fonts."
+      ],
+      "section_edge_clearance_intent": "Content and focus indicators end before the transition plane; no outer container clips semantic elements. Decorative geometry may crop at viewport outer edge only.",
+      "slot_contracts": [],
+      "image_framing": {
+        "visual_intent": "Zero-photo status and information composition",
+        "ownership_model": "code-only",
+        "owned_parts": [],
+        "runtime_raster_assets": []
+      },
+      "observed_native_layout": "Name at (102,94); H1 mass (98,153)\u2013(994,357); silver area at (101,392); body (101,474)\u2013(817,555); anchor (102,598)\u2013(572,688); bracket runs (1468,86)\u2192(1315,86)\u2192(1315,292)\u2192(1181,425)\u2192(1181,664)\u2192(1255,664). Steps at right end y665.",
+      "observed_transition": "Observed final hero attempt 2: blue diagonal runs approximately (0,802) to (1536,687), filling the bottom plane. Only y>=804 blank blue is seam-normalized. The final full edge is #0666A5.",
+      "reference_sha256": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/contact/hero.tsx",
+        "source_sha256": "c2cf730be3e04ff9bfa49a4458608189fe7d39620732719a51064fa7c725bfae",
+        "dom_ids": [
+          "contact-hero",
+          "contact-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Never aria-hide the containing semantic section or content panel. background:#101E33; isolated position:relative. ::after bottom:0; width:100%; height:20.5%; background:#0666A5; clip-path:polygon(0 65%,100% 0,100% 100%,0 100%). Keep this behind content. This reproduces observed full-canvas polygon (0,802),(1536,687),(1536,864),(0,864). Grid copy 70%/motif 24%, gap 6%; content width:min(100% - 12vw,1344px). Source Sans 3; name 22\u201328px/600, H1 clamp(56px,7.2vw,112px)/800, line-height:.98, letter-spacing:-.035em. Desktop break after ampersand. White H1, silver name. Area Source Sans 3 600, color:#C7CBD0, font-size:clamp(26px,3vw,42px); margin-top:22px. Pending statement white 24\u201330px/1.4 with max-width:40ch; margin-top:26px. inline-flex align-items:center; gap:24px; padding:20px 28px; min-height:56px; Source Sans 3 600 24\u201328px; navy text. Shape is mineral ::before polygon(0 0,95% 0,100% 24%,100% 100%,0 100%); unclipped anchor. Arrow inline SVG path M4 12h20 m-7-7 7 7-7 7, aria-hidden. Absolute right SVG viewBox=\"0 0 1536 864\"; polyline points=\"1468,86 1315,86 1315,292 1181,425 1181,664 1255,664\" fill=none stroke=#C7CBD0 stroke-width=6 vector-effect=non-scaling-stroke. Electric rects: x1308 y597 w72 h68; x1388 y504 w72 h161; x1467 y344 w69 h321. No axes/values.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-verified-location-details",
+      "anchor": "open-ruled-register",
+      "weight": "quiet",
+      "focal_point": {
+        "what": "Three static public-information statuses",
+        "where": "broad two-column register below smaller title"
+      },
+      "dominance": "Compact title opens a register; label/value relationships carry meaning. No status appears inside a button or input silhouette.",
+      "eye_path": [
+        "Contact details",
+        "Public address / Pending confirmation",
+        "Phone & email / Not confirmed",
+        "Opening hours / Pending confirmation"
+      ],
+      "quiet_zones": [
+        "Broad clear band below register, no icon cards or faux contact controls."
+      ],
+      "tension": "Long silver rules hold a broad blue field, labels heavier than values.",
+      "overlaps": [],
+      "content_groups": [
+        "section heading",
+        "three static dt/dd pairs",
+        "small terminal decorative steps"
+      ],
+      "invariants": [
+        "Title is no more than 0.65 times hero H1 scale.",
+        "One continuous blue surface carries all rows, no independent row backgrounds.",
+        "Labels use Source Sans 3 600/700, values regular; both at least 22px desktop and 18px mobile.",
+        "Each dd is directly paired with its dt in source; no focusability, selection affordance, caret, phone/mailto link or interaction.",
+        "On desktop value column begins at approximately 55% of register width, adjusted for actual font metrics; rows share consistent baselines. Observed native x129\u20131407 and value x828 imply (828-129)/(1407-129)=54.695%. This resolves the prior 58\u201364% prose conflict in favor of the independently reviewed native frame and 55/45 extraction recipe; mobile pairs remain stacked.",
+        "All four rules begin/end on shared x coordinates; tiny terminal steps remain subordinate with no numeric/chart labels."
+      ],
+      "mobile": {
+        "order": [
+          "Contact details",
+          "public address label/value",
+          "phone & email label/value",
+          "opening hours label/value"
+        ],
+        "layout": "Use dl display:block; each row is a block with dt above dd and 6\u201310px gap, padding-block 20\u201324px, border-top 1px. Last row has border-bottom. No horizontal scroll.",
+        "type": "h2 34\u201340px; dt 20px semibold; dd 18px normal; white on action blue.",
+        "geometry": "Remove ornamental terminal step group if it pushes the mineral seam away; compress lower reserve to 40\u201364px.",
+        "fold": "The three status pairs should fit naturally in a single section-entry 390x844 view, not four screen-height bands."
+      },
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "viewport_context": {
+        "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+        "reference_kind": "native-section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "alternate_css_viewport": {
+          "width": 1536,
+          "height": 1024
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime_raster_assets": 0
+      },
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Flat approved CSS tokens. Generated tonal noise is incidental and not an asset.",
+        "layer_stack": [
+          "section field and transition pseudo-element",
+          "decorative aria-hidden inline SVG or CSS geometry",
+          "semantic text and anchors with unclipped focus"
+        ],
+        "owned_raster_parts": [],
+        "connector_relationships": [],
+        "responsive_contract": {
+          "order": [
+            "Contact details",
+            "public address label/value",
+            "phone & email label/value",
+            "opening hours label/value"
+          ],
+          "layout": "Use dl display:block; each row is a block with dt above dd and 6\u201310px gap, padding-block 20\u201324px, border-top 1px. Last row has border-bottom. No horizontal scroll.",
+          "type": "h2 34\u201340px; dt 20px semibold; dd 18px normal; white on action blue.",
+          "geometry": "Remove ornamental terminal step group if it pushes the mineral seam away; compress lower reserve to 40\u201364px.",
+          "fold": "The three status pairs should fit naturally in a single section-entry 390x844 view, not four screen-height bands."
+        }
+      },
+      "free": [
+        "Tune fluid CSS sizing and natural section height while preserving hierarchy, pairing and outcomes.",
+        "Use CSS Grid or Flexbox; preserve documented desktop relationships and mobile order.",
+        "Improve focus and text contrast using approved tokens only.",
+        "Remove provider grain, shading and imperfect glyph details; use actual approved fonts."
+      ],
+      "section_edge_clearance_intent": "Content and focus indicators end before the transition plane; no outer container clips semantic elements. Decorative geometry may crop at viewport outer edge only.",
+      "slot_contracts": [],
+      "image_framing": {
+        "visual_intent": "Zero-photo status and information composition",
+        "ownership_model": "code-only",
+        "owned_parts": [],
+        "runtime_raster_assets": []
+      },
+      "observed_native_layout": "Title (126,115)\u2013(631,172); register rules x129\u20131407 at y243/329/418/506; labels x130 and values x828. Tiny offset lines around (1297,563)\u2013(1404,602).",
+      "observed_transition": "Observed frame: blue/mineral boundary is horizontal (0,655) to (509,655), diagonal to (657,704), then horizontal to (1536,704). Lower blank plane y>=706 is normalized, including removal of provider gray strip at y816; edge #F7F6F3.",
+      "reference_sha256": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/contact/details.tsx",
+        "source_sha256": "10dd9a994d6d220dd854ac9791aaff14fbdd9caeaa116c1966c63a603cef01a2",
+        "dom_ids": [
+          "verified-location-details",
+          "contact-details-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Never aria-hide the containing semantic section or content panel. background:#0666A5; ::after behind content uses #F7F6F3 and polygon(0 0,33.1% 0,42.8% 23.4%,100% 23.4%,100% 100%,0 100%) in a bottom 209px-high band at native scale. Actual content dictates natural height; diagonal only after register. Source Sans 3 700, white, clamp(36px,4.5vw,64px); max-width:20ch; section content inset 8.4% native and title/register gap 56px. dl margin:0; each row display:grid; grid-template-columns:55% 45%; gap:0; padding-block:22px; border-top:1px solid #C7CBD0; last child border-bottom. dt 28\u201332px/600; dd same size/400; color:white; all values exact manifest. No icon/button/input/role=status required. Three simple silver rects with native x/y/w/h:1297/597/47/6;1327/580/47/6;1357/563/47/6. Keep under10% usable width and beneath register without connecting to statuses.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-facility-image",
+      "anchor": "offset-visit-status-field",
+      "weight": "quiet",
+      "focal_point": {
+        "what": "Visit information panel",
+        "where": "right navy field, offset upward relative to left photo-source text"
+      },
+      "dominance": "Before you visit title orients; dark practical status panel carries the strongest lower-page mass. Source photo remains a text link on the open mineral field.",
+      "eye_path": [
+        "Before you visit",
+        "Visit information and pending rows",
+        "Home source-photo link",
+        "interior-photo limitation"
+      ],
+      "quiet_zones": [
+        "Mineral separation between left source group and navy panel is at least 40px desktop.",
+        "Below left source caveat remains clear, never a blank image aperture."
+      ],
+      "tension": "Asymmetric mineral typography meets a single clipped navy information panel.",
+      "overlaps": [
+        "Panel is a colored background layer with independent unclipped semantic content; top-left clip is decorative only."
+      ],
+      "content_groups": [
+        "section title",
+        "photo label/body/link/caveat",
+        "Visit information title/two status pairs/route-planning note"
+      ],
+      "invariants": [
+        "Exactly zero images, including CSS image backgrounds; no placeholder/photo slot.",
+        "Home link label explicitly names client-supplied clinic photo and Home; caveat remains within 12\u201324 CSS px after link.",
+        "Navy panel owns about 50\u201353% of native width; source text remains open without a second card.",
+        "Panel heading, status rows and route-planning note remain one block, with 24\u201336px between grouped elements.",
+        "Panel keyline upturns are decorative; recreate as straight 1px borders if needed, never input borders or form controls.",
+        "Blue left rail and silver upper bracket stay clear of text; clipping applies only to pseudo-element background so focus outlines and glyphs remain intact."
+      ],
+      "mobile": {
+        "order": [
+          "Before you visit",
+          "Visit information panel",
+          "Clinic photo",
+          "source-body",
+          "Home photo link",
+          "photo caveat"
+        ],
+        "layout": "Use CSS grid areas to move practical visit status ahead of source-photo group at <=760px while keeping logical heading relationships. Prefer DOM title\u2192panel\u2192photo group; desktop grid can place photo left. No changed factual content.",
+        "type": "h2 36px; panel title 28px; dt 20px, dd and note 18px; Clinic photo 30px Playfair Display; source text and link 18px.",
+        "geometry": "Panel width 100%, padding 32px 24px 28px; cut corner at most 22px; blue rail 5px; bracket 24px. Pair labels and values vertically.",
+        "spacing": "24\u201332px after title; 28\u201336px between panel and photo source group; 40\u201356px after caveat before charcoal transition.",
+        "fold": "First pending visit row must enter within first 400px from section start. Do not put a tall empty photo area above it."
+      },
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "viewport_context": {
+        "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+        "reference_kind": "native-section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "alternate_css_viewport": {
+          "width": 1536,
+          "height": 1024
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime_raster_assets": 0
+      },
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Flat approved CSS tokens. Generated tonal noise is incidental and not an asset.",
+        "layer_stack": [
+          "section field and transition pseudo-element",
+          "decorative aria-hidden inline SVG or CSS geometry",
+          "semantic text and anchors with unclipped focus"
+        ],
+        "owned_raster_parts": [],
+        "connector_relationships": [],
+        "responsive_contract": {
+          "order": [
+            "Before you visit",
+            "Visit information panel",
+            "Clinic photo",
+            "source-body",
+            "Home photo link",
+            "photo caveat"
+          ],
+          "layout": "Use CSS grid areas to move practical visit status ahead of source-photo group at <=760px while keeping logical heading relationships. Prefer DOM title\u2192panel\u2192photo group; desktop grid can place photo left. No changed factual content.",
+          "type": "h2 36px; panel title 28px; dt 20px, dd and note 18px; Clinic photo 30px Playfair Display; source text and link 18px.",
+          "geometry": "Panel width 100%, padding 32px 24px 28px; cut corner at most 22px; blue rail 5px; bracket 24px. Pair labels and values vertically.",
+          "spacing": "24\u201332px after title; 28\u201336px between panel and photo source group; 40\u201356px after caveat before charcoal transition.",
+          "fold": "First pending visit row must enter within first 400px from section start. Do not put a tall empty photo area above it."
+        }
+      },
+      "free": [
+        "Tune fluid CSS sizing and natural section height while preserving hierarchy, pairing and outcomes.",
+        "Use CSS Grid or Flexbox; preserve documented desktop relationships and mobile order.",
+        "Improve focus and text contrast using approved tokens only.",
+        "Remove provider grain, shading and imperfect glyph details; use actual approved fonts."
+      ],
+      "section_edge_clearance_intent": "Content and focus indicators end before the transition plane; no outer container clips semantic elements. Decorative geometry may crop at viewport outer edge only.",
+      "slot_contracts": [],
+      "image_framing": {
+        "visual_intent": "Zero-photo status and information composition",
+        "ownership_model": "code-only",
+        "owned_parts": [],
+        "runtime_raster_assets": []
+      },
+      "observed_native_layout": "Heading (85,91)\u2013(594,146); open photo source group x88\u2013659,y280\u2013563. Navy panel x744\u20131487,y145\u2013701; top-left diagonal (744,192)\u2192(791,145); title x805,y225. Static pairs at y322 and y418; route note at x805,y536. All content above y701.",
+      "observed_transition": "Observed frame: straight mineral/charcoal boundary at y754. Charcoal y>=760 is normalized to final #20272E edge. No original requested y816 transition is claimed.",
+      "reference_sha256": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/contact/facility.tsx",
+        "source_sha256": "a975cb55a882ff4bf6586441de95d4be0bb58bff3a92b5f70f73e9672d1a371b",
+        "dom_ids": [
+          "facility-image",
+          "contact-visit-title",
+          "contact-photo-caveat"
+        ],
+        "runtime_assets": [],
+        "recipe": "Never aria-hide the containing semantic section or content panel. background:#F7F6F3; charcoal ::after occupies final transition band after content and 48px clearance; native top y754. No grain or image background. Source Sans 3 700, navy; clamp(36px,4.5vw,64px); width fit-content. Single desktop line. Left desktop column width42%; Playfair Display500 label 40px/1.15; body Source Sans3 24px/1.5. Keep source statement plain and literal; no actual image. Inline-flex min-height48px; gap10px; color:#0666A5; font24px/600; underline-offset:5px. Label exact manifest; arrow-up-right separate aria-hidden SVG. Never add thumbnail or card background. max-width:43ch; Source Sans3 22px/1.5 #55616A; margin-top20px immediately after photo anchor. Never aria-hide the containing semantic section or content panel. Use panel position:relative; background pseudo-element inset0; background:#101E33; clip-path:polygon(6.3% 0,100% 0,100% 100%,0 100%,0 8.5%). Content wrapper un-clipped, padding:68px 40px 56px 60px at native scale. H3 SourceSans3 700 38px white. dl margin-top36px; pair display:grid grid-template-columns:56% 44%, align-items:baseline; padding:20px 0; border-bottom:1px solid #C7CBD0. dt26px/600 and dd24px/400. Native bracket-like upturns are decoration and may be omitted; no textbox role. SourceSans3 24px/1.5 white; max-width:42ch; margin-top:44px after dl. Exact sentence from manifest. Blue rail absolute left0 top47px bottom0 width12px (scale to8px runtime); silver bracket top36px right38px width88px height84px, border-top/right4px solid #C7CBD0. All pointer-events:none, aria-hidden.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-booking-cta",
+      "anchor": "information-route-list",
+      "weight": "quiet",
+      "focal_point": {
+        "what": "Explore services navigation anchor",
+        "where": "upper right mineral route bar"
+      },
+      "dominance": "Primary services information route leads; About and scheduling status remain real secondary anchors with short explanatory text.",
+      "eye_path": [
+        "Continue with information",
+        "Explore services + description",
+        "About Sigma Core + description",
+        "See scheduling status + unavailable statement"
+      ],
+      "quiet_zones": [
+        "Broad lower charcoal closure contains no extra card, calendar or invented footer.",
+        "Left below title stays quiet; do not fill with repeated availability box."
+      ],
+      "tension": "Small left sentence balances an ordered but unnumbered route list at right.",
+      "overlaps": [],
+      "content_groups": [
+        "closing heading and small bracket",
+        "services anchor and description",
+        "About anchor and description",
+        "scheduling status anchor and unavailable sentence"
+      ],
+      "invariants": [
+        "Heading stays smaller than hero, on desktop approximately equal to or slightly larger than link text; Services action remains the strongest contrast.",
+        "Exactly three anchors; no booking transaction, contact channel, data collection or status toggle.",
+        "Status limitation appears in same group within 12\u201320 CSS px beneath See scheduling status, in body-size white text.",
+        "Services leads to /services root to preserve neuropathy overview; About and Book use verified fragments.",
+        "All link labels are real anchor text; arrows aria-hidden. Preserve 48px minimum target and visible focus outside all clips."
+      ],
+      "mobile": {
+        "order": [
+          "Continue with information",
+          "Explore services / Browse service categories.",
+          "About Sigma Core / Read about the practice.",
+          "See scheduling status / Online booking is not yet available."
+        ],
+        "layout": "Single stack. Link labels wrap naturally; arrows flex:none and align center or end without getting stranded. Keep sentence under its own link.",
+        "type": "Heading 32\u201336px; links 22\u201326px; descriptions 18px with 1.45 line-height.",
+        "geometry": "Service shape uses background pseudo-element only; no clipping anchor focus ring. Rules remain one pixel, no row card backgrounds.",
+        "spacing": "32px heading to routes; 28\u201336px between route groups; 48\u201364px final closure. Natural section height, never min-height:864px."
+      },
+      "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+      "viewport_context": {
+        "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+        "reference_kind": "native-section-frame",
+        "bitmap_dimensions": {
+          "width": 1536,
+          "height": 864
+        },
+        "reference_css_viewport": null,
+        "reference_device_pixel_ratio": null,
+        "primary_css_viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "alternate_css_viewport": {
+          "width": 1536,
+          "height": 1024
+        },
+        "mobile_css_viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runtime_raster_assets": 0
+      },
+      "assembly": {
+        "profile": "code-first",
+        "score": 0,
+        "surface": "Flat approved CSS tokens. Generated tonal noise is incidental and not an asset.",
+        "layer_stack": [
+          "section field and transition pseudo-element",
+          "decorative aria-hidden inline SVG or CSS geometry",
+          "semantic text and anchors with unclipped focus"
+        ],
+        "owned_raster_parts": [],
+        "connector_relationships": [],
+        "responsive_contract": {
+          "order": [
+            "Continue with information",
+            "Explore services / Browse service categories.",
+            "About Sigma Core / Read about the practice.",
+            "See scheduling status / Online booking is not yet available."
+          ],
+          "layout": "Single stack. Link labels wrap naturally; arrows flex:none and align center or end without getting stranded. Keep sentence under its own link.",
+          "type": "Heading 32\u201336px; links 22\u201326px; descriptions 18px with 1.45 line-height.",
+          "geometry": "Service shape uses background pseudo-element only; no clipping anchor focus ring. Rules remain one pixel, no row card backgrounds.",
+          "spacing": "32px heading to routes; 28\u201336px between route groups; 48\u201364px final closure. Natural section height, never min-height:864px."
+        }
+      },
+      "free": [
+        "Tune fluid CSS sizing and natural section height while preserving hierarchy, pairing and outcomes.",
+        "Use CSS Grid or Flexbox; preserve documented desktop relationships and mobile order.",
+        "Improve focus and text contrast using approved tokens only.",
+        "Remove provider grain, shading and imperfect glyph details; use actual approved fonts."
+      ],
+      "section_edge_clearance_intent": "Content and focus indicators end before the transition plane; no outer container clips semantic elements. Decorative geometry may crop at viewport outer edge only.",
+      "slot_contracts": [],
+      "image_framing": {
+        "visual_intent": "Zero-photo status and information composition",
+        "ownership_model": "code-only",
+        "owned_parts": [],
+        "runtime_raster_assets": []
+      },
+      "observed_native_layout": "One-line small closing heading x106\u2013686,y138\u2013174 plus small bracket x711\u2013723. Route column x808\u20131449; primary mineral anchor y137\u2013233; Services description y258; About link y344, description y416; scheduling link y505, unavailable body y575. Native closing title fit one line rather than requested two: preserve hierarchy, allow wrapping in code.",
+      "observed_transition": "Observed frame is entirely charcoal; blank top y<=96 and bottom y>=760 are normalized to #20272E outer/shared edges. Provider core remains slightly darker/shaded than target; runtime must use flat #20272E.",
+      "reference_sha256": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/contact/booking.tsx",
+        "source_sha256": "ed93f5cddd38a935598db1ca388cbfcc2578b8b2242d99b0490b06dadffc1ae6",
+        "dom_ids": [
+          "booking-cta",
+          "contact-continue-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Never aria-hide the containing semantic section or content panel. background:#20272E, no gradients or texture. Grid minmax(0,1fr) minmax(0,1.08fr), gap64px; content width:min(100% - 12vw,1344px); padding-block:120px 150px desktop as starting tokens, tuned to composition. SourceSans3 700 40\u201346px white; fits one line in native comp but allow wrapping. Small electric right bracket width12px height30px border-right/top/bottom3px, display inline-block gap24px. Anchor position:relative display:flex align-items:center justify-content:space-between gap24px; min-height72px; padding20px28px; SourceSans3 700 32\u201338px #101E33. Mineral pseudo-element clipped top-right polygon(0 0,96.5% 0,100% 24%,100% 100%,0 100%); anchor itself remains unclipped. SourceSans3 24px white; margin-top18px; exact Browse service categories. Group border-top1px silver; padding-top24px. Anchor flex gap24px align center; label SourceSans3 600 32\u201338px white with underline-offset6px; min-height56px. Description24px white margin-top12px. Arrow aria-hidden. Group border-top1px silver; padding-top24px. Link same secondary style as About. Body exact Online booking is not yet available. with white24px text margin-top12px; no status badge, calendar or date/time widget.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "limits": [
+    "Desktop native references inspected. Mobile behavior specified but no successor mobile render or browser implementation tested.",
+    "Source/registry/canonical contracts are unchanged."
+  ],
+  "local_effective_handoff": {
+    "scope": "Local staged handoff only; independent KEEP covers replacement composition, not full QA or canonical fidelity. All existing PENDING fidelity statuses retained. External canonical promotion, registry reconciliation and raster archival require later controller validation.",
+    "research_root": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a",
+    "successor": "design_refs/successors/contact-r1",
+    "reviewed_implementation_commit": "f5916fb1c9432282ab6ca07a080881799bf5ac92",
+    "base_commit": "796e472df352ee6ddf7cf840715abf7f3c7d8eac",
+    "reviews": [
+      {
+        "path": "site_convergence/contact/truthful-successor-r1-art-review.md",
+        "sha256": "7751c595d767d2d24686b249bd4346d35ab01e87fc02de04c247c774556b42d7"
+      },
+      {
+        "path": "site_convergence/contact/truthful-successor-implementation-r1-art-review.md",
+        "sha256": "76eebac4dc0b49babff688ea58179b50544a4d984bc0025cae2deaa454f998b0"
+      }
+    ],
+    "historical_archive": "docs/audit/contact-handoff-reconcile-r1/preservation-ledger.json",
+    "retained_candidate_statuses": "Copied successor status fields record producer provenance, not the chronology of subsequent independent review. Read the review records above for current scoped findings. No gate status is promoted.",
+    "reference_mirrors": "Reviewed native reference bytes only; not imported into application rendering."
+  },
+  "local_register_clarification": {
+    "json_pointer": "/frames/1/invariants/4",
+    "prior_text": "On desktop value column begins around 58\u201364% of register width and rows share consistent baselines.",
+    "effective_text": "On desktop value column begins at approximately 55% of register width, adjusted for actual font metrics; rows share consistent baselines. Observed native x129\u20131407 and value x828 imply (828-129)/(1407-129)=54.695%. This resolves the prior 58\u201364% prose conflict in favor of the independently reviewed native frame and 55/45 extraction recipe; mobile pairs remain stacked.",
+    "basis": [
+      "site_convergence/contact/truthful-successor-r1-art-review.md",
+      "site_convergence/contact/truthful-successor-implementation-r1-art-review.md"
+    ],
+    "canonical_successor_map_sha256": "ee7d82807bcb0aa7014acea0e92e039fcf13f57913706da9964c302de0eaa2d3"
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "original_contracts": "site_convergence/builder-judgment-source-r1/before-canonical/design_refs/pages/"
+  }
+}

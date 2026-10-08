@@ -1,24 +1,22 @@
 import type { MetadataRoute } from "next";
+import routeManifest from "../public/route-manifest.json";
 import { SITE_URL } from "@/content/site";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [
-    { path: "/", priority: 1 },
-    { path: "/services", priority: 0.9 },
-    { path: "/services/neuropathy", priority: 0.8 },
-    { path: "/services/pain-relief", priority: 0.8 },
-    { path: "/services/hormone-optimization", priority: 0.8 },
-    { path: "/services/pelvic-floor-incontinence", priority: 0.8 },
-    { path: "/services/regenerative-medicine", priority: 0.8 },
-    { path: "/about", priority: 0.7 },
-    { path: "/educational-guide", priority: 0.7 },
-    { path: "/book", priority: 0.9 },
-    { path: "/contact", priority: 0.7 },
-  ] as const;
+const NOINDEX_PATHS = new Set([
+  "/services/hormone-optimization",
+  "/services/pelvic-floor-incontinence",
+  "/services/regenerative-medicine",
+  "/educational-guide",
+  "/book",
+  "/contact",
+  "/privacy",
+  "/notice-of-privacy-practices",
+  "/accessibility",
+  "/terms",
+]);
 
-  return routes.map(({ path, priority }) => ({
-    url: `${SITE_URL}${path}`,
-    changeFrequency: "weekly" as const,
-    priority,
-  }));
+export default function sitemap(): MetadataRoute.Sitemap {
+  return routeManifest.routes
+    .filter((path) => !NOINDEX_PATHS.has(path))
+    .map((path) => ({ url: new URL(path, SITE_URL).toString() }));
 }

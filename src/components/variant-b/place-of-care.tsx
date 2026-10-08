@@ -13,9 +13,9 @@ function OpeningPanel({ className }: { className: string }): React.ReactElement 
   return (
     <div className={`border-l-4 border-electric bg-ink p-5 ${className}`}>
       <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">
-        Opening target
+        Location update
       </p>
-      <p className="mt-1 text-3xl font-semibold tracking-tight text-white">September 8, 2026</p>
+      <p className="mt-1 text-3xl font-semibold tracking-tight text-white">Opening details are being confirmed</p>
       <p className="mt-2 text-sm text-white/70">{PLACE.facilityCaption}</p>
     </div>
   );

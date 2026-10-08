@@ -4,8 +4,8 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const APPROVED_LINKS = [
-  { label: "Privacy Policy", icon: ShieldCheck },
-  { label: "Notice of Privacy Practices", icon: FileText },
+  { label: "Privacy Policy", icon: ShieldCheck, href: "/privacy" },
+  { label: "Notice of Privacy Practices", icon: FileText, href: "/notice-of-privacy-practices" },
 ] as const;
 
 const WORKFLOWS = [
@@ -30,9 +30,10 @@ export function PrivacyNote(): React.ReactElement {
             <div>
               <p className="text-xs font-bold tracking-[0.08em] uppercase">Approved links</p>
               <ul className="mt-3 divide-y divide-white/20">
-                {APPROVED_LINKS.map(({ label, icon: Icon }) => (
+                {APPROVED_LINKS.map(({ label, icon: Icon, href }) => (
                   <li key={label} className="py-2.5">
                     <PolicyLink
+                      href={href}
                       label={
                         <>
                           <Icon size={22} strokeWidth={1.5} className="text-[#4f9bf0]" aria-hidden /> {label}

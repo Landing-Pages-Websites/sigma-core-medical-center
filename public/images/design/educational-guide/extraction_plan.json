@@ -1,0 +1,730 @@
+{
+  "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+  "coordinate_convention": "Local DOM bounds at DPR1, not glyph silhouettes",
+  "frames": [
+    {
+      "frame": "01-resource-hero",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/hero.tsx",
+      "regions": [
+        {
+          "id": 1,
+          "what": "left open bracket",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": ".b3-guide-intro",
+          "box": [
+            108,
+            80,
+            771.03125,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            108,
+            80,
+            772,
+            468
+          ],
+          "sample_distinct_colors": 827,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 2,
+          "what": "heading",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": "h1",
+          "box": [
+            141,
+            80,
+            731.9375,
+            239.71875
+          ],
+          "pixel_sampling_box": [
+            141,
+            80,
+            732,
+            240
+          ],
+          "sample_distinct_colors": 520,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 3,
+          "what": "unavailable notice and lock",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": "#resource-status",
+          "box": [
+            141,
+            267.71875,
+            661,
+            389.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            267,
+            661,
+            390
+          ],
+          "sample_distinct_colors": 250,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 4,
+          "what": "Services action",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": ".b3-action",
+          "box": [
+            141,
+            413.890625,
+            397.46875,
+            467.890625
+          ],
+          "pixel_sampling_box": [
+            141,
+            413,
+            398,
+            468
+          ],
+          "sample_distinct_colors": 243,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 5,
+          "what": "open paired-step motif",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": ".b3-guide-stage",
+          "box": [
+            1008,
+            193.9375,
+            1428,
+            353.9375
+          ],
+          "pixel_sampling_box": [
+            1008,
+            193,
+            1428,
+            354
+          ],
+          "sample_distinct_colors": 11,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 6,
+          "what": "source rail label",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": ".b3-guide-rail span",
+          "box": [
+            108,
+            539.484375,
+            216.703125,
+            568.28125
+          ],
+          "pixel_sampling_box": [
+            108,
+            539,
+            217,
+            569
+          ],
+          "sample_distinct_colors": 173,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        },
+        {
+          "id": 7,
+          "what": "source overview link",
+          "verdict": "code",
+          "section_owner": "01-resource-hero",
+          "selector": ".b3-guide-rail a",
+          "box": [
+            1200.59375,
+            529.890625,
+            1428,
+            577.890625
+          ],
+          "pixel_sampling_box": [
+            1200,
+            529,
+            1428,
+            578
+          ],
+          "sample_distinct_colors": 208,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/01-resource-hero.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.",
+          "source_component": "src/components/batch-three/educational-guide/hero.tsx"
+        }
+      ],
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        624
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        615.890625
+      ],
+      "page_rows_half_open": [
+        0,
+        624
+      ],
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/hero.tsx",
+        "source_sha256": "7e2df324ca8076eadd505498207570750e8dd807b00e6c52f6d7ba0118cd076c",
+        "dom_ids": [
+          "resource-hero",
+          "resource-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid. Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale. Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height. Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline. Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster. Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label. Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "02-resource-summary",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/summary.tsx",
+      "regions": [
+        {
+          "id": 1,
+          "what": "heading",
+          "verdict": "code",
+          "section_owner": "02-resource-summary",
+          "selector": "h2",
+          "box": [
+            108,
+            64,
+            766.890625,
+            223.71875
+          ],
+          "pixel_sampling_box": [
+            108,
+            64,
+            767,
+            224
+          ],
+          "sample_distinct_colors": 237,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/02-resource-summary.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field.",
+          "source_component": "src/components/batch-three/educational-guide/summary.tsx"
+        },
+        {
+          "id": 2,
+          "what": "education caveat and book",
+          "verdict": "code",
+          "section_owner": "02-resource-summary",
+          "selector": "#important-boundary",
+          "box": [
+            108,
+            255.71875,
+            628,
+            354.703125
+          ],
+          "pixel_sampling_box": [
+            108,
+            255,
+            628,
+            355
+          ],
+          "sample_distinct_colors": 248,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/02-resource-summary.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6.",
+          "source_component": "src/components/batch-three/educational-guide/summary.tsx"
+        },
+        {
+          "id": 3,
+          "what": "source table with three rows",
+          "verdict": "code",
+          "section_owner": "02-resource-summary",
+          "selector": ".b3-guide-source",
+          "box": [
+            843.6875,
+            64,
+            1428,
+            318.125
+          ],
+          "pixel_sampling_box": [
+            843,
+            64,
+            1428,
+            319
+          ],
+          "sample_distinct_colors": 243,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/02-resource-summary.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text.",
+          "source_component": "src/components/batch-three/educational-guide/summary.tsx"
+        },
+        {
+          "id": 4,
+          "what": "service panel heading and body",
+          "verdict": "code",
+          "section_owner": "02-resource-summary",
+          "selector": ".b3-dark-panel",
+          "box": [
+            843.6875,
+            318.125,
+            1428,
+            555.65625
+          ],
+          "pixel_sampling_box": [
+            843,
+            318,
+            1428,
+            556
+          ],
+          "sample_distinct_colors": 249,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/02-resource-summary.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading.",
+          "source_component": "src/components/batch-three/educational-guide/summary.tsx"
+        },
+        {
+          "id": 5,
+          "what": "neuropathy action in service panel",
+          "verdict": "code",
+          "section_owner": "02-resource-summary",
+          "selector": ".b3-dark-panel a",
+          "box": [
+            879.6875,
+            473.65625,
+            1061.546875,
+            521.65625
+          ],
+          "pixel_sampling_box": [
+            879,
+            473,
+            1062,
+            522
+          ],
+          "sample_distinct_colors": 200,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/02-resource-summary.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.",
+          "source_component": "src/components/batch-three/educational-guide/summary.tsx"
+        }
+      ],
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        624
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        611.65625
+      ],
+      "page_rows_half_open": [
+        624,
+        1248
+      ],
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/summary.tsx",
+        "source_sha256": "b4113f940e30b7ede1cb05cac356800e9d4e2d550ff6a182e6131c17b8a401a1",
+        "dom_ids": [
+          "resource-summary",
+          "important-boundary"
+        ],
+        "runtime_assets": [],
+        "recipe": "Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field. Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6. Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text. Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading. Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "03-lead-form",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/availability.tsx",
+      "regions": [
+        {
+          "id": 1,
+          "what": "eyebrow and heading",
+          "verdict": "code",
+          "section_owner": "03-lead-form",
+          "selector": ".b3-split > div:first-child",
+          "box": [
+            108,
+            72,
+            791.75,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            72,
+            792,
+            358
+          ],
+          "sample_distinct_colors": 256,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/03-lead-form.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form.",
+          "source_component": "src/components/batch-three/educational-guide/availability.tsx"
+        },
+        {
+          "id": 2,
+          "what": "access explanation",
+          "verdict": "code",
+          "section_owner": "03-lead-form",
+          "selector": ".b3-split > div:first-child > p:last-child",
+          "box": [
+            108,
+            292.78125,
+            602.265625,
+            357.03125
+          ],
+          "pixel_sampling_box": [
+            108,
+            292,
+            603,
+            358
+          ],
+          "sample_distinct_colors": 246,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/03-lead-form.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields.",
+          "source_component": "src/components/batch-three/educational-guide/availability.tsx"
+        },
+        {
+          "id": 3,
+          "what": "inactive card with lock and copy",
+          "verdict": "code",
+          "section_owner": "03-lead-form",
+          "selector": "#form-status",
+          "box": [
+            868.546875,
+            91.515625,
+            1428,
+            337.5
+          ],
+          "pixel_sampling_box": [
+            868,
+            91,
+            1428,
+            338
+          ],
+          "sample_distinct_colors": 271,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/03-lead-form.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock.",
+          "source_component": "src/components/batch-three/educational-guide/availability.tsx"
+        },
+        {
+          "id": 4,
+          "what": "decision rail and copy",
+          "verdict": "code",
+          "section_owner": "03-lead-form",
+          "selector": ".b3-availability-foot",
+          "box": [
+            108,
+            389.03125,
+            1428,
+            492.625
+          ],
+          "pixel_sampling_box": [
+            108,
+            389,
+            1428,
+            493
+          ],
+          "sample_distinct_colors": 258,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/03-lead-form.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link.",
+          "source_component": "src/components/batch-three/educational-guide/availability.tsx"
+        },
+        {
+          "id": 5,
+          "what": "navy Neuropathy action",
+          "verdict": "code",
+          "section_owner": "03-lead-form",
+          "selector": ".b3-availability-foot a",
+          "box": [
+            1279.234375,
+            417.328125,
+            1400,
+            465.328125
+          ],
+          "pixel_sampling_box": [
+            1279,
+            417,
+            1400,
+            466
+          ],
+          "sample_distinct_colors": 182,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/evidence/render-observations.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/03-lead-form.png",
+          "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+          "build_note": "Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.",
+          "source_component": "src/components/batch-three/educational-guide/availability.tsx"
+        }
+      ],
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        549
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        548.625
+      ],
+      "page_rows_half_open": [
+        1248,
+        1797
+      ],
+      "capture_state": "FRESH_FULL_VIEWPORT_DPR1",
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/availability.tsx",
+        "source_sha256": "38694aaa124316af84af4796774b9f242fd7a025f004e5e1d056d47907895283",
+        "dom_ids": [
+          "lead-form",
+          "form-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form. Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields. Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock. Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link. Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "frame": "04-privacy-note",
+      "source_file": "/var/lib/megaclaw/workspace/sigma-pain-source-truth-r1/src/components/batch-three/educational-guide/privacy.tsx",
+      "regions": [
+        {
+          "id": 1,
+          "what": "heading with bracket",
+          "verdict": "code",
+          "section_owner": "04-privacy-note",
+          "selector": "h2",
+          "box": [
+            108,
+            99.703125,
+            760.671875,
+            179.5625
+          ],
+          "pixel_sampling_box": [
+            108,
+            99,
+            761,
+            180
+          ],
+          "sample_distinct_colors": 239,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/provenance/q4-preserved.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/04-privacy-note.png",
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+          "build_note": "Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile.",
+          "source_component": "src/components/batch-three/educational-guide/privacy.tsx"
+        },
+        {
+          "id": 2,
+          "what": "privacy explanation at shell edge",
+          "verdict": "code",
+          "section_owner": "04-privacy-note",
+          "selector": ".b3-guide-privacy-copy > p",
+          "box": [
+            108,
+            199.5625,
+            602.265625,
+            300.296875
+          ],
+          "pixel_sampling_box": [
+            108,
+            199,
+            603,
+            301
+          ],
+          "sample_distinct_colors": 237,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/provenance/q4-preserved.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/04-privacy-note.png",
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+          "build_note": "Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition.",
+          "source_component": "src/components/batch-three/educational-guide/privacy.tsx"
+        },
+        {
+          "id": 3,
+          "what": "pending-policy caveat and copy",
+          "verdict": "code",
+          "section_owner": "04-privacy-note",
+          "selector": "#privacy-status",
+          "box": [
+            872.46875,
+            133.515625,
+            1396,
+            194.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            133,
+            1396,
+            195
+          ],
+          "sample_distinct_colors": 237,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/provenance/q4-preserved.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/04-privacy-note.png",
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+          "build_note": "Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding.",
+          "source_component": "src/components/batch-three/educational-guide/privacy.tsx"
+        },
+        {
+          "id": 4,
+          "what": "Contact status action in caveat",
+          "verdict": "code",
+          "section_owner": "04-privacy-note",
+          "selector": ".b3-guide-privacy-caveat a",
+          "box": [
+            872.46875,
+            218.46875,
+            1042.40625,
+            266.46875
+          ],
+          "pixel_sampling_box": [
+            872,
+            218,
+            1043,
+            267
+          ],
+          "sample_distinct_colors": 205,
+          "box_semantics": "Rendered DOM element extent, not tight glyph silhouette; parent roles may overlap.",
+          "evidence": "../../../design_refs/pages/educational-guide/provenance/q4-preserved.json",
+          "pixel_evidence": "../../../design_refs/pages/educational-guide/refs/04-privacy-note.png",
+          "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+          "build_note": "Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.",
+          "source_component": "src/components/batch-three/educational-guide/privacy.tsx"
+        }
+      ],
+      "observed_bounds": [
+        0,
+        0,
+        1536,
+        512
+      ],
+      "section_bounds": [
+        0,
+        0,
+        1536,
+        400
+      ],
+      "page_rows_half_open": [
+        1797,
+        2309
+      ],
+      "capture_state": "KEEP_REUSED_NOT_FRESH_CAPTURE",
+      "expected_asset_count": 0,
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/educational-guide/privacy.tsx",
+        "source_sha256": "523f083d4c169d2d43a0f17fb856162f2d33a7c4411cda5d21219140cc20a406",
+        "dom_ids": [
+          "privacy-note",
+          "privacy-status"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile. Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition. Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding. Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "production_assets": [],
+  "summary": {
+    "source_roles": 21,
+    "code_regions": 21,
+    "observed_regions": 21,
+    "fresh_capture_regions": 17,
+    "preserved_q4_regions": 4,
+    "extract_regions": 0,
+    "inpaint_regions": 0
+  },
+  "page": "educational-guide",
+  "reference_closure": {
+    "status": "CANONICAL_REFERENCE_ONLY_KEEP",
+    "date": "2026-10-01",
+    "source_package": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/design_refs/successors/educational-guide-director-fallback-r1",
+    "independent_art_review": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/director-fallback-r1-art-review.md",
+    "independent_art_review_sha256": "81fa78e6d5a231470514e061e310e5947b7d965cf54c7c4857bdc8db503d5b98",
+    "archive": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/educational-guide/archive-reference-closure-r1",
+    "scope": "Guide canonical design-reference contract only; no runtime or Site Review approval",
+    "method": "COPY_ONLY; original candidate files and histories retained",
+    "next_gate": "Fresh controller independent source-contract verification; runtime implementation remains old until separately reviewed",
+    "runtime_implementation_updated": false,
+    "registry_updated": false,
+    "production_raster_assets": 0
+  },
+  "canonical_reference_root": "../../../design_refs/pages/educational-guide",
+  "builder_source_closure": {
+    "authority": "b6e7b409-46b2-4fa4-ad02-da7347fbfba6",
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+  }
+}

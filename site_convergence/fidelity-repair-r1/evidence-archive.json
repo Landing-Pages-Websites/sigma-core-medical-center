@@ -1,0 +1,842 @@
+{
+  "path": "assets/evidence-archives/fidelity-repair-r1.tar.gz",
+  "sha256": "a24fff4d488e21f908e3d982f613dd2f951cf467b25c89d884d5663716411244",
+  "members": [
+    {
+      "member": "audits/canonical/about.log",
+      "sha256": "8a41ac52b315d39619cb6b388c71b557f7e97d7dcf706310bb7e1599325929f1"
+    },
+    {
+      "member": "audits/canonical/book.log",
+      "sha256": "b9b446cdcb6601104e26da759a1cc6963b14dc1ccb72b9d8613a0ff2ef7f9c30"
+    },
+    {
+      "member": "audits/canonical/contact.log",
+      "sha256": "c89845a7b11cf3c1fb740f8bd923a2fab3ce0172eacc249680d743204a5ae42f"
+    },
+    {
+      "member": "audits/canonical/educational-guide.log",
+      "sha256": "8c3bac8b432eb6f3ef2614f7f781aee9a586cd15f919b2b2a983419dd01d8d19"
+    },
+    {
+      "member": "audits/canonical/hormone-optimization.log",
+      "sha256": "c854db04224e59f1e999b4dd02f343edf4bd508e8a4db7f5c62195596e32a644"
+    },
+    {
+      "member": "audits/canonical/neuropathy.log",
+      "sha256": "3411942cae65291cdfc4c9c4463332c755eaa624d79af57f2078beaf952f26a1"
+    },
+    {
+      "member": "audits/canonical/pain-relief.log",
+      "sha256": "96b84ffa7a4899750b2ddd1c87eed306ba9ba1f1bcc337c9ab96a471936ff1d8"
+    },
+    {
+      "member": "audits/canonical/pelvic-floor-incontinence.log",
+      "sha256": "589f5c9ccc51d51367c32708197095750bce475530e15ce6c3023fb494c3af0e"
+    },
+    {
+      "member": "audits/canonical/regenerative-medicine.log",
+      "sha256": "b4569c0c2f22b1326a5fe217cf22795d34d0878a05d7b8ca50eefdf080f3966d"
+    },
+    {
+      "member": "audits/canonical/services.log",
+      "sha256": "78c3fa754a778a4e599a8e3726ad86c7ee0fb9b177539899d4277af70be1f729"
+    },
+    {
+      "member": "audits/repository/about.log",
+      "sha256": "86014b0dbd767477036f21737481b4662aa92f1dd2bdc247289059a91bedab56"
+    },
+    {
+      "member": "audits/repository/book.log",
+      "sha256": "e77b330763e7c03064c7da1206d81023838679ba36b2a8d3b6e74f7e837b4b3c"
+    },
+    {
+      "member": "audits/repository/contact.log",
+      "sha256": "798b1fbf749b3820f92aae38df2c713b0c3e40e8b7212df69d65edf616e6b2c6"
+    },
+    {
+      "member": "audits/repository/educational-guide.log",
+      "sha256": "b9101c90f4f3169a11d836e4236f5d662a4a13afb3aeafb5696fbe94597c1184"
+    },
+    {
+      "member": "audits/repository/hormone-optimization.log",
+      "sha256": "79e34df097479c8f604b5f9ecba40df07fadcbb51772379ae89bfae280eb2e71"
+    },
+    {
+      "member": "audits/repository/neuropathy.log",
+      "sha256": "cbaf767fc3dda536cc360fb1c231cee56883d338d525df70f87dc65d055430b6"
+    },
+    {
+      "member": "audits/repository/pain-relief.log",
+      "sha256": "13bf30576e68a50f0925fb1dec7aefcc73681ece683823e3a0b6a71755958764"
+    },
+    {
+      "member": "audits/repository/pelvic-floor-incontinence.log",
+      "sha256": "3c86a47999e930a85c9d9017ba73a6e3f1d65ab2d45dd68edf0f8b8beebff41f"
+    },
+    {
+      "member": "audits/repository/regenerative-medicine.log",
+      "sha256": "11c810e03da459cd55ebfe772e02b463ac0a37f5528409813335bae316cbc37b"
+    },
+    {
+      "member": "audits/repository/services.log",
+      "sha256": "87f7d89c5c5cc5dd3a9a0406111cf4650eeeda5d18d7e98d8b58f6d0e80be737"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/about/HANDOFF.json",
+      "sha256": "e8e8cef77489f31f60632a3a021f2f8710479f9602a5c6e88c4cece9372f233d"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/about/NOTES.md",
+      "sha256": "8877b1427d152892dab92f648804890f5b841e4cc68665419655ecad8b06fdcb"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/about/extraction_plan.json",
+      "sha256": "6fc853bec63a42a345e9c8eef7b672d85adef35675466eebe6caf5a2a717e8bf"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/book/HANDOFF.json",
+      "sha256": "5e25332b18bc3a4b93f89f05a5687a6ee9ed593955e978a8c6b1667adb01a7d4"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/book/NOTES.md",
+      "sha256": "fa498ce1fb0275a8548b3bded7c40d113ee9146295fe25d4524f65a68ced52f6"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/book/extraction_plan.json",
+      "sha256": "2355eea3446a7a0c350e350d79aacf2456d9d095776c19b725a24b3cdaf7f126"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/contact/NOTES.md",
+      "sha256": "82462cf61d06b48981877187093645d9eab77e30cc26f00aa779a40ca697014c"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/contact/extraction_plan.json",
+      "sha256": "081bf9444bbeda377ba788228de546dc8b415f38069b45a070bc7ad3b24d24a1"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/educational-guide/NOTES.md",
+      "sha256": "89f3647404193299dfc1ce024e9f7f4099dc3126272f549748c17f96b1a31710"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/educational-guide/extraction_plan.json",
+      "sha256": "57020468e77e57e893ed01e112583ea54684323e4da5a7f9af45218e8fbdf25d"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/hormone-optimization/NOTES.md",
+      "sha256": "808eb028e1417e478aa02151e082c6c1c01eb3d96a108a6218f73e4c3307bb27"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/hormone-optimization/extraction_plan.json",
+      "sha256": "23ea364b7b7a882c9af91d50239f96d5552cfa021babef5e3dad3d9a866208d9"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/neuropathy/NOTES.md",
+      "sha256": "78f9874326367a13802d479a67532e53bbc01a7d97e55696b3007416b3e864fc"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/neuropathy/extraction_plan.json",
+      "sha256": "038ae0a34db6ba20f04285d3b7d7a468380c5574b81803d9b58e28290537d331"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pain-relief/NOTES.md",
+      "sha256": "bbdf87800295ed19c78140cffb2d9ca7901b6864764a89c556546bff14e8e9f4"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pain-relief/extraction_plan.json",
+      "sha256": "47eb8806ec17d32edfe0524fd42b5db03243d985cee1e2142b610e0c129ae46c"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pelvic-floor-incontinence/NOTES.md",
+      "sha256": "a9477b68ffb24c4648f59c3ef7e9f4801540b1a476c8290bfa8280b7b841c365"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/pelvic-floor-incontinence/extraction_plan.json",
+      "sha256": "74435591bf5c16020c64c4661e9861a9954c5866fc8939ed3a7346cb4ed5f174"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/regenerative-medicine/NOTES.md",
+      "sha256": "5f3bece30933f9036044959c4acc124cd8fa8af8519e05683be36816c591607c"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/regenerative-medicine/extraction_plan.json",
+      "sha256": "a0bbe6cea27222bfef2e3c01e048222199baff4a34c58581b880bf38de0313ec"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/services/NOTES.md",
+      "sha256": "8a0635d5ff5c92a247dde11e0b03bbb7f36ea70b1e79c8e2c573bf6729e3e00d"
+    },
+    {
+      "member": "before-canonical/design_assets/pages/services/extraction_plan.json",
+      "sha256": "ead10b51cba1f30edb5a3936767e5b02f862ba0347c6c8cf6d82993312dbd72a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/HANDOFF.json",
+      "sha256": "e8e8cef77489f31f60632a3a021f2f8710479f9602a5c6e88c4cece9372f233d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/NOTES.md",
+      "sha256": "62c6537cdb34fb2c1190f6c0fd02c3b7d83a1029859e7a6c54a81687d558b833"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/composition_map.json",
+      "sha256": "9738e28d7966657523aabd1c5646433a432dd954e65c03fbd2f72f5839bfc0c6"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/extraction_plan.json",
+      "sha256": "9b56f06d1b8a0529d3b3c0d3ade9bb4d378c1146ee5869524bacb295f77c3153"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/generation/selected-outputs.json",
+      "sha256": "f273f19145520e3e6001e4cb0a76c63b1243febd562607b853fcf61594e6a444"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/01-hero/regions.json",
+      "sha256": "4fc3fb5d6635a8b1da9c461474a06f0ccab84f0736a940a93731f1ed0d83d9b3"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/02-clinic-purpose/regions.json",
+      "sha256": "accdcd771025ca0e7c024694df12ca5abdd6a132c18fe04975fe514cc236b02e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/03-facility-gallery/regions.json",
+      "sha256": "2dbad3ed5a435415f6354d6cf350fe1de1fdab1b0d0e5bc3e09a62e9d4835641"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/04-care-principles/regions.json",
+      "sha256": "f182b4e454d01313c6597cf4ec090c78257074c1fb29b7d245a1df1ecb10ea07"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/05-team-publication-gate/regions.json",
+      "sha256": "230c326e846cff733c10bf96ffb1517d510b235c1c5cf501e48d39f1ec34a343"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/qa/06-booking-cta/regions.json",
+      "sha256": "f3a1ed1eb6a2ce83a09a088959c3afad2d12d531343a6733ec615b1b0565f04c"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/refs/FLOW-CHECK.md",
+      "sha256": "dfd3736ae193c4d224bf7ce6c828d8480c87fa6e71033fe6297d95ec6c2f3a88"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/refs/MANIFEST-CHECK.md",
+      "sha256": "c0bb129e350327fe873711d016539dd3447683326effa7df5b5ae15732477e25"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/refs/SEAM-LEDGER.json",
+      "sha256": "3cd833674d5c4e1e3afd3695031d740515cc8ff79e9aa142325f1af5d7e25e5c"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/section_manifest.json",
+      "sha256": "8deb3ffccd918a02856bb6e2bc0777ba5f6cde5bf375a265b9b4b9a78e576903"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/source-truth.md",
+      "sha256": "0b888d770dbe03aac21bdccb179e2d4f8a6354a092e35a56ac8d6164d92a3371"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/about/verification/care-measurements.json",
+      "sha256": "7e4c1a38b0fc810e91f5e1495db51e4b27eab6bd31762c55afe75d232c6279d5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/HANDOFF.json",
+      "sha256": "5e25332b18bc3a4b93f89f05a5687a6ee9ed593955e978a8c6b1667adb01a7d4"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/NOTES.md",
+      "sha256": "cb462923df2b47700631c62d0ebd0088fd0b7a7406dac0c4fc7b8758b721d353"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/composition_map.json",
+      "sha256": "65bc1b8f899f1dcc47fbf5a80246bd23e88a920b7183d32c910ce54310267a1d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/extraction_plan.json",
+      "sha256": "d1c761800d5b304fd6ddbafecde6608fd51977a385c48d94b09ef8649a4471fc"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/prompts/01-booking-hero.md",
+      "sha256": "61af1b646e38eac2eeaf4410c1251fbb00b0943fee021484d4ca5e6be3845822"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/prompts/02-gohighlevel-calendar.md",
+      "sha256": "b35f189ed2c939455f06c28c61efe826f3b6918f1b4e258373eb9c37c3729338"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/prompts/03-privacy-note.md",
+      "sha256": "d03f3b69c3500f52b73d9356b3a7d979f5c49bbf97dda7a68150f20a149ef05b"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/01-booking-hero/regions.json",
+      "sha256": "c206320833f9e649cf895fea0a72cebab81b0abadf73e0918d0742d82776c3b5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/02-gohighlevel-calendar/regions.json",
+      "sha256": "78cd7206ec64c583ac8b9f01e3be0bae6f6bfaea9c0ef82f78e890dfa1c68876"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/03-privacy-note/regions.json",
+      "sha256": "6502293c8982d909395c616a5acef00a40a5df59dba3846e80d36332a9b16d4c"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/background-repair.json",
+      "sha256": "7e9a0af8514b7340f5e927d11f0efa6b2dcd180eb22eca2774d1c762c73c8d32"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/ownership-check.json",
+      "sha256": "544f41a1adbfdabfc5e807b981e96f5d3802192ebb305922e3179b7c8536735d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/qa/producer-consistency-check.json",
+      "sha256": "cc7b10ffe8040557ff4f14fc4f48e1c7fc31ba8038e77931cb2c1179fe132dc2"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/refs/FLOW-CHECK.md",
+      "sha256": "ea73e10b4e3fe0c0e4f627d3ad3ac6de2dd95cd3034dd6ca14637fcc8ff734be"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/refs/MANIFEST-CHECK.md",
+      "sha256": "1153c225c7c4cf1ea03de4d224fe58bbd6284a26202d3196142b4eb6ed43e004"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/render-status.json",
+      "sha256": "8e2f695d185ca55eb4b308fc01b9d407930037788454c5667c157360a6c7680d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/section_manifest.json",
+      "sha256": "d96fddd56c536e1bca8def59fe2baaaf410ba27a4bc27ee161e68ae96a8436c7"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/controller-qa.md",
+      "sha256": "a89fc40173ec3ee6e2ee6bbc6bb8f91e3ff6e09da743370b766a5624c58c1757"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/core-pixel-preservation.json",
+      "sha256": "ab60a877451ab58dc361629abb743fa9acc58aad2226c93b5308d15b880d257e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/final-contract-check.json",
+      "sha256": "c7d9fac8cdfd507f74031d16e7fc8ff60f83ad4ccc54428ea338834102e683e3"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/input-inspection.md",
+      "sha256": "4f0952f53e603bd28bb2a6d1c3b65f733c2a5f4fb00a08736bd3fa74a432692b"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/preservation-before.json",
+      "sha256": "3aadf6c65872ebeb8776e6208ea2a848d1e1a283dbe5732d59282e1afd73a966"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/structural-check.json",
+      "sha256": "617b967ac2127cb25f710b622bd6c3088f12526c0c2769f6561d15548def0a98"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/book/verification/token-contrast.json",
+      "sha256": "648cda8591383fca0ba8bb562bd7c087a0227b2486046bf908c6c0439976e6ed"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/contact/NOTES.md",
+      "sha256": "ad72f0cff5e0e522c62b94c1171c45a7d4be9005961d5e55736699cf15097300"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/contact/composition_map.json",
+      "sha256": "0bb25837f1d360ceff5401d0d8b62c988fa351f31fc7535315b9a6b9e1582668"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/contact/extraction_plan.json",
+      "sha256": "7f4828f20ca9aa5b8e1bcf5ba0edfe6950408dc7cbb4b75696faadb52d9112b8"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/contact/section_manifest.json",
+      "sha256": "2a98e48ba7f84c7c3f7c10080f31a9d4a3a51f4769251ddd67cab9ba896aeba1"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/NOTES.md",
+      "sha256": "cbc11b7ac9d104025aaf4c989fe6e0c1c0c76cf3ac5e465507e9c8b9380dab35"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/composition_map.json",
+      "sha256": "86dcc69cd9cfc50ffc1fdfd3a1bfd16964a2b3483d13da4711bd6be7ec2b6381"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/capture-attempt.json",
+      "sha256": "068e0ab101fdccaebc719b975bc1032041a1c1b77d341a0f1217b39df1caab70"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/continuity-result.json",
+      "sha256": "c1bd9b2a22495c846f906a0d272e3ff8628348b9f0e9c1cad83908b882a6fd09"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/director-fallback-r1-art-review.md",
+      "sha256": "81fa78e6d5a231470514e061e310e5947b7d965cf54c7c4857bdc8db503d5b98"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/font-verification.json",
+      "sha256": "178186b51c3011224bdb32490434182426ec93615d2e4535ea9ef54bd9299161"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/frozen-integrity.json",
+      "sha256": "c2a0acee9bad029860bd6beb4c8b3c1b93d35f3c17fa7befd08e5dc6cd294bb3"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/pixel-validation.json",
+      "sha256": "9901c517e783dad6cc0bd697f73553ab6508a44a3a327994d3d8ceeb91f3e986"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/reference-closure-validation.json",
+      "sha256": "1a220b213fce721e4e68a7a9cc573ff7c4fa0c7bdcd815256dd673cdd04c8a8a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/render-observations.json",
+      "sha256": "d2138f500dcce860bd7cde9986c8f930116ae26fcb613bce19fd0d7b51cbc966"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/evidence/strict-review-sheet.md",
+      "sha256": "f661c2e4bf4929566a9031221a3a057ce226dfa8fbd3d9bd8ea6f1563bdaf9b9"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/extraction_plan.json",
+      "sha256": "004564223f16ba4a9388ac8e1cb9ad41c57ec315344616ee867038a4918a4e6a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/prompts/01-resource-hero.md",
+      "sha256": "3d30a5d959afea0f34e7b1b2002311d262ee4374ee7a32830cda4b28a9ad479f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/prompts/02-resource-summary.md",
+      "sha256": "146ac64d54b3c4b15067793a39f5a354de3db001be99bde8c073fe11b0b0ed48"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/prompts/03-lead-form.md",
+      "sha256": "b2df12e36e5f83fe142eb006f2ac9ccf2fc1ae14eb4e1ff003e96096176cdae1"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/prompts/04-privacy-note.md",
+      "sha256": "ce2fcd29ef86fa58a3e3e30a9a4fd510c8e969f0cd89c7ffc64f91a64c8010d4"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/fallback-amendment.json",
+      "sha256": "5456a3e83bdde5efd1711a3082809fb8c207d1d835686a9da8b4a358c2196f8b"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/fallback-amendment.md",
+      "sha256": "4d9ef8a3c1d3631963b6018c1b46a037e64b5ee217146bce3a24553255216fea"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/fallback-package-sha256.json",
+      "sha256": "30c4fcfb47e2017064477ba11f51b2fb50deb8061a30ce92870d595b19b3597e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/fallback-section_manifest.json",
+      "sha256": "7bbca250ca842ee77335148be49627026f7ea35bb5cd5ca3b1cc2cf7ee8a7454"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/frozen-source-sha256.json",
+      "sha256": "92686ec1da566107b4a5b57096259d5668a29c8bfd2f56111ff06a999371f2b8"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/old-candidate-sha256.json",
+      "sha256": "53dbc7da82e936d0c06f05c6e8ac153079b1ba6eeac3ae79f94269aaa683ceb6"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/pre-render-contract.json",
+      "sha256": "4737ef79baccf55ab4102ac401349a4d0aca215385140ce94a0bcbb1b4a3b6f0"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/q4-preserved.json",
+      "sha256": "d3d90aab1d169589ae8315b7bc9c85b7d59e5a3221cd99bb541cbe2b93948d59"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/provenance/reference-closure-r1.json",
+      "sha256": "a6461a07980c4364a29f8dd5d0e72248344937191f686d551c12a7ee6f4dccc1"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/refs/FLOW-CHECK.md",
+      "sha256": "192f472337fd0ecf93d041483903c93c1eee158fd595d3a823d4aeb30e7622af"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/refs/MANIFEST-CHECK.md",
+      "sha256": "9ab5d04a5f0b57efaaa455bfeb9692af20e08b0bb58a0e264c80bc582a1c0fe7"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/refs/SEAM-LEDGER.json",
+      "sha256": "dfca64e31b4ed9bbcd637e097ec5edd74a04a51a7bf9af5d77001dd7d00076d5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/replacement-targets.json",
+      "sha256": "a140ea6ab4b2ad2567f93024417d0c382d798b625253a866eec4781b02ca8bb3"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/educational-guide/section_manifest.json",
+      "sha256": "0c751ec92c0f04609a16a08ae10437f765531b25edb9681a3626f688349d787d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/composition_map.json",
+      "sha256": "fbc2a16e924c91cb1c3de38def80c89d802b9c6052c7ec891ddae972600ef041"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/01-hero.md",
+      "sha256": "74d0e7010b900a129790aebc2536531de4660315ec8bb432c00d63d7dc670ffc"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/02-visitor-orientation.md",
+      "sha256": "6d9e09b0bc5bf6cc7b45305120bbf3f9cd7df1c6f5a025db78537ec9e3fee157"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/03-goals-and-decision-factors.md",
+      "sha256": "24d36859e98e7babb8580e6d020adabd6937106b163dd165afd0da8057b63d94"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/04-responsible-next-step.md",
+      "sha256": "ed09872036dded43b21660d19c1c413cade5a9afe27d72cc75b161f80d96cfa5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/05-faq.md",
+      "sha256": "5d9116a7d07dde9cdfb7bed25c378074ea8d8a4378509363e7b462a96aa8f243"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/06-booking-cta.md",
+      "sha256": "9fc48f60f09cc4c4ecae3045dfa36a4d2c19cab09c69aaae725bf74b1b5fbafd"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/prompts/07-medical-sources.md",
+      "sha256": "20d09f4dcb78fc7d4be19941d1634f2aa526b3f89fb59f87fb2c6ad8fefe024e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/refs/FLOW-CHECK.md",
+      "sha256": "addc7db3a1b609efb7f21a31f26494fd60dbedf76ec0212e967f67cc7a190cdd"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/refs/MANIFEST-CHECK.md",
+      "sha256": "912c76de12c26e9abe406d9d1b58a7c8015415bfc323e67db2c67d4822a6e33f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/hormone-optimization/section_manifest.json",
+      "sha256": "307b9ccdc354df4d473d7d5d2779cdb63d079c77773004f5f4b8a1997c557529"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/composition_map.json",
+      "sha256": "de0e52496d8359e2806fa828f266f33aa1242680716c44791c4d907aa9d0ed7b"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/01-hero.md",
+      "sha256": "352bd191e0895671416c05c48ce199714f5d1edee16916a4a2b5bc2538ec7d3f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/02-visitor-orientation.md",
+      "sha256": "a86c1c4c3081595189c71296d26f8da8b6267488190ef06c82f52b2b87bf477e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/03-goals-and-decision-factors.md",
+      "sha256": "b9f9e3e510efd6cac075315fed9966d4ebdb0b84d93843b7322aaa228126e65e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/04-what-to-expect.md",
+      "sha256": "6d3c013366eaf592a397edfc154bb510f70f385a7a17b55fc9c87daa38a9703c"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/05-faq.md",
+      "sha256": "8064695c0a85a965ce80c95b494af51674ca1a891a13eee989e6ee4d3b65fdca"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/06-booking-cta.md",
+      "sha256": "67cc257c8171b58f3d3a9626186a58bfad6b0fdafb8dc81b4b469621e95b28dc"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/prompts/07-medical-sources.md",
+      "sha256": "d0d76dfb24ac7537e95998aaad170413e0051012c4e4b8cd7dbc9ae23ff56e1a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/refs/FLOW-CHECK.md",
+      "sha256": "8a2ae2fbdac1861cf9332f7b045619f3c2fca222ab04f4a241045833c7023077"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/refs/MANIFEST-CHECK.md",
+      "sha256": "285a28e8dbbb654d2180f04b2a6137c559bc790ec3dd510da655ebcc474f0ad5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/neuropathy/section_manifest.json",
+      "sha256": "142b60609479e542d32e07d4575e422bfc3b9cdcb5f98f7065626e220e4690d0"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/composition_map.json",
+      "sha256": "df296605a5917f12a3f809ebe7a58e357b4166a44bd6ea483cfd7b80122110cb"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/01-hero.md",
+      "sha256": "4c5300ae311f0a1df3482d824d8821eb20dbaa5b98f67eefcee8323025c87c1d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/02-pain-concern-navigation.md",
+      "sha256": "6585ac3ea4606b4b8ecac339da1aa42a5f433df3a5c16c917b728f5e2c5b12ae"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/03-knee-concerns.md",
+      "sha256": "da26208deddafcd3a37b8fdaad4e325f37c2b49b5409d9c5938c974306fc1843"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/04-low-back-concerns.md",
+      "sha256": "16cb1c22a483545a62a768379a5dd50f5d8b991ac5e4d841e77a681c69e3d1c3"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/05-neck-concerns.md",
+      "sha256": "fb1b1132b03ca605fe789acbc84a1c9f5c907020e93c691b5c322b220e4ad8df"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/06-decision-factors.md",
+      "sha256": "b98d3d42af3fbc6f77fff15f652e6c0f97852ce1392c41730c35210828ff81a5"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/07-faq.md",
+      "sha256": "989b58eefd874cd97ec9169ffdfe04df8e36dfebb7a243ec6a9c0a7f1cf5db9b"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/08-booking-cta.md",
+      "sha256": "d6756ebd734ee484e928fb6c7642d853d141a13cab94deea31290eb905878db0"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/prompts/09-medical-sources.md",
+      "sha256": "25628df7d0fc5772dcd767d503f24e60ca1dda114e7c15bab77b687c04a20964"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/refs/FLOW-CHECK.md",
+      "sha256": "73941bc06d68c2ef24d5cc554fa650dcaa5be5f2c5d5dcee1436480ceaf574b8"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/refs/MANIFEST-CHECK.md",
+      "sha256": "9d5c27a39b9f2558ae88082d1c4155a3cb5ca14ba83837f6da14c54fe07ba274"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pain-relief/section_manifest.json",
+      "sha256": "f379efefc58c06462bbb102665fa0384f62ddd24f8cdced0744e9dfce4c335c1"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/composition_map.json",
+      "sha256": "2209d44b9cf68a9299bb08011a1627e0d00b20a8689229d0336cf7d05b5c5324"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/01-hero.md",
+      "sha256": "7355ce98ecb9bc557c762b3ed9fabe6e5c99c8dc265dca6bfc6e756948ae771e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/02-private-orientation.md",
+      "sha256": "a73887ea7629d95458a72e02e7d6184cd7a68a125488c03e9a4f1c22e1e6d70a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/03-concerns-and-goals.md",
+      "sha256": "c716166cb11e7e9d02015ca239ddf73d333df92acfa8efd3b7508dde78e21c71"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/04-what-to-expect.md",
+      "sha256": "03c3f8f4a4fc40c2b04d62f64ec8bd70b870512a86ac330f027061768fbcc9c6"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/05-faq.md",
+      "sha256": "947695a0a23ed9e8ccaa7fbd53fbf5a7f7443e871421d35089090760b72d2804"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/06-booking-cta.md",
+      "sha256": "d042f139bb7c57718ea2d8e2f8fa80ea0800d69e0a850c9ae56448353a4b8175"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/prompts/07-medical-sources.md",
+      "sha256": "1743a0f40c0c69e45859461d1926a2fb4d17e86fdd3567dfdaabf76d0f2ab51f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/refs/FLOW-CHECK.md",
+      "sha256": "a149cfa4b40e52a0e56a213497edcaa2dc6a46762fc1d2f22bf2f10a928ed0f8"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/refs/MANIFEST-CHECK.md",
+      "sha256": "d0dd22f55a7acf0d2ec7b27bc3d270cf68ba6f0bc42d582b09c7a6e71b3e391f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/pelvic-floor-incontinence/section_manifest.json",
+      "sha256": "cfd762542f041a38dd167923af4735d806b071dc5dc8a65ec9c7853034068de6"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/composition_map.json",
+      "sha256": "b31ecc9454842076223a164c4963f729c32055498af755f201750adf021e0420"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/01-hero.md",
+      "sha256": "7c0f1d41c4d70c7164eb00ff511da2184b5434a8b3277a8428aa3b6da01ca7ba"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/02-category-orientation.md",
+      "sha256": "f6c1260831be8142ab5ef7a0ea71cfdef401ee4bddb94a5dbee93e1f20bb3b68"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/03-questions-for-a-consultation.md",
+      "sha256": "4d67768d15d4cfa294f39da9316f1ec165982379c6dcc57b2ede60c9b32da661"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/04-decision-factors.md",
+      "sha256": "29a0741ef8552a1d43cc82823113161702d7b2cc386a058c0c0d299e73eb812d"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/05-faq.md",
+      "sha256": "806e58473ad7019fda66005831ecfe6633114c353b6684946ead98a0eb4d52bb"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/06-booking-cta.md",
+      "sha256": "f51f9564fc35129213eaaf57782ba918507aaf355fd4586900fa2d725e572bbf"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/prompts/07-medical-sources.md",
+      "sha256": "586189fb917f3594c6387d8d84210bcf8f46fd5871140c7e48eec444e23da7fd"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/refs/FLOW-CHECK.md",
+      "sha256": "7e44b11a1a88f219f50a29c90dd3300ddd7776c740e03d8e57daf6bf92fd1b85"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/refs/MANIFEST-CHECK.md",
+      "sha256": "c9464f2b754b9413d6c32bf90ba672cfad038bbecfc6cabb0bc7546f0bbde27e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/regenerative-medicine/section_manifest.json",
+      "sha256": "29b05f9882fa303bb8448e2f9a56e5d9c3c555e236ea28a88adb720cf5044b75"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/composition_map.json",
+      "sha256": "ea3ac385d640843e1d090713e0453026fb2a7dfe5f89a85e9f4445571332fb76"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/prompts/01-hero.md",
+      "sha256": "114b358157d6edb043197c0c4988db221966143f0e803684d0d77fa3a395505a"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/prompts/02-neuropathy-feature.md",
+      "sha256": "59ac9d60a3d72b82a311275d9172412093bdbd907d2458d9e8eb6566039eb1aa"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/prompts/03-service-navigation.md",
+      "sha256": "26e6d335d241512d1eff673d3d2fe67eb07adbea7dc47d735336daa1552a02bc"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/prompts/04-how-to-choose-next-step.md",
+      "sha256": "0b4f00801f6eb62ccf43fb62566369faf87fbd6a21f989281a0d937cdaaf9551"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/prompts/05-booking-cta.md",
+      "sha256": "b9ed7f0f4be3c9257c763903a06a1d931764523b1cc5d940ebfcb20b05b0499e"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/refs/FLOW-CHECK.md",
+      "sha256": "49905c4f6a2c34b6419e16f8e10c5f84f3c1eb1189ce3c59d59412631809a4be"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/refs/MANIFEST-CHECK.md",
+      "sha256": "e588b6b37537c4608a6a9a7f6827aaf8cedd319a8d5aab68061a7d26c9a2c00f"
+    },
+    {
+      "member": "before-canonical/design_refs/pages/services/section_manifest.json",
+      "sha256": "8a207b4da86dd3b8218bdec425477df91ea4c138f38103465f543344e3f282c5"
+    },
+    {
+      "member": "before-canonical/site_build/builder_decisions.json",
+      "sha256": "d7d9b4d008782476568b2b5e30653766c6a6bb41d5ca3bf779f10535017a80e7"
+    },
+    {
+      "member": "before-canonical/site_build/site_build_contracts.json",
+      "sha256": "7cebb5c35e01db314dc4fa350284f689747f4d639129ff13445865be9519df0e"
+    },
+    {
+      "member": "before-canonical/site_convergence/source-r1-desktop-independent-review.md",
+      "sha256": "bb0ad527299a93113736a4b2e701b2f373580d946b62f3efc8128b4b8c2abec7"
+    },
+    {
+      "member": "before-canonical/site_convergence/source-r1-mobile-independent-review.md",
+      "sha256": "15f1bc798f9c68b274cfa9fdc096ce46fae64097dc0275a37da3b8e63a58cd5f"
+    },
+    {
+      "member": "browser-attempt.log",
+      "sha256": "ac0b52d2cd866836ce371d9ed58970147a5d12a937c33e20958f13855ffa53dc"
+    },
+    {
+      "member": "build-final.log",
+      "sha256": "06632407288d6feb1df355df333969dd67269724d9b1747587acf8f8058ad594"
+    },
+    {
+      "member": "build.log",
+      "sha256": "28734171f364c57c2ec4c1937bcfbb60298a9e080d2362cbec14a61d7547afd7"
+    },
+    {
+      "member": "diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "lint-final.log",
+      "sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+    },
+    {
+      "member": "lint.log",
+      "sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+    },
+    {
+      "member": "reconcile-contracts.py.snapshot",
+      "sha256": "83c6ee1c15869c61dde09245dd5786dcc8fd63dd10a5d355b6ab907407d0c2a4"
+    },
+    {
+      "member": "server-32817.log",
+      "sha256": "ab72675dac2445effdd3a4b2c6a40fdbf5cf778f187b4947b7b86bd7e57a9739"
+    },
+    {
+      "member": "server.log",
+      "sha256": "9bd22a420cf35691fe00588442b9321a01c11b7feff1108e5f20a753bc73041e"
+    },
+    {
+      "member": "sheet-hormone-optimization-final.log",
+      "sha256": "5db287cc9d0307eaae21686672fabfef9e173f2faf104446392b747d1d66ef86"
+    },
+    {
+      "member": "sheet-hormone-optimization.log",
+      "sha256": "5db287cc9d0307eaae21686672fabfef9e173f2faf104446392b747d1d66ef86"
+    },
+    {
+      "member": "sheet-neuropathy-final.log",
+      "sha256": "a525feae56d36432da936260e2542c01378e9ebb45e4c3d9887ac73ccc4db4b8"
+    },
+    {
+      "member": "sheet-neuropathy.log",
+      "sha256": "a525feae56d36432da936260e2542c01378e9ebb45e4c3d9887ac73ccc4db4b8"
+    },
+    {
+      "member": "sheet-pain-relief-final.log",
+      "sha256": "4be6e6582256c3622c8bea06f8608341a65d239a7a7201f40ae190ec8682a421"
+    },
+    {
+      "member": "sheet-pain-relief.log",
+      "sha256": "5e74fd1e8ea6dbe48e71ffbfddc077c34079efd0523a96f1be620ec13ec84dea"
+    },
+    {
+      "member": "sheet-pelvic-floor-incontinence-final.log",
+      "sha256": "81788744eb62c0a042d9725437bd3fdbaa03cc97289306eeed4dc1dcb1d09269"
+    },
+    {
+      "member": "sheet-pelvic-floor-incontinence.log",
+      "sha256": "6dab7ff8d13a95eea037d2f7150f15c9d22726255a5591022c0b758a7940a1a7"
+    },
+    {
+      "member": "sheet-regenerative-medicine-final.log",
+      "sha256": "c0f50ad8d20d841dbaafbf7cc3fa944cbe61717f17d173b7784a9781af03361d"
+    },
+    {
+      "member": "sheet-regenerative-medicine.log",
+      "sha256": "bb2067c06b8b4b83f2e7ed5cd225e42efb78fa24bae2d83d5bf1f0e711a13897"
+    },
+    {
+      "member": "sheet-services-final.log",
+      "sha256": "b0f5c6fb6823a3b6ba5dcd003ff7f71909b4d8da97f6a6572081920fbe6d9a79"
+    },
+    {
+      "member": "sheet-services.log",
+      "sha256": "1d88cd12e90021036c30662baf7522ef58acf28153375bbfe472a1cc9f2e4118"
+    },
+    {
+      "member": "simplify.log",
+      "sha256": "993a6b0b460df0c14608f12da96bf2acf41cf8be4a712e43a30be004c267507c"
+    }
+  ]
+}

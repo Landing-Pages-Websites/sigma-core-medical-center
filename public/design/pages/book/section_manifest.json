@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "status": "REVIEWED_SUCCESSOR_HANDOFF",
+  "page": {
+    "slug": "book",
+    "route": "/book",
+    "title": "Appointment scheduling | Sigma Core Medical Center",
+    "intent": "truthful scheduling status and information navigation",
+    "publication": {
+      "status": "integration-gated",
+      "robots": "noindex, follow",
+      "functional_booking": false,
+      "future_publication_prerequisites": [
+        "Supplied approved calendar URL/embed",
+        "Verified actual calendar account and workflow, labels, timezone, confirmation and error states",
+        "Appropriate BAA and privacy configuration for intended information collection",
+        "Supplied reviewed privacy, NPP, terms and any operational/legal copy and actual destinations"
+      ]
+    }
+  },
+  "brand": {
+    "name": "Sigma Core Medical Center",
+    "wordmark": "Sigma Core Medical Center",
+    "location": "Richmond, Virginia area",
+    "address": "725 Manakin Towne Lane, Manakin-Sabot, VA 23103 (reconfirm before launch)",
+    "phone": "",
+    "email": "",
+    "hours": "",
+    "opening_target": "September 8, 2026",
+    "tagline": "Human Performance and Longevity",
+    "brand_color_from_logo": "#0877BE",
+    "palette_guidance": "Preserve the supplied deep navy, silver, and electric-blue identity. Translate the dimensional logo into flat accessible web roles: deep navy #101E33, electric blue #0877BE, silver #C7CBD0, warm mineral #F7F6F3, charcoal #20272E, and restrained walnut #9A572B sampled from the real clinic. Metallic effects belong only to the supplied logo and fine structural keylines. No purple gradients, sterile hospital blue, or invented bright hues.",
+    "voice": "Direct-response, concise, premium, calm, and patient-centered. Benefit-led without hype, jargon, fear, or unsupported medical claims.",
+    "identity_belief": "A longer, more active life starts with a clear, personalized next step focused on movement, function, recovery, and independence.",
+    "visual_metaphor": "The core mark becomes a precise field of concentric arcs and one measured horizon line: an organizing system for progress, not a medical diagram.",
+    "taglines": [
+      "Human Performance and Longevity"
+    ],
+    "logo_asset": "../sources/drive/logo-3.png",
+    "facility_assets": [
+      "../sources/drive/reception-1.png",
+      "../sources/drive/reception-2.png",
+      "../sources/drive/waiting-room.png"
+    ],
+    "asset_note": "The supplied reception and waiting-room photographs are authoritative Sigma Core location imagery. Preserve the real built environment and logo. Never regenerate the facility, redesign the wordmark, or imply a generic person is a Sigma Core provider or patient."
+  },
+  "hard_rules": [
+    "Use the supplied Sigma Core logo and wordmark as-is. Never redesign, recolor, re-letter, regenerate, restyle, or reinterpret it; design references use plain type or a neutral reserved logo area.",
+    "Richmond, Virginia is the only market. Exclude Fort Lauderdale and every Florida reference.",
+    "Never claim Sigma Core cures or reverses any disease or condition, guarantees outcomes, restores youth, eliminates pain, avoids surgery, or provides a named treatment that has not been verified.",
+    "Keep service information concise, benefit-led, non-diagnostic, and at category level. Do not publish treatment protocols, mechanisms, prices, candidacy, timelines, medications, tests, devices, or unverified modalities.",
+    "Do not identify Dr. Jason Hurst as a treating provider or show him in a public clinical team structure.",
+    "Do not invent Medical Director or Nurse Practitioner names, photos, biographies, credentials, testimonials, ratings, awards, certifications, badges, statistics, patient outcomes, insurance details, appointment duration, availability, phone, email, or hours.",
+    "Do not render empty provider cards, fake team portraits, fake testimonial cards, star ratings, before-and-after imagery, or unsupported trust signals. Team and testimonial components may be modular in code but remain absent publicly until approved real content exists. Any future testimonial must visibly state 'Results not typical'.",
+    "Stock or AI-generated clinicians must never be shown as Sigma Core staff. Generic people must never be labeled as patients, providers, named individuals, or result examples.",
+    "Use supplied reception and waiting-room photos as the only authoritative facility imagery. Preserve their actual architecture, logo, and materiality; never fabricate a different Sigma Core clinic. Generated editorial lifestyle photography may show anonymous, fully clothed adults walking, stretching, gardening, or living actively in clearly non-clinical settings, but never as Sigma Core patients, staff, testimonials, before-and-after subjects, or evidence of results.",
+    "Direction A must be photovisual and medically credible. No 3D-rendered environments, abstract caves, portals, sculptural rooms, metallic ribbons, liquid chrome, glowing energy streams, fantasy architecture, product-render slabs, material mazes, or text embedded on rendered objects. Use photographic image fields, clean flat editorial layouts, restrained crop masks, and simple code-native lines or blocks.",
+    "General marketing forms collect no free-text medical history, symptoms, diagnosis, or other PHI. Any PHI workflow requires an appropriate HIPAA agreement and safeguards.",
+    "Do not load standard advertising or analytics trackers on authenticated or condition-specific patient flows without compliance review.",
+    "The educational guide must not appear available until the customer supplies the approved resource title, media, delivery method, consent language, and GoHighLevel details.",
+    "The address 725 Manakin Towne Lane, Manakin-Sabot, VA 23103 and the September 8, 2026 opening date must be reconfirmed before launch and any time-sensitive opening treatment removed once stale.",
+    "No generic hospital-blue template, sterile all-white system, purple-to-blue SaaS gradient, glassmorphism, decorative medical dashboard, DNA helix, molecule, lotus, glowing nerve, anatomical fear image, autoplay video, intrusive popup, fake scarcity, or tiny low-contrast silver copy.",
+    "Do not use visible 01/02/03 sequence numbers, chapter numbers, folio numbers, oversized ghost numerals, or numbered editorial markers. Communicate sequence with language, spatial progression, material transitions, or unnumbered wayfinding.",
+    "Primary body copy is at least 18px in the coded site, controls are at least 48px, contrast is WCAG AA or better, and reduced-motion preferences are honored.",
+    "Every visually control-shaped element has the useful outcome defined in its section interaction_contract. State labels, steps, and principles are static content, not inert controls.",
+    "Direction A and Direction B are two complete creative territories. Direction B is generated in a fresh session from its own fingerprint and must not be a recolor or reference-edit of A."
+  ],
+  "successor_scoped_overrides": [
+    "For this reviewed Book successor only, the present user task and truthful source-truth-r2 review override inherited instructions requiring facility imagery, immediate booking, old imperative Book H1, or policy controls. Zero facility photographs and zero other photographs. No raster build assets.",
+    "Page mode extends selected Direction B The Forward Standard, with Source Sans 3 heavy headings and selective Playfair Display counterpoint. No new direction exploration. Historic home brand and hard_rules fields remain verbatim provenance; inherited Direction A exploration and facility claims do not authorize content here.",
+    "All three candidate frames are native 1536x864, including privacy; these are composition frames, not fixed coded section heights.",
+    "No clinical, legal, security, HIPAA, emergency, operational timeline, contact-channel or booking assurance may be invented. Customer-facing copy excludes GoHighLevel, BAA and implementation prerequisites.",
+    "Only the exact /services and /contact navigation outcomes exist. Contact is status information only. No fake controls, no calendar dates/times/slots, no form or embed, no booking action, no policy links, no callback/waitlist/request flow.",
+    "Use one dominant unavailable statement in the hero. Calendar pending and legal-content pending describe different facts without repeating a booking denial.",
+    "Frames cover content sections only: no global navigation/footer, no logo rendering, no decorative section numbers or folio numerals.",
+    "Reference KEEP and independent live KEEP establish this scoped successor handoff. Individual five-layer section evidence is recorded in staged section_implementation.json. No historical customer approval, global edge pass, QA, clinical/legal approval or publication readiness is conferred.",
+    "Use approved #0666A5 action blue as the blue content band so white body text is readable; #0877BE stays in non-text accents. No walnut because this candidate contains no authentic material imagery."
+  ],
+  "contract_precedence": [
+    "Current user scope and successor_scoped_overrides win over incompatible inherited provenance.",
+    "required_sections content wins for exact text; rendered refs guide composition; page_flow owns seams; composition_map owns load-bearing relationships.",
+    "Canonical Book successor promotion is authorized by the current user after reference KEEP and independent live KEEP; immutable candidate originals and superseded canonical contracts remain archived with hashes."
+  ],
+  "customer_asks": [
+    {
+      "ask": "Design three truthful native 1536x864 section frames with same approved brand palette/type/motif: status-led Book hero ('Appointment scheduling' or equivalent truthful status), inactive calendar/status surface with real Services/Contact navigation and no fake slots/form, concise legal/privacy pending panel without invented legal/medical copy.",
+      "source": "current user task (verbatim)",
+      "honored_by": [
+        "01-booking-hero",
+        "02-gohighlevel-calendar",
+        "03-privacy-note"
+      ]
+    },
+    {
+      "ask": "Use zero facility photos.",
+      "source": "current user task (verbatim)",
+      "honored_by": [
+        "successor_scoped_overrides"
+      ]
+    },
+    {
+      "ask": "Preserve narrative variety and premium layout, don't flatten all sections to generic centered cards.",
+      "source": "current user task (verbatim)",
+      "honored_by": [
+        "page_flow",
+        "composition_map.json"
+      ]
+    },
+    {
+      "ask": "Apply existing approved homepage typography/palette and same Book section IDs to maintain traceable successor diff.",
+      "source": "current user task (verbatim)",
+      "honored_by": [
+        "brand",
+        "hard_rules",
+        "approved_world",
+        "required_sections"
+      ]
+    }
+  ],
+  "required_sections": [
+    {
+      "id": "01-booking-hero",
+      "name": "booking-hero",
+      "job": "Orient the visitor with a truthful scheduling title and one dominant unavailable state.",
+      "content": {
+        "headline": "Appointment scheduling",
+        "status": "Online booking is not yet available.",
+        "body": "Explore service information and contact status below."
+      },
+      "imagery": "None; typography and code-native geometry only.",
+      "internal_links": [],
+      "interaction_contract": {
+        "kind": "static",
+        "actions": [],
+        "outcome": "Communicates current availability; no request, booking, data collection or confirmation."
+      },
+      "dom_id": "booking-hero",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/hero.tsx",
+        "source_sha256": "16957ad0f2784742f5424519df2ca2fb1309de9c1d957201935234658538c31b",
+        "dom_ids": [
+          "booking-hero",
+          "book-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id booking-hero and responsive container. Flat approved CSS token: ink #101E33. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use a section pseudo-element with background var(--action) and clip-path polygon(0 88.66%,41.08% 88.66%,100% 72.57%,100% 100%,0 100%) in a section-local overlay. Draw three aria-hidden electric-blue rectangles near lower-right, unequal heights 46:83:134 with equal width55 and baseline620 in the native coordinate system. Separate rectangles from the plane; these are not a chart. One live h1 contains Appointment scheduling; desktop preferred break after Appointment. Load Source Sans 3 800. Native observed first line x148,y144 with width668; preserve heavy open-countered scale, never use raster text. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 800; line-height: 1.04. This region is the second line of the same h1, not another heading. Source Sans 3 800 with near1.0\u20131.08 line-height; preferred scheduling on line2. Mobile 44\u201348px with a two-line measure. Live paragraph following the h1, exact Online booking is not yet available. Source Sans 3 600/700, silver #C7CBD0 or light on ink. Keep at least twice body hierarchy where desktop room allows; mobile26\u201328px. No badge, link or control role. Live paragraph from manifest in Source Sans 3 400, light on ink, at least18px, max measure about40 characters on mobile and wider desktop. It has no interaction or scroll button. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Inline decorative SVG with viewBox 0 0 1536 864, polyline points 1536,106 1364,106 1142,331 1329,516; fill none; silver stroke8 at native scale. aria-hidden, focusable=false, pointer-events:none. Crop only right-edge geometry. Do not close into a widget. Simple SVG path M129 112 H95 V371 H129 with electric stroke9, no fill. Anchor to the h1 group, not entire section height. On mobile scale to a 24px-wide bracket with3px stroke and text-safe gap.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "02-gohighlevel-calendar",
+      "name": "GoHighLevel-calendar",
+      "job": "Show the inactive scheduling surface and route visitors to real service information and contact status.",
+      "content": {
+        "headline": "Scheduling calendar",
+        "status": "Calendar connection pending.",
+        "services_label": "Explore services",
+        "services_description": "Browse service information.",
+        "contact_label": "Contact & location status",
+        "contact_description": "Contact is for status information only."
+      },
+      "imagery": "None; an open blue reserve with a rule, not a white calendar widget.",
+      "internal_links": [
+        "/services",
+        "/contact"
+      ],
+      "interaction_contract": {
+        "kind": "navigation-only",
+        "actions": [
+          {
+            "label": "Explore services",
+            "href": "/services",
+            "element": "a",
+            "outcome": "Navigate to existing Services page with service-category information; no appointment request or confirmation."
+          },
+          {
+            "label": "Contact & location status",
+            "href": "/contact",
+            "element": "a",
+            "outcome": "Navigate to existing Contact page with current contact/location status; this is not an alternate booking channel."
+          }
+        ],
+        "inactive_surface": {
+          "element": "div",
+          "focusable": false,
+          "no_controls": true,
+          "outcome": "Static pending text only; no calendar, iframe, dates, times, form fields, slots, submit action or success state."
+        }
+      },
+      "dom_id": "gohighlevel-calendar",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/calendar.tsx",
+        "source_sha256": "e4d4cfa060423ff44909d2fd21f1580a9a6ce54e248f14b2080f277ab5f4e115",
+        "dom_ids": [
+          "gohighlevel-calendar",
+          "book-calendar-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id gohighlevel-calendar and responsive container. Flat approved CSS token: action #0666A5. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Use surface #F7F6F3 pseudo-element polygon(0 98.61%,31.12% 86.34%,100% 86.34%,100% 100%,0 100%) over action-blue section. Position in closing space only; adjacent privacy shares exact surface token. No texture or raster crop. Semantic a href=/services, exact Explore services label, separate decorative right-arrow SVG M0 12 H30 M19 1 L30 12 L19 23. Mineral fill with right angular end made by clip-path polygon(0 0,91% 0,100% 50%,91% 100%,0 100%); navy label Source Sans 3 700; minimum48px hit area. Clip only pseudo-element, not focus ring or text. Live h2 Scheduling calendar in Source Sans 3 700, preferred two-line desktop break; keep smaller than hero. This is a status section, no invented calendar widget. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live Source Sans 3 paragraph Contact is for status information only. directly below the Contact anchor with16\u201324px gap. Light on action-blue; coded minimum18px. No alternate channel or booking promise. Semantic a href=/contact, exact Contact & location status, underlined live text and trailing thin arrow; no filled card. Use Source Sans 3 600/700, light on action blue. Two-line label allowed on mobile; arrow in its own flex slot, min48px hit area. Live paragraph Calendar connection pending. below h2, Source Sans 3 400, light on action. No role button, tabindex, form or iframe; no animated loading indicator. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Live paragraph Browse service information. directly below Services anchor; keep its relationship separate from Contact link/caveat. Source Sans 3 400, light on action blue. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 400; line-height: 1.55. Draw three aria-hidden rectangles with mineral fill, about54x15 at(150,580),62x15 at(188,555),95x15 at(234,530). Keep no axis, labels or progress semantics. Add the separately thin open rule as described in frame supplemental recipe.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    },
+    {
+      "id": "03-privacy-note",
+      "name": "privacy-note",
+      "job": "Close with concise legal-content status without presenting a policy or unverified assurance.",
+      "content": {
+        "headline": "Privacy & legal information",
+        "status": "Content pending",
+        "body": "Privacy and legal information will be linked here when supplied and approved."
+      },
+      "imagery": "None; quiet mineral surface, live text, thin keyline and one bracket.",
+      "internal_links": [],
+      "interaction_contract": {
+        "kind": "static",
+        "actions": [],
+        "outcome": "Disclosure of pending supplied content only; no policy destination or legal, medical, security or emergency assertion."
+      },
+      "dom_id": "privacy-note",
+      "runtime_contract": {
+        "source_component": "src/components/batch-three/book/privacy.tsx",
+        "source_sha256": "4372b78ff38bb26fa7fe016e4c51b4efffd817a666cd634540c6221166063acf",
+        "dom_ids": [
+          "privacy-note",
+          "book-privacy-title"
+        ],
+        "runtime_assets": [],
+        "recipe": "Use a semantic section with the existing DOM id privacy-note and responsive container. Flat approved CSS token: surface #F7F6F3. PNG is a design reference only. Do not ship frame as background, bake glyphs, copy generated texture/noise or force a1536:864 aspect ratio. Live h2 Privacy & legal information in Source Sans 3 700 with preferred desktop line break after legal. Navy on mineral; native x175\u2013605. Keep below hero scale. Do not render policy titles as links. Implement the reviewed typography in CSS: font-family: \"Source Sans 3\"; font-weight: 700; line-height: 1.04. Live paragraph Privacy and legal information will be linked here when supplied and approved. Source Sans 3 400, charcoal on mineral, coded18px minimum and comfortable1.5\u20131.6 line-height; max about38\u201344ch. No invented legal/privacy claims. Static live p Content pending using actual Playfair Display 500; keep as the only serif counterpoint and below hero scale. Native x834,y345. Do not style as a button, warning or consent control. Implement the reviewed typography in CSS: font-family: \"Playfair Display\"; font-weight: 500; line-height: 1.2. Decorative SVG path M159 147 H127 V344 H159, electric stroke5, fill none. Anchor to title block with about24px text gap; on mobile3px stroke. No box around whole section.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Final native successor retained; this source candidate still requires matching visual review.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      }
+    }
+  ],
+  "page_flow": {
+    "viewport_contract": {
+      "design_frame": "1536x864 native for each of the three frames",
+      "target_viewports": [
+        "1440x900",
+        "1536x1024",
+        "390x844"
+      ],
+      "rule": "Keep primary groups together; do not derive a coded 864px minimum section height from a native design frame. Mobile stacks content in semantic order and compresses decorative space."
+    },
+    "section_weights": {
+      "01-booking-hero": "loud",
+      "02-gohighlevel-calendar": "quiet",
+      "03-privacy-note": "quiet"
+    },
+    "background_progression": [
+      {
+        "sections": [
+          "01-booking-hero"
+        ],
+        "band": "#101E33",
+        "bottom_edge": "#0666A5",
+        "transition": "Observed frame: navy/blue boundary is horizontal from (0,766) to (631,766), then diagonal to (1536,627); the bottom 98px are fully blue. Recreate with a single flat action-blue CSS plane."
+      },
+      {
+        "sections": [
+          "02-gohighlevel-calendar"
+        ],
+        "band": "#0666A5",
+        "top_edge": "#0666A5",
+        "bottom_edge": "#F7F6F3",
+        "transition": "Observed frame: blue/mineral boundary rises diagonally from (0,852) to (478,746), then stays horizontal through (1536,746); the last 12px are fully mineral. Recreate with a single flat mineral CSS plane."
+      },
+      {
+        "sections": [
+          "03-privacy-note"
+        ],
+        "band": "#F7F6F3",
+        "top_edge": "#F7F6F3",
+        "bottom_edge": "#F7F6F3"
+      }
+    ],
+    "motif_continuity": [
+      "Hero squared open bracket at right and stepped blue bars end inside hero; blue color plane alone crosses seam 01\u219202, no orphan line endpoints.",
+      "Calendar open silver rule terminates inside its content group; mineral angular plane alone crosses seam 02\u219203. Privacy bracket and single blue terminal rule stay inside section."
+    ],
+    "rhythm_rules": [
+      "Hero is a broad asymmetric type-and-geometry composition, not a repeated split-card layout.",
+      "Calendar is an open reserve with a narrow, offset navigation column; keep the blue surface continuous, never insert a fake white calendar card.",
+      "Privacy is an asymmetric quiet composition with smaller type and broad negative space; its content panel is ruled and open, not another card.",
+      "At most one loud headline; no repeating eyebrow\u2192headline\u2192cards silhouette. No fixed tall empty area in eventual mobile implementation."
+    ],
+    "edge_contracts": {
+      "01-booking-hero": {
+        "top": "#101E33",
+        "bottom": "#0666A5",
+        "motif_crossing": "none; color only",
+        "render_note": "Raw upper navy is approximately #071831 rather than the exact token. Build uses #101E33; only the final blank blue edge band was color-normalized."
+      },
+      "02-gohighlevel-calendar": {
+        "top": "#0666A5",
+        "bottom": "#F7F6F3",
+        "motif_crossing": "none; color only"
+      },
+      "03-privacy-note": {
+        "top": "#F7F6F3",
+        "bottom": "#F7F6F3",
+        "motif_crossing": "none",
+        "render_note": "Raw mineral field is approximately #F8F6F4. Entry edge matches exact #F7F6F3 after cleanup; build uses exact #F7F6F3 throughout."
+      }
+    },
+    "render_realization": "Prompt geometry is pre-render intent; observed diagonal positions above and composition_map.json record final provider output. Exact CSS token values and seam continuity outrank small provider color/noise deviations; no texture or gradient is a build asset."
+  },
+  "approved_world": {
+    "name": "The Forward Standard (selected Direction B)",
+    "brand_world_paragraph": "Sigma Core's selected Forward Standard world uses flat deep-navy anchors #101E33, accessible action-blue #0666A5 fields, electric-blue #0877BE geometric accents, warm-mineral #F7F6F3 breathing space, and restrained silver #C7CBD0 keylines. Source Sans 3 is the strong, open-countered performance voice for headlines, body and actions; Playfair Display appears only as a selective small human counterpoint. The motif is precise squared brackets, angular apertures and stepped signal bars with dramatic changes of scale. This Book successor uses no photographs, textures, people, clinic rooms, medical symbols, logo redraws or illustration. Its character comes from typography, asymmetry and simple responsive geometry, never a dashboard, framed slide, generic centered card stack, glass, gradient or 3D object.",
+    "typography": {
+      "headline": "Source Sans 3 700/800",
+      "body": "Source Sans 3 400",
+      "utility": "Source Sans 3 600",
+      "counterpoint": "Playfair Display 500 only for the quiet Content pending label"
+    },
+    "palette_tokens": {
+      "ink": "#101E33",
+      "surface": "#F7F6F3",
+      "action": "#0666A5",
+      "electric": "#0877BE",
+      "silver": "#C7CBD0",
+      "charcoal": "#20272E",
+      "muted": "#55616A",
+      "light": "#FFFFFF",
+      "focus": "#72C7F3",
+      "hover": "#054F80"
+    }
+  },
+  "provenance": {
+    "source_commit": "b867d855adb287c71bef1e07487e934edff314c4",
+    "home_manifest": "../../section_manifest.json",
+    "home_typography": "../../typography_contract.json",
+    "home_palette": "../../palette_contract.json",
+    "selected_direction_frames": [
+      "../../variation/refs/01-movement-forward.png",
+      "../../variation/refs/06-two-ways-forward.png"
+    ],
+    "original_book_manifest": "../../history/book/pre-truthful-handoff-closure-r1-0e435d6/design_refs/pages/book/section_manifest.json",
+    "original_book_map": "../../history/book/pre-truthful-handoff-closure-r1-0e435d6/design_refs/pages/book/composition_map.json",
+    "truth_review": "../../../site_convergence/book/source-truth-r2-art-review.md",
+    "proposal": "../../../site_convergence/book/source-truth-r2-contract-proposal.md",
+    "metadata_result": "../../../site_convergence/asset-ownership-r1/truthful-metadata-r1-result.md",
+    "resolution": "Canonical home refs and typography role prose retain older serif-led A material. Selected B actual variation frames and existing Book prompts establish Source Sans 3 headline hierarchy. Preserve approved families and palette without silently overwriting the provenance. Proposal old-H1/privacy-frame retention is superseded by the user and later r2 review.",
+    "inherited_asset_path_base": "brand.logo_asset and brand.facility_assets are copied verbatim; resolve against original design_refs/section_manifest.json, not this successor directory. No inherited asset is consumed by the zero-raster Book candidate.",
+    "path_base": "Research design_refs/pages/book; staged mirrors retain this research provenance base."
+  },
+  "handoff_review": {
+    "status": "REVIEWED_SUCCESSOR_HANDOFF",
+    "scope": "Book content sections only; authorized automated handoff reconciliation, not historical customer approval, QA, clinical/legal approval, booking activation or site convergence.",
+    "reference_review": {
+      "research_path": "site_convergence/book/truthful-successor-r1-art-review.md",
+      "sha256": "31153d5792f0c727885201056c2ff4562c65fba3f4a8147caa393362f9443f90",
+      "verdict": "CANDIDATE_KEEP_PENDING_IMPLEMENTATION"
+    },
+    "live_review": {
+      "research_path": "site_convergence/book/truthful-successor-build-r1-art-review.md",
+      "sha256": "cabe4134a89bdeb3bdae39eeceedf6a41adb989d20d582483c3dc9993c245f37",
+      "verdict": "KEEP",
+      "reviewed_commit": "0e435d6a160de7f432338e40122837131307b49a",
+      "layers": [
+        "content",
+        "imagery",
+        "composition",
+        "visual_treatment",
+        "responsive"
+      ]
+    },
+    "details": "HANDOFF.json"
+  },
+  "builder_source_closure": {
+    "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+    "precedence": "Per-section runtime_contract supersedes original documentary slots and unavailable booking promises; original native frames are unchanged evidence."
+  }
+}

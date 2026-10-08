@@ -1,5 +1,5 @@
-import { permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
-export default function VariantBRedirect(): never {
-  permanentRedirect("/");
+export default function VariantBPage(): never {
+  notFound();
 }

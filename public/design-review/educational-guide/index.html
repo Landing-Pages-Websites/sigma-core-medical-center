@@ -1,0 +1,235 @@
+<!doctype html><meta charset='utf-8'>
+<title>educational-guide — builder source review, visual pending</title><style>
+body{margin:0;padding:24px;background:#111;color:#eee;
+     font:14px/1.5 -apple-system,'Segoe UI',sans-serif}
+a{color:#8bd} .muted{color:#999} h1{font-size:20px}
+.proto{background:#1b1b1b;border:1px solid #333;border-radius:8px;
+       padding:12px 16px;max-width:900px;margin-bottom:24px}
+.proto code{background:#000;padding:1px 5px;border-radius:4px}
+.card{background:#1b1b1b;border:1px solid #333;border-radius:8px;
+      padding:16px;margin-bottom:20px;max-width:1200px}
+.card.missing{border-color:#a33}
+.pair{display:flex;gap:16px;flex-wrap:wrap}
+.pair figure{margin:0;flex:1;min-width:280px}
+.pair img{max-width:100%;border:1px solid #444}
+.asset-preview{display:grid;place-items:center;min-height:180px;
+  background-color:#fff;background-image:linear-gradient(45deg,#ddd 25%,transparent 25%),
+  linear-gradient(-45deg,#ddd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ddd 75%),
+  linear-gradient(-45deg,transparent 75%,#ddd 75%);background-size:24px 24px;
+  background-position:0 0,0 12px,12px -12px,-12px 0}
+.asset-preview img,.intended-preview img{display:block;max-height:520px}
+.intended-preview{display:grid;place-items:center;min-height:180px;border:1px solid #444}
+figcaption{font-size:12px;color:#999;margin-top:4px}
+.chip{display:inline-block;font-size:11px;padding:2px 8px;border-radius:10px;
+      background:#333;margin-left:8px;text-transform:uppercase}
+.chip.extract{background:#264} .chip.inpaint{background:#452}
+.chip.code{background:#345}
+.chip.plate{background:#246} .chip.generated{background:#525}
+.chip.unmapped{background:#630} .chip.client-copy{background:#444}
+.chip.composite{background:#536}
+</style>
+<h1>educational-guide — builder source review, visual pending</h1>
+<p class='muted'>21 CODE regions and 0 raster assets to review: 0 extract, 0 inpaint.</p>
+<div class='proto'><b>Builder source review:</b> Compare the preserved native reference with the documented live-code recipe or retained asset. Retired documentary roles are recorded in builder_decisions.json and reversible archives. Source checks are complete; runtime desktop/mobile fidelity, section edges and independent Site Review remain pending. This sheet does not authorize publication.</div>
+<div class='card' id='01-resource-hero-r1'>
+<b>01-resource-hero-r1</b><span class='chip code'>code</span>
+<div class='muted'>left open bracket</div>
+<div class='muted'>Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r1-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r2'>
+<b>01-resource-hero-r2</b><span class='chip code'>code</span>
+<div class='muted'>heading</div>
+<div class='muted'>Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r2-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r3'>
+<b>01-resource-hero-r3</b><span class='chip code'>code</span>
+<div class='muted'>unavailable notice and lock</div>
+<div class='muted'>Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r3-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r4'>
+<b>01-resource-hero-r4</b><span class='chip code'>code</span>
+<div class='muted'>Services action</div>
+<div class='muted'>Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r4-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r5'>
+<b>01-resource-hero-r5</b><span class='chip code'>code</span>
+<div class='muted'>open paired-step motif</div>
+<div class='muted'>Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r5-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r6'>
+<b>01-resource-hero-r6</b><span class='chip code'>code</span>
+<div class='muted'>source rail label</div>
+<div class='muted'>Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r6-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='01-resource-hero-r7'>
+<b>01-resource-hero-r7</b><span class='chip code'>code</span>
+<div class='muted'>source overview link</div>
+<div class='muted'>Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.</div>
+<div class='pair'>
+<figure><a href='crops/01-resource-hero-context.png'><img src='crops/01-resource-hero-r7-ref.png' alt=''></a><figcaption>design reference — 01-resource-hero (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-resource-summary-r1'>
+<b>02-resource-summary-r1</b><span class='chip code'>code</span>
+<div class='muted'>heading</div>
+<div class='muted'>Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field.</div>
+<div class='pair'>
+<figure><a href='crops/02-resource-summary-context.png'><img src='crops/02-resource-summary-r1-ref.png' alt=''></a><figcaption>design reference — 02-resource-summary (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-resource-summary-r2'>
+<b>02-resource-summary-r2</b><span class='chip code'>code</span>
+<div class='muted'>education caveat and book</div>
+<div class='muted'>Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6.</div>
+<div class='pair'>
+<figure><a href='crops/02-resource-summary-context.png'><img src='crops/02-resource-summary-r2-ref.png' alt=''></a><figcaption>design reference — 02-resource-summary (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-resource-summary-r3'>
+<b>02-resource-summary-r3</b><span class='chip code'>code</span>
+<div class='muted'>source table with three rows</div>
+<div class='muted'>Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text.</div>
+<div class='pair'>
+<figure><a href='crops/02-resource-summary-context.png'><img src='crops/02-resource-summary-r3-ref.png' alt=''></a><figcaption>design reference — 02-resource-summary (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-resource-summary-r4'>
+<b>02-resource-summary-r4</b><span class='chip code'>code</span>
+<div class='muted'>service panel heading and body</div>
+<div class='muted'>Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading.</div>
+<div class='pair'>
+<figure><a href='crops/02-resource-summary-context.png'><img src='crops/02-resource-summary-r4-ref.png' alt=''></a><figcaption>design reference — 02-resource-summary (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='02-resource-summary-r5'>
+<b>02-resource-summary-r5</b><span class='chip code'>code</span>
+<div class='muted'>neuropathy action in service panel</div>
+<div class='muted'>Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.</div>
+<div class='pair'>
+<figure><a href='crops/02-resource-summary-context.png'><img src='crops/02-resource-summary-r5-ref.png' alt=''></a><figcaption>design reference — 02-resource-summary (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-lead-form-r1'>
+<b>03-lead-form-r1</b><span class='chip code'>code</span>
+<div class='muted'>eyebrow and heading</div>
+<div class='muted'>Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form.</div>
+<div class='pair'>
+<figure><a href='crops/03-lead-form-context.png'><img src='crops/03-lead-form-r1-ref.png' alt=''></a><figcaption>design reference — 03-lead-form (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-lead-form-r2'>
+<b>03-lead-form-r2</b><span class='chip code'>code</span>
+<div class='muted'>access explanation</div>
+<div class='muted'>Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields.</div>
+<div class='pair'>
+<figure><a href='crops/03-lead-form-context.png'><img src='crops/03-lead-form-r2-ref.png' alt=''></a><figcaption>design reference — 03-lead-form (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-lead-form-r3'>
+<b>03-lead-form-r3</b><span class='chip code'>code</span>
+<div class='muted'>inactive card with lock and copy</div>
+<div class='muted'>Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock.</div>
+<div class='pair'>
+<figure><a href='crops/03-lead-form-context.png'><img src='crops/03-lead-form-r3-ref.png' alt=''></a><figcaption>design reference — 03-lead-form (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-lead-form-r4'>
+<b>03-lead-form-r4</b><span class='chip code'>code</span>
+<div class='muted'>decision rail and copy</div>
+<div class='muted'>Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link.</div>
+<div class='pair'>
+<figure><a href='crops/03-lead-form-context.png'><img src='crops/03-lead-form-r4-ref.png' alt=''></a><figcaption>design reference — 03-lead-form (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='03-lead-form-r5'>
+<b>03-lead-form-r5</b><span class='chip code'>code</span>
+<div class='muted'>navy Neuropathy action</div>
+<div class='muted'>Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.</div>
+<div class='pair'>
+<figure><a href='crops/03-lead-form-context.png'><img src='crops/03-lead-form-r5-ref.png' alt=''></a><figcaption>design reference — 03-lead-form (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-privacy-note-r1'>
+<b>04-privacy-note-r1</b><span class='chip code'>code</span>
+<div class='muted'>heading with bracket</div>
+<div class='muted'>Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile.</div>
+<div class='pair'>
+<figure><a href='crops/04-privacy-note-context.png'><img src='crops/04-privacy-note-r1-ref.png' alt=''></a><figcaption>design reference — 04-privacy-note (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-privacy-note-r2'>
+<b>04-privacy-note-r2</b><span class='chip code'>code</span>
+<div class='muted'>privacy explanation at shell edge</div>
+<div class='muted'>Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition.</div>
+<div class='pair'>
+<figure><a href='crops/04-privacy-note-context.png'><img src='crops/04-privacy-note-r2-ref.png' alt=''></a><figcaption>design reference — 04-privacy-note (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-privacy-note-r3'>
+<b>04-privacy-note-r3</b><span class='chip code'>code</span>
+<div class='muted'>pending-policy caveat and copy</div>
+<div class='muted'>Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding.</div>
+<div class='pair'>
+<figure><a href='crops/04-privacy-note-context.png'><img src='crops/04-privacy-note-r3-ref.png' alt=''></a><figcaption>design reference — 04-privacy-note (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<div class='card' id='04-privacy-note-r4'>
+<b>04-privacy-note-r4</b><span class='chip code'>code</span>
+<div class='muted'>Contact status action in caveat</div>
+<div class='muted'>Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.</div>
+<div class='pair'>
+<figure><a href='crops/04-privacy-note-context.png'><img src='crops/04-privacy-note-r4-ref.png' alt=''></a><figcaption>design reference — 04-privacy-note (click for full frame)</figcaption></figure>
+<figure><div class='proto'><b>Planned code treatment</b><p>Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.</p></div><figcaption>No raster file. Reject this verdict if simple CSS/SVG cannot preserve the reference-specific visual identity.</figcaption></figure>
+</div></div>
+<details><summary>NOTES.md — CSS/SVG techniques the build uses instead of images</summary><pre>Canonical Guide reference-only closure — 2026-10-01.
+Independent KEEP: evidence/director-fallback-r1-art-review.md; closure provenance: provenance/reference-closure-r1.json.
+Four accepted owners and page.png are copied from the fallback; the original package is unchanged.
+Access549 / stitch2309; CSS144 / raster144.375; Q4 exact bytes and terminal112 remain.
+21 CODE roles, zero production raster assets, no facility photography. Four stable section IDs and five source links remain; unavailable, no requests/signup, noindex,follow, sitemap exclusion remain exact.
+No runtime/registry/route/asset-retirement/scanner/Git/remote change or Site Review approval. Fresh controller independent source-contract verification is next; runtime implementation remains old until separately reviewed.
+page-draft.png and prompts/ are preserved history only; they impose no current copy, imagery or generation obligation.
+All relative evidence paths below resolve against design_refs/pages/educational-guide. The legacy design_assets Guide records are refreshed copies of this package.
+
+Historical fallback capture record (verbatim; candidate/pending/no-promotion statements describe the pre-closure state):
+Director fallback r1 — rendered candidate; acceptance pending fresh independent review.
+Authority: director8d4d0cbd; controller explicitly adopted review lines19–26 fallback. Pre-render amendment, manifest and targets were recorded together; hashes are in provenance/pre-render-contract.json.
+Access native549=ceil548.625, observed rail492.625, natural CSS exit56+privacy entry88=144; native raster interval144.375 includes exactly0.375 rounding. This supersedes the isolated560/504 exact raster targets and derived stitch/interval only; source/runtime geometry and visual gates remain.
+The only rendered CSS delta is two body[data-owner] background declarations: hero/summary #0666a5 and access #f7f6f3. Privacy #20272e stays unchanged. No section movement, spacer, forced height/padding, transform, screenshot crop/resize/raster fill.
+One local Chromium153.0.8010.12 launch captured Q1–Q3 full CSS viewports1536×624/624/549, DPR1, CSS screenshot scale. Working aptlib+syslibs LD_LIBRARY_PATH; no external browser requests or generative calls. Source Sans3 weights400/600 loaded; CDP confirms custom Source Sans3/Source Sans3 SemiBold.
+Q4 is original1536×512 KEEP reused byte for byte, not a fresh capture; provenance/q4-preserved.json contains source/hash/original geometry/font evidence. Native privacy budget88+224+88+112 remains.
+Natural heights615.890625/611.65625/548.625/400, every recorded section/region/text bound, geometry/style, text/link/control record and copied HTML match the old candidate. Content pixels above fractional section boundaries are identical; source components/CSS and original candidate hashes remain unchanged.
+Exact unscaled1536×2309 stitch and fresh1536×512 seam bands at624/1248/1797 pass owner and last256/first256 pixel equality. All four full owners, three bands and whole stitch were visually inspected by this worker; no clipped owner content or neighboring chrome observed. Unintended white reference-canvas strips are absent; intended blue/mineral/charcoal body canvas remains.
+Fresh worker continuity classifications CONTINUOUS/HARD_TRANSITION/HARD_TRANSITION are PASS; official seam_tools.py validator exit0 checks ledger status and before/after evidence. Original before bands stay in the old candidate; after bands are fresh. This is not independent art acceptance.
+Composition map/extraction plan contain21 CODE boxes:17 from three fresh captures,4 from original Q4 observations with exact reused pixels; all21 pixel samples recomputed. Boxes are DOM extents, not tight glyph silhouettes; no production raster assets.
+Hero navy hierarchy,54px action and420×160 open motif remain. Summary columns,28px book,32px caveat gap, three complete rows and adjoining service panel remain. Access card42/rail separation32 remain. Privacy statement/caveat/complete Contact action remain.
+Old candidate retained in full; historical provenance copied separately. No canonical/registry/implementation contracts/retirement/Git/remotes/source/runtime mutations. Runtimef4390378, PR40draft452fa6f and44assets/14falseflags/20Guidepending are supplied context, not reaudited.
+Fresh independent review is the controller’s next step; no promotion or further capture is performed.
+
+
+## Builder source closure r1
+
+Source-only reconciliation; all current candidate fidelity layers remain PENDING. The 21 generic CODE notes are replaced with exact live selector recipes in extraction_plan.json. Native frames and unchanged source are retained.
+
+- 01-resource-hero: Use .b3-bracket pseudo-elements as an open electric-blue left bracket around the normal-flow hero copy; preserve the independent source rail below the two-column grid. Render one live h1 in .b3-guide-intro, Source Sans 3 with max-width 15ch desktop and 12ch below 760px; use the existing responsive type scale. Render #resource-status as a flex group with a 30px Lucide lock (flex-shrink:0) and a min-width:0 text column, 1px #8fa4b5 border and #182c43 background. Mobile disclosure uses 18px type and 1.6 line-height. Use the real /services anchor with the existing .b3-action treatment, mineral #f7f6f3 background, navy label and ArrowRight. Keep its 24px top margin, hover fill and visible focus outline. Draw the four existing open SVG paths in the 420x160 viewBox; use 2px non-scaling strokes, #849fb2 end brackets and #0877be paired steps. Width is min(100%,420px), then min(72%,252px) on mobile; no filled panel or raster. Place the source-details span in the full-width blue .b3-guide-rail CSS flex row after a 48px desktop gap. Retain the 76px rail and the existing mobile rule hiding this secondary label. Use the live #resource-summary anchor in the rail with ArrowDown and a 48px minimum hit height. On mobile preserve the link after the hero stack; do not turn it into an inactive label.
+- 02-resource-summary: Render the live summary h2 in the left column of the 1.06fr/.94fr CSS grid; below 760px stack the columns with a 28px gap on the blue section field. Use #important-boundary as a bordered flex notice with a 28px Lucide BookOpen, flex-shrink:0, and min-width:0 text column. Keep #8ed1f5 border and the tinted blue substrate; mobile text is 18px at line-height 1.6. Build .b3-guide-source with a live dl of three rows, 32px padding, 4px silver left border and #08629f background. Each row is flex with 20px gap and a thin top rule; mobile removes minimum height and uses 18px row text. Render the service heading and paragraph in .b3-dark-panel with 34px 36px padding below the source table. Keep the semantic content live and subordinate to the source-status heading. Use the /services/neuropathy anchor and ArrowRight in the dark panel, maintaining .b3-text-link styling and a 48px minimum hit area with hover and focus-visible states.
+- 03-lead-form: Place the Access status label and live h2 in the left column of the 1.1fr/.9fr CSS grid on mineral; stack below 760px with 36px gap. This is an unavailable state, not a form. Keep the access explanation as a normal-flow paragraph below the heading; use existing body measure, then 18px and 1.6 line-height at mobile. Do not add input fields. Render #form-status as a left-aligned live lock, strong status and paragraph inside a 1px #a9b5bb border, 4px blue left rail and #eae9e5 surface. Use 42px desktop padding, 30px mobile padding and a 40px Lucide lock. Build .b3-availability-foot as a flex decision rail with 32px top margin, 4px blue left border, 1px top rule and #eae9e5 background; mobile stacks the copy and destination link. Keep the real /services/neuropathy link in the rail with ArrowRight, no extra top margin, and a 48px minimum hit area. Preserve the existing navy text and visible keyboard focus.
+- 04-privacy-note: Use a live h2 with the open .b3-bracket treatment in the left column of the 1.05fr/.95fr CSS grid; retain the charcoal field and 88px section padding, then a single column and 72px padding on mobile. Render the privacy explanation at the shell edge as a normal-flow paragraph, max-width 48ch and line-height 1.62; mobile uses 18px at line-height 1.6. State only the current no-collection condition. Use #privacy-status in a flex-column caveat with #27333c background, 3px blue left border and 24px 32px padding. The status itself is block with no extra border or background; mobile removes minimum height and uses 28px padding. Keep the /contact anchor below the caveat with ArrowRight, 24px margin-top, align-self:start and a 48px minimum hit height. Preserve hover/focus states and status-only wording.
+</pre></details>

@@ -1,0 +1,1465 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "frame": "01-hero",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/hero.tsx",
+      "content_source": "section_manifest.json#01-hero",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Native rendered headline preserves the category/care-conversation message. Copy explicitly states broad category, no recommendation, unverified offerings/providers and no promised procedure/outcome. Prepare your questions replaces unsupported appointment availability; scheduling-unavailable caveat is visible. This is source-safe orientation, not clinical publication approval. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/0/layers/content. Native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Reference contains an unverified Sigma-branded room. Runtime removes it rather than misrepresenting premises. The documented successor visibly supplies a large angled blue field, layered apertures, an exact-option statement, product/use/provider line and grounded status line. No route photo or clinical scene. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/0/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "1440 and 1536 preserve left headline/action and right dominant angled decision field. 390 stacks explanation/action before the semantic art field. Whole-section top/middle/bottom inspected; the art has real information rather than a photo-placeholder silhouette. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/0/layers/composition. Native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "The 320 upper-right wedge no longer intersects the first H1 line in the actual candidate native PNG. Desktop and 390 preserve the same code-native blue field and staircase without heading contact. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Independent follow-up; reviewer/session not recorded in supplied JSON or Markdown; reviewer session session not recorded in supplied JSON or Markdown; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json sha256=19ca6f402e09b062416c049cc2404bbba6a07cbe45d765f4214381e7bfd24134#/affected_layers/01-hero/visual_treatment. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/0-hero-bottom.png. Independent PASS_REPAIRED at cd26b81 using actual a3c5b15 native PNGs under documented route-byte inheritance; these are not new cd26b81 captures. Full route import/asset closure remains equal through349e24e/4ffef33 and this worker. Other33 original PASS unchanged. Edge false pending controller full-scope check. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval. Separate controller session binding: sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9436f7b8 from /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/resume-route-review-75b.md sha256=90b145f33f54f84698baf62459f532e2893fbb53005eeefdb727133aca8c4fb5; reviewer report itself omits the session."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "The narrow breakpoint suppresses only the decorative pseudo-element. Truthful heading, body, action, status copy, semantic art field, and no-overflow behavior remain intact at 320; 390 and desktop remain readable. Applied independent judgment: source cd26b81e88220cbe05f2a0218f4ad3665f2d23fe; reviewer Independent follow-up; reviewer/session not recorded in supplied JSON or Markdown; reviewer session session not recorded in supplied JSON or Markdown; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json sha256=19ca6f402e09b062416c049cc2404bbba6a07cbe45d765f4214381e7bfd24134#/affected_layers/01-hero/responsive. Exact examined PNGs: /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/desktop_1440x900/services-regenerative-medicine/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_390x844/services-regenerative-medicine/0-hero-bottom.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/page-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/0-hero-top.png; /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/candidate-a3c5b15-native/mobile_320x800/services-regenerative-medicine/0-hero-bottom.png. Independent PASS_REPAIRED at cd26b81 using actual a3c5b15 native PNGs under documented route-byte inheritance; these are not new cd26b81 captures. Full route import/asset closure remains equal through349e24e/4ffef33 and this worker. Other33 original PASS unchanged. Edge false pending controller full-scope check. Report Markdown and PNG hashes: site_convergence/pelvic-mobile-contract-application-r2/provenance.json. QA PENDING; no convergence or launch approval. Separate controller session binding: sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9436f7b8 from /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/resume-route-review-75b.md sha256=90b145f33f54f84698baf62459f532e2893fbb53005eeefdb727133aca8c4fb5; reviewer report itself omits the session."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/hero.tsx",
+        "source_sha256": "6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a",
+        "dom_ids": [
+          "hero"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the hero section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this hero panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this hero content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a large angled electric-blue field with layered open rectangular apertures, an off-navy live statement about identifying the exact option, a three-part product/use/provider line and a grounded status line; no premises silhouette or implied clinical scene.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9"
+        }
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "6f393c7aa327521199620cfbec618f5befa7f7280a36edd9f72d1b41eaf3469a",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/01-hero.png",
+          "sha256": "11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/page-top.png",
+            "sha256": "4c684e96a6f4d42d8be60aefd15c248c817113aefa71634ec1fad901da5a866a",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "339bd59721b81426496ed948e7fb9f96336e464513c2bebf39c3cb85e9ea0049"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-top.png",
+            "sha256": "4c684e96a6f4d42d8be60aefd15c248c817113aefa71634ec1fad901da5a866a",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "1bf246fa13005285d96d2ed9ce78254b95f7b7b5b17376f2f986050d5be16acd"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-bottom.png",
+            "sha256": "e593a7af1a59739b87f970f1bd769abf6788ea8bb8b37a22653c6c69e305cc7d",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "30c01b589327eb44aa10a64ce82b36811ec39745814d6ad2c7ffcff8c0c6011c"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-middle-1.png",
+            "sha256": "663909ce448b1b31160ce4f2a53d956370da352bc736a8cd0ce4aff2c7bc6ad3",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "2463567dd3622653246388f9d5b87bd599a4dc71c9f853416d837ee29713a734"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/page-top.png",
+            "sha256": "aa08f13e1e1683a1f63176cfdc439dedde94686f678beda85f87b74e9c91b1af",
+            "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+            "state_sha256": "b5707dfd1976bf150fae6210ef1868f5aa1b99046e51e111c4e34ec600603232"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/page-top.png",
+            "sha256": "62615bf454f7975a290c117b328a74d412df7c9c1ae3b87ac9e1bfc8c2c97326",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "1cc86c0a400a712d53d5818acd1894c6f1302e04a29f55f6ded6dd0abf7420ab"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/0-hero-middle-1.png",
+            "sha256": "1fda5f548b41d62d85b294157fd451ade11fb268109d2807047ae012bef65310",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "839793b4a9374a11cdd07b34c19935bcb262127d41e3009c92aa2a14bc124643"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/page-top.png",
+            "sha256": "980717b55dea7c42293b2f720887d0fbc14d602feb2c1e949485cb0b49b0bc27",
+            "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+            "state_sha256": "b1ee02ca6d5bc485271c0c65d2d8b21ececab76540e06d8a3cbd97f11e0654ec"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/0-hero-bottom.png",
+            "sha256": "80772e4cee54722d326d688f4aa36636c557a3b6f44df75aeca28976450d3808",
+            "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+            "state_sha256": "a9faab37f503f9ee83a1f29cd74346e0eb9d137423f44cbb81c9e6ccdd56835c"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/page-top.png",
+            "sha256": "ed4507f2bf94a12f84315a573ea30a214132b89536a84a934e4cc91e6f0af7aa",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "37042f9db0ccd5a9bfb9e28008de7d61d3fc0ff4dc98d40c8bf13fa50d097ea9"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-top.png",
+            "sha256": "ed4507f2bf94a12f84315a573ea30a214132b89536a84a934e4cc91e6f0af7aa",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "31bd49e1b8b36a4567e17bfe29289093d5dbbd3d30137aa9b61e0cc814bfa456"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-bottom.png",
+            "sha256": "a3cf9356d6e268ca9f006d1da63f2198680dc0e2421bb72b005be736f614236a",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "438ef0c069ed1c200205d608745b52909a8bfdd9e183cb93bafe40d48663521e"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-middle-1.png",
+            "sha256": "ea34a6f04eb159b34bf91c9fbddedf2a30c5bb7b37a835949c98d37487e8c18e",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "07f7186afb9565b4abf81b0c429e816a5ed94833f62e292cdcbb95ea76b891c4"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/0/layers"
+      },
+      "source_repair_second_wave_r1": {
+        "frames": [
+          "01-hero"
+        ],
+        "decision": "Suppress only the decorative hero ::before at max-width340px. No layout box, text, semantic artwork or other section changes.",
+        "residual": "Both original hero FAIL layers remain FAIL until independent320 capture verifies the repair;1440/390 need unchanged regressions.",
+        "source_file": "app/services/regenerative-medicine/page.css",
+        "before_sha256": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776",
+        "after_sha256": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9",
+        "status": "REPAIR_PENDING_INDEPENDENT_REVIEW",
+        "next_action": "Controller: Git push this exact commit and bind deployment to SHA. Recapture 320x800 hero page-top with 1440x900 and390x844 unaffected regressions; independently re-review only hero visual_treatment/responsive and confirm decorative wedge no longer crosses Explore whether. All other original PASS layers and source geometry remain preserved."
+      }
+    },
+    {
+      "frame": "02-category-orientation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/orientation.tsx",
+      "content_source": "section_manifest.json#02-category-orientation",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Broad-category statement plus legality/evidence/risk/suitability dependence on exact product/procedure and no assumed Sigma modality are rendered. Category boundary explicitly requires separate review. Services exploration safely replaces the historical terms-and-definitions claim. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/1/layers/content. Native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Native frame is core geometry; runtime uses pale clipped live-text paper on blue plus charcoal category-boundary panel. No raster or documentary implication. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/1/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Desktop retains blue left explanation and distinct charcoal right boundary; native 390 top/middle/bottom show headline, paper, services link, then boundary. Text is contained with intentional quiet space. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/1/layers/composition. Native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Blue field, mineral paper, squared/diagonal boundaries and sans heading hierarchy are visible. Historical frame scale/brackets are simplified within the documented live CSS successor, not exact pixel parity. No missing Playfair claim. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/1/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 complete stack and 320 middle native capture preserve copy and distinct boundary without cropped words; all 320/360 runtime states have no overflow. No fabricated modality/action. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/1/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/02-category-orientation.png sha256=30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/orientation.tsx",
+        "source_sha256": "7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a",
+        "dom_ids": [
+          "category-orientation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the category orientation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this category orientation content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "7a586408c655231f671e6c26de49cda5b8028d38ad18f8e892885615205a382a",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/02-category-orientation.png",
+          "sha256": "30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/1-category-orientation-top.png",
+            "sha256": "cf93f9b12b4d7214ad81824a3155dc9b836f8ae6c130cce10e86dd20a8451655",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "ec9f51e25f554965a8df389a1a5d9662708646109ff48d2a8934c204486e557d"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/1-category-orientation-bottom.png",
+            "sha256": "b5f458dadcf8413c2818be802a231fbdae9fa9d6dd14aa69aa288683706c576f",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "0fe5a77f12d11d8aa3baa7e1af3000586040949bb3eddeb5195748880380c14d"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/1-category-orientation-middle-1.png",
+            "sha256": "72e767143438d24876c3440e1df4642e3338c04df0e8f2a217b15eea17686424",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "62a7253d86fb35d1ada959e91bf31e791f8567f3aabda364137c1e01bc5bc9e5"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-top.png",
+            "sha256": "5c7b1312e498ec1970ce94eac213423057f02897d9f9432b2cec5ff842bb0793",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "351f2b9d0e6df10bc5713ef4878b2e0fe73250aa91239733b7252c3f303e64e1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-bottom.png",
+            "sha256": "5f2ae36cc52de323dec5218d27302fbfbf49c2262c4f663a5ecef01495d483c7",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "e672398f428ef6eee7497286246002197a7a8bed9c4c2b5af72db868ab5c7003"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-middle-1.png",
+            "sha256": "2c327c049956b28bf40bd0487825ed5d77c875c58a21d49c54806a0f4fb82fe5",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "dbd19392e9bfb28fb26acf0fce3e0430ad4b6ca848dc5fc22d3041883aa02270"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/1/layers"
+      }
+    },
+    {
+      "frame": "03-questions-for-a-consultation",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/questions.tsx",
+      "content_source": "section_manifest.json#03-questions-for-a-consultation",
+      "asset_roles": [
+        "code-only: live activity questions and section-owned CSS; no raster"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "All five prompts remain: goals/fit, exact option plus FDA status/evidence, alternatives including no procedure, benefits/risks/unknowns/costs, responsible provider/follow-up if inappropriate. Copy avoids pre-answering with clinic claims. Training is represented by the adjacent decision section qualified-provider question rather than an invented credential. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/2/layers/content. Native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Historical fabricated room/support photo is removed. Five code-native icons and separate navy preparation/blue service-link rail supply the documented replacement roles; no provider/patient/proof image. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/2/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Inspected desktop middle shows approved updated 2+3 hierarchy: Evidence/status twice the Goals track, with larger question text, then three compact prompts. Bottom preserves 64/36 preparation/service rail. This is the current repair recipe, not the obsolete five equal columns. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/2/layers/composition. Native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Mineral and pale-blue information cards have navy/blue keylines, beveled corners and consistent blue icons. Evidence text is distinctly larger. Navy preparation rail has light-blue top keyline and blue navigation half. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/2/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "All 390 top/two-middle/bottom native windows inspected. Compact icon/title rows, questions underneath, natural height and preparation-before-links sequence remain. 320 and 360 middle images show intact FDA/evidence/alternatives copy and no clipping. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/2/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png sha256=ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+        "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+        "dom_ids": [
+          "questions-for-a-consultation"
+        ],
+        "runtime_assets": [],
+        "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Build the questions for a consultation section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this questions for a consultation panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the questions for a consultation horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Below five icon-led question articles, build .r-questions-base as a 64%/36% CSS grid. The preparation copy uses a navy field and 5px light-blue top border; the blue nav retains /services and /services/neuropathy anchors. Collapse naturally on mobile; no photograph.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/questions.tsx",
+          "source_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+          "dom_ids": [
+            "questions-for-a-consultation"
+          ],
+          "runtime_assets": [],
+          "recipe": "Replace five equal-height columns with a content-led 2+3 grouping: Goals and fit beside a wider Evidence and status panel, then Alternatives, Uncertainty and risk, and Next steps. Evidence receives larger live text to emphasize the exact option/use question. Keep all five prompts and the separate dark support/blue link band. Mobile uses compact icon/title rows and text below, without controls or fixed card heights.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "2a9e928c2b903046a4e2f95227cc6b029645094c6c88cd42240ed89d1702398b",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png",
+          "sha256": "ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-top.png",
+            "sha256": "8533f437f52acf846905cc6a27c6be839c961b75929382a597eeab6521c864c2",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "f9ecd36524b0e92c856d67a7e10d3d00b4aabdc2428231af0f81b72938c34531"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-bottom.png",
+            "sha256": "0f8093f3105902e0d36dab52f782c5145549ad0de1d36ecde284f81b12c87ace",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "a2d0357c1c688777cc9ce4e382320c5a5da454cf376934191ad2f42dbc4ace5f"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+            "sha256": "9fd95bfc7ff6d28ea6fe3ac8b9028bd0381cb72a8711fba86a4fd201536287c5",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "1d9d4defb4ae14c53506a85c21c84253e9d73ea175c4d47da2cc08915017f394"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+            "sha256": "9d0fcad511f9b99e60319101133b54e0de4ccc7a9d717670c5449f43d9bc5822",
+            "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+            "state_sha256": "ad4623de230704747db327dcecdf4ada22e9e198179e7893308e04f456573fd2"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+            "sha256": "1ec95b1282ccae5d492ac4401748657d826aa7df9f1998e8d5d4b313711e9ea5",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "15a239ac990aa540ba58317d50a64d2bbee8aa21fee95e8d1007f378deb645cf"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+            "sha256": "9feab6408220230f9a874dc6506542cb0956364017d7e81797c0f6b310cfebd9",
+            "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+            "state_sha256": "681208f342d9d12eae6923d45c9b4d3b93d45c2663e23ab2261ecde50bbe5b53"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-top.png",
+            "sha256": "1a4d0255aacb938808ce0bd0a6af4345e0d45d74cc53be0cdd3ea3a7a9867116",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "1d6f9fdd4c80676a1040d77ea83df1f95f1e2296265277fb3db97be52df4fd3b"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-bottom.png",
+            "sha256": "ccba8c11da4c860c47037b8275dfdd503bcc56939c9d2ad86f55488557021cc6",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "d48838995a3c62708c0902916e439ae5586cf4b8ee8af91c0cda7d99fa79ceec"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+            "sha256": "47e0961d07c43412285cab9ed79b7f8999d6d42b8aa3bdc8855c8be60c3225e2",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "8519cdb546bb5d8cb532be8ba3745a4c23fcbe2fc6050e691bc4a37a07b29dad"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-middle-2.png",
+            "sha256": "a8d9925780a21731307d2c585e97c0ab42587077a71795f65c3c0418267ea572",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "d91a046b07780657db90388a8027180d4d2e05d79cc99d9ea8e3ed285bdcd15a"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/2/layers"
+      }
+    },
+    {
+      "frame": "04-decision-factors",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/decisions.tsx",
+      "content_source": "section_manifest.json#04-decision-factors",
+      "asset_roles": [
+        "code-only: live activity questions and section-owned CSS; no raster"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Rendered criteria assess exact option/use, evidence/risks/alternatives including no procedure, qualified responsible provider and follow-up. Start compares answers; Verify asks for missing specifics. Testimonials/mechanism alone are explicitly insufficient, with no clinical success assertion. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/3/layers/content. Native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Reference room and implied clinical discussion are safely replaced by live navy dimensional criteria and distinct teal context edges. No treatment imagery or invented provider. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/3/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Native desktop captures show compact horizontal Start/Verify bands above/below three main criteria, matching updated plan/NOTES rather than historical inset photographic towers. 390 follows Start, three criteria, Verify, service/pain links. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/3/layers/composition. Native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Charcoal field, navy layered panels, blue top rules and lighter-teal verification edge establish hierarchy. Criteria headings exceed secondary context labels. No numeric folios or fake selected controls. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/3/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/two-middle/bottom and 320 criteria-middle show natural one-column readable cards. Desktop three-column relationship is recomposed, not bitmap-shrunk. All measured widths remain nonoverflowing. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/3/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/04-decision-factors.png sha256=9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+        "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+        "dom_ids": [
+          "decision-factors"
+        ],
+        "runtime_assets": [],
+        "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+        "styles": {
+          "app/services/regenerative-medicine/page.css": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9"
+        }
+      },
+      "visual_repair_r1": {
+        "baseline_commit": "b21228f3d07ef578403b9c3f010f13e414621810",
+        "before": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Recreate this decision factors content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this decision factors panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep the decision factors horizontal rail live: use CSS grid or flex children, one-pixel keylines, polygon-corner pseudo-elements and role-specific inline SVG marks; set the actual copy and navigation targets from the approved section manifest. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use the left edge as a compact teal starting field directing readers from the five consultation prompts to assessment of the answers. Keep three center panels as questions that test named option and intended use, evidence and risks versus alternatives including no procedure, and a qualified responsible provider with follow-up. On mobile, stack start, compact criteria, then verify in reading order. Render .r-decisions-edge-end as the lighter #235169 flex column with a #b7d4df top border, live Verify next label, heading and missing-details paragraph. Keep it distinct from the Start here column and three central decision articles; stack on mobile.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+        },
+        "after": {
+          "source_component": "src/components/interior/regenerative-medicine/decisions.tsx",
+          "source_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+          "dom_ids": [
+            "decision-factors"
+          ],
+          "runtime_assets": [],
+          "recipe": "Give the three actual decision criteria the main horizontal stage with larger headings and dimensional navy panels. Convert Start here and Verify next from narrow towers into compact horizontal context bands above and below. Mobile retains start, three criteria, verify in reading order. No modality, provider, result, citation or clinical approval is asserted. Use .r-decisions-stage CSS grid with three .r-decisions-panels columns, 32px padding, 24px gaps, 4px blue top borders and soft layered navy backgrounds. The context bands use three CSS tracks on desktop and one below 800px.",
+          "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+          "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+          "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required.",
+          "styles": {
+            "app/services/regenerative-medicine/page.css": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776"
+          }
+        },
+        "review_status": "PENDING"
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "3f4fbb975bf6cac9c593ac4f98149272b1ab1e0d217d06afe5be4234274d77cc",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/04-decision-factors.png",
+          "sha256": "9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-top.png",
+            "sha256": "41ab2daac188b0641577b8f4f408c85b770aca7f422197b8bd9ee2b62a0ca4f3",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "721eff54466d30e707cf3bb4ba9742b2e78e7aa71b874693ad872f5935123c72"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-bottom.png",
+            "sha256": "57328136fe270a9adbb8c8a41c35fa33c68a2d77d2b5008b4a4ee0be34b42667",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "649e3c4f7f5c3ef302c6ea1407e3f1a45913a3bdbe311415aae44cfedc6ea619"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-middle-1.png",
+            "sha256": "82dc3a89d4b890da5b6b42d4426f077ec2ef1eb8a3fc79b91992c4537f42b76f",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "3fd89c8fed6b7f71f7fb9f152699197639e402ba9c40e5b0465d75a10cc747e0"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/3-decision-factors-top.png",
+            "sha256": "37f733d6ae107aa7505295858a7415afa911c76cbae3fe60d61e850601e36089",
+            "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+            "state_sha256": "6e49738dbd60dea2eaff83a6c7929b357ea6449178410c5b78db50ecf11b4be6"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/3-decision-factors-middle-1.png",
+            "sha256": "0cfb66acf00bb5bf75d3b784c80ea5625ae116357228568a416ef75ab6ca0d70",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "2a5ee3b35d038c6bcbec9d778ed09ed1afcd0126f171fdc4c2d6583d51891b2f"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-top.png",
+            "sha256": "24e95f3de548d89cc6c72a3f14c3f879adf005280722e5856df187c0e23abd33",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "f8c33d2171931ba1c9043e53bb1291d6088f22ff9fa70db9e1dd76be4b05c9d8"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-bottom.png",
+            "sha256": "c1671cef293e8102db5c0fedf81f5fcdcd42e27a8a78d3821688d6531f6ac76e",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "c6de1b01e079baa7ae63f2898d956da00a6abd4c053903b2a49db3718b74578a"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-middle-1.png",
+            "sha256": "bd9a239eed3ebfd47dc835c80e7f46d66f498393fd37225db7869c54864d3b87",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "abee284827b46b2e74e4350345b7778db05d2ae0b77321cda6327904aa5d0413"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-middle-2.png",
+            "sha256": "f57598255b04d995ee2cab7690db09f494061c7a9a17aff8c6404e0f190c0a8b",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "435bab73da74934de3f2b75eb0400096d63f41e3bb43bf6c6c7a37ef3cd03d0c"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/3/layers"
+      }
+    },
+    {
+      "frame": "05-faq",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/faq.tsx",
+      "content_source": "section_manifest.json#05-faq",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Four actual answers explain unpublished options, qualified clinician need, unavailable scheduling, and Richmond service area with address/operations unverified. They replace historical secure-form/team-follow-up promises. Source-status anchor and real services/neuropathy links are rendered. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/4/layers/content. Native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Unsupported room removed. Diagonal blue evidence-boundary aside, vertical rule and live source-status link match the documented semantic successor; no photo-placeholder or progress ticks. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/4/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Desktop uses adjacent four-row question/answer reading area and angled scope aside. Mobile stacks answers and related actions before the aside. All native top/two-middle/bottom windows cover the complete field and seam. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/4/layers/composition. Native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Source Sans, navy question rows with electric-blue left keylines, bright scope field and thin pale vertical rule remain in the approved sans/geometric world. FAQ is a semantic always-visible dl, not an imitation nonworking accordion. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/4/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 and 320 questions wrap naturally without label/answer overlap. 360 bottom retains functional-looking source link with roomy field boundary. Runtime nooverflow and loaded states pass; link activation/focus not independently exercised. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/4/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/05-faq.png sha256=6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/faq.tsx",
+        "source_sha256": "ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b",
+        "dom_ids": [
+          "faq"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the faq section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use .r-faq-boundary as a blue CSS aside with a diagonal boundary and vertical rule; render the evidence-scope statement and working #medical-sources anchor. Keep four semantic dl answers and related-service navigation adjacent, then stack on mobile.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "ebe0abd766896d4a415165503ce38200aa2c3cca530df1d41c210529ea71973b",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/05-faq.png",
+          "sha256": "6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-top.png",
+            "sha256": "bb12566d63bc70652a7f22b6f301c269a94388f88c5701c730d529650f987060",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "4ff34b2b2140eaf68b1b3dd50e24c1c1d2ccd587b49220547adad05c9d54f911"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-bottom.png",
+            "sha256": "2fc5a89b24aa8c3f7357157332e2630c93bb115fa0039f5c5c788ec52ed815a1",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "b911b1d40598f2df0e02d33cfd8c0b2a396eb0efc93821c1171b21cfba61a538"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-middle-1.png",
+            "sha256": "ae56d03174b68fa63df4afb3d9f6e17cb57068bcd718b76be4af54298c7957c7",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "565e62406fbdd80bd49301f8455ff7b6801a8536c66c8e3ec8805b351b1c4670"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/4-faq-bottom.png",
+            "sha256": "efef0413b344e95c365b0ec5b326527af6b76cddcdfeb0ab552567e0c6a46fb8",
+            "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+            "state_sha256": "6c7b6854add60a6d31f7be52f0d79db9e6405a1ce0bd420b70197d6dd1953ecb"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/4-faq-top.png",
+            "sha256": "32306e6a8da249f60e761bbb33cc6b56f76bbe7eb6b8966cb063ccb6671a6bb3",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "ce4af741a767f8807e7ae303018f8739eb32266458d1333b1835a38095f92df3"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/4-faq-bottom.png",
+            "sha256": "0fcfd6b9f2bda956a955d5479714228919e1f893117b95b6ac422093283df6f4",
+            "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+            "state_sha256": "5ea6be0b6007f1a9c9632e2c4c0e41d770f35202b29b8512dd314da6046850ed"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-top.png",
+            "sha256": "1478e96336b7e02e22d350980255227e72608786aaafc27130fae644b94015d2",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "875f225114a80fc116c5f8c52489493bcea3358ffb387f43f3483f32c06ba128"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-bottom.png",
+            "sha256": "516f8892f6903d167e0b6a11b90d065a1bad259cd7ff6c89b298f505cbe42c45",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "8ddd09adfb363a114e350c1a0def6b66b6a4c02d589e0f5d1b155d59e1689f66"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-middle-1.png",
+            "sha256": "9f2a6cc4cb2a8e361e318d85257edf8e07d122e5cbe557daed31e3301d3c1c78",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "50236fe5c8ca31bbc4358f80695e0b1029fd4f973cc5915fde7e4238dc1ed1b2"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-middle-2.png",
+            "sha256": "7eba8ed3cb1eae1fb204c15a4c1906e300746ce0c5cf8300007ec414f960cfec",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "bc5d268503345807306cf10d907b3e0b21ad00cd38351cecf21b402354907319"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/4/layers"
+      }
+    },
+    {
+      "frame": "06-booking-cta",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/booking.tsx",
+      "content_source": "section_manifest.json#06-booking-cta",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Booking status explicitly says scheduling unavailable and provider/calendar/service details unverified. Future consultation is conditional; no candidacy/procedure guarantee and no appointment confirmation. Compare care categories is the actual safe action, not the reference booking promise. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/5/layers/content. Native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Historical fabricated reception replaced with documented two-column navy/teal status field and live information; no premises image or fake calendar. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/5/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Desktop separates status/action left from specificity/no-confirmation panel right. Mobile joins them vertically with light-blue divider while retaining the blue outer band. Native top/middle/bottom show complete content and terminal transition. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/5/layers/composition. Native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Navy/teal fields, pale primary services button and fine rule above no-confirmation caveat give honest action/status hierarchy. Does not retain unsupported Book an Appointment styling or illustrative promises. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/5/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 full stack remains legible; 320 top shows useful multiline Booking status and Compare care categories button, not clipping or invented interaction. Native state validation all widths passes. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/5/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/06-booking-cta.png sha256=9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/booking.tsx",
+        "source_sha256": "19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4",
+        "dom_ids": [
+          "form"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the booking cta section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Use a two-column navy/teal status composition: online scheduling unavailable and provider, service and calendar details unverified for publication; any future consultation is conditional, with no opening guarantee. Include a no-confirmation caveat and link only to the live services overview.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "19ca36c2747beb44b7cd0aeb844e2b1e21a459945242614fb115a08753341cd4",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/06-booking-cta.png",
+          "sha256": "9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/5-form-top.png",
+            "sha256": "214d1dde79ef3c3409c8c892a399f5b348853525e2087eb1974e9c5c4c97780f",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "3678ee73aafd3373d58f2b5c6cffb8a810b0afa3605527b1875081402f970763"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/5-form-bottom.png",
+            "sha256": "90496aab6c8bdc9c926d1a54ca302e91a8ae31e97ed9f0a6b51cf089256bcb97",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "094f8738e4cff42bf071e7e80a15e1fc1e0347e4f097f0a6bdc7f9949abd143b"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/5-form-top.png",
+            "sha256": "f5f5ab01e97ca04a691e9382b676d8ceb35cc639a6c52aae10d3cf0857646859",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "d41afc254b9600ac7bf8c79d69567095a82357da327a07e7b99be2f76e7a5041"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-top.png",
+            "sha256": "5d5d7f1d6c6b8ee58109b1ed065741170d53d0f570d7759fc67a7487633ce096",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "c16f2cc39db42779e748474900046abc96863819e7b420b7e64c45a4d00d8b38"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-bottom.png",
+            "sha256": "6675febbdaada13af90fc3bab5af8973d08e614be7293447d8944d7930435d6b",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "a8bbcc402f61abb068f369cb9c6f8b76aba07545a4c4ba0f89183240d70150be"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-middle-1.png",
+            "sha256": "bca5ec785264108b88af8c3cb215fd18b8ee53a968c7eb7b7d63817dd59ef555",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "f583aa12d0c6e3b4bc51da9c7dde52a7aeccb6b703a3c82fda9e2f89baa47159"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/5/layers"
+      }
+    },
+    {
+      "frame": "07-medical-sources",
+      "implementation_kind": "bespoke",
+      "implementation_owner": "src/components/interior/regenerative-medicine/sources.tsx",
+      "content_source": "section_manifest.json#07-medical-sources",
+      "asset_roles": [
+        "code-only: live semantic copy with section-owned CSS/SVG geometry; zero route rasters"
+      ],
+      "fidelity": {
+        "content": {
+          "status": "PASS",
+          "evidence": "Evidence/source status says product-specific citations are not published and no modality/FDA approval/outcome is established. Category basis, Regulatory review needed and Clinical review needed accurately replace the unsupported historical Reviewed by clinician claim. No fabricated reviewer/date/citation. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/6/layers/content. Native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "imagery": {
+          "status": "PASS",
+          "evidence": "Historical reception/waiting photo is absent. Current mineral caveat and three review-status groups carry the documented image-free role. Shared footer walnut is intentional, not route-owned documentary imagery. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/6/layers/imagery. Native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "composition": {
+          "status": "PASS",
+          "evidence": "Desktop heading/context left, caveat right, then three-part status rail; 390 stacks those in order. Last rail has a clear closing gap before shared footer. Obsolete consultation-literacy arrow rail was not restored with false clinical claims. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/6/layers/composition. Native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "Mineral field, pale-blue caveat, blue border/keylines and differentiated live labels provide restrained information hierarchy. Approved native sans appearance corroborates loaded Source Sans, not unused Playfair. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/6/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "390 top/middle/bottom and 360/320 lower rail/footer samples show readable status copy, no missing cards or clipping and explicit terminal gap. Shared footer deliberately changes right walnut rail to horizontal mobile rail. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/6/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/07-medical-sources.png sha256=db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original PASS preserved; no new builder visual verdict. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      },
+      "runtime_contract": {
+        "source_component": "src/components/interior/regenerative-medicine/sources.tsx",
+        "source_sha256": "fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6",
+        "dom_ids": [
+          "medical-sources"
+        ],
+        "runtime_assets": [],
+        "recipe": "Build the medical sources section as a semantic CSS grid on its sampled navy, blue, charcoal or mineral field; use live heading, body, links and buttons. Form angled media boundaries with clip-path polygons, and draw measured blue stair bars and bracket corners with repeated CSS pseudo-elements or small inline SVG. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Keep this medical sources panel in its own CSS grid track with a solid brand field, clipped polygon edge where visible, live heading/body text and one-pixel bracket pseudo-elements; do not bake source-frame words, actions, or privacy claims into an image. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Recreate this medical sources content group with live HTML typography and responsive CSS grid or flex rows; match the sampled navy/blue/mineral field, use squared panels and one-pixel bracket strokes, and use only short geometric inline SVG bar/icon accents. Preserve manifest copy and functional links. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Render this compact corner, step, mark or icon as inline SVG strokes and CSS pseudo-elements with the sampled electric-blue, silver and navy tokens; keep any enclosed label as live HTML text. Approved typography_contract roles: h1 (display), body and utility; palette_contract tokens: ink, surface, action, electric, silver, charcoal and light. Build .r-sources-caveat as a mineral keylined CSS panel stating that product-specific citations are unpublished. Follow with the three .r-sources-rail groups for category basis, regulatory review and clinical review; retain live headings/body and mobile stacking without fabricated citations.",
+        "status": "SOURCE_RECONCILED_VISUAL_PENDING",
+        "deviation": "Native frame retained as evidence. Unsupported documentary photo roles are deliberately removed; code successor owns runtime.",
+        "boundary": "Builder-owned source reconciliation only. Fresh matching candidate captures and independent review pending; no visual, edge, registry, convergence or Site Review approval."
+      },
+      "review_evidence": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "owner_sha256": "fc4bbda65cbb2e76ac19aa5eb5c28b5e603e4d80ff81ab81e9032029b215aeb6",
+        "reference": {
+          "path": "design_refs/pages/regenerative-medicine/refs/07-medical-sources.png",
+          "sha256": "db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d"
+        },
+        "captures": [
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/6-medical-sources-top.png",
+            "sha256": "ea24abcd1477b2647569151401567808eb302b02a059ff7cd5332b841d1da895",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "c87f85313041c364b36b12493da75959752c39bfea8ffe3e141eaf384870d348"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/6-medical-sources-bottom.png",
+            "sha256": "c01f959404006f6ceeeafe0fe50c5e5cb5e28f0e647d2adf267aa4df77d6cc6a",
+            "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+            "state_sha256": "7ecfc144313e533d23d880713daac62e60fa673e8663035420012b649385849a"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/6-medical-sources-middle-2.png",
+            "sha256": "f3187143e31ba179110eac4b5f5b1679b65292d5aa43dba747a498c393258407",
+            "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+            "state_sha256": "33dc170119ebedc861d501b2926f2911a3bc3c9b4a0b5521156846ce2d6e3083"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/6-medical-sources-middle-1.png",
+            "sha256": "6d368ee4cbec90e306905b59c88675dce0391cf32c3c1c869a2fb2db39edb462",
+            "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+            "state_sha256": "7de99d8c35558ca2fb6ed5b9a3633c5ed322637f028a555ec8a64181823eb5df"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-top.png",
+            "sha256": "e82520a82fab57591a73b1dfb4b0547c09027b83f324949c5f4d112bb3557205",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "5e6152a9e63cf476485789af360c36ab6eb37642871bd74decdf1506dac160c3"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-bottom.png",
+            "sha256": "b74f94674ff035a83e40b774018145a098b3665009bc89242350fa6bb629f450",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "280c03b93f62e1fca3d82e6a4f7a4b43869b5a8635237d2cf324385b0cfc56b1"
+          },
+          {
+            "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-middle-1.png",
+            "sha256": "2bf1fbf2a466282ea7c955024567f75ce2939c648f541c243369ed68df10b0bc",
+            "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+            "state_sha256": "d9650b697d39a9af6ded3ecf1cda310f9596830846e530fcce61dda12f689a9c"
+          }
+        ],
+        "original_report_pointer": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json#/sections/6/layers"
+      }
+    }
+  ],
+  "review_boundary": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+  "visual_repair_r1": {
+    "status": "PENDING",
+    "plan": "site_convergence/source-r1-fidelity-repair-plan.md",
+    "boundary": "Visual repair round 1 candidate. Fidelity PENDING; QA PENDING; edge false. Fresh Git-linked preview, same-state CSS measurements, painted seams and independent desktop/mobile review required."
+  },
+  "route_review": {
+    "route": "/services/regenerative-medicine",
+    "slug": "regenerative-medicine",
+    "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/regenerative-medicine",
+    "reviewer": "Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd",
+    "artifacts": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json",
+        "sha256": "31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.md",
+        "sha256": "4a860e9a897df77b9d85da5be5f18dc5ea04a50caf362b028c0baf610bb952c9"
+      }
+    ],
+    "outcome": {
+      "PASS": 33,
+      "FAIL": 2
+    },
+    "verdict": "FAIL",
+    "edge_verdict": "PASS",
+    "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+    "candidate_edge_review": "UNCHANGED_MEANINGFUL_GEOMETRY_ORIGINAL_PASS",
+    "prior_implementation": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/before/regenerative-medicine/repository/section_implementation.json",
+      "sha256": "634e1534cfc20b3cf76b21b5a8bcba4bc8491ef3314e095938af658e8a843c13"
+    },
+    "evidence_path_base": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a",
+    "captures_inspected": [
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/page-top.png",
+        "sha256": "4c684e96a6f4d42d8be60aefd15c248c817113aefa71634ec1fad901da5a866a",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "339bd59721b81426496ed948e7fb9f96336e464513c2bebf39c3cb85e9ea0049"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/footer-bottom.png",
+        "sha256": "61ceeedd18ef88d2bbfbe4251e387fcd40bc373e6a92da4df05e51d5348ef029",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "18dae2d8608feeb79ddf5f0144720e9d426733f51d2bf09e6bf64b1a3f4bae16"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-top.png",
+        "sha256": "4c684e96a6f4d42d8be60aefd15c248c817113aefa71634ec1fad901da5a866a",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "1bf246fa13005285d96d2ed9ce78254b95f7b7b5b17376f2f986050d5be16acd"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-bottom.png",
+        "sha256": "e593a7af1a59739b87f970f1bd769abf6788ea8bb8b37a22653c6c69e305cc7d",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "30c01b589327eb44aa10a64ce82b36811ec39745814d6ad2c7ffcff8c0c6011c"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/0-hero-middle-1.png",
+        "sha256": "663909ce448b1b31160ce4f2a53d956370da352bc736a8cd0ce4aff2c7bc6ad3",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "2463567dd3622653246388f9d5b87bd599a4dc71c9f853416d837ee29713a734"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/1-category-orientation-top.png",
+        "sha256": "cf93f9b12b4d7214ad81824a3155dc9b836f8ae6c130cce10e86dd20a8451655",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "ec9f51e25f554965a8df389a1a5d9662708646109ff48d2a8934c204486e557d"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/1-category-orientation-bottom.png",
+        "sha256": "b5f458dadcf8413c2818be802a231fbdae9fa9d6dd14aa69aa288683706c576f",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "0fe5a77f12d11d8aa3baa7e1af3000586040949bb3eddeb5195748880380c14d"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-top.png",
+        "sha256": "8533f437f52acf846905cc6a27c6be839c961b75929382a597eeab6521c864c2",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "f9ecd36524b0e92c856d67a7e10d3d00b4aabdc2428231af0f81b72938c34531"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-bottom.png",
+        "sha256": "0f8093f3105902e0d36dab52f782c5145549ad0de1d36ecde284f81b12c87ace",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "a2d0357c1c688777cc9ce4e382320c5a5da454cf376934191ad2f42dbc4ace5f"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+        "sha256": "9fd95bfc7ff6d28ea6fe3ac8b9028bd0381cb72a8711fba86a4fd201536287c5",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "1d9d4defb4ae14c53506a85c21c84253e9d73ea175c4d47da2cc08915017f394"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-top.png",
+        "sha256": "41ab2daac188b0641577b8f4f408c85b770aca7f422197b8bd9ee2b62a0ca4f3",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "721eff54466d30e707cf3bb4ba9742b2e78e7aa71b874693ad872f5935123c72"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-bottom.png",
+        "sha256": "57328136fe270a9adbb8c8a41c35fa33c68a2d77d2b5008b4a4ee0be34b42667",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "649e3c4f7f5c3ef302c6ea1407e3f1a45913a3bdbe311415aae44cfedc6ea619"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/3-decision-factors-middle-1.png",
+        "sha256": "82dc3a89d4b890da5b6b42d4426f077ec2ef1eb8a3fc79b91992c4537f42b76f",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "3fd89c8fed6b7f71f7fb9f152699197639e402ba9c40e5b0465d75a10cc747e0"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-top.png",
+        "sha256": "bb12566d63bc70652a7f22b6f301c269a94388f88c5701c730d529650f987060",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "4ff34b2b2140eaf68b1b3dd50e24c1c1d2ccd587b49220547adad05c9d54f911"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-bottom.png",
+        "sha256": "2fc5a89b24aa8c3f7357157332e2630c93bb115fa0039f5c5c788ec52ed815a1",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "b911b1d40598f2df0e02d33cfd8c0b2a396eb0efc93821c1171b21cfba61a538"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/4-faq-middle-1.png",
+        "sha256": "ae56d03174b68fa63df4afb3d9f6e17cb57068bcd718b76be4af54298c7957c7",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "565e62406fbdd80bd49301f8455ff7b6801a8536c66c8e3ec8805b351b1c4670"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/5-form-top.png",
+        "sha256": "214d1dde79ef3c3409c8c892a399f5b348853525e2087eb1974e9c5c4c97780f",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "3678ee73aafd3373d58f2b5c6cffb8a810b0afa3605527b1875081402f970763"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/5-form-bottom.png",
+        "sha256": "90496aab6c8bdc9c926d1a54ca302e91a8ae31e97ed9f0a6b51cf089256bcb97",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "094f8738e4cff42bf071e7e80a15e1fc1e0347e4f097f0a6bdc7f9949abd143b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/6-medical-sources-top.png",
+        "sha256": "ea24abcd1477b2647569151401567808eb302b02a059ff7cd5332b841d1da895",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "c87f85313041c364b36b12493da75959752c39bfea8ffe3e141eaf384870d348"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1440x900/services-regenerative-medicine/6-medical-sources-bottom.png",
+        "sha256": "c01f959404006f6ceeeafe0fe50c5e5cb5e28f0e647d2adf267aa4df77d6cc6a",
+        "receipt_sha256": "57f6ad6d33063929806111cfc5be1fcff9972247b02a86f2d3456d8713971cd9",
+        "state_sha256": "7ecfc144313e533d23d880713daac62e60fa673e8663035420012b649385849a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/page-top.png",
+        "sha256": "aa08f13e1e1683a1f63176cfdc439dedde94686f678beda85f87b74e9c91b1af",
+        "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+        "state_sha256": "b5707dfd1976bf150fae6210ef1868f5aa1b99046e51e111c4e34ec600603232"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/footer-bottom.png",
+        "sha256": "2c51e860658cf713da762ffa4279a0c7bf8c1e5a019051d415431a03494cfbc1",
+        "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+        "state_sha256": "8f99203ee926b1fd8170731c18300a6d3cdeb8f080b82921bb2023f493b6f57b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+        "sha256": "9d0fcad511f9b99e60319101133b54e0de4ccc7a9d717670c5449f43d9bc5822",
+        "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+        "state_sha256": "ad4623de230704747db327dcecdf4ada22e9e198179e7893308e04f456573fd2"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/3-decision-factors-top.png",
+        "sha256": "37f733d6ae107aa7505295858a7415afa911c76cbae3fe60d61e850601e36089",
+        "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+        "state_sha256": "6e49738dbd60dea2eaff83a6c7929b357ea6449178410c5b78db50ecf11b4be6"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/desktop_1536x1024/services-regenerative-medicine/4-faq-bottom.png",
+        "sha256": "efef0413b344e95c365b0ec5b326527af6b76cddcdfeb0ab552567e0c6a46fb8",
+        "receipt_sha256": "dc42be52056d3d376ce2042953bdd557c754a6f9d2f427ebd058772f7a7ee42e",
+        "state_sha256": "6c7b6854add60a6d31f7be52f0d79db9e6405a1ce0bd420b70197d6dd1953ecb"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/page-top.png",
+        "sha256": "62615bf454f7975a290c117b328a74d412df7c9c1ae3b87ac9e1bfc8c2c97326",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "1cc86c0a400a712d53d5818acd1894c6f1302e04a29f55f6ded6dd0abf7420ab"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/footer-bottom.png",
+        "sha256": "44f255b1dd6b09781dd5d2ec6a3c795ce0513377183ef0d2f755402a982915a4",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "88cb8a6b3ff60fe852ccd458ecbaf80d979d32596a7a89a6202cfc91b27ef27f"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/0-hero-middle-1.png",
+        "sha256": "1fda5f548b41d62d85b294157fd451ade11fb268109d2807047ae012bef65310",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "839793b4a9374a11cdd07b34c19935bcb262127d41e3009c92aa2a14bc124643"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/1-category-orientation-middle-1.png",
+        "sha256": "72e767143438d24876c3440e1df4642e3338c04df0e8f2a217b15eea17686424",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "62a7253d86fb35d1ada959e91bf31e791f8567f3aabda364137c1e01bc5bc9e5"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+        "sha256": "1ec95b1282ccae5d492ac4401748657d826aa7df9f1998e8d5d4b313711e9ea5",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "15a239ac990aa540ba58317d50a64d2bbee8aa21fee95e8d1007f378deb645cf"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/3-decision-factors-middle-1.png",
+        "sha256": "0cfb66acf00bb5bf75d3b784c80ea5625ae116357228568a416ef75ab6ca0d70",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "2a5ee3b35d038c6bcbec9d778ed09ed1afcd0126f171fdc4c2d6583d51891b2f"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/4-faq-top.png",
+        "sha256": "32306e6a8da249f60e761bbb33cc6b56f76bbe7eb6b8966cb063ccb6671a6bb3",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "ce4af741a767f8807e7ae303018f8739eb32266458d1333b1835a38095f92df3"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/5-form-top.png",
+        "sha256": "f5f5ab01e97ca04a691e9382b676d8ceb35cc639a6c52aae10d3cf0857646859",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "d41afc254b9600ac7bf8c79d69567095a82357da327a07e7b99be2f76e7a5041"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_320x800/services-regenerative-medicine/6-medical-sources-middle-2.png",
+        "sha256": "f3187143e31ba179110eac4b5f5b1679b65292d5aa43dba747a498c393258407",
+        "receipt_sha256": "3f52a3bbe6412cbf7691e02e6c01d52727c26369d5ebe27bf64472b1bbf1a111",
+        "state_sha256": "33dc170119ebedc861d501b2926f2911a3bc3c9b4a0b5521156846ce2d6e3083"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/page-top.png",
+        "sha256": "980717b55dea7c42293b2f720887d0fbc14d602feb2c1e949485cb0b49b0bc27",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "b1ee02ca6d5bc485271c0c65d2d8b21ececab76540e06d8a3cbd97f11e0654ec"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/footer-bottom.png",
+        "sha256": "d5ca7e85bf33c3d9ebddfa9bfabbf604ece11c5dea9773299581196184695402",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "397bdc5a64efb20083a20b4685e2a5af571a7a3694037b6070cc233ba963b74a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/0-hero-bottom.png",
+        "sha256": "80772e4cee54722d326d688f4aa36636c557a3b6f44df75aeca28976450d3808",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "a9faab37f503f9ee83a1f29cd74346e0eb9d137423f44cbb81c9e6ccdd56835c"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+        "sha256": "9feab6408220230f9a874dc6506542cb0956364017d7e81797c0f6b310cfebd9",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "681208f342d9d12eae6923d45c9b4d3b93d45c2663e23ab2261ecde50bbe5b53"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/4-faq-bottom.png",
+        "sha256": "0fcfd6b9f2bda956a955d5479714228919e1f893117b95b6ac422093283df6f4",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "5ea6be0b6007f1a9c9632e2c4c0e41d770f35202b29b8512dd314da6046850ed"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_360x800/services-regenerative-medicine/6-medical-sources-middle-1.png",
+        "sha256": "6d368ee4cbec90e306905b59c88675dce0391cf32c3c1c869a2fb2db39edb462",
+        "receipt_sha256": "43ff46eafd1422a8657cfb510596429572f208436a5bc17b4d9b05b84874f545",
+        "state_sha256": "7de99d8c35558ca2fb6ed5b9a3633c5ed322637f028a555ec8a64181823eb5df"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/page-top.png",
+        "sha256": "ed4507f2bf94a12f84315a573ea30a214132b89536a84a934e4cc91e6f0af7aa",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "37042f9db0ccd5a9bfb9e28008de7d61d3fc0ff4dc98d40c8bf13fa50d097ea9"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/footer-bottom.png",
+        "sha256": "664a73246ef11f80e3bbc561c92cadfc8256e9a3dbd554381278d62e70105855",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "bc3c1f574f53caa346fb35fe93e0da168f489d8ee8fb89ecea24d12710d6b194"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-top.png",
+        "sha256": "ed4507f2bf94a12f84315a573ea30a214132b89536a84a934e4cc91e6f0af7aa",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "31bd49e1b8b36a4567e17bfe29289093d5dbbd3d30137aa9b61e0cc814bfa456"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-bottom.png",
+        "sha256": "a3cf9356d6e268ca9f006d1da63f2198680dc0e2421bb72b005be736f614236a",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "438ef0c069ed1c200205d608745b52909a8bfdd9e183cb93bafe40d48663521e"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/0-hero-middle-1.png",
+        "sha256": "ea34a6f04eb159b34bf91c9fbddedf2a30c5bb7b37a835949c98d37487e8c18e",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "07f7186afb9565b4abf81b0c429e816a5ed94833f62e292cdcbb95ea76b891c4"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-top.png",
+        "sha256": "5c7b1312e498ec1970ce94eac213423057f02897d9f9432b2cec5ff842bb0793",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "351f2b9d0e6df10bc5713ef4878b2e0fe73250aa91239733b7252c3f303e64e1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-bottom.png",
+        "sha256": "5f2ae36cc52de323dec5218d27302fbfbf49c2262c4f663a5ecef01495d483c7",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "e672398f428ef6eee7497286246002197a7a8bed9c4c2b5af72db868ab5c7003"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/1-category-orientation-middle-1.png",
+        "sha256": "2c327c049956b28bf40bd0487825ed5d77c875c58a21d49c54806a0f4fb82fe5",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "dbd19392e9bfb28fb26acf0fce3e0430ad4b6ca848dc5fc22d3041883aa02270"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-top.png",
+        "sha256": "1a4d0255aacb938808ce0bd0a6af4345e0d45d74cc53be0cdd3ea3a7a9867116",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "1d6f9fdd4c80676a1040d77ea83df1f95f1e2296265277fb3db97be52df4fd3b"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-bottom.png",
+        "sha256": "ccba8c11da4c860c47037b8275dfdd503bcc56939c9d2ad86f55488557021cc6",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "d48838995a3c62708c0902916e439ae5586cf4b8ee8af91c0cda7d99fa79ceec"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-middle-1.png",
+        "sha256": "47e0961d07c43412285cab9ed79b7f8999d6d42b8aa3bdc8855c8be60c3225e2",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "8519cdb546bb5d8cb532be8ba3745a4c23fcbe2fc6050e691bc4a37a07b29dad"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/2-questions-for-a-consultation-middle-2.png",
+        "sha256": "a8d9925780a21731307d2c585e97c0ab42587077a71795f65c3c0418267ea572",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "d91a046b07780657db90388a8027180d4d2e05d79cc99d9ea8e3ed285bdcd15a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-top.png",
+        "sha256": "24e95f3de548d89cc6c72a3f14c3f879adf005280722e5856df187c0e23abd33",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "f8c33d2171931ba1c9043e53bb1291d6088f22ff9fa70db9e1dd76be4b05c9d8"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-bottom.png",
+        "sha256": "c1671cef293e8102db5c0fedf81f5fcdcd42e27a8a78d3821688d6531f6ac76e",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "c6de1b01e079baa7ae63f2898d956da00a6abd4c053903b2a49db3718b74578a"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-middle-1.png",
+        "sha256": "bd9a239eed3ebfd47dc835c80e7f46d66f498393fd37225db7869c54864d3b87",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "abee284827b46b2e74e4350345b7778db05d2ae0b77321cda6327904aa5d0413"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/3-decision-factors-middle-2.png",
+        "sha256": "f57598255b04d995ee2cab7690db09f494061c7a9a17aff8c6404e0f190c0a8b",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "435bab73da74934de3f2b75eb0400096d63f41e3bb43bf6c6c7a37ef3cd03d0c"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-top.png",
+        "sha256": "1478e96336b7e02e22d350980255227e72608786aaafc27130fae644b94015d2",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "875f225114a80fc116c5f8c52489493bcea3358ffb387f43f3483f32c06ba128"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-bottom.png",
+        "sha256": "516f8892f6903d167e0b6a11b90d065a1bad259cd7ff6c89b298f505cbe42c45",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "8ddd09adfb363a114e350c1a0def6b66b6a4c02d589e0f5d1b155d59e1689f66"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-middle-1.png",
+        "sha256": "9f2a6cc4cb2a8e361e318d85257edf8e07d122e5cbe557daed31e3301d3c1c78",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "50236fe5c8ca31bbc4358f80695e0b1029fd4f973cc5915fde7e4238dc1ed1b2"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/4-faq-middle-2.png",
+        "sha256": "7eba8ed3cb1eae1fb204c15a4c1906e300746ce0c5cf8300007ec414f960cfec",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "bc5d268503345807306cf10d907b3e0b21ad00cd38351cecf21b402354907319"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-top.png",
+        "sha256": "5d5d7f1d6c6b8ee58109b1ed065741170d53d0f570d7759fc67a7487633ce096",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "c16f2cc39db42779e748474900046abc96863819e7b420b7e64c45a4d00d8b38"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-bottom.png",
+        "sha256": "6675febbdaada13af90fc3bab5af8973d08e614be7293447d8944d7930435d6b",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "a8bbcc402f61abb068f369cb9c6f8b76aba07545a4c4ba0f89183240d70150be"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/5-form-middle-1.png",
+        "sha256": "bca5ec785264108b88af8c3cb215fd18b8ee53a968c7eb7b7d63817dd59ef555",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "f583aa12d0c6e3b4bc51da9c7dde52a7aeccb6b703a3c82fda9e2f89baa47159"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-top.png",
+        "sha256": "e82520a82fab57591a73b1dfb4b0547c09027b83f324949c5f4d112bb3557205",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "5e6152a9e63cf476485789af360c36ab6eb37642871bd74decdf1506dac160c3"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-bottom.png",
+        "sha256": "b74f94674ff035a83e40b774018145a098b3665009bc89242350fa6bb629f450",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "280c03b93f62e1fca3d82e6a4f7a4b43869b5a8635237d2cf324385b0cfc56b1"
+      },
+      {
+        "path": "site_convergence/final-capture-75b/mobile_390x844/services-regenerative-medicine/6-medical-sources-middle-1.png",
+        "sha256": "2bf1fbf2a466282ea7c955024567f75ce2939c648f541c243369ed68df10b0bc",
+        "receipt_sha256": "4ce9a0f636790a5a2d60f52b997911f7f8b92cc6361de0bf70857302fc8d77c3",
+        "state_sha256": "d9650b697d39a9af6ded3ecf1cda310f9596830846e530fcce61dda12f689a9c"
+      }
+    ],
+    "references": {
+      "design_refs/pages/regenerative-medicine/page.png": "53e7304d7e24671511d52e81115a03287cef77ecbc40a7b6785cf379dcd28ccf",
+      "design_refs/pages/regenerative-medicine/refs/05-faq.png": "6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9",
+      "design_refs/pages/regenerative-medicine/refs/04-decision-factors.png": "9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828",
+      "design_refs/pages/regenerative-medicine/refs/02-category-orientation.png": "30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2",
+      "design_refs/pages/regenerative-medicine/refs/01-hero.png": "11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc",
+      "design_refs/pages/regenerative-medicine/refs/06-booking-cta.png": "9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2",
+      "design_refs/pages/regenerative-medicine/refs/07-medical-sources.png": "db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d",
+      "design_refs/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png": "ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a"
+    },
+    "boundaries": {
+      "verdict": "PASS",
+      "basis": "Native painted review plus route-only raw CSS receipts. Meaningful painted information/control surfaces count; transparent hit rectangles, glyph line-box leading, decorative full-bleed fields and walnut/silver accents do not substitute for painted bounds. Normal-flow header is INCLUDED, not fixed-navigation-excluded.",
+      "normal_flow_header": {
+        "desktop_1440x900": {
+          "first_paint_y": 39,
+          "last_paint_y": 69,
+          "top_gap": 39,
+          "bottom_gap_before_border": 34,
+          "floor": 32,
+          "status": "PASS"
+        },
+        "mobile_390x844": {
+          "first_paint_y": 29,
+          "last_paint_y": 145,
+          "top_gap": 29,
+          "bottom_gap_before_border": 30,
+          "floor": 24,
+          "status": "PASS"
+        }
+      },
+      "local_units_css_px": {
+        "desktop_1440x900": 86.39,
+        "desktop_1536x1024": 92.16,
+        "mobile_390x844": 56,
+        "footer": 48
+      },
+      "section_painted_review_1440_390": [
+        {
+          "id": "hero",
+          "desktop_top_heading_paint": 94,
+          "desktop_raw_last_text_gap": 87.39,
+          "mobile_top_heading_paint": 60,
+          "mobile_last_meaningful_plate_gap": 56,
+          "status": "PASS",
+          "evidence": "Last caveat/semantic blue field has full local closing clearance; mobile ratio becomes 56/60, not raw text-only 82.59/48."
+        },
+        {
+          "id": "category-orientation",
+          "desktop_top_meaningful_aside_plate_gap": 156.39,
+          "desktop_last_control_gap": 86.39,
+          "mobile_top_heading_paint": 62.27,
+          "mobile_last_meaningful_aside_plate_gap": 56,
+          "status": "PASS",
+          "evidence": "Desktop aside painted pseudo-field is the first meaningful information plate, preceding headline paint177.36. 86.39/156.39=0.552. Mobile charcoal plate has56px closing unit."
+        },
+        {
+          "id": "questions-for-a-consultation",
+          "desktop_top_heading_paint": 94.58,
+          "desktop_last_meaningful_rail_gap": 86.39,
+          "mobile_top_heading_paint": 61.09,
+          "mobile_last_meaningful_rail_gap": 56,
+          "status": "PASS",
+          "evidence": "Preparation/navigation painted rail, not last internal text baseline, is meaningful. Closing ratio0.913/0.917; numeric text-only1.62/1.76 flags do not describe the actual painted groups."
+        },
+        {
+          "id": "decision-factors",
+          "desktop_top_heading_paint": 94.52,
+          "desktop_last_control_gap": 86.39,
+          "mobile_top_heading_paint": 61.19,
+          "mobile_last_control_gap": 56,
+          "status": "PASS",
+          "evidence": "Final outlined services/pain controls are full painted meaningful bounds. Local unit retained; no severed keyline."
+        },
+        {
+          "id": "faq",
+          "desktop_top_heading_paint": 94.36,
+          "desktop_last_control_gap": 86.39,
+          "mobile_top_heading_paint": 61.42,
+          "mobile_last_meaningful_aside_plate_gap": 56,
+          "status": "PASS",
+          "evidence": "Blue source-status aside includes its information surface and link. Mobile raw last-text110.8 wrongly ignores lower meaningful plate; actual56px plate-to-seam gap is intentional and balanced."
+        },
+        {
+          "id": "form",
+          "desktop_top_meaningful_plate_gap": 86.39,
+          "desktop_last_meaningful_plate_gap": 86.39,
+          "mobile_top_meaningful_plate_gap": 56,
+          "mobile_last_meaningful_plate_gap": 56,
+          "status": "PASS",
+          "evidence": "Navy/teal status surfaces enclose meaningful live content. Symmetric full section units before/after, not raw text-only119.39/136.28 or79/89.89."
+        },
+        {
+          "id": "medical-sources",
+          "desktop_top_meaningful_caveat_plate_gap": 86.39,
+          "desktop_last_meaningful_rail_gap": 86.39,
+          "mobile_top_heading_paint": 60.84,
+          "mobile_last_meaningful_rail_gap": 56,
+          "status": "PASS",
+          "evidence": "Last review-status plate clears terminal seam by a full local unit. Footer walnut12px horizontal band deliberate; not an accidental stray line."
+        }
+      ],
+      "joins": "All six top/join windows and terminal/footer boundary visually inspected at1440 and390. Each last meaningful plate/control retains86.39/56 CSSpx where applicable, followed by distinct next field. No visible crowding, accidental severed motif or image edge leakage.1536 raw audited floors pass; its questions ratio flag uses internal text instead of complete preparation rail.",
+      "footer": {
+        "desktop_top_meaningful_logo_frame_gap": 48,
+        "desktop_terminal_disclaimer_glyph_gap": 49,
+        "mobile_top_meaningful_logo_frame_gap": 60,
+        "mobile_terminal_disclaimer_glyph_gap": 49,
+        "status": "PASS",
+        "evidence": "48px shared footer rhythm retained; mobile60=12px deliberate walnut rail+48px. All seven utility labels and disclaimer visible. Desktop right walnut20px and mobile horizontal walnut12px match SiteFooterB; no contradictory evidence warrants stray classification."
+      },
+      "numeric_flags": "Route-only edge-review.json retains NEEDS_VISUAL_REVIEW raw flags for desktop Questions and six mobile sections. This independent painted review resolves them based on meaningful plates/control bounds and actual glyph paint, not by silently overwriting the numeric audit or changing contracts. Narrow320/360 have runtime/visual samples but no additional raw formal edge audit; no site-wide edge flag is promoted."
+    },
+    "findings": [
+      {
+        "id": "RM-01",
+        "severity": "blocking-visual",
+        "frame": "01-hero",
+        "status": "FAIL",
+        "viewport": "320x800",
+        "evidence": "final-capture-75b/mobile_320x800/services-regenerative-medicine/page-top.png: upper-right blue decorative wedge crosses the end of Explore whether near y247. At390/360 it clears the heading; at320 it does not.",
+        "next_owner": "Sigma route builder",
+        "next_action": "Only reposition/resize or suppress the decorative hero ::before wedge at the narrow breakpoint so it cannot intersect heading paint. Preserve all truthful status copy and code-native image-free successor. Recapture320 hero top plus1440/390 regression on the new immutable SHA; independent review must verify the changed target."
+      },
+      {
+        "id": "RM-02",
+        "severity": "scope-limitation",
+        "status": "PASS",
+        "evidence": "Content/imagery passes concern truthful runtime replacements, not authentic clinic photography, clinical/legal publication or exact historical photo parity. Hover/focus, navigation activation and regulatory approval were not tested or granted."
+      }
+    ],
+    "applicability": "Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS.",
+    "source_identity": {
+      "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/source-identity.json",
+      "sha256": "dd87ab1612ecc550207c78673b120804d59735d4ef1dc5fb3864c890396e11c3"
+    },
+    "source_repair": {
+      "frames": [
+        "01-hero"
+      ],
+      "decision": "Suppress only the decorative hero ::before at max-width340px. No layout box, text, semantic artwork or other section changes.",
+      "residual": "Both original hero FAIL layers remain FAIL until independent320 capture verifies the repair;1440/390 need unchanged regressions.",
+      "source_file": "app/services/regenerative-medicine/page.css",
+      "before_sha256": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776",
+      "after_sha256": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9",
+      "status": "REPAIR_PENDING_INDEPENDENT_REVIEW"
+    },
+    "next_owner": "Controller -> independent targeted route reviewer",
+    "next_action": "Controller: Git push this exact commit and bind deployment to SHA. Recapture 320x800 hero page-top with 1440x900 and390x844 unaffected regressions; independently re-review only hero visual_treatment/responsive and confirm decorative wedge no longer crosses Explore whether. All other original PASS layers and source geometry remain preserved.",
+    "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+  },
+  "controller_application_r2": {
+    "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+    "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#regenerative-medicine",
+    "original_report": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json",
+        "sha256": "31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.md",
+        "sha256": "4a860e9a897df77b9d85da5be5f18dc5ea04a50caf362b028c0baf610bb952c9"
+      }
+    ],
+    "historical_review_blocks_preserved": true,
+    "previous_fidelity": {
+      "01-hero": {
+        "visual_treatment": {
+          "status": "PASS",
+          "evidence": "At 320, page-top.png shows the top-right decorative blue stair wedge crossing the end of the first heading line Explore whether around y247. It no longer remains behind/outside meaningful text as required by composition_map. Navy/electric/silver and actual Source Sans treatment otherwise match the documented successor. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/0/layers/visual_treatment. Native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        },
+        "responsive": {
+          "status": "PASS",
+          "evidence": "1440/1536/390/360 remain readable with intact semantic art; at 320 the heading and absolute decorative wedge collide despite scrollWidth=320. No-overflow is not composition clearance. Local hero-only narrow-screen motif repositioning/scaling is needed; do not change the truthful copy or add photography. Original independent judgment on 75b2665c0370aaebd77944091e0ad17e694fe072; reviewer Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd; report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1#/sections/0/layers/responsive. Native design_refs/pages/regenerative-medicine/refs/01-hero.png sha256=11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc. Exact inspected capture paths/SHA256 are section.review_evidence.captures; all capture/state/receipt hashes are in /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/second-wave-application-r1/evidence-index.json.  Original FAIL retained; source repair pending fresh independent verification. Original edge PASS remains applicable to unchanged meaningful geometry: candidate changes only an absolute decorative pseudo-element at<=340px. Hero320 visual repair still awaits independent review; no new fidelity PASS."
+        }
+      }
+    },
+    "qa_verdict": "PENDING",
+    "edge_flag_changed": false,
+    "followup": [
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json",
+        "sha256": "19ca6f402e09b062416c049cc2404bbba6a07cbe45d765f4214381e7bfd24134"
+      },
+      {
+        "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.md",
+        "sha256": "2441983fd3bc11090e3602e34b4b79ad6a9d7cc7e39ea16ac2d2717348fd1ee9"
+      }
+    ],
+    "current_layer_counts": {
+      "PASS": 35
+    },
+    "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+    "controller_attested_reviewer_session": {
+      "session": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9436f7b8",
+      "source": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/resume-route-review-75b.md",
+      "sha256": "90b145f33f54f84698baf62459f532e2893fbb53005eeefdb727133aca8c4fb5",
+      "limit": "The original JSON/Markdown omit reviewer identity; this separate controller-log binding does not rewrite them."
+    }
+  }
+}

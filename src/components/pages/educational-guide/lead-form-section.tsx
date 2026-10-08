@@ -29,7 +29,7 @@ export function LeadFormSection(): React.ReactElement {
           <p className="mt-4 max-w-[26rem] text-xs leading-snug text-ink/75">
             By continuing, you consent to be contacted by email. You can unsubscribe at any time. Visit our privacy policy for details.
           </p>
-          <PolicyLink label={<>View our privacy policy →</>} className="mt-3 text-xs font-semibold text-royal hover:underline" />
+          <PolicyLink href="/privacy" label={<>View our privacy policy →</>} className="mt-3 text-xs font-semibold text-royal hover:underline" />
           <PlinthCards className="mt-8 lg:-mr-6" />
         </div>
         <ComingSoonPanel />
