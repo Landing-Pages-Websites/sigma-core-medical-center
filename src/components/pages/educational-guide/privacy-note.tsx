@@ -3,14 +3,14 @@ import { ArrowRight, CalendarDays, FileText, Megaphone, ShieldCheck } from "luci
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
-const APPROVED_LINKS = [
-  { label: "Privacy Policy", icon: ShieldCheck, href: "/privacy" },
-  { label: "Notice of Privacy Practices", icon: FileText, href: "/notice-of-privacy-practices" },
+const POLICY_STATUS_LINKS = [
+  { label: "Privacy Policy status", icon: ShieldCheck, href: "/privacy" },
+  { label: "Notice of Privacy Practices status", icon: FileText, href: "/notice-of-privacy-practices" },
 ] as const;
 
-const WORKFLOWS = [
-  { title: "General Marketing", icon: Megaphone, body: "We may send updates about resources, education, or clinic news that may be of interest." },
-  { title: "Patient Intake", icon: CalendarDays, body: "We use your information only to respond to inquiries and support scheduling requests." },
+const AVAILABILITY_NOTES = [
+  { title: "Educational guide", icon: Megaphone, body: "The resource is not available. No publication date is confirmed." },
+  { title: "Request form", icon: CalendarDays, body: "The request form is unavailable. Guide requests cannot be submitted here." },
 ] as const;
 
 export function PrivacyNote(): React.ReactElement {
@@ -22,15 +22,15 @@ export function PrivacyNote(): React.ReactElement {
           <div className="relative mt-5 max-w-[30rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
             <p className="text-base leading-snug text-white/88">
-              We use your information only to operate our website, respond to inquiries, and support scheduling. We do not sell or share personal information.
+              Approved policies and resource-delivery details are not available. The links below lead to policy-status pages.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </div>
           <div className="mt-8 grid max-w-[38rem] gap-6 bg-[#2b3037] px-6 py-6 sm:grid-cols-[1fr_1fr] lg:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:pr-14">
             <div>
-              <p className="text-xs font-bold tracking-[0.08em] uppercase">Approved links</p>
+              <p className="text-xs font-bold tracking-[0.08em] uppercase">Policy status</p>
               <ul className="mt-3 divide-y divide-white/20">
-                {APPROVED_LINKS.map(({ label, icon: Icon, href }) => (
+                {POLICY_STATUS_LINKS.map(({ label, icon: Icon, href }) => (
                   <li key={label} className="py-2.5">
                     <PolicyLink
                       href={href}
@@ -47,35 +47,35 @@ export function PrivacyNote(): React.ReactElement {
               </ul>
             </div>
             <div className="border-white/20 sm:border-l sm:pl-6">
-              <p className="text-xs font-bold tracking-[0.08em] text-[#e08a3c] uppercase">Resource pending</p>
+              <p className="text-xs font-bold tracking-[0.08em] text-[#e08a3c] uppercase">Resource unavailable</p>
               <p className="mt-2 text-sm leading-snug text-white/80">
-                This educational resource is pending customer approval. Details are not available yet and do not imply future availability.
+                This educational resource is not available. Delivery details are unavailable, and future availability is not confirmed.
               </p>
             </div>
           </div>
         </div>
-        <WorkflowsPanel />
+        <AvailabilityPanel />
       </div>
     </section>
   );
 }
 
-function WorkflowsPanel(): React.ReactElement {
+function AvailabilityPanel(): React.ReactElement {
   return (
     <div className="relative grid lg:grid-cols-[62fr_38fr] lg:py-8">
       <StairSteps count={6} direction="up" className="absolute bottom-16 -left-28 z-20 hidden text-[0.7rem] lg:flex" />
       <div className="relative z-10 bg-royal px-6 py-10 sm:px-10 lg:py-10 lg:pr-6 lg:pl-[28%] lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_60%)]">
         <p className="flex items-center gap-2 text-sm text-white/85">
-          <TallBracket className="h-5 w-1.5 text-white/80" /> Separate Workflows
+          <TallBracket className="h-5 w-1.5 text-white/80" /> Guide availability
         </p>
         <h3 className="mt-2 font-heading text-3xl leading-tight font-bold">
-          Two distinct paths.
+          Current resource
           <br />
-          One clear purpose.
+          and request status.
         </h3>
         <TallBracket side="right" className="absolute top-12 right-4 h-20 w-2 text-white/80" />
         <div className="mt-5 grid gap-5 sm:grid-cols-2">
-          {WORKFLOWS.map(({ title, icon: Icon, body }) => (
+          {AVAILABILITY_NOTES.map(({ title, icon: Icon, body }) => (
             <div key={title} className="flex gap-3 border-white/30 sm:last:border-l sm:last:pl-4">
               <TallBracket className="h-12 w-2 text-white/80" />
               <div>
@@ -88,9 +88,9 @@ function WorkflowsPanel(): React.ReactElement {
           ))}
         </div>
         <p className="mt-6 text-xs leading-snug text-white/85">
-          To change communication preferences or learn more,
+          The policy-status pages do not contain
           <br />
-          visit our Privacy Policy or Notice of Privacy Practices.
+          approved policy details.
         </p>
       </div>
       <div className="relative min-h-60 lg:-ml-10">

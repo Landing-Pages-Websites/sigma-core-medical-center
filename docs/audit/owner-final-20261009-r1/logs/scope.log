@@ -1,0 +1,23 @@
+FREEZE RESULT: 731/732 match by size and SHA-256.
+[
+  {
+    "path": "app/services/interior.css",
+    "expected": {
+      "bytes": 42731,
+      "sha256": "85626121d4751bab179ba8d2187af47785f451f7553d66a67a5d2ce22b520b36"
+    },
+    "actual": {
+      "bytes": 42731,
+      "sha256": "aa8182a17a78bcc23968c48eda0dc6ecb6bdbcbcfbc379b554e45ddadcfbe651"
+    }
+  }
+]
+CONSTRAINT: interior.css is both expressly authorized for the header repair and included in the supplied freeze. No all-files freeze pass is claimed; freeze was not edited.
+Freeze SHA-256 unchanged: 5296cb3160526e65ea95a35c41bcf9ae71a98aa2100c0c7c4af1879731a7e002
+SCOPE: seven authorized application edits plus build-generated, uncommitted next-env.d.ts drift. Every other tracked file matches approved base.
+PASS: redirect stubs have exactly the required supported shape.
+PASS: CSS changes exactly the four permitted values; all other CSS, including nav wrapping, unchanged.
+PASS: Guide metadata only adds noindex/follow; other route gates unchanged.
+PASS: edited sections retain anchors and exact imagery JSX; no fields, submission or network calls introduced.
+PASS: existing PendingAction, shared focus-visible CSS, Home components, assets, configuration and historical evidence remain unchanged (except the explicitly reported generated next-env.d.ts drift).
+GENERATED DRIFT: next-env.d.ts imports changed from .next/dev/types/{routes,root-params}.d.ts to .next/types/{routes,root-params}.d.ts; left uncommitted without restoring or hiding.

@@ -1,0 +1,6 @@
+PASS: generated variant-a.meta has HTTP 308 and Location: /.
+PASS: generated variant-b.meta has HTTP 308 and Location: /.
+PASS: generated Guide HTML has robots=noindex, follow.
+PASS: #form emits a labeled native dialog, two type=button controls, unavailable copy and flexible/wrapping CTA classes; no fields or form.
+PASS: #faq emits policy-status links and unavailable disclosure; no fields or form.
+Static generated-output checks only. No browser, interaction, viewport, screenshot or visual acceptance asserted.
