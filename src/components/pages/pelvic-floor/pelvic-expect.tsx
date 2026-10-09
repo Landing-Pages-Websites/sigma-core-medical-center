@@ -16,16 +16,15 @@ export function PelvicExpect(): React.ReactElement {
           <h2 className="mt-5 font-heading text-[clamp(3rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.035em]">What To Expect</h2>
           <span aria-hidden className="mt-6 block h-1 w-12 bg-royal" />
           <p className="mt-6 max-w-[28rem] text-lg leading-snug text-white/90">
-            We respect your privacy and your time. We’ll share provider details, examination information, visit length, and treatment process only after your approval.
+            Provider details, examination information, visit length, and treatment process are unavailable. Online scheduling is not yet available.
           </p>
-          <Link href="/book" className="mt-7 inline-flex h-14 items-center gap-6 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover">
-            Book an Appointment <ArrowRight size={24} aria-hidden />
+          <Link href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-6 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            Check booking status <ArrowRight size={24} aria-hidden className="shrink-0" />
           </Link>
           <p className="mt-6 flex items-center gap-4 text-sm leading-snug text-white/85">
             <RisingBars count={3} className="h-8 text-[0.6rem]" />
             <span aria-hidden className="h-10 w-px bg-white/30" />
-            This is the only way we accept
-            <br className="hidden sm:block" /> new appointment requests.
+            Appointment request and follow-up details are unavailable.
           </p>
         </div>
         <div className="relative lg:pr-10">

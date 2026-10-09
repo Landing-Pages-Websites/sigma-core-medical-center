@@ -4,9 +4,9 @@ import { RisingBars, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const PAGE_PROVIDES = [
-  "Clear, authoritative information about peripheral neuropathy.",
+  "General orientation to peripheral neuropathy.",
   "An overview of common symptoms and general causes.",
-  "Orientation to our approach and the kind of evaluation we offer.",
+  "Status of unavailable provider and evaluation details.",
   "Pathways to related resources and educational content.",
 ] as const;
 
@@ -48,15 +48,15 @@ export function NeuropathyOrientation(): React.ReactElement {
           <FileText size={44} strokeWidth={1.3} className="shrink-0 self-start" aria-hidden />
           <span aria-hidden className="h-24 w-px self-start bg-royal" />
           <div>
-            <p className="font-heading text-xl font-bold tracking-[0.02em] uppercase">Explore related topics</p>
-            <p className="mt-1 max-w-[17rem] text-sm leading-snug text-white/80">Learn more about terms and concepts used on this site.</p>
+            <p className="font-heading text-xl font-bold tracking-[0.02em] uppercase">Legal information status</p>
+            <p className="mt-1 max-w-[17rem] text-sm leading-snug text-white/80">Website legal terms are not yet available.</p>
             <PolicyLink
               label={
                 <>
-                  <TallBracket className="h-8 w-2 text-white" /> /terms
+                  <TallBracket className="h-8 w-2 text-white" /> Terms status
                 </>
               }
-              className="mt-4 inline-flex h-12 items-center gap-4 bg-royal pr-14 pl-4 font-heading text-2xl font-bold transition-colors [clip-path:polygon(0_0,100%_0,88%_100%,0_100%)] hover:bg-royal-hover"
+              className="mt-4 inline-flex h-12 items-center gap-4 bg-royal pr-14 pl-4 font-heading text-2xl font-bold transition-colors [clip-path:polygon(0_0,100%_0,88%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
             />
           </div>
           <RisingBars count={5} className="absolute right-8 bottom-6 hidden h-24 text-[0.85rem] sm:flex" />

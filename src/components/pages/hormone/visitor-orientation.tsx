@@ -32,12 +32,12 @@ export function VisitorOrientation(): React.ReactElement {
                       <Globe size={22} strokeWidth={1.5} aria-hidden />
                     </span>
                     <span className="text-left">
-                      <span className="block text-[0.65rem] font-semibold tracking-[0.1em] uppercase">Learn more</span>
-                      <span className="block font-heading text-xl leading-none font-bold">/terms</span>
+                      <span className="block text-[0.65rem] font-semibold tracking-[0.1em] uppercase">Legal information</span>
+                      <span className="block font-heading text-xl leading-none font-bold">Terms status</span>
                     </span>
                   </>
                 }
-                className="flex items-center gap-3 text-royal hover:text-navy"
+                className="flex items-center gap-3 text-royal hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
               />
               <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-royal" />
             </div>

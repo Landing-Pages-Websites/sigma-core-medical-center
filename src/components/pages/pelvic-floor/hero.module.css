@@ -1,0 +1,7 @@
+@media (max-width: 1023px) {
+  .copy { padding-top: 24px; padding-bottom: 24px; }
+  .copy p { margin-top: 16px; }
+  .copy a { margin-top: 16px; min-height: 56px; height: auto; padding: 12px 20px; font-size: 18px; gap: 16px; }
+  .photo { min-height: 0; height: 288px; }
+  .photo img { object-position: 74% center; }
+}

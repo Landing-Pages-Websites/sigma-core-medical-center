@@ -12,11 +12,11 @@ export function PelvicSources(): React.ReactElement {
     <section id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[54fr_46fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pb-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
-          <MiniStairs className="absolute top-12 right-[30%] hidden scale-[2] text-royal lg:inline-flex" />
+          <div aria-hidden className="absolute top-8 right-[30%] hidden lg:block"><MiniStairs className="scale-[2] text-royal" /></div>
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em] text-navy">Medical Sources</h2>
           <p className="relative mt-5 max-w-[34rem] py-1 pl-6 text-sm leading-relaxed text-ink/85">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            The information on this site is grounded in reputable, evidence-based sources reviewed by our clinical team. We list only the sources we actually use. This is not an endorsement of any organization.
+            These organizations offer general further-reading context. Clinical review and source-selection details are unavailable. No endorsement is implied.
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:m-0 lg:mt-10 lg:[clip-path:polygon(0_0,100%_0,100%_100%,6%_100%,0_70%)]">

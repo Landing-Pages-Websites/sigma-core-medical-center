@@ -14,7 +14,7 @@ export function HormoneSources(): React.ReactElement {
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[57fr_43fr] lg:gap-2 lg:py-12 lg:pl-[3.5rem]">
         <div className="relative">
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em] text-navy">Medical Sources</h2>
-          <p className="mt-3 max-w-[22rem] text-lg leading-snug text-ink/85">We ground our hormone-health explanations in current, authoritative sources.</p>
+          <p className="mt-3 max-w-[22rem] text-lg leading-snug text-ink/85">General further-reading context. Clinical review and source-selection details are unavailable.</p>
           <StairSteps count={3} direction="up" className="absolute top-[34%] right-6 hidden text-[0.75rem] lg:flex" />
           <div className="relative mt-6 lg:mr-6">
             <TallBracket className="absolute top-4 bottom-10 -left-4 w-3 text-silver" />

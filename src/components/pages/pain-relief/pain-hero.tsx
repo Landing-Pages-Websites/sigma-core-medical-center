@@ -24,10 +24,10 @@ export function PainHero(): React.ReactElement {
             <div className="mt-6 max-w-[22rem] space-y-4 text-base leading-snug text-white/88">
               <p>We focus on movement, daily function, and informed next steps.</p>
               <p>Pain-related scope includes joint pain, knee pain, low back pain, and neck pain.</p>
-              <p>Keep knee, back, and neck concerns as substantive sections on this parent page unless verified unique content later supports separate pages.</p>
+              <p>Explore the three concern areas below. Online scheduling is not yet available.</p>
             </div>
-            <Link href="/book" className="mt-6 inline-flex h-12 items-center gap-4 bg-royal px-5 text-lg font-semibold transition-colors hover:bg-royal-hover">
-              Book an Appointment <ArrowRight size={20} aria-hidden />
+            <Link href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-5 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+              Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>
         </div>
@@ -59,7 +59,7 @@ function BranchDiagram(): React.ReactElement {
       <ul className="flex flex-wrap gap-3 lg:hidden">
         {BRANCH_LABELS.map((item) => (
           <li key={item.href}>
-            <a href={item.href} className="inline-flex h-12 items-center gap-2 px-1 font-heading text-xl font-bold tracking-[0.06em] uppercase hover:text-focus">
+            <a href={item.href} className="inline-flex h-12 items-center gap-2 px-1 font-heading text-xl font-bold tracking-[0.06em] uppercase hover:text-focus focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <TallBracket className="h-9 w-2 text-royal" /> {item.label} <TallBracket side="right" className="h-9 w-2 text-royal" />
             </a>
           </li>
@@ -74,7 +74,7 @@ function BranchDiagram(): React.ReactElement {
           <a
             key={item.href}
             href={item.href}
-            className={`absolute ${item.position} flex items-center gap-3 font-heading text-[1.7rem] font-bold tracking-[0.08em] uppercase transition-colors hover:text-focus`}
+            className={`absolute ${item.position} flex items-center gap-3 font-heading text-[1.7rem] font-bold tracking-[0.08em] uppercase transition-colors hover:text-focus focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]`}
           >
             <TallBracket className="h-14 w-3 text-royal" /> {item.label} <TallBracket side="right" className="h-14 w-3 text-royal" />
           </a>

@@ -7,7 +7,7 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 const OTHER_PATHS = [
   { title: "About Neuropathy", href: "/services/neuropathy", icon: Waves },
   { title: "Our Approach", href: "/about", icon: Sun },
-  { title: "The Richmond Clinic", href: "/contact", icon: SquareDashed },
+  { title: "Contact & location status", href: "/contact", icon: SquareDashed },
 ] as const;
 
 export function ChooseNextStep(): React.ReactElement {
@@ -19,15 +19,15 @@ export function ChooseNextStep(): React.ReactElement {
           <h2 className="font-heading text-[clamp(2.4rem,4.2vw,3.7rem)] leading-none font-bold tracking-[-0.03em]">How To Choose Next Step</h2>
           <DashRule className="mt-6" />
           <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-white/88">
-            Our service pages are here to provide general orientation about neuropathy and the paths we offer. Your individual questions and situation deserve a conversation with our clinical team to help determine the most appropriate next step.
+            Our service pages provide general orientation to the care categories. Individual questions require a qualified healthcare professional. Online scheduling and provider details are not yet available.
           </p>
           <div className="relative mt-7 flex gap-5 border-t border-white/25 pt-6 pr-10 pb-2">
             <span className="flex h-12 w-12 shrink-0 items-center justify-center bg-royal">
               <MessageSquareText size={24} strokeWidth={1.6} aria-hidden />
             </span>
             <p className="text-base leading-snug text-white/88">
-              <strong className="block font-semibold text-focus">Start with a conversation.</strong>
-              We’ll listen, answer your questions, and help you choose next step with clarity.
+              <strong className="block font-semibold text-focus">Start with information.</strong>
+              Explore a category and consider the questions that matter to you.
             </p>
             <TallBracket side="right" className="absolute right-0 bottom-0 h-20 w-4 text-silver/80" />
           </div>
@@ -42,11 +42,11 @@ export function ChooseNextStep(): React.ReactElement {
           </div>
           <Link
             href="/book"
-            className="group absolute right-0 bottom-6 left-6 flex items-center gap-5 bg-royal px-6 py-5 text-white shadow-[0_18px_40px_rgb(0_0_0/0.35)] transition-colors hover:bg-royal-hover sm:left-auto sm:w-[min(36rem,82%)] sm:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:bottom-10 lg:-right-2 lg:py-6"
+            className="group absolute right-0 bottom-6 left-6 flex items-center gap-3 bg-royal px-4 py-5 sm:gap-5 sm:px-6 text-white shadow-[0_18px_40px_rgb(0_0_0/0.35)] transition-colors hover:bg-royal-hover sm:left-auto sm:w-[min(36rem,82%)] sm:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:bottom-10 lg:-right-2 lg:py-6 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >
-            <CalendarDays size={44} strokeWidth={1.4} aria-hidden />
+            <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="h-8 w-8 shrink-0 sm:h-11 sm:w-11" />
             <span aria-hidden className="h-12 w-px bg-white/40" />
-            <span className="font-heading text-2xl font-semibold sm:text-3xl">Book an Appointment</span>
+            <span className="font-heading text-2xl font-semibold sm:text-3xl">Check booking status</span>
             <ChevronRight size={28} className="ml-auto transition-transform group-hover:translate-x-1 sm:mr-6" aria-hidden />
           </Link>
         </div>
@@ -66,7 +66,7 @@ function OtherPaths(): React.ReactElement {
           <li key={href}>
             <Link
               href={href}
-              className="group flex h-full min-h-24 items-center gap-5 border border-white/15 bg-navy px-6 py-5 transition-colors [clip-path:polygon(0_0,93%_0,100%_50%,93%_100%,0_100%)] hover:bg-[#0b2546] md:[clip-path:polygon(4%_0,93%_0,100%_50%,93%_100%,4%_100%,0_50%)] md:pl-8"
+              className="group flex h-full min-h-24 items-center gap-5 border border-white/15 bg-navy px-6 py-5 transition-colors [clip-path:polygon(0_0,93%_0,100%_50%,93%_100%,0_100%)] hover:bg-[#0b2546] md:[clip-path:polygon(4%_0,93%_0,100%_50%,93%_100%,4%_100%,0_50%)] md:pl-8 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
             >
               <span className="flex h-14 w-14 shrink-0 items-center justify-center bg-royal">
                 <Icon size={28} strokeWidth={1.5} aria-hidden />
@@ -79,8 +79,8 @@ function OtherPaths(): React.ReactElement {
         ))}
       </ul>
       <div className="mt-8 max-w-sm border-t border-white/25 pt-4 text-sm text-white/70">
-        For our website terms and conditions, visit our{" "}
-        <PolicyLink label="Terms of Use." className="text-focus underline underline-offset-2 hover:text-white" />
+        Policy details are not yet available. Check our{" "}
+        <PolicyLink label="Terms status." className="text-focus underline underline-offset-2 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
       </div>
     </div>
   );

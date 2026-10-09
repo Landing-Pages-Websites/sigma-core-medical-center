@@ -18,13 +18,13 @@ export function AboutHero(): React.ReactElement {
             <p>Sigma Core is a new medical center serving Richmond, Virginia and the surrounding market.</p>
             <p>We focus on movement, function, recovery, and quality of life—so you can keep doing what matters.</p>
           </div>
-          <Link href="/book" className="mt-6 inline-flex h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10">
-            Book an Appointment <ChevronRight size={18} aria-hidden />
+          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            Check booking status <ChevronRight size={18} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 max-w-[19rem] border-l-[3px] border-royal pl-3 sm:ml-10">
-            <p className="text-[0.7rem] font-bold tracking-[0.06em] uppercase">Our team publication policy</p>
+            <p className="text-[0.7rem] font-bold tracking-[0.06em] uppercase">Team information</p>
             <p className="mt-1 text-[0.72rem] leading-snug text-white/70">
-              Medical Director, Nurse Practitioner, and additional team names, photos, biographies, and credentials are unavailable. Dr. Jason Hurst must not be presented as a treating provider or included in the public clinical team section.
+              Provider and team information is not yet available.
             </p>
           </div>
         </div>

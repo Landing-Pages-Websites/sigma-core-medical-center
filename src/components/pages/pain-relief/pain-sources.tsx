@@ -14,7 +14,7 @@ export function PainSources(): React.ReactElement {
             <TallBracket className="absolute inset-y-0 left-0 w-4 text-silver" />
             <div>
               <h2 className="font-heading text-[clamp(2.8rem,5.4vw,4.8rem)] leading-none font-bold tracking-[-0.035em]">Medical Sources</h2>
-              <p className="mt-2 text-lg text-white/90">Trusted sources used and approved.</p>
+              <p className="mt-2 text-lg text-white/90">General further-reading context; clinical review details unavailable.</p>
             </div>
             <RisingBars count={5} className="mb-2 hidden h-20 text-[1.2rem] sm:flex" />
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-4 text-silver" />
@@ -22,10 +22,10 @@ export function PainSources(): React.ReactElement {
           <div className="mt-4 border border-white/25 bg-[#0b2342]">
             <div className="flex flex-wrap justify-between gap-2 border-b border-white/25 px-5 py-3 text-[0.7rem] tracking-[0.12em] uppercase">
               <span>
-                <strong className="font-semibold">Source:</strong> NIH/MedlinePlus and professional guidance
+                <strong className="font-semibold">Further reading:</strong> NIH/MedlinePlus and professional organizations
               </span>
               <span className="sm:border-l sm:border-white/25 sm:pl-6">
-                <strong className="font-semibold">Review status:</strong> Approved
+                <strong className="font-semibold">Review status:</strong> Unavailable
               </span>
             </div>
             <div className="grid gap-6 px-5 py-6 sm:grid-cols-3 sm:gap-0">

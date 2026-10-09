@@ -4,9 +4,9 @@ import { CalendarDays, ClipboardList, MessageCircleMore, Shield } from "lucide-r
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const CONCERN_CARDS = [
-  { title: "Share what you’ve noticed", body: "Describe what you’re experiencing and how it may be impacting your day-to-day.", icon: ClipboardList },
-  { title: "Connect it to your life", body: "Help us understand the effect on your routines, activity, sleep, travel, exercise, and confidence.", icon: CalendarDays },
-  { title: "Ask your questions", body: "Bring the questions you want answered so we can focus your appointment.", icon: MessageCircleMore },
+  { title: "Consider what you’ve noticed", body: "Consider how your concerns relate to daily life.", icon: ClipboardList },
+  { title: "Connect it to your life", body: "Consider your routines, activity, sleep, travel, exercise, and confidence.", icon: CalendarDays },
+  { title: "Ask your questions", body: "Consider what you would want to ask a qualified provider.", icon: MessageCircleMore },
   { title: "Get a clinical perspective", body: "A clinical review helps determine next steps that are appropriate for you.", icon: Shield },
 ] as const;
 
@@ -20,8 +20,8 @@ export function PelvicDecisionFactors(): React.ReactElement {
           <div className="relative mt-6 max-w-[30rem] px-7 py-2">
             <TallBracket className="absolute inset-y-0 left-0 w-3 text-silver" />
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-3 text-silver" />
-            <p className="font-heading text-lg font-bold text-navy">We’ll help you identify what matters most.</p>
-            <p className="mt-2 text-sm leading-snug text-ink/80">Tell us how your concerns may be affecting your routines, activity, sleep, travel, exercise, and confidence.</p>
+            <p className="font-heading text-lg font-bold text-navy">Consider what matters most to you.</p>
+            <p className="mt-2 text-sm leading-snug text-ink/80">Consider how your concerns relate to routines, activity, sleep, travel, exercise, and confidence.</p>
             <p className="mt-3 text-sm leading-snug text-ink/80">Online content cannot determine cause or eligibility. A clinical review is needed.</p>
           </div>
         </div>
@@ -48,9 +48,9 @@ export function PelvicDecisionFactors(): React.ReactElement {
 
       <div className="relative mt-4 flex justify-end">
         <div className="flex w-full flex-wrap items-center justify-between gap-4 bg-royal px-6 py-4 text-white sm:px-10 lg:w-[66%] lg:pl-24 lg:[clip-path:polygon(4%_0,100%_0,100%_100%,0_100%)]">
-          <p className="text-lg font-semibold">Book an appointment to start the conversation.</p>
-          <Link href="/book" className="inline-flex h-12 w-40 items-center bg-white px-6 font-heading text-2xl font-bold text-navy transition-colors hover:bg-chalk">
-            /book
+          <p className="text-lg font-semibold">Online scheduling is not yet available.</p>
+          <Link href="/book" className="inline-flex max-w-full min-h-12 w-fit items-center bg-white px-6 font-heading text-lg font-bold text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            Check booking status
           </Link>
         </div>
       </div>

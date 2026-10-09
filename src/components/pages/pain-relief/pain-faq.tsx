@@ -5,7 +5,7 @@ import { PAIN_FAQ } from "@/components/pages/pain-relief/content";
 import { RisingBars, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
-const CONNECT_LINK = "relative flex h-11 items-center justify-between px-5 font-heading text-lg font-bold text-white transition-colors hover:text-focus";
+const CONNECT_LINK = "relative flex min-h-11 items-center gap-3 py-2 justify-between px-5 font-heading text-lg font-bold text-white transition-colors hover:text-focus focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
 
 export function PainFaq(): React.ReactElement {
   return (
@@ -21,9 +21,9 @@ export function PainFaq(): React.ReactElement {
             <p className="relative mt-6 pl-6 text-xs leading-snug">
               <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-royal" />
               <strong className="block text-sm text-navy">Need something else?</strong>
-              We’re adding more information soon.
+              Further details are unavailable.
               <br />
-              Check back for updates.
+              No publication date has been supplied.
             </p>
           </div>
           <div className="relative min-h-52 flex-1">
@@ -31,7 +31,7 @@ export function PainFaq(): React.ReactElement {
             <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[16%] left-[6%] h-auto w-[44%] drop-shadow-lg" />
           </div>
         </div>
-        <div className="relative grid gap-0 px-6 py-12 sm:px-10 lg:grid-cols-[1fr_12rem] lg:py-14 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-0">
+        <div className="relative grid gap-0 px-6 py-12 sm:px-10 lg:grid-cols-[1fr_16rem] lg:py-14 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-0">
           <div className="space-y-1 lg:z-10">
             <h3 className="grid grid-cols-[4.5rem_1fr] bg-[#dcd8d0] font-heading text-[clamp(1.6rem,2.6vw,2.4rem)] leading-tight font-bold text-navy lg:-mr-24 lg:[clip-path:polygon(0_0,90%_0,100%_50%,90%_100%,0_100%)]">
               <span className="flex items-center justify-center bg-navy">
@@ -50,17 +50,17 @@ export function PainFaq(): React.ReactElement {
           </div>
           <div className="relative mt-4 flex flex-col justify-end bg-royal px-4 py-6 lg:mt-14 lg:-mb-14 lg:pt-40">
             <TallBracket side="right" className="absolute top-36 right-4 hidden h-8 w-6 border-b-0 text-white lg:block" />
-            <p className="font-heading text-lg font-bold">Ready to connect?</p>
-            <p className="mt-1 text-xs leading-snug text-white/85">Book a visit or review our terms to learn more.</p>
+            <p className="font-heading text-lg font-bold">Availability</p>
+            <p className="mt-1 text-xs leading-snug text-white/85">Scheduling and terms are unavailable. These links show their status.</p>
             <div className="mt-4 space-y-3">
               <Link href="/book" className={CONNECT_LINK}>
-                <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> /book <ArrowRight size={20} aria-hidden />
+                <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
                 <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white" />
               </Link>
               <PolicyLink
                 label={
                   <>
-                    <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> /terms <ArrowRight size={20} aria-hidden />
+                    <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Terms status <ArrowRight size={20} aria-hidden className="shrink-0" />
                     <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white" />
                   </>
                 }

@@ -23,7 +23,7 @@ export function NeuropathySources(): React.ReactElement {
           <div className="lg:pt-6">
             <h2 className="font-heading text-[clamp(2.8rem,5.2vw,4.8rem)] leading-none font-bold tracking-[-0.035em] text-navy">Medical Sources</h2>
             <p className="mt-4 max-w-[30rem] text-lg leading-snug text-ink/85">
-              The following authoritative sources inform the education on this site and the decisions we support.
+              These organizations provide general further-reading context. Clinical review and source-selection details for this page are unavailable.
             </p>
           </div>
           <div className="relative min-h-52 lg:min-h-56 lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)]">
@@ -50,7 +50,7 @@ export function NeuropathySources(): React.ReactElement {
           </span>
           <div className="text-sm leading-snug">
             <p className="font-semibold tracking-[0.04em] text-navy uppercase">Source and review status</p>
-            <p className="text-ink/80">Content is based on current authoritative sources and reviewed for accuracy at the time of publication.</p>
+            <p className="text-ink/80">Clinical review, reviewer identity, and review date are unavailable.</p>
             <p className="text-ink/80 italic">We do not imply endorsement by any source.</p>
           </div>
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />

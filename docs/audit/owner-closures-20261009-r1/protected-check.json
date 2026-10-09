@@ -1,0 +1,19 @@
+{
+  "approved_sha": "4d9e2370ed0f23849f8a3c6e143caa5c577865c3",
+  "corrected_protected_count": 724,
+  "actual_home_files": 28,
+  "sha256_and_byte_size_mismatches": [],
+  "excluded_nonancestor_paths": [
+    "app/(batch-three)/batch-three.css",
+    "app/(batch-three)/layout.tsx",
+    "app/(site)/layout.tsx",
+    "app/(utility)/layout.tsx",
+    "app/(utility)/utility.css",
+    "app/services/interior.css",
+    "src/components/interior/interior-header.tsx",
+    "src/components/shared/site-shell.tsx"
+  ],
+  "all_variant_b_components_included": true,
+  "original_receipt_unchanged": true,
+  "original_receipt_sha256": "5296cb3160526e65ea95a35c41bcf9ae71a98aa2100c0c7c4af1879731a7e002"
+}

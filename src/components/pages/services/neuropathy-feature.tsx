@@ -5,9 +5,9 @@ import { TallBracket } from "@/components/pages/shared/page-motifs";
 import { OtherWays } from "@/components/pages/services/other-ways";
 
 const FEATURE_POINTS = [
-  "Move with greater ease and confidence.",
-  "Stay steady in the activities you love.",
-  "Live with greater independence.",
+  "Possible goal: ease of movement.",
+  "Possible goal: confidence in daily activities.",
+  "Possible goal: independence.",
 ] as const;
 
 const FEATURE_STRIPES = ["w-[62%] ml-[38%]", "w-[66%] ml-[24%]", "w-[70%] ml-[12%]", "w-[74%] ml-0"] as const;
@@ -19,7 +19,7 @@ export function NeuropathyFeature(): React.ReactElement {
         <div className="lg:pt-8">
           <h2 className="font-heading text-[clamp(2.6rem,6vw,5.6rem)] leading-[0.95] font-bold tracking-[-0.035em]">Neuropathy Feature</h2>
           <p className="mt-6 max-w-[38rem] text-base leading-relaxed text-white/92 sm:text-lg">
-            Neuropathy is our primary focus of care at Sigma Core. This page is built around movement, function, and independence—so you can live fully in the life you choose. Start with a personalized conversation about what matters most to you.
+            Explore neuropathy information through movement, daily function, and independence. These are possible goals, not promised outcomes. Treatment and provider details are not yet available.
           </p>
         </div>
         <div className="relative h-64 sm:h-80 lg:h-[19rem]">
@@ -65,7 +65,7 @@ function FeatureBanner(): React.ReactElement {
         </ul>
         <Link
           href="/services/neuropathy"
-          className="group relative flex items-center justify-between gap-6 border-white/25 py-2 md:col-span-2 lg:col-span-1 lg:border-l lg:pl-10"
+          className="group relative flex items-center justify-between gap-6 border-white/25 py-2 md:col-span-2 lg:col-span-1 lg:border-l lg:pl-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px]"
         >
           <span>
             <span className="block text-sm leading-snug font-semibold tracking-[0.2em] uppercase">

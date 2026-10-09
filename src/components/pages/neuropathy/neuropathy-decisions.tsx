@@ -36,7 +36,7 @@ export function NeuropathyDecisions(): React.ReactElement {
               <ul className="mt-6 max-w-[25rem] space-y-5 text-sm leading-snug text-ink/85">
                 <li className="relative pl-6">
                   <span aria-hidden className="absolute top-1 left-0 h-3 w-3 border-t-2 border-l-2 border-royal" />
-                  <strong className="font-semibold text-royal">Goals we can talk about:</strong> daily function, comfort, balance confidence, and participation in the activities that matter to you.
+                  <strong className="font-semibold text-royal">Possible goals to consider:</strong> daily function, comfort, balance confidence, and participation in the activities that matter to you.
                 </li>
                 <li className="relative pl-6">
                   <span aria-hidden className="absolute top-1 left-0 h-3 w-3 border-t-2 border-l-2 border-royal" />
@@ -56,10 +56,10 @@ export function NeuropathyDecisions(): React.ReactElement {
           </div>
           <div className="relative -mx-6 mt-10 flex flex-wrap items-center gap-4 bg-royal px-6 py-5 text-white sm:-mx-10 sm:px-10 lg:mr-[38%] lg:-ml-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:[clip-path:polygon(0_0,94%_0,100%_100%,0_100%)]">
             <TallBracket className="h-10 w-2 text-white" />
-            <p className="max-w-[15rem] text-sm leading-snug">Learn more about our approach and the Richmond clinic.</p>
+            <p className="max-w-[15rem] text-sm leading-snug">Explore our approach and current booking status.</p>
             {["/about", "/book"].map((href) => (
-              <Link key={href} href={href} className="inline-flex h-10 items-center border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal">
-                {href}
+              <Link key={href} href={href} className="inline-flex max-w-full min-h-10 items-center border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+                {href === "/book" ? "Check booking status" : "About"}
               </Link>
             ))}
           </div>

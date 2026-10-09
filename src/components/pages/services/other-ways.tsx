@@ -2,10 +2,10 @@ import Image from "next/image";
 import { CirclePlus, Flower2, Footprints, PersonStanding } from "lucide-react";
 
 const SUPPORT_TILES = [
-  { title: "Mobility Support", icon: PersonStanding, tone: "bg-royal" },
-  { title: "Performance Optimization", icon: CirclePlus, tone: "bg-navy" },
-  { title: "Active Life Support", icon: Footprints, tone: "bg-royal" },
-  { title: "Wellness Pathways", icon: Flower2, tone: "bg-navy" },
+  { title: "Mobility goals", icon: PersonStanding, tone: "bg-royal" },
+  { title: "Performance goals", icon: CirclePlus, tone: "bg-navy" },
+  { title: "Daily activities", icon: Footprints, tone: "bg-royal" },
+  { title: "Wellness questions", icon: Flower2, tone: "bg-navy" },
 ] as const;
 
 export function OtherWays(): React.ReactElement {
@@ -14,9 +14,9 @@ export function OtherWays(): React.ReactElement {
       <div className="mx-auto grid max-w-[90rem] items-stretch gap-8 px-6 pb-10 sm:px-10 lg:grid-cols-[15fr_58fr_27fr] lg:gap-6 lg:pb-0 lg:pl-[3.75rem] lg:pr-0">
         <div className="lg:self-center lg:pb-8">
           <p className="text-sm leading-snug font-bold tracking-[0.14em] uppercase">
-            Other ways
+            Other goals
             <br />
-            we support you
+            to consider
           </p>
           <span aria-hidden className="mt-3 block h-1 w-10 bg-royal" />
         </div>

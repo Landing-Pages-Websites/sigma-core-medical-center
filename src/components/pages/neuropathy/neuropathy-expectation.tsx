@@ -20,13 +20,13 @@ export function NeuropathyExpectation(): React.ReactElement {
           <h2 className="mt-4 font-heading text-[clamp(2.8rem,5.6vw,5.2rem)] leading-none font-bold tracking-[-0.035em]">What To Expect</h2>
           <span aria-hidden className="mt-5 block h-1 w-14 bg-royal" />
           <p className="mt-6 max-w-[22rem] text-xl leading-snug text-white/92">
-            Booking occurs through GoHighLevel and the care conversation is personalized.
+            Online scheduling is not yet available. Appointment and follow-up details have not been confirmed.
           </p>
           <Link
             href="/book"
-            className="group mt-8 inline-flex h-14 items-center gap-5 bg-royal pr-12 pl-6 text-xl font-semibold transition-colors [clip-path:polygon(0_0,88%_0,100%_100%,0_100%)] hover:bg-royal-hover"
+            className="group mt-8 inline-flex max-w-full min-h-14 items-center gap-5 bg-royal pr-12 pl-6 text-xl font-semibold transition-colors [clip-path:polygon(0_0,88%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >
-            Book an Appointment <ChevronRight size={24} className="transition-transform group-hover:translate-x-1" aria-hidden />
+            Check booking status <ChevronRight size={24} className="transition-transform group-hover:translate-x-1" aria-hidden />
           </Link>
         </div>
         <div className="relative min-h-[22rem] lg:mt-12 lg:mb-20 lg:min-h-0">

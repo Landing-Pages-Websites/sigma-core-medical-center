@@ -30,10 +30,10 @@ export function PainLowBackSection(): React.ReactElement {
               <span className="flex items-center gap-2 text-sm">
                 <TallBracket className="h-5 w-1.5 text-white/80" /> Next step <TallBracket side="right" className="h-5 w-1.5 text-white/80" />
               </span>
-              <span className="mt-1 block font-heading text-3xl font-bold">Ready to talk?</span>
-              <span className="mt-1 block max-w-[17rem] text-sm leading-snug text-white/90">Use the approved GoHighLevel calendar to request your appointment.</span>
+              <span className="mt-1 block font-heading text-3xl font-bold">Booking status</span>
+              <span className="mt-1 block max-w-[17rem] text-sm leading-snug text-white/90">Online scheduling is not yet available.</span>
               <span className="mt-4 inline-flex h-11 items-center gap-3 bg-white px-5 font-semibold text-royal transition-colors group-hover:bg-chalk">
-                Book an Appointment <ArrowRight size={18} aria-hidden />
+                Check booking status <ArrowRight size={18} aria-hidden className="shrink-0" />
               </span>
             </Link>
           </div>

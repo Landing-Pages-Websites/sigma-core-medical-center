@@ -10,31 +10,31 @@ const FAQ_ROWS: readonly FaqRow[] = [
   {
     question: "Who is this site for?",
     answer: "This site is for individuals seeking clear, trustworthy information about our approach to nerve health and human performance in the Richmond, Virginia area.",
-    action: { label: "Book a Visit", href: "/book" },
+    action: { label: "Check booking status", href: "/book" },
   },
   {
     question: "Do you diagnose neuropathy?",
-    answer: "No. This website does not diagnose conditions. We provide information about our approach and the patient experience. Evaluation is completed in person at our clinic.",
-    action: { label: "Contact Us", href: "/contact" },
+    answer: "This website does not diagnose conditions. It offers general information only. Provider and evaluation details are unavailable.",
+    action: { label: "Contact status", href: "/contact" },
   },
   {
-    question: "How do I book an appointment?",
-    answer: "You can request a visit through our secure booking page. A member of our team will follow up with next steps.",
-    action: { label: "Book a Visit", href: "/book" },
+    question: "Is online booking available?",
+    answer: "Online scheduling is not yet available. Appointment and follow-up details have not been confirmed.",
+    action: { label: "Check booking status", href: "/book" },
   },
   {
     question: "Where is your clinic located?",
-    answer: "Our clinic is in Richmond, Virginia and serves the greater Richmond area.",
-    action: { label: "Contact Us", href: "/contact" },
+    answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable.",
+    action: { label: "Contact status", href: "/contact" },
   },
   {
     question: "Why aren’t treatment details listed?",
-    answer: "We keep treatment details off this site to protect clarity, safety, and individualization. Your experience is designed after we learn what is most appropriate for you.",
-    action: { label: "Terms & Policies" },
+    answer: "Treatment and provider details are not yet available. This page does not establish eligibility for care.",
+    action: { label: "Terms status" },
   },
 ];
 
-const ACTION_CLASS = "flex h-full w-full items-center justify-center gap-3 text-base font-semibold text-royal transition-colors hover:text-navy sm:text-lg";
+const ACTION_CLASS = "flex h-full w-full items-center justify-center gap-3 text-base font-semibold text-royal transition-colors hover:text-navy sm:text-lg focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
 
 export function NeuropathyFaq(): React.ReactElement {
   return (
@@ -66,10 +66,10 @@ export function NeuropathyFaq(): React.ReactElement {
               <div className="min-h-14 border-t border-royal/30 sm:border-t-0 sm:border-l sm:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)] sm:pr-6">
                 {row.action.href ? (
                   <Link href={row.action.href} className={ACTION_CLASS}>
-                    {row.action.label} <ArrowRight size={20} aria-hidden />
+                    {row.action.label} <ArrowRight size={20} aria-hidden className="shrink-0" />
                   </Link>
                 ) : (
-                  <PolicyLink label={<>{row.action.label} <ArrowRight size={20} aria-hidden /></>} className={ACTION_CLASS} />
+                  <PolicyLink label={<>{row.action.label} <ArrowRight size={20} aria-hidden className="shrink-0" /></>} className={ACTION_CLASS} />
                 )}
               </div>
             </li>
@@ -81,7 +81,7 @@ export function NeuropathyFaq(): React.ReactElement {
         <div className="mx-auto flex max-w-[90rem] items-center gap-5 px-6 py-6 sm:px-10 lg:pl-[3.5rem]">
           <span aria-hidden className="h-6 w-6 shrink-0 border-t-2 border-l-2 border-white [transform:skewX(-30deg)]" />
           <p className="text-base">
-            <strong className="font-semibold">Good questions lead to better decisions.</strong> We’re here to help you move forward.
+            <strong className="font-semibold">Good questions lead to better decisions.</strong> Explore the available general information.
           </p>
           <span aria-hidden className="ml-auto hidden gap-1 lg:flex">
             {[0, 1, 2, 3, 4].map((slot) => (

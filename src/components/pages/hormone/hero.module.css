@@ -1,0 +1,7 @@
+@media (max-width: 1023px) {
+  .copy { display: contents; }
+  .intro { padding: 24px 24px; }
+  .notes { order: 3; padding: 0 24px 32px; }
+  .photo { order: 2; min-height: 0; height: 288px; }
+  .photo img { object-position: 70% center; }
+}

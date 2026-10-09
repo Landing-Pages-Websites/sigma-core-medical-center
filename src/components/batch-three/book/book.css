@@ -19,9 +19,6 @@
 .book-hero { padding: clamp(96px, 8vw, 128px) 0 168px; background: var(--color-ink); }
 .book-hero::after, .book-calendar::after { content: ""; position: absolute; inset: 0 0 -1px; z-index: -1; pointer-events: none; }
 .book-hero::after { background: var(--color-action); clip-path: polygon(0 88.66%, 41.08% 88.66%, 100% 72.57%, 100% 100%, 0 100%); }
-.book-hero-geometry { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
-.book-hero-geometry polyline { fill: none; stroke: var(--color-silver); stroke-width: 8px; }
-.book-hero-geometry rect { fill: var(--color-electric); }
 .book-hero-copy { z-index: 1; }
 .book-availability { margin-top: 56px; max-width: 100%; color: var(--color-silver); font-family: var(--font-book-headings), var(--font-body); font-weight: 700; }
 .book-page .book-availability { font-size: clamp(32px, 3.35vw, 52px); line-height: 1.2; }
@@ -74,7 +71,6 @@ body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 @media (max-width: 1100px) and (min-width: 761px) {
   .book-calendar-layout { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 40px; }
   .book-page .book-availability { max-width: 23ch; }
-  .book-hero-geometry { opacity: .7; }
   .book-privacy-layout { gap: 56px; }
   .book-routes p { margin-inline: 0; }
   .book-services-link { padding-inline: 20px 32px; }
@@ -93,9 +89,6 @@ body:has(#booking-hero) #footer a[href="/book"] { display: none; }
   .book-bracket::before { top: -8px; bottom: -8px; left: -24px; width: 14px; border-width: 3px; }
   .book-page .book-availability { margin-top: 28px; font-size: 28px; max-width: 22ch; }
   .book-orientation { margin-top: 20px; }
-  .book-hero-geometry { inset: auto 0 0 auto; width: 100%; height: 144px; }
-  .book-hero-geometry polyline { display: none; }
-  .book-hero-geometry rect { transform: translate(-80px, -80px); }
   .book-hero::after { clip-path: polygon(0 96%, 41.08% 96%, 100% 90%, 100% 100%, 0 100%); }
   .book-calendar { padding: 56px 0 72px; }
   .book-calendar-layout, .book-privacy-layout { grid-template-columns: 1fr; gap: 0; width: calc(100% - 48px); margin-inline: auto; }
@@ -121,4 +114,25 @@ body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
   .book-services-link::before, .book-contact-link { transition: none; }
+}
+
+/* Reserved status surface: no calendar controls or interactive semantics. */
+.book-hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 48px; align-items: center; }
+.book-hero-layout h1 { font-size: clamp(44px, 4.8vw, 74px); overflow-wrap: anywhere; }
+.book-hero-layout .book-availability { margin-top: 32px; font-size: clamp(28px, 2.6vw, 40px); }
+.book-status-panel { display: grid; place-items: center; min-height: 480px; padding: 64px 40px; background: var(--color-surface); color: var(--color-ink); clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%, 0 8%); }
+.book-status-frame { border-inline: 2px solid var(--color-silver); padding: 24px; text-align: center; }
+.book-status-frame svg { margin: 0 auto 24px; color: var(--color-action); }
+.book-status-frame h2 { font-size: clamp(28px, 2.4vw, 36px); line-height: 1.15; }
+.book-status-frame p { margin-top: 24px; font-size: 20px; }
+@media (max-width: 1100px) {
+  .book-hero-layout { gap: 32px; }
+  .book-status-panel { min-height: 400px; padding: 48px 24px; }
+}
+@media (max-width: 760px) {
+  .book-hero-layout { grid-template-columns: 1fr; gap: 32px; }
+  .book-status-panel { min-height: 320px; padding: 40px 16px; }
+  .book-status-frame { padding: 16px; }
+  .book-hero-layout h1 { font-size: clamp(40px, 12vw, 48px); }
+  .book-hero-layout .book-availability { margin-top: 28px; }
 }

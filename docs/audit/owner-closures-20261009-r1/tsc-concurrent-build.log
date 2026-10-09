@@ -1,0 +1,6 @@
+error TS6053: File '/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1/.next/types/cache-life.d.ts' not found.
+  The file is in the program because:
+    Matched by include pattern '.next/types/**/*.ts' in '/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1/tsconfig.json'
+error TS6053: File '/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1/.next/types/validator.ts' not found.
+  The file is in the program because:
+    Matched by include pattern '.next/types/**/*.ts' in '/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1/tsconfig.json'

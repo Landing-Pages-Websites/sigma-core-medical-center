@@ -7,23 +7,23 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 const FAQ_ROWS = [
   {
     question: "Why does individualized assessment matter?",
-    answer: "Your goals, routines, and needs are your own. A personalized conversation helps us understand what matters to you.",
+    answer: "Your goals, routines, and needs are your own. Individual care decisions require a qualified clinician.",
   },
   {
     question: "Does this page provide medical advice?",
     answer: "No. This site is for general information only and does not provide medical advice. Your care decisions belong in a conversation with a qualified clinician.",
   },
   {
-    question: "How do I book an appointment?",
-    answer: "Start with a personalized conversation focused on your goals. Visit our booking page to take the next step.",
+    question: "Is online booking available?",
+    answer: "Online scheduling and appointment details are not yet available. The booking page shows current status.",
   },
   {
     question: "Where is the clinic located?",
-    answer: "We’re based in Richmond, Virginia and serve the surrounding community. Visit our booking page to get started.",
+    answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable.",
   },
 ] as const;
 
-const OUTLINE_BUTTON = "inline-flex h-12 w-full items-center justify-between gap-4 border border-white/80 px-5 text-sm font-semibold transition-colors hover:bg-white hover:text-royal";
+const OUTLINE_BUTTON = "inline-flex h-12 w-full items-center justify-between gap-4 border border-white/80 px-5 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
 
 export function HormoneFaq(): React.ReactElement {
   return (
@@ -34,7 +34,7 @@ export function HormoneFaq(): React.ReactElement {
         <div className="flex flex-col pt-14 lg:pt-16">
           <div className="px-6 sm:px-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
             <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">Faq</h2>
-            <p className="mt-6 max-w-[17rem] text-sm leading-snug text-white/85">Answers to common questions about personalized care at Sigma Core.</p>
+            <p className="mt-6 max-w-[17rem] text-sm leading-snug text-white/85">Answers about this page and information availability.</p>
             <p className="relative mt-6 max-w-[18rem] pl-6 text-sm leading-snug text-white/85">
               <TallBracket className="absolute top-0 left-0 h-12 w-2 text-silver" />
               Your goals are unique. That’s why individualized assessment matters. This page explains how we approach care, what this site does (and doesn’t) offer, and how to take the next step.
@@ -57,9 +57,9 @@ export function HormoneFaq(): React.ReactElement {
           </ul>
           <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64 lg:absolute lg:right-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:bottom-10 lg:mt-0">
             <Link href="/book" className={OUTLINE_BUTTON}>
-              Book a Conversation <ArrowRight size={18} aria-hidden />
+              Check booking status <ArrowRight size={18} aria-hidden className="shrink-0" />
             </Link>
-            <PolicyLink label={<>Terms of Use <ArrowRight size={18} aria-hidden /></>} className={OUTLINE_BUTTON} />
+            <PolicyLink label={<>Terms status <ArrowRight size={18} aria-hidden className="shrink-0" /></>} className={OUTLINE_BUTTON} />
           </div>
         </div>
       </div>

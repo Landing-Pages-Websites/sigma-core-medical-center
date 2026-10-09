@@ -1,0 +1,72 @@
+{
+  "scope": "Generated HTML only; no runtime, browser, pixel, or accessibility certification",
+  "routes": [
+    {
+      "route": "/services",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 2,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/services/pain-relief",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 7,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/services/regenerative-medicine",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 5,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/about",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 3,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/educational-guide",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 0,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/book",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 0,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/services/neuropathy",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 6,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/services/hormone-optimization",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 5,
+      "status_copy_checks": "PASS"
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "h1": 1,
+      "forms_inputs_iframes": 0,
+      "book_link_count": 6,
+      "status_copy_checks": "PASS"
+    }
+  ],
+  "about_image_removals": "PASS",
+  "book_panel_noninteractive": "PASS",
+  "local_guide_dialog_copy": "PASS",
+  "retired_stub_grammar": "PASS"
+}

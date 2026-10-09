@@ -22,7 +22,7 @@ export function PelvicOrientation(): React.ReactElement {
   return (
     <section id="private-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[34rem] lg:grid-cols-[12fr_17fr_42fr_12fr_17fr]">
-        <SideNote title="Your privacy matters." body="We protect your information and the conversations you have with us." className="order-2 lg:order-none lg:mt-0" />
+        <SideNote title="Privacy information." body="Privacy policy and visit confidentiality details are not yet available." className="order-2 lg:order-none lg:mt-0" />
         <div className="relative order-3 min-h-60 lg:order-none lg:mt-14">
           <Image src="/images/pages/services-lobby-v2.png" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
         </div>
@@ -32,15 +32,15 @@ export function PelvicOrientation(): React.ReactElement {
             <TallBracket className="absolute top-8 bottom-8 left-5 w-3 text-silver" />
             <TallBracket side="right" className="absolute top-8 bottom-8 right-5 w-3 text-silver" />
             <p className="text-lg leading-snug">Pelvic-floor and incontinence concerns vary from person to person and deserve an individualized conversation.</p>
-            <p className="mt-5 text-lg leading-snug">We do not list diagnoses, populations, or treatment claims on this website until we have the opportunity to understand your situation.</p>
+            <p className="mt-5 text-lg leading-snug">Treatment and provider details are unavailable. This page cannot assess your individual situation.</p>
           </div>
           <StairSteps count={3} direction="down" barClassName="bg-royal" className="absolute top-[52%] -left-8 hidden text-[0.6rem] lg:flex" />
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm">
             <TallBracket className="h-8 w-2 text-white/80" />
-            <Link href="/about" className="inline-flex items-center gap-2 font-semibold hover:text-chalk/80">
-              Learn more about our approach <ArrowRight size={16} aria-hidden />
+            <Link href="/about" className="inline-flex max-w-full items-center gap-2 font-semibold hover:text-chalk/80 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+              Learn more about our approach <ArrowRight size={16} aria-hidden className="shrink-0" />
             </Link>
-            <PolicyLink label="/terms" className="font-semibold hover:underline" />
+            <PolicyLink label="Terms status" className="font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
             <TallBracket side="right" className="h-8 w-2 text-white/80" />
           </div>
         </div>

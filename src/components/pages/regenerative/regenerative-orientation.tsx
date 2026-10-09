@@ -23,19 +23,19 @@ export function RegenerativeOrientation(): React.ReactElement {
               <TallBracket className="h-7 w-2" /> Regenerative medicine is a broad category. <TallBracket side="right" className="h-7 w-2" />
             </p>
             <p className="mt-3 max-w-[24rem] text-lg leading-snug">Legality, evidence, risks, and suitability depend on the actual product or procedure.</p>
-            <p className="mt-4 max-w-[24rem] text-lg leading-snug">Do not consider any Sigma Core modality until written verification and review exist.</p>
+            <p className="mt-4 max-w-[24rem] text-lg leading-snug">Sigma Core treatment and provider details are not yet available.</p>
           </div>
           <StairSteps count={5} direction="down" barClassName="bg-[#3d86e0]" className="absolute top-[52%] right-[-1rem] z-20 hidden text-[0.9rem] lg:flex" />
           <div className="px-6 pt-8 pb-10 sm:px-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
             <span className="relative inline-flex px-4 py-1">
               <TallBracket className="absolute inset-y-0 left-0 w-2 text-white/80" />
               <PolicyLink
-                label={<>Terms &amp; definitions <ArrowRight size={20} aria-hidden /></>}
-                className="inline-flex h-11 items-center gap-6 border border-white px-5 text-base font-semibold transition-colors hover:bg-white hover:text-royal"
+                label={<>Terms status <ArrowRight size={20} aria-hidden className="shrink-0" /></>}
+                className="inline-flex h-11 items-center gap-6 border border-white px-5 text-base font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
               />
               <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white/80" />
             </span>
-            <p className="mt-3 max-w-[14rem] text-xs leading-snug text-white/85">Understand the words we use and how we apply them.</p>
+            <p className="mt-3 max-w-[14rem] text-xs leading-snug text-white/85">Legal terms are not yet available.</p>
           </div>
         </div>
         <div className="flex items-center bg-slate px-6 py-12 sm:px-10 lg:mt-24 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[28%] lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%)]">

@@ -1,7 +1,14 @@
-import { PATH } from "@/content/site";
 import { MiniStairs, TallBracket } from "@/components/pages/shared/page-motifs";
 
 type PlinthCardsProps = { className?: string };
+
+type InteriorStep = { title: string; body: string };
+
+const INTERIOR_STEPS: readonly InteriorStep[] = [
+  { title: "Choose your starting point", body: "Explore service information while the educational guide is unavailable." },
+  { title: "Start the conversation", body: "Review booking status. Online scheduling is not yet available." },
+  { title: "Decide what comes next", body: "Review the available information and choose the next appropriate step for you." },
+];
 
 const CARD_LIFT = ["lg:mb-10", "lg:mb-4", "lg:mb-0"] as const;
 
@@ -9,7 +16,7 @@ const CARD_LIFT = ["lg:mb-10", "lg:mb-4", "lg:mb-0"] as const;
 export function PlinthCards({ className = "" }: PlinthCardsProps): React.ReactElement {
   return (
     <ol className={`relative grid gap-4 sm:grid-cols-3 sm:items-end sm:gap-5 ${className}`}>
-      {PATH.steps.map((step, index) => (
+      {INTERIOR_STEPS.map((step, index) => (
         <li key={step.title} className={`relative ${CARD_LIFT[index]}`}>
           <div className="relative z-10 bg-[#ecebe7] px-5 pt-5 pb-6 text-navy shadow-[0_14px_30px_rgb(16_30_51/0.16)]">
             <MiniStairs className="absolute top-3 right-4 text-royal" />

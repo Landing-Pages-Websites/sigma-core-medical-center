@@ -4,9 +4,9 @@ import { ArrowRight } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const LITERACY = [
-  { title: "Who", body: "The responsible prescribing provider and credentials must be confirmed." },
-  { title: "What", body: "Actual services and the clinical process must be documented." },
-  { title: "How", body: "The consultation and next steps are defined before any clinical content goes live." },
+  { title: "Who", body: "The responsible prescribing provider and credentials are unavailable." },
+  { title: "What", body: "Actual services and clinical process details are unavailable." },
+  { title: "How", body: "Consultation and follow-up details are unavailable." },
 ] as const;
 
 export function ResponsibleNextStep(): React.ReactElement {
@@ -20,20 +20,20 @@ export function ResponsibleNextStep(): React.ReactElement {
             Next Step
           </h2>
           <p className="mt-6 max-w-[27rem] border-l-[3px] border-royal pl-4 text-base leading-snug text-white/90">
-            The responsible prescribing provider, credentials, actual services, and process must be confirmed before clinical copy goes live.
+            Responsible provider, credentials, actual services, and process details are not yet available.
           </p>
-          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Please book only after those facts and the calendar are approved.</p>
-          <Link href="/book" className="mt-6 inline-flex h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover">
-            Book an Appointment <ArrowRight size={22} aria-hidden />
+          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Online scheduling is not yet available.</p>
+          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 flex flex-wrap items-center gap-6">
             <p className="relative max-w-[15rem] pl-5 text-xs leading-snug text-white/75">
               <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
-              You can review process details or ask a general question on our contact page.
+              The contact page provides availability status only.
             </p>
             <span aria-hidden className="h-10 w-px bg-white/30" />
-            <Link href="/contact" className="inline-flex items-center gap-3 text-base font-semibold text-[#4f9bf0] hover:text-white">
-              Contact Us <ArrowRight size={20} aria-hidden />
+            <Link href="/contact" className="inline-flex max-w-full items-center gap-3 text-base font-semibold text-[#4f9bf0] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+              Contact status <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>
         </div>

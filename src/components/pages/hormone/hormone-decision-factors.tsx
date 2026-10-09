@@ -82,18 +82,18 @@ export function HormoneDecisionFactors(): React.ReactElement {
         <p className="relative max-w-[18rem] pl-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
           Choose{" "}
-          <Link href="/about" className="font-semibold text-royal hover:underline">
+          <Link href="/about" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             /about
           </Link>{" "}
           to learn more about our approach and Richmond clinic.
         </p>
-        <p className="relative max-w-[16rem] px-5 leading-snug">
+        <p className="relative max-w-[22rem] px-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
           Choose{" "}
-          <Link href="/book" className="font-semibold text-royal hover:underline">
-            /book
+          <Link href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            Check booking status
           </Link>{" "}
-          when you’re ready to take the next step.
+          for scheduling availability.
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-royal" />
         </p>
       </div>

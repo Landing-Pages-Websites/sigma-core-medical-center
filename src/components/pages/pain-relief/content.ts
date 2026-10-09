@@ -1,19 +1,19 @@
 export const PAIN_NAV_ITEMS = [
   {
     label: "Knee Orientation",
-    body: "Explore knee pain as a starting point. We look beyond the joint to understand how it connects.",
+    body: "Explore questions about knee concerns, movement, and daily activities.",
     href: "#knee",
     image: "/images/pages/pain-nav-knee-v4.png",
   },
   {
     label: "Low-Back Orientation",
-    body: "Explore low-back pain as a starting point. We assess movement and system relationships.",
+    body: "Explore questions about low-back concerns and everyday movement.",
     href: "#low-back",
     image: "/images/pages/pain-nav-low-back-v4.png",
   },
   {
     label: "Neck Orientation",
-    body: "Explore neck pain as a starting point. We consider how posture and movement work together.",
+    body: "Explore questions about neck concerns, comfort, and daily function.",
     href: "#neck",
     image: "/images/pages/pain-nav-neck-v4.png",
   },
@@ -22,8 +22,8 @@ export const PAIN_NAV_ITEMS = [
 export const KNEE_STEPS = [
   { title: "Understand your concerns", body: "Learn how knee pain may affect walking, stairs, standing, sleep, and the activities you value." },
   {
-    title: "Watch for red flags",
-    body: "Seek urgent care if you have a fall or injury with inability to bear weight, noticeable deformity, severe swelling, fever with a red or hot knee, or calf pain with swelling or shortness of breath.",
+    title: "Clinical guidance unavailable",
+    body: "Reviewed symptom-specific and urgent-care guidance is not available on this page. General website information is not medical advice.",
   },
   { title: "Plan your next step", body: "Bring your questions and concerns to a health care professional to discuss the right next step for you." },
 ] as const;
@@ -44,8 +44,8 @@ export const PAIN_FAQ = {
   answers: [
     "These concerns are grouped to give you a single place to explore information that may help you understand what’s possible.",
     "This page does not provide a diagnosis or assess your specific situation. It’s for general information only.",
-    "When you’re ready, you can connect with our Richmond, Virginia team to take the next step.",
-    "Some details are not available on this page yet. We’re continuing to add useful information over time.",
+    "Online scheduling and appointment details are not yet available.",
+    "Provider and clinical-review details are unavailable.",
   ],
 } as const;
 

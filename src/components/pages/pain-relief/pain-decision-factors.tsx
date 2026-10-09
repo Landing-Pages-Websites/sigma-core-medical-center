@@ -48,7 +48,7 @@ export function PainDecisionFactors(): React.ReactElement {
       <div className="bg-navy">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-6 px-6 py-4 sm:px-10 lg:pl-[3.5rem]">
           <p className="flex items-center gap-3 text-base">
-            <TallBracket className="h-8 w-2 text-silver" /> Fill in the answers only after discussion with you and verification by your clinician.
+            <TallBracket className="h-8 w-2 text-silver" /> Individual answers require a qualified clinician. Provider and appointment details are unavailable.
           </p>
           <span aria-hidden className="hidden items-end gap-1 md:flex">
             {FOOT_BARS.map((bar) => (
@@ -58,17 +58,17 @@ export function PainDecisionFactors(): React.ReactElement {
         </div>
       </div>
       <div className="bg-chalk">
-        <div className="mx-auto flex max-w-[90rem] gap-3 px-6 py-5 sm:px-10 lg:pl-[3.5rem]">
+        <div className="mx-auto flex max-w-[90rem] flex-wrap gap-3 px-6 py-5 sm:px-10 lg:pl-[3.5rem]">
           {[
-            { href: "/about", tone: "bg-royal hover:bg-royal-hover" },
-            { href: "/book", tone: "bg-navy hover:bg-[#0b2546]" },
+            { href: "/about", tone: "bg-royal hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
+            { href: "/book", tone: "bg-navy hover:bg-[#0b2546] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
           ].map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`${link.tone} inline-flex h-14 w-52 items-center justify-between px-8 font-heading text-2xl font-bold text-white transition-colors [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
+              className={`${link.tone} inline-flex max-w-full min-h-14 w-64 items-center justify-between px-8 font-heading text-lg font-bold text-white transition-colors [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
             >
-              {link.href} <ChevronRight size={26} aria-hidden />
+              {link.href === "/book" ? "Check booking status" : "About"} <ChevronRight size={26} aria-hidden className="shrink-0" />
             </Link>
           ))}
         </div>

@@ -15,19 +15,19 @@ type NavCard = {
 const NAV_CARDS: readonly NavCard[] = [
   {
     title: "Hormone Optimization",
-    body: "Support for balanced energy, recovery, and overall wellness through thoughtful hormone optimization.",
+    body: "General orientation to hormone health. Provider and treatment details are unavailable.",
     href: "/services/hormone-optimization",
     icon: Atom,
   },
   {
     title: "Pelvic Floor & Incontinence",
-    body: "Care that addresses pelvic floor health and incontinence to support comfort, control, and confidence.",
+    body: "Information about pelvic-floor and incontinence concerns, with individual care details unavailable.",
     href: "/services/pelvic-floor-incontinence",
     icon: Shell,
   },
   {
     title: "Regenerative Medicine",
-    body: "Advanced options that support tissue repair and the body’s natural ability to heal.",
+    body: "Category-level information and questions about evidence, uncertainty, and alternatives.",
     href: "/services/regenerative-medicine",
     icon: Activity,
     dark: true,
@@ -35,7 +35,7 @@ const NAV_CARDS: readonly NavCard[] = [
 ];
 
 const PATH_PILL =
-  "inline-flex h-8 w-fit items-center bg-royal pr-7 pl-3 text-xs font-semibold text-white transition-colors [clip-path:polygon(0_0,92%_0,100%_50%,92%_100%,0_100%)] hover:bg-royal-hover";
+  "inline-flex h-8 w-fit items-center bg-royal pr-7 pl-3 text-xs font-semibold text-white transition-colors [clip-path:polygon(0_0,92%_0,100%_50%,92%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
 
 export function ServiceNavigation(): React.ReactElement {
   return (
@@ -84,9 +84,9 @@ function PainReliefPanel(): React.ReactElement {
           <h3 className="font-heading text-3xl font-bold tracking-[-0.02em]">Pain Relief</h3>
         </div>
         <p className="mt-6 max-w-[19rem] text-[0.95rem] leading-snug text-white/85">
-          Focused care for knee, low-back, and neck concerns so you can move, train, and live with less pain.
+          Explore knee, low-back, and neck concerns in the context of movement and daily life.
         </p>
-        <Link href="/services/pain-relief" className={`${PATH_PILL} mt-8 h-10 text-sm`}>
+        <Link href="/services/pain-relief" className={`${PATH_PILL} mt-8 min-h-10 text-sm`}>
           /services/pain-relief
         </Link>
       </div>

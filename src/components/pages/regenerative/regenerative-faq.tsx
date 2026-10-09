@@ -1,24 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronDown } from "lucide-react";
-import { REGENERATIVE_PAGE } from "@/content/pages";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
 
-const DESIGN_QUESTIONS = [
-  "Why aren’t specific options listed on the site yet?",
-  "Why is an appropriate provider important?",
-  "How do I book a consultation?",
-  "Where is the clinic located?",
+const FAQ_ITEMS = [
+  { question: "Why aren’t specific options listed?", answer: "Treatment, eligibility, risk, cost, and timing details are not yet available." },
+  { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Provider details at Sigma Core are unavailable." },
+  { question: "Is online booking available?", answer: "Online scheduling is not yet available. The booking page provides current status." },
+  { question: "Where is the clinic located?", answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable." },
 ] as const;
 
 const FAQ_ACTIONS = [
-  { label: "Book a Consultation", href: "/book" },
-  { label: "Contact the Clinic", href: "/contact" },
+  { label: "Check booking status", href: "/book" },
+  { label: "Contact status", href: "/contact" },
 ] as const;
 
 export function RegenerativeFaq(): React.ReactElement {
-  const items = REGENERATIVE_PAGE.faqs.map((faq, index) => ({ question: DESIGN_QUESTIONS[index] ?? faq.question, answer: faq.answer }));
-
   return (
     <section id="faq" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-6 right-0 z-20 hidden w-[24rem] lg:flex" />
@@ -26,18 +23,18 @@ export function RegenerativeFaq(): React.ReactElement {
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-20 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">Faq</h2>
           <p className="mt-8 max-w-[18rem] text-base leading-snug text-white/88">
-            Answers to common questions about next steps. We cover why specific options are not listed yet, why an appropriate provider matters, how to book, and where the clinic is.
+            Answers about category information, provider details, and scheduling availability.
           </p>
           <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />
-            We hold details <strong className="font-semibold">about products,</strong> indications, efficacy, risks, costs, eligibility, and timelines pending approval.
+            Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, eligibility, and timing are unavailable.
           </p>
         </div>
         <div className="relative grid lg:grid-cols-[48fr_52fr]">
           <div className="relative z-10 space-y-2 px-6 pt-8 pb-8 sm:px-10 lg:px-0 lg:pt-20">
-            {items.map((item, index) => (
+            {FAQ_ITEMS.map((item, index) => (
               <details key={item.question} name="regenerative-faq" className="group border border-white/40 bg-navy/95" open={index === 0}>
-                <summary className="flex min-h-20 cursor-pointer list-none items-center gap-4 px-4 py-3 [&::-webkit-details-marker]:hidden">
+                <summary className="flex min-h-20 cursor-pointer list-none items-center gap-4 px-4 py-3 [&::-webkit-details-marker]:hidden focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
                   <TallBracket className="h-12 w-2.5 shrink-0 text-silver" />
                   <span className="flex-1 font-heading text-lg leading-tight font-bold">{item.question}</span>
                   <ChevronDown size={22} className="shrink-0 transition-transform group-open:rotate-180" aria-hidden />
@@ -57,12 +54,12 @@ export function RegenerativeFaq(): React.ReactElement {
       <div className="flex justify-end">
         <div className="flex w-full flex-wrap justify-end gap-4 bg-royal px-6 py-8 sm:px-10 lg:w-[62%] lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)]">
           {FAQ_ACTIONS.map((action) => (
-            <Link key={action.href} href={action.href} className="group flex w-64 items-center justify-between border border-white px-4 py-2.5 transition-colors hover:bg-white hover:text-royal">
+            <Link key={action.href} href={action.href} className="group flex w-64 items-center justify-between border border-white px-4 py-2.5 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <span>
                 <span className="block font-heading text-lg font-bold">{action.label}</span>
                 <span className="block text-sm">{action.href}</span>
               </span>
-              <ArrowRight size={22} aria-hidden />
+              <ArrowRight size={22} aria-hidden className="shrink-0" />
             </Link>
           ))}
         </div>

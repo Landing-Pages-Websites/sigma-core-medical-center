@@ -24,7 +24,7 @@ export function PainNeckSection(): React.ReactElement {
             </h2>
           </div>
           <p className="mt-5 max-w-[24rem] border-l-2 border-royal pl-4 text-base leading-relaxed text-white/88 sm:ml-10">
-            Range of motion, desk and driving comfort, and daily function are possible goals to discuss. We focus on keeping your neck moving well so you can stay active in work and life.
+            Range of motion, desk and driving comfort, and daily function are possible goals to discuss. Treatment and provider details are not yet available.
           </p>
           <div className="mt-6 sm:ml-10">
             <span aria-hidden className="flex items-end gap-1.5">
@@ -65,12 +65,12 @@ function RouteStrip(): React.ReactElement {
             Movement first.
           </p>
         </div>
-        <Link href="/book" className="group flex flex-col justify-center bg-royal px-8 py-6 transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14">
-          <span className="font-heading text-4xl font-bold">/book</span>
+        <Link href="/book" className="group flex flex-col justify-center bg-royal px-5 py-6 transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <span className="font-heading text-xl font-bold">Check booking status</span>
           <span className="mt-2 text-xs font-semibold tracking-[0.2em] uppercase">
-            Start your
+            Online scheduling
             <br />
-            conversation
+            unavailable
           </span>
         </Link>
       </div>
