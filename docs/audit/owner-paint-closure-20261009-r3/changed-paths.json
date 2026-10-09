@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-09T16:35:03.462649+00:00",
+  "against_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+  "application_paths": [
+    "src/components/pages/neuropathy/neuropathy-faq.tsx",
+    "src/components/pages/pelvic-floor/pelvic-booking.tsx",
+    "src/components/batch-three/book/hero.tsx"
+  ],
+  "new_nonrendered_documentation_paths": [
+    "docs/audit/owner-paint-closure-20261009-r3/IMPLEMENTATION.md",
+    "docs/audit/owner-paint-closure-20261009-r3/PLAN.md",
+    "docs/audit/owner-paint-closure-20261009-r3/build.log",
+    "docs/audit/owner-paint-closure-20261009-r3/changed-paths.json",
+    "docs/audit/owner-paint-closure-20261009-r3/evidence-preservation.json",
+    "docs/audit/owner-paint-closure-20261009-r3/evidence-preservation.log",
+    "docs/audit/owner-paint-closure-20261009-r3/findings.json",
+    "docs/audit/owner-paint-closure-20261009-r3/lint.log",
+    "docs/audit/owner-paint-closure-20261009-r3/protected-byte-check.json",
+    "docs/audit/owner-paint-closure-20261009-r3/self-review.json",
+    "docs/audit/owner-paint-closure-20261009-r3/source-binding.json",
+    "docs/audit/owner-paint-closure-20261009-r3/test-exits.json",
+    "docs/audit/owner-paint-closure-20261009-r3/types.log"
+  ],
+  "excluded_from_commit": [
+    "AGENTS.md",
+    "tsconfig.tsbuildinfo"
+  ],
+  "no_other_application_paths_allowed": true
+}

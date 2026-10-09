@@ -34,7 +34,7 @@ const FAQ_ROWS: readonly FaqRow[] = [
   },
 ];
 
-const ACTION_CLASS = "flex h-full w-full items-center justify-center gap-3 text-base font-semibold text-royal transition-colors hover:text-navy sm:text-lg focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
+const ACTION_CLASS = "flex h-full w-full min-w-0 max-w-full items-center justify-center gap-3 px-3 py-3 text-base font-semibold whitespace-normal text-royal transition-colors hover:text-navy sm:text-lg focus-visible:outline-2 focus-visible:outline-offset-[-4px]";
 
 export function NeuropathyFaq(): React.ReactElement {
   return (
@@ -63,13 +63,13 @@ export function NeuropathyFaq(): React.ReactElement {
                 <TallBracket className="h-8 w-2 shrink-0 text-royal" /> {row.question}
               </h3>
               <p className="px-5 py-3 pl-11 text-sm leading-snug text-ink/85 sm:py-4 sm:pl-0">{row.answer}</p>
-              <div className="min-h-14 border-t border-royal/30 sm:border-t-0 sm:border-l sm:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)] sm:pr-6">
+              <div className="min-h-14 min-w-0 border-t border-royal/30 sm:border-t-0 sm:border-l sm:pr-6">
                 {row.action.href ? (
                   <Link href={row.action.href} className={ACTION_CLASS}>
-                    {row.action.label} <ArrowRight size={20} aria-hidden className="shrink-0" />
+                    <span className="min-w-0 [overflow-wrap:break-word]">{row.action.label}</span> <ArrowRight size={20} aria-hidden className="shrink-0" />
                   </Link>
                 ) : (
-                  <PolicyLink label={<>{row.action.label} <ArrowRight size={20} aria-hidden className="shrink-0" /></>} className={ACTION_CLASS} />
+                  <PolicyLink label={<><span className="min-w-0 [overflow-wrap:break-word]">{row.action.label}</span> <ArrowRight size={20} aria-hidden className="shrink-0" /></>} className={ACTION_CLASS} />
                 )}
               </div>
             </li>

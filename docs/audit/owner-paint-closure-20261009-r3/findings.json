@@ -1,0 +1,135 @@
+{
+  "utc": "2026-10-09T16:32:43.901865+00:00",
+  "evidence_base": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1",
+  "before_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+  "controller": "f85662b4-ba90-457f-a013-32e2c60d260c",
+  "findings": [
+    {
+      "id": "SIG-B10",
+      "before_evidence": [
+        "closure-immutable-506ed6f-r1/neuropathy/capture/1440x900/tile-04.png",
+        "closure-immutable-506ed6f-r1/neuropathy/capture/1440x900/tile-04-pre.json",
+        "closure-immutable-506ed6f-r1/neuropathy/source-before/source.json",
+        "closure-immutable-506ed6f-r1/neuropathy/source-after/source.json"
+      ],
+      "before_observation": "Leading letters of Check booking status are clipped in the native tile, despite fitting allocation; inner wrapper polygon cuts 14% from upper left.",
+      "decision": "Remove inner control clip and allow naturally wrapping labels with padded bounded flex layout; retain outer li bevel.",
+      "application_path": "src/components/pages/neuropathy/neuropathy-faq.tsx",
+      "changed_classes_attributes": [
+        "Remove sm:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)] from control wrapper; add min-w-0.",
+        "ACTION_CLASS: add min-w-0 max-w-full px-3 py-3 whitespace-normal; remove now-redundant focus-visible:[clip-path:none].",
+        "Wrap each action label expression in span className=\"min-w-0 [overflow-wrap:break-word]\"; preserve ArrowRight size=20 shrink-0."
+      ],
+      "preserved": "FAQ_ROWS byte-identical; text, labels, href expressions/default Terms destination, outer li grid/bevel/background, typography and other layout retained. No nowrap/truncation/overflow-hidden added.",
+      "controller_after_required": "Native 1440x900 and mobile 320/360/390 captures with complete labels/arrows, natural wrapping, hover/focus and allocated/painted bounds.",
+      "status": "source_implemented_controller_AFTER_pending",
+      "rendered_closed": false,
+      "before_file_receipts": {
+        "closure-immutable-506ed6f-r1/neuropathy/capture/1440x900/tile-04.png": {
+          "sha256": "4b9d522c4e1b1734a655cc48739a90fd05e8c58c4ce53463c2dc7e19bfa2862a",
+          "bytes": 410965,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/neuropathy/capture/1440x900/tile-04-pre.json": {
+          "sha256": "589a9de5476f9bb06e16f18d321277ca2410bedc11465fde32bc9c60ed6e645c",
+          "bytes": 28796,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/neuropathy/source-before/source.json": {
+          "sha256": "7be0e45fd7b736709f7beb69b57c95b428bccfb7eaaf89e6458d349cf2889344",
+          "bytes": 420736,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/neuropathy/source-after/source.json": {
+          "sha256": "f0b127e99f6ebcde7b5677767cd45cfa0a4a5744fd3ed831debbf7a2418e6486",
+          "bytes": 420736,
+          "mode": "0o644"
+        }
+      }
+    },
+    {
+      "id": "SIG-B11",
+      "before_evidence": [
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-04.png",
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-04-pre.json",
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-05.png",
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-06.png",
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/source-before/source.json",
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/source-after/source.json"
+      ],
+      "before_observation": "StairSteps crosses final letters of Booking status in inspected native tile-04. User supplied mosaic1440/tile05/tile06/sectiontop-about-3508 locator is retained as reported, not asserted exact: on-disk hyphenated tile-05 and tile-06 show subsequent content. No captures renamed or relabeled.",
+      "decision": "Move existing ornament right into its relative image-column containing block.",
+      "application_path": "src/components/pages/pelvic-floor/pelvic-booking.tsx",
+      "changed_classes_attributes": [
+        "StairSteps class -left-14 -> left-4 only."
+      ],
+      "source_geometry": "left-4 places its left edge 1rem inside the image column. Shared down staircase uses only nonnegative marginLeft offsets (0 through 5.6em); bars are 3.6em wide. At existing 0.9rem font, total horizontal extent is 8.28rem, well within 58% desktop column. This is source reasoning, not measured paint.",
+      "preserved": "hidden lg:flex, z-20, top-[12%], count/direction, shared motif, image/crop and all text; SIG-T04 mobile heading and P3 Medical Sources ornament untouched.",
+      "controller_after_required": "Source-bound 1440 booking capture and mobile check: no heading overlap, ornament stays in image column; image/crop and hidden mobile state preserved.",
+      "status": "source_implemented_controller_AFTER_pending",
+      "rendered_closed": false,
+      "before_file_receipts": {
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-04.png": {
+          "sha256": "e6ac721156bf7614730a4925b8427680f015c2648291cde73c6c78164abb20c3",
+          "bytes": 397544,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-04-pre.json": {
+          "sha256": "7073f71508e8e565a23ca718928c049c67e9db15322932afa05ca60f309b9ce4",
+          "bytes": 24770,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-05.png": {
+          "sha256": "c33b2759c996163c7a041e7559ed3f639eae013498fe327e1e14dbd4e3fcf95c",
+          "bytes": 288822,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/capture/1440x900/tile-06.png": {
+          "sha256": "c58cc85b55bdbac877f5cf0abddced899e4328dbf2e0b0813216b62a185ee5ee",
+          "bytes": 274950,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/source-before/source.json": {
+          "sha256": "85ec4f1416b2c272faad608048ecde27764ac38843590b5f7fc61f5ef4759269",
+          "bytes": 420736,
+          "mode": "0o644"
+        },
+        "closure-immutable-506ed6f-r1/pelvic-floor-incontinence/source-after/source.json": {
+          "sha256": "d479819771905d4c6e375e02af08386b50386a6e170bd3a0fa853badc34134ae",
+          "bytes": 420736,
+          "mode": "0o644"
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "before_evidence": [
+        "closure-independent-code-audit-r1/report.md",
+        "closure-independent-code-audit-r1/report.json"
+      ],
+      "before_observation": "Existing Book status div uses aria-labelledby without group/region semantics; advisory at report.md line 51.",
+      "decision": "Name the existing noninteractive panel as a group.",
+      "application_path": "src/components/batch-three/book/hero.tsx",
+      "changed_classes_attributes": [
+        "Add role=\"group\" to existing book-status-panel div."
+      ],
+      "preserved": "Existing aria-labelledby/book-panel-title h2, all visible content/classes, noninteractive unavailable state. No calendar, field or control added.",
+      "controller_after_required": "Source-bound AFTER accessibility tree exposes named group; visual panel remains unchanged.",
+      "status": "source_implemented_controller_AFTER_pending",
+      "rendered_closed": false,
+      "before_file_receipts": {
+        "closure-independent-code-audit-r1/report.md": {
+          "sha256": "79d060c291e2bb8b955e9f6b2def718a198cc30fd5fc2baf698095ed1ddf030e",
+          "bytes": 12238,
+          "mode": "0o644"
+        },
+        "closure-independent-code-audit-r1/report.json": {
+          "sha256": "dc8afbc52d1deef99094c271ab5ec06242b01a2272206db0e3ee6c89e597c2e4",
+          "bytes": 147887,
+          "mode": "0o644"
+        }
+      }
+    }
+  ],
+  "old_findings_and_gates_unchanged": true
+}

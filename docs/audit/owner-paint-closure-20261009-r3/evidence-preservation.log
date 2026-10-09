@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-09T16:34:21.314551+00:00",
+  "base": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1",
+  "existing_file_count": 5151,
+  "bytes": 624207559,
+  "before_manifest_sha256": "5286d2c2b6455dcb63f1ab738884aa6efe2081daac75d4e2d154cd070623dff6",
+  "existing_files_after_exact_to_before": true,
+  "observed_added_paths": [
+    "current-task-attachments-list.json"
+  ],
+  "missing_paths": [],
+  "byte_mode_mismatches": [],
+  "initial_strict_directory_check_exit": 1
+}

@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-09T16:33:15.583621+00:00",
+  "start_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+  "start_tree": "2796260acd44ef1090c590c27ee7c63b577ce7fe",
+  "branch": "web-developer/sigma-owner-closures-20261009-r1",
+  "working_tree_application_changes": {
+    "src/components/pages/neuropathy/neuropathy-faq.tsx": {
+      "before": {
+        "mode": "100644",
+        "git_blob": "300b1dbfa7747a0505a987370a6b5f21ce34dbc1",
+        "sha256": "24b397c29217a90ba50ac13b03ed9b9bb558f59a87b1f4baf6db861210af3a23",
+        "bytes": 5400
+      },
+      "implemented": {
+        "mode": "100644",
+        "git_blob": "47f64aef204e93ea65a0fdcafd3cc7191cef569b",
+        "sha256": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+        "bytes": 5490
+      }
+    },
+    "src/components/pages/pelvic-floor/pelvic-booking.tsx": {
+      "before": {
+        "mode": "100644",
+        "git_blob": "ad188ad2eb199ad01eb9720e6319e8d764609ac8",
+        "sha256": "d4696821cac7c828777ee1eaabc944d47a6f35eab92916fab1554ecf1b6cb627",
+        "bytes": 3507
+      },
+      "implemented": {
+        "mode": "100644",
+        "git_blob": "5c7bf594db6555d72e16e9055badf0a46608feed",
+        "sha256": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+        "bytes": 3505
+      }
+    },
+    "src/components/batch-three/book/hero.tsx": {
+      "before": {
+        "mode": "100644",
+        "git_blob": "92512d8a79eb3ce93846263e7fe978647467f953",
+        "sha256": "d03f29c47e7239acb6fe9ee4e1edf45a09575665f1a7553391128cb4d14a7b02",
+        "bytes": 976
+      },
+      "implemented": {
+        "mode": "100644",
+        "git_blob": "b73d2ee9c60ef153d4182d7f0464dfc527a893bd",
+        "sha256": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809",
+        "bytes": 989
+      }
+    }
+  },
+  "application_scope_only": true,
+  "paint_acceptance": "pending controller source-bound AFTER captures"
+}

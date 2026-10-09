@@ -9,7 +9,7 @@ export function BookHero(): React.ReactElement {
           <p className="book-availability">Online booking is not yet available.</p>
           <p className="book-orientation">Explore service information and contact status below.</p>
         </div>
-        <div className="book-status-panel" aria-labelledby="book-panel-title">
+        <div className="book-status-panel" role="group" aria-labelledby="book-panel-title">
           <div className="book-status-frame">
             <CalendarOff size={48} strokeWidth={1.3} aria-hidden="true" />
             <h2 id="book-panel-title">Online booking is not yet available</h2>

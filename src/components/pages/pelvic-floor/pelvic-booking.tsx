@@ -28,7 +28,7 @@ export function PelvicBooking(): React.ReactElement {
           </div>
         </div>
         <div className="relative min-h-[20rem] lg:mt-12 lg:min-h-0">
-          <StairSteps count={5} direction="down" className="absolute top-[12%] -left-14 z-20 hidden text-[0.9rem] lg:flex" />
+          <StairSteps count={5} direction="down" className="absolute top-[12%] left-4 z-20 hidden text-[0.9rem] lg:flex" />
           <div className="absolute inset-0 lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%,10%_40%)]">
             <Image src="/images/pages/hormone-decision-reception-v3.png" alt="Conceptual bright clinic reception with lounge chairs" fill sizes="(min-width: 1024px) 58vw, 100vw" className="object-cover object-center" />
           </div>

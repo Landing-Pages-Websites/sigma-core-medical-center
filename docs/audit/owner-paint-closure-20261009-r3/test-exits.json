@@ -1,0 +1,68 @@
+[
+  {
+    "command": "npm run lint",
+    "started_utc": "2026-10-09T16:31:57.911816+00:00",
+    "command_start_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+    "command_start_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "working_directory": "/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1",
+    "TMPDIR": "/var/lib/megaclaw/workspace/.awb-scratch/tmp",
+    "raw_log": "lint.log",
+    "status": "exited",
+    "finished_utc": "2026-10-09T16:32:21.002161+00:00",
+    "exit_code": 0,
+    "command_end_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "raw_log_sha256": "896b0ab630e18c4a0bf4fd27f94e8aec2a3839164376b33f91cab4f304af202c"
+  },
+  {
+    "command": "npx tsc --noEmit",
+    "started_utc": "2026-10-09T16:32:21.002708+00:00",
+    "command_start_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+    "command_start_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "working_directory": "/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1",
+    "TMPDIR": "/var/lib/megaclaw/workspace/.awb-scratch/tmp",
+    "raw_log": "types.log",
+    "status": "exited",
+    "finished_utc": "2026-10-09T16:32:29.874730+00:00",
+    "exit_code": 0,
+    "command_end_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "raw_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": "npm run build",
+    "started_utc": "2026-10-09T16:32:29.903103+00:00",
+    "command_start_HEAD": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+    "command_start_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "working_directory": "/var/lib/megaclaw/workspace/.awb-scratch/wt-sigma-owner-closures-20261009-r1",
+    "TMPDIR": "/var/lib/megaclaw/workspace/.awb-scratch/tmp",
+    "raw_log": "build.log",
+    "status": "exited",
+    "finished_utc": "2026-10-09T16:33:08.228096+00:00",
+    "exit_code": 0,
+    "command_end_file_sha256": {
+      "src/components/pages/neuropathy/neuropathy-faq.tsx": "50f665542ae7f199b42023bc34fb25dbcdb2aab90dacc6295787215e7f421498",
+      "src/components/pages/pelvic-floor/pelvic-booking.tsx": "761d97bc2597fca19ebe86679e2574a1823b386a7ae028cd290facd97ff8852e",
+      "src/components/batch-three/book/hero.tsx": "6b6b4d0c77fe91324b38668db40740a60276880c906ff80e8d32cff7859a6809"
+    },
+    "raw_log_sha256": "beb4c573548157a58a8771e31c9c70eb9bcd721bad442cb8fb62f47b933a8ab3"
+  }
+]

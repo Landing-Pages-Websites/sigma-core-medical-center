@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-09T16:33:45.462058+00:00",
+  "kind": "Builder self-review and simplify, not independent or Director review",
+  "checks": {
+    "neuropathy_only_class_changes_and_two_label_spans": true,
+    "pelvic_only_left_offset_replacement": true,
+    "book_only_role_group_addition": true,
+    "all_visible_text_and_destinations_preserved": true,
+    "outer_faq_li_bevel_and_grid_preserved": true,
+    "no_new_logic_helpers_any_or_debug_code": true,
+    "no_new_overflow_hiding_or_truncation": true,
+    "shared_components_unmodified": true
+  },
+  "simplify": "Removed now-redundant FAQ focus-visible clip override along with inner clipping. Reused existing ACTION_CLASS and arrow constraints; no helper or shared-style change. Pelvic and Book are single-token/attribute changes. Existing component lengths retained under frozen scope.",
+  "remaining_acceptance": "Controller source-bound AFTER browser/capture and accessibility verification.",
+  "precommit_verification": {
+    "utc": "2026-10-09T16:35:30.738745+00:00",
+    "staged_scope_exact": true,
+    "application_path_count": 3,
+    "new_documentation_path_count": 13,
+    "staged_application_hashes_equal_all_three_test_start_end_hashes": true,
+    "scoped_git_diff_check_exit": 0,
+    "raw_logs_whitespace_not_normalized": true,
+    "protected_byte_check_exit": 0,
+    "evidence_existing_file_recheck_exit": 0
+  }
+}
