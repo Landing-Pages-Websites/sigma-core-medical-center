@@ -43,7 +43,8 @@ Environment: `TMPDIR=/var/lib/megaclaw/workspace/.awb-scratch/tmp`, `NEXT_TELEME
 | `npx tsc --noEmit` (after completed build) | 0 | [tsc.log](tsc.log); empty successful output |
 | Earlier concurrent TypeScript invocation | 2 | [tsc-concurrent-build.log](tsc-concurrent-build.log); TS6053 while the concurrent build regenerated `.next/types`; retained, then rerun sequentially |
 | `python3 docs/audit/owner-closures-20261009-r1/check-built-html.py` | 0 | [html-check.json](html-check.json) |
-| `git diff --check` | 0 | No whitespace errors |
+| `git diff --check` before staging / full base diff excluding raw logs | 0 | No source/document whitespace errors |
+| Staged diff whitespace check including raw logs | 2 | Original build progress CR/trailing whitespace and npm blank lines; raw test output retained verbatim |
 | Corrected protected SHA-256 + byte sizes | 0 | [protected-check.json](protected-check.json); 724/724 match |
 | Diff/path allowlist versus base | 0 | [scope-check.json](scope-check.json), [changed-paths.txt](changed-paths.txt) |
 
