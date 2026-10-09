@@ -19,8 +19,13 @@ function GuidePanelB(): React.ReactElement {
         {WAYS.guide.headline}
       </h3>
       <p className="mt-3 max-w-md text-lg text-charcoal/80">{WAYS.guide.body}</p>
-      <Link href="/educational-guide" className={`${outlineButtonB} mt-7 w-full sm:w-auto`}>
-        {WAYS.guide.cta} <ArrowRight size={18} aria-hidden />
+      <Link
+        href="/educational-guide"
+        className={`${outlineButtonB} mt-7 w-full sm:w-auto`}
+        style={{ height: "auto", minHeight: "3rem" }}
+      >
+        <span className="min-w-0 whitespace-normal">{WAYS.guide.cta}</span>
+        <ArrowRight size={18} className="shrink-0" aria-hidden />
       </Link>
       <p className="mt-5 border-l-4 border-electric bg-white/70 p-3 text-sm text-muted">
         The resource title, media, and delivery details are pending customer approval. The guide

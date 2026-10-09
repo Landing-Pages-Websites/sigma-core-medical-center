@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { BRAND, HERO, PENDING } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
@@ -38,7 +37,7 @@ export function HeroB(): React.ReactElement {
   return (
     <section id="hero" aria-label="Introduction" className="bg-ink">
       <div className="bg-surface">
-        <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
+        <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 sm:px-10">
           <Image
             src="/images/shared/logo.png"
             alt="Sigma Core Medical Center"
@@ -47,11 +46,7 @@ export function HeroB(): React.ReactElement {
             priority
             className="h-12 w-auto sm:h-14"
           />
-          <nav aria-label="Main navigation" className="flex items-center gap-3 text-sm font-semibold text-ink max-[360px]:w-full max-[360px]:justify-between sm:gap-6 sm:text-base">
-            <Link href="/services/neuropathy" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Neuropathy</Link>
-            <Link href="/services" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Services</Link>
-            <SteppedBars className="hidden items-end sm:flex" />
-          </nav>
+          <SteppedBars className="items-end" />
         </div>
       </div>
       <div className="relative overflow-hidden">

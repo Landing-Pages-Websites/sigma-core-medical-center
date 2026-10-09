@@ -21,8 +21,8 @@ function WalnutRail(): React.ReactElement {
         src="/images/variant-b/walnut-texture.jpg"
         alt=""
         fill
-        sizes="960px"
-        className="object-cover"
+        sizes="1.25rem"
+        className="scale-[2.4] rotate-90 object-cover"
       />
     </div>
   );

@@ -10,11 +10,11 @@ import { SiteFooterB } from "@/components/variant-b/site-footer";
 import { SITE_DESCRIPTION } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "Neuropathy & Personalized Care in Richmond, VA",
+  title: "Direction B — The Forward Standard",
   description: SITE_DESCRIPTION,
 };
 
-export default function HomePage(): React.ReactElement {
+export default function VariantBPage(): React.ReactElement {
   return (
     <>
       <main>
