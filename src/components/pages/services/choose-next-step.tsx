@@ -63,17 +63,17 @@ function OtherPaths(): React.ReactElement {
       <p className="text-xs font-semibold tracking-[0.2em] text-focus uppercase">Explore other paths</p>
       <ul className="mt-4 grid gap-3 md:grid-cols-3">
         {OTHER_PATHS.map(({ title, href, icon: Icon }) => (
-          <li key={href}>
+          <li key={href} className="min-w-0">
             <Link
               href={href}
-              className="group flex h-full min-h-24 items-center gap-5 border border-white/15 bg-navy px-6 py-5 transition-colors [clip-path:polygon(0_0,93%_0,100%_50%,93%_100%,0_100%)] hover:bg-[#0b2546] md:[clip-path:polygon(4%_0,93%_0,100%_50%,93%_100%,4%_100%,0_50%)] md:pl-8 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
+              className="group flex h-full min-h-24 min-w-0 max-w-full items-center gap-2 border border-white/15 bg-navy px-4 py-5 transition-colors sm:gap-5 sm:px-6 [clip-path:polygon(0_0,93%_0,100%_50%,93%_100%,0_100%)] hover:bg-[#0b2546] md:[clip-path:polygon(4%_0,93%_0,100%_50%,93%_100%,4%_100%,0_50%)] md:pl-8 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
             >
-              <span className="flex h-14 w-14 shrink-0 items-center justify-center bg-royal">
-                <Icon size={28} strokeWidth={1.5} aria-hidden />
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center bg-royal sm:h-14 sm:w-14">
+                <Icon size={28} strokeWidth={1.5} className="shrink-0" aria-hidden />
               </span>
-              <span aria-hidden className="h-12 w-px bg-white/25" />
-              <span className="text-lg font-semibold">{title}</span>
-              <ChevronRight size={22} className="mr-6 ml-auto text-focus transition-transform group-hover:translate-x-1" aria-hidden />
+              <span aria-hidden className="h-12 w-px shrink-0 bg-white/25" />
+              <span className="min-w-0 flex-1 text-lg font-semibold whitespace-normal [overflow-wrap:break-word]">{title}</span>
+              <ChevronRight size={22} className="mr-2 ml-auto shrink-0 text-focus transition-transform group-hover:translate-x-1 sm:mr-6" aria-hidden />
             </Link>
           </li>
         ))}

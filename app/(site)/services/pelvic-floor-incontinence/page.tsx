@@ -5,6 +5,7 @@ import { PELVIC_PAGE } from "@/content/pages";
 export const metadata: Metadata = {
   title: "Pelvic Floor and Incontinence Care",
   description: PELVIC_PAGE.intro,
+  robots: { index: false, follow: true },
 };
 
 export default function PelvicFloorRoute(): React.ReactElement {

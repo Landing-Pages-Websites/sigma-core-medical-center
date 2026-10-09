@@ -1,0 +1,44 @@
+{
+  "sequential": true,
+  "environment": {
+    "TMPDIR": "/var/lib/megaclaw/workspace/.awb-scratch/tmp",
+    "NEXT_TELEMETRY_DISABLED": "1",
+    "npm_config_cache": "/var/lib/megaclaw/workspace/.npm-cache",
+    "npm_config_offline": "true"
+  },
+  "checks": [
+    {
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "started_utc": "2026-10-09T15:18:59.464664+00:00",
+      "ended_utc": "2026-10-09T15:19:28.930052+00:00",
+      "exit_code": 0,
+      "log": "lint.log"
+    },
+    {
+      "command": [
+        "npx",
+        "tsc",
+        "--noEmit"
+      ],
+      "started_utc": "2026-10-09T15:19:28.930661+00:00",
+      "ended_utc": "2026-10-09T15:19:37.093580+00:00",
+      "exit_code": 0,
+      "log": "tsc.log"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "started_utc": "2026-10-09T15:19:37.127418+00:00",
+      "ended_utc": "2026-10-09T15:19:55.819154+00:00",
+      "exit_code": 0,
+      "log": "build.log"
+    }
+  ]
+}

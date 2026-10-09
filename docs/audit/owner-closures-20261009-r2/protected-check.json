@@ -1,0 +1,4410 @@
+{
+  "approved_sha": "4d9e2370ed0f23849f8a3c6e143caa5c577865c3",
+  "corrected_protected_count": 724,
+  "actual_home_files": [
+    "app/fonts/PlayfairDisplay-500.woff2",
+    "app/fonts/PlayfairDisplay-600.woff2",
+    "app/fonts/SourceSans3-400.woff2",
+    "app/fonts/SourceSans3-600.woff2",
+    "app/fonts/SourceSans3-700.woff2",
+    "app/globals.css",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "public/images/shared/logo.png",
+    "public/images/shared/reception-1.png",
+    "public/images/shared/waiting-room.png",
+    "public/images/variant-b/logo-core.png",
+    "public/images/variant-b/walnut-texture.jpg",
+    "src/components/shared/pending-action.tsx",
+    "src/components/shared/reveal.tsx",
+    "src/components/variant-b/buttons.ts",
+    "src/components/variant-b/faq-location.tsx",
+    "src/components/variant-b/hero.tsx",
+    "src/components/variant-b/informed-path.tsx",
+    "src/components/variant-b/motifs.tsx",
+    "src/components/variant-b/neuropathy.tsx",
+    "src/components/variant-b/place-of-care.tsx",
+    "src/components/variant-b/services.tsx",
+    "src/components/variant-b/site-footer.tsx",
+    "src/components/variant-b/two-ways.tsx",
+    "src/content/site.ts",
+    "src/lib/fonts.ts",
+    "src/lib/use-accordion.ts"
+  ],
+  "actual_home_count": 28,
+  "all_variant_b_paths": [
+    "src/components/variant-b/buttons.ts",
+    "src/components/variant-b/faq-location.tsx",
+    "src/components/variant-b/hero.tsx",
+    "src/components/variant-b/informed-path.tsx",
+    "src/components/variant-b/motifs.tsx",
+    "src/components/variant-b/neuropathy.tsx",
+    "src/components/variant-b/place-of-care.tsx",
+    "src/components/variant-b/services.tsx",
+    "src/components/variant-b/site-footer.tsx",
+    "src/components/variant-b/site-header.tsx",
+    "src/components/variant-b/two-ways.tsx"
+  ],
+  "all_variant_b_count": 11,
+  "all_variant_b_components_included": true,
+  "excluded_nonancestor_paths": [
+    "app/(batch-three)/batch-three.css",
+    "app/(batch-three)/layout.tsx",
+    "app/(site)/layout.tsx",
+    "app/(utility)/layout.tsx",
+    "app/(utility)/utility.css",
+    "app/services/interior.css",
+    "src/components/interior/interior-header.tsx",
+    "src/components/shared/site-shell.tsx"
+  ],
+  "sha256_and_byte_size_mismatches": [],
+  "original_broad_receipt_preserved": "731/732, not rewritten",
+  "original_receipt_sha256": "5296cb3160526e65ea95a35c41bcf9ae71a98aa2100c0c7c4af1879731a7e002",
+  "source_before_capture_sha256": "effceea65f80366cb1e5433a775c55c68e84f84987246ce2fbc646a0dadcc49b",
+  "files": [
+    {
+      "path": "app/(batch-three)/book/fonts/SourceSans3-700.woff2",
+      "bytes": 11268,
+      "sha256": "f70bb40e5fb4158ee1a6f0eb96d109d515524be3f1ea5e6a104f669756e62fcc",
+      "matches_approved": true
+    },
+    {
+      "path": "app/(batch-three)/book/fonts/SourceSans3-800.woff2",
+      "bytes": 11200,
+      "sha256": "9ecfbe4a00ffc75bcbe1ee3bb5c8cf2fcfcccf73e55f96ec938545d0d86bbe4b",
+      "matches_approved": true
+    },
+    {
+      "path": "app/fonts/PlayfairDisplay-500.woff2",
+      "bytes": 123608,
+      "sha256": "b60ffb0ee2b4e09d71d67ff3ea16d6a23cf2e0cf637c5f4e36fff2e3b1465252",
+      "matches_approved": true
+    },
+    {
+      "path": "app/fonts/PlayfairDisplay-600.woff2",
+      "bytes": 123672,
+      "sha256": "8ab6a1db2d7caeb46c742371da500d0f3de1dc6ec6bea2aef0106f678d7a1f8d",
+      "matches_approved": true
+    },
+    {
+      "path": "app/fonts/SourceSans3-400.woff2",
+      "bytes": 234708,
+      "sha256": "b6f2cc8d9905e97b5cd7a294367bb529814385f299fb23057060394cbd6bbffb",
+      "matches_approved": true
+    },
+    {
+      "path": "app/fonts/SourceSans3-600.woff2",
+      "bytes": 234680,
+      "sha256": "26efb7fbad9540df2595fe867a37e454d22973b9e37816d263fdc5295cb084bb",
+      "matches_approved": true
+    },
+    {
+      "path": "app/fonts/SourceSans3-700.woff2",
+      "bytes": 15596,
+      "sha256": "ae35266f2ab0d5314ff9a04127931eb26c793e4f1269bb240046d4d2db4b7bb1",
+      "matches_approved": true
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 1773,
+      "sha256": "ec467547bb7cd062dda82b72362cab1132e4450e77c8d8ab233ffdc26dd252b2",
+      "matches_approved": true
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 1045,
+      "sha256": "6e1f013bd78c013b093f50b86fefea92c04cb56811ef59f6a125677d60345d13",
+      "matches_approved": true
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 1034,
+      "sha256": "86ce9471cd6f00ce49c867dfca8b806aaa9abd9d260bb229a02244c5075dcba7",
+      "matches_approved": true
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 104,
+      "sha256": "ab4c61f6ee100ae43610a18512f1ebcec842bb2405431e1009266173f21cf772",
+      "matches_approved": true
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 237213,
+      "sha256": "e3d573b8ee9a6b9dcfb373d4b91087daec0e9c67924757f81511810807b7916c",
+      "matches_approved": true
+    },
+    {
+      "path": "package.json",
+      "bytes": 614,
+      "sha256": "6b0ee5519a9b7548bae41bbd112cf71bb0b17147858090bd3462feac6a16d33e",
+      "matches_approved": true
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-context.png",
+      "bytes": 401846,
+      "sha256": "0cfac3125660c79baa1a733cd51b3af1fc0d439a432979750c37bda8d3ff9a78",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r0-ref.png",
+      "bytes": 1014278,
+      "sha256": "7a2c3a5a449892769a2ea87e0a4c0789ff199b2f63a5abd4aa3effc4b7a6528b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r1-ref.png",
+      "bytes": 127103,
+      "sha256": "108a83426cc06bc4fd109b2f6b584460c66cc05bf401f2c3c162bf932fb4e7b2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r10-ref.png",
+      "bytes": 13154,
+      "sha256": "4df51349cd52fb30e4dd963fcc841c4cc7325b6ab3d984d3255217395bbe90ce",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r11-ref.png",
+      "bytes": 2236,
+      "sha256": "6f8fcbbbb25f16b232ea8c453258cb82f36930b1432547be16ec59aa3f525849",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r2-ref.png",
+      "bytes": 236312,
+      "sha256": "fe15cf143fa5df5d84caf639f0e5ce9d56f2f0597bb221a563ebe1e77545ae41",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r3-ref.png",
+      "bytes": 151401,
+      "sha256": "5f1f5dfbcf2a772be46f18c953b2d79126f1c9b0c99d156922794f194750a8b4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r4-ref.png",
+      "bytes": 43791,
+      "sha256": "c0b8b71ac57ab778a48960b63c6e2a040a97c36c7b166c33436c6404dd40d5f9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r5-ref.png",
+      "bytes": 45214,
+      "sha256": "2038a9cbb518927fa88d64f24f1d0d277b9bbe60aac54cb733dd9ab21adb4f23",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r6-ref.png",
+      "bytes": 23812,
+      "sha256": "380d389db0ff58ba3f167bf3d1f37ed511ddaf1597a62117d2f2f403887f77c3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r7-ref.png",
+      "bytes": 37356,
+      "sha256": "e663491189d6f33f80fee148e26121e9fcc31eb7281929ec4c654423acdefccd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r8-ref.png",
+      "bytes": 30040,
+      "sha256": "c846e65ce918197a33d371f245eff68e2400f162e75eb9463d60bbaa75d151df",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/01-hero-r9-ref.png",
+      "bytes": 24919,
+      "sha256": "771aea9b501965000e3496925b5ce20aa4b74ce52151ccd2df561ae361cee95b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-context.png",
+      "bytes": 411239,
+      "sha256": "0976b20abff68cda7dc1f31b2d905bb9a2551615f73de0ef396a794038c4ef91",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r0-ref.png",
+      "bytes": 1000950,
+      "sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r1-ref.png",
+      "bytes": 699035,
+      "sha256": "de6d9fb0d2532fbe6265bfabffc9ada787f9d06d3a9a61128a701a4fa37a5a7d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r2-ref.png",
+      "bytes": 20413,
+      "sha256": "5217fe89d6ffa6f95731d931d0d827e72814ca0c0f3992d5b5e0a7660a9dbec4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r3-ref.png",
+      "bytes": 17401,
+      "sha256": "a3c1d3352b1a4e31ad0f6f8dec74f80c9f427d1c4d42a8d931babfd4afce8c65",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r4-ref.png",
+      "bytes": 19255,
+      "sha256": "00cfa8d891b86f4ddad22c9dbb151eff1b2cf0618214997574ade1692fba9663",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r5-ref.png",
+      "bytes": 16925,
+      "sha256": "445ab84ac703d5392719e64d2e4ad8c4897d224a0c67f6fe2ca8948ce7db4d6f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r6-ref.png",
+      "bytes": 15356,
+      "sha256": "381e5d2a5cb7fb85f801e7ca4a294e9ad5ec63b6227cfe14ac1128753e889913",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/02-clinic-purpose-r7-ref.png",
+      "bytes": 282802,
+      "sha256": "eb4d9cb479743957d38cbc31363c15256bf4c7a3abe724b63925b98070d3d234",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-context.png",
+      "bytes": 361859,
+      "sha256": "79b39cdb90cc0e27a46ee4f44fb73e4430f2b0487a4e564499bd78654e7531dc",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r0-ref.png",
+      "bytes": 864840,
+      "sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r1-ref.png",
+      "bytes": 213584,
+      "sha256": "2ec6fa179fc1761fdbe571bc14d575b668f2b607ceb32f9cb84710bfb10206af",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r2-ref.png",
+      "bytes": 188588,
+      "sha256": "6cb9b56b0c5b90fa2d0e07dbd670afe1cc4b15f08879c1fab37f540821c80a46",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r3-ref.png",
+      "bytes": 36629,
+      "sha256": "358998e609bc43ae3652fe2b302653734e5af99ed7495459f9ec23a05e85df09",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r4-ref.png",
+      "bytes": 12564,
+      "sha256": "552c8b80f8e80ded94ad70d35a155c63211fa9640f841ad95dc3117f030ab1c2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r5-ref.png",
+      "bytes": 342126,
+      "sha256": "20027768849d0a54c32a14abad2e49ae3b2dcff253b1fbdafa7d8a39a5af99ee",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/03-facility-gallery-r6-ref.png",
+      "bytes": 292514,
+      "sha256": "1f65682b58e88b8e0df7c6a84a3b64b7970a2ee19dea19ebcd06ecf46a88ca08",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-context.png",
+      "bytes": 431744,
+      "sha256": "5c5d8de3ae2dccf520b236892c7fc9dece54c60741c8fd4c3b6b27184cccb962",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r0-ref.png",
+      "bytes": 1089836,
+      "sha256": "12cac11f69a0372d66b27ab02a8087ac2b10d7f3660a5e918b2b4d72b70d3d66",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r1-ref.png",
+      "bytes": 361802,
+      "sha256": "0d83e69970b020509aa4012288475054c2fb7369d15d7101d7cb628570da1784",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r10-ref.png",
+      "bytes": 9113,
+      "sha256": "c532fa549dc56a28d151ddf9d8778a9bf20cd9505f111f0bd5e9903a174dac75",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r11-ref.png",
+      "bytes": 96905,
+      "sha256": "2d11fb0a7906637c0fb593b58e4a412849a4e8ae4d8d3c1a27c9345cb045d6b7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r12-ref.png",
+      "bytes": 117698,
+      "sha256": "4361fc537bff2e0d1618f2df0c07bced285adb5ff36b4403acdc8b78e1288c1c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r2-ref.png",
+      "bytes": 84013,
+      "sha256": "2d9fdb0a97b1a0b10c4daaef62809c69aaf364c9cd2808f334d3444714a83f90",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r3-ref.png",
+      "bytes": 79324,
+      "sha256": "eac4714f97b80d00b8ca3ea615766516a6dc8b1dc5aab49c5c2011ca41ff6fe6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r4-ref.png",
+      "bytes": 47282,
+      "sha256": "2ce75bd41d61958741b766be036c88fac51e8a921088fd7384d5158671392dc3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r5-ref.png",
+      "bytes": 41377,
+      "sha256": "f0cfd20474843c8a31195f748097eb32098e6e6a527083b9b00fc04283d1b727",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r6-ref.png",
+      "bytes": 29044,
+      "sha256": "3d56bec0554bb9933105fa2fe4b0fb8005ca443fa15f17a9604f929f9a4ed4d6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r7-ref.png",
+      "bytes": 20485,
+      "sha256": "390478503e07cd66d704c974c750d4fc405d6c9a1bbc8ccf8179f57333281d9d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r8-ref.png",
+      "bytes": 27149,
+      "sha256": "4216dc3156bbdc4c4c39c8af4b03d45bc112f7bae08fc76e77b4863c95ddd8ba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/04-care-principles-r9-ref.png",
+      "bytes": 21534,
+      "sha256": "308dfb8677686845591854cc2fb0d1b118d33f7ab5ae2c87e3aa098cd929b1ca",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-context.png",
+      "bytes": 358481,
+      "sha256": "dcacb04dc8df005ee52bd9095e3b8120e734fb3143f1dd967071ed2a45a8485a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r0-ref.png",
+      "bytes": 891434,
+      "sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r1-ref.png",
+      "bytes": 85159,
+      "sha256": "9e42697edd670c4deb73c78fbb72f052f17bfaaf016674566e1b1b2d631a6bae",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r10-ref.png",
+      "bytes": 344714,
+      "sha256": "e6eb1946ec02b2e52000a5456703e850a20db0d6736074759bbfe6029e9f8bdd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r2-ref.png",
+      "bytes": 102827,
+      "sha256": "417b94ec69d4fef705a4e45ff9ac24433c43a8a2f6b4eb644dea4708f59611e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r3-ref.png",
+      "bytes": 62394,
+      "sha256": "c934672f133566c208049ecac18666045945af508e00b5db7429c6ce8d9152ee",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r4-ref.png",
+      "bytes": 78887,
+      "sha256": "4e632ec6db3a71bee128d08683779bc60b516308ecd852c0b2130eb1157954ca",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r5-ref.png",
+      "bytes": 66467,
+      "sha256": "053a842b434f843c7081e2e3e2bc24dc17ae9ae88911e7f8d0288b2b0136edec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r6-ref.png",
+      "bytes": 16883,
+      "sha256": "db3f55fcb1ac9485e2f326ca0ff2f06913137a949df502406759ebdafcfda6f7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r7-ref.png",
+      "bytes": 26994,
+      "sha256": "fcb91bb0cd6315426c37ad0e0165c1f1e3caf0db8c1f7d3cceeb1526f9785dbb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r8-ref.png",
+      "bytes": 20941,
+      "sha256": "374b3e1b21a8da5ccfa4378ec6b33a69bb1b7a03063d517a8bee197881e5c627",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/05-team-publication-gate-r9-ref.png",
+      "bytes": 14621,
+      "sha256": "685dbd8473ab416e179626766edb501188cf3459fba42a4800dd116add678687",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-context.png",
+      "bytes": 430497,
+      "sha256": "94fec817990d7ae6422bc00a436626bab5eefe2aba88d93ceb9fade93c308de3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r0-ref.png",
+      "bytes": 1165305,
+      "sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r1-ref.png",
+      "bytes": 280858,
+      "sha256": "af46f1fb8e7e17a70e5051123976ebfbe68878ab54e8880996d7221c4766e218",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r2-ref.png",
+      "bytes": 47931,
+      "sha256": "ceeccbd976e676989b0305b25f8f48cadd4b5fa9c589e5ec80051796ca0f8005",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r3-ref.png",
+      "bytes": 90561,
+      "sha256": "48c93fc1713a4e58c431fbb4462df9168d26404685028f0c6e9108659935fea8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r4-ref.png",
+      "bytes": 43087,
+      "sha256": "424bb5f3aff5344a776059b1828722440e978d5accb70364abf612c728c16875",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r5-ref.png",
+      "bytes": 29969,
+      "sha256": "be65566a8a3cfd0f66a8639d633df72669f8c4409fadafe69f7ecc9cfac66796",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r6-ref.png",
+      "bytes": 25097,
+      "sha256": "30d61b4af8292b7bd46c9facad8de051e53fe5a61c52a04c2fd9b010811cec2b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r7-ref.png",
+      "bytes": 26071,
+      "sha256": "d2414be290a5449d42e9e9314ccf8894447baebc5a8b5dfc26df157c56ea7ecf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/crops/06-booking-cta-r8-ref.png",
+      "bytes": 9001,
+      "sha256": "f56884d671bae87a4108b6d529609c54ded0d64f7b2261c38015de27d7a2e685",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/about/index.html",
+      "bytes": 76705,
+      "sha256": "db5b08a429032fd91ea9f7bc8a365be2658bd4c20b5b34f66f3276c50b69f8ab",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-context.png",
+      "bytes": 344422,
+      "sha256": "524c6d870c991779cd53c0a8252f2a5d79b65697e082592f4f6e60cce7465b5e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r0-ref.png",
+      "bytes": 845558,
+      "sha256": "488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r1-ref.png",
+      "bytes": 331208,
+      "sha256": "e8a019093a40fd0213f02060811e9dae57b6c36437640f46e27812e816bff81a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r2-ref.png",
+      "bytes": 72736,
+      "sha256": "92ebfaed327289d7cadd2d91af2fb89df963668d3ad05d9660bb97fb0115b696",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r3-ref.png",
+      "bytes": 62400,
+      "sha256": "fcb015256af1764fd4153d104275194f85d35f2506ed63042263347885a3ca47",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r4-ref.png",
+      "bytes": 68841,
+      "sha256": "32900bdbbecd5a4259fbc9e3f8f9a40ac14195ae044237e3131cb01a5f16ce26",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r5-ref.png",
+      "bytes": 33934,
+      "sha256": "7c3bc15cc0507bc5ccf5342d4c8c624f2704ea3c55b6d657fad565ca36be0a7e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r6-ref.png",
+      "bytes": 111634,
+      "sha256": "6ba5789fa453112ff046eb0853a5b68fbf7b3766c806e5ab8c232de21800125f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r7-ref.png",
+      "bytes": 8594,
+      "sha256": "1ae7abcf09370bf95fccd8e46f361e550b0da5dcf527faeaa2e4c5a593bda28e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r8-ref.png",
+      "bytes": 9414,
+      "sha256": "3e56c00500b1d3f075084cef990da5aad9cd1652daface2cc58cb880d2708fc3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/01-booking-hero-r9-ref.png",
+      "bytes": 159387,
+      "sha256": "f7af3b0bb9ca7b2754ae8d536496220700baa516e765eeb8f1c85fee7fb243a6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-context.png",
+      "bytes": 326240,
+      "sha256": "a7ee688778c5cb15e3ecf3166d14b7a21f7a6d40c4706ca9d190b74e7ab0dc1b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r0-ref.png",
+      "bytes": 793291,
+      "sha256": "ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r1-ref.png",
+      "bytes": 62765,
+      "sha256": "6677eb5cd1c9d0dcf5df208e864fe895cf45f6e567edf4d9e96a86444363ea19",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r2-ref.png",
+      "bytes": 42212,
+      "sha256": "3370caad73e18d64d1a54d5a8ae31e35b4ec8e93f9dfd8ad862a0e5b4cf02ef7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r3-ref.png",
+      "bytes": 79357,
+      "sha256": "f837efedfe30fce589da1b34edb89384fa848c77d656bbb932619b950d4d9098",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r4-ref.png",
+      "bytes": 25451,
+      "sha256": "09fa8046ff898898a46255635b6598f81c123524ec1209af0f79c2058f6dae9e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r5-ref.png",
+      "bytes": 21029,
+      "sha256": "8ac541678bed20109d5df4d92e4f7798036e98ea0398cf903486fbbd0a3c55e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r6-ref.png",
+      "bytes": 22206,
+      "sha256": "80744e7ac1c94ae0dbea7adbf6c5aa3d9758675fff2273c4a29f846b154abbc1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r7-ref.png",
+      "bytes": 16629,
+      "sha256": "74e2742abfc7240bbd767da9830fb08785d500b39d4c60f2aea8e6a9a9de154e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/02-gohighlevel-calendar-r8-ref.png",
+      "bytes": 9507,
+      "sha256": "cd03a20c72e373f8c5c195a4c0165b7ad1ea8b8a92be4c2d236d6a3c0fdc74e2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-context.png",
+      "bytes": 289412,
+      "sha256": "fedac0cb9b0486e019dde8a20b52b4d7b926d47021e5ad01d08068028b174088",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r0-ref.png",
+      "bytes": 657947,
+      "sha256": "36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r1-ref.png",
+      "bytes": 68591,
+      "sha256": "3d0590d19088708ea9ad5696718af0c952c70edbdc72b75dbeb4a703a4e4c394",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r2-ref.png",
+      "bytes": 50671,
+      "sha256": "736baf44f7e39447cd920dd6d4099ffee59e6f4a92e1d5d83081d60444d6a144",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r3-ref.png",
+      "bytes": 29811,
+      "sha256": "668e7206216f090ade8a331e21460210f53f9c3434f17aeaa97041a1f8f7f34c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r4-ref.png",
+      "bytes": 6554,
+      "sha256": "ed2dd717a99d71b8df97b05260cadae0bc5a414098244d7cf7a8fb5c3e08058a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r5-ref.png",
+      "bytes": 8787,
+      "sha256": "e09ce7f148042e4180aec2db98559eeaa0f4d774a8b25852fc4430562c1789c6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r6-ref.png",
+      "bytes": 6960,
+      "sha256": "7852e11b3c9c0c06c674fdf84f4d2e83295cdce1a794a8151b82291f430bc5c9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r7-ref.png",
+      "bytes": 8397,
+      "sha256": "b79499c4b0a18c21d4717c8232847168d10be33c00438c7cbe82518783b0d6c2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/crops/03-privacy-note-r8-ref.png",
+      "bytes": 7482,
+      "sha256": "af27248c907589197e4056ccf999566fbb4a4640921fb5e89d53367c7c79eeba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/book/index.html",
+      "bytes": 44231,
+      "sha256": "aa647698267646dba2761a53ab9f5022a26791947cd680634f1414c24f053020",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-context.png",
+      "bytes": 368684,
+      "sha256": "4c079c53acf26f2fe9863297dd1c3e5013c082939ecea990593e6e3af77bd8a3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r1-ref.png",
+      "bytes": 889624,
+      "sha256": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r2-ref.png",
+      "bytes": 229478,
+      "sha256": "b2d3a535542e0282e36d0319012d83c83f6849f5a2b0502e19065a62d6d6df84",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r3-ref.png",
+      "bytes": 147994,
+      "sha256": "d6df74a5809392161d397ab8fa5ee968640c5ee9196365d2191e3238d336f051",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r4-ref.png",
+      "bytes": 41501,
+      "sha256": "260f46ec1c2996a8f92826265dc57fd72f5fb6465b4170c58df40a1de4724959",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r5-ref.png",
+      "bytes": 125852,
+      "sha256": "e14ae401a573599eddfb5d446b1ca0fb094dca5cd289282e87bc830c023ac547",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r6-ref.png",
+      "bytes": 28673,
+      "sha256": "a50788294356e38ca2c2becefa9b44a11de34de643cf40b57c95fa4cc5930937",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r7-ref.png",
+      "bytes": 15581,
+      "sha256": "298536d90820b337c6fc4a8d5b0163f32d4a3f3327ee3802d1c9f5fd80523937",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r8-ref.png",
+      "bytes": 17917,
+      "sha256": "8b60701ce8d275bfe26c50e20f72fcb23671252a68a282b9d2c3715f0d5a3169",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/01-contact-hero-r9-ref.png",
+      "bytes": 494824,
+      "sha256": "b93e18104f879e94f1b66c6a8da09488dea3efe009106a0f6d0642bc5e3fdeec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-context.png",
+      "bytes": 289624,
+      "sha256": "5aec49643976254f9b90e800b0d392c88aedab578ecde7d76693754da0d56f15",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r1-ref.png",
+      "bytes": 692717,
+      "sha256": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r2-ref.png",
+      "bytes": 43277,
+      "sha256": "d98552595fac5977f44b6767886b8ce0996f01e98256e7409001ee828265bd2b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r3-ref.png",
+      "bytes": 257954,
+      "sha256": "048f71af5cefe6dea4505e56e502667c52df16c75bf73a279809e87348ea3504",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r4-ref.png",
+      "bytes": 4574,
+      "sha256": "6eef57826e4d98e30a38ed6dfa64cde7e544b528db7715a0fa11b1a34faee3a9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r5-ref.png",
+      "bytes": 35865,
+      "sha256": "b22dc1ac254127c8b06829c9708ac03aaa54a211f5c21bbb69991c4758f197e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r6-ref.png",
+      "bytes": 46227,
+      "sha256": "cf953d0fff9a31e8ad3b46be9d0134e04051f0ca5a1a589b6700e4517b350f89",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r7-ref.png",
+      "bytes": 184178,
+      "sha256": "f049a9851ec58a295a170ea1bfc6b954629e4572ae1ffc04265a6fde552b151c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/02-verified-location-details-r8-ref.png",
+      "bytes": 71023,
+      "sha256": "ac81709e83d7af3d74858316fb4db681ddd7a17677824020df314d4ed24dd8bf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-context.png",
+      "bytes": 345947,
+      "sha256": "86de186ffee36889462eac4e2c19e021bc758cf18831ba4fccc42cff00408cd5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r1-ref.png",
+      "bytes": 837125,
+      "sha256": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r2-ref.png",
+      "bytes": 42657,
+      "sha256": "30aaf2fc253524eaf302154272a91e0b97d6540f6b26e23ae4818a3d4371db3c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r3-ref.png",
+      "bytes": 56301,
+      "sha256": "bfd2c9b41d0f74ba8f6af10c8c04bf5e310fd67562f343f616a344de1d503b36",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r4-ref.png",
+      "bytes": 33789,
+      "sha256": "94c8b03b10126a54d9513579bb4ec90a9ebf7836d46d2ecf7769b7c78f12bb62",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r5-ref.png",
+      "bytes": 42046,
+      "sha256": "88d838750df00b1459b609efb4fa0d3dbc6d0a1defc40662ff37a9125bead930",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r6-ref.png",
+      "bytes": 329771,
+      "sha256": "4700431a9df803682df85b95cc49330979cedd4dca18cb9e3c36b088b400c93e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r7-ref.png",
+      "bytes": 152154,
+      "sha256": "280330af48d87fd6442a3936373c31eb4503bc92831cdda07a4ddf2db96daaa9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r8-ref.png",
+      "bytes": 48685,
+      "sha256": "cd97aacaabcda2c7e4cdc314e5c6ee311836fd5f0c60ba92f71ebcea2a9edac4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/03-facility-image-r9-ref.png",
+      "bytes": 301863,
+      "sha256": "bd42c190c5f1c658721a10265f4be3807994dc3adddfa43ac11d8fb9c57109a7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-context.png",
+      "bytes": 318690,
+      "sha256": "378737b3be15f427b082bf1717542ac8b4aae43c27027f92f691da71400c494d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r1-ref.png",
+      "bytes": 764528,
+      "sha256": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r2-ref.png",
+      "bytes": 38675,
+      "sha256": "d055422da2384c99be86fcd2c73898ba99a2a600d0a5b1762384243dfed38508",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r3-ref.png",
+      "bytes": 54285,
+      "sha256": "10fa7aa0e6d304d1b43439d2e868ccb731842aaa3ec1a02ef7568d9d89d9cf75",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r4-ref.png",
+      "bytes": 18136,
+      "sha256": "bdd05615dcac09f328e111f9d9906985ebd18c66bc537449cb38b2647a7c4ed0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r5-ref.png",
+      "bytes": 78476,
+      "sha256": "58d3c9c78089d54c0166c4bd8cb92ebcfe6d5e5414ca6eb964fa0c399d062585",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r6-ref.png",
+      "bytes": 85589,
+      "sha256": "ac35f5d8992ea4095c53c82f8b1370e497797dde4bbe52481bdc4f963f82ef3e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r7-ref.png",
+      "bytes": 6715,
+      "sha256": "e6e22aff5b075ffd185e44b023e1e628216018e5c644b8406e7eec06d72e6a60",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/crops/04-booking-cta-r8-ref.png",
+      "bytes": 163779,
+      "sha256": "171c8e553986267ff6d74bfb4fa6763ef5c566b1db6a17c8cfbb6cbb673bdd00",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/contact/index.html",
+      "bytes": 37719,
+      "sha256": "5c28738e2130f6fa6f68747322573a0cec58b75dc1ab82fb3d3bc82e47e8073d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-context.png",
+      "bytes": 153006,
+      "sha256": "384312fe704106576d6b8946b18e983416195e22c10d06eed124739da267edf9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r1-ref.png",
+      "bytes": 69307,
+      "sha256": "a9c4e3ef5830954d19fe4e0eb3308b6ba0769a3a5ac0088ad64a9beb186aef32",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r2-ref.png",
+      "bytes": 34161,
+      "sha256": "a892bc02838c244e7d71adc0a169c1f3803a204cd2d067b7b1e811483c1689a4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r3-ref.png",
+      "bytes": 13605,
+      "sha256": "1c4403982f1e9e102fb8fee500f3fe51aecfb66a96a95e5b95761aef8997b97d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r4-ref.png",
+      "bytes": 4282,
+      "sha256": "7af75d8d6e05ec5101b49c0a76dd8656b6f9f5154c5d99c5bf0eaec5db729be1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r5-ref.png",
+      "bytes": 12006,
+      "sha256": "c91f5073962a6a28c04b49a0738c1cef5e95d0e6e1cde9eeee6f56a90c000711",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r6-ref.png",
+      "bytes": 2169,
+      "sha256": "addeed18202759bbe0906c0f0032c6ef3f5d0b36f4de4b6f5f765b95398e0638",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/01-resource-hero-r7-ref.png",
+      "bytes": 3633,
+      "sha256": "25a827edc388ab93703e6a1c0bfc5562c5af1d0f20157dbea152d1d8d090b12a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-context.png",
+      "bytes": 59353,
+      "sha256": "a8c00c7fe47b96a6558be7946be54ba15d61fcd2f044deafb2a3dcb93f8e9c49",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-r1-ref.png",
+      "bytes": 18256,
+      "sha256": "c6ecf3c509994b8fce49ac762386adc0f3b4145ad09f71856940a1f477b95569",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-r2-ref.png",
+      "bytes": 8906,
+      "sha256": "43fb717f5eec352f025e4dfff88148bfe4b82348e26d73ec567fa45720775fcf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-r3-ref.png",
+      "bytes": 13139,
+      "sha256": "3cb5d74aed87f76b9e456b62ec45d8980c8b03d0ce577dfdac05b2c90d2d5c8f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-r4-ref.png",
+      "bytes": 15579,
+      "sha256": "b1203b30f2b94919e84c542dff63876460c780952c35f14075f9902c84976bdb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/02-resource-summary-r5-ref.png",
+      "bytes": 3015,
+      "sha256": "1774072ec14dc7ba2e257b89b888529543bc04cfe90a123b4ce47d843feee683",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-context.png",
+      "bytes": 54940,
+      "sha256": "88098e59d3701f912b7d7b1735a3771425d7cb448af663fbeffcf47e6d9330ba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r1-ref.png",
+      "bytes": 31186,
+      "sha256": "7435a17281a7e714bee1100718d2fbc39061e4846dd19ccd1d363044d536d29a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r10-ref.png",
+      "bytes": 16818,
+      "sha256": "4b4a3017f43d1ff3a35bec2886817a17f2bb1cfeb384b903b9ad5199fbb5d0cb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r11-ref.png",
+      "bytes": 5610,
+      "sha256": "0a776fe0bfe84c07a26e82fd8b378c54a919aaaf4d3ae070fed9e2bd7c963cb3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r12-ref.png",
+      "bytes": 13784,
+      "sha256": "4fcff7a834085465c0492e099f1f073ee6969a54c0a4513b34804e2bc440a938",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r13-ref.png",
+      "bytes": 5345,
+      "sha256": "696ed96ea55c3ec03eeaf63b4abe5413112092d3ab03cc6c682e7af4e3474b15",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r14-ref.png",
+      "bytes": 5806,
+      "sha256": "39403128ef3f2e442b466b0e473a563b22d90ef52f4fea442e13f25c7ff70d2e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r15-ref.png",
+      "bytes": 137149,
+      "sha256": "269a4a9ddd8504035d53c4400a47a02f2577d199cbc5447ea426b1a598ddc80d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r2-ref.png",
+      "bytes": 7545,
+      "sha256": "f0a67ae4d4466377b2aa197ff985de979e789b2d54f9546b1a2c78981471d901",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r3-ref.png",
+      "bytes": 10087,
+      "sha256": "123bea417add31fb6f0a8af57430d8adcd6382796792f358010dbdd6073245d7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r4-ref.png",
+      "bytes": 10989,
+      "sha256": "eadbe3ac597a55944951a00ff1b95aa07225f4400102286b6a3f98e9da9ebb8e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r5-ref.png",
+      "bytes": 2211,
+      "sha256": "7b2892fc7fad4cb3687c71b9884f94cc9f67fc2aa20f03557f770a258f1c8905",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r6-ref.png",
+      "bytes": 30321,
+      "sha256": "59054c552231b61773ad5f36fdf5682868a6e88d500c766d4768a24eade69306",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r7-ref.png",
+      "bytes": 30333,
+      "sha256": "90d4bb20d961c28f48ef6c917ba05661e982eff4856f0700eb881280b86c30c0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r8-ref.png",
+      "bytes": 22597,
+      "sha256": "bc58654d7614e3bcb4cece42fdb5c0000fb78d5d91b4462b2cd0de05c27374e6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/03-lead-form-r9-ref.png",
+      "bytes": 18332,
+      "sha256": "3f3ab17ebc6df5396d6699c1e1b279b09fb196220e5f47db43ed7c8e6a64bef4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-context.png",
+      "bytes": 41488,
+      "sha256": "9fc0e609d756e4d5910d3bb30f084688245475229533950710838b1db1b80d27",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r1-ref.png",
+      "bytes": 9332,
+      "sha256": "0510c2394bd7d2be938e3e84c40da268b497fb19702a70eb7cc336a61a6309ef",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r2-ref.png",
+      "bytes": 16575,
+      "sha256": "5a4e4c5dd1e29f9f19963c9ec1113a8d34607825add685a43bdc7377d8b77dc4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r3-ref.png",
+      "bytes": 8616,
+      "sha256": "4be8807c7f5d1e95d599d970e3dfc97d6184ad71f3ce5cae479b858199a59e1a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r4-ref.png",
+      "bytes": 3219,
+      "sha256": "4d8a86ed0e8e471c529a7e92bd42ef0845d16242193d2f6f8adfb0f05ed7e496",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r5-ref.png",
+      "bytes": 41635,
+      "sha256": "8625911a84277cde0921b729ff9f4f8820524bdad4ad7b93b943256b5b4889bf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r6-ref.png",
+      "bytes": 30818,
+      "sha256": "1bcae7de6dcb7c0791f8cfb92b05fd201f91001c6d5e931461fce9c5e7b993e8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r7-ref.png",
+      "bytes": 27769,
+      "sha256": "c2ce94a5d644bd32a368cfdfb5c55859c7b7799fdb0d3b2f3e906303486f5c04",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r8-ref.png",
+      "bytes": 10056,
+      "sha256": "74c72bd45df1502e5c6878384f8ee4427e03d02cc6d23f6bc3f440772d316da6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/crops/04-privacy-note-r9-ref.png",
+      "bytes": 54846,
+      "sha256": "efbca7b24692d6bfd605b5ae8ef3f21a62c4cbfe02543d31b540b36c2575bb75",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/educational-guide/index.html",
+      "bytes": 32205,
+      "sha256": "4ef6fdeb31f1587a750f02e97b13ab6185a549dd6f8fb5cd1e09152ebbaada3d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-context.png",
+      "bytes": 519768,
+      "sha256": "a411c9577e63134517d64e9921b6fdb92d3153bf05a34e517bc8d34715b7dbf7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r1-ref.png",
+      "bytes": 1244970,
+      "sha256": "c85ca0932074d7e1d944491cf32fd2d872d0777b2c39dcdaed7724589d739b25",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r2-ref.png",
+      "bytes": 549966,
+      "sha256": "aadac74713b05375b1ef5862a975596ca1b69ff4a7726d752df5186c654bd2c6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r3-ref.png",
+      "bytes": 9903,
+      "sha256": "a84c9fe4037648b748110f02a07cd900f51fba3f05e5949593918347b5ee9ca6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r4-ref.png",
+      "bytes": 17133,
+      "sha256": "8f7b2615b7b538d3d5036a35639c2f307970c092882c3894d15a569e054b7a02",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r5-ref.png",
+      "bytes": 4800,
+      "sha256": "13ff9cb9085fc5247eb62b550f12ed77ac1ceeab5ac47088a0df02defd0f6326",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/01-hero-r6-ref.png",
+      "bytes": 386005,
+      "sha256": "bdea4b0ffc389dbf1c66e87be0d13307fcb954a05b803c479e2e88065e1cf6c0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/02-visitor-orientation-context.png",
+      "bytes": 532383,
+      "sha256": "1bafdcf89c00c5bc5b3b27e160af50b093996900bcafc4436676c8e0c38b9ade",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/02-visitor-orientation-r1-ref.png",
+      "bytes": 1412183,
+      "sha256": "6de5f2bea53de3af4ddac802868cf904457fe448129e4c5946e1c6f6206b186e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/02-visitor-orientation-r2-ref.png",
+      "bytes": 70962,
+      "sha256": "9253e0d8d0f4753d4fdd43ce75ac447269d1245122bd80a32ed421c5cafab624",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/03-goals-and-decision-factors-context.png",
+      "bytes": 542768,
+      "sha256": "c747b1415c29d980eb5ed517449f1143f8189ea92f0e26d848c8c87d09fbbdb7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/03-goals-and-decision-factors-r1-ref.png",
+      "bytes": 1408632,
+      "sha256": "6de01999c87bef854c69232134e2f7ea8289db7046c50f849dc18295782bb62f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/03-goals-and-decision-factors-r2-ref.png",
+      "bytes": 95308,
+      "sha256": "b6e17ad795e30d0988dbb20c71b69578c41fd654f72db1d516c3775a47164c11",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/03-goals-and-decision-factors-r3-ref.png",
+      "bytes": 14082,
+      "sha256": "924725e1101c7fe6ef5efc92c98499a51e878d9f3a8647f52b5d1c6617f4f005",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/03-goals-and-decision-factors-r4-ref.png",
+      "bytes": 178644,
+      "sha256": "3e7777b996c1f7b319ce4bb4d48a35fb59298d3231ac109c8e7b0ad941465d24",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-context.png",
+      "bytes": 469280,
+      "sha256": "4c40820d9e1222533a8c2235c557f79a77ccfe3b5edfb722244d8c1d792842af",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r1-ref.png",
+      "bytes": 383433,
+      "sha256": "c3ff6338e7cf077a6f80f0642ffb30c01999e92f798ed13d556328c4d86a12ed",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r2-ref.png",
+      "bytes": 137657,
+      "sha256": "408a4faf1aa3f0f0797edfdf2243f10b8c1a8a9fefb5bdec2406570ad94118cb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r3-ref.png",
+      "bytes": 129611,
+      "sha256": "e8d82785b2fa5a6318dbf5adc999523c69ec4ec343fa14de4f9f3c9def60a681",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r4-ref.png",
+      "bytes": 83579,
+      "sha256": "31bb80cdf4803148483a7a0ae492f1f73a78943fb6f1fcd06020e412b7b7e379",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r5-ref.png",
+      "bytes": 66761,
+      "sha256": "4f2752f4b7f1e32611a0018e4d4443921dc9146f2d46594f62c30edd8ee66caf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r6-ref.png",
+      "bytes": 221804,
+      "sha256": "f9d70fb32a63450aec416484ba07ddbf8512fd343cbb5d0db93598e68231808e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r7-ref.png",
+      "bytes": 9787,
+      "sha256": "830110ec54f29b7fcde6b3a6866ebeccdb639e26f408305b87e77e93683667eb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r8-ref.png",
+      "bytes": 5984,
+      "sha256": "3204c2ef9fb98c83a14071adb091473f8774f7fb1fb268b89283fa383d4893f6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/04-responsible-next-step-r9-ref.png",
+      "bytes": 253244,
+      "sha256": "b0b131206a366283b9d8059d5f8954fe44e12c43f053d0863d6eaa13faf19c20",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-context.png",
+      "bytes": 477794,
+      "sha256": "f751e675a9b8a512db79fc93f099320cc1b0121f73d5e30d9ec87cceead498bf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r1-ref.png",
+      "bytes": 469700,
+      "sha256": "8fdd248ebe527e891103211cf57a8845240932d4866271c1ff2e3c0a12b2264d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r10-ref.png",
+      "bytes": 20995,
+      "sha256": "c8d661b706372b376df739de5442bf6d0071033d8e719a95f3bf7418f56a6e34",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r11-ref.png",
+      "bytes": 25003,
+      "sha256": "e34cc72cc815bd4d3aa60bfd6532b343539b9a3f2f43d495b3716b7a7caef102",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r12-ref.png",
+      "bytes": 17779,
+      "sha256": "b50dc91082599dc369b871fd52d6e929886c5292782b634ed33839900711b40d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r13-ref.png",
+      "bytes": 13210,
+      "sha256": "278bfc3da1816ac7ddd149a814367894ba89e0a34ce257ce65754473cc28a9cb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r14-ref.png",
+      "bytes": 13337,
+      "sha256": "2bec0a57f5f66635705cd83f8e8e2db3dcf07b2670e4e469fd9339f1fded9838",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r15-ref.png",
+      "bytes": 6424,
+      "sha256": "31bd2199f8b0988de1d38d56796736078da3db5f536ba4b69b66ec04f023d6eb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r16-ref.png",
+      "bytes": 3733,
+      "sha256": "46915e5e8f1c9a3f34ba2266dd1e3592c4ea93d14d3a8ec846931445c6d5c3a1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r17-ref.png",
+      "bytes": 414892,
+      "sha256": "eb43fcd4df8e5a066279b5989f6981ccfd7623838a6819697d5b624750e2abee",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r2-ref.png",
+      "bytes": 50232,
+      "sha256": "16986b6220fe040f38be80a2f74c5d7af141e060d8a5aa2f713ef0820bce952a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r3-ref.png",
+      "bytes": 46931,
+      "sha256": "12a6ecc404bc413143220b106b4887c8d9b72b490ad6d2a6222bbd6d4dda142c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r4-ref.png",
+      "bytes": 45355,
+      "sha256": "3fe1abf4073459f09696c9c52ec55cec1cbad6028a4437039838745938fe553c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r5-ref.png",
+      "bytes": 40804,
+      "sha256": "e7499ba117d7fc403522a7143e3b0b61c986a3b3429da7045639f68566f397ea",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r6-ref.png",
+      "bytes": 46804,
+      "sha256": "6398589d3d4302ef7cc76511b532b0e0a1124d32c7b12a160d5f0d5e9639a2a7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r7-ref.png",
+      "bytes": 42207,
+      "sha256": "fff4af5c3a4d7ea3c1a83a41c71de758a98fba5196d6392d809d0d3ec52ee23a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r8-ref.png",
+      "bytes": 10485,
+      "sha256": "edc4f8bab0c6baec5eb00a387de8a34c02d47206ef522389763b5364077d9de2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/05-faq-r9-ref.png",
+      "bytes": 31211,
+      "sha256": "7f8e23b47a50f7a54a9cf421d96b133d8955d84a3f6cb3027c5b947bbeec85fc",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/06-booking-cta-context.png",
+      "bytes": 498461,
+      "sha256": "1ea364faf8ce7db5dd41d0b739ea62393a0ac9d166049483dd680329a0a2dc0c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/06-booking-cta-r1-ref.png",
+      "bytes": 1282854,
+      "sha256": "6368ca27dd0f9354cceb63ac66a123e3cda25270e3eb5fa4730713c3994857dd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/06-booking-cta-r2-ref.png",
+      "bytes": 156900,
+      "sha256": "d968c4d15e381bd68e02578cddeab9a2e66a77ea2cf6b7d2658d6c93da9c842a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/07-medical-sources-context.png",
+      "bytes": 316868,
+      "sha256": "08b5f740224e9a5cadaea2c062562254d067bc7cb2dcb013c8c6f74c7dbf988b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/07-medical-sources-r1-ref.png",
+      "bytes": 661214,
+      "sha256": "ea26d94ea66f9bc73e6aad289e9f8e6f9ac04a3129155655a30dbab7090be836",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/07-medical-sources-r2-ref.png",
+      "bytes": 140602,
+      "sha256": "ecc20baee512ceab68aa30232ea72d77591dc88eb688d140aabaa066233ea807",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/07-medical-sources-r3-ref.png",
+      "bytes": 105622,
+      "sha256": "35ee5cbc1a3947adf2096ce70c0c4e8dacb48607d4e281626c20c7bf4034e131",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/crops/07-medical-sources-r4-ref.png",
+      "bytes": 127705,
+      "sha256": "f03891126fa878213683d071c8c9c82dba4cd15c1bc89a0afb81b8b9e5a401b3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/hormone-optimization/index.html",
+      "bytes": 99525,
+      "sha256": "90a979258160b2d86f326cdbda461b993dab865389237f032031c52e9640698f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/01-hero-context.png",
+      "bytes": 609558,
+      "sha256": "ca6b0c484dfd57184844243a36e844a17acc6506a848b3dccd6458e5c65b7198",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/01-hero-r1-ref.png",
+      "bytes": 1591104,
+      "sha256": "2a0ba83e7d3d265aeeca4c051c75baef496c8f9bce5c3385bf40ac346a1ec184",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/01-hero-r2-ref.png",
+      "bytes": 22594,
+      "sha256": "c59a61b15442135cb52c423243fbef1ae7c655aeccf9b6e91192e57d8cd62d6f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/01-hero-r3-ref.png",
+      "bytes": 531656,
+      "sha256": "9da1ec572a60d7be83b902826924bf8724844a16e43b4e4534fd95be76410315",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-context.png",
+      "bytes": 525082,
+      "sha256": "85117a4dcdeb068f47c6e403867e55c02781320c1914f8a34e1c9ea32944bb00",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r1-ref.png",
+      "bytes": 1270632,
+      "sha256": "a6db400af01bc7e2b44a30ab329940ac72331ae7dd815fe08b8708e52d3c4490",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r2-ref.png",
+      "bytes": 75161,
+      "sha256": "38a19affdb129ac263d66744a334a495dd73a6bca4291232dd0ddce427371aad",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r3-ref.png",
+      "bytes": 59918,
+      "sha256": "90359bd6bb2f0225adec01e218b85ccd0a8bfe55d82e011eb764dfaa51588869",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r4-ref.png",
+      "bytes": 43174,
+      "sha256": "0719e4b61e589eccdd70ed90a52a44c1dbbf8b8c9caae5b9f6e4fd49d952a5c2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r5-ref.png",
+      "bytes": 40172,
+      "sha256": "7f4e3a994c27bab235e5f9260c14184c5a65eb3b92999a53c7bba7ac4ea449a5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r6-ref.png",
+      "bytes": 25590,
+      "sha256": "f6749ffec3dd75a233f52afe7f4b2b181706e1d9cedaff1b1610c1ef9a2c7fe7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r7-ref.png",
+      "bytes": 4846,
+      "sha256": "86a2322032c9a50e288f15d0257b7bfcee40f181e90f457dc7b2867d59d87b97",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/02-visitor-orientation-r8-ref.png",
+      "bytes": 215317,
+      "sha256": "194d0222b6e9e640963bf043f2310cc410daff6530212b631a5353d3b9461727",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-context.png",
+      "bytes": 548822,
+      "sha256": "a9ab0157f9314bce043d1dc9e4976f449d3e2fe832f1cba80fe3babff5add185",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r1-ref.png",
+      "bytes": 1461558,
+      "sha256": "93a5e42bf3dac76f01940a69ac8f1698e47d131c9c48c2622dd34755987ec203",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r2-ref.png",
+      "bytes": 103881,
+      "sha256": "12dbd18a42a309e8cf6b7658917ff85f27f317111f0bdb4e4415d2e55b989014",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r3-ref.png",
+      "bytes": 75884,
+      "sha256": "dd1fd687c66aad04db0d49d3948386490f2b54c3e163cccf5661d667dff6323c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r4-ref.png",
+      "bytes": 45377,
+      "sha256": "9db84626e6a4d082f59733827b11be8bf16592fda98bd6db81cd276efdc4336f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r5-ref.png",
+      "bytes": 36372,
+      "sha256": "9b17312f27ebbfcaa5b4da611a045f0e3af2e2c665a45e2ff022b8dd4e8d2a47",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r6-ref.png",
+      "bytes": 7297,
+      "sha256": "03cf2fe0381f806fb596ec447b8a7e7cf9d528f376cad0a5c4dcd90a1e09d907",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r7-ref.png",
+      "bytes": 6066,
+      "sha256": "0e321b8166f45ba2dcc0bfd8a142fbfdee321e3a7702a0283e5d0b9758c98550",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r8-ref.png",
+      "bytes": 94057,
+      "sha256": "b5e82266b1907973a5a4e5de240d29b7f01386eb8dc84aa7a5c0a42ca28ef02e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/03-goals-and-decision-factors-r9-ref.png",
+      "bytes": 168244,
+      "sha256": "a39d91e929b4b0914106afb7b05e5fa843152eff141a7065de2cc980fa096d1f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-context.png",
+      "bytes": 433724,
+      "sha256": "625cd7419cf367d5fb76d6485df528267da02b89af1ab7071b3f8de8f17cf06c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r1-ref.png",
+      "bytes": 655152,
+      "sha256": "4bf75c6faf39344d26f121801ad67e4791b8c42aa71f698daabb66571ccc7026",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r2-ref.png",
+      "bytes": 45745,
+      "sha256": "b3600408c430eb6bcd6e68f56e77d2acee088fa7eb7c80bcd4023fdc5dc3019d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r3-ref.png",
+      "bytes": 63151,
+      "sha256": "4cf626550d871965e5f04de9edc60e256fe00474447a0153f7d8ef8c0b76c67b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r4-ref.png",
+      "bytes": 36379,
+      "sha256": "0b747e830538a3248edd762483b3b0800091396d63acd1fbefa39097d22df125",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r5-ref.png",
+      "bytes": 25918,
+      "sha256": "d0599f2690b8981fd31c66373df2ab03bb845148d1fccbb5730f01bd64c3a5e2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r6-ref.png",
+      "bytes": 9992,
+      "sha256": "49446910892eff35ee45475515dff22ea7fa740f6a8d563e8b900583fc3ef254",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r7-ref.png",
+      "bytes": 14543,
+      "sha256": "82be35cf835570859e3463faaab2b2162e1f2ac2f6762b00cc88219e1cadeb93",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r8-ref.png",
+      "bytes": 6894,
+      "sha256": "42eb5969189a2ec468da08d4ebc9ba5b398d49e2bfcc23cd0a5be2e55e82b828",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/04-what-to-expect-r9-ref.png",
+      "bytes": 299494,
+      "sha256": "42309f2e9f5585d30df6f84ae96ed789261198c0f4b4d86400eda1c144a894ba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/05-faq-context.png",
+      "bytes": 522921,
+      "sha256": "a0553caba3cf043ce182524bea9071276ee8d5b2a007f11b1b9ca0dcd0175a75",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/05-faq-r1-ref.png",
+      "bytes": 1277168,
+      "sha256": "34b79b33e281e0fb6f3c0198dea72274ca04d42828e57ff6d1d020907a5798c5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/05-faq-r2-ref.png",
+      "bytes": 122202,
+      "sha256": "421ca78806218c7cf96f765c9c70eda6cffd1402c078446252f39c5af03a3339",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-context.png",
+      "bytes": 455093,
+      "sha256": "696a507a4273e47ed747fe9ad2ec6440c1bd45f6fafa13a07e59c8cd3dacd90b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r1-ref.png",
+      "bytes": 1126272,
+      "sha256": "b6c26ae5513c9b6ff684ba683785cff8eb4e69db9b9e18356e435b85bdf3bf2f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r2-ref.png",
+      "bytes": 58695,
+      "sha256": "8a9c19071c460e3d71d68a1633e4128b3669246e12052f944ed03c1916019d76",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r3-ref.png",
+      "bytes": 74045,
+      "sha256": "09531e4f9aae5c5dc1088f42503f3ea89fad7ac59e06541f46c64807dd1e79ff",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r4-ref.png",
+      "bytes": 70889,
+      "sha256": "219eb61a0b94ad483de055790657a6e45747308cf1f24b5c2708c6015b1c3b59",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r5-ref.png",
+      "bytes": 30222,
+      "sha256": "b128bb1504c91bfdc85e7f24b33ea8b91c65bbca9d6eb8be3ca399f4ee29770e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r6-ref.png",
+      "bytes": 17958,
+      "sha256": "59e2a4addc47bd2bb655ab8e4ef1295b100855b88437c5482aadb563a3336b4f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r7-ref.png",
+      "bytes": 12816,
+      "sha256": "cd2b42e7e9b441e2622b2bbdfc3c8d8a4b8a023d3a4659f783486a4f0c2a21f3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/06-booking-cta-r8-ref.png",
+      "bytes": 143075,
+      "sha256": "8702c855cd36ea242df38b6468b23c356346226591405554d5922aabef088906",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/07-medical-sources-context.png",
+      "bytes": 303259,
+      "sha256": "bcf1cf855ae0f4005cf7455350410768f5a3959f473e36155eb98a6c529b9ac3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/07-medical-sources-r1-ref.png",
+      "bytes": 733679,
+      "sha256": "d23e8bba207de7ff834c9471fd87e162ce883d28df4ca8649dc1596b5bdc61fd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/07-medical-sources-r2-ref.png",
+      "bytes": 100758,
+      "sha256": "becd27a0517af9f3b03009728c361ab53ac3930ab0614aeb1e14f479146332e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/07-medical-sources-r3-ref.png",
+      "bytes": 24541,
+      "sha256": "48218ba9d45ba4fe8e585e79b1bfde2c07fa37e656e851b40d313d1291d42829",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/crops/07-medical-sources-r4-ref.png",
+      "bytes": 83653,
+      "sha256": "1acdb58b5ae623385924427ea5f8e360d25b8eabe303363cc2991f5f760fd63b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/neuropathy/index.html",
+      "bytes": 87726,
+      "sha256": "c6b1dd02da5dfe87ad54144a9371f55673e80b404690a35527a1b0259ea98b5f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/01-hero-context.png",
+      "bytes": 471146,
+      "sha256": "5d7ed203723ad83a6a8cdfa16b0d93dc8db21c792ad49bd390323dbca2f97df2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/01-hero-r1-ref.png",
+      "bytes": 1129370,
+      "sha256": "178d4a0ad601a37a4f62becdd474429d9dc58017e044b5965c99c7268925ece7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/01-hero-r2-ref.png",
+      "bytes": 236495,
+      "sha256": "93cead400c472fd3d96312d8fc1abf045843094449980be81a7a06183a9c792f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-context.png",
+      "bytes": 513436,
+      "sha256": "8319f5660573d50fdf508add63e3dee046addcc65a8b3b14c3738a590a3d4147",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r1-ref.png",
+      "bytes": 1221573,
+      "sha256": "52b693ade934161a0f64970a87e60ec299c3a9a8e3b87c2b603483f6b36382c8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r2-ref.png",
+      "bytes": 23156,
+      "sha256": "4053d25de7bf3325a06291003844308467fc29bceffbb712ac832492c1e693bd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r3-ref.png",
+      "bytes": 23940,
+      "sha256": "876fe993ceb99de6bec67dc2a7444019c4304c19e5567a5a548d25fc3fe62a52",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r4-ref.png",
+      "bytes": 158727,
+      "sha256": "f9cc6b3979dffe29cf7522bd147ac4a6e1111252a74076114f78c09860ffd6ec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r5-ref.png",
+      "bytes": 116175,
+      "sha256": "88bb12199b3c81b989bbcfb0d18dba3c674bb7b9a1288752645f83b69f9ada76",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/02-pain-concern-navigation-r6-ref.png",
+      "bytes": 99028,
+      "sha256": "0901e0bd887475c48168f8539ed47ed2dc0af173220af457471b1a77f773bcb7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-context.png",
+      "bytes": 524703,
+      "sha256": "fb98a1e99d26054bdf56e32749d03f958a0b8359831aec5773b776889fc3c1fb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-r1-ref.png",
+      "bytes": 1362387,
+      "sha256": "606187423c69a47912b0f3b2d336b489b42464e0060b3be4b2ca169233042e16",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-r2-ref.png",
+      "bytes": 86393,
+      "sha256": "a0e9362a6bfe416f2e3f973ba114009c80a9770493e0309b23cefc0591da59b4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-r3-ref.png",
+      "bytes": 38051,
+      "sha256": "e154c0eba4c4ed34ed9eac1983285528c338b8ad62b5165d6bf089018a05cd38",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-r4-ref.png",
+      "bytes": 20029,
+      "sha256": "92ac5878673c262f7cf6aa621034fcc7a04c3bd55678fab97e4eb54b81c837d2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/03-knee-concerns-r5-ref.png",
+      "bytes": 447828,
+      "sha256": "b232410893139bf957ca9e453b32db6755e3dd45d734b771a3901e3aa882b165",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-context.png",
+      "bytes": 569875,
+      "sha256": "f0290deacc1c0d64995e7d3801d5b68c91237ccd5188873f06c10770947875b4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r1-ref.png",
+      "bytes": 912173,
+      "sha256": "c2328a925355374b4b257aa11be3697d37099d2f9fec28682a67c4972b3d5426",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r2-ref.png",
+      "bytes": 205020,
+      "sha256": "dc0d85d3478116892d86131346525d6c4717401cbc08b67710dc5ac588fcd997",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r3-ref.png",
+      "bytes": 93260,
+      "sha256": "9673c2fa279d8ad8a70fa1fe65b874797d2175ec779567e9a24d55bcbfe15c9b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r4-ref.png",
+      "bytes": 65770,
+      "sha256": "a7a509c35b8d1c4a0075d26bfca3216ee6e7f0629a1ca898156c38774d4c554d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r5-ref.png",
+      "bytes": 46271,
+      "sha256": "fd6c3eed431879d697b338f2036dc798b921d1c007a5a9ed8882df482e0b4b28",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r6-ref.png",
+      "bytes": 32622,
+      "sha256": "4f69505d20dc0d62ff53c1f19e1d350fc22b713493d4ecc7fa0adb265c85327f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r7-ref.png",
+      "bytes": 27561,
+      "sha256": "688b572750582220ca4ecb15d1854b0b701ffaa7c520cd3755914cda7013c394",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r8-ref.png",
+      "bytes": 5959,
+      "sha256": "b66747972677b064f29204ac52f6d3de8131e862acd78a1084c6f5c74d9a5881",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/04-low-back-concerns-r9-ref.png",
+      "bytes": 393708,
+      "sha256": "3bc4247e33c3e1f1c0240ed3feaf0e07c9d96473b231e673958c142844372daf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-context.png",
+      "bytes": 506257,
+      "sha256": "6e3c4486da237692dcd6f290f2147795b4d7367080ae70fb6651e669b1c13261",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r1-ref.png",
+      "bytes": 525113,
+      "sha256": "7a821615be2b216b55b7b32456dded2c9168bfe2bfda56c7682d8d4de27bd70e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r2-ref.png",
+      "bytes": 444925,
+      "sha256": "36849de408d898390a2ee45dabd2cad55d9e94e6c277aab1c6203c51c04f744f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r3-ref.png",
+      "bytes": 93154,
+      "sha256": "4cc42e0d6619a85492039ed780c56cdab774033ad6089aba77e62f66edd3b504",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r4-ref.png",
+      "bytes": 90815,
+      "sha256": "6b132d46af4b82ba3920a493e12d1e63513effe094bf8820f4831f2b2a7a19ed",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r5-ref.png",
+      "bytes": 25909,
+      "sha256": "b28f241858ac639c5a482607d26d998fc5893918626ed08a3531a9a90ee5acd4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r6-ref.png",
+      "bytes": 30608,
+      "sha256": "ea0757b49682c361937040bcca744191e9d5728fb2df0c7bb7d5301c36acf76f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r7-ref.png",
+      "bytes": 8396,
+      "sha256": "1d6824f4e2e8e321892368f04010ffb5c9f4ad7d22d8d8351eea74a1c5d01b10",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r8-ref.png",
+      "bytes": 258390,
+      "sha256": "eda8c1eaebd8b4d0e03149619d4d94d3de909b76584ba3a73f6e4df1a7e52fee",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/05-neck-concerns-r9-ref.png",
+      "bytes": 112673,
+      "sha256": "3f6e885bd4d5d8a4d793d2bce97b28ee324bb071119e18c70687df3040111cae",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-context.png",
+      "bytes": 491559,
+      "sha256": "06c1a4b114eb7c5c21b8c16cc4fba04dc86679cb1498ac51634bc05039ca5938",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r1-ref.png",
+      "bytes": 1202005,
+      "sha256": "09ec65db5e253daa40e51b5cf6175d046dd2f6a59bf8fe7ed6a7587bdce6587b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r2-ref.png",
+      "bytes": 83462,
+      "sha256": "213a65173ccbad662412c483ee67184a40069afec37e4656a4a6e54755d4dd1d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r3-ref.png",
+      "bytes": 46485,
+      "sha256": "bc29ff99315ebba531462e599f431035aa9361b7909f907eb79709db46d54597",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r4-ref.png",
+      "bytes": 40610,
+      "sha256": "5553c775467c60789f442c5a91366cda00ee148c3d071b2144b11eea0292e0f0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r5-ref.png",
+      "bytes": 6750,
+      "sha256": "a346fa52b47647aa305d188f3822754b0c75a0477ea6e7d3e8acf9040909aa0c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r6-ref.png",
+      "bytes": 7108,
+      "sha256": "df2e6989bc0d03059253c77c5e1f6d3693f372e26609baa6d0002d4b9384788d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/06-decision-factors-r7-ref.png",
+      "bytes": 211593,
+      "sha256": "869600340ee56353824547be3bfb0be8424a5538e910303c0ebfeaa26857de16",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/07-faq-context.png",
+      "bytes": 463726,
+      "sha256": "a7cd6143c1a011bd48420729b33562625ff5d794a00bc4e84b83dbba8e405c20",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/07-faq-r1-ref.png",
+      "bytes": 1084721,
+      "sha256": "0ed810f230ddcffda4caa9204cfcc1c4c015ab2c46c5be47494cbd57609b6dd1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/07-faq-r2-ref.png",
+      "bytes": 41596,
+      "sha256": "6dd7a7470cefa48d2b9914779e197a27c1f139b36c9b3b44ec3601e5d6f76671",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/07-faq-r3-ref.png",
+      "bytes": 11171,
+      "sha256": "aeeac8beb16b27432f321890ff6f3ef8bbea94b8bfd09bd35371bf6366ef7066",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/07-faq-r4-ref.png",
+      "bytes": 133790,
+      "sha256": "0d801261964ea9a5e5e904d6f4f608e56a0ccaa352d4a44434ab56a10d6ef5a6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-context.png",
+      "bytes": 447394,
+      "sha256": "875aa8cd2f6cb10a485d60e767e3d0b58ce814213667023b39b0a8791f915435",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r1-ref.png",
+      "bytes": 1057174,
+      "sha256": "f1a2c91d7587054041316f0fa7b6c81922738009e1ee1ebc2cfeafc98daadb02",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r2-ref.png",
+      "bytes": 90454,
+      "sha256": "9f90f18870e1dfa19b56c84b9cb4e6bed93b877357b9c7c19aafc6e5e1457016",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r3-ref.png",
+      "bytes": 30716,
+      "sha256": "7de73f879fa7319b52b211fa112367d9dae23a14a850d617ddac3966cbdb4f07",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r4-ref.png",
+      "bytes": 37939,
+      "sha256": "659cbd842f55e4454bbe61fc5d4c335cc2b6e04d428955937fdd1ca7804b5a3a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r5-ref.png",
+      "bytes": 29076,
+      "sha256": "2b48d313eb3278aedf30a29c43d3c309ad25828ced2e160f46fef2bd013b3504",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r6-ref.png",
+      "bytes": 14124,
+      "sha256": "171ab9fec4038e43014c54861fb8b777d24b172d519a04ecd2013b6f47797a03",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/08-booking-cta-r7-ref.png",
+      "bytes": 184615,
+      "sha256": "d28e278a2d765f4a231c50b15b3b77773413247f638f648bcb53f5546c09ba5c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-context.png",
+      "bytes": 340176,
+      "sha256": "8250b8a9b6c01bd73f35ea3bec5b4bffcff4a374119a9a0607144e6986379649",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r1-ref.png",
+      "bytes": 481430,
+      "sha256": "8fdefc86ade14b2354c76b1a49cd38b04c68cd00b0fa6ffb5af0ce6759367027",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r2-ref.png",
+      "bytes": 287311,
+      "sha256": "c775020665aaf8b0bbe924bb02ef8f9d3d14ac515c4172545df7d0f8eb6ef171",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r3-ref.png",
+      "bytes": 78772,
+      "sha256": "8eef965a647c18f74d2b006b0e3cd9492fe9febea33b3cb6442d650358fe14e2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r4-ref.png",
+      "bytes": 4486,
+      "sha256": "41849a175a4da2ab6914db4bfb24c79610bc2a7d761a9346cad64c0e1ce4bbae",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r5-ref.png",
+      "bytes": 62031,
+      "sha256": "5af05449d500ee96632e3e10b0277c5f969e2b985f6583e347c61944e994e2b5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/crops/09-medical-sources-r6-ref.png",
+      "bytes": 49088,
+      "sha256": "cb2f68032c15e0eb8897e156cc451c8cf2517f15d4f906bfb40565d852504c7d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pain-relief/index.html",
+      "bytes": 97766,
+      "sha256": "463e02792f3fcdda9fd39c47d672986adf71977c2c821887fbafd9f822599fb1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-context.png",
+      "bytes": 523928,
+      "sha256": "d43551c58d1af7af47ac062def27f570a75a22404a7d35109a34814b1ebd8675",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r1-ref.png",
+      "bytes": 1274262,
+      "sha256": "77f21a4aedb6193fd4fc54b00583310e51835af6ef332c52277b026c6d21f8da",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r2-ref.png",
+      "bytes": 191113,
+      "sha256": "14dacf54dfa08b85d16c15c0c1e063c14fbc80624d2e35e6a9e877bce8e16f10",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r3-ref.png",
+      "bytes": 38497,
+      "sha256": "851e8b63cf8906361f05108cec3dfd76349f4cee546333e4fa923719c48bd275",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r4-ref.png",
+      "bytes": 85360,
+      "sha256": "4d745872cf3b6a92a49308b08da9cee40f41051501daf4b4331631200cb85a7a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r5-ref.png",
+      "bytes": 28298,
+      "sha256": "c942ac79525e141466aa8b2c027dcb1b1379488c5465df0ebad815d5543a3ce2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/01-hero-r6-ref.png",
+      "bytes": 278804,
+      "sha256": "6a147c411e915a43cfe4106dbcb9f2f1b3d9e7c2cb38c69238e368945820c3c1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-context.png",
+      "bytes": 420915,
+      "sha256": "91b49bd2e791fe398b237ba30e72310ff3f70335b4f556841e89785e5271c80e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-r1-ref.png",
+      "bytes": 993752,
+      "sha256": "95b9d3df7e0a3053baa998455377c22bf1019987f4b5342ee5f754f763c31776",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-r2-ref.png",
+      "bytes": 103693,
+      "sha256": "2679e45e3679b6cd6f84dc736fa1a23bf5dad7e87de8cb6028a89a7c87ebd70a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-r3-ref.png",
+      "bytes": 83882,
+      "sha256": "55761fd15aeef5c76f7c907a318c428a3d6b17866ad96702beda09b98e880b00",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-r4-ref.png",
+      "bytes": 51525,
+      "sha256": "3b4909ab4a39c4aa5685f56b5b8e64228fbaf9dd67ebc3c077a3ba9c5fa1ce6c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/02-private-orientation-r5-ref.png",
+      "bytes": 191401,
+      "sha256": "eee6f8410ab20eec1c303cf671ab642d7bd98a043eb2f8b76e44e06284734489",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-context.png",
+      "bytes": 454062,
+      "sha256": "9e6c446a376f9af69294350b83328229ae31eba691d82a9a19746e5564ee9e74",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r1-ref.png",
+      "bytes": 1118304,
+      "sha256": "be5ac4b57d8e3697049195001e35bc5568db37e33bdc1ce5b74b9d5d2b6f4bc5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r2-ref.png",
+      "bytes": 101927,
+      "sha256": "d633b5a6c9fc8a177be5a8b0535c721aeb5d30d3c043fb542a28e0267628b08e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r3-ref.png",
+      "bytes": 70261,
+      "sha256": "3e5c00157c46c95afedf944ad7991c829cc6145dfcd7c6cf52e718629d7cdcea",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r4-ref.png",
+      "bytes": 19158,
+      "sha256": "15745b71c55c36b71a44918bf811272359739c6797385249071d9755f9e09ab0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r5-ref.png",
+      "bytes": 33368,
+      "sha256": "43112310e752788bb2a3a4596b1fc32ae4c9f743a47e368821cd115be379ce0d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r6-ref.png",
+      "bytes": 7805,
+      "sha256": "0c3ffb85a1bc94bd1e68e2cd74e19225ee0612a36f80d545bedcc419344c74f4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r7-ref.png",
+      "bytes": 7743,
+      "sha256": "b04fdd14ceb3adb04133b6ab0a24fb226584f3f9eaea452c66965f1646e5667e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/03-concerns-and-goals-r8-ref.png",
+      "bytes": 158120,
+      "sha256": "b1c69605e418e2470e7b097eaed1ecabf962d74077b41c4542261ec5632795a7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-context.png",
+      "bytes": 443516,
+      "sha256": "abddec22ab023ebb172f741482ed074726b79dab58a2a6ccdb70f2ddeb492e8a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r1-ref.png",
+      "bytes": 657551,
+      "sha256": "d5a554f183d452866b727daf59c1e8f3b365e05f4aba0576db01cad073d34fbf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r10-ref.png",
+      "bytes": 8742,
+      "sha256": "64c3fc9c33d86fff36d71c72465e19d0ca290cd5904413a1848f322fc1699b9a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r11-ref.png",
+      "bytes": 5552,
+      "sha256": "5f09538cf18c0c7657bd0f7e61c4c34e28091710c7225a2b7b438a82df59d648",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r12-ref.png",
+      "bytes": 4259,
+      "sha256": "52eb26c204d711b4cfeee351ae68179a0a48d2b5de3f09784418f116ab78a469",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r13-ref.png",
+      "bytes": 297948,
+      "sha256": "329a604d11326be26b9d697c5b2e4e92054f375e7ff4917e250263ba073e83c1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r2-ref.png",
+      "bytes": 39718,
+      "sha256": "a2b46ff21bfeb80d400a225fcfaa84dcdbfba206e7c5a764286aa23b0bbfb754",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r3-ref.png",
+      "bytes": 63217,
+      "sha256": "dede9794266c0ebe670abeb634374ec2904a65d64f646678aaeddebd52dcf447",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r4-ref.png",
+      "bytes": 71063,
+      "sha256": "367b1a7eadcb30a9698a6ee915b2be269a46bd43c78c66a28eba0adc56b924a8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r5-ref.png",
+      "bytes": 65944,
+      "sha256": "a4876d21af82b0365b3f54f4b38566cc08004d519b3545be8ff101e8b6d761d2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r6-ref.png",
+      "bytes": 33442,
+      "sha256": "9f246ea01a7030c489ba3cece62075033d3875f544056ed1483ddfc119ce563e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r7-ref.png",
+      "bytes": 24305,
+      "sha256": "348a5432d39f9386272fb3eb3637a42205e360357461c298f031a434d1338a15",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r8-ref.png",
+      "bytes": 18078,
+      "sha256": "a1e04d344a3502266cb28fa4fd51a29666f57327b43ddce9f40e4bf6b6c14c37",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/04-what-to-expect-r9-ref.png",
+      "bytes": 9212,
+      "sha256": "a8c65f9ddf2ccd284ff46d8955311983ab941a5e61bc032a646903c9e72af3ca",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-context.png",
+      "bytes": 469315,
+      "sha256": "f0ebfc100b0a1faea1f5abf3dc77bbe3c90f1a04cf4634e5b92e300365fca2c0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r1-ref.png",
+      "bytes": 1031815,
+      "sha256": "cab349b3799a085a9410c799a1941bcf21a42da0b67ccb46b03efeb34c7cf8f4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r2-ref.png",
+      "bytes": 313568,
+      "sha256": "7544c1597bfd108f72f7f7f9d33656e2b3f7df616096e5fd3f4d75874ab696d7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r3-ref.png",
+      "bytes": 44982,
+      "sha256": "f4c5f968d33f614d3a82a07ac4e70ba57bc9e0ea4b2db2b1978196275555c722",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r4-ref.png",
+      "bytes": 44583,
+      "sha256": "eabb54f36d32b85a7d30c1cc783f0025bad906b5787193f4d12f8bd1f1750bde",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r5-ref.png",
+      "bytes": 12402,
+      "sha256": "2e1d9b9de392647c7b248edccacbba0baf5bad2e081746e46b81220bc34878f1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r6-ref.png",
+      "bytes": 4608,
+      "sha256": "a206a89a7a6698900619fcdfd98b9f51ad8f582cace9a2264e2dbf572d86438a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r7-ref.png",
+      "bytes": 4558,
+      "sha256": "e82ea5b162eeed887ae1e4110167a961670769b0e978fa3f145995eabdcbc928",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/05-faq-r8-ref.png",
+      "bytes": 140879,
+      "sha256": "478f71d143a599ba02cf6e65ae9caf6226d60b062806048bb694df0646c7d420",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/06-booking-cta-context.png",
+      "bytes": 424413,
+      "sha256": "02917d5eb2ff23bfbcbe1ee8dd1119d48f00eef5c4ed8c41430d17038c311902",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/06-booking-cta-r1-ref.png",
+      "bytes": 1002962,
+      "sha256": "b5ecc7b0822b1918473923b939ce5638fb003af17750b2996bc2cfb9302a1f11",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/06-booking-cta-r2-ref.png",
+      "bytes": 66586,
+      "sha256": "6d5976ec47564d42adfcdc05a5cc38432e7b179560f7d89d4ecad64f3a2d6598",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/06-booking-cta-r3-ref.png",
+      "bytes": 77533,
+      "sha256": "d55481e19ac12f2fdfe36ee9b203903c7218b84bee48fe07cbef779520cd170e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/07-medical-sources-context.png",
+      "bytes": 284266,
+      "sha256": "87d75257319670e8a313729a296fd1e9af4fbd69796f801b09eb4af3692eafec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/07-medical-sources-r1-ref.png",
+      "bytes": 338495,
+      "sha256": "0e92dc8f30d238140d0bd74eb57d8790497a8ec173ccb2d1864e365045c1aff0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/07-medical-sources-r2-ref.png",
+      "bytes": 165639,
+      "sha256": "7856ce4a00c1d160ae2f23d074aa5d766abee8c7e68dfa19ed7e8213f7483ee1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/07-medical-sources-r3-ref.png",
+      "bytes": 105917,
+      "sha256": "88114a92a4a0b4b4941a3731d7287b8b8c1373bdbb4dd4603c85da222c3e2cd9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/crops/07-medical-sources-r4-ref.png",
+      "bytes": 91256,
+      "sha256": "e75438130e4de7533c8fd5e91735f9bf172ca95193393befc40cdd581b2a8665",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/pelvic-floor-incontinence/index.html",
+      "bytes": 103281,
+      "sha256": "7d5fb231ad5e7ac33f674242566f2a55410d2b749ad54aa6e001625661e3b9e0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-context.png",
+      "bytes": 503531,
+      "sha256": "651f399e47077e732ff1fe3a71a1dd496ca9eb76f62c68a43dced3699190fa36",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-r1-ref.png",
+      "bytes": 1252497,
+      "sha256": "d5dca16f4889873ec7731931ea67b6afd958417238941a362f7575142f5a202b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-r2-ref.png",
+      "bytes": 206911,
+      "sha256": "20a1785bcb5114df348d2f21661dde49302de212c1816e8e91e8dd32e7b2c2e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-r3-ref.png",
+      "bytes": 178584,
+      "sha256": "93273fac376e9736fb86daab240f930702ca191eac05377706e177ea24d2c512",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-r4-ref.png",
+      "bytes": 7109,
+      "sha256": "eebd766a365e28d44f1a0ca023f4299ffd4cb3daa6f7f74dd14534513f2a3c46",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/01-hero-r5-ref.png",
+      "bytes": 332151,
+      "sha256": "4db22aa88e1017f1583e6bf1c4cde970e1dc6575bd1599de7a01498fcd0cf619",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/02-category-orientation-context.png",
+      "bytes": 424934,
+      "sha256": "4148932f835f38d8580d8a86e87b9c35881e987f527b0601cad8efc103ef0e6b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/02-category-orientation-r1-ref.png",
+      "bytes": 950010,
+      "sha256": "83de0c8b67b702d7e531c0ee6e988dfb6e0d4bb565ec1cd5002064870c6983bb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/02-category-orientation-r2-ref.png",
+      "bytes": 245826,
+      "sha256": "fc589f8e72c264d4984dabd07dd9989f95f7b84509f9cb9c842335aa7183d90f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/02-category-orientation-r3-ref.png",
+      "bytes": 118791,
+      "sha256": "4248cfc23946ea36d0b4f67d037cca6353532d5890101c4ed96fe786fd04e88c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/02-category-orientation-r4-ref.png",
+      "bytes": 44117,
+      "sha256": "289f6a0b5ab9643dd6bfdcb49bc507599f3d9ebd2d23b2188b410d97eb2cf802",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/03-questions-for-a-consultation-context.png",
+      "bytes": 515434,
+      "sha256": "e0d78068765cbc3bffdbfa6a06691d08e9bceb573c01f51a5b26923d740b87d8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/03-questions-for-a-consultation-r1-ref.png",
+      "bytes": 1258237,
+      "sha256": "ca2e22e71ded07336348085b09010af579ca935d008fee98fea88efe8f63373c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/03-questions-for-a-consultation-r2-ref.png",
+      "bytes": 47285,
+      "sha256": "79b576c438628c19aba52b71c98f9112d6e7914bd2ae89f98224b6a35bce1519",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/03-questions-for-a-consultation-r3-ref.png",
+      "bytes": 41374,
+      "sha256": "59146acff153862e545bb3b8560e19b5ad6a82e77d26151ce312b221525451b5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/03-questions-for-a-consultation-r4-ref.png",
+      "bytes": 203651,
+      "sha256": "624b89a81641f2a0d41a429915e82cbaaf3bddfe6765df5ae411e8e11c2b8faf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-context.png",
+      "bytes": 505079,
+      "sha256": "206c2028a4065c76f67c106424131aecd80c59b163397e683037e834cf8054d2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r1-ref.png",
+      "bytes": 249193,
+      "sha256": "2bd83d74c90fdf193bdf8fb18924b76e1001fe0a146f3825d460d39aa194d409",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r10-ref.png",
+      "bytes": 38108,
+      "sha256": "95d1edab59d9f9537e9d711c06c8c8eb8d2878c0ec2fe7eb05c0ac38a26bd79a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r11-ref.png",
+      "bytes": 34907,
+      "sha256": "7b5c175fdf8b17dbdaabcc14f247bb16fe3b607e15f560c5efb181fe17d6df54",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r12-ref.png",
+      "bytes": 18235,
+      "sha256": "1a146e7fb460b67b9686de113bc99f4f50cd24f26d9764a401a398de4beb6ce2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r13-ref.png",
+      "bytes": 20613,
+      "sha256": "69c55f9e26ff38e62311f9ca95b4d6d984261913be2c5d28a162b0f35114fbf8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r14-ref.png",
+      "bytes": 14299,
+      "sha256": "d8f0fcd0b9950e41e3c651d8a1aa7e919bbdd2f7ce9f2d52d40e3c9c6bf776eb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r15-ref.png",
+      "bytes": 13620,
+      "sha256": "3725d67cd2475b4edcec9c423a4f46939ba8221727b5f70602dff8dd9c2399b9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r16-ref.png",
+      "bytes": 14358,
+      "sha256": "2dcbf8a92521f788f5fb4d5435bd8b5bb71d464cefade1ef5ee956d3c258754f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r17-ref.png",
+      "bytes": 4726,
+      "sha256": "4ce56d1d003e6d54eb7ef12fc470292e6228a5c1e995f837a99a953c82514b71",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r18-ref.png",
+      "bytes": 90061,
+      "sha256": "3d0dacd4a6251c9ef0012b66e622d670bb7c63913187b43a81919f59e98cc094",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r19-ref.png",
+      "bytes": 95754,
+      "sha256": "5568d1aaff9184641f032f791388f8984244853c8856ba815cf686696f4eed5c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r2-ref.png",
+      "bytes": 155901,
+      "sha256": "1d56958929df6f6aa49b0d581189526d86d7b3b232617ca8acdf6a57858bd60e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r3-ref.png",
+      "bytes": 133650,
+      "sha256": "8848b8968ee8e756dcf3c0b3b32080bd0e09bf53de7ce07493929bca3abcc14f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r4-ref.png",
+      "bytes": 50466,
+      "sha256": "4355324d7742b1ad153b699c251bfb1b29e2032e33e1218a3167ca2faa023493",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r5-ref.png",
+      "bytes": 57952,
+      "sha256": "7d965a1ede7e630793fb04adb2d762f77701dc72854b7d9a069a623233d154e9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r6-ref.png",
+      "bytes": 45935,
+      "sha256": "eb4c0938b3593cb5528f4c0b4f9de95986a2435a0196bb961e16c51ba31a617a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r7-ref.png",
+      "bytes": 39194,
+      "sha256": "b6aec569c9ef74be147d4f655c05b53450f2ea4c3a6b16f4c8e9e9f0d32adf36",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r8-ref.png",
+      "bytes": 42003,
+      "sha256": "e0be47cb8833e25c30b763d4b79c347056e12b96d83103943621ca255dbc0325",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/04-decision-factors-r9-ref.png",
+      "bytes": 40503,
+      "sha256": "3f58e8b5662ffe60d528def082658fb5b206af5eb15df5b5add0c5be44f10771",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/05-faq-context.png",
+      "bytes": 494278,
+      "sha256": "a5fcdee91d83347e89f72738f3096c3bc98ab0e80966e6d2b8880c02453389ec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/05-faq-r1-ref.png",
+      "bytes": 1222317,
+      "sha256": "3fe794c55d3b5af35160a257b92d32c73b33c60ce91ad94086a9e43f0b781956",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/05-faq-r2-ref.png",
+      "bytes": 167709,
+      "sha256": "6291c815905bdf6f4d1df55f724dbe115bbf95e68c09d7555a2313e5d1be2f5e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/06-booking-cta-context.png",
+      "bytes": 450232,
+      "sha256": "4c3ce9ac923db4831709ac477a4b27dafbadf0611e876c6c47f6f3e94526d435",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/06-booking-cta-r1-ref.png",
+      "bytes": 1072005,
+      "sha256": "6ce985f9d7da5606036eb7b23a2e2a48b72d79d15234056ea1ef48ec6d49d570",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/06-booking-cta-r2-ref.png",
+      "bytes": 186971,
+      "sha256": "fd35aa1f137b52dfbf75f3239d1378cff5f6cefc926b9fbf42b97c97c8a52012",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-context.png",
+      "bytes": 315228,
+      "sha256": "9415230a524ef2d9daad1237e1dad09ca159e3fb2f35d67fa20b2c7443c6a263",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r1-ref.png",
+      "bytes": 771485,
+      "sha256": "b58ed3fa614b5fc399ddca77a1103869fe1e1eaf7003270c6a2fd4071a59d23a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r2-ref.png",
+      "bytes": 74305,
+      "sha256": "3575d7bbf2de87504e921a1508dd4bfe475ac91293111cd137c8c647f73e964a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r3-ref.png",
+      "bytes": 53730,
+      "sha256": "532f18cd07d88281d0f03d898f6470be233d53a6e8bbffea217181895602d0ec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r4-ref.png",
+      "bytes": 24344,
+      "sha256": "194adcf075c2c422e67655fefdafe1af325e2f28c6d9a34f7a0f8b782fae8dba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r5-ref.png",
+      "bytes": 12475,
+      "sha256": "394d37904b1339485aa6625a966fc9e542e39b412b21f91e61a7ae1a30851bcb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r6-ref.png",
+      "bytes": 8473,
+      "sha256": "b0b444edab28753696c6eb9065e6146ad8ca75028c4af736d6b702ef68312432",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r7-ref.png",
+      "bytes": 7936,
+      "sha256": "17cec0affb53b894db1f73bbd87969f2d92a2ea9940656ff59a078932990ae17",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/crops/07-medical-sources-r8-ref.png",
+      "bytes": 120281,
+      "sha256": "9df5419e07d524adbcdbb81679b5692733d85f8587f78179120754a827c52ef0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/regenerative-medicine/index.html",
+      "bytes": 103564,
+      "sha256": "588e800388a25317c86f3d46c5af465628dea7e0023f33264a2883c2e5580d5c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-context.png",
+      "bytes": 522366,
+      "sha256": "41e24fc7e462820a12971a6599c02da062447314bbbd78e40b4c8d6bcc7308e8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r1-ref.png",
+      "bytes": 1287711,
+      "sha256": "54864edecbea80676bf630e0b88cca6d4bef242de60bb125fe8399c8ccc85066",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r2-ref.png",
+      "bytes": 31963,
+      "sha256": "279c5039abec36e011c49c1ae9658f68d294e0ff90a919f92185a60db1a30252",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r3-ref.png",
+      "bytes": 31706,
+      "sha256": "72d472a3ffe5407a0e56e7db131d643e841f33e2c992c3327d3b28f0b6373261",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r4-ref.png",
+      "bytes": 30018,
+      "sha256": "ebacf4156c4f76228582934280c2393612289f52b95ee142c095b82707559ace",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r5-ref.png",
+      "bytes": 22432,
+      "sha256": "6d1502711c1568865e2faf39e5c0ec0fea3190504330e3c7255120338ee5356d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/01-hero-r6-ref.png",
+      "bytes": 213304,
+      "sha256": "3bd27c378398dfaa30cfac14d831ea5a99a5d776f94a3f366213dddf304ee1fe",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/02-neuropathy-feature-context.png",
+      "bytes": 487403,
+      "sha256": "4fb90c5fb43890a753ae8df3fbf6b52c3c59f83ebaf75966a3667b4c582e75d1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/02-neuropathy-feature-r1-ref.png",
+      "bytes": 1205117,
+      "sha256": "a2012c0323e071aef67dc6453c118490302921b3926323552e9c00aff779b728",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/02-neuropathy-feature-r2-ref.png",
+      "bytes": 17358,
+      "sha256": "8ea1b0ec5579338ef343af372a5431cc1dab1e5af64af4856cb49c9d8be3446d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/02-neuropathy-feature-r3-ref.png",
+      "bytes": 89059,
+      "sha256": "178eec7a18fa058984df46638b55cdb701ad82d154222a4b22858475c54c7209",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/02-neuropathy-feature-r4-ref.png",
+      "bytes": 140436,
+      "sha256": "25963fb72ec87fc82a01f85ca7f7e735381ee3de9f074309e29f0b620f5d1aa4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/03-service-navigation-context.png",
+      "bytes": 523525,
+      "sha256": "39a20dc23aa05cf17c7e9ec945b755704632464a4064f69f7f9be8e5048dbd72",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/03-service-navigation-r1-ref.png",
+      "bytes": 1369239,
+      "sha256": "cf721172ac70298f54762df685e27f31138c067da834d4bbdd1550893965bdda",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/03-service-navigation-r2-ref.png",
+      "bytes": 9785,
+      "sha256": "4360ddb6cb344cd5c63b521927e6c8bef502bc38cb792ad2d0b08f92322441e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/03-service-navigation-r3-ref.png",
+      "bytes": 111747,
+      "sha256": "1fb4de3fb3b9576dbb7fdfd8513a46c597ba07797d53c2450f8c722619f919e2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/03-service-navigation-r4-ref.png",
+      "bytes": 314187,
+      "sha256": "5ab51b5f782dd513b8c288eefc65f5897057cd449ab7920502aa2e294c583b12",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-context.png",
+      "bytes": 503740,
+      "sha256": "6794e5947f192d2c56e8fd9c163aa1731c97b793a54e7f3df9fb3e8261cd0391",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r1-ref.png",
+      "bytes": 623833,
+      "sha256": "f2e2a5d2ed948d995f24f26eea1d9c074a4caeb515602b10f06f5047a0614146",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r10-ref.png",
+      "bytes": 9378,
+      "sha256": "705d5486adbeb8f8ed6d61bd5943fdd3d7c2331ad8afb70dedef0501f9fc968e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r11-ref.png",
+      "bytes": 4910,
+      "sha256": "f4f24b94e58ae2a9b8ffcf20795a1888894abda39a3879ee11e7259476ac032a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r12-ref.png",
+      "bytes": 113608,
+      "sha256": "293bf856760f344acb6a0ec0bd4bc371f2fb76f649bf84739abe6a31954e21a0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r2-ref.png",
+      "bytes": 85936,
+      "sha256": "9b811bb2f0b56be46cba30de72fc3d2391fc90aa76f11c03f292bc174b0b7b03",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r3-ref.png",
+      "bytes": 130653,
+      "sha256": "22e94ab038b66b10640810f909a2dd9c6e0cb5dbc0c6d90c281d0fe42a9cbdc0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r4-ref.png",
+      "bytes": 54270,
+      "sha256": "e21218dca6dbda785027fe7ee951ffc336f71318c68d0d14bddcb600324649c4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r5-ref.png",
+      "bytes": 53101,
+      "sha256": "5c5b914da154aa4b5ac217f0a3a50cf363d07ddd9ff7a941a544713f428ec834",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r6-ref.png",
+      "bytes": 20144,
+      "sha256": "336ceaf0c9d4aaddde71c0aeebd44355fc2f5231f941d649b193f648c33a2b8a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r7-ref.png",
+      "bytes": 8974,
+      "sha256": "db4ce995a26cd16d2868cb95fcb117ca2ca95b19da1b45a8b9ea253a1a2e8b57",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r8-ref.png",
+      "bytes": 5732,
+      "sha256": "1ab39856f9d5f48529c74771b9716ebe22e92f37f01fad7d74adfec8da548d54",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/04-how-to-choose-next-step-r9-ref.png",
+      "bytes": 11852,
+      "sha256": "8b367d2ea9f112997b2ec34da3e533ece930884603d2bca0e81aaedd444f6c03",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-context.png",
+      "bytes": 477092,
+      "sha256": "a50e336bfb08596ac56f48869c692fd056c2dfbaccce6364072e652b51b592e2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r1-ref.png",
+      "bytes": 506854,
+      "sha256": "7623645d54d00fea5898c90601687758d55e6f9a8d672ce24e23d1ac9b9d3572",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r10-ref.png",
+      "bytes": 6252,
+      "sha256": "952f9fba28fc6992d6a50f40c8869e63ec5f1a624c6997a985178af7949964b3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r11-ref.png",
+      "bytes": 364267,
+      "sha256": "82f172c805a2c3682492451fdd9adce745ea0d0ae210b0692cc74a49e6b49e19",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r2-ref.png",
+      "bytes": 169027,
+      "sha256": "0bd55fbb513838b5ba3c1d5b3b882013290e58ad0793ee3edca08cd09c6eea96",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r3-ref.png",
+      "bytes": 116782,
+      "sha256": "0a12a56832ea96fb9973bcb979bbd4880512a243828f1c701003584213a1ae03",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r4-ref.png",
+      "bytes": 55346,
+      "sha256": "383c9a053325ed037f1a42a4ba90bdb07bbcd489c2ab94fb466f0e5b36b6ecec",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r5-ref.png",
+      "bytes": 18676,
+      "sha256": "189320f3a2448a86f7f9c9c58e5022d0c98f5ff8a9591af7e221a631f4ff7341",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r6-ref.png",
+      "bytes": 29275,
+      "sha256": "a8f58e5f66c564a0dc89478828cff79c66ed91bb1b95da18c2e3a147efb976b2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r7-ref.png",
+      "bytes": 28809,
+      "sha256": "2216b41f5945243ae56ab3fa8340c96c3ae26574eec9ab357450bfdc82dafc60",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r8-ref.png",
+      "bytes": 14474,
+      "sha256": "abb5dbe80dfa8ada689e62372e289c747e6cc94c00cfdca5740607d3781ba02f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/crops/05-booking-cta-r9-ref.png",
+      "bytes": 9221,
+      "sha256": "eccbde9d17ebf481610e92d3bc8d97356804e981f207df938fd81c3a0a6a1914",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design-review/services/index.html",
+      "bytes": 87641,
+      "sha256": "8c26e4c92217696aa3dfae714b56806f140faec12c3bc3745826a1409e85e6f8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/NOTES.md",
+      "bytes": 21055,
+      "sha256": "e116c97e075d8670f9873014f4a26de1832aa4598222db1ea373eb176775b16e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/composition_map.json",
+      "bytes": 68009,
+      "sha256": "9738e28d7966657523aabd1c5646433a432dd954e65c03fbd2f72f5839bfc0c6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/extraction_plan.json",
+      "bytes": 59648,
+      "sha256": "6fc853bec63a42a345e9c8eef7b672d85adef35675466eebe6caf5a2a717e8bf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/page.png",
+      "bytes": 6031597,
+      "sha256": "8731c2c3a2b0097e27d197e1822ea7fde3281eda442df08094c2d0f64d139faa",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/01-hero.png",
+      "bytes": 1220727,
+      "sha256": "6e3dc37f1e039e1dd028d8e3e33ed709f9fa8ba23bb1b7ef86a44b19bb72f81d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/02-clinic-purpose.png",
+      "bytes": 1000950,
+      "sha256": "e521d087d838009f53c032c38e0457a5a66787906d6b4f6208cf32c9e1074fb9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/03-facility-gallery.png",
+      "bytes": 864840,
+      "sha256": "55536a390b4bc4164960bffa17db8495e8cc6f9e644a3013cc153bbe4c9c6206",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/04-care-principles.png",
+      "bytes": 1303144,
+      "sha256": "5047ffd17e20579406ec99c8432772cfe3f15dbd969c13d01e58b3b8aaec99cc",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/05-team-publication-gate.png",
+      "bytes": 891434,
+      "sha256": "fdc993e13ed065313b62cd4583c7e57568eefc5d2d1ecac30d27eb2f263a6e06",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/refs/06-booking-cta.png",
+      "bytes": 1165305,
+      "sha256": "821ab10278949649b6b32506e4e9d60629379b651e11e03b5d9e6c05b6a4cf11",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/section_implementation.json",
+      "bytes": 165150,
+      "sha256": "e2dbd54982a74e41c6e25e8b625c4f82a96a6bc94010a0220dfc249e7e007425",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/about/section_manifest.json",
+      "bytes": 38407,
+      "sha256": "8deb3ffccd918a02856bb6e2bc0777ba5f6cde5bf375a265b9b4b9a78e576903",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/NOTES.md",
+      "bytes": 16745,
+      "sha256": "f626fce8c1ecff0a3fbcbc82eb1ae9a86c5dbf71f2db2e37358b9321ba74a7c7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/composition_map.json",
+      "bytes": 31462,
+      "sha256": "65bc1b8f899f1dcc47fbf5a80246bd23e88a920b7183d32c910ce54310267a1d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/extraction_plan.json",
+      "bytes": 29859,
+      "sha256": "2355eea3446a7a0c350e350d79aacf2456d9d095776c19b725a24b3cdaf7f126",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/page.png",
+      "bytes": 2296558,
+      "sha256": "3b2bb006fa77325c19004353cf49418479d96520f8ec92ebb0c3f1129abbab79",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/refs/01-booking-hero.png",
+      "bytes": 845558,
+      "sha256": "488d271a6f0853a3a8cfedf51a48a6c23a1a818600ea7542814d7575975a8f30",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/refs/02-gohighlevel-calendar.png",
+      "bytes": 793291,
+      "sha256": "ed24e0ec22cec34a73ba3e38c34291ada7c578177f33ba994745e7184b16710e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/refs/03-privacy-note.png",
+      "bytes": 657947,
+      "sha256": "36683c67079c18db7bc1af3df195e234981ea3ae7f78f27ef5545545f3195236",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/section_implementation.json",
+      "bytes": 75468,
+      "sha256": "afd8f71beb7bc8cd798d183046a168ac8c4151c658cfafb7dafb436a9bf2067c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/book/section_manifest.json",
+      "bytes": 30125,
+      "sha256": "d96fddd56c536e1bca8def59fe2baaaf410ba27a4bc27ee161e68ae96a8436c7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/NOTES.md",
+      "bytes": 10939,
+      "sha256": "1e13b6c988286dda718738431e0e2d7d3019c0dacacd6b34f9470ed8ab016351",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/composition_map.json",
+      "bytes": 36459,
+      "sha256": "0bb25837f1d360ceff5401d0d8b62c988fa351f31fc7535315b9a6b9e1582668",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/extraction_plan.json",
+      "bytes": 51302,
+      "sha256": "081bf9444bbeda377ba788228de546dc8b415f38069b45a070bc7ad3b24d24a1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/page.png",
+      "bytes": 3179544,
+      "sha256": "b5faf5cf49c7c8d919ec1776cdbbd0878379c70bea0a653c3e5a932d7d2ed90b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/refs/01-contact-hero.png",
+      "bytes": 889624,
+      "sha256": "35a1b84beccdeb51478e1b25e229a776b2347a6d3951becd04e93e4370cea2f1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/refs/02-verified-location-details.png",
+      "bytes": 692717,
+      "sha256": "ca22399156661285506a5986305900303363f5a01fd66bf57cf78d642c3e8f1a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/refs/03-facility-image.png",
+      "bytes": 837125,
+      "sha256": "31dda20f996fec37ff895bc11d495b6da8d4192530eff0e52757c5111c358146",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/refs/04-booking-cta.png",
+      "bytes": 764528,
+      "sha256": "698d4bd2d813b5f27ff9fab81c386ba8550bfd11c986af6abf9e545c38e3f773",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/section_implementation.json",
+      "bytes": 122057,
+      "sha256": "e3c900fd4d8e387a8a7987b60f8a557ef6e8a98f58953b3c0f17eb9adf75c91f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/contact/section_manifest.json",
+      "bytes": 41404,
+      "sha256": "eddb6efc93bbee644cb12d05e9785117007d45ce9eb185347bc878b028393107",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/NOTES.md",
+      "bytes": 9665,
+      "sha256": "69e093de55f2c9993a68d35954ea30932f7bc836388688209df70cd1815cd16f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/composition_map.json",
+      "bytes": 52552,
+      "sha256": "86dcc69cd9cfc50ffc1fdfd3a1bfd16964a2b3483d13da4711bd6be7ec2b6381",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/extraction_plan.json",
+      "bytes": 35125,
+      "sha256": "57020468e77e57e893ed01e112583ea54684323e4da5a7f9af45218e8fbdf25d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/page.png",
+      "bytes": 332797,
+      "sha256": "204e1d45adcbf936b0ca5070c9110b966298788241ad92dd8022c23b225f92a1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/refs/01-resource-hero.png",
+      "bytes": 171972,
+      "sha256": "3d4837a668d493574fa60026d2a310e62ee7c221c6babe4cb13963af1e8f635c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/refs/02-resource-summary.png",
+      "bytes": 57422,
+      "sha256": "28a71d5b79d82f495c61f12db599f9064faabe667d121f3d56af49daf485d32a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/refs/03-lead-form.png",
+      "bytes": 53073,
+      "sha256": "eba15aff89b2fa0935174589c30177992eced69f7f773d8f7496dc90bef85985",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/refs/04-privacy-note.png",
+      "bytes": 41138,
+      "sha256": "c036f194901548b6792e324df324b14f9f773ee968afbdcd12d508af032f3127",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/section_implementation.json",
+      "bytes": 111339,
+      "sha256": "fd01e0af86d7e1c02765606b817f64d1a0e3f27351f14bb0c2d42eb1ec11e9b0",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/educational-guide/section_manifest.json",
+      "bytes": 38211,
+      "sha256": "0c751ec92c0f04609a16a08ae10437f765531b25edb9681a3626f688349d787d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/NOTES.md",
+      "bytes": 31929,
+      "sha256": "d80946c326822028a3a9ba7421ddb0f46f0da96e25bc4e80753b91a905a3b203",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/composition_map.json",
+      "bytes": 108428,
+      "sha256": "1cf908097b802fe0f3e1fa394b0c19bbe21c1a2eb5b7890765b6bc8424e6aab1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/extraction_plan.json",
+      "bytes": 63720,
+      "sha256": "855a78a80b70a67bf2bc818500000d244f74c573cb055576f16685c603861d3d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/page.png",
+      "bytes": 9264714,
+      "sha256": "e1b361e7df00875e1397f3bd5a6eb7719d830a6855c1e7bff1ab92c2cafb9d9a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/01-hero.png",
+      "bytes": 1490271,
+      "sha256": "6a731cf87030c303baea08a23019df73289f3b081a76f2e09786d76ad73b08b8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/02-visitor-orientation.png",
+      "bytes": 1637293,
+      "sha256": "cd51773c2613d0ca3532ebc7974b61732cfea1be7030f41ea1a7672fc798d8b1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/03-goals-and-decision-factors.png",
+      "bytes": 1641897,
+      "sha256": "ceb4812924b810e80224dd0ea71004b74a5d18cad2195d5f0e681f7bf96c7360",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/04-responsible-next-step.png",
+      "bytes": 1396344,
+      "sha256": "aff99acabeda943c161cbbad3a41c432892d7d810394c16dfb79e865112deb7c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/05-faq.png",
+      "bytes": 1472307,
+      "sha256": "0e041e3b9b14f9c1b8b8b7dad33199711a0ded8c909917b0d560921749017218",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/06-booking-cta.png",
+      "bytes": 1518944,
+      "sha256": "a95d4ef4dfdcca4c142805272997881ad39c10c2d36b45f2d9d0c850358411e8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/refs/07-medical-sources.png",
+      "bytes": 1040296,
+      "sha256": "fe979a27f18bf71145d1d12a640d8f3a50c6a5bab5f59a6e8f2544217d8be17f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/section_implementation.json",
+      "bytes": 133026,
+      "sha256": "9d2a6d23bda315eec4121f7910c09a9e217a96c587725a558ef35d069253186c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/hormone-optimization/section_manifest.json",
+      "bytes": 49936,
+      "sha256": "2341eb212f18274d81208524ef54cd2821d5b3390d3e2005198ea0743ea52939",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/NOTES.md",
+      "bytes": 28372,
+      "sha256": "a12458e5d8f30e657aef4ca8d451946a8c2473095c25c6c664809d9483c49f8e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/composition_map.json",
+      "bytes": 97796,
+      "sha256": "afdd6b775aa6122891fc2419a859b536ff1b4e7540d5ea137bac560bbbc50938",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/extraction_plan.json",
+      "bytes": 69594,
+      "sha256": "c0cfa1540df1fbde236f009bfa2d0c17002780533f22f412e06cb08a35d3ee38",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/page.png",
+      "bytes": 9085837,
+      "sha256": "e62103db7e52986cc27855d4e2c3ce9bcc04fca89be011293b3084e833e009f8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/01-hero.png",
+      "bytes": 1819543,
+      "sha256": "8cdffd47e8c53e94c9e77ed9b412ffd6505904781b1e4a6fbc475478aae7c2ba",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/02-visitor-orientation.png",
+      "bytes": 1604416,
+      "sha256": "626c97fdb4075d4ff89b62849f9b95b468bca2fefcbed1718baa656906abd68a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/03-goals-and-decision-factors.png",
+      "bytes": 1621716,
+      "sha256": "be2f646a33fbababda91b5230467a7cf32343c8bce388c0e5818e0356a3c7b49",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/04-what-to-expect.png",
+      "bytes": 1336038,
+      "sha256": "637dd31bb4f5a505ea224f13debfe33a390d316e023e8865b3bda33023924b70",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/05-faq.png",
+      "bytes": 1499502,
+      "sha256": "2ac59781cbca6c53791a482ec21c075fbd5a5b4b8d0e2586c3c7e75912dcad53",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/06-booking-cta.png",
+      "bytes": 1345436,
+      "sha256": "b0d534251dcf0448e1294c4569f965d844ec799faef1728c6e872e428bbd1882",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/refs/07-medical-sources.png",
+      "bytes": 917468,
+      "sha256": "bdf700d593e08f5d025099d1cf85c02aea1175ee69c368e75bcf18104b3ae985",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/section_implementation.json",
+      "bytes": 90927,
+      "sha256": "8cdd74a7742d88a5f5a64b060602a44b33c31912c90453e85c146b0eaa49d976",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/neuropathy/section_manifest.json",
+      "bytes": 59510,
+      "sha256": "58218f2afdd230734cb6f6aa34ec8430b97b3c09f8e13c57b9d95a35b38545ce",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/NOTES.md",
+      "bytes": 30483,
+      "sha256": "65c9e00614922e8a469e4a2a036a7e365386f1756f35bb3168fc91a8d360270c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/composition_map.json",
+      "bytes": 67660,
+      "sha256": "a8de5332fd350f15514ddf9a21337e64d04a4dbb45803d04a3d45e0c0c67e77f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/extraction_plan.json",
+      "bytes": 60341,
+      "sha256": "838800b326851ac2232ce53a21bf132029980219592ca502b27a4a2d2641ccef",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/page.png",
+      "bytes": 11595531,
+      "sha256": "8aa1f7c5fc110c47219b16d75e04956aed5174b916945b023b4494384f7793a9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/01-hero.png",
+      "bytes": 1358621,
+      "sha256": "ffae754566c16c67f54dca02c0bf6424fedd297f1bb0ee0c1b9e910f972852a6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/02-pain-concern-navigation.png",
+      "bytes": 1577717,
+      "sha256": "15f4b38530a4edd12c3adff868acdf8c4b65132bfb01d5d267b82c5c1ad4170f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/03-knee-concerns.png",
+      "bytes": 1633736,
+      "sha256": "232b2b16f77245d3207b198aa45c16e63685b9f3ffab765a56b13bebe7dce8d2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/04-low-back-concerns.png",
+      "bytes": 1748105,
+      "sha256": "74aedd290e7e0b5d5975abe0761eda3c7a421e8cac811e0be81d1df5ad92dd8f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/05-neck-concerns.png",
+      "bytes": 1505462,
+      "sha256": "bc1b2da2260e4d96110ff7e61cbb3ea2e3355a18307c8649a657e0a40745355d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/06-decision-factors.png",
+      "bytes": 1421660,
+      "sha256": "f6f8570c43db57a684fb2930ba6337dc50535f67c093f5ce184d0362763775d8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/07-faq.png",
+      "bytes": 1348618,
+      "sha256": "eb6f4d6c4af1d39ed7c07d3be726ae71e80be522503f910e59b7cc94232a3dbd",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/08-booking-cta.png",
+      "bytes": 1363937,
+      "sha256": "9b0b0b36743a7c6968cef0000755ca412f6c0b569f427bd1e5ed5eb4e370741e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/refs/09-medical-sources.png",
+      "bytes": 1005023,
+      "sha256": "f9375f54ec3b53a2e38d452210e02a4f8104443e5bdc1606582ac4324a53d27b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/section_implementation.json",
+      "bytes": 141245,
+      "sha256": "a27951760afa75ee99199588cf75c59e01064d5db685f4ed4cffcc36e046e759",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pain-relief/section_manifest.json",
+      "bytes": 45787,
+      "sha256": "6db2429c55db7f8152a18dcb1852868b0e136d8888caf44846e1fc82244cf6a4",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/NOTES.md",
+      "bytes": 35632,
+      "sha256": "cca31ce30ccbb9580d5dacb5d4cecf7c113267c97151cabb371f9b33ab95df51",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/composition_map.json",
+      "bytes": 78531,
+      "sha256": "fd7a6d25402e0f7ee7f3a583c901dadc8491225b1fb4cde4424de8d9ce2eec3d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/extraction_plan.json",
+      "bytes": 74487,
+      "sha256": "36ca7298bde8f0dd37926f7609185dc9e5255c57b7e93062d2817bd2abe222d9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/page.png",
+      "bytes": 8957292,
+      "sha256": "3b4da2a44a5577313a6a747c3c3096107314019edf474e5a773722acafa9897a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/01-hero.png",
+      "bytes": 1548788,
+      "sha256": "a3ea0912cc6d2e1d53e2b166fd163696f3c089d737fcd7fcd8edca085d28370c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/02-private-orientation.png",
+      "bytes": 1260530,
+      "sha256": "18ad2011feaccc303196507958bea064fc2fcb7a85df2827b8e9a7e586889abe",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/03-concerns-and-goals.png",
+      "bytes": 1307761,
+      "sha256": "466f7072d7eb7d0f42b5c0e57358046016ca497d53869e8ea7c8a8ac1863383c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/04-what-to-expect.png",
+      "bytes": 1358548,
+      "sha256": "0fd5f3dedbfaca747843d6ba7ff8b4adf4beeeb50e68c9ff019789f222b62e8b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/05-faq.png",
+      "bytes": 1382572,
+      "sha256": "d957b72c93d795610ee2cabc02937fb305f0b39b8c15c5ddd12930b2c254a953",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/06-booking-cta.png",
+      "bytes": 1294497,
+      "sha256": "4a40ee6f5fbbaabb1b4456b835830e21f5f75a30e5eda75e887c896ecc2b51fe",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/refs/07-medical-sources.png",
+      "bytes": 869124,
+      "sha256": "914d63788198b098a2b8d556a2b1d164492eb6b6b48f37aacf1efd35b0922339",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/section_implementation.json",
+      "bytes": 190069,
+      "sha256": "fa655c26ac3c095d3e8a2a67598b32d11dd5dfc86f29304339e3f094ad1874c7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/pelvic-floor-incontinence/section_manifest.json",
+      "bytes": 53901,
+      "sha256": "a818218bc183e489aac68d7026965a3b30fa59389bacac83928d82bf81bca5bb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/NOTES.md",
+      "bytes": 30616,
+      "sha256": "3cefadf6109d94f5c078361fe49915f86f70bfd9f7abcb7fd401ef1000bb630a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/composition_map.json",
+      "bytes": 98019,
+      "sha256": "2d4c5330cd6e5794cbb76318ad0ecd25261895b5d7b4f10a932d6929be618d71",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/extraction_plan.json",
+      "bytes": 61758,
+      "sha256": "5f05c5becfff24d29e0bdd9970b323091ca0b081960935fddffadbd10aedf163",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/page.png",
+      "bytes": 8884658,
+      "sha256": "53e7304d7e24671511d52e81115a03287cef77ecbc40a7b6785cf379dcd28ccf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/01-hero.png",
+      "bytes": 1476142,
+      "sha256": "11c0fbe09219605293ed0d1192b2947487ab1d3ed7c92b5a3d096096ac9c77fc",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/02-category-orientation.png",
+      "bytes": 1310512,
+      "sha256": "30b419ef3a8f60f252c36c486ff79eb80a7e1662aa265a5fc757e6cf41a550a2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/03-questions-for-a-consultation.png",
+      "bytes": 1487437,
+      "sha256": "ca8220bb0a381d0fbe70f870c6230150d02c72c360068cb9996c72d44df3aa6a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/04-decision-factors.png",
+      "bytes": 1536845,
+      "sha256": "9b119dc7259a09d0b3eb39eb238c594c0ca232d12f6095b4e6232519bcd76828",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/05-faq.png",
+      "bytes": 1413817,
+      "sha256": "6d2910614be83a9650573ea1c7d5ffc12011649182e08058d69773ca467ccec9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/06-booking-cta.png",
+      "bytes": 1336328,
+      "sha256": "9b27ea3fe4fb939af3d727fa7f8f8a42c223b72a563ae60cfb3d04d91d1017c2",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/refs/07-medical-sources.png",
+      "bytes": 963504,
+      "sha256": "db354ef84976201dc5c7f2f98caad38e1805bb16dace60332ab8aa7b9c105e7d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/section_implementation.json",
+      "bytes": 158471,
+      "sha256": "6ba203d25ee33b46738d3859762d8eab4535157fe2731f4c7acc79e26a3544df",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/regenerative-medicine/section_manifest.json",
+      "bytes": 45462,
+      "sha256": "1f07bf2bb0eaaaadbfcee042e52870414ceb2f1eb75a5f37f5c5ac35b3f40b81",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/NOTES.md",
+      "bytes": 24583,
+      "sha256": "dd50bae70496f366b110b76b392da89e7311edb275604b1648331096fe7dddb1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/composition_map.json",
+      "bytes": 58929,
+      "sha256": "a44add7afbbaa6f53a979ab53bd205208286c8dfd45acbfc3bdb3f163cb42f3f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/extraction_plan.json",
+      "bytes": 61633,
+      "sha256": "7fcaf491eb2366eb4cc00358a6deee7c95d7f55046a7dd14c3830031a61e67eb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/page.png",
+      "bytes": 6707386,
+      "sha256": "c2000e419c7bcaf0c46b8fb1fab1aee6364955a8e1292615508b21e332c58f97",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/refs/01-hero.png",
+      "bytes": 1513790,
+      "sha256": "ab2e92ff69be3938ebfb01f10f5d55f795d5026c0b3ddb3f26208b9de6079da3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/refs/02-neuropathy-feature.png",
+      "bytes": 1401973,
+      "sha256": "402b273a1105a3f5162c2592e754a8f807564c03656aa31f6bbcd86f4454b4de",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/refs/03-service-navigation.png",
+      "bytes": 1535171,
+      "sha256": "11ae806043b4ce627a58a31542086f9c9ed9a28ccfb476338cfbf9c92cda464c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/refs/04-how-to-choose-next-step.png",
+      "bytes": 1513861,
+      "sha256": "4fc798f507523cd5542531d4b527cde8e10704682b0e9a4f6e2ce14d463ea7a8",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/refs/05-booking-cta.png",
+      "bytes": 1520487,
+      "sha256": "469f82da2702fb31248a9d1c026bf058396512996b6ba8f9d48a9c7ae98b9905",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/section_implementation.json",
+      "bytes": 172919,
+      "sha256": "9789e911ab3c6eeac0709c799f7cd3dc95f3312be3634683f1b3df370bd97e5e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/design/pages/services/section_manifest.json",
+      "bytes": 47314,
+      "sha256": "a7219fa9a917f592a307f666d65f5577adb2b4d8f98dddcae19072f7b2e1c2d6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/README.md",
+      "bytes": 4475,
+      "sha256": "70b2dfaac7704978e4dcba29c9c1e52c42435805223fb0f8f41f88aff4b8cbcb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/about/NOTES.md",
+      "bytes": 21055,
+      "sha256": "e116c97e075d8670f9873014f4a26de1832aa4598222db1ea373eb176775b16e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/about/extraction_plan.json",
+      "bytes": 59648,
+      "sha256": "6fc853bec63a42a345e9c8eef7b672d85adef35675466eebe6caf5a2a717e8bf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/book/NOTES.md",
+      "bytes": 16745,
+      "sha256": "f626fce8c1ecff0a3fbcbc82eb1ae9a86c5dbf71f2db2e37358b9321ba74a7c7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/book/extraction_plan.json",
+      "bytes": 29859,
+      "sha256": "2355eea3446a7a0c350e350d79aacf2456d9d095776c19b725a24b3cdaf7f126",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/contact/NOTES.md",
+      "bytes": 10939,
+      "sha256": "1e13b6c988286dda718738431e0e2d7d3019c0dacacd6b34f9470ed8ab016351",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/contact/extraction_plan.json",
+      "bytes": 51302,
+      "sha256": "081bf9444bbeda377ba788228de546dc8b415f38069b45a070bc7ad3b24d24a1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/educational-guide/NOTES.md",
+      "bytes": 9665,
+      "sha256": "69e093de55f2c9993a68d35954ea30932f7bc836388688209df70cd1815cd16f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/educational-guide/extraction_plan.json",
+      "bytes": 35125,
+      "sha256": "57020468e77e57e893ed01e112583ea54684323e4da5a7f9af45218e8fbdf25d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
+      "bytes": 366777,
+      "sha256": "bbbb1d56048107db759b0cc6429570ee15536deca04d8672314e9b79281c06d1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/hormone-optimization/NOTES.md",
+      "bytes": 31929,
+      "sha256": "d80946c326822028a3a9ba7421ddb0f46f0da96e25bc4e80753b91a905a3b203",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/hormone-optimization/extraction_plan.json",
+      "bytes": 63720,
+      "sha256": "855a78a80b70a67bf2bc818500000d244f74c573cb055576f16685c603861d3d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/neuropathy/01-hero-01-person-walking.png",
+      "bytes": 512936,
+      "sha256": "58593844a83124784255a8ea098346860e89690f991b20798eaaa88bc9bcfd20",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/neuropathy/NOTES.md",
+      "bytes": 28372,
+      "sha256": "a12458e5d8f30e657aef4ca8d451946a8c2473095c25c6c664809d9483c49f8e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/neuropathy/extraction_plan.json",
+      "bytes": 69594,
+      "sha256": "c0cfa1540df1fbde236f009bfa2d0c17002780533f22f412e06cb08a35d3ee38",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+      "bytes": 379942,
+      "sha256": "b7735e7bea63975a7eb53d1c68c93731a0693bf87061b7a309b784479b08e07a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+      "bytes": 240357,
+      "sha256": "c98a10ef6999a86548d8d20a596ff07994b35b44cc64a1e92723818bac46983f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pain-relief/NOTES.md",
+      "bytes": 30483,
+      "sha256": "65c9e00614922e8a469e4a2a036a7e365386f1756f35bb3168fc91a8d360270c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pain-relief/extraction_plan.json",
+      "bytes": 60341,
+      "sha256": "838800b326851ac2232ce53a21bf132029980219592ca502b27a4a2d2641ccef",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+      "bytes": 268839,
+      "sha256": "77f9dc1aa29dcb3ca89412da5e34ba2c6bbf42ffdb75a68437f4be4908655b5e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pelvic-floor-incontinence/NOTES.md",
+      "bytes": 35632,
+      "sha256": "cca31ce30ccbb9580d5dacb5d4cecf7c113267c97151cabb371f9b33ab95df51",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/pelvic-floor-incontinence/extraction_plan.json",
+      "bytes": 74487,
+      "sha256": "36ca7298bde8f0dd37926f7609185dc9e5255c57b7e93062d2817bd2abe222d9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/regenerative-medicine/NOTES.md",
+      "bytes": 30616,
+      "sha256": "3cefadf6109d94f5c078361fe49915f86f70bfd9f7abcb7fd401ef1000bb630a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/regenerative-medicine/extraction_plan.json",
+      "bytes": 61758,
+      "sha256": "5f05c5becfff24d29e0bdd9970b323091ca0b081960935fddffadbd10aedf163",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+      "bytes": 83176,
+      "sha256": "5d11d3c9c4d7c6ae3710421962e0eef7171a439d645d691f83d38554ebd3e323",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/services/03-service-navigation-01-active-couple.png",
+      "bytes": 104816,
+      "sha256": "a5f96f1bfee0623d7d6d9b2b6be0687a97cefc7eb15c170ce3085087f762acbf",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/services/NOTES.md",
+      "bytes": 24583,
+      "sha256": "dd50bae70496f366b110b76b392da89e7311edb275604b1648331096fe7dddb1",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/design/services/extraction_plan.json",
+      "bytes": 61633,
+      "sha256": "7fcaf491eb2366eb4cc00358a6deee7c95d7f55046a7dd14c3830031a61e67eb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-booking-lobby-v3.png",
+      "bytes": 2008496,
+      "sha256": "b5b53864fa770f565adf9f468784a6ce1759e1ebc99450ecef56ec5b42dd30e7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-consultation-v2.png",
+      "bytes": 2215797,
+      "sha256": "b6b60abc03c76cefd8bec14d30e22318ea1cd69c5f540d82bfffb9c3fa8eefc9",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-conversation.png",
+      "bytes": 2010986,
+      "sha256": "90181baca3106897a5e4b6d16b0ae33f0fcafee8227959bde127b5e0eb9d5957",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-decision-reception-v3.png",
+      "bytes": 1892845,
+      "sha256": "d9eb1cfd58bb9cf5406a3304cc57a7f1f0d2f7a42a4c59e4f3c4edf801ae8033",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-faq-lobby-v3.png",
+      "bytes": 2119086,
+      "sha256": "711047bc812b82de189ea00cebac11a9efdc2711f35b0d98460d3d83ee7dd159",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-hero-v2.png",
+      "bytes": 1958613,
+      "sha256": "e4cda6ad65bbb2e93aab32182704e9f816007aec05fdbf7c3d42faf94a67ab9a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-orientation-lobby-v3.png",
+      "bytes": 2087264,
+      "sha256": "88605958949c98270d6cf4111a53f5ee7869473c87ed0e0edb1664eaf5aed8ae",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/hormone-sources-lobby-v3.png",
+      "bytes": 2314977,
+      "sha256": "58d7ffaed6a42a12436bb85215b04d4dc74bd05b77bd9ace7d6156f8dee4c069",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/neuropathy-booking-lobby-v2.png",
+      "bytes": 2060663,
+      "sha256": "e4beb2204ad9515e5a99d9fb5442086de9e11f4a2aa3feb0c0706f838fc2ce06",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/neuropathy-faq-lobby-v2.png",
+      "bytes": 2218711,
+      "sha256": "0388a64a5a0807dea60608b34fa0023ba49c483f706ae95f24f725e3aa652f11",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/neuropathy-orientation-lobby-v2.png",
+      "bytes": 2224524,
+      "sha256": "e3099515edbef9f6321423ee17a5f3e9468aa51e2b9d8cb74e98eda26ec7f61c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/neuropathy-woodland-walk-v2.png",
+      "bytes": 3231286,
+      "sha256": "5e2b4b2de5fc3f014584a1841f64ade505d00fa63634c974d3992cd33be64bc3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-decision-interior-v4.png",
+      "bytes": 2027452,
+      "sha256": "9f3749a8ad4ed4e1b577b5203f539aaaa9cc60f7e3d474d072e8102dc25ab159",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-hero-walker-v3.png",
+      "bytes": 1394968,
+      "sha256": "a62434c97165e5d22acc538cb691d7aefe7e987f402281831951c80575c2c38e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-knee-walk-v2.png",
+      "bytes": 2245758,
+      "sha256": "fae4d1015410e94e934833ab5cab009cca3a8aacb64c7a78e11898034864d60f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-knee-walk-v3.png",
+      "bytes": 2293263,
+      "sha256": "b0390cd87a804a39f35de1cfb26394d99e8905c1f530b48c00a81e8a31c4a00f",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-low-back-v2.png",
+      "bytes": 2099769,
+      "sha256": "e36fabc58dd68117f894890ae7b5fb50637de3253bc40a2c40b8bc987e40c2af",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-low-back-v3.png",
+      "bytes": 2276937,
+      "sha256": "febe7663e234205060aafc4846ab820f03c9b0a690bfb09a6a8c7730c4c1c6a6",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-low-back.png",
+      "bytes": 2144814,
+      "sha256": "b68f7a2902ed3d9a53a4dfa358d83668895c4b6136f913fb9543b7cbd53de6de",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-nav-knee-v4.png",
+      "bytes": 2240155,
+      "sha256": "d3c6754168df8c56a8c14cb86b1906ce571564b0979438a44727343215ddc5be",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-nav-low-back-v4.png",
+      "bytes": 2011325,
+      "sha256": "6321143ff77defbfd7fa96540e685eef8759096af9b0b9f8e0afa2a7187a28ae",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-nav-neck-v4.png",
+      "bytes": 2549093,
+      "sha256": "cb6883e78d1d7627b4646c976b507a269950d008be937ae0112b9ec34ea923bb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-neck-v2.png",
+      "bytes": 1808738,
+      "sha256": "f234320255314ca96223379c394c31f7d8c2d6d267281beaea701c2026e734c7",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-neck-v3.png",
+      "bytes": 1729235,
+      "sha256": "1a1e8b74b5fa0a28d314a9b1beaa1ca7aa129772783348f4df2e1e44c7fd1177",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-neck.png",
+      "bytes": 1857315,
+      "sha256": "dde821128f4b3da24a84213642e382f8d9d652e17a2567e1641f709c82464943",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-route-panorama-v4.png",
+      "bytes": 1512642,
+      "sha256": "b071da373de1859721482825ee520a0deb1f8b058bb10cab3b5abd10cfc61ab5",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-route-panorama-v5.png",
+      "bytes": 2128992,
+      "sha256": "0305ff2929b32569aca818ba184079c79dcb64379c3c6678ca2fbdff9961c801",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-sources-lounge-v4.png",
+      "bytes": 2489421,
+      "sha256": "c63a4e224af900b8b5715becbd671b7fac435ab16415a02ca2c48e414bfe4f7a",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pain-sources-reception-v4.png",
+      "bytes": 1830305,
+      "sha256": "3a70d611b86a4e4a8419144288a64636eef9dd845ba4a31bfb8e82dc60f36c94",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/pelvic-private.png",
+      "bytes": 2314675,
+      "sha256": "82713c11df7420ca8d44c61f02ca9b1ca2d243fe9275584365d2498b533dae4c",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/services-active-life.png",
+      "bytes": 2936606,
+      "sha256": "dd94d587eec5cec44079f3087553409d70334e8c8c81ce36e4ba45146f04ebce",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/services-forward-path-v2.png",
+      "bytes": 1871934,
+      "sha256": "0f8c9165763d446cddd2dd7f8d5b9e2acdb339510279d60b2824cfa15ad59f34",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/services-forward-path.png",
+      "bytes": 2123981,
+      "sha256": "0a30fa3c5ed8a0e53066250ad8d7ab567481f52493760dac819509e30a941dcb",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/services-lobby-v2.png",
+      "bytes": 2150400,
+      "sha256": "10bd42d81d1692463535fce5b5de43aa3e029385feb7648c196457025e330952",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/pages/services-runners-v2.png",
+      "bytes": 2883131,
+      "sha256": "75b97df926f9d975404bcaa7a0b738aada573047fee334016ec4cbfe9a9efb1d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/shared/logo.png",
+      "bytes": 924181,
+      "sha256": "188640f1da615ef34c7dbee3fee429f1ef0564bba3190fd4d2cf63e12a481a28",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/shared/reception-1.png",
+      "bytes": 2164083,
+      "sha256": "116baac7392636138d0d266fe90a9a571a22965b8cca5ecb0e3cc9c3fd1b3920",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/shared/reception-2.png",
+      "bytes": 2103877,
+      "sha256": "41c902b385fc772ceab64b4ffb63247c9f1ec69f537fcb085b785d2cf6751346",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/shared/waiting-room.png",
+      "bytes": 2035955,
+      "sha256": "cc8361272c7ba3468fa25bb18ae8d7a9938a25b8f7bffad3f912670e4ad62353",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-dog-walk.jpg",
+      "bytes": 630592,
+      "sha256": "69fc28ff7b754705079b2aecd0f055a7999ce49dd610739dd09e63438addc37b",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-phone-kitchen.jpg",
+      "bytes": 216366,
+      "sha256": "0c5bd65489c7a52414ee627ebd5521482c8fe576840c4bca180778b12e19bf7e",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-phone-outdoors.jpg",
+      "bytes": 244540,
+      "sha256": "00130e26f80b68f3a316c1f8ffea16c2b76d29406bedad338329717422376950",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-reading-guide.jpg",
+      "bytes": 266128,
+      "sha256": "8c653e66a09db1b2f90e0a876f7d3d626667d1fe413ba7a43e4441bbf87561e3",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-richmond-street.jpg",
+      "bytes": 740122,
+      "sha256": "1a2c0a1b1ec19af4277ddef021cc04b71363b2111dfaf1d38b09d5860ed24808",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-tying-shoes.jpg",
+      "bytes": 287460,
+      "sha256": "772241a5bf6aa54772e9822d7549037b876e4b0752456a0ca29b655954249781",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-a/lifestyle-walking-path.jpg",
+      "bytes": 520642,
+      "sha256": "f419ec4374728464c47da9d149154956433f26bf8d10fe68f76b8fe97d278e34",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-b/logo-core.png",
+      "bytes": 258403,
+      "sha256": "0213acd2a8f07953896806a08c1d7aa56b2d72aa24c26db7c837db1da8c35b0d",
+      "matches_approved": true
+    },
+    {
+      "path": "public/images/variant-b/walnut-texture.jpg",
+      "bytes": 470625,
+      "sha256": "fa2f658ea4c37e9077191be31db7377b3f953bf2016cc23d609f86acc9a1b8db",
+      "matches_approved": true
+    },
+    {
+      "path": "public/route-manifest.json",
+      "bytes": 462,
+      "sha256": "c90b3518d7c328256726e26e2fc8d9dbf8f2905d30e52ccb2f59d319102dd634",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/shared/pending-action.tsx",
+      "bytes": 1774,
+      "sha256": "e1fd23bde0cf9d2048ea9115ba742d4e25407552936af722ced091b6be8b3764",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/shared/reveal.tsx",
+      "bytes": 1097,
+      "sha256": "b08ef5da90d97a4ef45ac770e21763be10162267b90565f5548d67fa56db6500",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/buttons.ts",
+      "bytes": 1046,
+      "sha256": "9c7cdea486c521f1148da3fcd563560680bf77fb1aec80782a5f578e9b7c56e5",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/faq-location.tsx",
+      "bytes": 3705,
+      "sha256": "8bec681c8b32e6387bf68fd103ec0e149fec8b13badd54e4b5d4e1d4e43e5a56",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/hero.tsx",
+      "bytes": 4376,
+      "sha256": "ef9dc85d8262cb08d4403b24bbb713581ba53a7cb2287f7003c595d3882db0ff",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/informed-path.tsx",
+      "bytes": 2151,
+      "sha256": "c070466a37ab0b45e2f2a420f73762d1116f94cf52e442f67c85d03ab30a9d4a",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/motifs.tsx",
+      "bytes": 1338,
+      "sha256": "66e32b4360d3b68d8b78b40fbf9cad017b3e446c69af30f7a2471754fd7b5544",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/neuropathy.tsx",
+      "bytes": 4444,
+      "sha256": "2139eba7ee7bba2365478cc0964b8f6bbfba897a9cd354866a901170a2fe5b24",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/place-of-care.tsx",
+      "bytes": 5116,
+      "sha256": "2c4e36c598566ca1f3b25bf281ef19de824a1f7a6ae5e736b5e6a5f8dedfa2df",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/services.tsx",
+      "bytes": 4661,
+      "sha256": "287c47b830bb6031d841e372df137c63b50558268e590af341ecf5851f229ee7",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/site-footer.tsx",
+      "bytes": 2944,
+      "sha256": "28739a0361c5cad78f10e209277600b147333f38db92253b80b2124553b91dee",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/site-header.tsx",
+      "bytes": 8829,
+      "sha256": "15fefb974f691c4bb2bdb93784af11780355a9f2ed1ac8eff276005a29fc7f72",
+      "matches_approved": true
+    },
+    {
+      "path": "src/components/variant-b/two-ways.tsx",
+      "bytes": 3697,
+      "sha256": "019b28f1e9ad42e0d8bfe9da4a37511d2a8548f97e1187cca5ecf7daa7c0baa5",
+      "matches_approved": true
+    },
+    {
+      "path": "src/content/site.ts",
+      "bytes": 6879,
+      "sha256": "32fafb4b7763d86ec4a0f0f115b9240770239815d8c00f66ad8430ce8f1051a5",
+      "matches_approved": true
+    },
+    {
+      "path": "src/lib/fonts.ts",
+      "bytes": 925,
+      "sha256": "40674017625a4900bb1192c2d0b07ac87a314339f67ddbd82ae11d5f6592d373",
+      "matches_approved": true
+    },
+    {
+      "path": "src/lib/use-accordion.ts",
+      "bytes": 1251,
+      "sha256": "58a3973d53f1b83157c3cd49feb8e2fa384df9dfc391babd3e1c74af87a10dba",
+      "matches_approved": true
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 702,
+      "sha256": "5e84bc0c9bf901d0c2af53c37e00e4bd0704739deafb086fb9a9162ad8258f18",
+      "matches_approved": true
+    }
+  ]
+}

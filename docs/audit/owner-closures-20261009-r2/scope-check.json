@@ -1,0 +1,33 @@
+{
+  "entry_sha": "25b6cc8016617d773416a1b6e6cc95da40dd27c6",
+  "application_paths_changed": [
+    "app/(site)/services/hormone-optimization/page.tsx",
+    "app/(site)/services/pelvic-floor-incontinence/page.tsx",
+    "app/(site)/services/regenerative-medicine/page.tsx",
+    "src/components/pages/pain-relief/pain-decision-factors.tsx",
+    "src/components/pages/pelvic-floor/pelvic-booking.tsx",
+    "src/components/pages/services/choose-next-step.tsx",
+    "src/components/pages/services/neuropathy-feature.tsx",
+    "src/components/pages/services/service-navigation.tsx"
+  ],
+  "application_changed_count": 8,
+  "unexpected_tracked_paths": [],
+  "application_hashes_match_tested_source": true,
+  "protected_count_rechecked": 724,
+  "protected_mismatches": [],
+  "first_closure_docs_count": 11,
+  "first_closure_docs_unchanged": true,
+  "original_qa_and_freeze_inputs_unchanged": true,
+  "plan_exact_copy": true,
+  "exit_code": 0,
+  "source_docs_whitespace": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "raw_log_inclusive_whitespace": {
+    "exit_code": 2,
+    "output": "docs/audit/owner-closures-20261009-r2/build.log:14: trailing whitespace.\n+  Generating static pages using 3 workers (5/22) \ndocs/audit/owner-closures-20261009-r2/build.log:15: trailing whitespace.\n+  Generating static pages using 3 workers (10/22) \ndocs/audit/owner-closures-20261009-r2/build.log:16: trailing whitespace.\n+  Generating static pages using 3 workers (16/22) \ndocs/audit/owner-closures-20261009-r2/build.log:45: new blank line at EOF.\ndocs/audit/owner-closures-20261009-r2/lint.log:4: new blank line at EOF.\n"
+  },
+  "staged_paths_exact": true,
+  "staged_path_count": 20
+}

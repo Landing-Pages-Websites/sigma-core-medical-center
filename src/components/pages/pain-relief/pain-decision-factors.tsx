@@ -38,7 +38,7 @@ export function PainDecisionFactors(): React.ReactElement {
         {DECISIONS.map((question, index) => (
           <li
             key={question}
-            className={`${index % 2 === 0 ? "bg-navy text-white" : "bg-[#ecebe7] text-navy"} flex min-h-32 items-center px-7 py-5 text-sm leading-snug font-semibold lg:-mr-4 lg:[clip-path:polygon(14%_0,100%_0,86%_100%,0_100%)] lg:px-8`}
+            className={`${index % 2 === 0 ? "bg-navy text-white" : "bg-[#ecebe7] text-navy"} flex min-h-32 items-center px-7 py-5 text-sm leading-snug font-semibold lg:-mr-4 lg:last:mr-0 lg:[clip-path:polygon(14%_0,100%_0,86%_100%,0_100%)] lg:px-8`}
           >
             {question}
           </li>
@@ -58,7 +58,7 @@ export function PainDecisionFactors(): React.ReactElement {
         </div>
       </div>
       <div className="bg-chalk">
-        <div className="mx-auto flex max-w-[90rem] flex-wrap gap-3 px-6 py-5 sm:px-10 lg:pl-[3.5rem]">
+        <div className="mx-auto flex max-w-[90rem] flex-col gap-3 px-6 py-5 sm:flex-row sm:flex-wrap sm:px-10 lg:pl-[3.5rem]">
           {[
             { href: "/about", tone: "bg-royal hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
             { href: "/book", tone: "bg-navy hover:bg-[#0b2546] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
@@ -66,9 +66,10 @@ export function PainDecisionFactors(): React.ReactElement {
             <Link
               key={link.href}
               href={link.href}
-              className={`${link.tone} inline-flex max-w-full min-h-14 w-64 items-center justify-between px-8 font-heading text-lg font-bold text-white transition-colors [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
+              className={`${link.tone} inline-flex min-w-0 max-w-full min-h-14 w-full items-center justify-between gap-3 px-8 py-3 font-heading text-lg font-bold text-white transition-colors sm:w-64 [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
             >
-              {link.href === "/book" ? "Check booking status" : "About"} <ChevronRight size={26} aria-hidden className="shrink-0" />
+              <span className="min-w-0 whitespace-normal">{link.href === "/book" ? "Check booking status" : "About"}</span>
+              <ChevronRight size={26} aria-hidden className="shrink-0" />
             </Link>
           ))}
         </div>

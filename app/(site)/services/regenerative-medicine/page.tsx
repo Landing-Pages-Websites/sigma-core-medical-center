@@ -5,6 +5,7 @@ import { REGENERATIVE_PAGE } from "@/content/pages";
 export const metadata: Metadata = {
   title: "Regenerative Medicine",
   description: REGENERATIVE_PAGE.intro,
+  robots: { index: false, follow: true },
 };
 
 export default function RegenerativeMedicineRoute(): React.ReactElement {

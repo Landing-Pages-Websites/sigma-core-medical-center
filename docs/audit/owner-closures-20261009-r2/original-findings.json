@@ -1,0 +1,190 @@
+{
+  "original_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+  "original_tree": "58d6992d172b2516d1366d0a5f3a89b40f0fa67a",
+  "original_evidence_root": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1",
+  "original_report_sha256": {
+    "technical-qa-r1/qa.json": "ac3981782fe56612d65daecadeedeeda94116797a72034228159872085a9cacf",
+    "technical-qa-r1/qa.md": "b571e5bf49027ac1026f5bbc81ecf9111e4f5c03557c7f26f16c781639b90005"
+  },
+  "qualification": "Unmodified original findings; these measurements are not results for this implementation. SIG-T01, SIG-T08 and SIG-T09 remain out of scope.",
+  "findings": [
+    {
+      "id": "SIG-T01",
+      "severity": "external_request_failure",
+      "routes": "all15, all6widths",
+      "summary": "90 review-bridge script request failures remain; zero-error network certification is false.",
+      "source": "app/layout.tsx:24-30",
+      "native_before_evidence": "Every route capture/collection.json console_and_request_errors; each entry is net::ERR_FAILED for https://app.gomega.ai/review-bridge/v7/review-bridge.js.",
+      "conservative_next_action": "Parent Builder records the exact existing error once and refers genuinely external bridge diagnosis to Shamita under the owner ruling. Do not disable, replace, remove SRI, or edit frozen Home dependencies from this audit. No new network diagnosis was made."
+    },
+    {
+      "id": "SIG-T02",
+      "severity": "content_and_control_geometry",
+      "routes": [
+        "/services"
+      ],
+      "widths": [
+        320
+      ],
+      "summary": "320px Service Navigation and OtherPaths boxes extend outside the viewport despite document scrollWidth=320.",
+      "source": [
+        "src/components/pages/services/service-navigation.tsx:43-58,75-96,100-117",
+        "src/components/pages/services/choose-next-step.tsx:60-77"
+      ],
+      "native_before_evidence": [
+        "route-evidence-r1/services/capture/320x800/tile-05-pre.json + tile-05.png",
+        "route-evidence-r1/services/capture/320x800/tile-06-pre.json + tile-06.png",
+        "route-evidence-r1/services/capture/320x800/tile-09-pre.json + tile-09.png"
+      ],
+      "measurements": {
+        "navigation_heading_right": 356,
+        "pain_panel_paragraph_right": 332,
+        "navigation_card_paragraph_right": 336,
+        "other_paths_control_right": 328.77,
+        "viewport": 320
+      },
+      "conservative_fix": "Only in these interior components: add min-w-0 to flex/grid content branches; constrain intrinsic widths to the available track; allow heading/body/control label wrapping; reduce small-screen icon/gap/padding where necessary so every interactive box fits. Preserve desktop composition and frozen shared styles. Do not hide overflow or truncate labels as a substitute."
+    },
+    {
+      "id": "SIG-T03",
+      "severity": "control_geometry",
+      "routes": [
+        "/services/pain-relief"
+      ],
+      "widths": [
+        320
+      ],
+      "summary": "The /book link in Decision Factors is clipped at the right viewport edge.",
+      "source": "src/components/pages/pain-relief/pain-decision-factors.tsx:60-74",
+      "native_before_evidence": "route-evidence-r1/pain-relief/capture/320x800/tile-12-pre.json + tile-12.png",
+      "measurement": {
+        "x": 196.02,
+        "width": 151.69,
+        "right": 347.71,
+        "viewport": 320,
+        "document_top": 8048.55
+      },
+      "conservative_fix": "At the smallest breakpoint stack or wrap the two route links, or use grid-cols-2/minmax(0,1fr) with min-w-0 and smaller base padding. Keep semantic labels/chevrons fully contained and restore the existing horizontal arrangement at a wider breakpoint. Do not amend shared/Home dependencies."
+    },
+    {
+      "id": "SIG-T04",
+      "severity": "content_box_geometry_not_painted_text_verdict",
+      "routes": [
+        "/services/pelvic-floor-incontinence"
+      ],
+      "widths": [
+        320
+      ],
+      "summary": "Booking Cta h2 allocated rectangle extends22.13px beyond320px; its visible text fits in the retained PNG, so this is not a certified painted-text clipping failure.",
+      "source": "src/components/pages/pelvic-floor/pelvic-booking.tsx:15-25",
+      "native_before_evidence": "route-evidence-r1/pelvic-floor-incontinence/capture/320x800/tile-10-pre.json + tile-10.png",
+      "measurement": {
+        "x": 24,
+        "width": 318.13,
+        "right": 342.13,
+        "viewport": 320,
+        "document_top": 6980.88
+      },
+      "conservative_fix": "Constrain the mobile grid child with min-w-0 and its content to max-w-full; allow the nested booking control to wrap rather than impose whitespace-nowrap/intrinsic width. Retain the existing visible heading/copy and desktop layout. Verify changed-route geometry if the parent elects to repair; this audit performed no repair."
+    },
+    {
+      "id": "SIG-T05",
+      "severity": "control_internal_geometry_exception",
+      "routes": [
+        "/services"
+      ],
+      "widths": [
+        1440,
+        1536,
+        1728
+      ],
+      "summary": "Desktop Neuropathy feature link has scrollWidth341/clientWidth329. Native text appears readable; an absolute decorative TallBracket at -right-3 is a source-supported cause, not proof that the label is clipped.",
+      "source": "src/components/pages/services/neuropathy-feature.tsx:66-81",
+      "native_before_evidence": "route-evidence-r1/services/capture/1440x900/tile-01-pre.json + tile-01.png; corresponding1536/1728 tile-01 pairs",
+      "conservative_fix": "If the no-internal-overflow criterion is enforced, contain the decorative bracket inside the control or put it on a noninteractive wrapper, preserving link text, focus geometry and desktop composition. Do not record this measured exception as a no-overflow pass."
+    },
+    {
+      "id": "SIG-T06",
+      "severity": "semantic_rectangle_geometry_exception",
+      "routes": [
+        "/services/pain-relief"
+      ],
+      "widths": [
+        1440,
+        1536,
+        1728
+      ],
+      "summary": "The final beveled Decision Factors li box extends16px past the viewport, matching lg:-mr-4. This is a measured semantic-box exception, not an independently established painted-label clipping failure.",
+      "source": "src/components/pages/pain-relief/pain-decision-factors.tsx:37-45",
+      "native_before_evidence": [
+        "route-evidence-r1/pain-relief/capture/1440x900/tile-05-pre.json + tile-05.png",
+        "route-evidence-r1/pain-relief/capture/1536x1024/tile-04-pre.json + tile-04.png",
+        "route-evidence-r1/pain-relief/capture/1728x1117/tile-03-pre.json + tile-03.png"
+      ],
+      "measurements": {
+        "right_at1440": 1456,
+        "right_at1536": 1552,
+        "right_at1728": 1744
+      },
+      "conservative_fix": "Contain the final item, for example remove the negative right margin on the last desktop item, or use a decorative nonsemantic overlay. Preserve text and bevel rhythm. No source change or visual verdict was made."
+    },
+    {
+      "id": "SIG-T07",
+      "severity": "publication_gate_gap",
+      "routes": [
+        "/services/hormone-optimization",
+        "/services/pelvic-floor-incontinence",
+        "/services/regenerative-medicine"
+      ],
+      "summary": "Ten routes are omitted from the sitemap, but only seven current documents carry noindex. Three source metadata objects omit robots and all six retained native states for each report robots=null.",
+      "source": [
+        "app/(site)/services/hormone-optimization/page.tsx:5-8",
+        "app/(site)/services/pelvic-floor-incontinence/page.tsx:5-8",
+        "app/(site)/services/regenerative-medicine/page.tsx:5-8",
+        "app/sitemap.ts:5-21",
+        "app/robots.ts:6"
+      ],
+      "native_before_evidence": [
+        "route-evidence-r1/hormone-optimization/capture/1440x900/tile-00-pre.json",
+        "route-evidence-r1/pelvic-floor-incontinence/capture/1440x900/tile-00-pre.json",
+        "route-evidence-r1/regenerative-medicine/capture/1440x900/tile-00-pre.json"
+      ],
+      "conservative_fix": "Parent Builder can add route-local metadata robots: { index: false, follow: true } to these three gated interiors, consistent with existing seven status gates, without touching root/shared/Home. Do not claim a response-level effective-noindex test; X-Robots-Tag was not observed. Human Site Review eligibility is not publication approval."
+    },
+    {
+      "id": "SIG-T08",
+      "severity": "owner_frozen_residual",
+      "routes": [
+        "/"
+      ],
+      "summary": "Home/shared prospective Guide/booking/PENDING wording remains owner-frozen and must be quoted to human Site Review, not silently changed or interpreted as operational approval.",
+      "source": "site-review-home-strings.md; src/content/site.ts; src/components/variant-b/informed-path.tsx; two-ways.tsx; hero.tsx; faq-location.tsx",
+      "quotes": [
+        "Explore a care category or begin with the educational guide.",
+        "Book an appointment to discuss your goals and whether Sigma Core may be an appropriate fit.",
+        "Get the Sigma Core educational guide",
+        "Request the approved educational resource when it becomes available.",
+        "The approved scheduling experience will be linked when its integration is supplied."
+      ],
+      "conservative_next_action": "Parent Builder carries the exact retained quotation packet into human Site Review. No new resource, delivery promise, scheduling availability, privacy workflow or customer approval is inferred."
+    },
+    {
+      "id": "SIG-T09",
+      "severity": "source_basic_accessibility_qualification",
+      "routes": [
+        "/services",
+        "/services/neuropathy",
+        "/services/pain-relief",
+        "/services/hormone-optimization",
+        "/services/pelvic-floor-incontinence",
+        "/services/regenerative-medicine",
+        "/about",
+        "/educational-guide"
+      ],
+      "summary": "Closed SiteHeaderB menu buttons reference aria-controls IDs whose targets are conditionally unmounted. Static closed HTML records two unresolved target references per SiteShell document. Expanded menus were not tested in the retained artifacts.",
+      "source": "src/components/variant-b/site-header.tsx:65-76,101-118",
+      "native_before_evidence": "Each corresponding route capture/*/ready.json records the closed controls; retained .next/server/app HTML lacks the closed menu nodes.",
+      "conservative_next_action": "Keep as a bounded source/a11y finding, not a runtime broken-link claim. If later authorized, conditionally set aria-controls only when the controlled node exists or keep hidden controlled nodes mounted. This shared owner-preserved component is not edited by this audit."
+    }
+  ]
+}

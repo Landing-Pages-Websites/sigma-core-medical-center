@@ -1,0 +1,43 @@
+{
+  "evidence_kind": "Local production-build HTML parser; no browser or HTTP response evidence",
+  "checks": [
+    {
+      "route": "/services/hormone-optimization",
+      "generated_path": ".next/server/app/services/hormone-optimization.html",
+      "generated_html_sha256": "c9981feb7dc39c8becf34ea0b827645e818ed04b1c0e951d727b4e232a320a4b",
+      "robots": [
+        "noindex, follow"
+      ],
+      "expected": [
+        "noindex, follow"
+      ],
+      "matches": true
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "generated_path": ".next/server/app/services/pelvic-floor-incontinence.html",
+      "generated_html_sha256": "13b26874e7472f8d0ae1470bce721074c2e59f036787c2f132fac45e5f0814de",
+      "robots": [
+        "noindex, follow"
+      ],
+      "expected": [
+        "noindex, follow"
+      ],
+      "matches": true
+    },
+    {
+      "route": "/services/regenerative-medicine",
+      "generated_path": ".next/server/app/services/regenerative-medicine.html",
+      "generated_html_sha256": "e26dc32fc2d2ff14225f4524885c434d477606d3773b47f05b80fbff79fc6d27",
+      "robots": [
+        "noindex, follow"
+      ],
+      "expected": [
+        "noindex, follow"
+      ],
+      "matches": true
+    }
+  ],
+  "all_passed": true,
+  "exit_code": 0
+}

@@ -1,0 +1,56 @@
+{
+  "entry_sha": "25b6cc8016617d773416a1b6e6cc95da40dd27c6",
+  "entry_tree": "516f484c501b047d3795d2f9bf82665260864865",
+  "commit_binding": "These file digests must match the resulting local commit reported in the final handoff. Future controller browser/deployment evidence must record that full new SHA and tree, not the entry SHA or original d3c513b QA source.",
+  "application_files": [
+    {
+      "path": "app/(site)/services/hormone-optimization/page.tsx",
+      "bytes": 452,
+      "sha256": "2027be3925415ffdf82f2b754310fb3dbe0b4c5c519e4f384da4873dd95671dc",
+      "git_blob": "68508cbd75a9025d8638ce76a41ed81ef9d01e04"
+    },
+    {
+      "path": "app/(site)/services/pelvic-floor-incontinence/page.tsx",
+      "bytes": 431,
+      "sha256": "18a435dc01146ef7636733afdb543ef7a81349aa43c0e27a1f4aecbfe11a8fae",
+      "git_blob": "e6611f29cb0c4fef0f34cb20bd417669eb45be6c"
+    },
+    {
+      "path": "app/(site)/services/regenerative-medicine/page.tsx",
+      "bytes": 466,
+      "sha256": "495d08eca2af2c3570cd39db5ecb6240e7d4306c5b1a730b5e4d4bf99cc5e39a",
+      "git_blob": "c7b9d402d5d641393ebb67b076c3c2b6a1c11175"
+    },
+    {
+      "path": "src/components/pages/pain-relief/pain-decision-factors.tsx",
+      "bytes": 4680,
+      "sha256": "c851fc45beb6e06a8b81d3e7c037981def8751607ceadefc99454add1d402edb",
+      "git_blob": "24df099500b9ba01087107a2f666d86b0b60a5a8"
+    },
+    {
+      "path": "src/components/pages/pelvic-floor/pelvic-booking.tsx",
+      "bytes": 3507,
+      "sha256": "d4696821cac7c828777ee1eaabc944d47a6f35eab92916fab1554ecf1b6cb627",
+      "git_blob": "ad188ad2eb199ad01eb9720e6319e8d764609ac8"
+    },
+    {
+      "path": "src/components/pages/services/choose-next-step.tsx",
+      "bytes": 5758,
+      "sha256": "7aa71b81b3ba3cb2a22f50d0e91bcc59d946da1e28245c87983f24c642214a28",
+      "git_blob": "a956d503bf5f5b675b1786d68792813bdb99f204"
+    },
+    {
+      "path": "src/components/pages/services/neuropathy-feature.tsx",
+      "bytes": 4646,
+      "sha256": "2f79a6bcbf87216f20d023c2f85bf36e52139253a7680aa18023150cd7d692ef",
+      "git_blob": "cd5c3a4395cc81970617426b868daf5075c7e3a4"
+    },
+    {
+      "path": "src/components/pages/services/service-navigation.tsx",
+      "bytes": 5460,
+      "sha256": "d8b8a4161e603016605aa643da3387fe4a3173721a6b6fcffba8d3d712e7d488",
+      "git_blob": "4ac08305c5ff1728513dcd485edebe8b9af154d7"
+    }
+  ],
+  "original_plan_copied_exactly": true
+}
