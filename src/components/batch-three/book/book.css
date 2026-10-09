@@ -60,7 +60,7 @@
 .book-pending-note > p + p { margin-top: 24px; color: var(--color-charcoal); }
 .book-pending-note::after { content: ""; display: block; width: 96px; height: 5px; margin-top: 24px; background: var(--color-electric); }
 
-body:has(#booking-hero) .interior-header-inner { min-height: 104px; }
+body:has(#booking-hero) .interior-header-inner { min-height: 112px; }
 body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 
 @media (min-width: 761px) {
@@ -82,7 +82,7 @@ body:has(#booking-hero) #footer a[href="/book"] { display: none; }
 }
 
 @media (max-width: 760px) {
-  body:has(#booking-hero) .interior-header-inner { padding-block: 20px; }
+  body:has(#booking-hero) .interior-header-inner { padding-block: 24px; }
   .book-page { --book-gutter: 24px; }
   .book-section { scroll-margin-top: 176px; }
   .book-page h1 { font-size: clamp(44px, 12.3vw, 48px); line-height: 1.04; }

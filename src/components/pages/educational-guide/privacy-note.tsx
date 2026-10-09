@@ -3,14 +3,14 @@ import { ArrowRight, CalendarDays, FileText, Megaphone, ShieldCheck } from "luci
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
-const APPROVED_LINKS = [
+const POLICY_STATUS_LINKS = [
   { label: "Privacy Policy", icon: ShieldCheck, href: "/privacy" },
   { label: "Notice of Privacy Practices", icon: FileText, href: "/notice-of-privacy-practices" },
 ] as const;
 
 const WORKFLOWS = [
-  { title: "General Marketing", icon: Megaphone, body: "We may send updates about resources, education, or clinic news that may be of interest." },
-  { title: "Patient Intake", icon: CalendarDays, body: "We use your information only to respond to inquiries and support scheduling requests." },
+  { title: "General Marketing", icon: Megaphone, body: "The resource-request workflow, contact expectations and communication preferences are pending approval." },
+  { title: "Patient Intake", icon: CalendarDays, body: "Scheduling and patient-intake details have not been supplied. Visit Booking status for current availability information." },
 ] as const;
 
 export function PrivacyNote(): React.ReactElement {
@@ -22,15 +22,15 @@ export function PrivacyNote(): React.ReactElement {
           <div className="relative mt-5 max-w-[30rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
             <p className="text-base leading-snug text-white/88">
-              We use your information only to operate our website, respond to inquiries, and support scheduling. We do not sell or share personal information.
+              The Privacy Policy and Notice of Privacy Practices are pending approval. Their data-use, contact and communication details are not available yet.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </div>
           <div className="mt-8 grid max-w-[38rem] gap-6 bg-[#2b3037] px-6 py-6 sm:grid-cols-[1fr_1fr] lg:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:pr-14">
             <div>
-              <p className="text-xs font-bold tracking-[0.08em] uppercase">Approved links</p>
+              <p className="text-xs font-bold tracking-[0.08em] uppercase">Policy status links</p>
               <ul className="mt-3 divide-y divide-white/20">
-                {APPROVED_LINKS.map(({ label, icon: Icon, href }) => (
+                {POLICY_STATUS_LINKS.map(({ label, icon: Icon, href }) => (
                   <li key={label} className="py-2.5">
                     <PolicyLink
                       href={href}
@@ -88,9 +88,9 @@ function WorkflowsPanel(): React.ReactElement {
           ))}
         </div>
         <p className="mt-6 text-xs leading-snug text-white/85">
-          To change communication preferences or learn more,
+          Use these links to check the current policy status.
           <br />
-          visit our Privacy Policy or Notice of Privacy Practices.
+          Approved privacy and contact-preference details are not available yet.
         </p>
       </div>
       <div className="relative min-h-60 lg:-ml-10">
