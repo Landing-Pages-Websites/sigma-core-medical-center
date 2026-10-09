@@ -1,0 +1,148 @@
+{
+  "source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+  "role": "Builder",
+  "not_new_art_director_round": true,
+  "review": false,
+  "approval": false,
+  "inspected_native_pixels": [
+    {
+      "path": "closure-immutable-506ed6f-r1/hormone-optimization/capture/320x800/tile-00.png",
+      "sha256": "5d1e3e9454a008333141a0d394cf75f5929f662bcb75f40aa78e2272b1aceeb5",
+      "bytes": 161754
+    },
+    {
+      "path": "closure-immutable-506ed6f-r1/about/capture/1440x900/tile-04.png",
+      "sha256": "185911f7e07e5b5cc59a2fc22dc21bb1baebae5f53d6d61f669630d303eba45a",
+      "bytes": 76566
+    },
+    {
+      "path": "closure-immutable-506ed6f-r1/about/capture/390x844/tile-05.png",
+      "sha256": "e264ec4a81c6186201a05cd5366169897a6c3bb8fd13bf99f55715a346c42def",
+      "bytes": 51467
+    },
+    {
+      "path": "closure-immutable-506ed6f-r1/services/capture/1440x900/tile-03.png",
+      "sha256": "a0b4d2a2649eb70e48cf0b87a3529b169ee265071833fe419834a1a8f1dc71cf",
+      "bytes": 284486
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/320x800/tile-00.png",
+      "sha256": "88857f07ae86ebc83b7e6f6af0e18959ce39c99162d82b93354cb5d4a7b028d6",
+      "bytes": 221399
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/pelvic-floor-incontinence/capture/320x800/tile-00.png",
+      "sha256": "09daa4472dc0f5462521777202e12e532163408e224776b87bcdb9053b078b54",
+      "bytes": 160862
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/1440x900/tile-04.png",
+      "sha256": "71bbb09615bcff8faa7100661a9b951db1b34552403f43a150b8e5ddfc126d69",
+      "bytes": 406914
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/1536x1024/tile-03.png",
+      "sha256": "13e39a41304c3b771bc04652c7bf48624df282c93c8aeece82884da4fe185f3f",
+      "bytes": 334913
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/1728x1117/tile-03.png",
+      "sha256": "2664fe19dfe1add1fdd7eaed1f80857a2b6e34bbd7fa2c1ff7e1955be57d7b4e",
+      "bytes": 563757
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/320x800/tile-09.png",
+      "sha256": "4b7fbec748c554bdf572e44d2b2cc496db5e6a0adb0948d81335df202a493e53",
+      "bytes": 104348
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/360x800/tile-09.png",
+      "sha256": "a8eca4c2813b7f0e0c6aa0fa97b750dcf269a382d088ec4b129cf6fcb8d1a956",
+      "bytes": 55879
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/neuropathy/capture/390x844/tile-08.png",
+      "sha256": "5c83a9dab0c83b0b546e3682926b8ffb44a054757b0086f74c933ea00eac2ec9",
+      "bytes": 103385
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/pelvic-floor-incontinence/capture/1440x900/tile-04.png",
+      "sha256": "a484e79319974e4eed98a867c034a9acdf3a6d8683fbb0b908193f5a36cdc637",
+      "bytes": 395661
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/pelvic-floor-incontinence/capture/360x800/tile-11.png",
+      "sha256": "c335916b58b2ff9a6aeb8e930b4bb809a0fa4acb6a37cab369742bc5d2f41d9a",
+      "bytes": 81426
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/book/capture/1440x900/tile-00.png",
+      "sha256": "dc3c365e36404951f3f37fa423bb51d4b5bee2a3150b66bcfb33843c07f6c6d2",
+      "bytes": 69023
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/book/capture/1536x1024/tile-00.png",
+      "sha256": "1a5d15bf57509c8bc1a58539d3110e6be90c7564d7d0607475659fef0629b772",
+      "bytes": 77049
+    },
+    {
+      "path": "paint-immutable-d606e0d-r7/book/capture/1728x1117/tile-00.png",
+      "sha256": "8bc52d51409fec19b060c9599d3896f3b5377811d438e0052f1c71c3005d503b",
+      "bytes": 92697
+    }
+  ],
+  "finding_specific_judgments": {
+    "SIG-B10": {
+      "disposition": "DEFAULT_PAINT_CLIPPING_ADDRESSED_WITH_TEST_LIMIT",
+      "evidence": "Actual 1440/1536/1728 FAQ rows and 320/360/390 first action labels show complete leading Check booking/status text and arrows; inner action clip removed, outer row bevel retained. Raw six-width action/Range/ancestor geometry is retained.",
+      "qualification": "Hover/focus painting was not browser-tested; no all-state control or whole-route accessibility certification."
+    },
+    "SIG-B11": {
+      "disposition": "HEADING_ORNAMENT_CONTACT_ADDRESSED",
+      "evidence": "1440 native tile-04 shows Booking status clear of the stair motif; raw desktop ornament x starts 56px beyond the heading allocation at1440/1536/1728. Motif remains display none at320/360/390.",
+      "qualification": "Default-state finding-specific painted/allocated separation, not complete full-site edge approval."
+    },
+    "C07": {
+      "disposition": "NAMED_GROUP_SOURCE_AND_RUNTIME_RESOLVED",
+      "evidence": "Actual Chromium AX group named Online booking is not yet available, ignored false, at six widths; zero controls/iframe inside status panel.",
+      "qualification": "Group semantics only, not whole-site accessibility QA."
+    },
+    "book-desktop-massing": {
+      "disposition": "CONSERVATIVE_STATUS_MASSING_RESTORED",
+      "evidence": "1440/1536/1728 native firstfold shows dominant light cut-corner unavailable-calendar panel beside navy heading; no operational calendar, dates, iframe or fields.",
+      "qualification": "Approved legacy composition adapted conservatively to truthful unavailable status, not pixel-identical calendar restoration."
+    },
+    "N1": {
+      "disposition": "SUBJECT_RECOVERED_WITH_FIRST_FOLD_ACTION_LIMIT",
+      "evidence": "Native320 hero has recognizable walking person and woodland before secondary cards, unlike original text/cards-only opening. Earlier bound320/360/390 original native grids retained.",
+      "qualification": "320 status action is only bordered at bottom, not fully readable in first viewport. No all-width CTA-above-fold PASS; carry this conversion residual to Site Review."
+    },
+    "H1": {
+      "disposition": "CONSERVATIVE_SUBJECT_ORDER_IMPLEMENTED",
+      "evidence": "Bound506320 native firstfold shows face, writing hands and cup before secondary notes; source/other-width native grids retain exact applicability to d606.",
+      "qualification": "No new Director approval; current full-route evidence is source-applicable506, not new d606 pixels."
+    },
+    "P1": {
+      "disposition": "CONSERVATIVE_SEATED_SUBJECT_ORDER_IMPLEMENTED",
+      "evidence": "New d606320 native firstfold shows seated person, head/shoulders/hand/cup and seat rather than only crown, with readable status CTA.",
+      "qualification": "No new person/image, clinical/privacy promise or blanket fidelity PASS."
+    },
+    "P2": {
+      "disposition": "MOBILE_HEADING_ORNAMENT_REMOVED",
+      "evidence": "Native360 Medical Sources heading is clear with no top stair motif; source wraps only heading ornament in real hidden lg:block wrapper. Lower source-item motifs remain.",
+      "qualification": "Current binding supports conservative source fix and inspected mobile default paint, not new source-authentication/clinical approval."
+    },
+    "SIGMA-ABOUT-IMAGERY-003": {
+      "disposition": "UNSUPPORTED_CONCEPTUAL_INSTANCES_REMOVED",
+      "evidence": "Source removed three conceptual-room uses and two overlays; current1440 team/end and390principles are code/text/status compositions. All assets preserved and genuine gallery retained.",
+      "qualification": "Does not authenticate any remaining conceptual room or service photo as documentary facility/provider/outcome proof."
+    }
+  },
+  "residuals": [
+    "Contact section_edge_clearance_audited remains false.",
+    "Legal policy publication and operational inputs remain unavailable/noindex.",
+    "Bridge403/CORS retained; authenticated-parent handshake unverified.",
+    "Original reviews/failed scopes and three missing Markdown/session-final remain unchanged.",
+    "Whole-route all-state/accessibility/lead/tracking QA approval is not inferred."
+  ]
+}

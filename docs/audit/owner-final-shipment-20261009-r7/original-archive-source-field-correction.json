@@ -1,0 +1,55 @@
+{
+  "utc": "2026-10-09T18:39:00.997349+00:00",
+  "kind": "Additive parent source-field interpretation correction, not overwrite of independent archive receipt",
+  "independent_receipt_sha256": "db242b8d18f66f81187d5fc7ac72b600ddf6a80af3021d24bd5521832a5d747d",
+  "prior_integrity_status": "FAIL retained",
+  "actual_archive_and_member_byte_integrity": true,
+  "verified_file_count": 2582,
+  "source_field_corrections": [
+    {
+      "path": "final-confirmation-r1/book/review.json",
+      "sha256": "4015e8406b6756357e5aba9f7235220aa16c472c5c9adf8412868440a4407d9a",
+      "actual_original_source_json_pointer": "/source/sha",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    },
+    {
+      "path": "final-confirmation-r1/contact/review.json",
+      "sha256": "54b84aa34144d142414e6ca1396a6d0e9ce01014759f4aa7a26428141113a41e",
+      "actual_original_source_json_pointer": "/source/sha",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    },
+    {
+      "path": "final-confirmation-r1/educational-guide/review.json",
+      "sha256": "b0e5a03eeb26326aa1e6e234e46204bef960e71f79f160b41caf7f0298d43f6d",
+      "actual_original_source_json_pointer": "/source/sha",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    },
+    {
+      "path": "final-confirmation-r1/pain-relief/review.json",
+      "sha256": "f4afa04d0f92301cb8d7dc08b0f7806155b1aa9c8980828b9eba7905e6eb281c",
+      "actual_original_source_json_pointer": "/source/commit",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    },
+    {
+      "path": "final-confirmation-r1/regenerative-medicine/review.json",
+      "sha256": "840f03fa99bf0c6362374bcf12e0a0457f78a3664b1b6b4f2d8a3efd7306a6a4",
+      "actual_original_source_json_pointer": "/source/commit",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    },
+    {
+      "path": "final-confirmation-r1/services/review.json",
+      "sha256": "a9593079c03cea89c0f761a8e270b5fcc2f4aaddf8f9b07808bb143f67598989",
+      "actual_original_source_json_pointer": "/source/commit",
+      "actual_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "prior_readback_error": "top-level source_sha absent; nested actual source exists"
+    }
+  ],
+  "six_original_source_identities_exact": true,
+  "new_review": false,
+  "approval": false
+}

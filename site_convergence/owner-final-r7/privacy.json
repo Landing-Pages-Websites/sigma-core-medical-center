@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "kind": "Owner-authorized fresh legacy route receipt, not canonical native Art Director manifest",
+  "mode": "owner-authorized-fresh-legacy",
+  "page": {
+    "slug": "privacy",
+    "route": "/privacy"
+  },
+  "source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+  "authority": "315991ef-a25c-4710-b4b4-bec4b4a5dd76",
+  "route_record": {
+    "route": "/privacy",
+    "slug": "privacy",
+    "human_review_in_scope": true,
+    "original_review_exact_metadata": {
+      "slug": "privacy",
+      "route": "/privacy",
+      "raw_json": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-contract-staging-r1/originals/reviews/privacy/review.json",
+        "bytes": 8472,
+        "sha256": "11ce1acff33aa04d5a349b477731d116ea9f41fdf141b042026ed7ea756244d2",
+        "original": {
+          "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/privacy/review.json",
+          "bytes": 8472,
+          "sha256": "11ce1acff33aa04d5a349b477731d116ea9f41fdf141b042026ed7ea756244d2"
+        },
+        "byte_exact_copy": true
+      },
+      "originating_markdown": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-contract-staging-r1/originals/reviews/privacy/review.md",
+        "bytes": 2786,
+        "sha256": "497ed37e724536178d7720a6507513db4c922dcf874b93a22188889475495dde",
+        "original": {
+          "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/privacy/review.md",
+          "bytes": 2786,
+          "sha256": "497ed37e724536178d7720a6507513db4c922dcf874b93a22188889475495dde"
+        },
+        "byte_exact_copy": true
+      },
+      "originating_identity": {
+        "identity": "web-developer@gomega.ai",
+        "role": "independent utility-status painted and ArtDirector confirmation subagent",
+        "session": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:e1f90813",
+        "prior_ArtDirector_inputs_inspected": false
+      },
+      "originating_session_id_exact": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:e1f90813",
+      "session_binding_basis": "Explicit report reviewer.session and 14:58 final declaration with all eight matching hashes",
+      "originating_session_completion_declaration_observed": true,
+      "original_verdict": "PASS",
+      "original_painted_verdict": "PASS",
+      "original_scope": "Full six-width system-status static first/every chapter/join/related links/footer/ending only; not policy/legal, accessibility, motion, interaction or integration certification.",
+      "original_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "canonical_historical_ordinal": null,
+      "old_history": "UNKNOWN_NOT_RECONSTRUCTED",
+      "relabel_original_review": false
+    },
+    "current_source_inventory": {
+      "path": "paint-source-d606e0d-r3/source.json",
+      "sha256": "ca3f744a073db257db5f2c2c505469d772ffe13a2edc1deb1530e8d8419b0157",
+      "bytes": 424371,
+      "hash_verified": true,
+      "json_pointer": "/route_sources/~1privacy"
+    },
+    "current_closure_file_count": 20,
+    "source_applicability": {
+      "route": "/privacy",
+      "file_count": 20,
+      "comparisons": {
+        "506ed6fd16b4c7b60b40d455050aa4de04235b8b": {
+          "reachable_bytes_modes_equal": true,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": true,
+          "added": [],
+          "removed": [],
+          "changed": []
+        },
+        "d3c513b123b047b53a11d34c70a99690de360b4b": {
+          "reachable_bytes_modes_equal": true,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": true,
+          "added": [],
+          "removed": [],
+          "changed": []
+        }
+      },
+      "reuse_boundary": "Immutable originating source/preview/native-state packet only when complete closure and supplemental inputs equal; no relabeling as new AFTER, no pixel or runtime verdict."
+    },
+    "design_reference": null,
+    "design_mode": "unapproved-policy-status",
+    "publication": {
+      "indexable_sitemap_path": false,
+      "noindex_status_gate": true,
+      "legal_policy_approved": false,
+      "missing_operational_inputs_still_gated": true
+    },
+    "finding_ids": [
+      "SIG-T01",
+      "SIG-T09"
+    ],
+    "after": {
+      "status": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY",
+      "originating_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "current_source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+      "native_directory": "route-evidence-r1/privacy/capture",
+      "native_receipt": {
+        "path": "route-evidence-r1/privacy/verification/receipt.json",
+        "sha256": "01ecd97f0bb4cdde54856ee62aaefe9ec5d469a308461595de55b03244ad65d6",
+        "bytes": 32561,
+        "hash_verified": true
+      },
+      "new_AFTER_capture": false,
+      "new_paint_approval": false,
+      "qualification": "Home, Contact and utilities preserve complete source/assets/fonts and supplemental input bytes. Original source/preview/native verdict scopes remain exact; not new d606 captures or blanket approval."
+    },
+    "parent_builder_disposition": "EVIDENCE_QUALIFIED_HANDOFF_FOR_HUMAN_SITE_REVIEW",
+    "current_whole_route_qa_grade": "NOT_ASSERTED",
+    "contact_edge_flag": null
+  },
+  "canonical_historical_ordinal": null,
+  "whole_route_qa_grade": "NOT_ASSERTED",
+  "new_director_review": false,
+  "review": false,
+  "approval": false
+}

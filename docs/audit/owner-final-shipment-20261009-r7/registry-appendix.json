@@ -1,0 +1,1193 @@
+{
+  "version": 2,
+  "kind": "finite-current-evidence-appendix-not-canonical-registry",
+  "mode": "owner-authorized-fresh-legacy",
+  "source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+  "source_tree": "53a0d3567ee4743230b496a289bd3e9a2f4ba2aa",
+  "canonical_original": {
+    "path": "final-contract-staging-r1/originals/common/canonical_registry.json",
+    "sha256": "75c9d9ded3188f1c925f78337cfd165502268ec83756f3448fb8c4ddbef5cc0e",
+    "bytes": 74392,
+    "hash_verified": true
+  },
+  "staged_proposal_preserved": {
+    "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+    "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+    "bytes": 256176,
+    "hash_verified": true
+  },
+  "nine_required_fields": [
+    "design_refs_approved",
+    "decomposition_complete",
+    "review_sheet_published",
+    "build_complete",
+    "viewport_normalized",
+    "primary_laptop_capture",
+    "section_edge_clearance_audited",
+    "desktop_section_captures",
+    "mobile_section_captures"
+  ],
+  "limited_boolean_semantics": "All fields are limited to named scopes, not generic validator or human approval. False is not reissued/not currently certified; legacy lane is not native-frame completion.",
+  "routes": [
+    {
+      "route": "/services",
+      "slug": "services",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/0/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-services.jpg",
+        "sha256": "edc223ecf22cbb31850faefe1c5312e9b2fb8e7e047871ff3c5699d5ba5321ca",
+        "bytes": 347613,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/1/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/services/neuropathy",
+      "slug": "neuropathy",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/1/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-neuropathy.jpg",
+        "sha256": "bbd22880f45f285ecfa3dfc1816df46d54df04958fe9eee8f905dd7eae4baf0b",
+        "bytes": 468857,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/2/after",
+        "evidence_class": "PENDING_PARENT_D606_R4_PACKET"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/services/pain-relief",
+      "slug": "pain-relief",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/2/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-pain-relief.jpg",
+        "sha256": "499e7c6e5c3cbb4f8de18640afca2689596eec04e1682c3c78140ae9884995e6",
+        "bytes": 574553,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/3/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/services/hormone-optimization",
+      "slug": "hormone-optimization",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/3/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-hormone-optimization.jpg",
+        "sha256": "d23e650acf20735739f1b1a63f02fea24d8eaec39429e3fd1ab85224d10f7475",
+        "bytes": 426566,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/4/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/services/pelvic-floor-incontinence",
+      "slug": "pelvic-floor-incontinence",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/4/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-pelvic-floor-incontinence.jpg",
+        "sha256": "7a5c7828410d646cdb6c815859de1c0a1ad27fbdef2ec7582ab3238409d32a0e",
+        "bytes": 407074,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/5/after",
+        "evidence_class": "PENDING_PARENT_D606_R4_PACKET"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/services/regenerative-medicine",
+      "slug": "regenerative-medicine",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/5/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-regenerative-medicine.jpg",
+        "sha256": "48e600a2a0a03f7447dd2562023f9894f1529782155ba2f653e4f240b909d186",
+        "bytes": 440339,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/6/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/about",
+      "slug": "about",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/6/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-about.jpg",
+        "sha256": "984892354d4bb9a708e0a986adb4432fce6a15414a41c7d47bd93e622d98f2b9",
+        "bytes": 341492,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/7/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/educational-guide",
+      "slug": "educational-guide",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/7/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "GENUINE_506_CAPTURE_MATERIAL_SOURCE_APPLICABLE",
+          "basis": "True is limited material presence of six-width DPR1 native/state evidence, not new d606 capture, paint/fidelity or QA."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-educational-guide.jpg",
+        "sha256": "fbb682c4466e35a3f80c9157a241bd6547751a623bdfe5529445cb892332a433",
+        "bytes": 234601,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/8/after",
+        "evidence_class": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/book",
+      "slug": "book",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/8/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PENDING_D606_PACKET",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-book.jpg",
+        "sha256": "bc9dcb3ff178a3b7daf601462305ff984edf46d6586bfa55ab4388bdc08fd1cb",
+        "bytes": 142354,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/9/after",
+        "evidence_class": "PENDING_PARENT_D606_R4_PACKET"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/contact",
+      "slug": "contact",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/9/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "OWNER_LEGACY_JPG_ONLY",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": false,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": {
+        "path": "approved-jpgs/page-contact.jpg",
+        "sha256": "d1af31ce67d2e564918e02421188ee2b43d889d39dda740eb218069d48e97292",
+        "bytes": 228149,
+        "hash_verified": true
+      },
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/10/after",
+        "evidence_class": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY"
+      },
+      "legal_policy_approved": null,
+      "qa_verdict": null
+    },
+    {
+      "route": "/privacy",
+      "slug": "privacy",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/10/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NO_POLICY_APPROVAL",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": null,
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/11/after",
+        "evidence_class": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY"
+      },
+      "legal_policy_approved": false,
+      "qa_verdict": null
+    },
+    {
+      "route": "/notice-of-privacy-practices",
+      "slug": "notice-of-privacy-practices",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/11/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NO_POLICY_APPROVAL",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": null,
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/12/after",
+        "evidence_class": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY"
+      },
+      "legal_policy_approved": false,
+      "qa_verdict": null
+    },
+    {
+      "route": "/accessibility",
+      "slug": "accessibility",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/12/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NO_POLICY_APPROVAL",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": null,
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/13/after",
+        "evidence_class": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY"
+      },
+      "legal_policy_approved": false,
+      "qa_verdict": null
+    },
+    {
+      "route": "/terms",
+      "slug": "terms",
+      "historical_entry": {
+        "path": "final-contract-staging-r1/registry-evidence-appendix.json",
+        "sha256": "5bf32b267aca6ea82eacccfcb3aba0261812c6cc20904854fc69ba654c24a199",
+        "bytes": 256176,
+        "hash_verified": true,
+        "json_pointer": "/routes/13/historical_entry_exact"
+      },
+      "canonical_overwritten": false,
+      "flags": {
+        "design_refs_approved": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NO_POLICY_APPROVAL",
+          "basis": "Ten actual owner-approved legacy JPGs, no native package or clinical/policy approval."
+        },
+        "decomposition_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "NOT_NATIVE_APPLICABLE_OWNER_LEGACY",
+          "basis": "No modern native package/decomposition certification manufactured."
+        },
+        "review_sheet_published": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "CURRENT_PUBLICATION_UNVERIFIED",
+          "basis": "No newly verified immutable review-sheet publication."
+        },
+        "build_complete": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": true,
+          "scope": "CURRENT_SOURCE_COMPILATION_ONLY",
+          "basis": "Retained R3 0/0/0 lint/types/build started at 506 with exact three uncommitted patch hashes matching committed d606; no postcommit rerun or paint claim."
+        },
+        "viewport_normalized": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "primary_laptop_capture": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "section_edge_clearance_audited": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "PAINTED_ACCEPTANCE_NOT_REISSUED",
+          "basis": "Numerical zero counts/masked continuity are not painted-edge acceptance; retain exact original scoped judgments."
+        },
+        "desktop_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        },
+        "mobile_section_captures": {
+          "historical_canonical_value": true,
+          "current_limited_boolean": false,
+          "scope": "INHERITED_D3_ORIGINAL_SCOPE_ONLY",
+          "basis": "No newly certified current capture; original scope or explicit pending preserved."
+        }
+      },
+      "design_reference": null,
+      "after_packet": {
+        "artifact": "route-index.json",
+        "json_pointer": "/routes/14/after",
+        "evidence_class": "UNCHANGED_D3_SOURCE_APPLICABLE_ORIGINAL_SCOPE_ONLY"
+      },
+      "legal_policy_approved": false,
+      "qa_verdict": null
+    }
+  ],
+  "home_record": {
+    "artifact": "route-index.json",
+    "json_pointer": "/approved_home"
+  },
+  "contact_section_edge_clearance_audited": false,
+  "policy_approvals": {
+    "privacy": false,
+    "notice-of-privacy-practices": false,
+    "accessibility": false,
+    "terms": false
+  },
+  "imagery_roles": {
+    "conceptual_vs_documentary": "Visual/JPG approval does not authenticate actual facility, provider or outcome. Guide room provenance and softer desktop crop remain disclosed.",
+    "About_removed_images": 3,
+    "About_removed_logo_location_overlays": 2,
+    "asset_files_deleted": 0,
+    "authentic_About_gallery_retained": true,
+    "fresh_render_or_replacement": false,
+    "asset_preservation_receipt": {
+      "path": "final-contract-staging-r1/about-assets-preserved.json",
+      "sha256": "368f30a59fcb47dc77a67ca12281bfa4ffe91fec43c17dfab2dff5f29810dfc7",
+      "bytes": 1293,
+      "hash_verified": true
+    }
+  },
+  "claims": {
+    "new_AD_round": false,
+    "new_visual_review": false,
+    "DIRECTOR_APPROVED": false,
+    "SHIP_READY": false,
+    "human_approval": false,
+    "canonical_validator_pass": false,
+    "gate_pass": false,
+    "shipment_complete": false,
+    "production_qa": false,
+    "historical_custody_recovered": false,
+    "approved_PR52_pixel_comparison": false
+  },
+  "canonical_page_set_original": {
+    "path": "final-contract-staging-r1/originals/common/canonical_page_set.json",
+    "sha256": "8feeed7a8f3420d4ea474bf84094396859ff574f753fb55e9abfe750b4af75dc",
+    "bytes": 47180,
+    "hash_verified": true
+  },
+  "canonical_system_only_classifications_retained": true,
+  "utility_human_review_scope": "Four historical system-only classifications stay exact in canonical page-set copy; all four static status surfaces remain in the 15-route human index without acquiring policy approval."
+}
