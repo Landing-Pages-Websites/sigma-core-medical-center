@@ -1,0 +1,44 @@
+
+> sigma-core-medical-center@0.1.0 build
+> next build
+
+▲ Next.js 16.3.3 (Turbopack)
+✓ Running next.config.ts took 141ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 12.3s
+  Running TypeScript ...
+  Finished TypeScript in 2.9s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/22) ...
+  Generating static pages using 3 workers (5/22)
+  Generating static pages using 3 workers (10/22)
+  Generating static pages using 3 workers (16/22)
+✓ Generating static pages using 3 workers (22/22) in 1405ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /accessibility
+├ ○ /book
+├ ○ /contact
+├ ○ /educational-guide
+├ ○ /icon.png
+├ ○ /notice-of-privacy-practices
+├ ○ /privacy
+├ ○ /robots.txt
+├ ○ /services
+├ ○ /services/hormone-optimization
+├ ○ /services/neuropathy
+├ ○ /services/pain-relief
+├ ○ /services/pelvic-floor-incontinence
+├ ○ /services/regenerative-medicine
+├ ○ /sitemap.xml
+├ ○ /terms
+├ ○ /variant-a
+└ ○ /variant-b
+
+
+○  (Static)  prerendered as static content

@@ -3,10 +3,10 @@ import { FileText, ShieldCheck, SquarePlay, UserRound } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const GUIDE_FACTS = [
-  { icon: SquarePlay, text: "The customer plans to provide an educational video or resource later." },
-  { icon: FileText, text: "The page should be prepared now but must not imply that an unavailable resource is ready." },
-  { icon: UserRound, text: "Submissions route to GoHighLevel CRM." },
-  { icon: ShieldCheck, text: "Do not collect symptom narratives, medical history, diagnoses, or other free-text health information in the general marketing form." },
+  { icon: SquarePlay, text: "The educational guide is currently unavailable." },
+  { icon: FileText, text: "There is no guide available to download." },
+  { icon: UserRound, text: "The guide request form is unavailable." },
+  { icon: ShieldCheck, text: "No availability date has been given." },
 ] as const;
 
 export function GuideHero(): React.ReactElement {
@@ -18,11 +18,11 @@ export function GuideHero(): React.ReactElement {
           <div className="flex items-start gap-4">
             <TallBracket className="mt-2 h-36 w-6 text-silver sm:h-44 lg:h-[12.5rem]" />
             <h1 className="font-heading text-[clamp(2.6rem,5.2vw,4.9rem)] leading-[0.98] font-bold tracking-[-0.035em]">
-              Get the Sigma Core educational guide
+              Sigma Core educational guide status
             </h1>
           </div>
           <p className="mt-5 max-w-[36rem] text-lg leading-snug text-white/90 sm:ml-10">
-            This educational resource is pending approval. Submit your interest and we’ll notify you when it’s available.
+            The guide and request form are currently unavailable. There is no download or availability date.
           </p>
         </div>
         <div className="relative min-h-[20rem] lg:min-h-0">
@@ -31,9 +31,9 @@ export function GuideHero(): React.ReactElement {
           </div>
           <div className="absolute top-6 left-6 z-10 max-w-[19rem] bg-[#25282d] px-6 py-5 shadow-xl sm:left-10 lg:top-14 lg:left-[2%]">
             <p className="flex items-start gap-3 text-sm font-bold tracking-[0.04em] uppercase">
-              <TallBracket className="h-9 w-2 text-silver" /> Resource pending approval
+              <TallBracket className="h-9 w-2 text-silver" /> Guide unavailable
             </p>
-            <p className="mt-2 pl-5 text-sm leading-snug text-white/70">The customer plans to provide an educational video or resource later.</p>
+            <p className="mt-2 pl-5 text-sm leading-snug text-white/70">No availability date has been given.</p>
           </div>
         </div>
       </div>
@@ -60,12 +60,12 @@ function GuideFactsBand(): React.ReactElement {
         <div className="relative bg-navy px-6 py-6 sm:px-10 lg:mr-[14%] lg:pl-[max(2.5rem,calc((100vw-90rem)/2+4.5rem))] lg:[clip-path:polygon(0_0,96%_0,100%_100%,0_100%)]">
           <TallBracket className="absolute top-6 bottom-6 left-6 w-2.5 text-silver sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]" />
           <p className="max-w-[28rem] pl-6 font-display text-sm leading-snug text-white/80 italic">
-            Do not publish until the customer supplies the actual video or guide, approved title, summary, thumbnail, and delivery promise. Once supplied, describe its contents accurately without cure or protocol claims.
+            Information on this page does not provide diagnosis or individualized medical advice.
           </p>
         </div>
       </div>
       <div className="relative z-10 flex flex-col justify-end bg-royal px-6 py-8 sm:px-10 lg:-ml-[10%] lg:pt-16 lg:pb-8 lg:pl-[18%] lg:[clip-path:polygon(22%_0,100%_0,100%_100%,0_100%)]">
-        <p className="max-w-[20rem] font-heading text-xl leading-tight font-bold">Submit your interest to be notified when the resource is available.</p>
+        <p className="max-w-[20rem] font-heading text-xl leading-tight font-bold">Guide requests are currently unavailable.</p>
         <p className="relative mt-4 max-w-[17rem] border border-white/45 py-3 pr-4 pl-7 text-sm leading-snug">
           <TallBracket className="absolute top-3 bottom-3 left-3 w-1.5 text-white" />
           This is not an active form and does not collect any information.

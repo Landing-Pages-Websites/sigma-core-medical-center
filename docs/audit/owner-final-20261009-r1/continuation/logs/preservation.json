@@ -1,0 +1,317 @@
+{
+  "base": "250d324a6caf23b7cbdef533fc493b7613264801",
+  "actual_home_roots": [
+    "app/layout.tsx",
+    "app/page.tsx"
+  ],
+  "actual_home_source_count": 18,
+  "actual_home_sources": [
+    "app/globals.css",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "src/components/shared/pending-action.tsx",
+    "src/components/shared/reveal.tsx",
+    "src/components/variant-b/buttons.ts",
+    "src/components/variant-b/faq-location.tsx",
+    "src/components/variant-b/hero.tsx",
+    "src/components/variant-b/informed-path.tsx",
+    "src/components/variant-b/motifs.tsx",
+    "src/components/variant-b/neuropathy.tsx",
+    "src/components/variant-b/place-of-care.tsx",
+    "src/components/variant-b/services.tsx",
+    "src/components/variant-b/site-footer.tsx",
+    "src/components/variant-b/two-ways.tsx",
+    "src/content/site.ts",
+    "src/lib/fonts.ts",
+    "src/lib/use-accordion.ts"
+  ],
+  "actual_home_import_edges": [
+    [
+      "app/layout.tsx",
+      "app/globals.css"
+    ],
+    [
+      "app/layout.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "app/layout.tsx",
+      "src/lib/fonts.ts"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/faq-location.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/hero.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/informed-path.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/neuropathy.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/place-of-care.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/services.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/site-footer.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/components/variant-b/two-ways.tsx"
+    ],
+    [
+      "app/page.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/faq-location.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/faq-location.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/faq-location.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/faq-location.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/faq-location.tsx",
+      "src/lib/use-accordion.ts"
+    ],
+    [
+      "src/components/variant-b/hero.tsx",
+      "src/components/shared/pending-action.tsx"
+    ],
+    [
+      "src/components/variant-b/hero.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/hero.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/hero.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/informed-path.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/informed-path.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/informed-path.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/neuropathy.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/neuropathy.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/neuropathy.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/neuropathy.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/place-of-care.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/place-of-care.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/place-of-care.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/services.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/services.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/services.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/services.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/site-footer.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/site-footer.tsx",
+      "src/content/site.ts"
+    ],
+    [
+      "src/components/variant-b/two-ways.tsx",
+      "src/components/shared/reveal.tsx"
+    ],
+    [
+      "src/components/variant-b/two-ways.tsx",
+      "src/components/variant-b/buttons.ts"
+    ],
+    [
+      "src/components/variant-b/two-ways.tsx",
+      "src/components/variant-b/motifs.tsx"
+    ],
+    [
+      "src/components/variant-b/two-ways.tsx",
+      "src/content/site.ts"
+    ]
+  ],
+  "actual_home_source_hashes": {
+    "app/globals.css": {
+      "bytes": 1773,
+      "sha256": "ec467547bb7cd062dda82b72362cab1132e4450e77c8d8ab233ffdc26dd252b2"
+    },
+    "app/layout.tsx": {
+      "bytes": 1045,
+      "sha256": "6e1f013bd78c013b093f50b86fefea92c04cb56811ef59f6a125677d60345d13"
+    },
+    "app/page.tsx": {
+      "bytes": 1034,
+      "sha256": "86ce9471cd6f00ce49c867dfca8b806aaa9abd9d260bb229a02244c5075dcba7"
+    },
+    "src/components/shared/pending-action.tsx": {
+      "bytes": 1774,
+      "sha256": "e1fd23bde0cf9d2048ea9115ba742d4e25407552936af722ced091b6be8b3764"
+    },
+    "src/components/shared/reveal.tsx": {
+      "bytes": 1097,
+      "sha256": "b08ef5da90d97a4ef45ac770e21763be10162267b90565f5548d67fa56db6500"
+    },
+    "src/components/variant-b/buttons.ts": {
+      "bytes": 1046,
+      "sha256": "9c7cdea486c521f1148da3fcd563560680bf77fb1aec80782a5f578e9b7c56e5"
+    },
+    "src/components/variant-b/faq-location.tsx": {
+      "bytes": 3705,
+      "sha256": "8bec681c8b32e6387bf68fd103ec0e149fec8b13badd54e4b5d4e1d4e43e5a56"
+    },
+    "src/components/variant-b/hero.tsx": {
+      "bytes": 4376,
+      "sha256": "ef9dc85d8262cb08d4403b24bbb713581ba53a7cb2287f7003c595d3882db0ff"
+    },
+    "src/components/variant-b/informed-path.tsx": {
+      "bytes": 2151,
+      "sha256": "c070466a37ab0b45e2f2a420f73762d1116f94cf52e442f67c85d03ab30a9d4a"
+    },
+    "src/components/variant-b/motifs.tsx": {
+      "bytes": 1338,
+      "sha256": "66e32b4360d3b68d8b78b40fbf9cad017b3e446c69af30f7a2471754fd7b5544"
+    },
+    "src/components/variant-b/neuropathy.tsx": {
+      "bytes": 4444,
+      "sha256": "2139eba7ee7bba2365478cc0964b8f6bbfba897a9cd354866a901170a2fe5b24"
+    },
+    "src/components/variant-b/place-of-care.tsx": {
+      "bytes": 5116,
+      "sha256": "2c4e36c598566ca1f3b25bf281ef19de824a1f7a6ae5e736b5e6a5f8dedfa2df"
+    },
+    "src/components/variant-b/services.tsx": {
+      "bytes": 4661,
+      "sha256": "287c47b830bb6031d841e372df137c63b50558268e590af341ecf5851f229ee7"
+    },
+    "src/components/variant-b/site-footer.tsx": {
+      "bytes": 2944,
+      "sha256": "28739a0361c5cad78f10e209277600b147333f38db92253b80b2124553b91dee"
+    },
+    "src/components/variant-b/two-ways.tsx": {
+      "bytes": 3697,
+      "sha256": "019b28f1e9ad42e0d8bfe9da4a37511d2a8548f97e1187cca5ecf7daa7c0baa5"
+    },
+    "src/content/site.ts": {
+      "bytes": 6879,
+      "sha256": "32fafb4b7763d86ec4a0f0f115b9240770239815d8c00f66ad8430ce8f1051a5"
+    },
+    "src/lib/fonts.ts": {
+      "bytes": 925,
+      "sha256": "40674017625a4900bb1192c2d0b07ac87a314339f67ddbd82ae11d5f6592d373"
+    },
+    "src/lib/use-accordion.ts": {
+      "bytes": 1251,
+      "sha256": "58a3973d53f1b83157c3cd49feb8e2fa384df9dfc391babd3e1c74af87a10dba"
+    }
+  },
+  "all_actual_home_source_hashes_match_initial_freeze": true,
+  "protected_files_checked": 732,
+  "protected_public_and_font_files_checked": 700,
+  "all_other_protected_hashes_match": true,
+  "sole_authorized_non_home_mismatch": {
+    "app/services/interior.css": {
+      "expected": {
+        "bytes": 42731,
+        "sha256": "85626121d4751bab179ba8d2187af47785f451f7553d66a67a5d2ce22b520b36"
+      },
+      "actual": {
+        "bytes": 42731,
+        "sha256": "aa8182a17a78bcc23968c48eda0dc6ecb6bdbcbcfbc379b554e45ddadcfbe651"
+      }
+    }
+  },
+  "overincluded_sources": [
+    "app/(batch-three)/batch-three.css",
+    "app/(batch-three)/layout.tsx",
+    "app/(site)/layout.tsx",
+    "app/(utility)/layout.tsx",
+    "app/(utility)/utility.css",
+    "app/services/interior.css",
+    "src/components/interior/interior-header.tsx",
+    "src/components/shared/site-shell.tsx",
+    "src/components/variant-b/site-header.tsx"
+  ],
+  "prior_seven_fixes_unchanged": [
+    "app/variant-a/page.tsx",
+    "app/variant-b/page.tsx",
+    "app/services/interior.css",
+    "src/components/batch-three/book/book.css",
+    "app/(site)/educational-guide/page.tsx",
+    "src/components/pages/educational-guide/lead-form-section.tsx",
+    "src/components/pages/educational-guide/privacy-note.tsx"
+  ],
+  "classes_images_icons_motifs_and_anchors_unchanged": [
+    "src/components/pages/educational-guide/guide-hero.tsx",
+    "src/components/pages/educational-guide/resource-summary.tsx"
+  ],
+  "exact_generated_two_line_production_path_diff": true,
+  "freeze_sha256": "5296cb3160526e65ea95a35c41bcf9ae71a98aa2100c0c7c4af1879731a7e002",
+  "canonical_helper_sha256": "8ac142c4c748a317abdfd9657c226ae7ee9358e34b9bebabe589a65538e8269d",
+  "tracked_changes_from_base": [
+    "next-env.d.ts",
+    "src/components/pages/educational-guide/guide-hero.tsx",
+    "src/components/pages/educational-guide/resource-summary.tsx"
+  ],
+  "note": "Static imported-source and byte evidence only; no rendered or all-732-files-match claim."
+}

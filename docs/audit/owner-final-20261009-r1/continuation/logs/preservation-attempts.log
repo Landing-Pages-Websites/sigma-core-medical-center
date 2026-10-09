@@ -1,0 +1,2 @@
+Initial verification exit: 1
+The task-local checker mistakenly matched the ordinary word "any" in the unchanged visitor sentence "does not collect any information" as a TypeScript any type. Narrowed the code pattern to a type annotation; no application edit was needed. This was a checker false positive.
