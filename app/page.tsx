@@ -9,6 +9,9 @@ import { FaqLocationB } from "@/components/variant-b/faq-location";
 import { SiteFooterB } from "@/components/variant-b/site-footer";
 import { SITE_DESCRIPTION } from "@/content/site";
 
+import { ScrollProgress } from "@/components/shared/scroll-progress";
+import { BackToTop } from "@/components/shared/back-to-top";
+
 export const metadata: Metadata = {
   title: "Neuropathy & Personalized Care in Richmond, VA",
   description: SITE_DESCRIPTION,
@@ -17,6 +20,7 @@ export const metadata: Metadata = {
 export default function HomePage(): React.ReactElement {
   return (
     <>
+      <ScrollProgress />
       <main>
         <HeroB />
         <NeuropathyB />
@@ -27,6 +31,7 @@ export default function HomePage(): React.ReactElement {
         <FaqLocationB />
       </main>
       <SiteFooterB />
+      <BackToTop />
     </>
   );
 }

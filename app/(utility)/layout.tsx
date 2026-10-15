@@ -1,8 +1,8 @@
-import { InteriorHeader } from "@/components/interior/interior-header";
+import { SiteHeaderB } from "@/components/variant-b/site-header";
 import { SiteFooterB } from "@/components/variant-b/site-footer";
 import "../services/interior.css";
 import "./utility.css";
 
 export default function UtilityLayout({ children }: Readonly<{ children: React.ReactNode }>): React.ReactElement {
-  return <div className="utility-shell"><InteriorHeader />{children}<SiteFooterB /></div>;
+  return <div className="utility-shell"><SiteHeaderB />{children}<SiteFooterB /></div>;
 }
