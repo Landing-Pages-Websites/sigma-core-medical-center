@@ -1,0 +1,451 @@
+{
+  "version": 2,
+  "kind": "Owner-authorized fresh legacy route receipt, not canonical native Art Director manifest",
+  "mode": "owner-authorized-fresh-legacy",
+  "page": {
+    "slug": "about",
+    "route": "/about"
+  },
+  "source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+  "authority": "315991ef-a25c-4710-b4b4-bec4b4a5dd76",
+  "route_record": {
+    "route": "/about",
+    "slug": "about",
+    "human_review_in_scope": true,
+    "original_review_exact_metadata": {
+      "slug": "about",
+      "route": "/about",
+      "raw_json": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-contract-staging-r1/originals/reviews/about/review.json",
+        "bytes": 22187,
+        "sha256": "1da74b404887a5fed3674d4c0eaddd0895dba158f58e2c041b70a7c0ebe77f59",
+        "original": {
+          "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/about/review.json",
+          "bytes": 22187,
+          "sha256": "1da74b404887a5fed3674d4c0eaddd0895dba158f58e2c041b70a7c0ebe77f59"
+        },
+        "byte_exact_copy": true
+      },
+      "originating_markdown": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-contract-staging-r1/originals/reviews/about/review.md",
+        "bytes": 9234,
+        "sha256": "717c76639656dc8a6bd547837a9ff8053f2aac931145f892e05cf6498302d737",
+        "original": {
+          "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/about/review.md",
+          "bytes": 9234,
+          "sha256": "717c76639656dc8a6bd547837a9ff8053f2aac931145f892e05cf6498302d737"
+        },
+        "byte_exact_copy": true
+      },
+      "originating_identity": {
+        "identity": "web-developer@gomega.ai",
+        "role": "Independent subagent Art Director and painted-edge confirmation",
+        "session_id": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:00a3b6ec"
+      },
+      "originating_session_id_exact": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:00a3b6ec",
+      "session_binding_basis": "Explicit report reviewer.session_id and originating completion message",
+      "originating_session_completion_declaration_observed": true,
+      "original_verdict": "CHANGES_REQUESTED",
+      "original_painted_verdict": "PASS",
+      "original_scope": "Complete chapters/joins/ending1440/390; openings320/360/1536/1728 and four narrow lower samples. Three About-only content/imagery blockers; no Home or future-source approval.",
+      "original_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "canonical_historical_ordinal": null,
+      "old_history": "UNKNOWN_NOT_RECONSTRUCTED",
+      "relabel_original_review": false
+    },
+    "current_source_inventory": {
+      "path": "paint-source-d606e0d-r3/source.json",
+      "sha256": "ca3f744a073db257db5f2c2c505469d772ffe13a2edc1deb1530e8d8419b0157",
+      "bytes": 424371,
+      "hash_verified": true,
+      "json_pointer": "/route_sources/~1about"
+    },
+    "current_closure_file_count": 29,
+    "source_applicability": {
+      "route": "/about",
+      "file_count": 29,
+      "comparisons": {
+        "506ed6fd16b4c7b60b40d455050aa4de04235b8b": {
+          "reachable_bytes_modes_equal": true,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": true,
+          "added": [],
+          "removed": [],
+          "changed": []
+        },
+        "d3c513b123b047b53a11d34c70a99690de360b4b": {
+          "reachable_bytes_modes_equal": false,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": false,
+          "added": [],
+          "removed": [
+            "public/images/pages/hormone-decision-reception-v3.png",
+            "public/images/pages/hormone-orientation-lobby-v3.png",
+            "public/images/pages/neuropathy-faq-lobby-v2.png"
+          ],
+          "changed": [
+            "src/components/pages/about-booking-cta.tsx",
+            "src/components/pages/about/about-hero.tsx",
+            "src/components/pages/about/care-principles.tsx",
+            "src/components/pages/about/facility-gallery.tsx",
+            "src/components/pages/about/team-publication-gate.tsx"
+          ]
+        }
+      },
+      "reuse_boundary": "Immutable originating source/preview/native-state packet only when complete closure and supplemental inputs equal; no relabeling as new AFTER, no pixel or runtime verdict."
+    },
+    "design_reference": {
+      "path": "approved-jpgs/page-about.jpg",
+      "sha256": "984892354d4bb9a708e0a986adb4432fce6a15414a41c7d47bd93e622d98f2b9",
+      "bytes": 341492,
+      "hash_verified": true
+    },
+    "design_mode": "owner-approved-legacy-JPG",
+    "publication": {
+      "indexable_sitemap_path": true,
+      "noindex_status_gate": false,
+      "legal_policy_approved": null,
+      "missing_operational_inputs_still_gated": true
+    },
+    "finding_ids": [
+      "SIGMA-ABOUT-CONTENT-001",
+      "SIGMA-ABOUT-CONTENT-002",
+      "SIGMA-ABOUT-IMAGERY-003",
+      "SIG-T01",
+      "SIG-T09"
+    ],
+    "after": {
+      "status": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606",
+      "packet_exact_audit_record": {
+        "route": "/about",
+        "packet": "closure-immutable-506ed6f-r1/about",
+        "receipt_sha256": "021a81ce0d22cae0aab466f98c2d18d5d79b0ea46334156af2c7fc818db0e987",
+        "source_sha": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+        "url": "https://sigma-core-medical-review-mp08me3i3-mega-websites.vercel.app/about",
+        "deployment_id": "dpl_2gKxv5xfMfByJWnJjChE5oi85Ztj",
+        "immutable_git_deployment_binding_equal_before_after": true,
+        "source_maps_equal_independent_506_and_d606": true,
+        "terminal_actual_exit": 0,
+        "widths": [
+          320,
+          360,
+          390,
+          1440,
+          1536,
+          1728
+        ],
+        "six_widths_exact": true,
+        "native_pair_count": 46,
+        "native_png_pre_post_hash_count": 138,
+        "native_leaf_hash_mismatches": 0,
+        "source_sha_before_after": [
+          "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+          "506ed6fd16b4c7b60b40d455050aa4de04235b8b"
+        ],
+        "review_or_approval": false,
+        "qualification": "506ed6f immutable native/state packet is byte-bound applicable to unchanged route source, not new d606e0d capture or a new review."
+      },
+      "receipt": {
+        "path": "closure-immutable-506ed6f-r1/about/verification/receipt.json",
+        "sha256": "021a81ce0d22cae0aab466f98c2d18d5d79b0ea46334156af2c7fc818db0e987",
+        "bytes": 78467,
+        "hash_verified": true
+      },
+      "binding_before": {
+        "path": "closure-immutable-506ed6f-r1/about/binding-before.json",
+        "sha256": "87a4e6fd098e10fc583ccd87d5a114493d220abb2f0ff878cdc9cc0e13afb987",
+        "bytes": 958,
+        "hash_verified": true
+      },
+      "binding_after": {
+        "path": "closure-immutable-506ed6f-r1/about/binding-after.json",
+        "sha256": "b00d526136cb240cc7e115e5e6bcef54e0f702af70abdf43cbac54f1073258b0",
+        "bytes": 958,
+        "hash_verified": true
+      },
+      "route_sources_before_after": [
+        {
+          "path": "closure-immutable-506ed6f-r1/about/route-source-before.json",
+          "sha256": "a2e480277778f2b444273d1e8d7aa8dbd6bf9bed9a6e79ddfb7e5237c8563398",
+          "bytes": 3365,
+          "hash_verified": true
+        },
+        {
+          "path": "closure-immutable-506ed6f-r1/about/route-source-after.json",
+          "sha256": "a2e480277778f2b444273d1e8d7aa8dbd6bf9bed9a6e79ddfb7e5237c8563398",
+          "bytes": 3365,
+          "hash_verified": true
+        }
+      ],
+      "terminal": {
+        "path": "closure-immutable-506ed6f-r1/about/terminal.json",
+        "sha256": "69e2bad26ce78dce3d374dcfd641170dcb26b0e7b4f5e372919e72372a6c59ae",
+        "bytes": 387,
+        "hash_verified": true
+      },
+      "native_manifest": {
+        "path": "closure-offline-independent-technical-r1/report.json",
+        "sha256": "6eb5c1caa38409d8180cf59351b351d04052b488d39893fd62446b9385cf93c7",
+        "bytes": 1298106,
+        "hash_verified": true,
+        "json_pointer": "/routes/6/native_manifest"
+      },
+      "six_width_measurements": [
+        {
+          "width": 320,
+          "height": 800,
+          "native_tiles": 11,
+          "document_height": 6588,
+          "final_scroll_Y": 5788,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 11,
+            "images": 99,
+            "controls": 176,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 11,
+            "nonzero_images": 88,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 11,
+            "zero_rect_unloaded_images": 11,
+            "in_view_images": 24,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 300,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 360,
+          "height": 800,
+          "native_tiles": 10,
+          "document_height": 6192,
+          "final_scroll_Y": 5392,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 10,
+            "images": 90,
+            "controls": 160,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 10,
+            "nonzero_images": 80,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 10,
+            "zero_rect_unloaded_images": 10,
+            "in_view_images": 22,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 340,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "native_tiles": 9,
+          "document_height": 6016,
+          "final_scroll_Y": 5172,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 9,
+            "images": 81,
+            "controls": 144,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 9,
+            "nonzero_images": 72,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 9,
+            "zero_rect_unloaded_images": 9,
+            "in_view_images": 22,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 370,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "native_tiles": 6,
+          "document_height": 4132,
+          "final_scroll_Y": 3232,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 6,
+            "images": 54,
+            "controls": 126,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 6,
+            "nonzero_images": 48,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 6,
+            "zero_rect_unloaded_images": 6,
+            "in_view_images": 18,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1400.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "native_tiles": 5,
+          "document_height": 4132,
+          "final_scroll_Y": 3108,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 5,
+            "images": 45,
+            "controls": 105,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 5,
+            "nonzero_images": 40,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 5,
+            "zero_rect_unloaded_images": 5,
+            "in_view_images": 14,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1448.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1728,
+          "height": 1117,
+          "native_tiles": 5,
+          "document_height": 4132,
+          "final_scroll_Y": 3015,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "None"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 5,
+            "images": 45,
+            "controls": 105,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 5,
+            "nonzero_images": 40,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 5,
+            "zero_rect_unloaded_images": 5,
+            "in_view_images": 16,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1544.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        }
+      ],
+      "all_raw_states_geometry": {
+        "counts": {
+          "states": 98,
+          "images": 882,
+          "controls": 1743,
+          "edge_candidates": 0,
+          "horizontal_document_overflow": 0,
+          "fonts_loaded": 98,
+          "nonzero_images": 784,
+          "nonzero_unloaded_images": 0,
+          "zero_rect_images": 98,
+          "zero_rect_unloaded_images": 98,
+          "in_view_images": 247,
+          "in_view_unloaded_images": 0,
+          "controls_outside_horizontal_viewport": 0,
+          "control_internal_overflow": 0,
+          "form_fields": 0,
+          "blank_button_labels": 0
+        },
+        "maximum_observed_control_right": 1544.0,
+        "exceptions": [],
+        "zero_rectangle_branches": [
+          {
+            "src": "/_next/image?url=%2Fimages%2Fvariant-b%2Fwalnut-texture.jpg&w=3840&q=75&dpl=dpl_2gKxv5xfMfByJWnJjChE5oi85Ztj",
+            "loaded": false,
+            "observations": 98,
+            "excluded_from_visible_loaded_check": true
+          }
+        ]
+      },
+      "actual_requestfailed_count": 6,
+      "actual_pageerror_count": 0,
+      "actual_blocked_POST_count": 0,
+      "painted_acceptance": null,
+      "parent_finding_judgments": null,
+      "qualification": "506ed6f immutable native/state packet is byte-bound applicable to unchanged route source, not new d606e0d capture or a new review. Numerical/state integrity is not painted-edge, hover/focus or all-DOM approval."
+    },
+    "parent_builder_disposition": "EVIDENCE_QUALIFIED_HANDOFF_FOR_HUMAN_SITE_REVIEW",
+    "current_whole_route_qa_grade": "NOT_ASSERTED",
+    "contact_edge_flag": null
+  },
+  "canonical_historical_ordinal": null,
+  "whole_route_qa_grade": "NOT_ASSERTED",
+  "new_director_review": false,
+  "review": false,
+  "approval": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/services",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/3d23822c-0241-476e-b70e-6f9454ca0c23_design-ref-services.jpg"
+  },
+  {
+    "route": "/services/neuropathy",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/1a2d9315-5ec0-465e-9a3c-1886b5f625a3_design-ref-neuropathy.jpg"
+  },
+  {
+    "route": "/services/pain-relief",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/b10c4924-70c5-4e9c-9d9d-8ccbb7f69e81_design-ref-pain-relief.jpg"
+  },
+  {
+    "route": "/services/hormone-optimization",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/5132efc1-6498-4a5b-9319-6d5288fb48f2_design-ref-hormone-optimization.jpg"
+  },
+  {
+    "route": "/services/pelvic-floor-incontinence",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/7d9ee430-c24e-4f29-8d64-7c9b252b60f9_design-ref-pelvic-floor-incontinence.jpg"
+  },
+  {
+    "route": "/services/regenerative-medicine",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/103e3bf4-d408-4c3d-a069-efcfedc1c5c3_design-ref-regenerative-medicine.jpg"
+  },
+  {
+    "route": "/about",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/68920758-3b83-4248-8b15-71712bbe4c61_design-ref-about.jpg"
+  },
+  {
+    "route": "/educational-guide",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/9f0c3e6a-3f04-4a0a-9c93-a8af5f4b77c0_design-ref-educational-guide.jpg"
+  },
+  {
+    "route": "/book",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/5ec098ac-2222-486c-ae23-daa6fc826c16_design-ref-book.jpg"
+  },
+  {
+    "route": "/contact",
+    "url": "https://megaseo-prod.s3.us-east-2.amazonaws.com/tasks/customerId=b380819e-88b6-48bd-8f1e-bfe6a580d72a/4166dbad-8906-467c-9896-1906a10b20f2_design-ref-contact.jpg"
+  }
+]

@@ -1,0 +1,930 @@
+{
+  "routes": {
+    "/services": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/services/02-neuropathy-feature-01-walking-figure.png",
+          "section_owner": "02-neuropathy-feature",
+          "narrative_job": "Exact walking figure visual for 02-neuropathy-feature, not a staff or outcome representation",
+          "reuse_intent": null
+        },
+        {
+          "path": "public/images/design/services/03-service-navigation-01-active-couple.png",
+          "section_owner": "03-service-navigation",
+          "narrative_job": "Exact active couple visual for 03-service-navigation, not a staff or outcome representation",
+          "reuse_intent": null
+        }
+      ],
+      "visual_repair_r1": "Original independent review applied: 20 PASS/5 FAIL; fidelity FAIL; edge PASS; QA PENDING. Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.json sha256=3b27fcbca551db732ad16d38b3124c6da09c404cd7e1f1ab9e04d0a0892acc86; 20 PASS/5 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/services/section_implementation.json#route_review.",
+        "reference_viewport": "Exact desktop/mobile/wide/narrow inspected capture list and limitations preserved verbatim through originating JSON and route_review; no uninspected supplemental states promoted.",
+        "edge_scope": "Original PASS on 75b2665c0370aaebd77944091e0ad17e694fe072. All reviewed header/joins/terminal boundaries preserved; source identity verified. See original JSON #/boundaries and application source-identity.json.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Original final-capture-75b evidence only; no new painted capture or geometry approval in this worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": "web-developer@gomega.ai; session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:8f08202d",
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.json",
+            "sha256": "3b27fcbca551db732ad16d38b3124c6da09c404cd7e1f1ab9e04d0a0892acc86"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.md",
+            "sha256": "e19d97f9cd0c7864fbd1e09477970dd9d87c7eaaf09a8ee08cb517d7d388dd08"
+          }
+        ],
+        "outcome": {
+          "PASS": 20,
+          "FAIL": 5
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "applicability": "Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+        "next_owner": "Controller",
+        "next_action": "Controller -> targeted typography adjudicator: preserve all five visual_treatment FAIL judgments. Reconcile typography.json Playfair display role with Source Sans reference headings; no site-wide font change or whole-route rerun.",
+        "boundary": "Original edge PASS only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#services",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.json",
+            "sha256": "3b27fcbca551db732ad16d38b3124c6da09c404cd7e1f1ab9e04d0a0892acc86"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services.md",
+            "sha256": "e19d97f9cd0c7864fbd1e09477970dd9d87c7eaaf09a8ee08cb517d7d388dd08"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "followup": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services-typography-followup.json",
+            "sha256": "dee82b6338665366ed2287faaba642cf86ac4ea02ce05827eca491c59602a86a"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-services-typography-followup.md",
+            "sha256": "381a9f0761501fe90292f8bce27e807af134f3f4f9b3b4c76a30f9847ce39fd0"
+          }
+        ],
+        "current_layer_counts": {
+          "PASS": 25
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/services/section_implementation.json",
+        "report_hash_caveat": "Services follow-up navigation.tsx SHA256 is mistyped in the raw report. Original bytes preserved. Verified full75b source and unchanged runtime closure are in source-identity.json; raw/verified hashes are side by side in provenance.json.services_followup_source_hash_validation."
+      }
+    },
+    "/services/neuropathy": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/neuropathy/01-hero-01-person-walking.png",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact person walking visual for 01-hero, not a staff or outcome representation",
+          "reuse_intent": null
+        }
+      ],
+      "visual_repair_r1": "Original75b hero failure was repaired at548789e. Independent formal native follow-up passed hero composition and full D/M painted-edge closure at exact548789e; QA remains PENDING and whole-route fidelity is not reissued.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: final-capture-75b native1440x900 and390x844 captures independently reviewed by cffdff2e. Seven frames:34 PASS,1 hero composition FAIL. Current source spacing repair has no independent rendered approval.",
+        "reference_viewport": "Source 75b2665c0370aaebd77944091e0ad17e694fe072: four1536x1024 states, three360x800 states and four320x800 states additionally reviewed per route-review-neuropathy.json. Additional1536 hero evidence confirms the desktop closing defect.",
+        "edge_scope": "Original75b edge failure was the32px desktop hero closure. Independent exact548789e native follow-up now passes header, repaired hero-to-orientation64px closure, all subsequent D/M joins, terminal and footer; receipts are ROOT/site_convergence/candidate-548789e-native and route-review-neuropathy-548789e-native-followup.{md,json}. QA remains PENDING.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Source 75b2665c0370aaebd77944091e0ad17e694fe072:18desktop and24mobile required actual captures plus11additional states inspected; full inventory and actual filenames in originating route-review-neuropathy.json. Hero/join only require fresh immutable candidate recapture and independent review; unaffected section-relative geometry preserved by scoped source diff.",
+        "route_review": {
+          "route": "/services/neuropathy",
+          "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+          "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/neuropathy",
+          "reviewer": "Web Developer, independent read-only neuropathy subagent, session cffdff2e",
+          "artifacts": [
+            {
+              "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+              "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+            },
+            {
+              "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+              "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+            }
+          ],
+          "outcome": {
+            "PASS": 34,
+            "FAIL": 1
+          },
+          "verdict": "FAIL",
+          "edge_verdict": "FAIL",
+          "finding": {
+            "id": "NEURO-HERO-DESKTOP-CLOSURE",
+            "severity": "blocking",
+            "frame": "01-hero",
+            "owner": "controller / neuropathy hero builder",
+            "finding": "Desktop last meaningful light plaque closes32 CSS px, not required64 local unit. Numeric text-only PASS misses painted-panel extent.",
+            "next_action": "Make a narrowly scoped hero composition repair, preserve walker/crop, truthful copy and source-safe unavailable status; recapture this route on new immutable SHA and independently re-review hero whole section plus join at1440/390 and1536."
+          },
+          "prior_implementation": {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/neuropathy-hero-clearance-r1/before/repository/public/design/pages/neuropathy/section_implementation.json",
+            "sha256": "4b3914bb5d01332bfd4b8d26374b60688f425db4d2e56f1458bd71472f5a48b2"
+          },
+          "evidence_path_convention": "All relative paths are under the supplied ROOT. D=site_convergence/final-capture-75b/desktop_1440x900/services-neuropathy; M=site_convergence/final-capture-75b/mobile_390x844/services-neuropathy; R=design_refs/pages/neuropathy/refs.",
+          "applicability": "34 PASS judgments remain bound to source 75b2665c0370aaebd77944091e0ad17e694fe072. Hero composition remains FAIL; desktop closing-reserve repair and independent recapture pending. Other sections retain section-relative geometry; a downstream page-y translation alone does not reopen their review.",
+          "boundary": "No registry edge, QA, phase, queue, publication or shipment promotion."
+        }
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#neuropathy",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.json",
+            "sha256": "2bc88bc521777d92c99d631de36b2cffda81ac12e841c6d8041dafc989676277"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy.md",
+            "sha256": "787a3cb674d1f66b808fe38de7a0036e8d0b49f4c25616592a0d4ae32907d3f8"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "followup": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.json",
+            "sha256": "f0af5f35844865fd2eb7df2c3a2a978fb63242601d8a4f57b6776a2d6e32d7e4"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-neuropathy-548789e-native-followup.md",
+            "sha256": "b8bafa77da1a48ac46cb5f8485fc82a0b921e2452eedb6eb6dd687c8cefa371d"
+          }
+        ],
+        "applicability": "Original route_review 34 PASS/1 FAIL remains historical. Already-applied formal native548789e hero composition PASS plus34 inherited PASS yields35 current layers. Import closure/assets byte-equal from548789e through4ffef33 and current candidate. No new whole-route fidelity review or edge promotion.",
+        "current_layer_counts": {
+          "PASS": 35
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/neuropathy/section_implementation.json"
+      }
+    },
+    "/services/pain-relief": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/pain-relief/04-low-back-concerns-01-man-at-home.png",
+          "section_owner": "04-low-back-concerns",
+          "narrative_job": "Exact man at home visual for 04-low-back-concerns, not a staff or outcome representation",
+          "reuse_intent": null
+        },
+        {
+          "path": "public/images/design/pain-relief/05-neck-concerns-01-woman-reading.png",
+          "section_owner": "05-neck-concerns",
+          "narrative_job": "Exact woman reading visual for 05-neck-concerns, not a staff or outcome representation",
+          "reuse_intent": null
+        }
+      ],
+      "visual_repair_r1": "Historical r1: original75b review44 PASS/1 heading FAIL and edge FAIL remain unchanged in route_review. Current section contract45 PASS after independent e62 heading adjudication. Current Pain-only edge PASS combines preserved original formal evidence, independent b25d61df all11-boundary adjudication and independent2c92 formal gap supplement at1536/360/320. See current_followup. QA PENDING; no full-route layer reaudit or publication/launch approval.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json sha256=d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07; 44 PASS/1 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/pain-relief/section_implementation.json#route_review.",
+        "reference_viewport": "Current e62 formal native1440x900/390x844 receipts21/29 PNGs retained; new formal1536x1024/360x800/320x800 receipts20/29/29 PNGs close the narrow capture gap. Earlier unpaired full pages remain non-formal and misregistered. See current_followup.",
+        "edge_scope": "PASS, parent-authorized Pain only: original formal14/39 evidence plus b25d61df targeted all11 joins and2c92 new-width formal supplement. Scoped hero exit/navigation top-bottom/Knee entry/sources-footer paint PASS with local units and Range-versus-ink distinction preserved. F-02 historical FAIL retained; current intentional shared footer20px desktop/12px mobile rail PASS. Source97/97 e62-to277 plus unchanged relevant blobs throughc7; no footer edit or current-deployment/QA claim.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Independent e62 candidate21/29 native pairs plus78 supplement native pairs at1536/360/320; complete before/after state, disk/ledger/receipt hashes, native dimensions, loaded fonts/visible images and no horizontal overflow verified by reviewers. This worker consumes reports only, no fresh capture or QA."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": {
+          "identity": "MegaClaw Web Developer",
+          "email": "web-developer@gomega.ai",
+          "mode": "independent read-only route reviewer"
+        },
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.json",
+            "sha256": "d012c06955f7477245dcd3c24bfeb4559888894faf018bd179388bca4bc44f07"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief.md",
+            "sha256": "054bc05e5617d334ad4da353386e8cf84353705a0ad8b4c4c8ef67a36bddf420"
+          }
+        ],
+        "outcome": {
+          "PASS": 44,
+          "FAIL": 1
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "FAIL",
+        "applicability": "Original 44 PASS/1 FAIL remain bound to reviewed source. Heading-only candidate repair has no fresh rendered approval; content remains FAIL. Any changed wrapping, section height and affected joins/terminal require recapture and targeted review; no inherited geometry claim.",
+        "next_owner": "Controller",
+        "next_action": "After controller Git push, recapture only Pain at required desktop/mobile/wide/narrow viewports. Review exact heading, changed wrapping/section height, affected joins and terminal/footer. Do not inherit changed geometry or rerun passed whole routes. Controller -> independent targeted footer adjudicator: retain F-02 and edge false pending adjudication of intentional shared SiteFooterB walnut rail (20px desktop right / 12px mobile top). Controller observation alone is not an independent PASS.",
+        "boundary": "Original edge FAIL only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
+      },
+      "current_followup": {
+        "source_sha": "e62ceba67bcec87ba49192299e8dcc33cf52aeb3",
+        "preview_url": "https://sigma-core-medical-review-hwoktxcvs-mega-websites.vercel.app/services/pain-relief",
+        "github_deployment_id": 6850357413,
+        "vercel_deployment_id": "dpl_52TsWcMFVW6vCwvmtvgvXQ2zGia7",
+        "reviewers": ["web-developer@gomega.ai independent b25d61df", "web-developer@gomega.ai independent 2c92"],
+        "artifacts": [
+          {"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief-e62-targeted-followup.json", "sha256": "787258835dce0cd45b5b81ec26becac30a815c2e9c7a6d59f80d70d2df50e351"},
+          {"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pain-relief-e62-formal-supplement.json", "sha256": "2d450d482c06af163e73dcf9b37c3b39fe6cdb4a300eae59e987d7e5a6c83f17"}
+        ],
+        "current_layer_counts": {"PASS": 45},
+        "edge_verdict": "PASS",
+        "qa_verdict": "PENDING",
+        "formal_capture_gap": "CLOSED",
+        "scope": "Targeted all11-boundary adjudication plus formal gap supplement, not a new full-route layer audit. Original44 PASS inherited; heading PASS retained; F-02 intentional shared footer PASS. Original report and route_review remain historical and unchanged.",
+        "source_applicability": "97/97 relevant runtime blobs e62-to277, independently reported; worker verifies those same97 blobs atc7. New report binds frozen277, not a c7 deployment. No source or pixel claim generalized to other routes.",
+        "footer_provenance_correction": {"original_mislabeled_source_sha256": "3123407cc6631d8c96694942cf90a4f0e6f544a3", "correct_type": "Git blob SHA-1", "actual_file_sha256": "28739a0361c5cad78f10e209277600b147333f38db92253b80b2124553b91dee"},
+        "application_receipt": "site_convergence/landed-review-application-r3/receipt.json"
+      }
+    },
+    "/services/hormone-optimization": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/hormone-optimization/01-hero-01-man-writing.png",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact man writing visual for 01-hero, not a staff or outcome representation",
+          "reuse_intent": null
+        }
+      ],
+      "visual_repair_r1": "Original independent review applied: 24 PASS/11 FAIL; fidelity FAIL; edge PASS; QA PENDING. Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original independent /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.json sha256=c58241d1903b13c9aab9567e46667304bfe64c99d0505226a1d8b7d20f62aa21; 24 PASS/11 FAIL. Exact reviewed paths and layer text recorded in public/design/pages/hormone-optimization/section_implementation.json#route_review.",
+        "reference_viewport": "Exact desktop/mobile/wide/narrow inspected capture list and limitations preserved verbatim through originating JSON and route_review; no uninspected supplemental states promoted.",
+        "edge_scope": "Original PASS on 75b2665c0370aaebd77944091e0ad17e694fe072. All reviewed header/joins/terminal boundaries preserved; source identity verified. See original JSON #/boundaries and application source-identity.json.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Original final-capture-75b evidence only; no new painted capture or geometry approval in this worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "reviewer": {
+          "name": "Web Developer independent read-only subagent",
+          "email": "web-developer@gomega.ai",
+          "session_id": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:3c8015d0"
+        },
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.json",
+            "sha256": "c58241d1903b13c9aab9567e46667304bfe64c99d0505226a1d8b7d20f62aa21"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-hormone-optimization.md",
+            "sha256": "4643a9ee76aeb8d13f6dcfd069ba26f8192c0efa2ae19878c5f6b611c9b9c255"
+          }
+        ],
+        "outcome": {
+          "PASS": 24,
+          "FAIL": 11
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "applicability": "Reviewed runtime source/import closure and font/image bytes equal the baseline candidate; see source-identity.json. Only the original independent edge PASS is applied. Fidelity remains FAIL; QA PENDING; source-audit PASS is distinct from visual approval.",
+        "next_owner": "Controller",
+        "next_action": "Controller -> bounded independent reviewer: verify actual selected font roles/weights and hover/focus for seven visual_treatment FAIL layers; complete 1536/360/320 inspection for responsive FAIL frames 03/04/05/07 and affected seams. Preserve existing PASS results; no full-section or whole-route rerun. Supply explicit deployment-to-SHA binding.",
+        "boundary": "Original edge PASS only; fidelity FAIL, QA PENDING. No independent approval is created by mirroring contracts. No convergence or Site Review approval."
+      }
+    },
+    "/services/pelvic-floor-incontinence": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [
+        {
+          "path": "public/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png",
+          "section_owner": "01-hero",
+          "narrative_job": "Exact person in garden visual for 01-hero, not a staff or outcome representation",
+          "reuse_intent": null
+        }
+      ],
+      "visual_repair_r1": "Historical75b review 30PASS/5FAIL and edgePASS preserved. Current01af independent hero targeted review resolves3hero layers, cd26 targeted resolves2FAQ/content layers:35PASS current. Independent366ff055 subsequently reobserved all seven current route section boundaries and supports edgePASS, not blanket inheritance. QA, Stage10.5 and clinical/legal publication remain PENDING.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original independent report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json sha256=39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd; exact captures and hashes in section_implementation.json route_review.",
+        "reference_viewport": "Current targeted01af native hero review at320x800,360x800,390x844,1440x900,1536x1024;102 hash-paired native PNGs. Desktop1440/1536 regression byte-equalcd26. Historical original75b viewport limitations remain in route_review.",
+        "edge_scope": "PASS exact current01af77dc2936539a7b9288ad0436d48892dcebf9 independent366ff055 full-seven-section painted review route-review-pelvic-floor-incontinence-01af77d-full-edge-reconciliation.json sha256=4d9fd73444c97f44f488e73801949f2d8d745e127ae6297516155e0d0ee0283d. All header, hero and6 downstream joins, restored mobile FAQ, sources/footer and terminal actually reobserved 1440/1536/390/360/320: no blanket75b inheritance,175old/current relative crops and102current hash-linked native pairs. 1440/390 all7section top/bottom clear respective CSS local units including meaningful painted panels; header clears32D/24M floors and shared walnut footer is intentional. GHDpl6852280956/status19268768923 binds immutablem5is13r2h/dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Route-edge only;35fidelityPASS from preserved+targeted, QA/ArtDirector/Stage10.5 remain PENDING.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Independent01af report inspected page-top/complete hero native states at all5widths with loaded fonts/images, stable before/after and no overflow. Current report hashes/source binding in current_followup; original75b and cd26 evidence remains history. No capture made by this application worker."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+        "reviewer": "Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:dd0c58cc, pelvic route assignment",
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json",
+            "sha256": "39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.md",
+            "sha256": "9e45df6928c097c80139de6be0638d8020ac6fde73e476e9e1da65807fd84cfe"
+          }
+        ],
+        "outcome": {
+          "PASS": 30,
+          "FAIL": 5
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "candidate_edge_review": "PENDING_AFFECTED_JOINS",
+        "applicability": "Original edge PASS remains attached to reviewed75b only. Candidate hero geometry and mobile FAQ height changed: affected joins require fresh independent painted review; no inherited current-candidate edge PASS. Other five sections, shared footer and all copy/controls remain identical.",
+        "source_repair": {
+          "frames": [
+            "01-hero",
+            "05-faq"
+          ],
+          "decision": "Tighten the hero to a 1200px maximum grid with a 386px portrait frame (338px original image plus 24px rails), expand heading measure, and retain the desktop 670px stage. On mobile remove the decorative wedge, reduce excess copy/art spacing and use a 32px minimum heading without hiding text. Restore the clinical-context FAQ boundary as a natural-height mobile panel.",
+          "residual": "Hero responsive remains FAIL: earlier first-fold source person, including at320/360, is not visually verified. No source pixels enlarged/cropped/generated and no status/control truncated. All five original FAIL layers await independent fresh review.",
+          "source_file": "app/services/pelvic-floor-incontinence/page.css",
+          "before_sha256": "c63c8e91f0a0f8310836585a8055b47e9be9fe5fb4d55d18db95a9752159b8b2",
+          "after_sha256": "335879a33a2d86e52802fb8d910675ab7e9dfd59173b841b4eaa576d32b08da3",
+          "status": "REPAIR_PENDING_INDEPENDENT_REVIEW"
+        },
+        "next_owner": "Controller -> independent targeted route reviewer",
+        "next_action": "Controller: Git push this exact commit, bind the immutable deployment to its SHA, recapture hero page-top/whole-section/top/middle/bottom and hero-to-orientation at 1440x900,1536x1024,390x844,360x800,320x800. Capture mobile FAQ top/middle/bottom and expectations-to-FAQ/FAQ-to-booking joins at 390/360/320, plus desktop FAQ unchanged regression. Independent targeted reviewer must assess original hero composition/visual_treatment/responsive and FAQ content/responsive; keep all other original PASS layers. Verify full 338x520 source-visible person, headline quiet zone, complete status/control, earlier mobile focal subject, both FAQ boundary sentences, all four answers and legal caveat. First-fold portrait remains unresolved without fresh native PNGs; do not infer PASS from CSS or DOM.",
+        "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+      },
+      "current_followup": {
+        "source_sha": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+        "preview_url": "https://sigma-core-medical-review-m5is13r2h-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+        "github_deployment_id": 6852280956,
+        "vercel_deployment_id": "dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ",
+        "deployment_ready": "READY; GitHub success supplies SHA, Vercel inspect supplies READY/project/team/URL",
+        "reviewer": "web-developer@gomega.ai independent d1776852",
+        "artifacts": [{"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-01af77d-hero-followup.json", "sha256": "fcc1b3fdf1d64dfef171aa7548891dc38008220d91275ac335bac94913b96877"}],
+        "supported_layers": ["01-hero.composition", "01-hero.visual_treatment", "01-hero.responsive"],
+        "widths": [320, 360, 390, 1440, 1536],
+        "current_layer_counts": {"PASS": 35},
+        "targeted_verdict": "PASS_TARGETED",
+        "full_route_verdict": "NOT_PERFORMED",
+        "full_route_edge": "NOT_RECERTIFIED",
+        "qa_verdict": "PENDING",
+        "scope": "Only three hero layers applied; other32 PASS unchanged. Hero entry/exit clear, mobile first-fold recognizable seated person and complete hero verified. Desktop1440/1536 same-state PNGs and geometry byte-equalcd26. All102 native PNG/sibling JSON hashes, fonts/images/overflow checks pass. Registry edge remains false; no whole-route, publication or launch approval.",
+        "application_receipt": "site_convergence/landed-review-application-r3/receipt.json"
+      },
+      "full_edge_followup": {
+        "source_sha": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+        "reviewer": "independent366ff055",
+        "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-01af77d-full-edge-reconciliation.json",
+        "sha256": "4d9fd73444c97f44f488e73801949f2d8d745e127ae6297516155e0d0ee0283d",
+        "all_seven_section_edges": "PASS",
+        "missing_joins": [],
+        "source_binding": "GitHub deployment6852280956 success status19268768923 exact01af; Vercel dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ READY immutablem5is13r2h",
+        "scope": "Painted current route edge recertification only. Preserved prior original/cd26/hero target reviews and all35fidelityPASS; ArtDirector/QA/Stage10.5 not performed."
+      },
+      "historical_current_followup_cd26b81": {
+        "source_sha": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "preview_url": "https://sigma-core-medical-review-hr68f2y7m-mega-websites.vercel.app/services/pelvic-floor-incontinence",
+        "artifacts": [
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json",
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.md"
+        ],
+        "supported_layers": [
+          "01-hero.composition",
+          "01-hero.visual_treatment",
+          "05-faq.content",
+          "05-faq.responsive"
+        ],
+        "remaining_layers": [
+          "01-hero.responsive"
+        ],
+        "targeted_edge_verdict": "PASS_TARGETED",
+        "route_verdict": "FAIL",
+        "scope": "Targeted current-candidate review only; no full-route edge or QA promotion."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#pelvic-floor-incontinence",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.json",
+            "sha256": "39742e7f35f5d6a50195bcaee797fc087a8f2adebd5effd4a23618c6939db7cd"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence.md",
+            "sha256": "9e45df6928c097c80139de6be0638d8020ac6fde73e476e9e1da65807fd84cfe"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "followup": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.json",
+            "sha256": "29d4400ecdb13b3f930102934f933e79c9fbe68928fdb4085920d9d6e7784dad"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-pelvic-floor-incontinence-current-followup.md",
+            "sha256": "cdc3e98a5c1174dc56c2bd16299d9321819fb50f5ce06d609c60c2e2ecc3bbec"
+          }
+        ],
+        "current_layer_counts": {
+          "PASS": 32,
+          "PENDING": 2,
+          "FAIL": 1
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/pelvic-floor-incontinence/section_implementation.json"
+      }
+    },
+    "/services/regenerative-medicine": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "visual_repair_r1": "Original independent75b review33PASS/2heroFAIL and historicaledgePASS preserved. Exact a3c5b15 repair suppresses decorative 320px hero staircase; independent targeted9436f7b8 supports two repaired hero layers, current35PASS. Separate independent ce0fb5f9 reobserved full7section painted route boundaries atfivewidths and supports edgePASS. QA, Stage10.5 and clinical/legal publication remain PENDING.",
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original independent report /var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json sha256=31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1; exact captures and hashes in section_implementation.json route_review.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS exact a3c5b15d192b88736f11cc04a49e6508f2867165 immutable dpl_Dav9nnQVrMnXQZpKeWxEgBep5HYR READY independentce0fb5f9 full7section route-review-regenerative-medicine-a3-full-edge-reconciliation.json sha256=1cf22d524c84c084eb4f859a5e784523051474677127034d16f04007aa014c45. Controller GHdeploy6850598662 success status19264894836 binds exact SHA/immutablel1zvi88pr. Reviewer inspected45current actual native section-bottom/page-top/footer PNG at1440/1536/390/360/320, verified116 hash/state pairs; hero320 motif suppressed without vertical geometry change. All six joins header32D/24M sources-to-footer and terminal48 localunit PASS. Original75b vs current Questions+41.1875pxD and Orientation-27.890625px320 reflow acknowledged: not inherited screenshot equality, actual current relative painted units86.390625D1440/92.15625D1536/56M observed. Regen rendering closure a3→current unchanged. QA/Stage10.5 never performed.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "Original final-capture-75b evidence only. Local screenshots unavailable; targeted immutable candidate captures/review pending."
+      },
+      "route_review": {
+        "source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "preview_url": "https://sigma-core-medical-review-ospevij94-mega-websites.vercel.app/services/regenerative-medicine",
+        "reviewer": "Web Developer independent read-only subagent, session sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:7a95f7dd",
+        "artifacts": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json",
+            "sha256": "31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.md",
+            "sha256": "4a860e9a897df77b9d85da5be5f18dc5ea04a50caf362b028c0baf610bb952c9"
+          }
+        ],
+        "outcome": {
+          "PASS": 33,
+          "FAIL": 2
+        },
+        "verdict": "FAIL",
+        "edge_verdict": "PASS",
+        "edge_source_sha": "75b2665c0370aaebd77944091e0ad17e694fe072",
+        "candidate_edge_review": "PASS_FULL_ROUTE_INDEPENDENT_CE0FB5F9",
+        "applicability": "Original edge PASS is preserved as historical evidence only. Candidate changes the <=340px decorative pseudo-element; current candidate edge remains pending exact-current independent review. No new fidelity PASS.",
+        "source_repair": {
+          "frames": [
+            "01-hero"
+          ],
+          "decision": "Suppress only the decorative hero ::before at max-width340px. No layout box, text, semantic artwork or other section changes.",
+          "residual": "Both original hero FAIL layers remain FAIL until independent320 capture verifies the repair;1440/390 need unchanged regressions.",
+          "source_file": "app/services/regenerative-medicine/page.css",
+          "before_sha256": "859f0c9d37923cfa577f35a28ab007284d13a39a56a6c0b106d18d2575a46776",
+          "after_sha256": "b6db6047fcb8194ff196349a9f7e9945ea4c6156b8e4141585efa69255a7b5c9",
+          "status": "REPAIR_PENDING_INDEPENDENT_REVIEW"
+        },
+        "next_owner": "Controller -> independent targeted route reviewer",
+        "next_action": "Controller: Git push this exact commit and bind deployment to SHA. Recapture 320x800 hero page-top with 1440x900 and390x844 unaffected regressions; independently re-review only hero visual_treatment/responsive and confirm decorative wedge no longer crosses Explore whether. All other original PASS layers and source geometry remain preserved.",
+        "boundary": "Original judgments only: route fidelity FAIL, QA PENDING. Builder source/DOM checks create no new painted approval. Source-safe booking/legal/clinical gates remain closed."
+      },
+      "current_followup": {
+        "source_sha": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "preview_url": "https://sigma-core-medical-review-hr68f2y7m-mega-websites.vercel.app/services/regenerative-medicine",
+        "artifacts": [
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json",
+          "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.md"
+        ],
+        "supported_layers": [
+          "01-hero.visual_treatment",
+          "01-hero.responsive"
+        ],
+        "targeted_edge_verdict": "PASS_SCOPED_ROUTE_EDGE",
+        "route_verdict": "PASS_SCOPED_ONLY",
+        "scope": "Targeted current-candidate repair review only; inherited layers and whole-route QA remain pending."
+      },
+      "full_edge_followup": {
+        "source_sha": "a3c5b15d192b88736f11cc04a49e6508f2867165",
+        "reviewer": "independentce0fb5f9",
+        "artifact": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-a3-full-edge-reconciliation.json",
+        "sha256": "1cf22d524c84c084eb4f859a5e784523051474677127034d16f04007aa014c45",
+        "github_deployment_id": 6850598662,
+        "github_status_id": 19264894836,
+        "vercel_deployment_id": "dpl_Dav9nnQVrMnXQZpKeWxEgBep5HYR",
+        "all_seven_section_edges": "PASS",
+        "scope": "Current a3 render closure byte-equal current contract-only head; actual 116 paired states and45 viewed current PNGs acrossfivewidths. No exact old/current bitmap identity claimed. QA/Stage10.5 NOT_PERFORMED."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#regenerative-medicine",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.json",
+            "sha256": "31dca504a5defcaf81926915d74cf834024233db2e00db1b8eb9464444dd64b1"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine.md",
+            "sha256": "4a860e9a897df77b9d85da5be5f18dc5ea04a50caf362b028c0baf610bb952c9"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "followup": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.json",
+            "sha256": "19ca6f402e09b062416c049cc2404bbba6a07cbe45d765f4214381e7bfd24134"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-regenerative-medicine-current-followup.md",
+            "sha256": "2441983fd3bc11090e3602e34b4b79ad6a9d7cc7e39ea16ac2d2717348fd1ee9"
+          }
+        ],
+        "current_layer_counts": {
+          "PASS": 35
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/regenerative-medicine/section_implementation.json",
+        "controller_attested_reviewer_session": {
+          "session": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:9436f7b8",
+          "source": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_build/resume-route-review-75b.md",
+          "sha256": "90b145f33f54f84698baf62459f532e2893fbb53005eeefdb727133aca8c4fb5",
+          "limit": "The original JSON/Markdown omit reviewer identity; this separate controller-log binding does not rewrite them."
+        }
+      }
+    },
+    "/about": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS current bounded independent report route-review-about-remaining-three-edges-r1.json records hero/care/team and all named joins/header/footer visually PASS at exact75b runtime, with22 paired hash/state-native PNGs and actual localunits. Combined route edge report remainsFAIL only because the inherited responsive-three companion hash supplied by task did not match current untouched JSON/MD companion; current companion scoped PASS and source equality were separately verified. Preserve this provenance discrepancy, not a visible edge defect. QA/Stage10.5 remain PENDING.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#about",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-about.json",
+            "sha256": "3183af88808d0330ed014667c37001ea35ab70dd7888405000ccaf5b22823b7d"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-about.md",
+            "sha256": "e001dfed1480bfc396bd2056fe9ed37dc18145b73703f5ce12af9477fd2e2fa1"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "current_layer_counts": {
+          "PASS": 27,
+          "FAIL": 3
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/about/section_implementation.json"
+      }
+    },
+    "/educational-guide": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS: independent37e1f282 route-review-educational-guide-painted-edge-followup.json sha256=fe74471628cc7c21a3d3d6908a556a5e0ca905fb11138f87b10b8d45dde34cdb adjudicates all4section top/bottom/header/terminal/footer at exact75b immutableospevij94 1440/1536/390. Intentional whole-width Source details rail is substantive heading/link content within hero, not an ignored decorative field. Controller actual hero-bottom PNG and ownheroTSX/CSS confirm rail completes the section with 76px min-height,24px bottom reserve; preceding CTA48px-to-rail is internal grouping, not hero closing80px-unit deficit. Numeric paragraph-only heuristic warnings retained; unchanged source/import closure through01af77d proved by188file17route source-identity. All20fidelityPASS and resource/noindex gates remain; no QA/Stage10.5 or publication promotion.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#educational-guide",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-educational-guide.json",
+            "sha256": "313f2e85bd40296a26c50c9d95aa02de3d4e0eafb950fd4b3253d936285c5ecb"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-educational-guide.md",
+            "sha256": "fc151cc35be39b4183c4e404b1d1c8a9fa23200eb9b76a78a37c0af75ee13f06"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "current_layer_counts": {
+          "PASS": 20
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/educational-guide/section_implementation.json"
+      }
+    },
+    "/book": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "handoff_evidence": {
+        "research": "site_convergence/book/truthful-handoff-closure-r1-result.md",
+        "repository": "docs/audit/book/truthful-handoff-closure-r1/handoff-provenance.json",
+        "reference_review": "site_convergence/book/truthful-successor-r1-art-review.md",
+        "live_review": "site_convergence/book/truthful-successor-build-r1-art-review.md",
+        "approval_scope": "Current independent reference/live KEEP for Book sections; existing booleans are not evidence of historical customer approval or clinical/legal readiness.",
+        "edge_scope": "PASS, independent c294ba19 exact d03cc784d164e5e41b8d114bc6a303a3110f0166 review of every Book header/section/terminal/footer boundary at 1440/1536/390. Report site_convergence/route-review-book-d03-edge-repair-followup.json sha256=cd87441957646fa3e17e3c2818d8bcbe981203b830ef2ce6adc87a2a80834381. 24 native hash-linked PNG/state records verified before==after with loaded fonts/images. Desktop conservative clearance65.921875/66.3125 exceeds64px; mobile42.03125 exceeds32px. Independent native PNG optical gaps72/72/47px confirm. GitHub deployment6851540834 explicitly binds d03cc78 to immutable9hhdkf8hr; controller binding receipt is site_convergence/book-edge-fix-r1/current-cd03/deployment-source-binding-controller.json. Book/runtime shared closure unchanged through01af77d. QA, three calendar fidelity layers, Stage10.5 and publication remain separately pending."
+      },
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS: see handoff_evidence.edge_scope for independent c294ba19 exact-d03 repair review and GitHub immutable source binding. Historical r2 capture notes retained; current boundary captures are route-review-book-d03-edge-repair-native at1440/1536/390. No whole-site or QA verdict.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#book",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-book.json",
+            "sha256": "80eb269634dbea6748a52af7a3c5cbc7eec8d2985c32a290a6fab6f50d6c5ad1"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-book.md",
+            "sha256": "a5a0491eb45a7f3b39d9b8fcb14c2883fdddaf3edf1263f9a02ab8b41f406e27"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "edge_followup": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-book-edge-followup.json",
+            "sha256": "e5669f47ba775d35555399f661097c02302909934ecbe998d92327e6e5923084"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-book-edge-followup.md",
+            "sha256": "1eee76376fcf4519c959988b86dd69a3e5add0fa20317c7e4a7f3b06a6e32eba"
+          }
+        ],
+        "edge_applicability": "Independent75b edge follow-up603883dc confirms calendar painted gaps48.42/49.21 at1440/1536 below64px. d03cc78 is a separate unreapproved candidate. Registry edge remains false.",
+        "current_layer_counts": {
+          "PASS": 12,
+          "PENDING": 3
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/book/section_implementation.json"
+      }
+    },
+    "/contact": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": false,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "design-refs",
+      "evidence_scope": {
+        "source_head": "17c800884d24b7067fb25416e0fabff4ed7702d7",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PENDING. Controller must certify every top/bottom/join, header/footer and system-only route. The 114 r2 covered lower edges, Pain false-positive correction and Services 48px/32px fix do not close this flag.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "section_captures": "17c8008 edge-r3: same-state seam windows for all route sections at 1440x900 and 390x844. These are not full-section/full-page/1536 or five-layer approval."
+      },
+      "controller_application_r2": {
+        "baseline_source_sha": "4ffef33069d7e84919b1cc6f401899d6ede19c9d",
+        "source_identity": "site_convergence/pelvic-mobile-contract-application-r2/source-identity.json#contact",
+        "original_report": [
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-contact.json",
+            "sha256": "122c746b04c354fb4ce910aae6ce77252531ab93c2955742c1d28e4a27daa296"
+          },
+          {
+            "path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-contact.md",
+            "sha256": "49f80d058ab7a056e4d4e872aca8146f454c5ae098ad694b59133eb920fb8dc8"
+          }
+        ],
+        "historical_review_blocks_preserved": true,
+        "qa_verdict": "PENDING",
+        "edge_flag_changed": false,
+        "current_layer_counts": {
+          "PASS": 12,
+          "FAIL": 8
+        },
+        "scope": "Applied independent layer judgments with source applicability only. Historical route_review and prior repair blocks remain historical. QA PENDING; no Stage10.5, convergence, operational or launch approval; registry edge unchanged.",
+        "section_contract": "public/design/pages/contact/section_implementation.json"
+      }
+    },
+    "/privacy": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "Original route-review-privacy-utility.{json,md} and mutable branch-alias URL remain historical unchanged. Fresh01af immutable identity followup binds all six byte-identical top/footer PNGs at1440/1536/390. Only six PNGs visually inspected; all16 native pairs integrity checked.",
+        "reference_viewport": "Native1440x900 client1425,1536x1024 client1521,390x844 client375 with original15px scrollbar restored using capture-only ignoreDefaultArgs --hide-scrollbars exclusion. Exact top/footer PNG equality, not source equality alone, retains original painted PASS.",
+        "edge_scope": "PASS, parent-authorized /privacy only. Independent334bba75 identity supplement closes immutable binding with GitHub deployment6852280956/status19268768923 success and served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Original painted edge PASS retained by six exact PNG hashes and matching actual DOM bounds; source closure9 files equalcd26-to01af. Loaded state only; no legal or QA approval.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "System-only edge PASS, immutable identity CLOSED; legal route UNRESOLVED and noindex preserved, QA PENDING. Other three utilities remain false."
+      },
+      "current_followup": {
+        "source_sha": "01af77dc2936539a7b9288ad0436d48892dcebf9",
+        "preview_url": "https://sigma-core-medical-review-m5is13r2h-mega-websites.vercel.app/privacy",
+        "github_deployment_id": 6852280956,
+        "github_status_id": 19268768923,
+        "vercel_deployment_id": "dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ",
+        "reviewer": "web-developer@gomega.ai independent334bba75",
+        "artifacts": [{"path": "/var/lib/megaclaw/workspace/website-lp-build-research-data/b380819e-88b6-48bd-8f1e-bfe6a580d72a/site_convergence/route-review-privacy-immutable-identity-followup.json", "sha256": "27f3f96b47224ead32c0ca6a2f7549c39fec155bcfdd46fba1513d47eaa521ed"}],
+        "original_report": {"path": "site_convergence/route-review-privacy-utility.json", "sha256": "24002e944c80e3917a934c1bd80a28c1e8ad705fc3aa7cbf802efcc16e04bc59", "mutable_alias_preserved": true},
+        "immutable_identity": "CLOSED",
+        "edge_verdict": "PASS_RETAINED",
+        "route_verdict": "UNRESOLVED",
+        "qa_verdict": "PENDING",
+        "scope": "16 native hash/state pairs verified;6 top/footer PNGs visually inspected and byte-equaloriginal at1440/1536/390. Full source hashes, genuine GitHub metadata and complete before/after object equality in new report; no full-route review or other-utility promotion.",
+        "application_receipt": "site_convergence/landed-review-application-r3/receipt.json"
+      }
+    },
+    "/notice-of-privacy-practices": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS route-specific original painted review route-review-notice-of-privacy-practices-utility.json sha256=3dc30c89c7fd2635e6d0e9d8575db7d317b9672b29e55432c7978bb7bf8a7272, combined with independent exact01af immutable followup route-review-notice-of-privacy-practices-immutable-identity-followup.json sha256=2f92ed074a8921c79345cdee56cfe46e84db4c2752f490ad96e2bd0239123ff6. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar and matching DOM bounds, 16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h with served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ; original mutable alias remains classified mutable. Terminal clearance92.593px desktop/60.594px mobile exceeds32px/24px floors. Route legal publication unresolved, QA PENDING; no other route or accessibility certification.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
+      }
+    },
+    "/accessibility": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS route-specific original painted review route-review-accessibility-utility.json plus independent exact01af immutable followup route-review-accessibility-immutable-identity-followup.json sha256=a6e5eabae13dc5a1056cb4a667bfb9566c15e1e404f7b4c59f765daf6ba8c8f0. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar, matching DOM bounds, all16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h and served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Original mutable alias retained as mutable. Terminal92.59375px desktop/60.59375px mobile clears32px/24px floors; fallback-font error recorded, actual SourceSans faces loaded. Legal, accessibility conformance, QA remain UNRESOLVED. Only painted-edge flag promoted.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
+      }
+    },
+    "/terms": {
+      "design_refs_approved": true,
+      "decomposition_complete": true,
+      "review_sheet_published": true,
+      "build_complete": true,
+      "viewport_normalized": true,
+      "primary_laptop_capture": true,
+      "section_edge_clearance_audited": true,
+      "desktop_section_captures": true,
+      "mobile_section_captures": true,
+      "qa_verdict": "PENDING",
+      "assets": [],
+      "design_surface": "system-only",
+      "evidence_scope": {
+        "source_head": "cd26b81e88220cbe05f2a0218f4ad3665f2d23fe",
+        "contract_closure": "section-fidelity-closure-r1.md",
+        "primary_capture": "fidelity-r2/628d69f8591a817bb28fe40dd3594a45e34db786: 1440x900 full/fold and 390x844 full/fold exist. Presence flags are not candidate visual acceptance.",
+        "reference_viewport": "Current 1536x1024 runtime not captured; 1536-wide reference bitmap does not establish CSS viewport or DPR.",
+        "edge_scope": "PASS route-specific original painted review route-review-terms-utility.json plus independent exact01af immutable followup route-review-terms-immutable-identity-followup.json sha256=787fcefe5ab235d56b5728a42fbb3ce1386512a93ffddde698284fe9cacb852f. Six old/new actual top/footer native PNGs byte identical 1440/1536/390 with native 15px scrollbar, matching DOM bounds and16freshhash-linked before==after states. GitHub deployment6852280956 success status19268768923 binds01af toimmutablem5is13r2h and served dpl_CczgDSDswVyr3UjXvH1zUHh1qdMZ. Original mutable alias retained as mutable. Terminal92.59375px desktop/60.59375px mobile clears32px/24px floors; fallback-font error disclosed, actual faces loaded. Legal and QA remain UNRESOLVED. Only this route's edge flag promoted.",
+        "publication": "Richmond/neuropathy-first and existing noindex/operational gates preserved. Prior references and exact extracted pixels do not approve documentary roles.",
+        "design_scope": "System-only painted review exists; deployment binding, legal publication and QA remain separate gates."
+      }
+    }
+  }
+}

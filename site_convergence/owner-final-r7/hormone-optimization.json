@@ -1,0 +1,451 @@
+{
+  "version": 2,
+  "kind": "Owner-authorized fresh legacy route receipt, not canonical native Art Director manifest",
+  "mode": "owner-authorized-fresh-legacy",
+  "page": {
+    "slug": "hormone-optimization",
+    "route": "/services/hormone-optimization"
+  },
+  "source_sha": "d606e0d51d6a99d1d999b47d641808a881fd691e",
+  "authority": "315991ef-a25c-4710-b4b4-bec4b4a5dd76",
+  "route_record": {
+    "route": "/services/hormone-optimization",
+    "slug": "hormone-optimization",
+    "human_review_in_scope": true,
+    "original_review_exact_metadata": {
+      "slug": "hormone-optimization",
+      "route": "/services/hormone-optimization",
+      "raw_json": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-contract-staging-r1/originals/reviews/hormone-optimization/review.json",
+        "bytes": 13906,
+        "sha256": "ed9473781c9fd7f372d8c1a71044541a3d6dcc632bf207839b014ac1982c2746",
+        "original": {
+          "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/hormone-optimization/review.json",
+          "bytes": 13906,
+          "sha256": "ed9473781c9fd7f372d8c1a71044541a3d6dcc632bf207839b014ac1982c2746"
+        },
+        "byte_exact_copy": true
+      },
+      "originating_markdown": {
+        "path": "/var/lib/megaclaw/workspace/.awb-scratch/sigma-owner-final-20261009-r1/final-confirmation-r1/hormone-optimization/review.md",
+        "bytes": null,
+        "sha256": null,
+        "status": "MISSING"
+      },
+      "originating_identity": "Independent route Art Director, read-only final confirmation",
+      "originating_session_id_exact": "sub:atlas:7825c46b8a8b3b9ad0e627709afd23b0:0b307253-74a6-4f62-8840-85e83bea048a:2c5d9647",
+      "session_binding_basis": "Explicit report session_id; JSON declaration does not supply missing Markdown or a session final message",
+      "originating_session_completion_declaration_observed": false,
+      "original_verdict": "CHANGES_REQUESTED",
+      "original_painted_verdict": "QUALIFIED_NOT_CERTIFIED",
+      "original_scope": "Readable sampled first folds/joins/lower sections/endings across six widths, not exhaustive all64tile pixel inspection;129px body-overlap diagnostic only. Provider/Guide/booking/clinical claims not authorized.",
+      "original_source_sha": "d3c513b123b047b53a11d34c70a99690de360b4b",
+      "canonical_historical_ordinal": null,
+      "old_history": "UNKNOWN_NOT_RECONSTRUCTED",
+      "relabel_original_review": false
+    },
+    "current_source_inventory": {
+      "path": "paint-source-d606e0d-r3/source.json",
+      "sha256": "ca3f744a073db257db5f2c2c505469d772ffe13a2edc1deb1530e8d8419b0157",
+      "bytes": 424371,
+      "hash_verified": true,
+      "json_pointer": "/route_sources/~1services~1hormone-optimization"
+    },
+    "current_closure_file_count": 44,
+    "source_applicability": {
+      "route": "/services/hormone-optimization",
+      "file_count": 44,
+      "comparisons": {
+        "506ed6fd16b4c7b60b40d455050aa4de04235b8b": {
+          "reachable_bytes_modes_equal": true,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": true,
+          "added": [],
+          "removed": [],
+          "changed": []
+        },
+        "d3c513b123b047b53a11d34c70a99690de360b4b": {
+          "reachable_bytes_modes_equal": false,
+          "supplemental_build_inputs_equal": true,
+          "qualified_source_applicable": false,
+          "added": [
+            "src/components/pages/hormone/hero-notes.tsx",
+            "src/components/pages/hormone/hero-photo.tsx",
+            "src/components/pages/hormone/hero.module.css"
+          ],
+          "removed": [],
+          "changed": [
+            "app/(site)/services/hormone-optimization/page.tsx",
+            "src/components/pages/hormone/hormone-booking-cta.tsx",
+            "src/components/pages/hormone/hormone-decision-factors.tsx",
+            "src/components/pages/hormone/hormone-faq.tsx",
+            "src/components/pages/hormone/hormone-hero.tsx",
+            "src/components/pages/hormone/hormone-sources.tsx",
+            "src/components/pages/hormone/responsible-next-step.tsx",
+            "src/components/pages/hormone/visitor-orientation.tsx"
+          ]
+        }
+      },
+      "reuse_boundary": "Immutable originating source/preview/native-state packet only when complete closure and supplemental inputs equal; no relabeling as new AFTER, no pixel or runtime verdict."
+    },
+    "design_reference": {
+      "path": "approved-jpgs/page-hormone-optimization.jpg",
+      "sha256": "d23e650acf20735739f1b1a63f02fea24d8eaec39429e3fd1ab85224d10f7475",
+      "bytes": 426566,
+      "hash_verified": true
+    },
+    "design_mode": "owner-approved-legacy-JPG",
+    "publication": {
+      "indexable_sitemap_path": false,
+      "noindex_status_gate": true,
+      "legal_policy_approved": null,
+      "missing_operational_inputs_still_gated": true
+    },
+    "finding_ids": [
+      "H1",
+      "H2",
+      "SIG-T01",
+      "SIG-T07",
+      "SIG-T09"
+    ],
+    "after": {
+      "status": "GENUINE_506_SIX_WIDTH_PACKET_SOURCE_QUALIFIED_TO_D606",
+      "packet_exact_audit_record": {
+        "route": "/services/hormone-optimization",
+        "packet": "closure-immutable-506ed6f-r1/hormone-optimization",
+        "receipt_sha256": "bf4749b6f618726c4d001c3b2baa03e6daa7cf96fdbe7ecab941f6993ce4387c",
+        "source_sha": "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+        "url": "https://sigma-core-medical-review-mp08me3i3-mega-websites.vercel.app/services/hormone-optimization",
+        "deployment_id": "dpl_2gKxv5xfMfByJWnJjChE5oi85Ztj",
+        "immutable_git_deployment_binding_equal_before_after": true,
+        "source_maps_equal_independent_506_and_d606": true,
+        "terminal_actual_exit": 0,
+        "widths": [
+          320,
+          360,
+          390,
+          1440,
+          1536,
+          1728
+        ],
+        "six_widths_exact": true,
+        "native_pair_count": 63,
+        "native_png_pre_post_hash_count": 189,
+        "native_leaf_hash_mismatches": 0,
+        "source_sha_before_after": [
+          "506ed6fd16b4c7b60b40d455050aa4de04235b8b",
+          "506ed6fd16b4c7b60b40d455050aa4de04235b8b"
+        ],
+        "review_or_approval": false,
+        "qualification": "506ed6f immutable native/state packet is byte-bound applicable to unchanged route source, not new d606e0d capture or a new review."
+      },
+      "receipt": {
+        "path": "closure-immutable-506ed6f-r1/hormone-optimization/verification/receipt.json",
+        "sha256": "bf4749b6f618726c4d001c3b2baa03e6daa7cf96fdbe7ecab941f6993ce4387c",
+        "bytes": 106011,
+        "hash_verified": true
+      },
+      "binding_before": {
+        "path": "closure-immutable-506ed6f-r1/hormone-optimization/binding-before.json",
+        "sha256": "8731b9749a8b76fc0fad1cf5d7e26e6f6d9aebd1158b4e44cd85fee86a3c70a7",
+        "bytes": 958,
+        "hash_verified": true
+      },
+      "binding_after": {
+        "path": "closure-immutable-506ed6f-r1/hormone-optimization/binding-after.json",
+        "sha256": "57bb09a7bc1484a8230bd67e401e3910cd62733a4ba6179a94c1c6a5161c4559",
+        "bytes": 958,
+        "hash_verified": true
+      },
+      "route_sources_before_after": [
+        {
+          "path": "closure-immutable-506ed6f-r1/hormone-optimization/route-source-before.json",
+          "sha256": "de953a8cbd9d5b5523658dc5fab6c1aebab4084100e990dce461a26f9e579856",
+          "bytes": 5273,
+          "hash_verified": true
+        },
+        {
+          "path": "closure-immutable-506ed6f-r1/hormone-optimization/route-source-after.json",
+          "sha256": "de953a8cbd9d5b5523658dc5fab6c1aebab4084100e990dce461a26f9e579856",
+          "bytes": 5273,
+          "hash_verified": true
+        }
+      ],
+      "terminal": {
+        "path": "closure-immutable-506ed6f-r1/hormone-optimization/terminal.json",
+        "sha256": "e10b54b3cce331ac9481307a7e584fa0e330f13a27be36eebace9b70fef3e859",
+        "bytes": 409,
+        "hash_verified": true
+      },
+      "native_manifest": {
+        "path": "closure-offline-independent-technical-r1/report.json",
+        "sha256": "6eb5c1caa38409d8180cf59351b351d04052b488d39893fd62446b9385cf93c7",
+        "bytes": 1298106,
+        "hash_verified": true,
+        "json_pointer": "/routes/4/native_manifest"
+      },
+      "six_width_measurements": [
+        {
+          "width": 320,
+          "height": 800,
+          "native_tiles": 15,
+          "document_height": 9686,
+          "final_scroll_Y": 8886,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 15,
+            "images": 195,
+            "controls": 300,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 15,
+            "nonzero_images": 165,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 30,
+            "zero_rect_unloaded_images": 30,
+            "in_view_images": 31,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 300,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 360,
+          "height": 800,
+          "native_tiles": 15,
+          "document_height": 9193,
+          "final_scroll_Y": 8393,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 15,
+            "images": 195,
+            "controls": 300,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 15,
+            "nonzero_images": 165,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 30,
+            "zero_rect_unloaded_images": 30,
+            "in_view_images": 34,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 340,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "native_tiles": 14,
+          "document_height": 9163,
+          "final_scroll_Y": 8319,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 14,
+            "images": 182,
+            "controls": 280,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 14,
+            "nonzero_images": 154,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 28,
+            "zero_rect_unloaded_images": 28,
+            "in_view_images": 32,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 370,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "native_tiles": 7,
+          "document_height": 4986,
+          "final_scroll_Y": 4086,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 7,
+            "images": 91,
+            "controls": 175,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 7,
+            "nonzero_images": 84,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 7,
+            "zero_rect_unloaded_images": 7,
+            "in_view_images": 22,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1400.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1536,
+          "height": 1024,
+          "native_tiles": 6,
+          "document_height": 4989,
+          "final_scroll_Y": 3965,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 6,
+            "images": 78,
+            "controls": 150,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 6,
+            "nonzero_images": 72,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 6,
+            "zero_rect_unloaded_images": 6,
+            "in_view_images": 23,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1448.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        },
+        {
+          "width": 1728,
+          "height": 1117,
+          "native_tiles": 6,
+          "document_height": 4989,
+          "final_scroll_Y": 3872,
+          "DPR": 1,
+          "native_gaps_px": 0,
+          "readable_interval_gaps_px": 0,
+          "readable_header_plus_shadow_exclusion": 129,
+          "robots_values": [
+            "noindex, follow"
+          ],
+          "primary_native_geometry_counts": {
+            "states": 6,
+            "images": 78,
+            "controls": 150,
+            "edge_candidates": 0,
+            "horizontal_document_overflow": 0,
+            "fonts_loaded": 6,
+            "nonzero_images": 72,
+            "nonzero_unloaded_images": 0,
+            "zero_rect_images": 6,
+            "zero_rect_unloaded_images": 6,
+            "in_view_images": 25,
+            "in_view_unloaded_images": 0,
+            "controls_outside_horizontal_viewport": 0,
+            "control_internal_overflow": 0,
+            "form_fields": 0,
+            "blank_button_labels": 0
+          },
+          "maximum_control_right": 1544.0,
+          "actual_requestfailed_count": 1,
+          "actual_pageerror_count": 0
+        }
+      ],
+      "all_raw_states_geometry": {
+        "counts": {
+          "states": 132,
+          "images": 1716,
+          "controls": 2845,
+          "edge_candidates": 0,
+          "horizontal_document_overflow": 0,
+          "fonts_loaded": 132,
+          "nonzero_images": 1493,
+          "nonzero_unloaded_images": 0,
+          "zero_rect_images": 223,
+          "zero_rect_unloaded_images": 223,
+          "in_view_images": 349,
+          "in_view_unloaded_images": 0,
+          "controls_outside_horizontal_viewport": 0,
+          "control_internal_overflow": 0,
+          "form_fields": 0,
+          "blank_button_labels": 0
+        },
+        "maximum_observed_control_right": 1544.0,
+        "exceptions": [],
+        "zero_rectangle_branches": [
+          {
+            "src": "/_next/image?url=%2Fimages%2Fpages%2Fhormone-decision-reception-v3.png&w=3840&q=75&dpl=dpl_2gKxv5xfMfByJWnJjChE5oi85Ztj",
+            "loaded": false,
+            "observations": 91,
+            "excluded_from_visible_loaded_check": true
+          },
+          {
+            "src": "/_next/image?url=%2Fimages%2Fvariant-b%2Fwalnut-texture.jpg&w=3840&q=75&dpl=dpl_2gKxv5xfMfByJWnJjChE5oi85Ztj",
+            "loaded": false,
+            "observations": 132,
+            "excluded_from_visible_loaded_check": true
+          }
+        ]
+      },
+      "actual_requestfailed_count": 6,
+      "actual_pageerror_count": 0,
+      "actual_blocked_POST_count": 0,
+      "painted_acceptance": null,
+      "parent_finding_judgments": null,
+      "qualification": "506ed6f immutable native/state packet is byte-bound applicable to unchanged route source, not new d606e0d capture or a new review. Numerical/state integrity is not painted-edge, hover/focus or all-DOM approval."
+    },
+    "parent_builder_disposition": "EVIDENCE_QUALIFIED_HANDOFF_FOR_HUMAN_SITE_REVIEW",
+    "current_whole_route_qa_grade": "NOT_ASSERTED",
+    "contact_edge_flag": null
+  },
+  "canonical_historical_ordinal": null,
+  "whole_route_qa_grade": "NOT_ASSERTED",
+  "new_director_review": false,
+  "review": false,
+  "approval": false
+}
