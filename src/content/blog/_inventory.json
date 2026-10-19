@@ -1,0 +1,364 @@
+{
+  "old_site_url": "https://sigmacoremedicalcenter.com",
+  "platform": "unknown",
+  "discovery_source": null,
+  "status": "discovery_failed",
+  "content_dir": "src/content/blog",
+  "posts_found": 0,
+  "posts_migrated": 0,
+  "posts_with_item_id": 0,
+  "generated_at": "2026-10-19T22:06:49+00:00",
+  "script_version": "1.1.0",
+  "image_bytes": 0,
+  "notes": [
+    "home page returned 404, so the absence of a blog could not be confirmed",
+    "Existing MEGA git-as-CMS posts are authored content, not a reconstructed legacy inventory. Their original IDs and slugs are preserved; outgoing-site discovery remains failed, not no_blog_confirmed."
+  ],
+  "pending_redirects": [],
+  "posts": [
+    {
+      "old_url": null,
+      "title": "What Is ACT Therapy? A Guide to Flexibility",
+      "new_slug": "act-therapy-guide",
+      "status": "authored",
+      "item_id": "item_dr2mwhtygn1eq9kq56xd7e18gr",
+      "target": "/blog/act-therapy-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Chronic Pain Physical Therapy Treatment: A Complete Guide",
+      "new_slug": "chronic-pain-physical-therapy",
+      "status": "authored",
+      "item_id": "item_j0gtt02bwh1vx7bkz4cwjs1wkm",
+      "target": "/blog/chronic-pain-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "What Is Complex Regional Pain Syndrome? A Patient Guide",
+      "new_slug": "complex-regional-pain-syndrome-guide",
+      "status": "authored",
+      "item_id": "item_aeyxkc1x7n3xnegbzzyfrqn2gm",
+      "target": "/blog/complex-regional-pain-syndrome-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Cost of Laser Therapy for Pain: Prices & Coverage",
+      "new_slug": "cost-laser-therapy-pain",
+      "status": "authored",
+      "item_id": "item_gjqf7cfy554k938g9x69tz5xpr",
+      "target": "/blog/cost-laser-therapy-pain"
+    },
+    {
+      "old_url": null,
+      "title": "Cost of Pelvic Floor Physical Therapy: Full Guide",
+      "new_slug": "cost-pelvic-floor-therapy",
+      "status": "authored",
+      "item_id": "item_mv0y4ff5yx7mx7rhsvx7dw1gwg",
+      "target": "/blog/cost-pelvic-floor-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Costochondritis Treatment: A Step-by-Step Recovery Guide",
+      "new_slug": "costochondritis-treatment-guide",
+      "status": "authored",
+      "item_id": "item_04jdnzckbd4cs26w9j7ws25q5w",
+      "target": "/blog/costochondritis-treatment-guide"
+    },
+    {
+      "old_url": null,
+      "title": "A Guide to De Quervain",
+      "new_slug": "de-quervain-tenosynovitis-treatment",
+      "status": "authored",
+      "item_id": "item_zp4y5vk29s32k324f8nmqbbq38",
+      "target": "/blog/de-quervain-tenosynovitis-treatment"
+    },
+    {
+      "old_url": null,
+      "title": "7 Exercises for Decompression for Back Pain Relief",
+      "new_slug": "decompression-for-back-exercises",
+      "status": "authored",
+      "item_id": "item_qk3pj6f85x5tx6q334xwzzfapg",
+      "target": "/blog/decompression-for-back-exercises"
+    },
+    {
+      "old_url": null,
+      "title": "Foot Drop Treatment Physical Therapy: Exercises That Help",
+      "new_slug": "foot-drop-treatment-physical-therapy",
+      "status": "authored",
+      "item_id": "item_z013109ddx5xk4e8ebj56hm51m",
+      "target": "/blog/foot-drop-treatment-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Your Guide to Managing Hip Bursitis Pain",
+      "new_slug": "hip-bursitis-pain-management",
+      "status": "authored",
+      "item_id": "item_9ma5j0wk0s04xdf84w8cvcq9xw",
+      "target": "/blog/hip-bursitis-pain-management"
+    },
+    {
+      "old_url": null,
+      "title": "Your Hip Joint: How It Works & How to Keep It Strong",
+      "new_slug": "hip-joint-health",
+      "status": "authored",
+      "item_id": "item_wctx47bwhn5s7b1g8ak5a8thaw",
+      "target": "/blog/hip-joint-health"
+    },
+    {
+      "old_url": null,
+      "title": "Holistic Medicine 101: Whole-Person Care Explained",
+      "new_slug": "holistic-medicine-guide",
+      "status": "authored",
+      "item_id": "item_xr9mn6r84h2kh31k26swm8yfpm",
+      "target": "/blog/holistic-medicine-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Hormone Optimization Anytown: A Local Care Guide",
+      "new_slug": "hormone-optimization-anytown-guide",
+      "status": "authored",
+      "item_id": "item_mnzeztpjkh0wq9dpfj3g0e7v5m",
+      "target": "/blog/hormone-optimization-anytown-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Hyperbaric Oxygen Therapy: Benefits, Risks & What to Expect",
+      "new_slug": "hyperbaric-oxygen-therapy-benefits",
+      "status": "authored",
+      "item_id": "item_fjrxjvvh5x1y58b1nb466kcx9r",
+      "target": "/blog/hyperbaric-oxygen-therapy-benefits"
+    },
+    {
+      "old_url": null,
+      "title": "Infusion Therapy: How It Works and What to Expect",
+      "new_slug": "infusion-therapy-explained",
+      "status": "authored",
+      "item_id": "item_rxh0hx46b93c35aej3sc49q0fm",
+      "target": "/blog/infusion-therapy-explained"
+    },
+    {
+      "old_url": null,
+      "title": "Laser Therapy vs. Physical Therapy for Joint Pain: A Guide",
+      "new_slug": "laser-therapy-vs-physical-therapy-joint-pain",
+      "status": "authored",
+      "item_id": "item_h0bkttt6h95tf7aqqt5nah8zac",
+      "target": "/blog/laser-therapy-vs-physical-therapy-joint-pain"
+    },
+    {
+      "old_url": null,
+      "title": "Longevity Care Anytown: Services, Costs & Reviews",
+      "new_slug": "longevity-care-anytown",
+      "status": "authored",
+      "item_id": "item_7fhfm418ad5sk5d20crs5debwr",
+      "target": "/blog/longevity-care-anytown"
+    },
+    {
+      "old_url": null,
+      "title": "Low Back Pain ICD 10: Choose the Right Code",
+      "new_slug": "low-back-pain-icd-10",
+      "status": "authored",
+      "item_id": "item_w6dpgtbvm51bn0arzc611z3k38",
+      "target": "/blog/low-back-pain-icd-10"
+    },
+    {
+      "old_url": null,
+      "title": "Low Testosterone and Joint Pain Treatment: What to Know",
+      "new_slug": "low-testosterone-joint-pain-treatment",
+      "status": "authored",
+      "item_id": "item_331k681j6528dcxg6mtymngc54",
+      "target": "/blog/low-testosterone-joint-pain-treatment"
+    },
+    {
+      "old_url": null,
+      "title": "Muscle Strain Treatment After 50: A Safe Recovery Guide",
+      "new_slug": "muscle-strain-treatment-guide",
+      "status": "authored",
+      "item_id": "item_e45pfhwc9s6d354err8xd8hg4r",
+      "target": "/blog/muscle-strain-treatment-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Neck Ache Treatment: Safe Relief and Warning Signs",
+      "new_slug": "neck-ache-treatment-relief",
+      "status": "authored",
+      "item_id": "item_h6gsnm9q9x3n75k4dk5syr1snr",
+      "target": "/blog/neck-ache-treatment-relief"
+    },
+    {
+      "old_url": null,
+      "title": "Neuropathic Therapy: Your Guide to Nerve Pain Relief",
+      "new_slug": "neuropathic-therapy-guide",
+      "status": "authored",
+      "item_id": "item_tm616jpcx97t5b6xvvndbeg7x0",
+      "target": "/blog/neuropathic-therapy-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Occupational Therapy vs Physical Therapy: Which Fits?",
+      "new_slug": "occupational-therapy-vs-physical-therapy",
+      "status": "authored",
+      "item_id": "item_2yg4na4g7129z4dwccjev1fbb4",
+      "target": "/blog/occupational-therapy-vs-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Osteoporosis Treatment: A Complete Guide to Stronger Bones",
+      "new_slug": "osteoporosis-treatment-guide",
+      "status": "authored",
+      "item_id": "item_9pch10jcbx3b1e4472yewjnmgc",
+      "target": "/blog/osteoporosis-treatment-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Overactive Bladder Treatment: A Complete Care Guide",
+      "new_slug": "overactive-bladder-treatment-guide",
+      "status": "authored",
+      "item_id": "item_6f0019h5nd3z57brp5nh7zzp0c",
+      "target": "/blog/overactive-bladder-treatment-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Physical Therapy Exercises for Rotator Cuff Tear: Safe Guide",
+      "new_slug": "physical-therapy-exercises-rotator-cuff",
+      "status": "authored",
+      "item_id": "item_e1nm5wd2ws1as2q7yxhhh6bwm4",
+      "target": "/blog/physical-therapy-exercises-rotator-cuff"
+    },
+    {
+      "old_url": null,
+      "title": "Physical Therapy for Herniated Lumbar Disk: How It Heals",
+      "new_slug": "physical-therapy-herniated-lumbar-disk",
+      "status": "authored",
+      "item_id": "item_x6sf154whd2w51ttgqbg80ed8m",
+      "target": "/blog/physical-therapy-herniated-lumbar-disk"
+    },
+    {
+      "old_url": null,
+      "title": "How Physical Therapy Treatment for Sciatica Pain Works",
+      "new_slug": "physical-therapy-sciatica-pain",
+      "status": "authored",
+      "item_id": "item_gbvx5yrt2s5pk14r4t3naefh5r",
+      "target": "/blog/physical-therapy-sciatica-pain"
+    },
+    {
+      "old_url": null,
+      "title": "Physio for Back Problems: A Complete Guide",
+      "new_slug": "physio-for-back-problems",
+      "status": "authored",
+      "item_id": "item_vfkgtcw3cs1ahbfw9a7px509m8",
+      "target": "/blog/physio-for-back-problems"
+    },
+    {
+      "old_url": null,
+      "title": "Red Light Therapy Benefits: An Evidence-Based Guide",
+      "new_slug": "red-light-therapy-benefits",
+      "status": "authored",
+      "item_id": "item_edbzsfx3as07s6sy1z4sqy02bc",
+      "target": "/blog/red-light-therapy-benefits"
+    },
+    {
+      "old_url": null,
+      "title": "Regenerative Therapy for Chronic Back Pain: What to Know",
+      "new_slug": "regenerative-therapy-chronic-back-pain",
+      "status": "authored",
+      "item_id": "item_p120wg06yd6wvbys4pfteejcnr",
+      "target": "/blog/regenerative-therapy-chronic-back-pain"
+    },
+    {
+      "old_url": null,
+      "title": "Evidence-Based Rheumatoid Arthritis Treatment Guide",
+      "new_slug": "rheumatoid-arthritis-treatment-guide",
+      "status": "authored",
+      "item_id": "item_bzmkgbaxts0wx471k0ajbzhzjm",
+      "target": "/blog/rheumatoid-arthritis-treatment-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Your Guide to Physical Therapy for Sciatica Treatment",
+      "new_slug": "sciatica-treatments-physical-therapy",
+      "status": "authored",
+      "item_id": "item_5f0t66stan39d5abg1qb185gxc",
+      "target": "/blog/sciatica-treatments-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Shock Wave Treatment: Benefits, Risks, and Costs",
+      "new_slug": "shock-wave-treatment-benefits",
+      "status": "authored",
+      "item_id": "item_d148hbybph64k9adn88wxq610r",
+      "target": "/blog/shock-wave-treatment-benefits"
+    },
+    {
+      "old_url": null,
+      "title": "Somatic Therapy: How It Works and Who It Helps",
+      "new_slug": "somatic-therapy-guide",
+      "status": "authored",
+      "item_id": "item_dznw84kdy949v0x7hvc0rxhjzg",
+      "target": "/blog/somatic-therapy-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Your Guide to Spinal Disc Herniation Physical Therapy",
+      "new_slug": "spinal-disc-herniation-physical-therapy",
+      "status": "authored",
+      "item_id": "item_axs3rj0ysh4x19mn9r3bn1vx18",
+      "target": "/blog/spinal-disc-herniation-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Spinal Fusion: Benefits, Risks, and What to Expect",
+      "new_slug": "spinal-fusion-guide",
+      "status": "authored",
+      "item_id": "item_vneare1yvh54qfbvfrqh5098bw",
+      "target": "/blog/spinal-fusion-guide"
+    },
+    {
+      "old_url": null,
+      "title": "Stem Cell Therapy for Shoulder Cost: What to Know",
+      "new_slug": "stem-cell-therapy-shoulder-cost",
+      "status": "authored",
+      "item_id": "item_bchxtgnhtn5nk1dwvvs9bg83sw",
+      "target": "/blog/stem-cell-therapy-shoulder-cost"
+    },
+    {
+      "old_url": null,
+      "title": "Symptoms of Hormone Imbalance in Women: What to Know",
+      "new_slug": "symptoms-hormone-imbalance-women",
+      "status": "authored",
+      "item_id": "item_70brrmz9w9381336em59jfd7cc",
+      "target": "/blog/symptoms-hormone-imbalance-women"
+    },
+    {
+      "old_url": null,
+      "title": "TMJ Physical Therapy Techniques: A Complete Guide",
+      "new_slug": "tmj-physical-therapy-techniques",
+      "status": "authored",
+      "item_id": "item_hphmp6n0es38f0gp49hj92xst8",
+      "target": "/blog/tmj-physical-therapy-techniques"
+    },
+    {
+      "old_url": null,
+      "title": "Treating Sciatica with Physical Therapy: What to Expect",
+      "new_slug": "treating-sciatica-with-physical-therapy",
+      "status": "authored",
+      "item_id": "item_5cb2emp9755851kxan6wx5xpqc",
+      "target": "/blog/treating-sciatica-with-physical-therapy"
+    },
+    {
+      "old_url": null,
+      "title": "Hip Joint Pain Treatment: A Safe, Practical Guide",
+      "new_slug": "treatment-hip-joint-pain",
+      "status": "authored",
+      "item_id": "item_t2e4v7awy55v1aae49r014rsy4",
+      "target": "/blog/treatment-hip-joint-pain"
+    },
+    {
+      "old_url": null,
+      "title": "What Causes Low Testosterone in Men? A Medical Guide",
+      "new_slug": "what-causes-low-testosterone",
+      "status": "authored",
+      "item_id": "item_q3vs2z9mcd2bqexhwz4k0nj4x0",
+      "target": "/blog/what-causes-low-testosterone"
+    }
+  ]
+}
