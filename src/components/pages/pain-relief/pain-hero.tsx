@@ -36,9 +36,9 @@ export function PainHero(): React.ReactElement {
 
         <div className="relative min-h-[26rem] sm:min-h-[32rem] lg:mt-16 lg:mb-0 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(32%_0,100%_0,100%_100%,0_100%,0_86%)]">
-            <Image src="/images/shared/reception-1.png" alt="Sigma Core Medical Center reception" fill priority sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[60%_center]" />
+            <Image src="/images/shared/reception-1.webp" alt="Sigma Core Medical Center reception" fill priority sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[60%_center]" />
             <div className="absolute inset-y-[6%] left-[16%] z-10 w-[66%]">
-              <Image src="/images/pages/pain-hero-walker-v3.png" alt="An adult walking confidently through the clinic lobby" fill priority sizes="(min-width: 1024px) 22vw, 60vw" className="object-contain object-bottom drop-shadow-[0_18px_22px_rgb(0_0_0/0.28)]" />
+              <Image src="/images/pages/pain-hero-walker-v3.webp" alt="An adult walking confidently through the clinic lobby" fill priority sizes="(min-width: 1024px) 22vw, 60vw" className="object-contain object-bottom drop-shadow-[0_18px_22px_rgb(0_0_0/0.28)]" />
             </div>
           </div>
           <span aria-hidden className="absolute bottom-0 -left-20 hidden h-24 items-end gap-1.5 lg:flex">

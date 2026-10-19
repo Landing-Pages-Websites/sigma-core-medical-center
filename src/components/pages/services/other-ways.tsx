@@ -32,7 +32,7 @@ export function OtherWays(): React.ReactElement {
           ))}
         </ul>
         <div className="relative min-h-52 lg:min-h-full">
-          <Image src="/images/pages/neuropathy-orientation-lobby-v2.png" alt="Calm clinic reception and seating area" fill sizes="(min-width: 1024px) 27vw, 100vw" className="object-cover object-[30%_center]" />
+          <Image src="/images/pages/neuropathy-orientation-lobby-v2.webp" alt="Calm clinic reception and seating area" fill sizes="(min-width: 1024px) 27vw, 100vw" className="object-cover object-[30%_center]" />
         </div>
       </div>
     </div>

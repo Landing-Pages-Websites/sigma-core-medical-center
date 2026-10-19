@@ -15,7 +15,7 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
   return (
     <section id="decision-factors" className="relative overflow-hidden bg-slate text-white">
       <div className="absolute inset-y-0 right-0 hidden w-[56%] lg:block">
-        <Image src="/images/pages/hormone-faq-lobby-v3.png" alt="" fill sizes="56vw" className="object-cover object-[60%_bottom] opacity-90" />
+        <Image src="/images/pages/hormone-faq-lobby-v3.webp" alt="" fill sizes="56vw" className="object-cover object-[60%_bottom] opacity-90" />
         <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-slate via-slate/40 to-transparent" />
       </div>
       <div className="relative grid lg:min-h-[40rem] lg:grid-cols-[45fr_55fr]">

@@ -37,7 +37,7 @@ export function PainKneeSection(): React.ReactElement {
 
       <div className="relative mt-6 h-[17rem] sm:h-[20rem] lg:-mt-16 lg:h-[24rem]">
         <div className="absolute inset-0 lg:left-[2%] lg:[clip-path:polygon(0_6%,48%_6%,52%_0,100%_0,100%_100%,6%_100%,0_70%)]">
-          <Image src="/images/pages/pain-knee-walk-v3.png" alt="An adult walking along a planted courtyard path" fill sizes="100vw" className="object-cover object-[60%_center]" />
+          <Image src="/images/pages/pain-knee-walk-v3.webp" alt="An adult walking along a planted courtyard path" fill sizes="100vw" className="object-cover object-[60%_center]" />
         </div>
         <Link href="/book" className="absolute bottom-10 left-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal px-7 font-heading text-xl font-bold text-white transition-colors hover:bg-royal-hover sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
           Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />

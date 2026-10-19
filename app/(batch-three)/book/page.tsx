@@ -15,6 +15,7 @@ const bookHeadings = localFont({
 });
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/book" },
   title: "Appointment scheduling",
   description: "Online booking is not yet available. Explore Sigma Core service information and contact status.",
   robots: { index: false, follow: true },

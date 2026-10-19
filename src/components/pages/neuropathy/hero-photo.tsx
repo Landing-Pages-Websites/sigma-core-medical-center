@@ -8,7 +8,7 @@ export function NeuropathyHeroPhoto({ data }: { data: ServicePageData }): React.
   return (
     <div className={`${styles.photo} relative min-h-[24rem] sm:min-h-[30rem] lg:mt-24 lg:min-h-0`}>
       <div className={`${styles.frame} absolute inset-0 lg:bottom-0 lg:[clip-path:polygon(28%_0,100%_0,100%_100%,0_100%)]`}>
-        <Image src={data.heroImage} alt={data.heroAlt} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[62%_center]" />
+        <Image src={data.heroImage} alt={data.heroAlt} fill preload fetchPriority="high" sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[62%_center]" />
       </div>
       <div aria-hidden className="absolute right-0 bottom-0 hidden lg:block h-[34%] w-[78%] bg-royal [clip-path:polygon(24%_0,100%_0,100%_100%,0_100%)]" />
       <Link

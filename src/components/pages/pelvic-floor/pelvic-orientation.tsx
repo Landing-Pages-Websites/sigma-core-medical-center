@@ -24,7 +24,7 @@ export function PelvicOrientation(): React.ReactElement {
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[34rem] lg:grid-cols-[12fr_17fr_42fr_12fr_17fr]">
         <SideNote title="Privacy information." body="Privacy policy and visit confidentiality details are not yet available." className="order-2 lg:order-none lg:mt-0" />
         <div className="relative order-3 min-h-60 lg:order-none lg:mt-14">
-          <Image src="/images/pages/services-lobby-v2.png" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
+          <Image src="/images/pages/services-lobby-v2.webp" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
         </div>
         <div className="relative order-1 px-6 pt-12 pb-10 sm:px-10 lg:order-none lg:px-6 lg:pt-12">
           <h2 className="text-center font-heading text-[clamp(2.6rem,4.9vw,4.6rem)] leading-none font-bold tracking-[-0.035em] lg:-mx-24">Private Orientation</h2>
@@ -45,7 +45,7 @@ export function PelvicOrientation(): React.ReactElement {
           </div>
         </div>
         <div className="relative order-4 min-h-60 lg:mt-24">
-          <Image src="/images/shared/reception-2.png" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 12vw, 100vw" className="object-cover object-[30%_40%]" />
+          <Image src="/images/shared/reception-2.webp" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 12vw, 100vw" className="object-cover object-[30%_40%]" />
           <StairSteps count={4} direction="down" barClassName="bg-royal" className="absolute bottom-10 -left-12 hidden text-[0.6rem] lg:flex" />
         </div>
         <SideNote

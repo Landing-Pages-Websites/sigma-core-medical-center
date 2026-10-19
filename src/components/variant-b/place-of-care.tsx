@@ -25,7 +25,7 @@ function WalnutSlatPanel({ className }: { className: string }): React.ReactEleme
   return (
     <div aria-hidden className={`overflow-hidden ${className}`}>
       <Image
-        src="/images/variant-b/walnut-texture.jpg"
+        src="/images/variant-b/walnut-texture.webp"
         alt=""
         fill
         sizes="(min-width: 1024px) 10vw, 100vw"
@@ -43,7 +43,7 @@ function CoreEmblemPanel(): React.ReactElement {
       <span aria-hidden className="absolute inset-3 rounded-full border border-silver/40" />
       <span aria-hidden className="absolute inset-6 rounded-full border border-electric/60" />
       <Image
-        src="/images/variant-b/logo-core.png"
+        src="/images/variant-b/logo-core.webp"
         alt="Sigma Core emblem"
         width={88}
         height={62}
@@ -58,7 +58,7 @@ function FacilityPanorama(): React.ReactElement {
     <div className="relative">
       <div className="relative h-80 sm:h-[26rem] lg:h-full lg:min-h-[38rem]">
         <Image
-          src="/images/shared/waiting-room.png"
+          src="/images/shared/waiting-room.webp"
           alt="Sigma Core waiting room seating beside walnut wall slats"
           fill
           sizes="(min-width: 1024px) 52vw, 100vw"
@@ -69,7 +69,7 @@ function FacilityPanorama(): React.ReactElement {
           className="absolute inset-x-0 bottom-0 h-48 overflow-hidden sm:h-60 [clip-path:polygon(0_46%,100%_10%,100%_100%,0_100%)]"
         >
           <Image
-            src="/images/variant-b/walnut-texture.jpg"
+            src="/images/variant-b/walnut-texture.webp"
             alt=""
             fill
             sizes="(min-width: 1024px) 52vw, 100vw"

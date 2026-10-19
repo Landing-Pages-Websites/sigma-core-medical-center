@@ -195,7 +195,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
             <p className="mt-5 max-w-lg border-l-2 border-silver pl-4 text-sm text-white/55">General website information is not medical advice. Care options and outcomes vary.</p>
           </div>
           <div className="relative min-h-80 lg:min-h-[34rem] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/waiting-room.png" alt="Sigma Core Medical Center waiting area" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover" />
+            <Image src="/images/shared/waiting-room.webp" alt="Sigma Core Medical Center waiting area" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover" />
             {data.perspectiveCards ? (
               <div className="absolute inset-0 hidden flex-col items-end justify-center gap-4 p-10 lg:flex">
                 {data.perspectiveCards.map((card) => (

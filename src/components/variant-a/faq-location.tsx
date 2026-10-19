@@ -55,7 +55,7 @@ export function FaqLocationA(): React.ReactElement {
         <div className="mt-12 lg:mt-0">
           <div className="relative h-80 overflow-hidden rounded-md lg:h-[27rem]">
             <Image
-              src="/images/variant-a/lifestyle-richmond-street.jpg"
+              src="/images/variant-a/lifestyle-richmond-street.webp"
               alt="Tree-lined residential street in the Richmond area"
               fill
               sizes="(min-width: 1024px) 45vw, 100vw"

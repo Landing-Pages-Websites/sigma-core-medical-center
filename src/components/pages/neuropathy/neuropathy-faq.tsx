@@ -50,8 +50,8 @@ export function NeuropathyFaq(): React.ReactElement {
           </div>
           <div className="relative min-h-52 lg:min-h-0">
             <div className="absolute inset-0 lg:[clip-path:polygon(18%_0,100%_0,94%_100%,0_100%)]">
-              <Image src="/images/pages/neuropathy-faq-lobby-v2.png" alt="Conceptual clinic reception with a lounge and glass office" fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover object-[30%_center]" />
-              <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[18%] left-[24%] h-auto w-[30%] drop-shadow-lg" />
+              <Image src="/images/pages/neuropathy-faq-lobby-v2.webp" alt="Conceptual clinic reception with a lounge and glass office" fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover object-[30%_center]" />
+              <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[18%] left-[24%] h-auto w-[30%] drop-shadow-lg" />
             </div>
           </div>
         </div>

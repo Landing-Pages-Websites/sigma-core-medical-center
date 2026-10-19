@@ -20,7 +20,7 @@ export function PelvicSources(): React.ReactElement {
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:m-0 lg:mt-10 lg:[clip-path:polygon(0_0,100%_0,100%_100%,6%_100%,0_70%)]">
-          <Image src="/images/pages/pain-sources-reception-v4.png" alt="Conceptual minimalist clinic reception" fill sizes="(min-width: 1024px) 46vw, 100vw" className="object-cover object-[35%_center]" />
+          <Image src="/images/pages/pain-sources-reception-v4.webp" alt="Conceptual minimalist clinic reception" fill sizes="(min-width: 1024px) 46vw, 100vw" className="object-cover object-[35%_center]" />
         </div>
       </div>
       <ul className="mx-auto grid max-w-[90rem] gap-8 px-6 pt-10 pb-14 sm:px-10 md:grid-cols-3 lg:pl-[3.5rem]">

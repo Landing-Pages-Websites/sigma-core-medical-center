@@ -35,7 +35,7 @@ export function ServicesBookingCta(): React.ReactElement {
           </Link>
         </div>
         <div className="relative aspect-[16/10] lg:aspect-auto lg:h-[27rem] lg:[clip-path:polygon(0_50%,9%_0,100%_0,100%_100%,9%_100%)]">
-          <Image src="/images/pages/hormone-booking-lobby-v3.png" alt="Bright clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-center" />
+          <Image src="/images/pages/hormone-booking-lobby-v3.webp" alt="Bright clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-center" />
         </div>
       </div>
 

@@ -94,7 +94,7 @@ function AvailabilityPanel(): React.ReactElement {
         </p>
       </div>
       <div className="relative min-h-60 lg:-ml-10">
-        <Image src="/images/pages/hormone-booking-lobby-v3.png" alt="Conceptual clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 22vw, 100vw" className="object-cover object-[70%_center]" />
+        <Image src="/images/pages/hormone-booking-lobby-v3.webp" alt="Conceptual clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 22vw, 100vw" className="object-cover object-[70%_center]" />
       </div>
     </div>
   );

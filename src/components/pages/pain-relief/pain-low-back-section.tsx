@@ -40,7 +40,7 @@ export function PainLowBackSection(): React.ReactElement {
         </div>
         <div className="relative min-h-[24rem] lg:mt-14 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/pain-low-back-v3.png" alt="An adult tending potted plants at a bright home workbench" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[45%_center]" />
+            <Image src="/images/pages/pain-low-back-v3.webp" alt="An adult tending potted plants at a bright home workbench" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[45%_center]" />
           </div>
           <p className="absolute right-0 bottom-0 flex max-w-[20rem] items-center gap-3 bg-slate px-6 py-5 text-xs leading-snug text-white/85 lg:w-[45%] lg:max-w-none lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%)] lg:pl-[20%]">
             <TallBracket className="h-8 w-1.5 shrink-0 text-silver" /> General information only; not medical advice and not a diagnosis.

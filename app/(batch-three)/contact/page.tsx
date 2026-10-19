@@ -6,6 +6,7 @@ import { ContactBooking } from "@/components/batch-three/contact/booking";
 import "@/components/batch-three/contact/facility.css";
 import "@/components/batch-three/contact/booking.css";
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact & location status — Richmond, VA area",
   description: "Sigma Core Medical Center serves the Richmond, Virginia area. The public address and direct contact details are pending confirmation.",
   robots: { index: false, follow: true },

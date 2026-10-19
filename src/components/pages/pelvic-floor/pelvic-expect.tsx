@@ -29,7 +29,7 @@ export function PelvicExpect(): React.ReactElement {
         </div>
         <div className="relative lg:pr-10">
           <div className="relative min-h-[22rem] lg:h-full lg:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%,0_14%)]">
-            <Image src="/images/shared/waiting-room.png" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_45%]" />
+            <Image src="/images/shared/waiting-room.webp" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_45%]" />
           </div>
           <TallBracket side="right" className="absolute top-[18%] right-0 hidden h-[68%] w-4 text-silver lg:block" />
         </div>

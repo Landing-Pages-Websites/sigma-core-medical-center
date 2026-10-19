@@ -36,8 +36,8 @@ export function ChooseNextStep(): React.ReactElement {
         <div className="relative lg:pl-10">
           <div className="relative bg-[#2a2c30] p-3 [clip-path:polygon(16%_0,86%_0,100%_14%,100%_100%,12%_100%,0_70%,0_22%)] sm:p-5">
             <div className="relative aspect-[16/11] [clip-path:polygon(15%_0,86%_0,100%_14%,100%_100%,12%_100%,0_70%,0_22%)]">
-              <Image src="/images/pages/pain-decision-interior-v4.png" alt="Modern clinic reception with a walnut desk" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[30%_center]" />
-              <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[24%] left-[16%] h-auto w-[34%] drop-shadow-lg" />
+              <Image src="/images/pages/pain-decision-interior-v4.webp" alt="Modern clinic reception with a walnut desk" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[30%_center]" />
+              <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[24%] left-[16%] h-auto w-[34%] drop-shadow-lg" />
             </div>
           </div>
           <Link

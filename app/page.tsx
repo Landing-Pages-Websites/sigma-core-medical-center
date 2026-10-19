@@ -10,6 +10,7 @@ import { SiteFooterB } from "@/components/variant-b/site-footer";
 import { SITE_DESCRIPTION } from "@/content/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Neuropathy & Personalized Care in Richmond, VA",
   description: SITE_DESCRIPTION,
 };

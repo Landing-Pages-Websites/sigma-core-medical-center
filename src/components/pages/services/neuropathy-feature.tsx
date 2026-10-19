@@ -29,7 +29,7 @@ export function NeuropathyFeature(): React.ReactElement {
             ))}
           </div>
           <div className="absolute inset-0 lg:[clip-path:polygon(28%_0,96%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/services-forward-path-v2.png" alt="A person walking toward daylight through a quiet stone passage" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover object-[70%_center]" />
+            <Image src="/images/pages/services-forward-path-v2.webp" alt="A person walking toward daylight through a quiet stone passage" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover object-[70%_center]" />
           </div>
         </div>
       </div>

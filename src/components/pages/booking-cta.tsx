@@ -17,7 +17,7 @@ const POINT_ICONS = [MessageSquareText, Route, CalendarDays];
 export function BookingCta({
   title = "Book an appointment",
   body = "Let’s talk about your goals and questions. We’re here to listen and help you choose an informed next step.",
-  image = "/images/shared/reception-2.png",
+  image = "/images/shared/reception-2.webp",
   imageAlt = "Sigma Core Medical Center interior",
   points = ["Start a conversation", "Consider your path", "Plan next steps"],
 }: BookingCtaProps): React.ReactElement {

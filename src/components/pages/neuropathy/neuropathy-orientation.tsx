@@ -41,8 +41,8 @@ export function NeuropathyOrientation(): React.ReactElement {
 
       <div className="grid lg:grid-cols-[54fr_46fr]">
         <div className="relative min-h-56 lg:min-h-[13rem]">
-          <Image src="/images/pages/neuropathy-orientation-lobby-v2.png" alt="Conceptual clinic reception and waiting lounge" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-[20%_center]" />
-          <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[14%] left-[5%] h-auto w-[30%] drop-shadow-lg" />
+          <Image src="/images/pages/neuropathy-orientation-lobby-v2.webp" alt="Conceptual clinic reception and waiting lounge" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-[20%_center]" />
+          <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[14%] left-[5%] h-auto w-[30%] drop-shadow-lg" />
         </div>
         <div className="relative flex items-center gap-6 bg-navy px-6 py-8 sm:px-10 lg:-ml-2 lg:pl-8 lg:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)]">
           <FileText size={44} strokeWidth={1.3} className="shrink-0 self-start" aria-hidden />
