@@ -3,6 +3,7 @@ import { HormoneOptimizationLanding } from "@/components/pages/hormone/hormone-o
 import { HORMONE_PAGE } from "@/content/pages";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/hormone-optimization" },
   title: "Hormone Optimization",
   description: HORMONE_PAGE.intro,
   robots: { index: false, follow: true },

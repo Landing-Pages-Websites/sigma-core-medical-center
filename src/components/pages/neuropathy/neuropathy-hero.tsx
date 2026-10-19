@@ -13,7 +13,7 @@ export function NeuropathyHero({ data }: NeuropathyHeroProps): React.ReactElemen
       <div className="grid lg:min-h-[47rem] lg:grid-cols-[50fr_50fr]">
         <div className={`${styles.copy} relative z-10 px-6 pt-14 pb-10 sm:px-10 lg:pt-16 lg:pb-0 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]`}>
           <div className={styles.intro}>
-            <p className="text-base font-semibold text-[#2f7fe0]">{data.eyebrow}</p>
+            <p className="text-base font-semibold text-[#3888e8]">{data.eyebrow}</p>
             <h1 className="mt-3 max-w-[38rem] font-heading text-[clamp(2.6rem,4.6vw,4.4rem)] leading-[1] font-bold tracking-[-0.03em]">{data.title}</h1>
             <p className="mt-4 max-w-[30rem] text-lg leading-snug text-white/90">
               Explore movement, daily function, and independence. Provider details and online scheduling are unavailable.

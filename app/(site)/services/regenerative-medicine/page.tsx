@@ -3,6 +3,7 @@ import { RegenerativeMedicinePage } from "@/components/pages/regenerative/regene
 import { REGENERATIVE_PAGE } from "@/content/pages";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/regenerative-medicine" },
   title: "Regenerative Medicine",
   description: REGENERATIVE_PAGE.intro,
   robots: { index: false, follow: true },

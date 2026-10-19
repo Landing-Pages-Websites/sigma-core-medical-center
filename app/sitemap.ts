@@ -16,6 +16,12 @@ const NOINDEX_PATHS = new Set([
   "/terms",
 ]);
 
+function priorityFor(path: string): number {
+  if (path === "/") return 1;
+  if (path === "/services" || path === "/services/neuropathy") return 0.9;
+  return path.startsWith("/services/") ? 0.8 : 0.6;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const postDates = new Map(
     listPublishedPosts().map((post) => [`/blog/${post.slug}`, publishedDate(post)]),
@@ -27,6 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const lastModified = postDates.get(path);
       return {
         url: new URL(path, SITE_URL).toString(),
+        changeFrequency: path === "/" ? "weekly" : "monthly",
+        priority: priorityFor(path),
         ...(lastModified ? { lastModified } : {}),
       };
     });

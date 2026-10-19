@@ -30,7 +30,7 @@ export function ClinicPurpose(): React.ReactElement {
         </div>
         <div className="relative min-h-[20rem] sm:min-h-[26rem] lg:mt-12 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/waiting-room.png" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-center" />
+            <Image src="/images/shared/waiting-room.webp" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-center" />
           </div>
           <TallBracket side="right" className="absolute top-[18%] right-[6%] h-[62%] w-6 text-white/90" />
         </div>

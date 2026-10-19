@@ -4,7 +4,7 @@
   "discovery_source": null,
   "status": "discovery_failed",
   "content_dir": "src/content/blog",
-  "posts_found": 0,
+  "posts_found": 43,
   "posts_migrated": 0,
   "posts_with_item_id": 0,
   "generated_at": "2026-10-19T22:06:49+00:00",

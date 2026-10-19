@@ -31,8 +31,8 @@ export function ResourceSummary(): React.ReactElement {
           </p>
           <StairSteps count={4} direction="up" barClassName="bg-navy" className="absolute right-0 bottom-28 hidden text-[0.95rem] lg:flex" />
           <div className="relative mt-10 -mx-6 h-56 sm:-mx-10 sm:h-64 lg:mr-[22%] lg:-ml-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:[clip-path:polygon(0_0,100%_0,82%_100%,0_100%)]">
-            <Image src="/images/pages/hormone-faq-lobby-v3.png" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[30%_center]" />
-            <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[12%] left-[6%] h-auto w-[34%] drop-shadow-lg" />
+            <Image src="/images/pages/hormone-faq-lobby-v3.webp" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[12%] left-[6%] h-auto w-[34%] drop-shadow-lg" />
           </div>
         </div>
         <StatusPanel />

@@ -6,6 +6,8 @@ export const playfair = localFont({
     { path: "../../app/fonts/PlayfairDisplay-600.woff2", weight: "600", style: "normal" },
   ],
   variable: "--font-playfair",
+  // Secondary display text must not compete with the hero image and body fonts.
+  preload: false,
   display: "swap",
 });
 

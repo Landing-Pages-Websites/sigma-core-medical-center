@@ -9,7 +9,7 @@ interface BlogMetadataInput {
   image?: string | null;
 }
 
-/** Blog metadata uses the legacy site's existing canonical-origin config. */
+/** Every article shares the production canonical origin, including on Preview. */
 export function buildBlogMetadata(input: BlogMetadataInput): Metadata {
   const url = new URL(input.path, SITE_URL).toString();
   const images = input.image ? [new URL(input.image, SITE_URL).toString()] : [];

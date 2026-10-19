@@ -31,7 +31,7 @@ export function AboutHero(): React.ReactElement {
 
         <div className="relative min-h-[22rem] sm:min-h-[30rem] lg:mt-16 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(20%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/reception-1.png" alt="Sigma Core Medical Center reception desk with illuminated wall sign" fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_40%]" />
+            <Image src="/images/shared/reception-1.webp" alt="Sigma Core Medical Center reception desk with illuminated wall sign" fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_40%]" />
           </div>
           <div aria-hidden className="absolute bottom-0 left-0 hidden h-[52%] w-[34%] bg-[#22262d] [clip-path:polygon(0_100%,22%_70%,52%_70%,52%_48%,72%_48%,72%_28%,86%_28%,86%_10%,100%_10%,100%_100%)] lg:block" />
         </div>

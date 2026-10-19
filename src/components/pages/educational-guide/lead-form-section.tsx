@@ -59,7 +59,7 @@ function AvailabilityPanel(): React.ReactElement {
         <p className="mt-3 text-sm leading-snug text-ink/80">
           Guide requests cannot be submitted here.
         </p>
-        <p className="mt-5 text-sm leading-snug text-ink/60">
+        <p className="mt-5 text-sm leading-snug text-ink/70">
           An availability date has not been provided.
         </p>
       </div>

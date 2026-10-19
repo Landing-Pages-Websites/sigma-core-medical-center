@@ -3,6 +3,7 @@ import { PelvicFloorPage } from "@/components/pages/pelvic-floor/pelvic-floor-pa
 import { PELVIC_PAGE } from "@/content/pages";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/pelvic-floor-incontinence" },
   title: "Pelvic Floor and Incontinence Care",
   description: PELVIC_PAGE.intro,
   robots: { index: false, follow: true },

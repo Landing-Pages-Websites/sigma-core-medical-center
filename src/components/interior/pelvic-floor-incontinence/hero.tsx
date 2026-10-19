@@ -15,7 +15,7 @@ export function PelvicHero(): React.ReactElement {
           </div>
         </div>
         <div className="p-hero-art">
-          <InteriorImage src="/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.png" alt="Adult taking a quiet moment outdoors" priority />
+          <InteriorImage src="/images/design/pelvic-floor-incontinence/01-hero-02-seated-person.webp" alt="Adult taking a quiet moment outdoors" priority />
           <p className="b2-serif">Your care,<br />your privacy.</p>
         </div>
       </div>

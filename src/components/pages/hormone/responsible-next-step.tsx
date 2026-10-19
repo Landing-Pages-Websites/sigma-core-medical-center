@@ -40,7 +40,7 @@ export function ResponsibleNextStep(): React.ReactElement {
         <div className="relative min-h-[22rem] lg:my-14 lg:min-h-0">
           <StairSteps count={6} direction="down" className="absolute top-[24%] -left-16 z-20 hidden text-[0.75rem] lg:flex" />
           <div className="absolute inset-0 lg:[clip-path:polygon(14%_0,100%_0,100%_100%,8%_100%,0_88%,0_12%)]">
-            <Image src="/images/pages/hormone-consultation-v2.png" alt="An adult reviewing notes in a calm professional lounge" fill sizes="(min-width: 1024px) 31vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/pages/hormone-consultation-v2.webp" alt="An adult reviewing notes in a calm professional lounge" fill sizes="(min-width: 1024px) 31vw, 100vw" className="object-cover object-[30%_center]" />
           </div>
         </div>
         <div className="relative bg-royal px-6 py-10 sm:px-10 lg:my-6 lg:-ml-6 lg:px-8 lg:py-12 lg:[clip-path:polygon(0_0,82%_0,100%_14%,100%_60%,70%_100%,0_100%)]">

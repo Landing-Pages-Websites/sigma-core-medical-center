@@ -32,7 +32,7 @@ export function PlaceOfCareA(): React.ReactElement {
       <div className="relative lg:hidden">
         <div className="relative h-72 sm:h-96">
           <Image
-            src="/images/shared/reception-2.png"
+            src="/images/shared/reception-2.webp"
             alt="Sigma Core Medical Center reception desk beneath the navy logo wall"
             fill
             sizes="100vw"
@@ -43,7 +43,7 @@ export function PlaceOfCareA(): React.ReactElement {
       </div>
       <div className="absolute inset-y-0 right-0 hidden w-[55%] lg:block">
         <Image
-          src="/images/shared/reception-2.png"
+          src="/images/shared/reception-2.webp"
           alt="Sigma Core Medical Center reception desk beneath the navy logo wall"
           fill
           sizes="(min-width: 1024px) 55vw, 0px"
@@ -67,7 +67,7 @@ export function PlaceOfCareA(): React.ReactElement {
             <PrincipleList />
             <div className="relative mt-10 h-56 overflow-hidden rounded-md sm:h-64 lg:hidden">
               <Image
-                src="/images/shared/waiting-room.png"
+                src="/images/shared/waiting-room.webp"
                 alt="Sigma Core waiting room seating beside walnut wall slats"
                 fill
                 sizes="100vw"
@@ -80,7 +80,7 @@ export function PlaceOfCareA(): React.ReactElement {
       </div>
       <div className="absolute bottom-14 left-[41%] hidden h-44 w-72 overflow-hidden rounded-sm ring-8 ring-charcoal lg:block">
         <Image
-          src="/images/shared/waiting-room.png"
+          src="/images/shared/waiting-room.webp"
           alt="Sigma Core waiting room seating beside walnut wall slats"
           fill
           sizes="18rem"

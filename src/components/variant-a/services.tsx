@@ -17,7 +17,7 @@ export function ServicesA(): React.ReactElement {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-end lg:gap-16">
           <div className="relative order-first h-56 overflow-hidden rounded-md sm:h-64 lg:order-last lg:h-72">
             <Image
-              src="/images/variant-a/lifestyle-dog-walk.jpg"
+              src="/images/variant-a/lifestyle-dog-walk.webp"
               alt="Adult walking a dog along a quiet residential sidewalk"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"

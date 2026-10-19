@@ -41,7 +41,7 @@ export function HormoneFaq(): React.ReactElement {
             </p>
           </div>
           <div className="relative mt-8 min-h-52 flex-1 lg:mr-6 lg:[clip-path:polygon(0_0,86%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/hormone-faq-lobby-v3.png" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover object-[25%_center]" />
+            <Image src="/images/pages/hormone-faq-lobby-v3.webp" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover object-[25%_center]" />
           </div>
         </div>
         <div className="relative px-6 py-10 sm:px-10 lg:py-24 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-4">

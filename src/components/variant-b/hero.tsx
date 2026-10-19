@@ -40,7 +40,7 @@ export function HeroB(): React.ReactElement {
       <div className="bg-surface">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
           <Image
-            src="/images/shared/logo.png"
+            src="/images/shared/logo.webp"
             alt="Sigma Core Medical Center"
             width={300}
             height={81}
@@ -66,7 +66,7 @@ export function HeroB(): React.ReactElement {
         />
         <div className="relative mx-auto max-w-[90rem] lg:grid lg:grid-cols-[57fr_43fr]">
           <div className="relative bg-action px-6 py-12 sm:px-10 lg:bg-transparent lg:py-20 lg:pr-20">
-            <p className="text-sm font-semibold tracking-[0.22em] text-focus uppercase">
+            <p className="text-sm font-semibold tracking-[0.22em] text-[#b8e5fc] uppercase">
               {HERO.eyebrow}
             </p>
             <h1 className="mt-4 max-w-xl text-[2.7rem] leading-[1.04] font-semibold tracking-tight text-white sm:text-5xl xl:text-[4rem] xl:leading-[1.02]">
@@ -80,10 +80,11 @@ export function HeroB(): React.ReactElement {
           <div className="lg:flex lg:flex-col">
             <div className="relative h-72 sm:h-96 lg:min-h-0 lg:flex-1">
               <Image
-                src="/images/shared/reception-1.png"
+                src="/images/shared/reception-1.webp"
                 alt="Sigma Core Medical Center reception with illuminated wall logo"
                 fill
-                priority
+                preload
+                fetchPriority="high"
                 sizes="(min-width: 1024px) 43vw, 100vw"
                 className="object-cover"
               />

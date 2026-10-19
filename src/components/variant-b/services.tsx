@@ -32,7 +32,7 @@ function WalnutRail({ className }: { className: string }): React.ReactElement {
   return (
     <div aria-hidden className={`overflow-hidden ${className}`}>
       <Image
-        src="/images/variant-b/walnut-texture.jpg"
+        src="/images/variant-b/walnut-texture.webp"
         alt=""
         fill
         sizes="3rem"

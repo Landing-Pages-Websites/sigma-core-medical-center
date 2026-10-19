@@ -27,8 +27,8 @@ export function PainFaq(): React.ReactElement {
             </p>
           </div>
           <div className="relative min-h-52 flex-1">
-            <Image src="/images/pages/hormone-faq-lobby-v3.png" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 32vw, 100vw" className="object-cover object-[25%_center]" />
-            <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[16%] left-[6%] h-auto w-[44%] drop-shadow-lg" />
+            <Image src="/images/pages/hormone-faq-lobby-v3.webp" alt="Conceptual warm clinic reception and lounge" fill sizes="(min-width: 1024px) 32vw, 100vw" className="object-cover object-[25%_center]" />
+            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[16%] left-[6%] h-auto w-[44%] drop-shadow-lg" />
           </div>
         </div>
         <div className="relative grid gap-0 px-6 py-12 sm:px-10 lg:grid-cols-[1fr_16rem] lg:py-14 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-0">

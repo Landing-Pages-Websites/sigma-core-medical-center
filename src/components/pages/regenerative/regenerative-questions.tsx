@@ -39,7 +39,7 @@ export function RegenerativeQuestions(): React.ReactElement {
       </div>
       <div className="relative -mt-4 min-h-[17rem] lg:min-h-[15rem]">
         <div className="absolute inset-0">
-          <Image src="/images/pages/hormone-decision-reception-v3.png" alt="Conceptual bright clinic reception with slatted walnut desk" fill sizes="100vw" className="object-cover object-[50%_70%]" />
+          <Image src="/images/pages/hormone-decision-reception-v3.webp" alt="Conceptual bright clinic reception with slatted walnut desk" fill sizes="100vw" className="object-cover object-[50%_70%]" />
           <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-chalk via-chalk/20 to-transparent" />
         </div>
         <div className="relative mx-auto flex min-h-[17rem] max-w-[90rem] lg:min-h-[15rem] flex-col items-end justify-end gap-4 px-6 pb-4 sm:px-10 lg:pl-[3.5rem]">

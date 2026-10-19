@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { ReactElement } from "react";
-import { isLocalBlogImage } from "@/lib/blog-images";
+import { canOptimizeBlogImage } from "@/lib/blog-images";
 import { readLocalImageSize } from "@/lib/imageSize";
 import { imageSrc } from "@/lib/inline";
 
@@ -30,9 +30,9 @@ export default function BlogImage({
       sizes="(min-width: 768px) 43rem, calc(100vw - 3rem)"
       className="h-auto w-full rounded-lg"
       preload={preload}
-      // Legacy config is out of scope: remote publisher URLs render as-is,
-      // without requiring any next.config remotePatterns changes.
-      unoptimized={!isLocalBlogImage(safeSrc)}
+      fetchPriority={preload ? "high" : undefined}
+      // Optimize the existing publisher allowlist; other remote URLs render as-is.
+      unoptimized={!canOptimizeBlogImage(safeSrc)}
     />
   );
 }

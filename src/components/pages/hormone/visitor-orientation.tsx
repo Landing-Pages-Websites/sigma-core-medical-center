@@ -46,8 +46,8 @@ export function VisitorOrientation(): React.ReactElement {
         <div className="relative min-h-[22rem] lg:mt-28 lg:min-h-0">
           <StairSteps count={6} direction="down" className="absolute top-[12%] -left-10 z-20 hidden text-[0.85rem] lg:flex" />
           <div className="absolute inset-0 lg:[clip-path:polygon(28%_0,100%_0,100%_100%,0_100%,0_18%)]">
-            <Image src="/images/pages/hormone-orientation-lobby-v3.png" alt="Conceptual clinic reception with a navy feature wall and marble desk" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover object-[30%_center]" />
-            <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[18%] left-[24%] h-auto w-[46%] drop-shadow-lg" />
+            <Image src="/images/pages/hormone-orientation-lobby-v3.webp" alt="Conceptual clinic reception with a navy feature wall and marble desk" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[18%] left-[24%] h-auto w-[46%] drop-shadow-lg" />
           </div>
         </div>
         <OrientationAside />
