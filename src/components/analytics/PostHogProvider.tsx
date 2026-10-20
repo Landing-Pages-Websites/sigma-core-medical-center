@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
+import { scheduleAnalytics } from "./schedule-analytics";
 
 const DEFAULT_POSTHOG_HOST = "https://us.i.posthog.com";
-const ANALYTICS_IDLE_TIMEOUT_MS = 1500;
 
 async function initializePostHog(key: string): Promise<void> {
   try {
@@ -21,23 +21,6 @@ async function initializePostHog(key: string): Promise<void> {
   }
 }
 
-function schedulePostHog(key: string): () => void {
-  let cancel = (): void => {};
-  const start = (): void => {
-    const initialize = (): void => { void initializePostHog(key); };
-    if ("requestIdleCallback" in window) {
-      const id = window.requestIdleCallback(initialize, { timeout: ANALYTICS_IDLE_TIMEOUT_MS });
-      cancel = () => window.cancelIdleCallback(id);
-      return;
-    }
-    const id = setTimeout(initialize, ANALYTICS_IDLE_TIMEOUT_MS);
-    cancel = () => clearTimeout(id);
-  };
-  if (document.readyState === "complete") start();
-  else window.addEventListener("load", start, { once: true });
-  return () => { window.removeEventListener("load", start); cancel(); };
-}
-
 type PostHogProviderProps = Readonly<{ children: React.ReactNode }>;
 
 export function PostHogProvider({ children }: PostHogProviderProps): React.ReactElement {
@@ -45,7 +28,7 @@ export function PostHogProvider({ children }: PostHogProviderProps): React.React
     const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
     if (!key) return;
 
-    return schedulePostHog(key);
+    return scheduleAnalytics(() => { void initializePostHog(key); });
   }, []);
 
   return <>{children}</>;
