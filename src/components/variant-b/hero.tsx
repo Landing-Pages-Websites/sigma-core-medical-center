@@ -62,7 +62,7 @@ export function HeroB(): React.ReactElement {
         />
         <GhostWord
           word="Movement"
-          className="top-[34%] left-2 hidden text-[9.5rem] whitespace-nowrap text-white/15 lg:block xl:text-[10.5rem]"
+          className="top-[34%] left-2 hidden text-[9.5rem] whitespace-nowrap text-white/10 lg:block xl:text-[10.5rem]"
         />
         <div className="relative mx-auto max-w-[90rem] lg:grid lg:grid-cols-[57fr_43fr]">
           <div className="relative bg-action px-6 py-12 sm:px-10 lg:bg-transparent lg:py-20 lg:pr-20">

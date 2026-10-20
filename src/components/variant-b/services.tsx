@@ -21,11 +21,12 @@ const MODULE_TONES = [
   "bg-linear-to-br from-[#2b333b] to-[#191f25] text-white",
 ];
 
+// Keep every notch inside the p-6/pl-7 text inset, including on wide tablet cards.
 const MODULE_CUTS = [
-  "polygon(0 28%, 6% 28%, 6% 0, 100% 0, 100% 100%, 0 100%)",
-  "polygon(0 0, 94% 0, 94% 30%, 100% 30%, 100% 100%, 0 100%)",
-  "polygon(0 0, 100% 0, 100% 66%, 95% 66%, 95% 100%, 0 100%)",
-  "polygon(0 30%, 5% 30%, 5% 0, 100% 0, 100% 100%, 0 100%)",
+  "polygon(0 28%, 1rem 28%, 1rem 0, 100% 0, 100% 100%, 0 100%)",
+  "polygon(0 0, calc(100% - 1rem) 0, calc(100% - 1rem) 30%, 100% 30%, 100% 100%, 0 100%)",
+  "polygon(0 0, 100% 0, 100% 66%, calc(100% - 1rem) 66%, calc(100% - 1rem) 100%, 0 100%)",
+  "polygon(0 30%, 1rem 30%, 1rem 0, 100% 0, 100% 100%, 0 100%)",
 ];
 
 function WalnutRail({ className }: { className: string }): React.ReactElement {
