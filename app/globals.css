@@ -1,5 +1,57 @@
 @import "tailwindcss";
 
+/* Separate full fallback families retain complete graphemes after compact primary faces. */
+@font-face {
+  font-family: "Sigma Source Sans Full";
+  src: url("./fonts/SourceSans3-400.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sigma Source Sans Full";
+  src: url("./fonts/SourceSans3-600.woff2") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sigma Playfair Full";
+  src: url("./fonts/PlayfairDisplay-500.woff2") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sigma Playfair Full";
+  src: url("./fonts/PlayfairDisplay-600.woff2") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Preserve the original next/font Arial fallback metrics and loading geometry. */
+@font-face {
+  font-family: "Sigma Source Sans Fallback";
+  src: local("Arial");
+  ascent-override: 108.71%;
+  descent-override: 42.47%;
+  line-gap-override: 0%;
+  size-adjust: 94.19%;
+}
+
+@font-face {
+  font-family: "Sigma Playfair Fallback";
+  src: local("Arial");
+  ascent-override: 105.64%;
+  descent-override: 24.51%;
+  line-gap-override: 0%;
+  size-adjust: 102.43%;
+}
+
 @theme {
   --color-ink: #101e33;
   --color-surface: #f7f6f3;
