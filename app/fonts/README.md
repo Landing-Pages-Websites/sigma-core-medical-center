@@ -25,17 +25,22 @@ font-metric calculation exactly.
 ## Character coverage and fallback
 
 `src/lib/fonts.ts` applies the compact Unicode ranges through Next 16 local
-font `declarations`. `app/globals.css` routes their complete Unicode complement
-to the original same-family, same-weight files. Those families precede the
-metric-matched Arial fallback. Automatic Next fallback is disabled so Arial
-cannot intercept characters that the full original supports. The tests prove
-that these ranges partition Unicode without gaps and preserve every original
-codepoint; characters unsupported by the original fonts still use system
-fallback, as before. Do not remove the full originals or their CSS faces when
-publishing content with additional characters.
+font `declarations`. `app/globals.css` declares the original files at their
+original weights in separate `Sigma Source Sans Full` and `Sigma Playfair Full`
+fallback families. Their faces have no `unicode-range` restriction, so each
+exposes its complete original character map, including combining marks needed
+to shape full graphemes such as `ą́` (U+0105 U+0301) and `И́` (U+0418 U+0301).
+The compact primary families come first; the full families follow them and
+precede the metric-matched Arial fallback. Automatic Next fallback is disabled
+so Arial cannot intercept characters that the full original supports. Tests
+verify complete fallback eligibility and original grapheme substitution/mark
+positioning, in addition to compact Latin shaping. Characters unsupported by
+the originals still use system fallback, as before. Do not remove the full
+originals or their CSS faces when publishing content with additional characters.
 
 Source Sans 400/600 compact faces remain preloaded; Playfair remains demand
-loaded. Source Sans 700 and route-specific fonts are unchanged.
+loaded. Content covered by the compact faces does not request the separate
+full families. Source Sans 700 and route-specific fonts are unchanged.
 
 ## Asset byte reduction
 
@@ -68,6 +73,14 @@ geometry after replacing the compact fonts with the originals, no horizontal
 overflow, and no full-font requests for current content. The Home 360px
 screenshots were byte-identical. Evidence scripts and results are retained in
 the task's external `critical-path-evidence` scratch directory.
+
+After removing the full fallback range restrictions, those four routes still
+request no full originals at either width. Chromium's platform-font inspection
+confirms that both graphemes above render entirely in the original font at all
+four weights, matching full-only reference spans in font identity, glyph count
+and geometry. All 63 HTML payloads, including RSC, remain identical to the
+pre-correction build except for the CSS asset reference and build ID. This
+evidence is in `critical-path-evidence/grapheme-fix`.
 
 The associated analytics helper yields two animation frames after window load
 before scheduling SDK initialization at idle (with the existing 1,500ms idle

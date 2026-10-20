@@ -30,7 +30,6 @@ class FontDeliveryTests(unittest.TestCase):
             original = TTFont(FONT_DIR / f"{name}.woff2").getBestCmap()
             compact = TTFont(FONT_DIR / f"{name}-latin.woff2").getBestCmap()
             self.assertEqual(compact, {cp: glyph for cp, glyph in original.items() if cp in covered})
-            self.assertEqual(set(compact) | (set(original) - covered), set(original))
 
     def test_every_retained_glyph_preserves_outline_metrics_and_hinting(self) -> None:
         for name in FONT_NAMES:
@@ -66,20 +65,24 @@ class FontDeliveryTests(unittest.TestCase):
             self.assertEqual(compact[:4], b"wOF2")
             self.assertLess(len(compact), (FONT_DIR / f"{name}.woff2").stat().st_size / 3)
 
-    def test_css_routes_all_other_unicode_to_the_original_same_family(self) -> None:
+    def test_separate_full_fallback_families_allow_every_original_grapheme(self) -> None:
         css = (FONT_DIR.parent / "globals.css").read_text()
         config = (FONT_DIR.parents[1] / "src/lib/fonts.ts").read_text()
-        expected_full = set(range(0x110000)) - set(subset.parse_unicodes(LATIN_RANGE))
         self.assertEqual(config.count(f'value: "{LATIN_RANGE}"'), 2)
         for name in FONT_NAMES:
             family = "Sigma Source Sans Full" if name.startswith("Source") else "Sigma Playfair Full"
             block = next(block for block in re.findall(r"@font-face\s*\{([^}]+)\}", css)
                          if f"/{name}.woff2" in block)
-            full_range = re.search(r"unicode-range:\s*([^;]+)", block).group(1)
-            self.assertEqual(set(subset.parse_unicodes(full_range)), expected_full)
+            self.assertNotIn("unicode-range", block, "Full fallback must expose its complete original cmap")
             self.assertIn(f'font-family: "{family}"', block)
             self.assertIn(f'fallback: ["{family}"', config)
             self.assertIn(f'font-weight: {name.rsplit("-", 1)[1]}', block)
+            original = TTFont(FONT_DIR / f"{name}.woff2").getBestCmap()
+            compact = TTFont(FONT_DIR / f"{name}-latin.woff2").getBestCmap()
+            for grapheme in ("ą\u0301", "И\u0301"):
+                self.assertTrue(all(ord(char) in original for char in grapheme))
+                self.assertNotIn(ord(grapheme[0]), compact)
+                self.assertIn(ord(grapheme[1]), compact)
 
 
 if __name__ == "__main__":

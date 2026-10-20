@@ -1,13 +1,12 @@
 @import "tailwindcss";
 
-/* Full originals cover the complement of the compact faces in src/lib/fonts.ts. */
+/* Separate full fallback families retain complete graphemes after compact primary faces. */
 @font-face {
   font-family: "Sigma Source Sans Full";
   src: url("./fonts/SourceSans3-400.woff2") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-0130,U+0132-0151,U+0154-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-02FF,U+0370-1FFF,U+2070-20AB,U+20AD-2121,U+2123-2190,U+2194-2196,U+2198-2211,U+2213-2214,U+2216-FEFE,U+FF00-FFFC,U+FFFE-10FFFF;
 }
 
 @font-face {
@@ -16,7 +15,6 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-0130,U+0132-0151,U+0154-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-02FF,U+0370-1FFF,U+2070-20AB,U+20AD-2121,U+2123-2190,U+2194-2196,U+2198-2211,U+2213-2214,U+2216-FEFE,U+FF00-FFFC,U+FFFE-10FFFF;
 }
 
 @font-face {
@@ -25,7 +23,6 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-0130,U+0132-0151,U+0154-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-02FF,U+0370-1FFF,U+2070-20AB,U+20AD-2121,U+2123-2190,U+2194-2196,U+2198-2211,U+2213-2214,U+2216-FEFE,U+FF00-FFFC,U+FFFE-10FFFF;
 }
 
 @font-face {
@@ -34,7 +31,6 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-0130,U+0132-0151,U+0154-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-02FF,U+0370-1FFF,U+2070-20AB,U+20AD-2121,U+2123-2190,U+2194-2196,U+2198-2211,U+2213-2214,U+2216-FEFE,U+FF00-FFFC,U+FFFE-10FFFF;
 }
 
 /* Preserve the original next/font Arial fallback metrics and loading geometry. */

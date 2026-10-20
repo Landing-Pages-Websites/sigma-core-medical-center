@@ -26,6 +26,30 @@ test("Latin shaping preserves kerning, ligatures, marks and positioning", () => 
   }
 });
 
+test("full fallback shapes extended Latin and Cyrillic graphemes with original layout features", () => {
+  const css = readFileSync(new URL("../globals.css", import.meta.url), "utf8");
+  for (const name of fontNames) {
+    const block = css.match(/@font-face\s*\{[^}]*\}/g).find((face) => face.includes(`/${name}.woff2`));
+    assert.ok(block, `${name}: full original face must exist`);
+    assert.ok(!block.includes("unicode-range"), `${name}: complete grapheme must be eligible`);
+    const original = loadFont(name);
+    const compact = loadFont(`${name}-latin`);
+    for (const sample of ["ą\u0301", "И\u0301"]) {
+      assert.ok([...sample].every((char) => original.hasGlyphForCodePoint(char.codePointAt(0))));
+      assert.ok(!compact.hasGlyphForCodePoint(sample.codePointAt(0)), `${name}: full-only base`);
+      const run = original.layout(sample);
+      assert.ok(run.glyphs.every((glyph) => glyph.id !== 0), `${name}: no missing glyphs`);
+      if (run.glyphs.length === 1) {
+        assert.notEqual(run.glyphs[0].id, original.glyphForCodePoint(sample.codePointAt(0)).id);
+      } else {
+        assert.equal(run.glyphs.length, 2);
+        assert.equal(run.positions[1].xAdvance, 0, `${name}: combining mark has no advance`);
+        assert.notEqual(run.positions[1].xOffset, 0, `${name}: combining mark is attached`);
+      }
+    }
+  }
+});
+
 test("explicit Arial fallback metrics match the original Next font calculation", () => {
   const css = readFileSync(new URL("../globals.css", import.meta.url), "utf8");
   for (const [name, family] of [["SourceSans3-400", "Sigma Source Sans"], ["PlayfairDisplay-500", "Sigma Playfair"]]) {
