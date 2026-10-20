@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test:lead": "node --import ./src/lib/leadOfflineTests.mjs --import tsx --test src/lib/lead*.test.ts src/lib/forwardLead.test.ts src/lib/captcha/*.test.ts app/api/lead/*.test.ts"
   },
   "dependencies": {
     "lucide-react": "^0.540.0",
@@ -23,6 +24,7 @@
     "eslint": "^9.30.0",
     "eslint-config-next": "^16.0.0",
     "tailwindcss": "^4.1.0",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.0"
   }
 }

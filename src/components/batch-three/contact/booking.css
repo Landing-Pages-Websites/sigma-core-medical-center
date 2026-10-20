@@ -1,6 +1,6 @@
 .contact-close {
   padding: 112px 0 160px;
-  color: #fff;
+  color: var(--color-surface);
   background: var(--color-charcoal);
 }
 .contact-close-layout {
@@ -25,41 +25,52 @@
   border: 3px solid var(--color-electric);
   border-left: 0;
 }
-.contact-routes > div + div {
-  margin-top: 28px;
-  padding-top: 24px;
-  border-top: 1px solid var(--color-silver);
+
+.b3 .contact-inquiry-copy p {
+  margin-top: 24px;
+  max-width: 38ch;
+  font-size: 20px;
+  line-height: 1.6;
 }
-.b3 .contact-routes a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  font-size: clamp(28px, 2.6vw, 40px);
-  font-weight: 600;
-  line-height: 1.25;
-  text-decoration: underline;
-  text-underline-offset: 6px;
+.contact-close .lead-form { min-width: 0; scroll-margin-top: 120px; }
+.b3 .lead-form .lead-intro { margin-bottom: 24px; font-size: 18px; }
+.lead-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; border: 0; padding: 0; margin: 0; min-width: 0; }
+.lead-field { min-width: 0; }
+.lead-field label { display: block; margin-bottom: 8px; font-size: 18px; font-weight: 600; }
+.lead-field input {
+  display: block; width: 100%; min-width: 0; min-height: 56px; border: 2px solid var(--color-silver);
+  border-radius: 2px; background: var(--color-surface); color: var(--color-ink);
+  padding: 12px 16px; font: inherit; font-size: 18px; line-height: 1.5;
+  transition: border-color 180ms ease;
 }
-.b3 .contact-routes .contact-aperture {
-  display: flex;
-  min-height: 88px;
-  font-size: clamp(28px, 2.6vw, 40px);
-  font-weight: 700;
-  text-decoration: none;
+.lead-field input:hover { border-color: var(--color-electric); }
+.lead-field input:focus-visible, .lead-send:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 4px; }
+.lead-field input[aria-invalid="true"] { border-color: #ffb9b1; }
+.b3 .lead-form .lead-hint, .b3 .lead-form .lead-field-error { margin-top: 8px; font-size: 16px; line-height: 1.5; }
+.b3 .lead-form .lead-field-error { color: #ffb9b1; }
+.lead-send {
+  display: inline-flex; align-items: center; justify-content: space-between; gap: 24px;
+  width: 100%; min-height: 56px; padding: 16px 24px; margin-top: 32px; border: 2px solid transparent;
+  border-radius: 2px; background: var(--color-action); color: var(--color-surface);
+  font: inherit; font-size: 20px; font-weight: 700; line-height: 1.4; cursor: pointer;
+  transition: background-color 180ms ease;
 }
-.contact-routes .contact-aperture svg { color: var(--color-action); }
-.b3 .contact-routes a:not(.contact-aperture):hover { color: var(--color-focus); }
-.b3 .contact-routes p { margin-top: 16px; }
+.lead-send svg { flex-shrink: 0; }
+.lead-send:hover { background: var(--color-hover); }
+.lead-send:disabled { cursor: default; background: var(--color-silver); color: var(--color-ink); }
+.lead-status { min-height: 32px; padding-top: 16px; }
+.b3 .lead-status p { font-size: 18px; line-height: 1.6; }
+.lead-form .hp-field { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 1000px) {
+  .lead-fields { grid-template-columns: minmax(0, 1fr); }
+}
 @media (max-width: 760px) {
   .contact-close { padding: 48px 0 64px; }
   .contact-close-layout { width: calc(100% - 40px); grid-template-columns: minmax(0, 1fr); gap: 32px; }
-  .b3 .contact-close h2 { display: block; max-width: 16ch; font-size: 34px; }
-  .contact-close h2 > span { display: none; }
-  .b3 .contact-routes a,
-  .b3 .contact-routes .contact-aperture { font-size: 24px; }
-  .b3 .contact-routes .contact-aperture { min-height: 64px; padding: 16px 20px; }
-  .contact-routes a svg { width: 24px; height: 24px; }
-  .contact-routes > div + div { margin-top: 28px; padding-top: 24px; }
-  .b3 .contact-routes p { margin-top: 12px; }
+  .b3 .contact-close h2 { font-size: 34px; }
+  .b3 .contact-inquiry-copy p { font-size: 18px; }
+  .contact-close .lead-form { scroll-margin-top: 192px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lead-field input, .lead-send { transition: none; }
 }
