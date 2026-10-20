@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { ServicesPage } from "@/components/pages/services-page";
+import "@/components/batch-three/contact/contact.css";
+import "@/components/batch-three/contact/booking.css";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/services" },

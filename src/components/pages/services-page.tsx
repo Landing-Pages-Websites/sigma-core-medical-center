@@ -1,3 +1,4 @@
+import { ContactBooking } from "@/components/batch-three/contact/booking";
 import { ChooseNextStep } from "@/components/pages/services/choose-next-step";
 import { NeuropathyFeature } from "@/components/pages/services/neuropathy-feature";
 import { ServiceNavigation } from "@/components/pages/services/service-navigation";
@@ -12,6 +13,9 @@ export function ServicesPage(): React.ReactElement {
       <ServiceNavigation />
       <ChooseNextStep />
       <ServicesBookingCta />
+      <div className="b3">
+        <ContactBooking />
+      </div>
     </main>
   );
 }
