@@ -9,8 +9,8 @@ export function ContactHero(): React.ReactElement {
         <h1 id="contact-title">Contact &amp; <span>location status</span></h1>
         <p className="contact-area">Richmond, Virginia area</p>
         <p className="contact-pending">The public address and direct contact details are pending confirmation.</p>
-        <a className="contact-aperture" href="#verified-location-details">
-          <span>View current details</span><ArrowRight size={28} aria-hidden="true" focusable="false" />
+        <a className="contact-aperture" href="#contact-form">
+          <span>Request contact</span><ArrowRight size={28} aria-hidden="true" focusable="false" />
         </a>
       </div>
       <svg className="contact-hero-motif" viewBox="1175 80 361 592" aria-hidden="true" focusable="false">

@@ -1,5 +1,5 @@
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://sigma-core-medical-center.vercel.app";
+// Canonical production identity, shared by metadata, discovery and origin checks.
+export const SITE_URL = "https://www.sigmacoremedicalcenter.com";
 
 export const SITE_TITLE =
   "Sigma Core Medical Center | Neuropathy and Personalized Care in Richmond";
