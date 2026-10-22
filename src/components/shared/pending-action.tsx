@@ -45,6 +45,9 @@ export function PendingAction({
             {title}
           </h2>
           <p className="mt-3 text-base leading-relaxed text-muted">{message}</p>
+          <a href="/contact#contact-form" onClick={close} className="mt-4 flex min-h-11 items-center font-semibold text-ink underline underline-offset-4 hover:text-action focus-visible:outline-2 focus-visible:outline-offset-4">
+            Send a contact inquiry
+          </a>
           <button
             type="button"
             onClick={close}

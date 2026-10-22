@@ -28,7 +28,7 @@ export function PainBooking(): React.ReactElement {
         </div>
         <div className="relative min-h-[20rem] lg:mt-12 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(12%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/reception-2.png" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover object-[50%_40%]" />
+            <Image src="/images/shared/reception-2.webp" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover object-[50%_40%]" />
           </div>
         </div>
       </div>

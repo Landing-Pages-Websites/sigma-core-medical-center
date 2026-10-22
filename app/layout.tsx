@@ -3,6 +3,9 @@ import { playfair, sourceSans, sourceSansHeavy } from "@/lib/fonts";
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from "@/content/site";
 import { GEO, SEO, siteJsonLd } from "@/content/seo";
 import { JsonLd } from "@/components/shared/json-ld";
+import { MegaSnippet } from "@/components/analytics/MegaSnippet";
+import { PostHogProvider } from "@/components/analytics/PostHogProvider";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -40,8 +43,6 @@ export const metadata: Metadata = {
   other: {
     "geo.region": GEO.region,
     "geo.placename": GEO.placename,
-    "geo.position": `${GEO.latitude};${GEO.longitude}`,
-    ICBM: `${GEO.latitude}, ${GEO.longitude}`,
   },
 };
 
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
       data-scroll-behavior="smooth"
     >
       <head>
+        <MegaSnippet />
         <script
           src="https://app.gomega.ai/review-bridge/v7/review-bridge.js"
           integrity="sha384-VTUzMpjogRuXFNsE1df8N2HoJyWhNcCkGaUa7aulmDjCmXVoQ4UpQB1xMTrOp3MJ"
@@ -69,7 +71,10 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
         />
         <JsonLd data={siteJsonLd()} />
       </head>
-      <body>{children}</body>
+      <body>
+        <PostHogProvider>{children}</PostHogProvider>
+        <GoogleAnalytics />
+      </body>
     </html>
   );
 }

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import routeManifest from "../public/route-manifest.json";
 import { NOINDEX_PATHS } from "@/content/indexing";
+import { listPublishedPosts, publishedDate } from "@/lib/blog";
 import { SITE_URL } from "@/content/site";
 
 const HIGH_PRIORITY = new Set(["/", "/services", "/services/neuropathy"]);
@@ -12,13 +13,19 @@ function priorityFor(path: string): number {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
-  return routeManifest.routes
+  const postDates = new Map(
+    listPublishedPosts().map((post) => [`/blog/${post.slug}`, publishedDate(post)]),
+  );
+  const paths = new Set([...routeManifest.routes, "/blog", ...postDates.keys()]);
+  return [...paths]
     .filter((path) => !NOINDEX_PATHS.has(path))
-    .map((path) => ({
-      url: new URL(path, SITE_URL).toString(),
-      lastModified,
-      changeFrequency: path === "/" ? "weekly" : "monthly",
-      priority: priorityFor(path),
-    }));
+    .map((path) => {
+      const lastModified = postDates.get(path);
+      return {
+        url: new URL(path, SITE_URL).toString(),
+        ...(lastModified ? { lastModified } : {}),
+        changeFrequency: path === "/" ? "weekly" : "monthly",
+        priority: priorityFor(path),
+      };
+    });
 }

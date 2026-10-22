@@ -10,7 +10,7 @@ export function HeroA(): React.ReactElement {
       <div className="lg:grid lg:min-h-[44rem] lg:grid-cols-[45fr_55fr]">
         <div className="relative h-[26rem] sm:h-[30rem] lg:h-auto">
           <Image
-            src="/images/variant-a/lifestyle-walking-path.jpg"
+            src="/images/variant-a/lifestyle-walking-path.webp"
             alt="Adult walking at an easy pace along a tree-lined riverside path"
             fill
             priority
@@ -20,7 +20,7 @@ export function HeroA(): React.ReactElement {
         </div>
         <div className="px-6 py-12 sm:px-10 lg:flex lg:flex-col lg:justify-center lg:px-16 lg:py-16 xl:px-20">
           <Image
-            src="/images/shared/logo.png"
+            src="/images/shared/logo.webp"
             alt="Sigma Core Medical Center"
             width={360}
             height={98}
@@ -58,7 +58,7 @@ export function HeroA(): React.ReactElement {
             <figure className="w-full max-w-sm lg:w-64">
               <div className="relative h-40 overflow-hidden rounded-tl-3xl rounded-br-md lg:h-44">
                 <Image
-                  src="/images/shared/reception-1.png"
+                  src="/images/shared/reception-1.webp"
                   alt="Sigma Core Medical Center reception with illuminated wall logo"
                   fill
                   sizes="(min-width: 1024px) 16rem, 24rem"

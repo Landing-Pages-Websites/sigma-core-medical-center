@@ -85,7 +85,7 @@ export const NEUROPATHY_PAGE: ServicePageData = {
   title: "A clearer next step when neuropathy is limiting your day",
   intro:
     "We focus on movement, daily function, independence, and quality of life—so you can get back to what matters. Care is personalized and outcomes vary.",
-  heroImage: "/images/pages/neuropathy-woodland-walk-v2.png",
+  heroImage: "/images/pages/neuropathy-woodland-walk-v2.webp",
   heroAlt: "An older adult walking away along a quiet tree-lined path",
   orientationTitle: "Visitor orientation",
   orientationIntro:
@@ -131,7 +131,7 @@ export const HORMONE_PAGE: ServicePageData = {
   title: "A personalized conversation about hormone health and how you want to feel",
   intro:
     "We focus on what matters to you—function, energy, recovery, and well-being—and how those goals fit into your everyday life.",
-  heroImage: "/images/pages/hormone-hero-v2.png",
+  heroImage: "/images/pages/hormone-hero-v2.webp",
   heroAlt: "An adult preparing thoughtful questions in a notebook at home",
   orientationTitle: "Visitor orientation",
   orientationIntro:
@@ -168,7 +168,7 @@ export const PELVIC_PAGE: ServicePageData = {
   title: "Private, respectful support for pelvic-floor and incontinence concerns",
   intro:
     "Pelvic-floor and incontinence care is a sensitive service category. We use respectful, plain language centered on comfort, confidence, and daily life.",
-  heroImage: "/images/pages/pelvic-private.png",
+  heroImage: "/images/pages/pelvic-private.webp",
   heroAlt: "A mature adult enjoying a private, quiet moment outdoors",
   orientationTitle: "Private orientation",
   orientationIntro:
@@ -205,7 +205,7 @@ export const PELVIC_PAGE: ServicePageData = {
     rightTitle: "Clear limits.",
     rightBody: "This site offers general information only. It is not medical advice or a substitute for a personalized conversation.",
   },
-  orientationImages: ["/images/shared/reception-1.png", "/images/shared/reception-2.png"],
+  orientationImages: ["/images/shared/reception-1.webp", "/images/shared/reception-2.webp"],
   decisionCtaLabel: "Ready to start the conversation?",
 };
 
@@ -215,7 +215,7 @@ export const REGENERATIVE_PAGE: ServicePageData = {
   title: "Explore whether regenerative medicine belongs in your care conversation",
   intro:
     "This consultation is a starting point for questions and informed decisions. No modality is named or promoted before verification and review.",
-  heroImage: "/images/shared/reception-1.png",
+  heroImage: "/images/shared/reception-1.webp",
   heroAlt: "Sigma Core Medical Center reception area",
   orientationTitle: "Category orientation",
   orientationIntro:
@@ -257,7 +257,7 @@ export const REGENERATIVE_PAGE: ServicePageData = {
     rightTitle: "Verification required.",
     rightBody: "Evidence, alternatives, and suitability depend on the specific option once it is reviewed and verified.",
   },
-  orientationImages: ["/images/shared/reception-2.png", "/images/shared/waiting-room.png"],
+  orientationImages: ["/images/shared/reception-2.webp", "/images/shared/waiting-room.webp"],
   decisionCtaLabel: "Ready to explore your questions?",
   categoryBoundaryTitle: "Category boundary",
   categoryBoundaryItems: [

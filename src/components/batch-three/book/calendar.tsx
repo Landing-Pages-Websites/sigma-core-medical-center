@@ -19,8 +19,8 @@ export function BookCalendar(): React.ReactElement {
             <p>Browse service information.</p>
           </div>
           <div className="book-contact-route">
-            <Link href="/contact" className="book-contact-link"><span>Contact &amp; location status</span><ArrowRight aria-hidden="true" /></Link>
-            <p>Contact is for status information only.</p>
+            <Link href="/contact#contact-form" className="book-contact-link"><span>Request contact</span><ArrowRight aria-hidden="true" /></Link>
+            <p>Send an inquiry. This does not confirm an appointment.</p>
           </div>
         </div>
       </div>

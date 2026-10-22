@@ -1,27 +1,16 @@
-import { ArrowRight } from "lucide-react";
-import Link from "next/link";
-
-const informationRoutes = [
-  { label: "Explore services", href: "/services", description: "Browse service categories." },
-  { label: "About Sigma Core", href: "/about#clinic-purpose", description: "Read about the practice." },
-  { label: "See scheduling status", href: "/book#booking-hero", description: "Online booking is not yet available." },
-];
+import { ContactForm } from "@/components/lead/ContactForm";
 
 export function ContactBooking(): React.ReactElement {
   return (
-    <section id="booking-cta" className="contact-section contact-close" aria-labelledby="contact-continue-title">
+    <section id="booking-cta" className="contact-section contact-close" aria-labelledby="contact-inquiry-title">
       <div className="contact-close-layout">
-        <h2 id="contact-continue-title">Continue with information<span aria-hidden="true" /></h2>
-        <nav className="contact-routes" aria-label="Continue with information">
-          {informationRoutes.map(({ label, href, description }, index) => (
-            <div key={href}>
-              <Link className={index === 0 ? "contact-aperture" : undefined} href={href} aria-describedby={`contact-route-note-${index}`}>
-                <span>{label}</span><ArrowRight size={32} aria-hidden="true" focusable="false" />
-              </Link>
-              <p id={`contact-route-note-${index}`}>{description}</p>
-            </div>
-          ))}
-        </nav>
+        <div className="contact-inquiry-copy">
+          <h2 id="contact-inquiry-title">Request contact<span aria-hidden="true" /></h2>
+          <p>Leave your contact details to ask about next steps with Sigma Core Medical Center.</p>
+          <p>This is an inquiry, not an appointment confirmation. Online booking is not yet available.</p>
+          <p>Please do not submit medical information. This form is not for emergencies.</p>
+        </div>
+        <ContactForm />
       </div>
     </section>
   );

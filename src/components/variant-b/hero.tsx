@@ -40,7 +40,7 @@ export function HeroB(): React.ReactElement {
       <div className="bg-surface">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
           <Image
-            src="/images/shared/logo.png"
+            src="/images/shared/logo.webp"
             alt="Sigma Core Medical Center"
             width={300}
             height={81}
@@ -80,7 +80,7 @@ export function HeroB(): React.ReactElement {
           <div className="lg:flex lg:flex-col">
             <div className="relative h-72 sm:h-96 lg:min-h-0 lg:flex-1">
               <Image
-                src="/images/shared/reception-1.png"
+                src="/images/shared/reception-1.webp"
                 alt="Sigma Core Medical Center reception with illuminated wall logo"
                 fill
                 priority

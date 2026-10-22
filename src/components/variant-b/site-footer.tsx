@@ -18,7 +18,7 @@ function WalnutRail(): React.ReactElement {
   return (
     <div aria-hidden className="absolute inset-y-0 right-0 hidden w-5 overflow-hidden sm:block">
       <Image
-        src="/images/variant-b/walnut-texture.jpg"
+        src="/images/variant-b/walnut-texture.webp"
         alt=""
         fill
         sizes="960px"
@@ -34,7 +34,7 @@ export function SiteFooterB(): React.ReactElement {
       <WalnutRail />
       <div aria-hidden className="relative h-3 w-full overflow-hidden sm:hidden">
         <Image
-          src="/images/variant-b/walnut-texture.jpg"
+          src="/images/variant-b/walnut-texture.webp"
           alt=""
           fill
           sizes="100vw"
@@ -48,7 +48,7 @@ export function SiteFooterB(): React.ReactElement {
             <span aria-hidden className="absolute -top-px -left-px h-4 w-4 border-t-2 border-l-2 border-electric" />
             <span aria-hidden className="absolute -right-px -bottom-px h-4 w-4 border-r-2 border-b-2 border-electric" />
             <Image
-              src="/images/shared/logo.png"
+              src="/images/shared/logo.webp"
               alt="Sigma Core Medical Center"
               width={240}
               height={65}

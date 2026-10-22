@@ -27,7 +27,7 @@ export function GuideHero(): React.ReactElement {
         </div>
         <div className="relative min-h-[20rem] lg:min-h-0">
           <div className="absolute inset-0 lg:top-[26%] lg:-bottom-[42%] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/hormone-sources-lobby-v3.png" alt="Conceptual clinic reception corridor with walnut paneling and lounge seating" fill priority sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover object-[45%_center]" />
+            <Image src="/images/pages/hormone-sources-lobby-v3.webp" alt="Conceptual clinic reception corridor with walnut paneling and lounge seating" fill priority sizes="(min-width: 1024px) 48vw, 100vw" className="object-cover object-[45%_center]" />
           </div>
           <div className="absolute top-6 left-6 z-10 max-w-[19rem] bg-[#25282d] px-6 py-5 shadow-xl sm:left-10 lg:top-14 lg:left-[2%]">
             <p className="flex items-start gap-3 text-sm font-bold tracking-[0.04em] uppercase">

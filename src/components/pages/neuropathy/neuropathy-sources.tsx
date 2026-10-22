@@ -27,7 +27,7 @@ export function NeuropathySources(): React.ReactElement {
             </p>
           </div>
           <div className="relative min-h-52 lg:min-h-56 lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/services-lobby-v2.png" alt="Conceptual clinic reception and waiting lounge" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[60%_center]" />
+            <Image src="/images/pages/services-lobby-v2.webp" alt="Conceptual clinic reception and waiting lounge" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[60%_center]" />
           </div>
         </div>
 

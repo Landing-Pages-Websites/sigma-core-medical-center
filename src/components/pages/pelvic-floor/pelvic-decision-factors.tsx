@@ -27,7 +27,7 @@ export function PelvicDecisionFactors(): React.ReactElement {
         </div>
         <div className="relative min-h-60 lg:mt-12 lg:mb-[-6rem] lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%,0_40%)]">
-            <Image src="/images/pages/pain-route-panorama-v4.png" alt="Conceptual bright clinic reception and lounge" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/pages/pain-route-panorama-v4.webp" alt="Conceptual bright clinic reception and lounge" fill sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-[30%_center]" />
           </div>
         </div>
       </div>

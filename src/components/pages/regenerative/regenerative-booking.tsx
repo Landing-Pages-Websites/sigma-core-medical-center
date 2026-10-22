@@ -40,7 +40,7 @@ export function RegenerativeBooking(): React.ReactElement {
         <div className="relative min-h-[22rem] lg:mt-6 lg:min-h-0">
           <StairSteps count={7} direction="up" className="absolute top-[34%] -left-4 z-20 hidden text-[0.7rem] lg:flex" />
           <div className="absolute inset-0 lg:-right-20 lg:[clip-path:polygon(20%_0,100%_0,100%_100%,0_100%,0_24%)]">
-            <Image src="/images/pages/hormone-consultation-v2.png" alt="" fill sizes="(min-width: 1024px) 36vw, 100vw" className="object-cover object-[75%_center]" />
+            <Image src="/images/pages/hormone-consultation-v2.webp" alt="" fill sizes="(min-width: 1024px) 36vw, 100vw" className="object-cover object-[75%_center]" />
           </div>
         </div>
         <div className="relative z-10 flex flex-col justify-center bg-royal px-6 py-12 sm:px-10 lg:mt-16 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[20%] lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%,0_34%)]">

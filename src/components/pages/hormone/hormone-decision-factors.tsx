@@ -51,7 +51,7 @@ export function HormoneDecisionFactors(): React.ReactElement {
 
       <div className="relative mt-8 lg:mt-4">
         <div className="absolute inset-y-0 left-0 hidden w-[26%] lg:block">
-          <Image src="/images/pages/hormone-decision-reception-v3.png" alt="Conceptual bright clinic reception with a slatted walnut desk" fill sizes="26vw" className="object-cover object-[20%_center]" />
+          <Image src="/images/pages/hormone-decision-reception-v3.webp" alt="Conceptual bright clinic reception with a slatted walnut desk" fill sizes="26vw" className="object-cover object-[20%_center]" />
           <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-chalk" />
         </div>
         <ol className="relative mx-auto grid max-w-[90rem] gap-4 px-6 sm:grid-cols-2 sm:px-10 lg:grid-cols-4 lg:gap-3 lg:pr-16 lg:pl-[22%]">

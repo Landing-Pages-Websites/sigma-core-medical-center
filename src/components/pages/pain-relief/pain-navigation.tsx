@@ -12,7 +12,7 @@ export function PainNavigation(): React.ReactElement {
         <div className="mx-auto max-w-[90rem] px-6 pt-10 pb-60 sm:px-10 lg:pt-12 lg:pl-[3.5rem]">
           <div className="flex items-center gap-4">
             <span className="flex items-center bg-chalk px-3 py-2">
-              <Image src="/images/shared/logo.png" alt="Sigma Core Medical Center" width={160} height={44} className="h-8 w-auto" />
+              <Image src="/images/shared/logo.webp" alt="Sigma Core Medical Center" width={160} height={44} className="h-8 w-auto" />
             </span>
             <span aria-hidden className="h-8 w-px bg-white/40" />
             <span className="text-[0.65rem] leading-tight tracking-[0.2em] text-white/80 uppercase">

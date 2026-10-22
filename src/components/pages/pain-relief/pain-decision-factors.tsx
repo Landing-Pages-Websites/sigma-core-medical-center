@@ -28,8 +28,8 @@ export function PainDecisionFactors(): React.ReactElement {
         </div>
         <div className="relative min-h-[18rem] lg:mt-12 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%,0_32%)]">
-            <Image src="/images/pages/pain-decision-interior-v4.png" alt="Conceptual clinic reception with a charcoal feature wall" fill sizes="(min-width: 1024px) 46vw, 100vw" className="object-cover object-[25%_center]" />
-            <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[18%] left-[18%] h-auto w-[34%] drop-shadow-lg" />
+            <Image src="/images/pages/pain-decision-interior-v4.webp" alt="Conceptual clinic reception with a charcoal feature wall" fill sizes="(min-width: 1024px) 46vw, 100vw" className="object-cover object-[25%_center]" />
+            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[18%] left-[18%] h-auto w-[34%] drop-shadow-lg" />
           </div>
         </div>
       </div>
