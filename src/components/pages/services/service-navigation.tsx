@@ -64,7 +64,7 @@ export function ServiceNavigation(): React.ReactElement {
           ))}
         </div>
         <div className="relative min-h-72 lg:min-h-full">
-          <Image src="/images/shared/reception-1.png" alt="Sigma Core Medical Center reception desk with illuminated wall sign" fill sizes="(min-width: 1024px) 21vw, 100vw" className="object-cover object-[60%_center]" />
+          <Image src="/images/shared/reception-1.webp" alt="Sigma Core Medical Center reception desk with illuminated wall sign" fill sizes="(min-width: 1024px) 21vw, 100vw" className="object-cover object-[60%_center]" />
         </div>
       </div>
       <div aria-hidden className="h-3 bg-navy" />
@@ -91,7 +91,7 @@ function PainReliefPanel(): React.ReactElement {
         </Link>
       </div>
       <div className="relative min-h-56 sm:my-4 sm:mr-4">
-        <Image src="/images/pages/services-runners-v2.png" alt="Two adults jogging along a riverside path with a city skyline" fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover object-center" />
+        <Image src="/images/pages/services-runners-v2.webp" alt="Two adults jogging along a riverside path with a city skyline" fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover object-center" />
       </div>
     </div>
   );

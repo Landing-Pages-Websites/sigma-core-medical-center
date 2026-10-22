@@ -10,7 +10,7 @@ function GuideCardA(): React.ReactElement {
     <article className="flex flex-col overflow-hidden rounded-md bg-surface">
       <div className="relative h-52 lg:h-56">
         <Image
-          src="/images/variant-a/lifestyle-reading-guide.jpg"
+          src="/images/variant-a/lifestyle-reading-guide.webp"
           alt="Adult reading printed pages in a bright living room"
           fill
           sizes="(min-width: 1024px) 38vw, 100vw"
@@ -45,7 +45,7 @@ function BookingCardA(): React.ReactElement {
   return (
     <article className="relative overflow-hidden rounded-md border border-white/80 bg-charcoal">
       <Image
-        src="/images/variant-a/lifestyle-phone-outdoors.jpg"
+        src="/images/variant-a/lifestyle-phone-outdoors.webp"
         alt="Adult reading a phone at an outdoor table beside a coffee cup and potted plant"
         fill
         sizes="(min-width: 1024px) 66vw, 100vw"

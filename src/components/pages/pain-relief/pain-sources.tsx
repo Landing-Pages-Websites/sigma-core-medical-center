@@ -57,10 +57,10 @@ export function PainSources(): React.ReactElement {
         </div>
         <div className="grid grid-rows-2 gap-2">
           <div className="relative min-h-44">
-            <Image src="/images/pages/pain-sources-reception-v4.png" alt="Conceptual clinic reception with walnut desk" fill sizes="(min-width: 1024px) 29vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/pages/pain-sources-reception-v4.webp" alt="Conceptual clinic reception with walnut desk" fill sizes="(min-width: 1024px) 29vw, 100vw" className="object-cover object-[30%_center]" />
           </div>
           <div className="relative min-h-44">
-            <Image src="/images/pages/pain-sources-lounge-v4.png" alt="Conceptual clinic lounge with leather sofa" fill sizes="(min-width: 1024px) 29vw, 100vw" className="object-cover object-center" />
+            <Image src="/images/pages/pain-sources-lounge-v4.webp" alt="Conceptual clinic lounge with leather sofa" fill sizes="(min-width: 1024px) 29vw, 100vw" className="object-cover object-center" />
           </div>
         </div>
       </div>

@@ -51,7 +51,7 @@ export function SiteHeaderB(): React.ReactElement {
       <div className="border-b border-ink/10 bg-surface/95 backdrop-blur-xl">
         <div className="mx-auto flex min-h-[4.75rem] max-w-[90rem] items-center justify-between gap-6 px-5 sm:px-8 lg:px-10">
           <Link href="/" aria-label="Sigma Core Medical Center home" className="group flex shrink-0 items-center gap-5" onClick={closeMenus}>
-            <Image src="/images/shared/logo.png" alt="Sigma Core Medical Center" width={300} height={81} priority className="h-10 w-auto transition-transform duration-200 group-hover:scale-[1.015] sm:h-11" />
+            <Image src="/images/shared/logo.webp" alt="Sigma Core Medical Center" width={300} height={81} priority className="h-10 w-auto transition-transform duration-200 group-hover:scale-[1.015] sm:h-11" />
             <span className="hidden border-l border-ink/15 pl-5 text-[0.68rem] leading-tight font-semibold tracking-[0.16em] text-muted uppercase 2xl:block">Human Performance<br />and Longevity</span>
           </Link>
 

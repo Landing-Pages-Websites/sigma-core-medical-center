@@ -27,7 +27,7 @@ export function InformedPathA(): React.ReactElement {
       </div>
       <div className="relative mt-14 h-72 w-full lg:h-[26rem]">
         <Image
-          src="/images/variant-a/lifestyle-phone-kitchen.jpg"
+          src="/images/variant-a/lifestyle-phone-kitchen.webp"
           alt="Adult reading on a phone at a bright kitchen counter"
           fill
           sizes="100vw"

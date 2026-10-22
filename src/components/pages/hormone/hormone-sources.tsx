@@ -34,7 +34,7 @@ export function HormoneSources(): React.ReactElement {
         </div>
         <div className="relative">
           <div className="relative min-h-60 lg:min-h-[19rem]">
-            <Image src="/images/pages/hormone-sources-lobby-v3.png" alt="Conceptual bright clinic lounge and reception" fill sizes="(min-width: 1024px) 43vw, 100vw" className="object-cover object-[35%_center]" />
+            <Image src="/images/pages/hormone-sources-lobby-v3.webp" alt="Conceptual bright clinic lounge and reception" fill sizes="(min-width: 1024px) 43vw, 100vw" className="object-cover object-[35%_center]" />
           </div>
           <p className="relative mt-3 ml-auto flex w-fit items-center gap-3 px-2 text-xs text-ink/80">
             <TallBracket className="h-7 w-1.5 text-silver" /> General website information is not medical advice.

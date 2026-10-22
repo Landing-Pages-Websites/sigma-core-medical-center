@@ -27,7 +27,7 @@ export function SourcesSection({ sources, footerCards }: SourcesSectionProps): R
             </div>
           </div>
           <div className="relative h-56 overflow-hidden lg:h-64 lg:[clip-path:polygon(12%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/waiting-room.png" alt="Sigma Core waiting room" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover" />
+            <Image src="/images/shared/waiting-room.webp" alt="Sigma Core waiting room" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover" />
           </div>
         </div>
         {footerCards ? (

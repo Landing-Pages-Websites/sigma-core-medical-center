@@ -93,13 +93,52 @@ controller. Generated HTML checks are not a browser or production QA verdict.
 No production lead was submitted and real Google/receiver credentials were not
 exercised. The local build does not certify served production configuration.
 
-Main already references absent PNG/JPG images, including
-`/images/shared/logo.png` and `/images/variant-b/walnut-texture.jpg`, while their
-WebP assets exist. These unchanged, unrelated main components need controller
-attention; this port does not silently replace their source or redesign them.
+The initial integration left main's absent PNG/JPG image references unchanged.
+The bounded continuation below resolves that finding as an approved launch fix.
 
 `npm ci` reports 10 dependency audit findings (9 high, 1 critical). No blanket
 upgrade/audit fix was attempted. No browser/system dependency was installed.
 A broad Git object-history lookup encountered partial-clone lazy reads and was
 stopped; subsequent Git inspections disabled lazy fetch. No remote write, push,
 merge, PR or deployment was performed.
+
+## Same-asset URL repair continuation
+
+The controller's independent source review identified 47 missing quoted image
+paths (39 PNG, 8 JPG) in `missing-image-paths-before.json`. Starting from initial
+integration `a52bd91072da3bbf62752361b2cef0e769741a7f`, replace exactly 118 URL
+occurrences across 72 source files with their same-stem `.webp` URLs. Every
+replacement exists in `public`; all 47 asset byte buffers match both base and
+the approved donor. Every affected donor source file uses the same correction.
+No donor page was copied, and no asset was created, modified or substituted.
+
+An exact comparison against the initial integration confirms that each changed
+source file equals its prior bytes with only those quoted URL substitutions.
+Structure, content, styling, alt text, crop settings, responsive behavior and
+the native lead/CAPTCHA/claim integration are retained. The www canonical,
+metadata, publication holds and GA4 residual disposition are unchanged.
+
+`tests/static-assets.test.ts` checks literal local image references across `app`
+and `src`, including CSS URLs. It runs automatically through the existing
+`test:integration` wildcard and offline network-denial bootstrap; no package
+script or canonical checker changed. `/images/*` must resolve under `public`;
+the existing `/icon.png` metadata route is checked against `app/icon.png` per
+Next's file convention. No missing image is accepted through a fallback.
+
+Verification: 256 lead/security tests and 21 integration tests pass; lint,
+typecheck, production-shaped build and the existing built-HTML verifier exit 0.
+The static scan resolves 120 references to 49 distinct local image URLs, with
+zero missing assets. All 46 article bytes/IDs/slugs/statuses remain equal to
+base; the article manifest SHA-256 remains
+`d430c547d560e0518c229594613bf1dde58720c4d57f48c78cfdbe89e3b40997`.
+All `public/images` bytes remain unchanged from base.
+
+Detailed mapping, asset SHA-256 values, preservation results and explicit check
+exit codes are in the task's `builder-evidence/image-repair/` directory. The
+static regression first failed on the missing references, then passed after
+repair and recognition of the existing Next metadata icon convention. A manual
+simplify-style/code self-review confirmed that the small filesystem test needs
+no dependencies or production helpers; no `simplify` command/skill was available
+in this workspace. Browser proof and exact-head org-bot review remain assigned
+to the controller. This is local verification, not an independent QA verdict.
+No remote Git/PR/deploy or real lead/claim action was performed in this continuation.

@@ -8,7 +8,7 @@ export function SiteFooterA(): React.ReactElement {
     <footer id="footer" aria-label="Footer" className="bg-ink">
       <div className="relative h-28 w-full lg:h-36">
         <Image
-          src="/images/shared/waiting-room.png"
+          src="/images/shared/waiting-room.webp"
           alt="Row of seats in the Sigma Core waiting room"
           fill
           sizes="100vw"
@@ -19,7 +19,7 @@ export function SiteFooterA(): React.ReactElement {
         <div aria-hidden className="mx-auto mb-8 h-px w-24 bg-silver/70 lg:mx-0" />
         <div className="flex flex-col items-center gap-8 text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
           <Image
-            src="/images/shared/logo.png"
+            src="/images/shared/logo.webp"
             alt="Sigma Core Medical Center"
             width={264}
             height={72}

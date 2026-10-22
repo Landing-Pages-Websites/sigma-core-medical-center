@@ -24,7 +24,7 @@ export function FacilityGallery(): React.ReactElement {
           </div>
         </div>
         <div className="relative min-h-[18rem] sm:min-h-[24rem] lg:min-h-[27rem] lg:[clip-path:polygon(0_0,100%_0,100%_100%,6%_100%,0_92%)]">
-          <Image src="/images/shared/reception-2.png" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_40%]" />
+          <Image src="/images/shared/reception-2.webp" alt="Sigma Core reception desk beneath the illuminated wall sign" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[50%_40%]" />
         </div>
         <div className="relative hidden bg-navy lg:ml-4 lg:block lg:[clip-path:polygon(0_6%,100%_0,100%_100%,0_100%)]">
           <StairSteps count={5} direction="up" barClassName="bg-royal" className="absolute right-4 bottom-4 text-[0.6rem]" />
@@ -34,10 +34,10 @@ export function FacilityGallery(): React.ReactElement {
       <div className="mx-auto mt-3 grid max-w-[90rem] gap-3 px-6 sm:px-10 lg:grid-cols-[7fr_29fr_57fr] lg:gap-1.5 lg:pl-[3.5rem]">
         <div aria-hidden className="hidden bg-royal lg:block" />
         <div className="relative min-h-52 lg:min-h-64">
-          <Image src="/images/shared/waiting-room.png" alt="Waiting room seating under the Sigma Core wall sign" fill sizes="(min-width: 1024px) 28vw, 100vw" className="object-cover object-[50%_45%]" />
+          <Image src="/images/shared/waiting-room.webp" alt="Waiting room seating under the Sigma Core wall sign" fill sizes="(min-width: 1024px) 28vw, 100vw" className="object-cover object-[50%_45%]" />
         </div>
         <div className="relative min-h-52 lg:min-h-64">
-          <Image src="/images/shared/reception-1.png" alt="Wide view of the Sigma Core reception area" fill sizes="(min-width: 1024px) 56vw, 100vw" className="object-cover object-[50%_28%]" />
+          <Image src="/images/shared/reception-1.webp" alt="Wide view of the Sigma Core reception area" fill sizes="(min-width: 1024px) 56vw, 100vw" className="object-cover object-[50%_28%]" />
         </div>
       </div>
     </section>

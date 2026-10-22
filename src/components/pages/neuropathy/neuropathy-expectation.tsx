@@ -31,7 +31,7 @@ export function NeuropathyExpectation(): React.ReactElement {
         </div>
         <div className="relative min-h-[22rem] lg:mt-12 lg:mb-20 lg:min-h-0">
           <div className="absolute inset-0 lg:right-[5%] lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/shared/waiting-room.png" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 57vw, 100vw" className="object-cover object-[50%_45%]" />
+            <Image src="/images/shared/waiting-room.webp" alt="Sigma Core waiting room with seating beneath the wall sign" fill sizes="(min-width: 1024px) 57vw, 100vw" className="object-cover object-[50%_45%]" />
           </div>
           <span aria-hidden className="absolute right-[18%] -bottom-12 hidden items-end gap-1 lg:flex">
             {BASE_BARS.map((bar) => (

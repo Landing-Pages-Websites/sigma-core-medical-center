@@ -20,7 +20,7 @@ export function NeuropathyA(): React.ReactElement {
             <div aria-hidden className="absolute -inset-3 rounded-full border-2 border-silver/30" />
             <div className="relative h-full w-full overflow-hidden rounded-full">
               <Image
-                src="/images/variant-a/lifestyle-tying-shoes.jpg"
+                src="/images/variant-a/lifestyle-tying-shoes.webp"
                 alt="Hands tying the laces of a walking shoe at home"
                 fill
                 sizes="(min-width: 640px) 28rem, 100vw"
@@ -54,7 +54,7 @@ export function NeuropathyA(): React.ReactElement {
             <div aria-hidden className="absolute -inset-4 rounded-full border-2 border-silver/30" />
             <div className="relative h-full w-full overflow-hidden rounded-full">
               <Image
-                src="/images/variant-a/lifestyle-tying-shoes.jpg"
+                src="/images/variant-a/lifestyle-tying-shoes.webp"
                 alt="Hands tying the laces of a walking shoe at home"
                 fill
                 sizes="(min-width: 1024px) 55vw, 0px"

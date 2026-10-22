@@ -45,7 +45,7 @@ export function PelvicFaq(): React.ReactElement {
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:mx-0 lg:mt-12 lg:mr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
-          <Image src="/images/pages/pain-route-panorama-v5.png" alt="Conceptual clinic reception and lounge" fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover object-[30%_center]" />
+          <Image src="/images/pages/pain-route-panorama-v5.webp" alt="Conceptual clinic reception and lounge" fill sizes="(min-width: 1024px) 60vw, 100vw" className="object-cover object-[30%_center]" />
         </div>
       </div>
 

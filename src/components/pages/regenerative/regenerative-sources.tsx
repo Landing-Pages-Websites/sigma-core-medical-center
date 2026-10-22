@@ -43,10 +43,10 @@ export function RegenerativeSources(): React.ReactElement {
       </div>
       <div className="relative mt-8 pb-10">
         <div className="absolute bottom-0 left-0 hidden h-[78%] w-[16%] lg:block">
-          <Image src="/images/pages/pain-sources-reception-v4.png" alt="" fill sizes="16vw" className="object-cover object-[20%_center]" />
+          <Image src="/images/pages/pain-sources-reception-v4.webp" alt="" fill sizes="16vw" className="object-cover object-[20%_center]" />
         </div>
         <div className="absolute right-0 bottom-0 hidden h-[60%] w-[13%] lg:block">
-          <Image src="/images/pages/pain-sources-lounge-v4.png" alt="" fill sizes="13vw" className="object-cover object-[30%_center]" />
+          <Image src="/images/pages/pain-sources-lounge-v4.webp" alt="" fill sizes="13vw" className="object-cover object-[30%_center]" />
         </div>
         <div className="mx-auto max-w-[90rem] px-6 sm:px-10 lg:px-[18%]">
           <PlinthCards />

@@ -28,7 +28,7 @@ export function ServicesHero(): React.ReactElement {
         <div className="relative min-h-[18rem] sm:min-h-[24rem] lg:mt-14 lg:min-h-0">
           <div aria-hidden className="absolute inset-y-0 left-0 hidden w-[24%] bg-royal [clip-path:polygon(70%_0,100%_0,30%_100%,0_100%)] lg:block" />
           <div className="absolute inset-0 lg:left-[6%] lg:[clip-path:polygon(22%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/services-lobby-v2.png" alt="Warm, modern clinic reception and lounge" fill priority sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-center" />
+            <Image src="/images/pages/services-lobby-v2.webp" alt="Warm, modern clinic reception and lounge" fill priority sizes="(min-width: 1024px) 54vw, 100vw" className="object-cover object-center" />
           </div>
         </div>
 

@@ -32,8 +32,8 @@ export function HormoneBookingCta(): React.ReactElement {
         </div>
         <div className="relative min-h-[22rem] lg:mt-6 lg:min-h-0">
           <div className="absolute inset-0 lg:-right-24 lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_70%,6%_70%,6%_58%,12%_58%,12%_46%,18%_46%,18%_34%,24%_34%)]">
-            <Image src="/images/pages/hormone-booking-lobby-v3.png" alt="Conceptual clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover object-[30%_center]" />
-            <Image src="/images/shared/logo.png" alt="" width={240} height={65} className="absolute top-[22%] left-[30%] h-auto w-[40%] drop-shadow-lg" />
+            <Image src="/images/pages/hormone-booking-lobby-v3.webp" alt="Conceptual clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 38vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[22%] left-[30%] h-auto w-[40%] drop-shadow-lg" />
           </div>
         </div>
         <div className="relative z-10 flex flex-col justify-center bg-royal px-6 py-12 sm:px-10 lg:mt-24 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[22%] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
