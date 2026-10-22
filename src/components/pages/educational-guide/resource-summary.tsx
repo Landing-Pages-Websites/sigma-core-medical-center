@@ -4,9 +4,9 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const RESOURCE_STATUS = [
-  { icon: BookOpen, title: "Resource", body: "The educational guide is currently unavailable." },
-  { icon: MapPin, title: "Delivery", body: "There is no current download or delivery date." },
-  { icon: UserRound, title: "Request access", body: "The guide request form is unavailable." },
+  { icon: BookOpen, title: "Self-assessment", body: "About 7 minutes: check the sensations you notice and rate their daily-life impact." },
+  { icon: MapPin, title: "Symptom tracker", body: "Log your worst symptom, sleep and balance for up to 7 days." },
+  { icon: UserRound, title: "Request access", body: "Share your contact details to download the PDF on this page." },
 ] as const;
 
 export function ResourceSummary(): React.ReactElement {
@@ -15,18 +15,18 @@ export function ResourceSummary(): React.ReactElement {
       <div className="grid lg:grid-cols-[60fr_40fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <p className="flex items-center gap-3 text-sm font-semibold">
-            <TallBracket className="h-6 w-1.5 text-white/70" /> Current availability <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
+            <TallBracket className="h-6 w-1.5 text-white/70" /> What the scorecard covers <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
           </p>
-          <h2 className="mt-3 font-heading text-[clamp(2.8rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.035em]">Resource Status</h2>
+          <h2 className="mt-3 font-heading text-[clamp(2.8rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.035em]">How the scorecard works</h2>
           <p className="mt-4 max-w-[36rem] text-lg leading-snug text-white/92">
-            The educational guide is currently unavailable. No availability date has been given, and the request form is unavailable.
+            Use it to organize what you feel and prepare better questions for a clinician. Your answers are for you, and you can share them with Sigma Core or any healthcare professional.
           </p>
           <p className="relative mt-6 flex max-w-[30rem] items-center gap-4 bg-navy px-8 py-4 text-sm leading-snug">
             <TallBracket className="absolute inset-y-3 left-3 w-2 text-silver" />
             <FileText size={30} strokeWidth={1.4} className="shrink-0" aria-hidden />
             <span>
-              <strong className="block font-semibold">The guide is currently unavailable.</strong>
-              It is not available for delivery or download.
+              <strong className="block font-semibold">The scorecard cannot diagnose neuropathy or its cause.</strong>
+              Its impact total is not a diagnostic score.
             </span>
           </p>
           <StairSteps count={4} direction="up" barClassName="bg-navy" className="absolute right-0 bottom-28 hidden text-[0.95rem] lg:flex" />
@@ -46,7 +46,7 @@ function StatusPanel(): React.ReactElement {
   return (
     <div className="relative bg-navy px-6 py-12 sm:px-10 lg:mt-16 lg:py-12 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[17%] lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%,0_44%)]">
       <p className="flex items-center gap-3 text-base font-semibold">
-        <TallBracket className="h-6 w-1.5 text-silver" /> Current resource status
+        <TallBracket className="h-6 w-1.5 text-silver" /> Using the scorecard
       </p>
       <ul className="relative mt-5 divide-y divide-white/15 pr-8">
         {RESOURCE_STATUS.map(({ icon: Icon, title, body }) => (
