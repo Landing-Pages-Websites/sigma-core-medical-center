@@ -58,20 +58,40 @@ export function PainDecisionFactors(): React.ReactElement {
         </div>
       </div>
       <div className="bg-chalk">
-        <div className="mx-auto flex max-w-[90rem] flex-col gap-3 px-6 py-5 sm:flex-row sm:flex-wrap sm:px-10 lg:pl-[3.5rem]">
-          {[
-            { href: "/about", tone: "bg-royal hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
-            { href: "/book", tone: "bg-navy hover:bg-[#0b2546] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
-          ].map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`${link.tone} inline-flex min-w-0 max-w-full min-h-14 w-full items-center justify-between gap-3 px-8 py-3 font-heading text-lg font-bold text-white transition-colors sm:w-64 [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
-            >
-              <span className="min-w-0 whitespace-normal">{link.href === "/book" ? "Check booking status" : "About"}</span>
-              <ChevronRight size={26} aria-hidden className="shrink-0" />
-            </Link>
-          ))}
+        <div className="mx-auto max-w-[90rem] px-6 py-5 sm:px-10 lg:pl-[3.5rem]">
+          <p className="text-sm font-semibold tracking-[0.18em] text-navy uppercase">Related service pages</p>
+          <p className="mt-1 max-w-[42rem] text-sm leading-snug text-ink/80">Review related Sigma Core service information as you prepare questions for a Richmond-area care conversation.</p>
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            {[
+              { href: "/services/neuropathy", label: "Neuropathy care" },
+              { href: "/services/regenerative-medicine", label: "Regenerative medicine" },
+              { href: "/services", label: "All services" },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="inline-flex min-w-0 max-w-full min-h-12 w-full items-center justify-between gap-3 bg-slate px-6 py-3 font-semibold text-white transition-colors hover:bg-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none] sm:w-56"
+              >
+                <span className="min-w-0 whitespace-normal">{link.label}</span>
+                <ChevronRight size={22} aria-hidden className="shrink-0" />
+              </Link>
+            ))}
+          </div>
+          <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            {[
+              { href: "/about", tone: "bg-royal hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
+              { href: "/book", tone: "bg-navy hover:bg-[#0b2546] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`${link.tone} inline-flex min-w-0 max-w-full min-h-14 w-full items-center justify-between gap-3 px-8 py-3 font-heading text-lg font-bold text-white transition-colors sm:w-64 [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
+              >
+                <span className="min-w-0 whitespace-normal">{link.href === "/book" ? "Check booking status" : "About"}</span>
+                <ChevronRight size={26} aria-hidden className="shrink-0" />
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </section>

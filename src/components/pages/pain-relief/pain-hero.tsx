@@ -19,10 +19,10 @@ export function PainHero(): React.ReactElement {
           <TallBracket className="absolute top-14 bottom-12 left-6 w-6 text-royal sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]" />
           <div className="pl-10 sm:pl-12">
             <h1 className="font-heading text-[clamp(2.6rem,3.9vw,3.75rem)] leading-[1] font-bold tracking-[-0.03em]">
-              Move toward a more informed plan for persistent pain
+              Pain relief in Richmond, VA: move toward a more informed plan
             </h1>
             <div className="mt-6 max-w-[22rem] space-y-4 text-base leading-snug text-white/88">
-              <p>We focus on movement, daily function, and informed next steps.</p>
+              <p>For Richmond-area adults, we focus on movement, daily function, and informed next steps.</p>
               <p>Pain-related scope includes joint pain, knee pain, low back pain, and neck pain.</p>
               <p>Explore the three concern areas below. Online scheduling is not yet available.</p>
             </div>

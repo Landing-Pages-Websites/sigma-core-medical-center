@@ -1,4 +1,5 @@
 import { RegenerativeBooking } from "@/components/pages/regenerative/regenerative-booking";
+import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { RegenerativeDecisionFactors } from "@/components/pages/regenerative/regenerative-decision-factors";
 import { RegenerativeFaq } from "@/components/pages/regenerative/regenerative-faq";
 import { RegenerativeHero } from "@/components/pages/regenerative/regenerative-hero";
@@ -10,6 +11,7 @@ export function RegenerativeMedicinePage(): React.ReactElement {
   return (
     <main className="overflow-hidden bg-navy">
       <RegenerativeHero />
+      <DoctorTrustModule compact />
       <RegenerativeOrientation />
       <RegenerativeQuestions />
       <RegenerativeDecisionFactors />

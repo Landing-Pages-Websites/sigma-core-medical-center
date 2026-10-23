@@ -4,7 +4,7 @@ import { CarePrinciples } from "@/components/pages/about/care-principles";
 import { ClinicPurpose } from "@/components/pages/about/clinic-purpose";
 import { FacilityGallery } from "@/components/pages/about/facility-gallery";
 import { GroundedPrinciples } from "@/components/pages/about/grounded-principles";
-import { TeamPublicationGate } from "@/components/pages/about/team-publication-gate";
+import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 
 export function AboutPage(): React.ReactElement {
   return (
@@ -14,7 +14,7 @@ export function AboutPage(): React.ReactElement {
       <GroundedPrinciples />
       <FacilityGallery />
       <CarePrinciples />
-      <TeamPublicationGate />
+      <DoctorTrustModule />
       <AboutBookingCta />
     </main>
   );
