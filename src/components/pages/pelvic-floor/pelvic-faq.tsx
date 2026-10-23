@@ -7,26 +7,11 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 type FaqRow = { question: string; answer: string; action: { label: string; href?: string; policy?: "/privacy" } };
 
 const FAQ_ROWS: readonly FaqRow[] = [
-  {
-    question: "Are privacy details available?",
-    answer: "Privacy policy and visit confidentiality details are not yet available.",
-    action: { label: "Privacy status", policy: "/privacy" },
-  },
-  {
-    question: "Is online booking available?",
-    answer: "Online scheduling and request forms are unavailable. Appointment and follow-up details have not been confirmed.",
-    action: { label: "Check booking status", href: "/book" },
-  },
-  {
-    question: "Where is the clinic?",
-    answer: "Sigma Core serves the Richmond area. Confirmed location and visit details are unavailable.",
-    action: { label: "Learn more about us", href: "/about" },
-  },
-  {
-    question: "Why do individual questions require a provider?",
-    answer: "Questions about your situation, options, and what may be appropriate need a provider’s professional assessment.",
-    action: { label: "Check booking status", href: "/book" },
-  },
+  { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate.", action: { label: "Check evaluation status", href: "/book" } },
+  { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation.", action: { label: "Prepare for an evaluation", href: "/book" } },
+  { question: "Is online booking available?", answer: "Online scheduling and request forms are unavailable. Appointment and follow-up details have not been confirmed.", action: { label: "Check booking status", href: "/book" } },
+  { question: "Where is the clinic?", answer: "Sigma Core serves the Richmond area. Confirmed location and visit details are unavailable.", action: { label: "Learn more about us", href: "/about" } },
+  { question: "Are privacy details available?", answer: "Privacy policy and visit confidentiality details are not yet available.", action: { label: "Privacy status", policy: "/privacy" } },
 ];
 
 const ROW_ACTION = "inline-flex items-center gap-2 text-sm text-royal hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
@@ -41,7 +26,7 @@ export function PelvicFaq(): React.ReactElement {
             <TallBracket className="h-20 w-4 shrink-0 text-silver" /> Faq
           </h2>
           <p className="mt-6 max-w-[19rem] pl-9 text-base leading-snug text-white/88">
-            Here are answers about this page, scheduling availability, and policy status.
+            Here are answers about pelvic floor therapy, incontinence evaluation, scheduling availability, and privacy status.
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:mx-0 lg:mt-12 lg:mr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">

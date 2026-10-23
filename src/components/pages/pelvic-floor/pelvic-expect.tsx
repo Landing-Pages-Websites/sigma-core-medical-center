@@ -13,18 +13,18 @@ export function PelvicExpect(): React.ReactElement {
             <span className="block h-2.5 w-9 bg-royal" />
             <TallBracket side="right" className="h-9 w-2.5 text-silver" />
           </span>
-          <h2 className="mt-5 font-heading text-[clamp(3rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.035em]">What To Expect</h2>
+          <h2 className="mt-5 font-heading text-[clamp(3rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.035em]">What To Expect From An Evaluation</h2>
           <span aria-hidden className="mt-6 block h-1 w-12 bg-royal" />
           <p className="mt-6 max-w-[28rem] text-lg leading-snug text-white/90">
-            Provider details, examination information, visit length, and treatment process are unavailable. Online scheduling is not yet available.
+            An appropriate provider can explain what an incontinence evaluation may include, whether pelvic floor therapy may be appropriate, and what options or follow-up may be considered. Online scheduling is not yet available.
           </p>
           <Link href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-6 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status <ArrowRight size={24} aria-hidden className="shrink-0" />
+            Check evaluation status <ArrowRight size={24} aria-hidden className="shrink-0" />
           </Link>
           <p className="mt-6 flex items-center gap-4 text-sm leading-snug text-white/85">
             <RisingBars count={3} className="h-8 text-[0.6rem]" />
             <span aria-hidden className="h-10 w-px bg-white/30" />
-            Appointment request and follow-up details are unavailable.
+            Visit length, appointment request, and follow-up details are unavailable.
           </p>
         </div>
         <div className="relative lg:pr-10">

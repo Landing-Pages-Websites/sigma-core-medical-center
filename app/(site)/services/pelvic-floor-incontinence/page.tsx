@@ -3,9 +3,8 @@ import { PelvicFloorPage } from "@/components/pages/pelvic-floor/pelvic-floor-pa
 import { PELVIC_PAGE } from "@/content/pages";
 
 export const metadata: Metadata = {
-  title: "Pelvic Floor and Incontinence Care",
+  title: "Pelvic Floor Therapy & Incontinence Evaluation",
   description: PELVIC_PAGE.intro,
-  robots: { index: false, follow: true },
 };
 
 export default function PelvicFloorRoute(): React.ReactElement {

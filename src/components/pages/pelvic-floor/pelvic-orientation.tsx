@@ -27,12 +27,12 @@ export function PelvicOrientation(): React.ReactElement {
           <Image src="/images/pages/services-lobby-v2.webp" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
         </div>
         <div className="relative order-1 px-6 pt-12 pb-10 sm:px-10 lg:order-none lg:px-6 lg:pt-12">
-          <h2 className="text-center font-heading text-[clamp(2.6rem,4.9vw,4.6rem)] leading-none font-bold tracking-[-0.035em] lg:-mx-24">Private Orientation</h2>
+          <h2 className="text-center font-heading text-[clamp(2.6rem,4.9vw,4.6rem)] leading-none font-bold tracking-[-0.035em] lg:-mx-24">Pelvic Floor Therapy and Evaluation</h2>
           <div className="relative mt-8 bg-chalk px-10 py-10 text-ink lg:[clip-path:polygon(0_0,96%_0,100%_6%,100%_100%,4%_100%,0_94%)]">
             <TallBracket className="absolute top-8 bottom-8 left-5 w-3 text-silver" />
             <TallBracket side="right" className="absolute top-8 bottom-8 right-5 w-3 text-silver" />
-            <p className="text-lg leading-snug">Pelvic-floor and incontinence concerns vary from person to person and deserve an individualized conversation.</p>
-            <p className="mt-5 text-lg leading-snug">Treatment and provider details are unavailable. This page cannot assess your individual situation.</p>
+            <p className="text-lg leading-snug">Pelvic-floor concerns and incontinence symptoms can have different causes and deserve an individualized evaluation.</p>
+            <p className="mt-5 text-lg leading-snug">A provider can discuss what an evaluation may include and whether pelvic floor therapy may be appropriate. This page is not a diagnosis or treatment plan.</p>
           </div>
           <StairSteps count={3} direction="down" barClassName="bg-royal" className="absolute top-[52%] -left-8 hidden text-[0.6rem] lg:flex" />
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm">

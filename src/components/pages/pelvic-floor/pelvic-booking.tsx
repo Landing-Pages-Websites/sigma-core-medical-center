@@ -4,9 +4,9 @@ import { ArrowRight, FileText, MessageSquare, UserRound } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const ASSURANCES = [
-  { title: "Policy status.", body: "Privacy policy details are unavailable.", icon: FileText },
-  { title: "Booking status.", body: "Online scheduling is not yet available.", icon: MessageSquare },
-  { title: "Visit details.", body: "Provider and visit information is unavailable.", icon: UserRound },
+  { title: "Evaluation scope.", body: "Questions and visit details should be confirmed with a provider.", icon: FileText },
+  { title: "Booking status.", body: "Online evaluation scheduling is not yet available.", icon: MessageSquare },
+  { title: "Visit details.", body: "Provider, visit length, and follow-up information is unavailable.", icon: UserRound },
 ] as const;
 
 export function PelvicBooking(): React.ReactElement {
@@ -14,7 +14,7 @@ export function PelvicBooking(): React.ReactElement {
     <section id="booking-cta" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[30rem] lg:grid-cols-[42fr_58fr]">
         <div className="relative z-10 min-w-0 px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
-          <h2 className="min-w-0 max-w-full font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em] whitespace-normal">Booking status</h2>
+          <h2 className="min-w-0 max-w-full font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em] whitespace-normal">Evaluation status</h2>
           <div className="mt-6 bg-[#1b2129] p-4 lg:-ml-[max(0rem,calc((100vw-90rem)/2))] lg:pl-4">
             <div className="relative bg-royal px-9 py-8 sm:px-12">
               <TallBracket className="absolute top-6 bottom-6 left-4 w-3 text-silver" />

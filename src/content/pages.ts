@@ -166,35 +166,36 @@ export const HORMONE_PAGE: ServicePageData = {
 
 export const PELVIC_PAGE: ServicePageData = {
   slug: "pelvic-floor-incontinence",
-  eyebrow: "Private care",
-  title: "Private, respectful support for pelvic-floor and incontinence concerns",
+  eyebrow: "Pelvic floor therapy and evaluation",
+  title: "Pelvic Floor Therapy and Incontinence Evaluation",
   intro:
-    "Pelvic-floor and incontinence care is a sensitive service category. We use respectful, plain language centered on comfort, confidence, and daily life.",
+    "Learn what to consider when looking for pelvic floor therapy or an incontinence evaluation. Sigma Core provides respectful, plain-language orientation without diagnosing or promising a particular outcome.",
   heroImage: "/images/pages/pelvic-private.webp",
   heroAlt: "A mature adult enjoying a private, quiet moment outdoors",
   orientationTitle: "Private orientation",
   orientationIntro:
-    "Concerns vary from person to person and deserve an individualized conversation. We do not list diagnoses, populations, or treatment claims here.",
+    "Pelvic-floor concerns and incontinence symptoms can have different causes and deserve an individualized evaluation. This page provides general orientation, not a diagnosis or treatment plan.",
   orientationCards: [
-    { title: "Share what you’ve noticed", body: "Describe what you are experiencing and how it may be affecting daily life." },
-    { title: "Connect it to your life", body: "Help us understand the effect on routines, activity, sleep, travel, exercise, and confidence." },
-    { title: "Ask your questions", body: "Bring the questions you want answered so we can focus the conversation." },
-    { title: "Get a clinical perspective", body: "A clinical review helps determine the next step that may be appropriate for you." },
+    { title: "Share what you’ve noticed", body: "Describe changes such as leakage, urgency, frequency, pressure, or other concerns in your own words." },
+    { title: "Connect it to your life", body: "Explain how symptoms affect routines, activity, sleep, travel, exercise, and confidence." },
+    { title: "Ask about pelvic floor therapy", body: "Ask what an evaluation includes and whether pelvic floor therapy may be appropriate for your goals." },
+    { title: "Discuss next steps", body: "A qualified provider can review options, alternatives, and follow-up for your individual situation." },
   ],
-  decisionTitle: "Concerns and goals",
+  decisionTitle: "Questions for an evaluation",
   decisionIntro:
-    "We’ll help you identify what matters most while protecting your privacy throughout the conversation.",
+    "Use these prompts to prepare for a pelvic floor therapy or incontinence evaluation while protecting your privacy throughout the conversation.",
   decisionCards: [
-    { title: "Privacy by design", body: "General marketing forms do not collect free-text medical narratives or symptom history." },
-    { title: "No pressure", body: "This is a conversation, not a commitment." },
-    { title: "Your pace", body: "We listen first so you can move forward with clarity." },
+    { title: "Your symptoms and goals", body: "Note what you have noticed and the activities, routines, or goals you want to discuss." },
+    { title: "What an evaluation includes", body: "Ask how your history, symptoms, and goals will inform the evaluation and next-step discussion." },
+    { title: "Options and alternatives", body: "Ask whether pelvic floor therapy may be appropriate, what alternatives exist, and what follow-up involves." },
   ],
   expectTitle: "What to expect",
   expectBody:
-    "We respect your privacy and your time. An appropriate provider will explain evaluation, visit length, options, and process only after approval.",
+    "We respect your privacy and your time. An appropriate provider can explain what an incontinence evaluation may include, whether pelvic floor therapy may be appropriate, and what other options or follow-up may be considered. Visit details are not yet confirmed.",
   faqs: [
-    { question: "Is my conversation private?", answer: "Yes. Privacy is a priority, and health information is kept confidential and protected." },
-    { question: "How do I book?", answer: "Request a conversation through the secure Book page." },
+    { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate." },
+    { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation." },
+    { question: "How do I book an evaluation?", answer: "Check the Book page for current scheduling status. Online scheduling is not yet available." },
     { question: "Where is the clinic?", answer: "Sigma Core is based in the Richmond, Virginia area." },
     { question: "Why do individual questions require a provider?", answer: "Questions about your situation, options, and what may be appropriate need a provider’s professional assessment." },
   ],
@@ -208,7 +209,7 @@ export const PELVIC_PAGE: ServicePageData = {
     rightBody: "This site offers general information only. It is not medical advice or a substitute for a personalized conversation.",
   },
   orientationImages: ["/images/shared/reception-1.webp", "/images/shared/reception-2.webp"],
-  decisionCtaLabel: "Ready to start the conversation?",
+  decisionCtaLabel: "Ready to prepare for an evaluation?",
 };
 
 export const REGENERATIVE_PAGE: ServicePageData = {
