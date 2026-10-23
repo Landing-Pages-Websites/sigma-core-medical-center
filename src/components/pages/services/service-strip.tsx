@@ -6,6 +6,7 @@ const STRIP_SERVICES = [
   { title: "Hormone Optimization", href: "/services/hormone-optimization" },
   { title: "Pelvic Floor & Incontinence Care", href: "/services/pelvic-floor-incontinence" },
   { title: "Regenerative Medicine", href: "/services/regenerative-medicine" },
+  { title: "Class IV Laser Therapy", href: "/services/pain-relief/class-4-laser-therapy" },
 ] as const;
 
 export function ServiceStrip(): React.ReactElement {

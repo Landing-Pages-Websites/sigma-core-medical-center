@@ -12,6 +12,7 @@ import {
   HeartPulse,
   Menu,
   Sparkles,
+  Sun,
   X,
 } from "lucide-react";
 
@@ -21,6 +22,7 @@ const SERVICE_LINKS = [
   { label: "Hormone Optimization", href: "/services/hormone-optimization", body: "A conversation about function, energy, and recovery.", icon: Activity },
   { label: "Pelvic Floor & Incontinence", href: "/services/pelvic-floor-incontinence", body: "Private, respectful care centered on daily life.", icon: HeartPulse },
   { label: "Regenerative Medicine", href: "/services/regenerative-medicine", body: "Responsible category-level decision support.", icon: Sparkles },
+  { label: "Class IV Laser Therapy", href: "/services/pain-relief/class-4-laser-therapy", body: "A clinician-guided conversation about light-based care.", icon: Sun },
 ] as const;
 
 const PRIMARY_LINKS = [

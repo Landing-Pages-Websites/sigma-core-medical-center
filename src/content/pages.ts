@@ -82,18 +82,18 @@ export type ServicePageData = {
 export const NEUROPATHY_PAGE: ServicePageData = {
   slug: "neuropathy",
   eyebrow: "Neuropathy care",
-  title: "Explore a thoughtful next step for neuropathy",
+  title: "A clearer next step when neuropathy is limiting your day",
   intro:
-    "Explore neuropathy treatment with clear information about symptoms, evaluation, and questions to bring to a consultation. Care is individualized and outcomes vary.",
+    "We focus on movement, daily function, independence, and quality of life—so you can get back to what matters. Care is personalized and outcomes vary.",
   heroImage: "/images/pages/neuropathy-woodland-walk-v2.webp",
   heroAlt: "An older adult walking away along a quiet tree-lined path",
   orientationTitle: "Visitor orientation",
   orientationIntro:
-    "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general information about neuropathy treatment conversations, not a diagnosis or guaranteed protocol.",
+    "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general orientation, not diagnosis or a protocol.",
   orientationCards: [
     {
       title: "Clear information",
-      body: "A plain-language overview of common symptoms, evaluation questions, and treatment conversations.",
+      body: "A plain-language overview of common symptoms, questions, and care pathways.",
     },
     {
       title: "Personal conversation",
@@ -101,28 +101,26 @@ export const NEUROPATHY_PAGE: ServicePageData = {
     },
     {
       title: "Informed next step",
-      body: "Understand what to ask about evaluation, options, risks, and follow-up.",
+      body: "Understand what to ask, what may require evaluation, and what comes next.",
     },
   ],
   decisionTitle: "Goals and decision factors",
   decisionIntro:
-    "Every person’s priorities are different. Use these themes to prepare for a neuropathy treatment consultation.",
+    "Every person’s priorities are different. Use these themes to prepare the questions that matter most to you.",
   decisionCards: [
     { title: "Movement and daily function", body: "Discuss the activities, balance, comfort, and participation you want to protect." },
     { title: "Independence and quality of life", body: "Share how your concerns affect routines, confidence, sleep, and daily life." },
-    { title: "Questions for a treatment conversation", body: "Ask about evaluation, possible options, alternatives, costs, and expected follow-up." },
+    { title: "Questions for a personalized conversation", body: "Ask about evaluation, options, alternatives, costs, and expected follow-up." },
   ],
   expectTitle: "What to expect",
   expectBody:
-    "A neuropathy treatment consultation starts with your symptoms, health history, goals, and questions. A qualified clinician can discuss whether an evaluation or care option may be appropriate and what follow-up could involve.",
+    "Booking occurs through Sigma Core’s secure scheduling experience. The care conversation is personalized and begins with your goals and questions.",
   faqs: [
-    { question: "What is this site for?", answer: "This site provides clear, general information about neuropathy treatment conversations and our approach to nerve health and human performance." },
-    { question: "What treatments are available for neuropathy?", answer: "Treatment depends on symptoms, likely causes, health history, and goals. A qualified clinician can discuss whether a treatment or supportive approach may be appropriate, along with potential benefits, risks, alternatives, and follow-up. No single approach is right for everyone." },
+    { question: "What is this site for?", answer: "This site provides clear, general information about our approach to nerve health and human performance." },
     { question: "Do you diagnose neuropathy online?", answer: "No. The website does not diagnose conditions. Individual guidance requires an appropriate clinical evaluation." },
-    { question: "How do I prepare for a neuropathy treatment consultation?", answer: "Bring questions about your symptoms, daily function, goals, current care, and what you want to understand about evaluation or next steps." },
-    { question: "How do I book an appointment?", answer: "Use the Book page to review the current consultation and scheduling status." },
+    { question: "How do I book an appointment?", answer: "Use the Book page to continue to the secure scheduling experience." },
     { question: "Where is your clinic located?", answer: "Sigma Core serves the Richmond, Virginia area. Final public address details require reconfirmation before launch." },
-    { question: "Why isn’t one treatment presented as right for everyone?", answer: "Neuropathy symptoms and contributing factors can differ. A consultation is the appropriate place to discuss what may be suitable for your situation rather than promise a universal result." },
+    { question: "Why aren’t treatment details listed?", answer: "We keep treatment details off this page to protect clarity, safety, and individualization. Your experience is designed after we learn what is most appropriate for you." },
   ],
   sources: ["National Institute of Neurological Disorders and Stroke", "Centers for Disease Control and Prevention", "North American Spine Society"],
 };
@@ -166,36 +164,35 @@ export const HORMONE_PAGE: ServicePageData = {
 
 export const PELVIC_PAGE: ServicePageData = {
   slug: "pelvic-floor-incontinence",
-  eyebrow: "Pelvic floor therapy and evaluation",
-  title: "Pelvic Floor Therapy and Incontinence Evaluation",
+  eyebrow: "Private care",
+  title: "Private, respectful support for pelvic-floor and incontinence concerns",
   intro:
-    "Learn what to consider when looking for pelvic floor therapy or an incontinence evaluation. Sigma Core provides respectful, plain-language orientation without diagnosing or promising a particular outcome.",
+    "Pelvic-floor and incontinence care is a sensitive service category. We use respectful, plain language centered on comfort, confidence, and daily life.",
   heroImage: "/images/pages/pelvic-private.webp",
   heroAlt: "A mature adult enjoying a private, quiet moment outdoors",
   orientationTitle: "Private orientation",
   orientationIntro:
-    "Pelvic-floor concerns and incontinence symptoms can have different causes and deserve an individualized evaluation. This page provides general orientation, not a diagnosis or treatment plan.",
+    "Concerns vary from person to person and deserve an individualized conversation. We do not list diagnoses, populations, or treatment claims here.",
   orientationCards: [
-    { title: "Share what you’ve noticed", body: "Describe changes such as leakage, urgency, frequency, pressure, or other concerns in your own words." },
-    { title: "Connect it to your life", body: "Explain how symptoms affect routines, activity, sleep, travel, exercise, and confidence." },
-    { title: "Ask about pelvic floor therapy", body: "Ask what an evaluation includes and whether pelvic floor therapy may be appropriate for your goals." },
-    { title: "Discuss next steps", body: "A qualified provider can review options, alternatives, and follow-up for your individual situation." },
+    { title: "Share what you’ve noticed", body: "Describe what you are experiencing and how it may be affecting daily life." },
+    { title: "Connect it to your life", body: "Help us understand the effect on routines, activity, sleep, travel, exercise, and confidence." },
+    { title: "Ask your questions", body: "Bring the questions you want answered so we can focus the conversation." },
+    { title: "Get a clinical perspective", body: "A clinical review helps determine the next step that may be appropriate for you." },
   ],
-  decisionTitle: "Questions for an evaluation",
+  decisionTitle: "Concerns and goals",
   decisionIntro:
-    "Use these prompts to prepare for a pelvic floor therapy or incontinence evaluation while protecting your privacy throughout the conversation.",
+    "We’ll help you identify what matters most while protecting your privacy throughout the conversation.",
   decisionCards: [
-    { title: "Your symptoms and goals", body: "Note what you have noticed and the activities, routines, or goals you want to discuss." },
-    { title: "What an evaluation includes", body: "Ask how your history, symptoms, and goals will inform the evaluation and next-step discussion." },
-    { title: "Options and alternatives", body: "Ask whether pelvic floor therapy may be appropriate, what alternatives exist, and what follow-up involves." },
+    { title: "Privacy by design", body: "General marketing forms do not collect free-text medical narratives or symptom history." },
+    { title: "No pressure", body: "This is a conversation, not a commitment." },
+    { title: "Your pace", body: "We listen first so you can move forward with clarity." },
   ],
   expectTitle: "What to expect",
   expectBody:
-    "We respect your privacy and your time. An appropriate provider can explain what an incontinence evaluation may include, whether pelvic floor therapy may be appropriate, and what other options or follow-up may be considered. Visit details are not yet confirmed.",
+    "We respect your privacy and your time. An appropriate provider will explain evaluation, visit length, options, and process only after approval.",
   faqs: [
-    { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate." },
-    { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation." },
-    { question: "How do I book an evaluation?", answer: "Check the Book page for current scheduling status. Online scheduling is not yet available." },
+    { question: "Is my conversation private?", answer: "Yes. Privacy is a priority, and health information is kept confidential and protected." },
+    { question: "How do I book?", answer: "Request a conversation through the secure Book page." },
     { question: "Where is the clinic?", answer: "Sigma Core is based in the Richmond, Virginia area." },
     { question: "Why do individual questions require a provider?", answer: "Questions about your situation, options, and what may be appropriate need a provider’s professional assessment." },
   ],
@@ -209,7 +206,7 @@ export const PELVIC_PAGE: ServicePageData = {
     rightBody: "This site offers general information only. It is not medical advice or a substitute for a personalized conversation.",
   },
   orientationImages: ["/images/shared/reception-1.webp", "/images/shared/reception-2.webp"],
-  decisionCtaLabel: "Ready to prepare for an evaluation?",
+  decisionCtaLabel: "Ready to start the conversation?",
 };
 
 export const REGENERATIVE_PAGE: ServicePageData = {
@@ -302,53 +299,70 @@ export const REGENERATIVE_PAGE: ServicePageData = {
   ],
 };
 
-export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
-  slug: "spinal-decompression",
-  eyebrow: "Spinal decompression therapy",
-  title: "A thoughtful next step for back and neck concerns",
+export const CLASS_IV_LASER_PAGE: ServicePageData = {
+  slug: "class-4-laser-therapy",
+  eyebrow: "Class IV laser therapy",
+  title: "Support a more comfortable path back to movement",
   intro:
-    "Spinal decompression therapy is a non-surgical care approach that may be considered for some back or neck concerns. A personalized evaluation can help clarify whether it fits your goals, history, and daily function.",
-  heroImage: "/images/pages/pain-low-back-v3.webp",
-  heroAlt: "Adult walking outdoors on a tree-lined path",
-  orientationTitle: "Start with the right conversation",
+    "Class IV laser therapy is a noninvasive service that uses therapeutic light as part of a broader conversation about comfort, recovery, and function. Learn what to ask and whether it may fit your goals.",
+  heroImage: "/images/pages/pain-knee-walk-v3.webp",
+  heroAlt: "An adult walking confidently outdoors",
+  orientationTitle: "Understand Class IV laser therapy",
   orientationIntro:
-    "Spinal decompression is not a one-size-fits-all treatment and this page cannot determine its suitability. The purpose of a consultation is to understand your concerns, review relevant history, and discuss reasonable next steps.",
+    "Class IV laser therapy delivers therapeutic light to a treatment area through a clinician-guided session. Appropriateness depends on your health history, goals, and evaluation.",
   orientationCards: [
-    { title: "What this page covers", body: "General orientation to spinal decompression therapy and the questions that may matter before an evaluation." },
-    { title: "What an evaluation adds", body: "A clinician can consider your symptoms, medical history, goals, and whether further assessment is needed." },
-    { title: "What this page does not do", body: "It does not diagnose a condition, promise an outcome, or replace an individualized clinical conversation." },
+    { title: "What it is", body: "A clinician-guided, noninvasive service using Class IV therapeutic laser light. Ask how it may fit your plan." },
+    { title: "What it may support", body: "Some people explore Class IV laser therapy as part of a plan for comfort, mobility, or recovery. Individual responses vary." },
+    { title: "What to clarify", body: "Ask about the area being addressed, alternatives, risks, and how progress will be assessed." },
   ],
-  decisionTitle: "Questions that shape the next step",
+  decisionTitle: "Questions before you choose",
   decisionIntro:
-    "Bring the details that help a clinician understand what you want to keep doing and what has changed. The right approach depends on the person, not just the location of discomfort.",
+    "A clear conversation can help you connect Class IV laser therapy with the activities and outcomes that matter to you.",
   decisionCards: [
-    { title: "Your symptoms and patterns", body: "Note where concerns occur, when they began, what changes them, and whether they affect movement, sleep, or routine." },
-    { title: "Your goals for movement", body: "Describe the activities, work, exercise, travel, or daily tasks you want to protect or return to." },
-    { title: "Your health context", body: "Share relevant history, prior care, medications, injuries, procedures, and any changes that concern you." },
-    { title: "Your options and questions", body: "Ask about whether this approach may be appropriate, alternatives, risks, expected follow-up, and what happens next." },
+    { title: "Your functional goal", body: "What do you want to do with greater comfort or confidence?" },
+    { title: "Appropriateness", body: "What does the evaluation show, and is Class IV laser therapy suitable for your situation?" },
+    { title: "Care context", body: "Could Class IV laser therapy complement movement-based rehabilitation or another plan?" },
+    { title: "Follow-up", body: "How will you and the provider review response, next steps, and alternatives?" },
   ],
-  expectTitle: "What to expect from a consultation",
+  expectTitle: "A conversation, not a promise",
   expectBody:
-    "A consultation is a conversation about your goals and health context, not a commitment to treatment. If spinal decompression is not appropriate, the clinician can discuss other reasonable next steps or whether additional evaluation is needed.",
+    "A consultation can clarify what Class IV laser therapy involves, what you may feel during a session, and which precautions or alternatives matter. No outcome is guaranteed, and individual responses vary.",
   faqs: [
-    { question: "Is spinal decompression the same as back exercises?", answer: "No. This service page concerns a supervised therapy conversation. It is distinct from educational articles about home exercises, and online content cannot tell you which exercises or treatment approach is appropriate for you." },
-    { question: "Can spinal decompression help my back or neck concern?", answer: "It may be considered for some people, but suitability and outcomes vary. A clinician needs to review your individual history and concerns before discussing whether it may fit." },
-    { question: "Does this page diagnose a disc problem?", answer: "No. This page provides general information only. Diagnosis and decisions about evaluation or care require an appropriate clinical assessment." },
-    { question: "Should I start exercises from an article before an evaluation?", answer: "Do not use general educational content as a personalized treatment plan. Bring questions about activity or exercise to a qualified healthcare professional, particularly if symptoms are new, worsening, or accompanied by weakness or other concerning changes." },
-    { question: "How do I learn whether this may be appropriate for me?", answer: "Schedule a consultation to discuss your goals, health history, and questions. The conversation can help clarify whether further evaluation or another next step is appropriate." },
+    { question: "What is Class IV laser therapy?", answer: "Class IV laser therapy uses a higher-powered therapeutic laser to deliver light to a selected treatment area. A trained professional determines whether it is appropriate and how it fits the broader care conversation." },
+    { question: "Is Class IV laser therapy the same as a consumer red-light device?", answer: "No. Class IV laser therapy uses a professional therapeutic laser and should be delivered with appropriate training and eye-safety precautions. It is different from consumer light devices." },
+    { question: "What does Class IV laser therapy treat?", answer: "This page does not promise treatment of a specific condition. Whether Class IV laser therapy may be appropriate depends on an individualized evaluation, your goals, and the available alternatives." },
+    { question: "Is Class IV laser therapy right for everyone?", answer: "No single modality is appropriate for everyone. Ask about your health history, precautions, alternatives, and how the provider would monitor your response." },
+    { question: "How do I start a conversation?", answer: "Use the Book page to request an appointment and bring your questions about Class IV laser therapy, goals, alternatives, and next steps." },
   ],
-  sources: ["American Academy of Orthopaedic Surgeons", "Peer-reviewed literature", "Professional clinical guidance"],
+  sources: ["U.S. Food and Drug Administration", "National Center for Complementary and Integrative Health", "Peer-reviewed photobiomodulation literature"],
+  enhancedLayout: true,
   heroBullets: [
-    "A service overview, not a diagnosis or home exercise plan.",
-    "Suitability depends on your history, goals, and clinical evaluation.",
-    "Discuss alternatives, risks, and expected follow-up before deciding.",
+    "A clinician-guided service for comfort, movement, and recovery conversations.",
+    "A consultation helps clarify fit, alternatives, precautions, and next steps.",
+    "Individual responses vary, and no outcome is guaranteed.",
   ],
-  faqQuote: "Individual results vary. General website information is not medical advice and does not replace an evaluation.",
+  orientationCallouts: {
+    leftTitle: "Noninvasive by design.",
+    leftBody: "Class IV laser therapy is delivered over the skin rather than through an injection or incision.",
+    rightTitle: "Individualized context.",
+    rightBody: "The treatment area, settings, precautions, and role in your plan depend on a professional evaluation.",
+  },
+  orientationImages: ["/images/pages/pain-decision-interior-v4.webp", "/images/shared/waiting-room.webp"],
+  decisionCtaLabel: "Ready to discuss your goals?",
+  categoryBoundaryTitle: "Keep the decision clear",
+  categoryBoundaryItems: [
+    "Class IV laser therapy is not a guarantee of pain relief or recovery.",
+    "Treatment decisions depend on your goals, health history, and evaluation.",
+    "Ask about risks, alternatives, and follow-up before choosing a plan.",
+  ],
+  categoryBoundaryLinkLabel: "Learn about our approach",
+  categoryBoundaryLinkHref: "/about",
+  faqQuote: "A clear plan starts with understanding what Class IV laser therapy can and cannot do.",
   faqButtons: [
     { label: "Book a Consultation", href: "/book" },
     { label: "Contact the Clinic", href: "/contact" },
   ],
-  bookingCtaPoints: ["Discuss your goals", "Review appropriate next steps", "Make an informed decision"],
+  bookingCtaPoints: ["Talk through your goals", "Review appropriate options", "Plan informed next steps"],
 };
 
 export const SERVICE_PAGES = [
@@ -356,5 +370,5 @@ export const SERVICE_PAGES = [
   HORMONE_PAGE,
   PELVIC_PAGE,
   REGENERATIVE_PAGE,
-  SPINAL_DECOMPRESSION_PAGE,
+  CLASS_IV_LASER_PAGE,
 ] as const;
