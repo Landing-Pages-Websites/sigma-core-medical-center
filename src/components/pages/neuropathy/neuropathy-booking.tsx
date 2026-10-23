@@ -15,10 +15,10 @@ export function NeuropathyBooking(): React.ReactElement {
       <div aria-hidden className="h-6 bg-[#0b2342]" />
       <div className="grid lg:min-h-[32rem] lg:grid-cols-[45fr_55fr]">
         <div className="relative z-10 px-6 pt-12 pb-10 sm:px-10 lg:pt-14 lg:pb-0 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
-          <h2 className="font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em]">Booking status</h2>
+          <h2 className="font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em]">Consultation</h2>
           <div className="relative mt-5 max-w-[23rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-royal" />
-            <p className="text-xl leading-snug text-white/92">Online scheduling is not yet available. Provider and appointment details remain unavailable.</p>
+            <p className="text-xl leading-snug text-white/92">Online scheduling is not yet available. A consultation can connect your symptoms, goals, and questions to an individualized discussion when scheduling is confirmed.</p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-royal" />
           </div>
           <p className="mt-8 text-xs font-semibold tracking-[0.18em] uppercase">Explore your route</p>
@@ -43,7 +43,7 @@ export function NeuropathyBooking(): React.ReactElement {
           <div className="absolute inset-x-0 bottom-0 flex h-[46%] flex-col items-center justify-center bg-royal px-6 lg:left-[2%] lg:[clip-path:polygon(9%_0,100%_0,100%_100%,0_100%)]">
             <Link href="/book" className="group flex items-center gap-5 border-2 border-white px-7 py-4 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="shrink-0" />
-              <span className="font-heading text-2xl font-bold sm:text-3xl">Check booking status</span>
+              <span className="font-heading text-2xl font-bold sm:text-3xl">Explore a consultation</span>
               <ChevronRight size={28} aria-hidden className="shrink-0" />
             </Link>
             <p className="mt-4 text-xs text-white/75">Outcomes vary. We do not guarantee any results.</p>

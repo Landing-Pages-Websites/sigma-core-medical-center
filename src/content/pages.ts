@@ -82,18 +82,18 @@ export type ServicePageData = {
 export const NEUROPATHY_PAGE: ServicePageData = {
   slug: "neuropathy",
   eyebrow: "Neuropathy care",
-  title: "A clearer next step when neuropathy is limiting your day",
+  title: "Explore a thoughtful next step for neuropathy",
   intro:
-    "We focus on movement, daily function, independence, and quality of life—so you can get back to what matters. Care is personalized and outcomes vary.",
+    "Explore neuropathy treatment with clear information about symptoms, evaluation, and questions to bring to a consultation. Care is individualized and outcomes vary.",
   heroImage: "/images/pages/neuropathy-woodland-walk-v2.webp",
   heroAlt: "An older adult walking away along a quiet tree-lined path",
   orientationTitle: "Visitor orientation",
   orientationIntro:
-    "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general orientation, not diagnosis or a protocol.",
+    "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general information about neuropathy treatment conversations, not a diagnosis or guaranteed protocol.",
   orientationCards: [
     {
       title: "Clear information",
-      body: "A plain-language overview of common symptoms, questions, and care pathways.",
+      body: "A plain-language overview of common symptoms, evaluation questions, and treatment conversations.",
     },
     {
       title: "Personal conversation",
@@ -101,26 +101,28 @@ export const NEUROPATHY_PAGE: ServicePageData = {
     },
     {
       title: "Informed next step",
-      body: "Understand what to ask, what may require evaluation, and what comes next.",
+      body: "Understand what to ask about evaluation, options, risks, and follow-up.",
     },
   ],
   decisionTitle: "Goals and decision factors",
   decisionIntro:
-    "Every person’s priorities are different. Use these themes to prepare the questions that matter most to you.",
+    "Every person’s priorities are different. Use these themes to prepare for a neuropathy treatment consultation.",
   decisionCards: [
     { title: "Movement and daily function", body: "Discuss the activities, balance, comfort, and participation you want to protect." },
     { title: "Independence and quality of life", body: "Share how your concerns affect routines, confidence, sleep, and daily life." },
-    { title: "Questions for a personalized conversation", body: "Ask about evaluation, options, alternatives, costs, and expected follow-up." },
+    { title: "Questions for a treatment conversation", body: "Ask about evaluation, possible options, alternatives, costs, and expected follow-up." },
   ],
   expectTitle: "What to expect",
   expectBody:
-    "Booking occurs through Sigma Core’s secure scheduling experience. The care conversation is personalized and begins with your goals and questions.",
+    "A neuropathy treatment consultation starts with your symptoms, health history, goals, and questions. A qualified clinician can discuss whether an evaluation or care option may be appropriate and what follow-up could involve.",
   faqs: [
-    { question: "What is this site for?", answer: "This site provides clear, general information about our approach to nerve health and human performance." },
+    { question: "What is this site for?", answer: "This site provides clear, general information about neuropathy treatment conversations and our approach to nerve health and human performance." },
+    { question: "What treatments are available for neuropathy?", answer: "Treatment depends on symptoms, likely causes, health history, and goals. A qualified clinician can discuss whether a treatment or supportive approach may be appropriate, along with potential benefits, risks, alternatives, and follow-up. No single approach is right for everyone." },
     { question: "Do you diagnose neuropathy online?", answer: "No. The website does not diagnose conditions. Individual guidance requires an appropriate clinical evaluation." },
-    { question: "How do I book an appointment?", answer: "Use the Book page to continue to the secure scheduling experience." },
+    { question: "How do I prepare for a neuropathy treatment consultation?", answer: "Bring questions about your symptoms, daily function, goals, current care, and what you want to understand about evaluation or next steps." },
+    { question: "How do I book an appointment?", answer: "Use the Book page to review the current consultation and scheduling status." },
     { question: "Where is your clinic located?", answer: "Sigma Core serves the Richmond, Virginia area. Final public address details require reconfirmation before launch." },
-    { question: "Why aren’t treatment details listed?", answer: "We keep treatment details off this page to protect clarity, safety, and individualization. Your experience is designed after we learn what is most appropriate for you." },
+    { question: "Why isn’t one treatment presented as right for everyone?", answer: "Neuropathy symptoms and contributing factors can differ. A consultation is the appropriate place to discuss what may be suitable for your situation rather than promise a universal result." },
   ],
   sources: ["National Institute of Neurological Disorders and Stroke", "Centers for Disease Control and Prevention", "North American Spine Society"],
 };

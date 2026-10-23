@@ -9,18 +9,18 @@ type FaqRow = { question: string; answer: string; action: { label: string; href?
 const FAQ_ROWS: readonly FaqRow[] = [
   {
     question: "Who is this site for?",
-    answer: "This site is for individuals seeking clear, trustworthy information about our approach to nerve health and human performance in the Richmond, Virginia area.",
-    action: { label: "Check booking status", href: "/book" },
+    answer: "This site is for individuals seeking clear, trustworthy information about neuropathy treatment conversations and our approach to nerve health and human performance in the Richmond, Virginia area.",
+    action: { label: "Explore a consultation", href: "/book" },
   },
   {
     question: "Do you diagnose neuropathy?",
-    answer: "This website does not diagnose conditions. It offers general information only. Provider and evaluation details are unavailable.",
+    answer: "This website does not diagnose conditions. It offers general information only. Individual guidance requires an appropriate clinical evaluation.",
     action: { label: "Contact status", href: "/contact" },
   },
   {
-    question: "Is online booking available?",
-    answer: "Online scheduling is not yet available. Appointment and follow-up details have not been confirmed.",
-    action: { label: "Check booking status", href: "/book" },
+    question: "What treatments are available for neuropathy?",
+    answer: "Treatment depends on symptoms, likely causes, health history, and goals. A qualified clinician can discuss whether a treatment or supportive approach may be appropriate, along with potential benefits, risks, alternatives, and follow-up. No single approach is right for everyone.",
+    action: { label: "Explore a consultation", href: "/book" },
   },
   {
     question: "Where is your clinic located?",
@@ -28,9 +28,9 @@ const FAQ_ROWS: readonly FaqRow[] = [
     action: { label: "Contact status", href: "/contact" },
   },
   {
-    question: "Why aren’t treatment details listed?",
-    answer: "Treatment and provider details are not yet available. This page does not establish eligibility for care.",
-    action: { label: "Terms status" },
+    question: "How do I prepare for a neuropathy treatment consultation?",
+    answer: "Bring questions about your symptoms, daily function, goals, current care, and what you want to understand about evaluation or next steps.",
+    action: { label: "Explore a consultation", href: "/book" },
   },
 ];
 

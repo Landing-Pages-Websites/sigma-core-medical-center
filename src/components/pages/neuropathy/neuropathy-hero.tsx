@@ -15,9 +15,7 @@ export function NeuropathyHero({ data }: NeuropathyHeroProps): React.ReactElemen
           <div className={styles.intro}>
             <p className="text-base font-semibold text-[#2f7fe0]">{data.eyebrow}</p>
             <h1 className="mt-3 max-w-[38rem] font-heading text-[clamp(2.6rem,4.6vw,4.4rem)] leading-[1] font-bold tracking-[-0.03em]">{data.title}</h1>
-            <p className="mt-4 max-w-[30rem] text-lg leading-snug text-white/90">
-              Explore movement, daily function, and independence. Provider details and online scheduling are unavailable.
-            </p>
+            <p className="mt-4 max-w-[30rem] text-lg leading-snug text-white/90">{data.intro}</p>
           </div>
           <NeuropathyHeroNotes />
         </div>

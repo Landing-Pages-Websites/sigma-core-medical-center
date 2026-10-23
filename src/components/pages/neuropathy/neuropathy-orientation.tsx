@@ -6,7 +6,7 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 const PAGE_PROVIDES = [
   "General orientation to peripheral neuropathy.",
   "An overview of common symptoms and general causes.",
-  "Status of unavailable provider and evaluation details.",
+  "How a consultation can clarify symptoms, goals, and possible next steps.",
   "Pathways to related resources and educational content.",
 ] as const;
 
@@ -29,7 +29,7 @@ export function NeuropathyOrientation(): React.ReactElement {
             <p>
               <strong className="font-semibold text-white">Peripheral neuropathy</strong> describes a broad set of conditions that affect the peripheral nerves—often in the hands and feet. Symptoms can include changes in sensation, pain, weakness, or balance.
             </p>
-            <p>These symptoms can have different causes and different impacts for each person. This page provides general information and orientation to our approach.</p>
+            <p>These symptoms can have different causes and different impacts for each person. This page provides general information to help you prepare for a neuropathy treatment conversation.</p>
             <p className="font-semibold text-white">Individualized questions belong in a clinical appointment with a qualified healthcare professional.</p>
           </div>
         </div>

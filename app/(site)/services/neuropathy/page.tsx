@@ -3,7 +3,7 @@ import { NeuropathyPage as NeuropathyPageView } from "@/components/pages/neuropa
 import { NEUROPATHY_PAGE } from "@/content/pages";
 
 export const metadata: Metadata = {
-  title: "Neuropathy Care",
+  title: "Neuropathy Treatment & Care",
   description: NEUROPATHY_PAGE.intro,
 };
 

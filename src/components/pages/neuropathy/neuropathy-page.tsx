@@ -13,7 +13,7 @@ export function NeuropathyPage(): React.ReactElement {
       <NeuropathyHero data={NEUROPATHY_PAGE} />
       <NeuropathyOrientation />
       <NeuropathyDecisions />
-      <NeuropathyExpectation />
+      <NeuropathyExpectation data={NEUROPATHY_PAGE} />
       <NeuropathyFaq />
       <NeuropathyBooking />
       <NeuropathySources />
