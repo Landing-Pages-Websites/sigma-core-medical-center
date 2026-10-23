@@ -21,3 +21,24 @@ export function siteJsonLd(): Record<string, unknown> {
     url: SITE_URL,
   };
 }
+
+type ServiceJsonLdInput = {
+  slug: string;
+  name: string;
+  serviceType: string;
+  description: string;
+};
+
+export function serviceJsonLd({ slug, name, serviceType, description }: ServiceJsonLdInput): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${SITE_URL}/services/${slug}#service`,
+    name,
+    serviceType,
+    description,
+    url: `${SITE_URL}/services/${slug}`,
+    provider: { "@id": `${SITE_URL}/#organization` },
+    areaServed: { "@type": "AdministrativeArea", name: BRAND.location },
+  };
+}
