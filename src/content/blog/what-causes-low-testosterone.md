@@ -132,7 +132,7 @@ Treatment depends on the cause, the person’s symptoms and goals, health risks,
 
 Testosterone therapy is not appropriate for everyone, and it should not be started based on symptoms or one lab result alone. It can affect sperm production and may require attention to blood counts, prostate-related considerations, sleep apnea, cardiovascular health, and other individual factors. A qualified clinician can explain what is relevant for a particular patient.
 
-Learn more about an evaluation-led approach to [hormone optimization at Sigma Core Medical Center](/services/hormone-optimization). The goal of a consultation is to understand the full picture and discuss whether further evaluation or care may be appropriate, not to promise a specific treatment or outcome.
+Learn more about an evaluation-led approach to [hormone optimization at Sigma Core Medical Center](/services/hormone-optimization/bioidentical-hrt). The goal of a consultation is to understand the full picture and discuss whether further evaluation or care may be appropriate, not to promise a specific treatment or outcome.
 
 ## When Should You Seek Medical Evaluation?
 
