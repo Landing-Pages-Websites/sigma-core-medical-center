@@ -3,7 +3,7 @@ import { AboutPage } from "@/components/pages/about-page";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Sigma Core Medical Center, its Richmond-area clinic, mission, facility, and grounded care principles.",
+  description: "Learn about Sigma Core Medical Center, its Richmond-area clinic, mission, facility, and principles for personalized health and performance support.",
 };
 
 export default function AboutRoute(): React.ReactElement {
