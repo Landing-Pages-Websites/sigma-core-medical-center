@@ -7,7 +7,7 @@
   "posts_found": 46,
   "posts_migrated": 0,
   "posts_with_item_id": 46,
-  "generated_at": "2026-10-22T16:52:01.660Z",
+  "generated_at": "2026-10-23T18:12:29.736Z",
   "script_version": "1.1.0",
   "image_bytes": 0,
   "notes": [
@@ -238,13 +238,13 @@
     },
     {
       "old_url": null,
-      "title": "Neuropathic Therapy: Your Guide to Nerve Pain Relief",
+      "title": "Neuropathic Therapy: A Practical Guide to Evaluation and Care",
       "new_slug": "neuropathic-therapy-guide",
       "status": "authored",
       "item_id": "item_tm616jpcx97t5b6xvvndbeg7x0",
       "target": "/blog/neuropathic-therapy-guide",
       "filename": "neuropathic-therapy-guide.md",
-      "sha256": "9a10f53a9b55f5419b69dd57d81e922acef9c291bc2bdddbf21fb4214ccd8da3"
+      "sha256": "5cc6c456fb7204fc0aade66ea2c30c2fc9082b3e5146ffda15985b64a7e3d4a1"
     },
     {
       "old_url": null,
