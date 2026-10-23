@@ -545,7 +545,7 @@ Do not assume that every new symptom is part of chronic pain. A timely review ca
 
 ## How Sigma Core Medical Center Connects Chronic Pain Care
 
-Sigma Core Medical Center in Richmond, VA, takes an integrative view of pain, movement, and function. A consultation may review your symptoms, medical history, movement goals, and previous treatment before discussing possible next steps. Depending on those findings, the care conversation may include [pain relief care](/services/pain-relief), [neuropathy care](/services/neuropathy), or [regenerative medicine](/services/regenerative-medicine). These options are not appropriate for everyone, and a consultation is needed to determine whether any service may fit your situation.
+Sigma Core Medical Center in Richmond, VA, takes an integrative view of pain, movement, and function. A consultation may review your symptoms, medical history, movement goals, and previous treatment before discussing possible next steps. Depending on those findings, the care conversation may include [pain-relief care](/services/pain-relief) or another medical approach. These options are not appropriate for everyone, and a consultation is needed to determine whether this approach may fit your situation.
 
 Physical therapy principles such as gradual loading, movement practice, and self-management may be discussed as part of a broader plan. They do not replace diagnosis, medication guidance from the prescribing clinician, or prompt evaluation of new or severe symptoms. If persistent pain is limiting your daily activities, [book an appointment](/book) to discuss a thoughtful next step.
 
