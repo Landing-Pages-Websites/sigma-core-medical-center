@@ -1,4 +1,5 @@
 import { PelvicBooking } from "@/components/pages/pelvic-floor/pelvic-booking";
+import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { PelvicDecisionFactors } from "@/components/pages/pelvic-floor/pelvic-decision-factors";
 import { PelvicExpect } from "@/components/pages/pelvic-floor/pelvic-expect";
 import { PelvicFaq } from "@/components/pages/pelvic-floor/pelvic-faq";
@@ -10,6 +11,7 @@ export function PelvicFloorPage(): React.ReactElement {
   return (
     <main className="overflow-hidden bg-navy">
       <PelvicHero />
+      <DoctorTrustModule compact />
       <PelvicOrientation />
       <PelvicDecisionFactors />
       <PelvicExpect />
