@@ -8,13 +8,22 @@ import { ProofClaimRefusedError, forwardLeadToKeystone } from "@/lib/forwardLead
 import { buildProofClaim } from "@/lib/captcha/proofClaim";
 import { SPAM_CHECK_FALLBACK, verifyLeadSubmission } from "@/lib/captcha/leadVerification";
 import { PREVIEW_TEST_ONLY_ERROR, previewRefusesLead } from "@/lib/captcha/previewLeadGate";
+import { SCORECARD_PURPOSE } from "@/lib/leadSubmit";
+import {
+  SCORECARD_ACCESS_COOKIE, SCORECARD_ACCESS_PATH, SCORECARD_ACCESS_TTL_SECONDS, SCORECARD_FILENAME,
+  issueScorecardAccess, readScorecardPdf, verifyScorecardAccess,
+} from "@/lib/scorecardAccess";
 
 export const runtime = "nodejs";
 const SUBMIT_ERROR = "Your inquiry could not be confirmed. Please try again.";
 const UNVERIFIED_ERROR = "We couldn't verify this submission. Please try again.";
+const SCORECARD_UNAVAILABLE_ERROR = "The scorecard is temporarily unavailable. Please try again later.";
+const SCORECARD_DENIED_ERROR = "Submit the scorecard form to download the scorecard.";
+const SCORECARD_RESOURCE = "scorecard";
+const PRIVATE_NO_STORE = "private, no-store";
 
-function jsonError(error: string, status: number): NextResponse {
-  return NextResponse.json({ ok: false, error }, { status });
+function jsonError(error: string, status: number, headers?: HeadersInit): NextResponse {
+  return NextResponse.json({ ok: false, error }, { status, headers });
 }
 
 function clientIp(request: NextRequest): string | null {
@@ -22,17 +31,52 @@ function clientIp(request: NextRequest): string | null {
     || request.headers.get("cf-connecting-ip") || request.headers.get("x-real-ip");
 }
 
-/** Fresh timestamp for the donor's lead-pow-v1 fallback. */
-export function GET(): NextResponse {
+async function scorecardDownload(request: NextRequest): Promise<NextResponse> {
+  const headers = { "Cache-Control": PRIVATE_NO_STORE, "X-Content-Type-Options": "nosniff" };
+  if (!verifyScorecardAccess(request.cookies.get(SCORECARD_ACCESS_COOKIE)?.value)) {
+    return jsonError(SCORECARD_DENIED_ERROR, 403, headers);
+  }
+  try {
+    const pdf = await readScorecardPdf();
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        ...headers, "Content-Type": "application/pdf", "Content-Length": String(pdf.byteLength),
+        "Content-Disposition": `attachment; filename="${SCORECARD_FILENAME}"`,
+      },
+    });
+  } catch {
+    return jsonError(SCORECARD_UNAVAILABLE_ERROR, 404, headers);
+  }
+}
+
+/**
+ * Without a query: a fresh timestamp for the donor's lead-pow-v1 fallback.
+ * `?resource=scorecard`: the PDF, only for a signed entitlement cookie.
+ */
+export function GET(): NextResponse;
+export function GET(request: NextRequest): NextResponse | Promise<NextResponse>;
+export function GET(request?: NextRequest): NextResponse | Promise<NextResponse> {
+  const resource = request?.nextUrl.searchParams.get("resource");
+  if (resource === SCORECARD_RESOURCE && request) return scorecardDownload(request);
+  if (resource != null) return jsonError("Not found.", 404);
   return NextResponse.json(
     { issuedAt: String(Date.now()) },
     { headers: { "Cache-Control": "no-store" } },
   );
 }
 
+/** Attached only to a lead Keystone confirmed; the value is signed server-side. */
+function grantScorecardAccess(response: NextResponse, access: string): NextResponse {
+  response.cookies.set(SCORECARD_ACCESS_COOKIE, access, {
+    httpOnly: true, secure: true, sameSite: "lax", path: SCORECARD_ACCESS_PATH, maxAge: SCORECARD_ACCESS_TTL_SECONDS,
+  });
+  response.headers.set("Cache-Control", PRIVATE_NO_STORE);
+  return response;
+}
+
 async function deliver(
   payload: Record<string, unknown>, fields: ValidatedLeadFields,
-  context: LeadContext, request: NextRequest,
+  context: LeadContext, request: NextRequest, scorecardAccess: string | null,
 ): Promise<NextResponse> {
   try {
     const verification = await verifyLeadSubmission(payload, clientIp(request));
@@ -42,7 +86,8 @@ async function deliver(
     const proofClaim = fallback ? buildProofClaim(payload) : undefined;
     if (fallback && !proofClaim) return jsonError(SUBMIT_ERROR, 502);
     const result = await forwardLeadToKeystone({ ...fields, extra }, context, leadConfig.formKey, proofClaim);
-    return NextResponse.json(result);
+    const response = NextResponse.json(result);
+    return result.ok === true && scorecardAccess ? grantScorecardAccess(response, scorecardAccess) : response;
   } catch (error) {
     if (error instanceof ProofClaimRefusedError) return jsonError(UNVERIFIED_ERROR, 403);
     // Do not log transport objects: these can contain contact data or credentials.
@@ -68,5 +113,9 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   // Reject malformed context before irreversible local proof consumption.
   const context = asLeadContext(payload.context);
   if (!context) return jsonError("Invalid request.", 400);
-  return deliver(payload, parsed.fields, context, request);
+  // A scorecard lead that could never receive its download is refused before delivery.
+  const scorecard = payload.purpose === SCORECARD_PURPOSE;
+  const scorecardAccess = scorecard ? issueScorecardAccess() : null;
+  if (scorecard && !scorecardAccess) return jsonError(SCORECARD_UNAVAILABLE_ERROR, 503);
+  return deliver(payload, parsed.fields, context, request, scorecardAccess);
 }

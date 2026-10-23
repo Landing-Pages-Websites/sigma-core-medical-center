@@ -9,8 +9,8 @@ const POLICY_STATUS_LINKS = [
 ] as const;
 
 const AVAILABILITY_NOTES = [
-  { title: "Educational guide", icon: Megaphone, body: "The resource is not available. No publication date is confirmed." },
-  { title: "Request form", icon: CalendarDays, body: "The request form is unavailable. Guide requests cannot be submitted here." },
+  { title: "Scorecard", icon: Megaphone, body: "A 4-page PDF with a self-assessment and 7-day tracker. It cannot diagnose neuropathy." },
+  { title: "Request form", icon: CalendarDays, body: "Asks for contact details only. The download appears after your details are accepted." },
 ] as const;
 
 export function PrivacyNote(): React.ReactElement {
@@ -22,7 +22,7 @@ export function PrivacyNote(): React.ReactElement {
           <div className="relative mt-5 max-w-[30rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
             <p className="text-base leading-snug text-white/88">
-              Approved policies and resource-delivery details are not available. The links below lead to policy-status pages.
+              The scorecard form collects contact details only: name, email and phone. Never include symptoms or medical history. The links below lead to policy-status pages.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </div>
@@ -47,9 +47,9 @@ export function PrivacyNote(): React.ReactElement {
               </ul>
             </div>
             <div className="border-white/20 sm:border-l sm:pl-6">
-              <p className="text-xs font-bold tracking-[0.08em] text-[#e08a3c] uppercase">Resource unavailable</p>
+              <p className="text-xs font-bold tracking-[0.08em] text-[#e08a3c] uppercase">Your answers stay with you</p>
               <p className="mt-2 text-sm leading-snug text-white/80">
-                This educational resource is not available. Delivery details are unavailable, and future availability is not confirmed.
+                You complete the scorecard yourself. Your answers are for you, and you choose whether to share them with Sigma Core or any healthcare professional.
               </p>
             </div>
           </div>
@@ -66,12 +66,12 @@ function AvailabilityPanel(): React.ReactElement {
       <StairSteps count={6} direction="up" className="absolute bottom-16 -left-28 z-20 hidden text-[0.7rem] lg:flex" />
       <div className="relative z-10 bg-royal px-6 py-10 sm:px-10 lg:py-10 lg:pr-6 lg:pl-[28%] lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_60%)]">
         <p className="flex items-center gap-2 text-sm text-white/85">
-          <TallBracket className="h-5 w-1.5 text-white/80" /> Guide availability
+          <TallBracket className="h-5 w-1.5 text-white/80" /> Neuropathy Clarity Scorecard
         </p>
         <h3 className="mt-2 font-heading text-3xl leading-tight font-bold">
-          Current resource
+          What you get
           <br />
-          and request status.
+          and what we ask.
         </h3>
         <TallBracket side="right" className="absolute top-12 right-4 h-20 w-2 text-white/80" />
         <div className="mt-5 grid gap-5 sm:grid-cols-2">

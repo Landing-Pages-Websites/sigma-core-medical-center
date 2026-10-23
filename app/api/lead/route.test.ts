@@ -4,6 +4,10 @@ import { NextRequest } from "next/server";
 import { GET, POST } from "./route";
 import { solveLeadProofOfWork, LEAD_POW_MAX_AGE_MS } from "@/lib/captcha/proofOfWork";
 import { SPAM_CHECK_FALLBACK } from "@/lib/captcha/leadVerification";
+import { SCORECARD_ACCESS_COOKIE, issueScorecardAccess, readScorecardPdf } from "@/lib/scorecardAccess";
+import { existsSync } from "node:fs";
+// test:lead globs lead*.test.ts only; registering here keeps the signing tests in that command.
+import "@/lib/scorecardAccess.test";
 
 const ENDPOINT = "https://analytics.gomega.ai/submission/submit";
 const CONTACT = { firstName: "Test", lastName: "Contact", email: "test@gomega.ai", phone: "(202) 555-0123", captchaToken: "staging-bypass", formKey: "contact-form", context: { url: "https://example.test/contact?utm_source=qa", session_id: "test-session", visitor_id: "test-visitor", utm_source: "qa" } };
@@ -175,4 +179,85 @@ test("Preview gate covers real keys, unconfigured provider and Turnstile test ke
     assert.equal((await post({ ...CONTACT, email: "normal@example.com" })).status, 403);
   }
   assert.equal(seen.length, 0);
+});
+
+const SCORECARD = { ...CONTACT, purpose: "scorecard" };
+const DOWNLOAD = "https://example.test/api/lead?resource=scorecard";
+
+async function download(cookie?: string): Promise<Response> {
+  const headers: HeadersInit = cookie ? { Cookie: `${SCORECARD_ACCESS_COOKIE}=${cookie}` } : {};
+  return GET(new NextRequest(DOWNLOAD, { headers }));
+}
+function accessCookie(response: Response): string | undefined {
+  return response.headers.getSetCookie().find((line) => line.startsWith(`${SCORECARD_ACCESS_COOKIE}=`));
+}
+function accessFrom(response: Response): string | undefined {
+  return accessCookie(response)?.split(";")[0].slice(SCORECARD_ACCESS_COOKIE.length + 1);
+}
+async function assertDenied(response: Response): Promise<void> {
+  assert.ok(response.status === 403 || response.status === 404);
+  assert.notEqual(response.headers.get("Content-Type"), "application/pdf");
+  assert.doesNotMatch(await response.text(), /%PDF/);
+}
+
+test("scorecard PDF is not in public/", () => {
+  assert.equal(existsSync("public/resources/sigma-core-neuropathy-clarity-scorecard.pdf"), false);
+});
+test("GET with a request and no query still issues the proof timestamp", async () => {
+  const response = await GET(new NextRequest("https://example.test/api/lead"));
+  assert.equal(response.headers.get("Cache-Control"), "no-store");
+  assert.match((await response.json()).issuedAt, /^\d{13}$/);
+  assert.equal(accessFrom(response), undefined);
+});
+test("unknown resource is 404 without PDF", async () => {
+  await assertDenied(await GET(new NextRequest("https://example.test/api/lead?resource=other")));
+});
+test("anonymous, forged and expired scorecard downloads are refused", async () => {
+  await assertDenied(await download());
+  const expired = issueScorecardAccess(process.env, Date.now() - 11 * 60 * 1000);
+  const [expiresAt, nonce] = String(issueScorecardAccess()).split(".");
+  for (const cookie of ["1", "scorecard", `${expiresAt}.${nonce}.${"A".repeat(43)}`, String(expired), String(issueScorecardAccess({ LEAD_PROOF_CLAIM_TOKEN: "c".repeat(64) }))]) {
+    await assertDenied(await download(cookie));
+  }
+});
+test("contact, honeypot, invalid, unverified and rejected scorecard POSTs set no entitlement", async () => {
+  assert.equal(accessFrom(await post(CONTACT)), undefined);
+  assert.equal(accessFrom(await post({ ...SCORECARD, company_website: "bot" })), undefined);
+  assert.equal(accessFrom(await post({ ...SCORECARD, email: "me@x" })), undefined);
+  assert.equal(accessFrom(await post({ ...SCORECARD, captchaToken: "" })), undefined);
+  responder = () => Response.json({ ok: false });
+  const rejected = await post(SCORECARD);
+  assert.equal(rejected.status, 502);
+  assert.equal(accessFrom(rejected), undefined);
+  responder = () => { throw new Error("mock offline"); };
+  assert.equal(accessFrom(await post(SCORECARD)), undefined);
+});
+test("scorecard POST without a configured secret is refused before delivery", async () => {
+  process.env.LEAD_PROOF_CLAIM_TOKEN = "";
+  const response = await post(SCORECARD);
+  assert.equal(response.status, 503);
+  assert.equal(accessFrom(response), undefined);
+  assert.equal(seen.length, 0);
+});
+test("accepted scorecard POST grants a scoped short-lived cookie for the exact PDF", async () => {
+  const response = await post(SCORECARD);
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true, id: "mock-lead" });
+  assert.equal("purpose" in (forwarded().form_data as Record<string, unknown>), false);
+  assert.equal("purpose" in forwarded(), false);
+  const line = accessCookie(response) ?? "";
+  for (const attribute of [/; Path=\/api\/lead(;|$)/, /; Max-Age=600(;|$)/, /; HttpOnly(;|$)/i, /; Secure(;|$)/i, /; SameSite=lax(;|$)/i]) assert.match(line, attribute);
+  assert.doesNotMatch(line, /Domain=/i);
+  const pdf = await download(accessFrom(response));
+  assert.equal(pdf.status, 200);
+  assert.equal(pdf.headers.get("Content-Type"), "application/pdf");
+  assert.equal(pdf.headers.get("Content-Disposition"), 'attachment; filename="sigma-core-neuropathy-clarity-scorecard.pdf"');
+  assert.equal(pdf.headers.get("Cache-Control"), "private, no-store");
+  assert.equal(pdf.headers.get("X-Content-Type-Options"), "nosniff");
+  assert.deepEqual(Buffer.from(await pdf.arrayBuffer()), await readScorecardPdf());
+});
+test("a valid entitlement stops working when the secret is removed", async () => {
+  const access = accessFrom(await post(SCORECARD));
+  process.env.LEAD_PROOF_CLAIM_TOKEN = "";
+  await assertDenied(await download(access));
 });

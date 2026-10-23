@@ -6,6 +6,8 @@ import { solveLeadProof } from "./captcha/leadProofClient";
 
 const SUBMIT_ERROR = "Your inquiry could not be confirmed. Please check your connection and try again.";
 export interface SubmissionResponse { ok: true; id?: string }
+/** The only purpose submitLead sends; `/api/lead` grants the scorecard download for it once Keystone accepts. */
+export const SCORECARD_PURPOSE = "scorecard";
 
 function submissionBody(input: Record<string, unknown>): Record<string, unknown> {
   const parsed = parseLeadFields(input);
@@ -16,6 +18,7 @@ function submissionBody(input: Record<string, unknown>): Record<string, unknown>
     [HONEYPOT_FIELD_NAME]: input[HONEYPOT_FIELD_NAME] ?? "",
     captchaToken: readCaptchaToken(input),
     context: captureLeadContext(),
+    ...(input.purpose === SCORECARD_PURPOSE ? { purpose: SCORECARD_PURPOSE } : {}),
   };
 }
 
