@@ -11,7 +11,7 @@ description: "Learn seven gentle at-home movements that may support back mobilit
 
 Gentle movement can be a useful part of caring for a stiff or uncomfortable back. The right exercise may help you stay mobile and support the muscles around your spine, but no single movement is appropriate for every person or every cause of back pain. A new or persistent symptom deserves thoughtful evaluation before you begin a new routine.
 
-This guide explains seven low-intensity exercises sometimes used to support back mobility. It also explains how home exercises differ from clinical, non-surgical spinal decompression and when to ask a qualified health care professional for guidance. If back or neck discomfort is limiting your daily activities, you can review Sigma Core Medical Center’s [low-back pain information](https://www.sigmacoremedicalcenter.com/services/pain-relief#low-back) before deciding on a next step.
+This guide explains seven low-intensity exercises sometimes used to support back mobility. It also explains how home exercises differ from clinical, non-surgical spinal decompression and when to ask a qualified health care professional for guidance. If back or neck discomfort is limiting your daily activities, you can review Sigma Core Medical Center’s [spinal decompression therapy information](/services/pain-relief/spinal-decompression) before deciding on a next step.
 
 ## Key Takeaways
 
@@ -107,7 +107,7 @@ No. Home exercises and non-surgical spinal decompression are different approache
 
 If you are considering non-surgical spinal decompression, ask what the evaluation will include, what alternatives are available, what risks or limitations apply to you, and how progress will be assessed. A careful plan should support your ability to walk, work, sleep, exercise, and participate in the activities that matter to you. It should not depend on a guaranteed outcome or a fixed number of sessions.
 
-For information about how Sigma Core Medical Center approaches low-back and other pain concerns, visit the [pain relief service page](https://www.sigmacoremedicalcenter.com/services/pain-relief#low-back). The page is an educational starting point, not a diagnosis. A consultation can help determine whether an individualized evaluation is appropriate.
+For information about how Sigma Core Medical Center approaches low-back and other pain concerns, visit the [spinal decompression therapy page](/services/pain-relief/spinal-decompression). The page is an educational starting point, not a diagnosis. A consultation can help determine whether an individualized evaluation is appropriate.
 
 ## When to Get an Individualized Evaluation
 
@@ -127,6 +127,6 @@ Bring a short symptom history to the visit, including when the discomfort starte
 
 **Should I stretch if pain travels down my leg or arm?** Do not force a stretch when pain, numbness, tingling, or weakness travels into an arm or leg. Stop the movement and seek professional guidance, especially if symptoms are new, worsening, or accompanied by balance changes or significant weakness.
 
-**What is the next step if back pain is limiting my activities?** Start with an individualized conversation about your symptoms and goals. You can review Sigma Core Medical Center’s [low-back pain information](https://www.sigmacoremedicalcenter.com/services/pain-relief#low-back) and schedule a consultation if you want to discuss whether an evaluation may be appropriate.
+**What is the next step if back pain is limiting my activities?** Start with an individualized conversation about your symptoms and goals. You can review Sigma Core Medical Center’s [spinal decompression therapy information](/services/pain-relief/spinal-decompression) and schedule a consultation if you want to discuss whether an evaluation may be appropriate.
 
 *This article is for general education and does not provide medical advice, a diagnosis, or a treatment recommendation. Individual results and appropriate care vary.*
