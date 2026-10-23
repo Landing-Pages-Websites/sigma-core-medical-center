@@ -1,7 +1,9 @@
 import Script from "next/script";
 
-export function GoogleAnalytics(): React.ReactElement | null {
-  const ga4Id = process.env.NEXT_PUBLIC_GA4_ID;
+export function GoogleAnalytics({
+  measurementId: fallbackId,
+}: { measurementId?: string } = {}): React.ReactElement | null {
+  const ga4Id = process.env.NEXT_PUBLIC_GA4_ID || fallbackId;
   if (!ga4Id) return null;
   const measurementId = JSON.stringify(ga4Id).replace(/</g, "\\u003c");
 
