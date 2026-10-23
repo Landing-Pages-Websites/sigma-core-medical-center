@@ -6,8 +6,10 @@ import CaptchaWidget from "@/components/lead/CaptchaWidget";
 import HoneypotField from "@/components/lead/HoneypotField";
 import { useContactForm } from "@/hooks/useContactForm";
 import { EMAIL_PATTERN, LEAD_FIELDS, MAX_NAME_LENGTH, PHONE_PATTERN, type LeadField } from "@/lib/leadValidation";
+import { SCORECARD_PURPOSE } from "@/lib/leadSubmit";
 
-const SCORECARD_PDF_PATH = "/resources/sigma-core-neuropathy-clarity-scorecard.pdf";
+/** Served only to the signed entitlement cookie set by an accepted scorecard submission. */
+const SCORECARD_PDF_PATH = "/api/lead?resource=scorecard";
 const PHONE_HELP_ID = "scorecard-phone-help";
 
 /** Mirrors LeadField's attributes; that component hard-codes contact-* ids and contact-page styles. */
@@ -71,6 +73,7 @@ export function ScorecardForm(): React.ReactElement {
         <legend className="sr-only">Your contact details</legend>
         {LEAD_FIELDS.map((name) => <ScorecardField key={name} name={name} error={errors[name]} />)}
       </fieldset>
+      <input type="hidden" name="purpose" value={SCORECARD_PURPOSE} />
       <div className="sr-only">
         <HoneypotField />
       </div>
