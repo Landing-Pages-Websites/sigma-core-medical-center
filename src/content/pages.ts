@@ -302,9 +302,59 @@ export const REGENERATIVE_PAGE: ServicePageData = {
   ],
 };
 
+export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
+  slug: "spinal-decompression",
+  eyebrow: "Spinal decompression therapy",
+  title: "A thoughtful next step for back and neck concerns",
+  intro:
+    "Spinal decompression therapy is a non-surgical care approach that may be considered for some back or neck concerns. A personalized evaluation can help clarify whether it fits your goals, history, and daily function.",
+  heroImage: "/images/pages/pain-low-back-v3.webp",
+  heroAlt: "Adult walking outdoors on a tree-lined path",
+  orientationTitle: "Start with the right conversation",
+  orientationIntro:
+    "Spinal decompression is not a one-size-fits-all treatment and this page cannot determine its suitability. The purpose of a consultation is to understand your concerns, review relevant history, and discuss reasonable next steps.",
+  orientationCards: [
+    { title: "What this page covers", body: "General orientation to spinal decompression therapy and the questions that may matter before an evaluation." },
+    { title: "What an evaluation adds", body: "A clinician can consider your symptoms, medical history, goals, and whether further assessment is needed." },
+    { title: "What this page does not do", body: "It does not diagnose a condition, promise an outcome, or replace an individualized clinical conversation." },
+  ],
+  decisionTitle: "Questions that shape the next step",
+  decisionIntro:
+    "Bring the details that help a clinician understand what you want to keep doing and what has changed. The right approach depends on the person, not just the location of discomfort.",
+  decisionCards: [
+    { title: "Your symptoms and patterns", body: "Note where concerns occur, when they began, what changes them, and whether they affect movement, sleep, or routine." },
+    { title: "Your goals for movement", body: "Describe the activities, work, exercise, travel, or daily tasks you want to protect or return to." },
+    { title: "Your health context", body: "Share relevant history, prior care, medications, injuries, procedures, and any changes that concern you." },
+    { title: "Your options and questions", body: "Ask about whether this approach may be appropriate, alternatives, risks, expected follow-up, and what happens next." },
+  ],
+  expectTitle: "What to expect from a consultation",
+  expectBody:
+    "A consultation is a conversation about your goals and health context, not a commitment to treatment. If spinal decompression is not appropriate, the clinician can discuss other reasonable next steps or whether additional evaluation is needed.",
+  faqs: [
+    { question: "Is spinal decompression the same as back exercises?", answer: "No. This service page concerns a supervised therapy conversation. It is distinct from educational articles about home exercises, and online content cannot tell you which exercises or treatment approach is appropriate for you." },
+    { question: "Can spinal decompression help my back or neck concern?", answer: "It may be considered for some people, but suitability and outcomes vary. A clinician needs to review your individual history and concerns before discussing whether it may fit." },
+    { question: "Does this page diagnose a disc problem?", answer: "No. This page provides general information only. Diagnosis and decisions about evaluation or care require an appropriate clinical assessment." },
+    { question: "Should I start exercises from an article before an evaluation?", answer: "Do not use general educational content as a personalized treatment plan. Bring questions about activity or exercise to a qualified healthcare professional, particularly if symptoms are new, worsening, or accompanied by weakness or other concerning changes." },
+    { question: "How do I learn whether this may be appropriate for me?", answer: "Schedule a consultation to discuss your goals, health history, and questions. The conversation can help clarify whether further evaluation or another next step is appropriate." },
+  ],
+  sources: ["American Academy of Orthopaedic Surgeons", "Peer-reviewed literature", "Professional clinical guidance"],
+  heroBullets: [
+    "A service overview, not a diagnosis or home exercise plan.",
+    "Suitability depends on your history, goals, and clinical evaluation.",
+    "Discuss alternatives, risks, and expected follow-up before deciding.",
+  ],
+  faqQuote: "Individual results vary. General website information is not medical advice and does not replace an evaluation.",
+  faqButtons: [
+    { label: "Book a Consultation", href: "/book" },
+    { label: "Contact the Clinic", href: "/contact" },
+  ],
+  bookingCtaPoints: ["Discuss your goals", "Review appropriate next steps", "Make an informed decision"],
+};
+
 export const SERVICE_PAGES = [
   NEUROPATHY_PAGE,
   HORMONE_PAGE,
   PELVIC_PAGE,
   REGENERATIVE_PAGE,
+  SPINAL_DECOMPRESSION_PAGE,
 ] as const;
