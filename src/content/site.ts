@@ -5,7 +5,7 @@ export const SITE_TITLE =
   "Sigma Core Medical Center | Neuropathy and Personalized Care in Richmond";
 
 export const SITE_DESCRIPTION =
-  "Explore personalized options for neuropathy, persistent pain, hormone health, pelvic-floor concerns, and regenerative goals in one modern Richmond-area medical center.";
+  "Explore care for neuropathy, persistent pain, hormone health, pelvic-floor concerns, and regenerative goals at Sigma Core Medical Center in Richmond.";
 
 export const BRAND = {
   name: "Sigma Core Medical Center",
