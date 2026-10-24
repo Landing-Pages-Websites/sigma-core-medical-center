@@ -3,7 +3,7 @@ import { AboutPage } from "@/components/pages/about-page";
 
 export const metadata: Metadata = {
   title: "About Sigma Core Medical Center | Richmond, VA",
-  description: "Meet Dr. Jason Hurst, DC, and learn how Sigma Core Medical Center approaches human performance, pain relief, recovery, regenerative care, hormone optimization, and longevity through a consultation-led process.",
+  description: "Meet Dr. Jason Hurst, DC, and learn about Sigma Core Medical Center's consultation-led approach to performance, recovery, pain relief, and longevity.",
 };
 
 export default function AboutRoute(): React.ReactElement {
