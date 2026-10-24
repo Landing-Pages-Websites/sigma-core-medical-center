@@ -3,7 +3,10 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
-const SERVICE_LINKS = ["/services", "/services/neuropathy"] as const;
+const SERVICE_LINKS = [
+  { href: "/services", label: "View all services" },
+  { href: "/services/neuropathy", label: "Explore neuropathy care" },
+] as const;
 
 export function ClinicPurpose(): React.ReactElement {
   return (
@@ -18,12 +21,12 @@ export function ClinicPurpose(): React.ReactElement {
               Purpose
             </h2>
             <p className="mt-6 max-w-[25rem] text-lg leading-snug text-white/95">
-              Sigma Core guides adults seeking clearer next steps across neuropathy, pain, hormone health, pelvic-floor concerns, and regenerative goals.
+              Sigma Core helps adults take a thoughtful next step across physical medicine and rehabilitation, joint and pain care, neuropathy, regenerative therapies, spinal decompression, Class IV laser therapy, pelvic-floor care, hormone optimization, and longevity.
             </p>
             <p className="mt-6 border-l border-white/70 pl-3 text-lg leading-snug">
-              Care is personalized.
+              Bring your goals and questions.
               <br />
-              Outcomes vary.
+              Options are discussed clearly.
             </p>
           </div>
           <StairSteps count={4} direction="up" barClassName="bg-navy/70" className="absolute right-0 bottom-14 hidden text-[0.85rem] lg:flex" />
@@ -55,9 +58,9 @@ function MissionStrip(): React.ReactElement {
       <div className="bg-royal px-6 py-7 sm:px-10 lg:-ml-16 lg:py-8 lg:pl-[22%] lg:[clip-path:polygon(18%_0,100%_0,100%_100%,0_100%)]">
         <p className="text-xs font-semibold tracking-[0.18em] uppercase">Explore our services</p>
         <div className="mt-3 grid max-w-xs gap-2">
-          {SERVICE_LINKS.map((href) => (
+          {SERVICE_LINKS.map(({ href, label }) => (
             <Link key={href} href={href} className="group flex h-11 items-center justify-between border border-white/80 px-4 text-base font-semibold transition-colors hover:bg-white hover:text-royal">
-              {href} <ChevronRight size={18} aria-hidden />
+              {label} <ChevronRight size={18} aria-hidden />
             </Link>
           ))}
         </div>
