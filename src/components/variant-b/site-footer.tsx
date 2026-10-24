@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { FOOTER } from "@/content/site";
 import { footerLinkB, primaryButtonB } from "@/components/variant-b/buttons";
+import { RichmondCareLinks } from "@/components/shared/richmond-care-links";
 
 const FOOTER_PATHS = {
   Services: "/services",
@@ -61,6 +62,7 @@ export function SiteFooterB(): React.ReactElement {
           </div>
           <Link href="/book" className={primaryButtonB}>Check booking status <ArrowRight size={18} aria-hidden /></Link>
         </div>
+        <RichmondCareLinks />
         <nav aria-label="Utility" className="mt-10 border-t border-white/10 pt-4">
           <ul className="flex flex-wrap items-center justify-center gap-x-7 gap-y-1">
             {FOOTER.nav.map((item) => (
