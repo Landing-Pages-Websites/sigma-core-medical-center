@@ -11,18 +11,18 @@ export function AboutHero(): React.ReactElement {
           <div className="flex items-start gap-4">
             <TallBracket className="mt-1 h-36 w-6 text-silver sm:h-48 lg:h-[11.5rem]" />
             <h1 className="font-heading text-[clamp(2.5rem,4.6vw,4.4rem)] leading-[0.98] font-bold tracking-[-0.03em]">
-              A modern Richmond clinic <span className="text-royal">built around your next chapter</span>
+              Integrative care <span className="text-royal">for your next chapter</span>
             </h1>
           </div>
           <div className="mt-6 max-w-[27rem] space-y-4 text-base leading-relaxed text-white/85 sm:ml-10">
-            <p>Sigma Core is a new medical center serving Richmond, Virginia and the surrounding market.</p>
-            <p>We focus on movement, function, recovery, and quality of life—so you can keep doing what matters.</p>
+            <p>Sigma Core Medical Center is a premium integrative medical center serving adults in the Richmond area.</p>
+            <p>Our focus includes human performance, pain relief, recovery, regenerative care, hormone optimization, and longevity. A consultation helps connect your goals and questions to possible next steps.</p>
           </div>
           <Link href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status <ChevronRight size={18} aria-hidden className="shrink-0" />
+            Explore consultation options <ChevronRight size={18} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 max-w-[19rem] border-l-[3px] border-royal pl-3 sm:ml-10">
-            <p className="text-[0.7rem] font-bold tracking-[0.06em] uppercase">Team information</p>
+            <p className="text-[0.7rem] font-bold tracking-[0.06em] uppercase">Clinical leadership</p>
             <p className="mt-1 text-[0.72rem] leading-snug text-white/85">Dr. Jason Hurst, DC · Director</p>
           </div>
         </div>
