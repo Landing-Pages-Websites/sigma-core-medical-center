@@ -24,9 +24,9 @@ export function CarePrinciples(): React.ReactElement {
           </ul>
         </div>
         <div className="self-end bg-royal px-6 py-10 sm:px-10 lg:pt-16 lg:[clip-path:polygon(12%_0,100%_0,100%_100%,0_100%,0_16%)]">
-          <h3 className="font-heading text-3xl font-bold">Booking status</h3>
-          <p className="mt-3 text-lg leading-relaxed">Online scheduling is not yet available.</p>
-          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-5 py-3 font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-6px]">Check booking status <ArrowRight className="shrink-0" size={20} aria-hidden /></Link>
+          <h3 className="font-heading text-3xl font-bold">Consultation path</h3>
+          <p className="mt-3 text-lg leading-relaxed">Review current scheduling status and inquiry options on the appointment page.</p>
+          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-5 py-3 font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-6px]">Explore consultation options <ArrowRight className="shrink-0" size={20} aria-hidden /></Link>
         </div>
       </div>
     </section>
