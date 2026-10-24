@@ -20,7 +20,7 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
             <p className="mt-2 text-base font-semibold text-ink/75">Director, Sigma Core Medical Center</p>
           </div>
           <p className="max-w-[42rem] text-base leading-relaxed text-ink/85">
-            Sigma Core Medical Center is led by {DIRECTOR_NAME}. Bring your goals and questions to a consultation to discuss whether an evaluation or care option may be appropriate for you.
+            {DIRECTOR_NAME} leads Sigma Core Medical Center. Bring your goals, health questions, and priorities to a consultation to discuss whether an evaluation or care option may be appropriate for you.
           </p>
         </div>
       </section>
@@ -44,10 +44,10 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
           <h3 className="mt-5 font-heading text-3xl font-bold">{DIRECTOR_NAME}</h3>
           <p className="mt-2 text-base font-semibold text-white/80">Director, Sigma Core Medical Center</p>
           <p className="mt-5 border-l-2 border-royal pl-4 text-base leading-relaxed text-white/85">
-            Schedule a consultation to discuss your goals and whether Sigma Core may be an appropriate fit for you.
+            Bring your goals and questions to a consultation to discuss whether Sigma Core may be an appropriate fit for you.
           </p>
           <Link href="/book" className="mt-7 inline-flex min-h-12 items-center gap-3 bg-royal px-5 text-base font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-navy">
-            Check booking status <ArrowRight size={18} aria-hidden />
+            Explore consultation options <ArrowRight size={18} aria-hidden />
           </Link>
         </div>
       </div>
