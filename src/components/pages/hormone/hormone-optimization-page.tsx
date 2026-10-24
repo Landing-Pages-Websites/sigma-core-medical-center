@@ -1,3 +1,4 @@
+import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { HormoneBookingCta } from "@/components/pages/hormone/hormone-booking-cta";
 import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { HormoneDecisionFactors } from "@/components/pages/hormone/hormone-decision-factors";
@@ -16,6 +17,7 @@ export function HormoneOptimizationLanding(): React.ReactElement {
       <HormoneDecisionFactors />
       <ResponsibleNextStep />
       <HormoneFaq />
+      <ConsultationCta />
       <HormoneBookingCta />
       <HormoneSources />
     </main>

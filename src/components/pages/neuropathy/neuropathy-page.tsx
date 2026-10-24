@@ -1,3 +1,4 @@
+import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { NEUROPATHY_PAGE } from "@/content/pages";
 import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { NeuropathyBooking } from "@/components/pages/neuropathy/neuropathy-booking";
@@ -17,6 +18,7 @@ export function NeuropathyPage(): React.ReactElement {
       <NeuropathyDecisions />
       <NeuropathyExpectation data={NEUROPATHY_PAGE} />
       <NeuropathyFaq />
+      <ConsultationCta />
       <NeuropathyBooking />
       <NeuropathySources />
     </main>

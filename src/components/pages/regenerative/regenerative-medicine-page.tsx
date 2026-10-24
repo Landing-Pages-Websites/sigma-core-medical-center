@@ -1,3 +1,4 @@
+import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { RegenerativeBooking } from "@/components/pages/regenerative/regenerative-booking";
 import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { RegenerativeDecisionFactors } from "@/components/pages/regenerative/regenerative-decision-factors";
@@ -16,6 +17,7 @@ export function RegenerativeMedicinePage(): React.ReactElement {
       <RegenerativeQuestions />
       <RegenerativeDecisionFactors />
       <RegenerativeFaq />
+      <ConsultationCta />
       <RegenerativeBooking />
       <RegenerativeSources />
     </main>

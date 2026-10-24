@@ -1,3 +1,4 @@
+import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { PelvicBooking } from "@/components/pages/pelvic-floor/pelvic-booking";
 import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
 import { PelvicDecisionFactors } from "@/components/pages/pelvic-floor/pelvic-decision-factors";
@@ -16,6 +17,7 @@ export function PelvicFloorPage(): React.ReactElement {
       <PelvicDecisionFactors />
       <PelvicExpect />
       <PelvicFaq />
+      <ConsultationCta />
       <PelvicBooking />
       <PelvicSources />
     </main>

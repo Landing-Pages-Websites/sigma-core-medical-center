@@ -1,3 +1,4 @@
+import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { PainBooking } from "@/components/pages/pain-relief/pain-booking";
 import { PainConcernSection } from "@/components/pages/pain-relief/pain-concern-section";
 import { PainDecisionFactors } from "@/components/pages/pain-relief/pain-decision-factors";
@@ -19,6 +20,7 @@ export function PainReliefPage(): React.ReactElement {
       <PainConcernSection concern="neck" />
       <PainDecisionFactors />
       <PainFaq />
+      <ConsultationCta />
       <PainBooking />
       <PainSources />
     </main>
