@@ -10,24 +10,28 @@ type NavCard = {
   href: string;
   icon: LucideIcon;
   dark?: true;
+  label: string;
 };
 
 const NAV_CARDS: readonly NavCard[] = [
   {
     title: "Hormone Optimization",
-    body: "General orientation to hormone health. Provider and treatment details are unavailable.",
+    body: "Explore hormone health, energy, recovery, and the questions to discuss in a consultation.",
+    label: "Explore hormone optimization",
     href: "/services/hormone-optimization",
     icon: Atom,
   },
   {
     title: "Pelvic Floor & Incontinence",
-    body: "Information about pelvic-floor and incontinence concerns, with individual care details unavailable.",
+    body: "Explore pelvic-floor and incontinence concerns with private, respectful information to help you prepare for a conversation.",
+    label: "Explore pelvic-floor care",
     href: "/services/pelvic-floor-incontinence",
     icon: Shell,
   },
   {
     title: "Regenerative Medicine",
-    body: "Category-level information and questions about evidence, uncertainty, and alternatives.",
+    body: "Learn about regenerative care, evidence, uncertainty, and questions to discuss with a qualified professional.",
+    label: "Explore regenerative care",
     href: "/services/regenerative-medicine",
     icon: Activity,
     dark: true,
@@ -46,9 +50,7 @@ export function ServiceNavigation(): React.ReactElement {
             <TallBracket className="h-32 w-5 text-royal sm:h-44" />
             <div className="min-w-0 max-w-full">
               <h2 className="font-heading text-[clamp(2.25rem,10vw,3rem)] leading-[0.92] font-bold tracking-[-0.035em] sm:text-[clamp(3rem,6.6vw,6rem)]">
-                <span className="text-navy">Service</span>
-                <br />
-                <span className="text-royal">Navigation</span>
+                Explore service categories
               </h2>
               <span aria-hidden className="mt-5 flex items-center">
                 <span className="block h-0.5 w-72 max-w-full bg-royal" />
@@ -84,10 +86,10 @@ function PainReliefPanel(): React.ReactElement {
           <h3 className="min-w-0 font-heading text-3xl font-bold tracking-[-0.02em]">Pain Relief</h3>
         </div>
         <p className="mt-6 max-w-[19rem] text-[0.95rem] leading-snug text-white/85">
-          Explore knee, low-back, and neck concerns in the context of movement and daily life.
+          Explore pain, joint, and movement concerns and the questions to bring to a consultation.
         </p>
         <Link href="/services/pain-relief" className={`${PATH_PILL} mt-8 min-h-10 text-sm`}>
-          <span className="min-w-0">/services/pain-relief</span>
+          <span className="min-w-0">Explore pain relief care</span>
         </Link>
       </div>
       <div className="relative min-h-56 sm:my-4 sm:mr-4">
@@ -111,7 +113,7 @@ function NavigationCard({ card }: { card: NavCard }): React.ReactElement {
       </div>
       <p className={`mt-3 text-sm leading-snug ${card.dark ? "text-white/80" : "text-ink/80"}`}>{card.body}</p>
       <Link href={card.href} className={`${PATH_PILL} mt-4`}>
-        <span className="min-w-0">{card.href}</span>
+        <span className="min-w-0">{card.label}</span>
       </Link>
     </article>
   );
