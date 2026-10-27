@@ -17,9 +17,9 @@ export function NeuropathyFeature(): React.ReactElement {
     <section id="neuropathy-feature" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 pt-14 sm:px-10 lg:grid-cols-[62fr_38fr] lg:gap-0 lg:pt-20 lg:pl-[3.75rem]">
         <div className="lg:pt-8">
-          <h2 className="font-heading text-[clamp(2.6rem,6vw,5.6rem)] leading-[0.95] font-bold tracking-[-0.035em]">Neuropathy Feature</h2>
+          <h2 className="font-heading text-[clamp(2.6rem,6vw,5.6rem)] leading-[0.95] font-bold tracking-[-0.035em]">Neuropathy care and daily function</h2>
           <p className="mt-6 max-w-[38rem] text-base leading-relaxed text-white/92 sm:text-lg">
-            Explore neuropathy information through movement, daily function, and independence. These are possible goals, not promised outcomes. Treatment and provider details are not yet available.
+            Explore neuropathy information through movement, daily function, and independence. These are possible goals, not promised outcomes. Use a consultation to discuss your questions and whether this area of care may be appropriate for you.
           </p>
         </div>
         <div className="relative h-64 sm:h-80 lg:h-[19rem]">
