@@ -5,8 +5,8 @@ import "@/components/batch-three/contact/contact.css";
 import "@/components/batch-three/contact/booking.css";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description: "Explore Sigma Core services for neuropathy, pain relief, hormone health, pelvic-floor concerns, and regenerative goals in the Richmond area.",
+  title: "Medical Services in Richmond, VA",
+  description: "Explore pain relief, neuropathy, hormone, pelvic floor, regenerative, and laser services in Richmond, VA. Start with an informed consultation.",
 };
 
 export default function ServicesRoute(): React.ReactElement {
