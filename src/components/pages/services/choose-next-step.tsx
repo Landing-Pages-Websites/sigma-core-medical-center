@@ -16,18 +16,18 @@ export function ChooseNextStep(): React.ReactElement {
       <div className="mx-auto grid max-w-[90rem] gap-12 px-6 pt-16 sm:px-10 lg:grid-cols-[44fr_56fr] lg:gap-6 lg:pt-20 lg:pl-[3.75rem]">
         <div className="relative pl-6 sm:pl-8">
           <TallBracket className="absolute top-0 bottom-0 left-0 w-4 text-silver/80" />
-          <h2 className="font-heading text-[clamp(2.4rem,4.2vw,3.7rem)] leading-none font-bold tracking-[-0.03em]">How To Choose Next Step</h2>
+          <h2 className="font-heading text-[clamp(2.4rem,4.2vw,3.7rem)] leading-none font-bold tracking-[-0.03em]">Choose your next step</h2>
           <DashRule className="mt-6" />
           <p className="mt-6 max-w-[30rem] text-base leading-relaxed text-white/88">
-            Our service pages provide general orientation to the care categories. Individual questions require a qualified healthcare professional. Online scheduling and provider details are not yet available.
+            Our service pages provide general education about care categories. Explore the area that best matches your questions, then use the consultation information to discuss goals, options, and fit with a qualified healthcare professional.
           </p>
           <div className="relative mt-7 flex gap-5 border-t border-white/25 pt-6 pr-10 pb-2">
             <span className="flex h-12 w-12 shrink-0 items-center justify-center bg-royal">
               <MessageSquareText size={24} strokeWidth={1.6} aria-hidden />
             </span>
             <p className="text-base leading-snug text-white/88">
-              <strong className="block font-semibold text-focus">Start with information.</strong>
-              Explore a category and consider the questions that matter to you.
+              <strong className="block font-semibold text-focus">Start with the service that matches your questions.</strong>
+              Then review consultation information before deciding whether to contact the center.
             </p>
             <TallBracket side="right" className="absolute right-0 bottom-0 h-20 w-4 text-silver/80" />
           </div>
@@ -46,7 +46,7 @@ export function ChooseNextStep(): React.ReactElement {
           >
             <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="h-8 w-8 shrink-0 sm:h-11 sm:w-11" />
             <span aria-hidden className="h-12 w-px bg-white/40" />
-            <span className="font-heading text-2xl font-semibold sm:text-3xl">Check booking status</span>
+            <span className="font-heading text-2xl font-semibold sm:text-3xl">Explore consultation information</span>
             <ChevronRight size={28} className="ml-auto transition-transform group-hover:translate-x-1 sm:mr-6" aria-hidden />
           </Link>
         </div>
