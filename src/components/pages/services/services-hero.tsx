@@ -11,17 +11,13 @@ export function ServicesHero(): React.ReactElement {
           <div className="flex items-start gap-3 sm:gap-4">
             <TallBracket className="mt-1 h-28 w-5 text-royal sm:h-36 sm:w-6 lg:h-[9.5rem]" />
             <h1 className="font-heading text-[clamp(2.6rem,5vw,4.85rem)] leading-[0.98] font-bold tracking-[-0.035em]">
-              Care organized around what you want to keep doing
+              Explore medical services built around how you want to live
             </h1>
           </div>
           <div className="mt-8 max-w-[22rem] space-y-4 text-[0.95rem] leading-snug text-white/80 sm:ml-9">
-            <p>Explore our services to find clear, concise information that helps you decide your next step.</p>
-            <p>These pages orient you to each area of care—so you can move forward with confidence.</p>
-            <p className="text-white">
-              Not a diagnosis. Not a protocol.
-              <br />
-              <strong className="font-semibold">Just the information you need.</strong>
-            </p>
+            <p>Explore Sigma Core services for pain relief, recovery, hormone health, neuropathy, pelvic floor concerns, and regenerative care.</p>
+            <p>Each service page explains the questions to consider and the next conversation to have. Start with the area that matches your goals.</p>
+            <p className="text-white">Educational information first. A consultation can help you discuss whether a service may be appropriate for you.</p>
           </div>
         </div>
 
@@ -60,8 +56,8 @@ function FeaturedNeuropathyCard(): React.ReactElement {
       <div>
         <h2 className="font-heading text-[clamp(2.2rem,3.3vw,3.2rem)] leading-none font-bold tracking-[-0.03em]">Neuropathy</h2>
         <span aria-hidden className="mt-3 block h-px w-full max-w-[17rem] bg-white/55" />
-        <p className="mt-3 max-w-[15rem] text-sm leading-snug font-semibold">We give neuropathy care top priority.</p>
-        <p className="mt-1 max-w-[15rem] text-sm leading-snug text-white/85">Information to help you understand your options and next steps.</p>
+        <p className="mt-3 max-w-[15rem] text-sm leading-snug font-semibold">Learn how neuropathy care may support movement, daily function, and independence.</p>
+        <p className="mt-1 max-w-[15rem] text-sm leading-snug text-white/85">Review questions and next steps.</p>
       </div>
     </Link>
   );
