@@ -12,7 +12,7 @@ export function ServicesPage(): React.ReactElement {
       <NeuropathyFeature />
       <ServiceNavigation />
       <ChooseNextStep />
-      <ConsultationCta />
+      <ConsultationCta servicesPage />
       <div className="b3">
         <ContactBooking />
       </div>
