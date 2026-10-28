@@ -1,5 +1,7 @@
 const PHONE = "804-486-7699";
 const EMAIL = "front.desk@sigmacoremedicalcenter.com";
+// Desktop value column is ~0.37vw wide; the address is ~17.5em, so 1.9vw keeps it on one line.
+const EMAIL_FIT_CLASS = "min-[761px]:text-[length:clamp(15px,1.9vw,30px)]";
 const LINK_CLASS = "underline decoration-1 underline-offset-4 transition-[text-decoration-thickness] duration-200 hover:decoration-2 motion-reduce:transition-none";
 
 const contactDetails = [
@@ -18,7 +20,7 @@ const contactDetails = [
     value: (
       <>
         <a className={`block w-fit ${LINK_CLASS}`} href={`tel:+1${PHONE.replaceAll("-", "")}`}>{PHONE}</a>
-        <a className={`block w-fit break-all ${LINK_CLASS}`} href={`mailto:${EMAIL}`}>{EMAIL}</a>
+        <a className={`block w-fit break-all ${EMAIL_FIT_CLASS} ${LINK_CLASS}`} href={`mailto:${EMAIL}`}>{EMAIL}</a>
       </>
     ),
   },
