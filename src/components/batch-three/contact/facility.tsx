@@ -1,7 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
-const visitDetails = ["Address & directions", "Parking & accessibility"];
+const visitDetails = [
+  { label: "Address & directions", value: "9020 Stony Point Pkwy #100, Richmond, VA 23235" },
+  { label: "Parking & accessibility", value: "Pending confirmation" },
+];
 
 export function ContactFacility(): React.ReactElement {
   return (
@@ -11,10 +14,10 @@ export function ContactFacility(): React.ReactElement {
         <div className="contact-visit-panel">
           <span className="contact-visit-bracket" aria-hidden="true" />
           <h3>Visit information</h3>
-          <dl>{visitDetails.map(label => (
-            <div key={label}><dt>{label}</dt><dd>Pending confirmation</dd></div>
+          <dl>{visitDetails.map(({ label, value }) => (
+            <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
           ))}</dl>
-          <p>Please wait for a verified public address before planning a route.</p>
+          <p>Parking, accessibility and entrance details are pending confirmation.</p>
         </div>
         <div className="contact-photo-source">
           <h3>Clinic photo</h3>

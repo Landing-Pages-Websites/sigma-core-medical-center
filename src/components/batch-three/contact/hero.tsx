@@ -6,9 +6,9 @@ export function ContactHero(): React.ReactElement {
     <section id="contact-hero" className="contact-section contact-hero" aria-labelledby="contact-title">
       <div className="contact-hero-copy">
         <p className="contact-name">Sigma Core Medical Center</p>
-        <h1 id="contact-title">Contact &amp; <span>location status</span></h1>
+        <h1 id="contact-title">Contact &amp; <span>location</span></h1>
         <p className="contact-area">Richmond, Virginia area</p>
-        <p className="contact-pending">The public address and direct contact details are pending confirmation.</p>
+        <p className="contact-pending">9020 Stony Point Pkwy #100, Richmond, VA 23235</p>
         <a className="contact-aperture" href="#contact-form">
           <span>Request contact</span><ArrowRight size={28} aria-hidden="true" focusable="false" />
         </a>
