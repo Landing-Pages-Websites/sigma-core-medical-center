@@ -102,7 +102,7 @@ These are questions you can expect, or can ask, during a visit:
 
 Imaging and lab tests answer narrow questions. An X-ray may show joint-space change and still miss a tendon problem. A blood test may support or argue against an inflammatory disease and still not explain today's pain. Ask what a test is meant to decide. Also ask what will happen if the result is normal.
 
-At Sigma Core Medical Center in the Richmond area, that kind of visit is led by Dr. Jason Hurst, DC. The practice focuses on physical medicine and rehabilitation, movement, and informed next steps for adults who want to stay active. A consultation is a place to review your pattern and ask whether an evaluation may be appropriate. It is not a promise of a specific result.
+At Sigma Core Medical Center in the Richmond area, that kind of visit is led by Dr. Nicholas Fleming, DC. The practice focuses on physical medicine and rehabilitation, movement, and informed next steps for adults who want to stay active. A consultation is a place to review your pattern and ask whether an evaluation may be appropriate. It is not a promise of a specific result.
 
 Some adults also ask about regenerative medicine as part of a longer conversation. Our [regenerative medicine page](https://www.sigmacoremedicalcenter.com/services/regenerative-medicine) is an orientation to that category, not a claim that an injection treats the cause of joint pain. Whether any option fits depends on the evaluation, the joint, and factors a website cannot see.
 

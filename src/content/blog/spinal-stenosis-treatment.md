@@ -184,7 +184,7 @@ For an active adult, the goal may be preserving independence and participation r
 
 Ask whether the plan is temporary, ongoing, or adjusted at set checkpoints. Some care focuses on a specific period of rehabilitation; other care may involve maintenance habits or periodic review. Clarify who monitors progress and how communication works between visits. If several professionals are involved, ask who coordinates the plan and who answers questions about medications, exercises, procedures, or new symptoms.
 
-A patient-centered conversation should leave you with more clarity, not pressure. You should understand the working concern, reasons for the proposed next step, alternatives, foreseeable risks, and follow-up plan. If important questions remain unanswered, say so. Dr. Jason Hurst, DC, directs Sigma Core Medical Center, and a consultation should clearly explain the provider’s role, the scope of any service discussed, and whether another clinician or specialist should be involved.
+A patient-centered conversation should leave you with more clarity, not pressure. You should understand the working concern, reasons for the proposed next step, alternatives, foreseeable risks, and follow-up plan. If important questions remain unanswered, say so. Dr. Nicholas Fleming, DC, directs Sigma Core Medical Center, and a consultation should clearly explain the provider’s role, the scope of any service discussed, and whether another clinician or specialist should be involved.
 
 ## Frequently asked questions
 

@@ -21,8 +21,8 @@ export function siteJsonLd(): Record<string, unknown> {
     url: SITE_URL,
     employee: {
       "@type": "Person",
-      "@id": `${SITE_URL}/#jason-hurst`,
-      name: "Jason Hurst",
+      "@id": `${SITE_URL}/#nicholas-fleming`,
+      name: "Nicholas Fleming",
       honorificPrefix: "Dr.",
       honorificSuffix: "DC",
       jobTitle: "Director",
