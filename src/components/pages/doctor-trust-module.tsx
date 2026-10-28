@@ -5,7 +5,7 @@ type DoctorTrustModuleProps = Readonly<{
   compact?: boolean;
 }>;
 
-const DIRECTOR_NAME = "Dr. Jason Hurst, DC";
+const DIRECTOR_NAME = "Dr. Nicholas Fleming, DC";
 
 export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): React.ReactElement {
   if (compact) {

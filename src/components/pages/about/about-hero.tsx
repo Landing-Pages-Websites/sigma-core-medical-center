@@ -23,7 +23,7 @@ export function AboutHero(): React.ReactElement {
           </Link>
           <div className="mt-7 max-w-[19rem] border-l-[3px] border-royal pl-3 sm:ml-10">
             <p className="text-[0.7rem] font-bold tracking-[0.06em] uppercase">Clinical leadership</p>
-            <p className="mt-1 text-[0.72rem] leading-snug text-white/85">Dr. Jason Hurst, DC · Director</p>
+            <p className="mt-1 text-[0.72rem] leading-snug text-white/85">Dr. Nicholas Fleming, DC · Director</p>
           </div>
         </div>
 

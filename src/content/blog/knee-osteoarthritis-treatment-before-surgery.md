@@ -115,7 +115,7 @@ Bring prior images and a current medicine list if you have them. Also note one a
 
 A consultation reviews symptoms, history, goals, and the findings already available. It is a place to ask whether an evaluation may be appropriate. It is not a diagnosis delivered by a webpage, and it cannot predict an individual result.
 
-At Sigma Core Medical Center, Dr. Jason Hurst, DC, leads a cash-pay practice focused on physical medicine, rehabilitation, pain care, regenerative therapies, and informed decisions about function. Do not assume insurance covers a visit or a service. Ask what the consultation includes before you schedule. The [about page](https://www.sigmacoremedicalcenter.com/about) names clinical leadership. The [contact page](https://www.sigmacoremedicalcenter.com/contact) is where you can request a conversation.
+At Sigma Core Medical Center, Dr. Nicholas Fleming, DC, leads a cash-pay practice focused on physical medicine, rehabilitation, pain care, regenerative therapies, and informed decisions about function. Do not assume insurance covers a visit or a service. Ask what the consultation includes before you schedule. The [about page](https://www.sigmacoremedicalcenter.com/about) names clinical leadership. The [contact page](https://www.sigmacoremedicalcenter.com/contact) is where you can request a conversation.
 
 [Bring your knee questions to a consultation](https://www.sigmacoremedicalcenter.com/contact)
 
