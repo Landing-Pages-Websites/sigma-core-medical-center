@@ -5,8 +5,9 @@ import { JsonLd } from "@/components/shared/json-ld";
 import { serviceJsonLd } from "@/content/seo";
 
 export const metadata: Metadata = {
-  title: "Neuropathy Treatment & Care",
-  description: NEUROPATHY_PAGE.intro,
+  title: "Richmond Neuropathy Treatment",
+  description:
+    "Explore neuropathy evaluation and treatment in Richmond, VA. Consultation-led care focused on movement, daily function, and individualized next steps.",
 };
 
 export default function NeuropathyPage(): React.ReactElement {
