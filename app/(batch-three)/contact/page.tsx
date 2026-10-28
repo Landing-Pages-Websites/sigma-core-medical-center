@@ -9,7 +9,7 @@ import "@/components/batch-three/contact/booking.css";
 
 export const metadata: Metadata = {
   title: "Contact — Richmond, VA area",
-  description: "Visit Sigma Core Medical Center in the Richmond, Virginia area. Final location details are being reconfirmed before opening.",
+  description: "Contact Sigma Core Medical Center at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Call 804-486-7699 or email front.desk@sigmacoremedicalcenter.com.",
   robots: { index: false, follow: true },
 };
 
