@@ -12,11 +12,18 @@ const SLAT_LINES =
 function OpeningPanel({ className }: { className: string }): React.ReactElement {
   return (
     <div className={`border-l-4 border-electric bg-ink p-5 ${className}`}>
-      <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">
-        Location update
+      <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">Visit</p>
+      <p className="mt-2 text-base font-semibold leading-snug text-white">
+        9020 Stony Point Pkwy #100, Richmond, VA 23235
       </p>
-      <p className="mt-1 text-3xl font-semibold tracking-tight text-white">Opening details are being confirmed</p>
-      <p className="mt-2 text-sm text-white/70">{PLACE.facilityCaption}</p>
+      <p className="mt-2 text-sm text-white/80">
+        <a className="underline-offset-2 hover:underline" href="tel:+18044867699">
+          804-486-7699
+        </a>
+      </p>
+      <p className="mt-2 text-sm leading-snug text-white/70">
+        Open Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.
+      </p>
     </div>
   );
 }
@@ -88,7 +95,7 @@ function FacilityPanorama(): React.ReactElement {
           className="absolute bottom-0 left-0 h-40 w-[46%] bg-charcoal/95 [clip-path:polygon(0_30%,100%_100%,0_100%)] sm:h-52"
         />
       </div>
-      <OpeningPanel className="relative z-10 mx-6 -mt-20 max-w-80 sm:mx-10 lg:absolute lg:bottom-10 lg:left-10 lg:mx-0 lg:mt-0" />
+      <OpeningPanel className="relative z-10 mx-6 -mt-24 max-w-sm sm:mx-10 lg:absolute lg:bottom-8 lg:left-8 lg:mx-0 lg:mt-0" />
     </div>
   );
 }
