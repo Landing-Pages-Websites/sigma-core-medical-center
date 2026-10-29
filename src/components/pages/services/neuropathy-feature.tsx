@@ -68,13 +68,7 @@ function FeatureBanner(): React.ReactElement {
           className="group relative flex min-w-0 max-w-full items-center justify-between gap-6 border-white/25 py-2 md:col-span-2 lg:col-span-1 lg:border-l lg:pr-8 lg:pl-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px]"
         >
           <span className="min-w-0 [overflow-wrap:break-word]">
-            <span className="block text-sm leading-snug font-semibold tracking-[0.2em] uppercase">
-              Explore our
-              <br />
-              neuropathy
-              <br />
-              approach
-            </span>
+            <span className="block text-sm leading-snug font-semibold tracking-[0.2em] uppercase">Explore neuropathy care for movement and daily function</span>
             <span className="mt-2 block text-sm text-white/65 group-hover:text-focus">/services/neuropathy</span>
           </span>
           <ChevronRight size={56} strokeWidth={1.2} className="shrink-0 text-royal transition-transform group-hover:translate-x-1" aria-hidden />
