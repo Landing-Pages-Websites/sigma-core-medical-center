@@ -89,7 +89,7 @@ function PainReliefPanel(): React.ReactElement {
           Explore pain, joint, and movement concerns and the questions to bring to a consultation.
         </p>
         <Link href="/services/pain-relief" className={`${PATH_PILL} mt-8 min-h-10 text-sm`}>
-          <span className="min-w-0">Explore pain relief care</span>
+          <span className="min-w-0">Explore pain relief for joint and movement concerns</span>
         </Link>
       </div>
       <div className="relative min-h-56 sm:my-4 sm:mr-4">
