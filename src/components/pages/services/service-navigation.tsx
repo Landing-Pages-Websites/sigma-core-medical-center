@@ -17,8 +17,8 @@ const NAV_CARDS: readonly NavCard[] = [
   {
     title: "Hormone Optimization",
     body: "Explore hormone health, energy, recovery, and the questions to discuss in a consultation.",
-    label: "Explore hormone optimization",
-    href: "/services/hormone-optimization",
+    label: "Learn about bioidentical hormone replacement therapy",
+    href: "/services/hormone-optimization/bioidentical-hrt",
     icon: Atom,
   },
   {
