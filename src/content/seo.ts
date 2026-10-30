@@ -25,7 +25,7 @@ export function siteJsonLd(): Record<string, unknown> {
       name: "Nicholas Fleming",
       honorificPrefix: "Dr.",
       honorificSuffix: "DC",
-      jobTitle: "Director",
+      jobTitle: "Provider",
       worksFor: { "@id": `${SITE_URL}/#organization` },
     },
   };
