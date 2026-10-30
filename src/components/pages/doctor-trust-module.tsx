@@ -17,7 +17,7 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
             <h2 id="clinical-leadership-heading" className="mt-2 font-heading text-[clamp(2rem,4vw,3.3rem)] leading-none font-bold tracking-[-0.035em]">
               {DIRECTOR_NAME}
             </h2>
-            <p className="mt-2 text-base font-semibold text-ink/75">Director, Sigma Core Medical Center</p>
+            <p className="mt-2 text-base font-semibold text-ink/75">Provider, Sigma Core Medical Center</p>
           </div>
           <p className="max-w-[42rem] text-base leading-relaxed text-ink/85">
             {DIRECTOR_NAME} leads Sigma Core Medical Center. Bring your goals, health questions, and priorities to a consultation to discuss whether an evaluation or care option may be appropriate for you.
@@ -33,7 +33,7 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
         <div>
           <p className="text-xs font-bold tracking-[0.2em] text-royal uppercase">Clinical leadership</p>
           <h2 id="clinical-leadership-heading" className="mt-3 max-w-[38rem] font-heading text-[clamp(2.8rem,5.5vw,5rem)] leading-[0.95] font-bold tracking-[-0.04em]">
-            Meet the director behind your care conversation
+            Meet the provider behind your care conversation
           </h2>
           <p className="mt-6 max-w-[36rem] text-lg leading-relaxed text-ink/85">
             Clear provider information helps you decide where to begin. Sigma Core Medical Center is led by {DIRECTOR_NAME}.
@@ -42,7 +42,7 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
         <div className="bg-navy px-6 py-8 text-white sm:px-8 sm:py-10">
           <BadgeCheck className="text-silver" size={34} strokeWidth={1.5} aria-hidden />
           <h3 className="mt-5 font-heading text-3xl font-bold">{DIRECTOR_NAME}</h3>
-          <p className="mt-2 text-base font-semibold text-white/80">Director, Sigma Core Medical Center</p>
+          <p className="mt-2 text-base font-semibold text-white/80">Provider, Sigma Core Medical Center</p>
           <p className="mt-5 border-l-2 border-royal pl-4 text-base leading-relaxed text-white/85">
             Bring your goals and questions to a consultation to discuss whether Sigma Core may be an appropriate fit for you.
           </p>
