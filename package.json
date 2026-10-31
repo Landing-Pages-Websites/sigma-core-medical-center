@@ -10,7 +10,8 @@
     "test:lead": "node --import ./src/lib/leadOfflineTests.mjs --import tsx --test src/lib/lead*.test.ts src/lib/forwardLead.test.ts src/lib/captcha/*.test.ts app/api/lead/*.test.ts",
     "typecheck": "tsc --noEmit",
     "test:integration": "node --import ./src/lib/leadOfflineTests.mjs --import tsx --test tests/*.test.ts src/lib/blog-contract.test.mjs src/components/analytics/*.test.mjs",
-    "blog:inventory": "node scripts/update-blog-inventory.mjs"
+    "blog:inventory": "node scripts/update-blog-inventory.mjs",
+    "test:mega-preview": "node --test --experimental-strip-types src/mega-preview/*.test.mjs scripts/preview-wiring.test.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.540.0",
