@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/shared/json-ld";
 import { MegaSnippet } from "@/components/analytics/MegaSnippet";
 import { PostHogProvider } from "@/components/analytics/PostHogProvider";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { megaPreviewNavScript } from "@/mega-preview/preview_nav.mjs";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ const SITE_GA4_MEASUREMENT_ID = "G-8Z94ST45J6";
 type RootLayoutProps = Readonly<{ children: React.ReactNode }>;
 
 export default function RootLayout({ children }: RootLayoutProps): React.ReactElement {
+  const navScript = megaPreviewNavScript();
   return (
     <html
       lang="en"
@@ -66,6 +68,7 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
       data-scroll-behavior="smooth"
     >
       <head>
+        {navScript ? <script dangerouslySetInnerHTML={{ __html: navScript }} /> : null}
         <MegaSnippet />
         <script
           src="https://app.gomega.ai/review-bridge/latest/review-bridge.js"
