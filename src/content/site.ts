@@ -1,5 +1,5 @@
 // Canonical production identity, shared by metadata, discovery and origin checks.
-export const SITE_URL = "https://www.sigmacoremedicalcenter.com";
+export { SITE_URL } from "./site-url";
 
 export const SITE_TITLE =
   "Sigma Core Medical Center | Neuropathy and Personalized Care in Richmond";

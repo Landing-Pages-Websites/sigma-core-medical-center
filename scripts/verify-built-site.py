@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from xml.etree import ElementTree
 
-CANONICAL = re.search(r'export const SITE_URL = "([^"]+)"', Path("src/content/site.ts").read_text())[1]
+CANONICAL = re.search(r'export const SITE_URL = "([^"]+)"', Path("src/content/site-url.ts").read_text())[1]
 BUILD = Path(".next/server/app")
 
 

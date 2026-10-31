@@ -1,4 +1,4 @@
-import { SITE_URL } from "@/content/site";
+import { SITE_URL } from "@/content/site-url";
 
 /** Public identity comes from the canonical seam; Preview hosts are deployment-owned. */
 export function allowedLeadOrigins(): ReadonlySet<string> {
