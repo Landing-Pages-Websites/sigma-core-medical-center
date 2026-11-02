@@ -2,7 +2,12 @@ import { loadCaptchaScript, withinTokenWait } from "./clientScript";
 import { reportCaptchaUnavailable } from "./telemetry";
 
 const SCRIPT_SRC = "https://www.google.com/recaptcha/enterprise.js?render=explicit";
-const EXECUTE_TIMEOUT_MS = 30_000;
+/**
+ * How long a submission waits for a reCAPTCHA token; useCaptcha imports it for
+ * its outer wait. Past it the proof-of-work fallback has already sent the lead,
+ * so a longer deadline here only reported a failure for leads that had arrived.
+ */
+export const RECAPTCHA_TOKEN_WAIT_MS = 10_000;
 interface RecaptchaApi {
   ready: (callback: () => void) => void;
   render: (container: HTMLElement, options: {
@@ -52,7 +57,7 @@ export async function recaptchaToken(id: number | null, action: string): Promise
   if (id === null || !api) { reportCaptchaUnavailable("execute_failed", "recaptcha"); return null; }
   try {
     api.reset(id);
-    const token = await withinTokenWait(api.execute(id, { action }), EXECUTE_TIMEOUT_MS);
+    const token = await withinTokenWait(api.execute(id, { action }), RECAPTCHA_TOKEN_WAIT_MS);
     if (!token) reportCaptchaUnavailable("execute_failed", "recaptcha");
     return token;
   } catch {

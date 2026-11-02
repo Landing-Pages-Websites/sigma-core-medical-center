@@ -5,10 +5,10 @@ import type { TurnstileHandle } from "@/components/lead/TurnstileWidget";
 import type { CaptchaAction } from "@/lib/captcha/verify";
 import { clientVerificationRoute, type RouteKind } from "@/lib/captcha/client-route";
 import { withinTokenWait } from "@/lib/captcha/clientScript";
+import { RECAPTCHA_TOKEN_WAIT_MS } from "@/lib/captcha/recaptchaClient";
 
 const BYPASS_TOKEN = "staging-bypass";
 const TURNSTILE_REFRESH_TIMEOUT_MS = 6_000;
-const RECAPTCHA_TOKEN_WAIT_MS = 10_000;
 export interface CaptchaHandle {
   getToken: (action: CaptchaAction) => Promise<string | null>;
   reset: () => void;
