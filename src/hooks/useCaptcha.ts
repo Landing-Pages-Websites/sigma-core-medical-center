@@ -4,11 +4,9 @@ import type { RecaptchaHandle } from "@/components/lead/RecaptchaWidget";
 import type { TurnstileHandle } from "@/components/lead/TurnstileWidget";
 import type { CaptchaAction } from "@/lib/captcha/verify";
 import { clientVerificationRoute, type RouteKind } from "@/lib/captcha/client-route";
-import { withinTokenWait } from "@/lib/captcha/clientScript";
 
 const BYPASS_TOKEN = "staging-bypass";
 const TURNSTILE_REFRESH_TIMEOUT_MS = 6_000;
-const RECAPTCHA_TOKEN_WAIT_MS = 10_000;
 export interface CaptchaHandle {
   getToken: (action: CaptchaAction) => Promise<string | null>;
   reset: () => void;
@@ -37,8 +35,9 @@ export function captchaHandle(state: CaptchaState): CaptchaHandle {
       if (state.route === "bypass") return Promise.resolve(BYPASS_TOKEN);
       if (state.route === "reject") return Promise.resolve(null);
       if (state.route === "turnstile") return takeTurnstileToken(state);
-      const token = state.recaptchaRef.current?.getToken(action);
-      return token ? withinTokenWait(token, RECAPTCHA_TOKEN_WAIT_MS) : Promise.resolve(null);
+      // recaptchaToken owns the only deadline and reports before it resolves;
+      // a second timer here could fire first and send the lead before it.
+      return state.recaptchaRef.current?.getToken(action) ?? Promise.resolve(null);
     },
     reset: () => {
       if (state.route === "recaptcha") { state.recaptchaRef.current?.reset(); return; }

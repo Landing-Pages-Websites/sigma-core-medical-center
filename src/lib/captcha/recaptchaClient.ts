@@ -2,7 +2,14 @@ import { loadCaptchaScript, withinTokenWait } from "./clientScript";
 import { reportCaptchaUnavailable } from "./telemetry";
 
 const SCRIPT_SRC = "https://www.google.com/recaptcha/enterprise.js?render=explicit";
-const EXECUTE_TIMEOUT_MS = 30_000;
+/**
+ * How long a submission waits for a reCAPTCHA token, and the only deadline on
+ * it: recaptchaToken settles by it on every path and reports before returning,
+ * and useCaptcha adds no timer of its own. Past it the proof-of-work fallback
+ * sends the lead, so a report from any later or competing timer would count a
+ * lead that arrived as one that could not get a token.
+ */
+export const RECAPTCHA_TOKEN_WAIT_MS = 10_000;
 interface RecaptchaApi {
   ready: (callback: () => void) => void;
   render: (container: HTMLElement, options: {
@@ -52,7 +59,7 @@ export async function recaptchaToken(id: number | null, action: string): Promise
   if (id === null || !api) { reportCaptchaUnavailable("execute_failed", "recaptcha"); return null; }
   try {
     api.reset(id);
-    const token = await withinTokenWait(api.execute(id, { action }), EXECUTE_TIMEOUT_MS);
+    const token = await withinTokenWait(api.execute(id, { action }), RECAPTCHA_TOKEN_WAIT_MS);
     if (!token) reportCaptchaUnavailable("execute_failed", "recaptcha");
     return token;
   } catch {
