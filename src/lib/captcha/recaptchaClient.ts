@@ -3,9 +3,11 @@ import { reportCaptchaUnavailable } from "./telemetry";
 
 const SCRIPT_SRC = "https://www.google.com/recaptcha/enterprise.js?render=explicit";
 /**
- * How long a submission waits for a reCAPTCHA token; useCaptcha imports it for
- * its outer wait. Past it the proof-of-work fallback has already sent the lead,
- * so a longer deadline here only reported a failure for leads that had arrived.
+ * How long a submission waits for a reCAPTCHA token, and the only deadline on
+ * it: recaptchaToken settles by it on every path and reports before returning,
+ * and useCaptcha adds no timer of its own. Past it the proof-of-work fallback
+ * sends the lead, so a report from any later or competing timer would count a
+ * lead that arrived as one that could not get a token.
  */
 export const RECAPTCHA_TOKEN_WAIT_MS = 10_000;
 interface RecaptchaApi {

@@ -63,3 +63,38 @@ for (const row of [
     } finally { target.window = previous; }
   });
 }
+
+// Drive the real caller: the form submits the moment captchaHandle's token
+// resolves, so this attempt's report must already exist then, and none after.
+test("through useCaptcha, the report precedes the null token and nothing reports later", async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  const { captchaHandle } = await import("../../hooks/useCaptcha");
+  const target = globalThis as unknown as { window?: Window };
+  const previous = target.window;
+  try {
+    const dataLayer: unknown[] = [];
+    let late: ((token: string) => void) | undefined;
+    target.window = { dataLayer, setTimeout, grecaptcha: { enterprise: {
+      reset: () => {},
+      execute: () => new Promise<string>((resolve) => { late = resolve; }),
+    } } } as unknown as Window;
+    const count = () => dataLayer.filter((e) => (e as { event?: string }).event === "captcha_unavailable").length;
+    const handle = captchaHandle({
+      route: "recaptcha",
+      recaptchaRef: { current: { getToken: (action: string) => recaptchaToken(17, action), reset: () => {} } },
+      turnstileRef: { current: null }, tokenRef: { current: null }, waitingRef: { current: null },
+    } as unknown as Parameters<typeof captchaHandle>[0]);
+    let reportsWhenSettled: number | undefined;
+    const token = handle.getToken("lead_submit").then((value) => { reportsWhenSettled = count(); return value; });
+    for (let elapsed = 0; elapsed < 10_000; elapsed += 1_000) {
+      t.mock.timers.tick(1_000);
+      await new Promise((r) => setImmediate(r));
+    }
+    assert.equal(await token, null);
+    assert.equal(reportsWhenSettled, 1);
+    late?.("too-late");
+    t.mock.timers.tick(30_000);
+    await new Promise((r) => setImmediate(r));
+    assert.equal(count(), 1);
+  } finally { target.window = previous; }
+});
