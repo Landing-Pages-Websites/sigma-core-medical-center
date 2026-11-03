@@ -5,7 +5,6 @@ export const VARIANT_PATHS = ["/variant-a", "/variant-b"] as const;
 export const NOINDEX_PATHS = new Set<string>([
   ...VARIANT_PATHS,
   "/services/hormone-optimization",
-  "/services/pelvic-floor-incontinence",
   "/services/regenerative-medicine",
   "/educational-guide",
   "/book",
