@@ -8,6 +8,8 @@ import { TwoWaysB } from "@/components/variant-b/two-ways";
 import { FaqLocationB } from "@/components/variant-b/faq-location";
 import { SiteFooterB } from "@/components/variant-b/site-footer";
 import { SITE_DESCRIPTION } from "@/content/site";
+import { medicalBusinessJsonLd } from "@/content/seo";
+import { JsonLd } from "@/components/shared/json-ld";
 
 import { ScrollProgress } from "@/components/shared/scroll-progress";
 import { BackToTop } from "@/components/shared/back-to-top";
@@ -20,6 +22,7 @@ export const metadata: Metadata = {
 export default function HomePage(): React.ReactElement {
   return (
     <>
+      <JsonLd data={medicalBusinessJsonLd()} />
       <ScrollProgress />
       <main>
         <HeroB />

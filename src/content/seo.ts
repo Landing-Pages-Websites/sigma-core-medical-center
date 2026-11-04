@@ -31,6 +31,28 @@ export function siteJsonLd(): Record<string, unknown> {
   };
 }
 
+export function medicalBusinessJsonLd(): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "@id": `${SITE_URL}/#medicalbusiness`,
+    name: "Sigma Core Medical Center",
+    url: SITE_URL,
+    telephone: "+1-804-486-7699",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "9020 Stony Point Pkwy #100",
+      addressLocality: "Richmond",
+      addressRegion: "VA",
+      postalCode: "23235",
+      addressCountry: "US",
+    },
+    parentOrganization: {
+      "@id": `${SITE_URL}/#organization`,
+    },
+  };
+}
+
 type ServiceJsonLdInput = {
   slug: string;
   name: string;

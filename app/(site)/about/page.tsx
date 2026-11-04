@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { AboutPage } from "@/components/pages/about-page";
+import { medicalBusinessJsonLd } from "@/content/seo";
+import { JsonLd } from "@/components/shared/json-ld";
 
 export const metadata: Metadata = {
   title: "About Sigma Core Medical Center | Richmond, VA",
@@ -7,5 +9,10 @@ export const metadata: Metadata = {
 };
 
 export default function AboutRoute(): React.ReactElement {
-  return <AboutPage />;
+  return (
+    <>
+      <JsonLd data={medicalBusinessJsonLd()} />
+      <AboutPage />
+    </>
+  );
 }
