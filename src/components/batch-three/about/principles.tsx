@@ -10,7 +10,7 @@ const principles = [
 
 export function AboutPrinciples(): React.ReactElement {
   return (
-    <section id="care-principles" className="about-care" aria-labelledby="about-care-title">
+    <section data-mega-section="care-principles" id="care-principles" className="about-care" aria-labelledby="about-care-title">
       <div className="about-care-main">
         <h2 id="about-care-title">Care Principles</h2>
         <ul className="about-care-grid">{principles.map(([title, body]) => (
@@ -23,7 +23,7 @@ export function AboutPrinciples(): React.ReactElement {
         <p>What would help me decide if a visit is right for me?</p>
         <div className="about-question-actions">
           <Link href="/services" className="about-action">Explore services <ArrowRight aria-hidden="true" /></Link>
-          <Link href="/book" className="about-action about-action-outline">Booking status <ArrowRight aria-hidden="true" /></Link>
+          <Link data-mega-cta="book-appointment" href="/book" className="about-action about-action-outline">Booking status <ArrowRight aria-hidden="true" /></Link>
         </div>
       </aside>
     </section>

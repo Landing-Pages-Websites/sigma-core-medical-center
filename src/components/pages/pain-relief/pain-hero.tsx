@@ -13,7 +13,7 @@ const HERO_BARS = ["h-[30%]", "h-[55%]", "h-[80%]", "h-full"] as const;
 
 export function PainHero(): React.ReactElement {
   return (
-    <section id="pain-hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="pain-hero" id="pain-hero" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[45rem] lg:grid-cols-[calc(max(0px,(100vw-90rem)/2)+35rem)_minmax(0,1fr)_34%]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-14 lg:pb-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <TallBracket className="absolute top-14 bottom-12 left-6 w-6 text-royal sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]" />
@@ -26,7 +26,7 @@ export function PainHero(): React.ReactElement {
               <p>Pain-related scope includes joint pain, knee pain, low back pain, and neck pain.</p>
               <p>Explore the three concern areas below. Online scheduling is not yet available.</p>
             </div>
-            <Link href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-5 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-5 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>

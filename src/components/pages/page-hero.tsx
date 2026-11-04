@@ -27,7 +27,7 @@ export function PageHero({
   bullets,
 }: PageHeroProps): React.ReactElement {
   return (
-    <section className="relative overflow-hidden bg-ink text-white">
+    <section data-mega-section="hero" className="relative overflow-hidden bg-ink text-white">
       <SteppedBars className="absolute top-8 right-6 items-end scale-150 sm:right-12 lg:right-20" />
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[40rem] lg:grid-cols-[48fr_52fr]">
         <div className="relative z-10 px-6 py-14 sm:px-10 sm:py-20 lg:py-24 lg:pr-14">
@@ -46,7 +46,7 @@ export function PageHero({
               ))}
             </ul>
           ) : null}
-          <Link href="/book" className="mt-8 inline-flex h-12 items-center gap-3 border-2 border-focus px-6 font-semibold text-white transition-colors hover:bg-action">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex h-12 items-center gap-3 border-2 border-focus px-6 font-semibold text-white transition-colors hover:bg-action">
             Book an Appointment <ArrowRight size={18} aria-hidden />
           </Link>
           {bullets ? null : quote ? (

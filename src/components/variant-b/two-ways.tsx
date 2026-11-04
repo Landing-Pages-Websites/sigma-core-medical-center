@@ -50,7 +50,7 @@ function BookingPanelB(): React.ReactElement {
           word="Movement"
           className="-right-1 -bottom-3 text-[3.25rem] whitespace-nowrap text-white/15 sm:text-[5.75rem] lg:-right-4"
         />
-        <Link href="/book" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
+        <Link data-mega-cta="book-appointment" href="/book" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
           {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
         </Link>
       </div>
@@ -60,7 +60,7 @@ function BookingPanelB(): React.ReactElement {
 
 export function TwoWaysB(): React.ReactElement {
   return (
-    <section id="next-steps" aria-label="Two ways forward" className="relative overflow-hidden bg-ink">
+    <section data-mega-section="next-steps" id="next-steps" aria-label="Two ways forward" className="relative overflow-hidden bg-ink">
       <div
         aria-hidden
         className="absolute inset-y-0 right-0 hidden w-[47%] bg-action lg:block"

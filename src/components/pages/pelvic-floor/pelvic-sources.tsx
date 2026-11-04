@@ -9,7 +9,7 @@ const SOURCES = [
 
 export function PelvicSources(): React.ReactElement {
   return (
-    <section id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="medical-sources" id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[54fr_46fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pb-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <div aria-hidden className="absolute top-8 right-[30%] hidden lg:block"><MiniStairs className="scale-[2] text-royal" /></div>

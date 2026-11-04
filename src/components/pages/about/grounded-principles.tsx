@@ -10,7 +10,7 @@ const PRINCIPLES = [
 
 export function GroundedPrinciples(): React.ReactElement {
   return (
-    <section id="trust-bar" className="bg-chalk text-ink">
+    <section data-mega-section="trust-bar" id="trust-bar" className="bg-chalk text-ink">
       <div className="mx-auto grid max-w-[90rem] items-center gap-6 px-6 py-8 sm:px-10 lg:grid-cols-[auto_1fr] lg:gap-0 lg:py-7 lg:pl-[3.5rem]">
         <h2 className="flex items-center gap-3 text-base font-semibold tracking-[0.14em] text-royal uppercase sm:text-lg lg:border-r lg:border-ink/15 lg:pr-10">
           <TallBracket className="h-10 w-2.5 text-royal" /> Grounded principles <TallBracket side="right" className="h-10 w-2.5 text-royal" />

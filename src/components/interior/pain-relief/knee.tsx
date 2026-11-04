@@ -2,7 +2,7 @@ import { NextAction } from "../next-action";
 
 export function PainKnee(): React.ReactElement {
   return (
-    <section id="knee-concerns" className="interior-section pain-knee">
+    <section data-mega-section="knee-concerns" id="knee-concerns" className="interior-section pain-knee">
       <div className="interior-wrap">
         <div className="pain-knee-top">
           <div><h2>Knee concerns</h2><p className="bracket">Walking, stairs, standing or the activities you value can become harder when your knee hurts. Bring your questions to a qualified healthcare professional.</p></div>

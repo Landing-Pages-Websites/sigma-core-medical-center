@@ -13,7 +13,7 @@ const CONSIDERATIONS = [
 
 export function RegenerativeDecisionFactors(): React.ReactElement {
   return (
-    <section id="decision-factors" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-slate text-white">
       <div className="absolute inset-y-0 right-0 hidden w-[56%] lg:block">
         <Image src="/images/pages/hormone-faq-lobby-v3.webp" alt="" fill sizes="56vw" className="object-cover object-[60%_bottom] opacity-90" />
         <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-slate via-slate/40 to-transparent" />
@@ -45,7 +45,7 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
               </p>
               <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Check booking status</h3>
               <p className="mt-2 text-xs leading-snug text-white/80">Online scheduling and appointment details are unavailable.</p>
-              <Link href="/book" className="mt-4 inline-flex max-w-full min-h-10 items-center gap-3 bg-royal px-4 text-xs font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+              <Link data-mega-cta="book-appointment" href="/book" className="mt-4 inline-flex max-w-full min-h-10 items-center gap-3 bg-royal px-4 text-xs font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
                 Check booking status <ArrowRight size={16} aria-hidden className="shrink-0" />
               </Link>
             </div>

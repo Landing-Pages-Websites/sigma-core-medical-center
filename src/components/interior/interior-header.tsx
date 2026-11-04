@@ -10,8 +10,8 @@ export function InteriorHeader(): React.ReactElement {
           <Link href="/services/neuropathy">Neuropathy</Link>
           <Link href="/services">All services</Link>
           <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/book">Booking status</Link>
+          <Link data-mega-cta="contact" href="/contact">Contact</Link>
+          <Link data-mega-cta="book-appointment" href="/book">Booking status</Link>
         </nav>
       </div>
     </header>

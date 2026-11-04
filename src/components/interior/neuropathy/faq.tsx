@@ -9,5 +9,5 @@ const QUESTIONS = [
 ];
 
 export function NeuropathyFaq(): React.ReactElement {
-  return <section id="faq" className="interior-section neuro-faq"><div className="interior-wrap"><div className="neuro-faq-top"><h2 className="bracket">Frequently asked questions</h2><p>Answers about this page, availability and what remains personal.</p></div><dl className="neuro-faq-rows">{QUESTIONS.map((item) => <div key={item.question}><dt>{item.question}</dt><dd>{item.answer}{item.href && <Link href={item.href}>{item.action} →</Link>}</dd></div>)}</dl></div></section>;
+  return <section data-mega-section="faq" id="faq" className="interior-section neuro-faq"><div className="interior-wrap"><div className="neuro-faq-top"><h2 className="bracket">Frequently asked questions</h2><p>Answers about this page, availability and what remains personal.</p></div><dl className="neuro-faq-rows">{QUESTIONS.map((item) => <div key={item.question}><dt>{item.question}</dt><dd>{item.answer}{item.href && <Link href={item.href}>{item.action} →</Link>}</dd></div>)}</dl></div></section>;
 }

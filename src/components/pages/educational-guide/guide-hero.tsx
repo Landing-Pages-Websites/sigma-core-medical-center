@@ -11,7 +11,7 @@ const GUIDE_FACTS = [
 
 export function GuideHero(): React.ReactElement {
   return (
-    <section id="hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="hero" id="hero" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-0 right-0 z-20 hidden w-[25rem] lg:flex" />
       <div className="grid lg:min-h-[23rem] lg:grid-cols-[52fr_48fr]">
         <div className="relative z-10 px-6 pt-14 pb-8 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">

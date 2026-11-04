@@ -10,7 +10,7 @@ const SERVICE_LINKS = [
 
 export function ClinicPurpose(): React.ReactElement {
   return (
-    <section id="clinic-purpose" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="clinic-purpose" id="clinic-purpose" className="relative overflow-hidden bg-royal text-white">
       <div className="grid lg:min-h-[35rem] lg:grid-cols-[46fr_54fr]">
         <div className="relative px-6 py-14 sm:px-10 lg:py-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <TallBracket className="absolute top-14 bottom-12 left-6 w-6 text-white sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]" />

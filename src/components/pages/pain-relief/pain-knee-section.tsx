@@ -6,7 +6,7 @@ import { MiniStairs, TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function PainKneeSection(): React.ReactElement {
   return (
-    <section id="knee" className="relative scroll-mt-24 overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="knee" id="knee" className="relative scroll-mt-24 overflow-hidden bg-chalk text-ink">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-12 sm:px-10 lg:grid-cols-[44fr_56fr] lg:gap-6 lg:pt-16 lg:pl-[3.5rem]">
         <div className="lg:pb-20">
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em] text-navy">Knee Concerns</h2>
@@ -39,7 +39,7 @@ export function PainKneeSection(): React.ReactElement {
         <div className="absolute inset-0 lg:left-[2%] lg:[clip-path:polygon(0_6%,48%_6%,52%_0,100%_0,100%_100%,6%_100%,0_70%)]">
           <Image src="/images/pages/pain-knee-walk-v3.webp" alt="An adult walking along a planted courtyard path" fill sizes="100vw" className="object-cover object-[60%_center]" />
         </div>
-        <Link href="/book" className="absolute bottom-10 left-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal px-7 font-heading text-xl font-bold text-white transition-colors hover:bg-royal-hover sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+        <Link data-mega-cta="book-appointment" href="/book" className="absolute bottom-10 left-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal px-7 font-heading text-xl font-bold text-white transition-colors hover:bg-royal-hover sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
           Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
         </Link>
         <p className="absolute top-4 right-4 flex items-center gap-3 bg-chalk/90 px-3 py-2 text-xs text-ink sm:top-auto sm:right-10 sm:bottom-6">

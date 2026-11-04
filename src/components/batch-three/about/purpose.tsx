@@ -5,7 +5,7 @@ const values = [["You at", "the center."], ["Questions", "first."], ["Clear", "i
 
 export function AboutPurpose(): React.ReactElement {
   return (
-    <section id="clinic-purpose" className="about-purpose" aria-labelledby="about-purpose-title">
+    <section data-mega-section="clinic-purpose" id="clinic-purpose" className="about-purpose" aria-labelledby="about-purpose-title">
       <div className="about-purpose-top about-shell">
         <h2 id="about-purpose-title">Neuropathy<br />first.</h2>
         <div className="about-purpose-copy">

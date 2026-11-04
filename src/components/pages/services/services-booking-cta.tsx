@@ -18,7 +18,7 @@ const BASE_BARS = [
 
 export function ServicesBookingCta(): React.ReactElement {
   return (
-    <section id="form" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="form" id="form" className="relative overflow-hidden bg-navy text-white">
       <div aria-hidden className="h-6 bg-[#16202b]" />
       <div className="mx-auto grid max-w-[90rem] items-center gap-10 px-6 pt-14 sm:px-10 lg:grid-cols-[50fr_50fr] lg:gap-6 lg:pt-20 lg:pl-[3.75rem] lg:pr-0">
         <div className="relative px-8 py-10 sm:px-12 lg:py-14">
@@ -30,7 +30,7 @@ export function ServicesBookingCta(): React.ReactElement {
           <p className="mt-4 max-w-[22rem] text-lg leading-snug text-white/90">
             Online scheduling is not yet available. Contact and location details remain unavailable.
           </p>
-          <Link href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-4 py-3 text-lg sm:px-8 font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-4 py-3 text-lg sm:px-8 font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status <ChevronRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>

@@ -8,7 +8,7 @@ const QUESTIONS = [
 ];
 
 export function RegenFaq(): React.ReactElement {
-  return <section id="faq" className="b2-section r-faq"><div className="b2-wrap r-faq-grid">
+  return <section data-mega-section="faq" id="faq" className="b2-section r-faq"><div className="b2-wrap r-faq-grid">
     <div><h2>Frequently asked questions</h2><p>Common questions about this category and what this page can—and cannot—tell you.</p><dl>{QUESTIONS.map(([question, answer]) => <div key={question}><dt>{question}</dt><dd>{answer}</dd></div>)}</dl><nav aria-label="Related services"><Link href="/services">All services →</Link><Link href="/services/neuropathy">Neuropathy care →</Link></nav></div>
     <aside className="r-faq-boundary"><span>Reading this page</span><strong>Know the evidence boundary.</strong><p>See what this page can say now and what needs product-specific review.</p><Link href="#medical-sources">Read source status →</Link></aside>
   </div></section>;

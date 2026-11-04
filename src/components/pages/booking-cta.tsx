@@ -22,14 +22,14 @@ export function BookingCta({
   points = ["Start a conversation", "Consider your path", "Plan next steps"],
 }: BookingCtaProps): React.ReactElement {
   return (
-    <section className="relative overflow-hidden bg-ink text-white">
+    <section data-mega-section="booking-cta" className="relative overflow-hidden bg-ink text-white">
       <div className="mx-auto grid max-w-[90rem] lg:grid-cols-[44fr_56fr]">
         <div className="relative px-6 py-14 sm:px-10 sm:py-16 lg:py-20">
           <SteppedBars className="absolute top-12 right-8 items-end opacity-80" />
           <p className="flex items-center gap-3 text-sm font-semibold tracking-[0.18em] text-focus uppercase"><BracketMark /> Ready to talk</p>
           <h2 className="mt-4 text-4xl leading-none font-semibold tracking-tight sm:text-5xl">{title}</h2>
           <p className="mt-5 max-w-lg text-lg text-white/75">{body}</p>
-          <Link href="/book" className="mt-7 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white transition-colors hover:bg-hover">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white transition-colors hover:bg-hover">
             Book an Appointment <ArrowRight size={18} aria-hidden />
           </Link>
           <div className="mt-9 grid gap-3 text-sm text-white/70 sm:grid-cols-3">

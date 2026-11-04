@@ -55,7 +55,7 @@ function SlabList(): React.ReactElement {
 
 export function NeuropathyB(): React.ReactElement {
   return (
-    <section id="neuropathy" aria-label="Neuropathy care" className="overflow-hidden bg-ink">
+    <section data-mega-section="neuropathy" id="neuropathy" aria-label="Neuropathy care" className="overflow-hidden bg-ink">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:grid lg:grid-cols-[44fr_56fr] lg:gap-16 lg:py-24">
         <Reveal className="flex flex-col">
           <p className="flex items-center gap-3 text-base font-semibold text-focus">

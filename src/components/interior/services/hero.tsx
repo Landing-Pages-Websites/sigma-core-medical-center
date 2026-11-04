@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function ServicesHero(): React.ReactElement {
-  return <section id="hero" className="interior-section service-hero">
+  return <section data-mega-section="hero" id="hero" className="interior-section service-hero">
     <div className="interior-wrap service-hero-grid">
       <div className="service-hero-copy bracket"><h1>Care organized around what you want to keep doing</h1>
         <p>Explore our services for clear, concise information that helps you decide your next step.</p>

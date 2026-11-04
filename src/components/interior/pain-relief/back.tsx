@@ -3,7 +3,7 @@ import { NextAction } from "../next-action";
 
 export function PainBack(): React.ReactElement {
   return (
-    <section id="low-back-concerns" className="interior-section pain-back">
+    <section data-mega-section="low-back-concerns" id="low-back-concerns" className="interior-section pain-back">
       <div className="interior-wrap pain-back-grid">
         <div><h2 className="bracket">Low-back concerns</h2><p>Daily tasks like sitting, lifting, sleeping and moving can all prompt questions.</p><p>Low-back concerns have many possible causes. This website cannot diagnose your specific situation.</p>
           <div className="pain-back-action"><span className="eyebrow">Next step</span><h3>Ready to talk?</h3><p>Bring your questions to a personal care conversation.</p><NextAction href="#decision-factors" pale>Review care questions</NextAction><small>Scheduling is not connected. Prepare for a future conversation here.</small></div>

@@ -6,7 +6,7 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function HormoneBookingCta(): React.ReactElement {
   return (
-    <section id="booking-cta" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="booking-cta" id="booking-cta" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[38rem] lg:grid-cols-[calc(max(0px,(100vw-90rem)/2)+30rem)_minmax(0,1fr)_36%]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(3rem,5.4vw,4.9rem)] leading-none font-bold tracking-[-0.035em]">Booking status</h2>
@@ -49,7 +49,7 @@ export function HormoneBookingCta(): React.ReactElement {
           <p className="mt-4 max-w-[20rem] text-sm leading-snug text-white/92">
             Online scheduling is not yet available. Appointment and follow-up details have not been confirmed.
           </p>
-          <Link href="/book" className="mt-5 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-5 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>

@@ -5,7 +5,7 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 export function VisitorOrientation(): React.ReactElement {
   return (
-    <section id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="visitor-orientation" id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="grid lg:min-h-[40rem] lg:grid-cols-[40fr_33fr_27fr]">
         <div className="relative z-10 flex flex-col lg:col-span-1">
           <h2 className="px-6 pt-12 font-heading text-[clamp(3rem,6.4vw,5.9rem)] leading-[0.95] font-bold tracking-[-0.035em] sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:whitespace-nowrap">

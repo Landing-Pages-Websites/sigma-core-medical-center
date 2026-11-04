@@ -7,7 +7,7 @@ const ROUTE_BARS = ["h-[22%] bg-white/85", "h-[40%] bg-[#aecdf5]", "h-[58%] bg-[
 
 export function PainBooking(): React.ReactElement {
   return (
-    <section id="booking" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="booking" id="booking" className="relative overflow-hidden bg-slate text-white">
       <div aria-hidden className="h-8 bg-navy" />
       <div className="grid lg:min-h-[28rem] lg:grid-cols-[40fr_60fr]">
         <div className="relative z-10 px-6 pt-12 pb-12 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
@@ -22,7 +22,7 @@ export function PainBooking(): React.ReactElement {
             </p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
           </div>
-          <Link href="/book" className="mt-7 inline-flex max-w-full min-h-14 w-full max-w-[20rem] items-center bg-royal px-6 text-lg font-semibold transition-colors [clip-path:polygon(0_0,90%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-14 w-full max-w-[20rem] items-center bg-royal px-6 text-lg font-semibold transition-colors [clip-path:polygon(0_0,90%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status
           </Link>
         </div>

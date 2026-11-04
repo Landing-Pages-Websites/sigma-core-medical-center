@@ -15,7 +15,7 @@ const AVAILABILITY_NOTES = [
 
 export function PrivacyNote(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-slate text-white">
       <div className="grid lg:grid-cols-[46fr_54fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-14 lg:pb-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h2 className="font-heading text-[clamp(2.8rem,5.4vw,4.9rem)] leading-none font-bold tracking-[-0.035em]">Privacy Note</h2>

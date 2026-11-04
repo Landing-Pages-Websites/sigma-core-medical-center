@@ -5,7 +5,7 @@ import { PlinthCards } from "@/components/pages/shared/plinth-cards";
 
 export function RegenerativeSources(): React.ReactElement {
   return (
-    <section id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="medical-sources" id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
       <div aria-hidden className="h-2 bg-royal" />
       <div className="mx-auto max-w-[90rem] px-6 pt-12 sm:px-10 lg:pt-12 lg:pl-[3.5rem]">
         <div className="grid gap-6 lg:grid-cols-[46fr_54fr] lg:items-center">

@@ -3,7 +3,7 @@ import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motif
 
 export function TeamPublicationGate(): React.ReactElement {
   return (
-    <section id="team" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="team" id="team" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-6 right-0 hidden w-[26rem] lg:flex" />
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[3fr_2fr] lg:gap-16 lg:px-14 lg:py-20">
         <div>

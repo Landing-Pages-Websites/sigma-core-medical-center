@@ -28,7 +28,7 @@ function PrincipleList(): React.ReactElement {
 
 export function PlaceOfCareA(): React.ReactElement {
   return (
-    <section id="place-of-care" aria-label="The Sigma Core clinic" className="relative bg-charcoal">
+    <section data-mega-section="place-of-care" id="place-of-care" aria-label="The Sigma Core clinic" className="relative bg-charcoal">
       <div className="relative lg:hidden">
         <div className="relative h-72 sm:h-96">
           <Image

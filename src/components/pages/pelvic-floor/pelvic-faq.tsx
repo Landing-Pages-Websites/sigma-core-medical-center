@@ -18,7 +18,7 @@ const ROW_ACTION = "inline-flex items-center gap-2 text-sm text-royal hover:text
 
 export function PelvicFaq(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-10 right-0 z-20 hidden w-[20rem] lg:flex" />
       <div className="grid lg:grid-cols-[34fr_66fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">

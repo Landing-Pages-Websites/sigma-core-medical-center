@@ -8,7 +8,7 @@ const POINT_ICONS = [UserRound, MessageCircle, CircleCheck];
 
 export function NeuropathyA(): React.ReactElement {
   return (
-    <section id="neuropathy" aria-label="Neuropathy care" className="overflow-hidden bg-ink">
+    <section data-mega-section="neuropathy" id="neuropathy" aria-label="Neuropathy care" className="overflow-hidden bg-ink">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:grid lg:grid-cols-[54fr_46fr] lg:items-center lg:gap-16 lg:py-24">
         <Reveal>
           <p className="text-base font-semibold text-silver">{NEUROPATHY.eyebrow}</p>

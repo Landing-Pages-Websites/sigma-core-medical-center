@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export function BookCalendar(): React.ReactElement {
   return (
-    <section id="gohighlevel-calendar" className="book-section book-calendar" aria-labelledby="book-calendar-title">
+    <section data-mega-section="gohighlevel-calendar" id="gohighlevel-calendar" className="book-section book-calendar" aria-labelledby="book-calendar-title">
       <div className="book-shell book-calendar-layout">
         <div className="book-reserve">
           <h2 id="book-calendar-title">Scheduling <br />calendar</h2>
@@ -19,7 +19,7 @@ export function BookCalendar(): React.ReactElement {
             <p>Browse service information.</p>
           </div>
           <div className="book-contact-route">
-            <Link href="/contact#contact-form" className="book-contact-link"><span>Request contact</span><ArrowRight aria-hidden="true" /></Link>
+            <Link data-mega-cta="contact" href="/contact#contact-form" className="book-contact-link"><span>Request contact</span><ArrowRight aria-hidden="true" /></Link>
             <p>Send an inquiry. This does not confirm an appointment.</p>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { ScorecardForm } from "@/components/pages/educational-guide/scorecard-fo
 
 export function LeadFormSection(): React.ReactElement {
   return (
-    <section id="form" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="form" id="form" className="relative overflow-hidden bg-chalk text-ink">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-14 pb-10 sm:px-10 lg:grid-cols-[57fr_43fr] lg:gap-8 lg:pt-16 lg:pb-12 lg:pl-[3.5rem]">
         <div>
           <MiniStairs className="scale-150 text-royal" />
@@ -14,7 +14,7 @@ export function LeadFormSection(): React.ReactElement {
             The Neuropathy Clarity Scorecard is a 4-page PDF with a 7-minute self-assessment and a 7-day symptom tracker.
           </p>
           <p className="mt-2 max-w-[34rem] text-lg leading-snug font-semibold text-navy">It cannot diagnose neuropathy or its cause.</p>
-          <a
+          <a data-mega-cta="request-scorecard"
             href="#scorecard-form"
             className="mt-6 inline-flex h-auto min-h-14 max-w-full items-center gap-5 bg-royal px-7 py-3 text-left text-lg leading-snug font-semibold text-white transition-colors hover:bg-royal-hover focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-focus"
           >

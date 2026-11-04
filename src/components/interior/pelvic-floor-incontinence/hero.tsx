@@ -4,7 +4,7 @@ import { InteriorImage } from "../interior-image";
 
 export function PelvicHero(): React.ReactElement {
   return (
-    <section id="hero" className="b2-section p-hero">
+    <section data-mega-section="hero" id="hero" className="b2-section p-hero">
       <div className="b2-wrap p-hero-grid">
         <div className="p-hero-copy">
           <h1>Private, respectful support for pelvic-floor and incontinence concerns</h1>

@@ -20,7 +20,7 @@ function SideNote({ title, body, className = "" }: SideNoteProps): React.ReactEl
 
 export function PelvicOrientation(): React.ReactElement {
   return (
-    <section id="private-orientation" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="private-orientation" id="private-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[34rem] lg:grid-cols-[12fr_17fr_42fr_12fr_17fr]">
         <SideNote title="Privacy information." body="Privacy policy and visit confidentiality details are not yet available." className="order-2 lg:order-none lg:mt-0" />
         <div className="relative order-3 min-h-60 lg:order-none lg:mt-14">

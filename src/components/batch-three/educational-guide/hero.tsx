@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowDown, ArrowRight, LockKeyhole } from "lucide-react";
 export function GuideHero(): React.ReactElement {
-  return <section id="resource-hero" className="b3-section b3-ink b3-guide-hero">
+  return <section data-mega-section="resource-hero" id="resource-hero" className="b3-section b3-ink b3-guide-hero">
     <div className="b3-shell b3-split">
       <div className="b3-bracket b3-guide-intro">
         <h1>Educational guide status</h1>

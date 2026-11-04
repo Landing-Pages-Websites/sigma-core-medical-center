@@ -12,7 +12,7 @@ const CONCERN_CARDS = [
 
 export function PelvicDecisionFactors(): React.ReactElement {
   return (
-    <section id="concerns-and-goals" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="concerns-and-goals" id="concerns-and-goals" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[46fr_54fr]">
         <div className="px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h2 className="font-heading text-[clamp(2.6rem,4.8vw,4.4rem)] leading-none font-bold tracking-[-0.035em] text-navy lg:whitespace-nowrap">Questions for an Evaluation</h2>
@@ -49,7 +49,7 @@ export function PelvicDecisionFactors(): React.ReactElement {
       <div className="relative mt-4 flex justify-end">
         <div className="flex w-full flex-wrap items-center justify-between gap-4 bg-royal px-6 py-4 text-white sm:px-10 lg:w-[66%] lg:pl-24 lg:[clip-path:polygon(4%_0,100%_0,100%_100%,0_100%)]">
           <p className="text-lg font-semibold">Online evaluation scheduling is not yet available.</p>
-          <Link href="/book" className="inline-flex max-w-full min-h-12 w-fit items-center bg-white px-6 font-heading text-lg font-bold text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="inline-flex max-w-full min-h-12 w-fit items-center bg-white px-6 font-heading text-lg font-bold text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check evaluation status
           </Link>
         </div>

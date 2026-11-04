@@ -2,7 +2,7 @@ import { ContactForm } from "@/components/lead/ContactForm";
 
 export function ContactBooking(): React.ReactElement {
   return (
-    <section id="booking-cta" className="contact-section contact-close" aria-labelledby="contact-inquiry-title">
+    <section data-mega-section="booking-cta" id="booking-cta" className="contact-section contact-close" aria-labelledby="contact-inquiry-title">
       <div className="contact-close-layout">
         <div className="contact-inquiry-copy">
           <h2 id="contact-inquiry-title">Request contact<span aria-hidden="true" /></h2>

@@ -14,8 +14,11 @@ test("React preserves owned MEGA bootstrap before exactly one optimizer", () => 
     assert.ok(html.indexOf(`window.${global}=`) < html.indexOf('src="https://cdn.gomega.ai/scripts/optimizer.min.js"'));
   }
   assert.equal((html.match(/optimizer.min.js/g) ?? []).length, 1);
+  // PostHog reports to the shared MEGA project through the tracking module; the
+  // old per-site key and host are never read.
   const posthog = readFileSync("src/components/analytics/PostHogProvider.tsx", "utf8");
-  assert.match(posthog, /process.env.NEXT_PUBLIC_POSTHOG_KEY/);
+  assert.match(posthog, /buildPostHogOptions\(/);
+  assert.doesNotMatch(posthog, /NEXT_PUBLIC_POSTHOG_(KEY|HOST)/);
 });
 
 test("no GA4 loader is invented for an unset measurement ID", () => {

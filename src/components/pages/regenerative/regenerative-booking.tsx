@@ -11,7 +11,7 @@ const BOOKING_POINTS = [
 
 export function RegenerativeBooking(): React.ReactElement {
   return (
-    <section id="booking-cta" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="booking-cta" id="booking-cta" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[40rem] lg:grid-cols-[calc(max(0px,(100vw-90rem)/2)+30rem)_minmax(0,1fr)_36%]">
         <div className="relative z-10 px-6 pt-12 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(3rem,5.6vw,5rem)] leading-none font-bold tracking-[-0.035em]">Booking status</h2>
@@ -54,7 +54,7 @@ export function RegenerativeBooking(): React.ReactElement {
             unavailable
           </p>
           <p className="mt-4 max-w-[19rem] text-base leading-snug text-white/92">Calendar and appointment details are unavailable.</p>
-          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-royal transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-royal transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>

@@ -40,7 +40,7 @@ const FAQS = [
 export function PrpInjectionPage(): React.ReactElement {
   return (
     <main className="overflow-hidden bg-navy text-white">
-      <section className="relative overflow-hidden bg-navy">
+      <section data-mega-section="hero" className="relative overflow-hidden bg-navy">
         <div aria-hidden className="absolute top-0 right-0 hidden h-36 w-80 bg-royal [clip-path:polygon(22%_0,100%_0,100%_100%,0_100%)] lg:block" />
         <div className="mx-auto grid max-w-[90rem] lg:min-h-[40rem] lg:grid-cols-[54fr_46fr]">
           <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-20 lg:pl-14">
@@ -52,7 +52,7 @@ export function PrpInjectionPage(): React.ReactElement {
               Explore whether platelet-rich plasma may be appropriate for a joint, tendon, pain, recovery, or performance conversation at Sigma Core Medical Center.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/book" className="inline-flex min-h-14 items-center gap-5 bg-royal px-6 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
+              <Link data-mega-cta="book-appointment" href="/book" className="inline-flex min-h-14 items-center gap-5 bg-royal px-6 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
                 Schedule a consultation <ArrowRight size={21} aria-hidden />
               </Link>
               <Link href="#how-prp-is-discussed" className="inline-flex min-h-14 items-center gap-4 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
@@ -77,7 +77,7 @@ export function PrpInjectionPage(): React.ReactElement {
         <div aria-hidden className="h-5 bg-royal" />
       </section>
 
-      <section id="how-prp-is-discussed" className="bg-chalk text-ink">
+      <section data-mega-section="how-prp-is-discussed" id="how-prp-is-discussed" className="bg-chalk text-ink">
         <div className="mx-auto max-w-[90rem] px-6 py-16 sm:px-10 lg:px-14 lg:py-20">
           <div className="grid gap-10 lg:grid-cols-[40fr_60fr] lg:items-end">
             <div>
@@ -108,7 +108,7 @@ export function PrpInjectionPage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-royal text-white">
+      <section data-mega-section="treatment-plan" className="bg-royal text-white">
         <div className="mx-auto grid max-w-[90rem] gap-12 px-6 py-16 sm:px-10 lg:grid-cols-[42fr_58fr] lg:px-14 lg:py-20">
           <div>
             <p className="text-base font-semibold uppercase tracking-[0.14em] text-white/75">If PRP is considered</p>
@@ -116,7 +116,7 @@ export function PrpInjectionPage(): React.ReactElement {
             <p className="mt-5 max-w-[31rem] text-lg leading-relaxed text-white/90">
               Your consultation can help determine whether PRP belongs in the care conversation. No procedure should be presented as a cure or guaranteed result.
             </p>
-            <Link href="/book" className="mt-8 inline-flex min-h-14 items-center gap-5 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
+            <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex min-h-14 items-center gap-5 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
               Book a consultation <ArrowRight size={21} aria-hidden />
             </Link>
           </div>
@@ -139,7 +139,7 @@ export function PrpInjectionPage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-slate text-white">
+      <section data-mega-section="decision-factors" className="bg-slate text-white">
         <div className="mx-auto grid max-w-[90rem] lg:grid-cols-[55fr_45fr]">
           <div className="px-6 py-16 sm:px-10 lg:px-14 lg:py-20">
             <p className="text-base font-semibold uppercase tracking-[0.14em] text-[#65b9ea]">Questions worth bringing</p>
@@ -164,7 +164,7 @@ export function PrpInjectionPage(): React.ReactElement {
         </div>
       </section>
 
-      <section id="prp-faq" className="bg-navy text-white">
+      <section data-mega-section="prp-faq" id="prp-faq" className="bg-navy text-white">
         <div className="mx-auto grid max-w-[90rem] gap-10 px-6 py-16 sm:px-10 lg:grid-cols-[35fr_65fr] lg:px-14 lg:py-20">
           <div>
             <p className="text-base font-semibold uppercase tracking-[0.14em] text-[#65b9ea]">PRP questions</p>
@@ -186,7 +186,7 @@ export function PrpInjectionPage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-chalk text-ink">
+      <section data-mega-section="booking-cta" className="bg-chalk text-ink">
         <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[55fr_45fr] lg:items-center lg:px-14 lg:py-16">
           <div>
             <p className="text-base font-semibold uppercase tracking-[0.14em] text-royal">Take the next step</p>
@@ -194,7 +194,7 @@ export function PrpInjectionPage(): React.ReactElement {
             <p className="mt-5 max-w-[40rem] text-lg leading-relaxed text-ink/80">Schedule a consultation to learn whether a PRP conversation may be appropriate for your goals. The team can discuss options, alternatives, and what to expect next.</p>
           </div>
           <div className="lg:justify-self-end">
-            <Link href="/book" className="inline-flex min-h-16 items-center gap-6 bg-royal px-7 text-xl font-semibold text-white transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
+            <Link data-mega-cta="book-appointment" href="/book" className="inline-flex min-h-16 items-center gap-6 bg-royal px-7 text-xl font-semibold text-white transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
               Schedule a consultation <ArrowRight size={24} aria-hidden />
             </Link>
             <p className="mt-4 max-w-[25rem] text-sm leading-snug text-ink/65">Consultation availability and candidacy are determined through the appropriate clinical process.</p>

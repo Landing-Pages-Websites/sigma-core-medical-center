@@ -60,7 +60,7 @@ export function SiteFooterB(): React.ReactElement {
             <p className="text-xl font-semibold text-white">{FOOTER.tagline}</p>
             <p className="mt-1 text-base text-silver">{FOOTER.location}</p>
           </div>
-          <Link href="/book" className={primaryButtonB}>Check booking status <ArrowRight size={18} aria-hidden /></Link>
+          <Link data-mega-cta="book-appointment" href="/book" className={primaryButtonB}>Check booking status <ArrowRight size={18} aria-hidden /></Link>
         </div>
         <RichmondCareLinks />
         <nav aria-label="Utility" className="mt-10 border-t border-white/10 pt-4">

@@ -12,7 +12,7 @@ const SIDE_BARS = ["w-3 h-2", "w-5 h-2", "w-7 h-2.5", "w-9 h-3", "w-9 h-24"] as 
 
 export function NeuropathySources(): React.ReactElement {
   return (
-    <section id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="medical-sources" id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
       <div className="mx-auto max-w-[90rem] px-6 py-14 sm:px-10 lg:py-14 lg:pl-[3.5rem]">
         <div className="relative grid gap-8 lg:grid-cols-[50fr_50fr] lg:pl-16">
           <span aria-hidden className="absolute top-12 left-0 hidden flex-col items-end gap-1.5 lg:flex">

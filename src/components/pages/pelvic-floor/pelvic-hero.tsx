@@ -6,7 +6,7 @@ import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motif
 
 export function PelvicHero(): React.ReactElement {
   return (
-    <section id="hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="hero" id="hero" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-0 right-0 z-20 hidden w-[24rem] lg:flex" />
       <div className="grid lg:min-h-[45rem] lg:grid-cols-[50fr_50fr]">
         <div className={`${styles.copy} relative z-10 flex flex-col justify-center px-6 pt-14 pb-12 sm:px-10 lg:py-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]`}>
@@ -17,7 +17,7 @@ export function PelvicHero(): React.ReactElement {
           <p className="mt-5 max-w-[30rem] text-base leading-snug text-white/88">
             General orientation to pelvic floor therapy, incontinence evaluation, and the questions you may want to bring to a provider. This page does not diagnose or promise an outcome.
           </p>
-          <Link href="/book" className="mt-7 inline-flex max-w-full min-h-16 w-fit items-center gap-6 border border-white/80 bg-royal px-8 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-16 w-fit items-center gap-6 border border-white/80 bg-royal px-8 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check evaluation status <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>

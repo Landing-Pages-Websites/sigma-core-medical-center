@@ -20,7 +20,7 @@ export default function BlogIndexPage(): ReactElement {
         <p className="mt-4 leading-relaxed text-muted">
           Articles and updates from {BRAND.name}.
         </p>
-        <section aria-label="Articles" className="mt-10">
+        <section data-mega-section="articles" aria-label="Articles" className="mt-10">
           {posts.map((post) => <PostCard key={post.id ?? post.slug} post={post} />)}
           {!posts.length ? <p className="text-muted">No articles have been published yet.</p> : null}
         </section>

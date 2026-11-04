@@ -11,7 +11,7 @@ export function NeuropathyHeroPhoto({ data }: { data: ServicePageData }): React.
         <Image src={data.heroImage} alt={data.heroAlt} fill priority sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover object-[62%_center]" />
       </div>
       <div aria-hidden className="absolute right-0 bottom-0 hidden lg:block h-[34%] w-[78%] bg-royal [clip-path:polygon(24%_0,100%_0,100%_100%,0_100%)]" />
-      <Link
+      <Link data-mega-cta="book-appointment"
         href="/book"
         className={`${styles.action} absolute right-6 bottom-8 z-10 inline-flex max-w-full min-h-14 items-center gap-4 border border-white bg-royal/20 px-6 text-lg font-semibold text-white transition-colors hover:bg-white hover:text-royal sm:right-10 lg:bottom-[9%] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]`}
       >

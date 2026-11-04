@@ -27,7 +27,7 @@ const OUTLINE_BUTTON = "inline-flex h-12 w-full items-center justify-between gap
 
 export function HormoneFaq(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-6 right-0 hidden w-[24rem] lg:flex" />
       <div aria-hidden className="absolute right-0 bottom-0 hidden h-[64%] w-[30%] bg-royal [clip-path:polygon(100%_0,100%_100%,0_100%)] lg:block" />
       <div className="relative grid lg:grid-cols-[33fr_67fr]">
@@ -56,7 +56,7 @@ export function HormoneFaq(): React.ReactElement {
             ))}
           </ul>
           <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64 lg:absolute lg:right-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:bottom-10 lg:mt-0">
-            <Link href="/book" className={OUTLINE_BUTTON}>
+            <Link data-mega-cta="book-appointment" href="/book" className={OUTLINE_BUTTON}>
               Check booking status <ArrowRight size={18} aria-hidden className="shrink-0" />
             </Link>
             <PolicyLink label={<>Terms status <ArrowRight size={18} aria-hidden className="shrink-0" /></>} className={OUTLINE_BUTTON} />

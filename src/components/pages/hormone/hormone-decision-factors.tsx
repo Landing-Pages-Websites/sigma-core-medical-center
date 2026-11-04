@@ -33,7 +33,7 @@ const FACTOR_PANELS = [
 
 export function HormoneDecisionFactors(): React.ReactElement {
   return (
-    <section id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
       <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[3.5rem]">
         <div className="grid gap-6 lg:grid-cols-[55fr_45fr] lg:items-center">
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-[0.95] font-bold tracking-[-0.035em] text-navy">
@@ -90,7 +90,7 @@ export function HormoneDecisionFactors(): React.ReactElement {
         <p className="relative max-w-[22rem] px-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
           Choose{" "}
-          <Link href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status
           </Link>{" "}
           for scheduling availability.

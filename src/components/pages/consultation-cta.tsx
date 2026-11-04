@@ -5,7 +5,7 @@ type ConsultationCtaProps = Readonly<{ servicesPage?: boolean }>;
 
 export function ConsultationCta({ servicesPage = false }: ConsultationCtaProps = {}): React.ReactElement {
   return (
-    <section id="consultation-cta" className="relative overflow-hidden bg-ink text-white">
+    <section data-mega-section="consultation-cta" id="consultation-cta" className="relative overflow-hidden bg-ink text-white">
       <div aria-hidden className="h-2 bg-action" />
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-center lg:gap-16 lg:px-16 lg:py-20">
         <div>
@@ -23,7 +23,7 @@ export function ConsultationCta({ servicesPage = false }: ConsultationCtaProps =
         <div className="border border-white/25 bg-white/5 p-7 sm:p-9">
           <p className="text-sm font-semibold tracking-[0.12em] text-silver uppercase">Consultation information</p>
           <p className="mt-4 text-2xl font-semibold leading-tight">Questions first. Informed decisions next.</p>
-          <Link
+          <Link data-mega-cta="book-appointment"
             href="/book"
             className="mt-7 inline-flex min-h-14 items-center gap-4 bg-action px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]"
           >

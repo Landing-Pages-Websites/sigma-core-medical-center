@@ -7,7 +7,7 @@ const NOTE_BARS = ["w-[20%]", "w-[40%]", "w-[60%]", "w-[80%]", "w-full"] as cons
 
 export function PainNavigation(): React.ReactElement {
   return (
-    <section id="pain-navigation" className="relative overflow-hidden bg-chalk text-white">
+    <section data-mega-section="pain-navigation" id="pain-navigation" className="relative overflow-hidden bg-chalk text-white">
       <div className="bg-royal">
         <div className="mx-auto max-w-[90rem] px-6 pt-10 pb-60 sm:px-10 lg:pt-12 lg:pl-[3.5rem]">
           <div className="flex items-center gap-4">
