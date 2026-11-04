@@ -19,7 +19,7 @@ const contactDetails = [
     label: "Phone & email",
     value: (
       <>
-        <a className={`block w-fit ${LINK_CLASS}`} href={`tel:+1${PHONE.replaceAll("-", "")}`}>{PHONE}</a>
+        <a data-mega-cta="call-now" className={`block w-fit ${LINK_CLASS}`} href={`tel:+1${PHONE.replaceAll("-", "")}`}>{PHONE}</a>
         <a className={`block w-fit break-all ${EMAIL_FIT_CLASS} ${LINK_CLASS}`} href={`mailto:${EMAIL}`}>{EMAIL}</a>
       </>
     ),
@@ -37,7 +37,7 @@ const contactDetails = [
 
 export function ContactDetails(): React.ReactElement {
   return (
-    <section id="verified-location-details" className="contact-section contact-details" aria-labelledby="contact-details-title">
+    <section data-mega-section="verified-location-details" id="verified-location-details" className="contact-section contact-details" aria-labelledby="contact-details-title">
       <div className="contact-register">
         <h2 id="contact-details-title">Contact details</h2>
         <dl>

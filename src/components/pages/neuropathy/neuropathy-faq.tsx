@@ -38,7 +38,7 @@ const ACTION_CLASS = "flex h-full w-full min-w-0 max-w-full items-center justify
 
 export function NeuropathyFaq(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-navy text-white">
       <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[3.5rem]">
         <div className="grid gap-8 lg:grid-cols-[42fr_58fr]">
           <div>

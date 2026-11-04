@@ -19,7 +19,7 @@ const NEEDS_CONVERSATION = [
 
 export function NeuropathyOrientation(): React.ReactElement {
   return (
-    <section id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="visitor-orientation" id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-14 pb-12 sm:px-10 lg:grid-cols-[47fr_53fr] lg:gap-6 lg:pt-14 lg:pb-0 lg:pl-[3.5rem] lg:pr-6">
         <div className="lg:pb-12">
           <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.6rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">

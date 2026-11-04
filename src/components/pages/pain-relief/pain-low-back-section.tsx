@@ -5,7 +5,7 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function PainLowBackSection(): React.ReactElement {
   return (
-    <section id="low-back" className="relative scroll-mt-24 overflow-hidden bg-slate text-white">
+    <section data-mega-section="low-back" id="low-back" className="relative scroll-mt-24 overflow-hidden bg-slate text-white">
       <div className="grid lg:min-h-[34rem] lg:grid-cols-[50fr_50fr]">
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <div className="relative pl-8">
@@ -23,7 +23,7 @@ export function PainLowBackSection(): React.ReactElement {
           <StairSteps count={5} direction="down" className="absolute top-[32%] right-[-2rem] hidden text-[1.05rem] lg:flex" />
           <div className="relative mt-10 -mx-6 sm:-mx-10 lg:mr-[8%] lg:ml-0">
             <TallBracket className="absolute top-4 bottom-4 -left-0 hidden w-4 text-silver lg:block" />
-            <Link
+            <Link data-mega-cta="book-appointment"
               href="/book"
               className="group block bg-royal px-6 py-7 sm:px-10 lg:ml-8 lg:px-8 lg:[clip-path:polygon(0_0,72%_0,100%_100%,0_100%)]"
             >

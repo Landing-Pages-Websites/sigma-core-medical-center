@@ -9,7 +9,7 @@ const CONNECT_LINK = "relative flex min-h-11 items-center gap-3 py-2 justify-bet
 
 export function PainFaq(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[32fr_68fr]">
         <div className="flex flex-col">
           <div className="px-6 pt-14 pb-8 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
@@ -53,7 +53,7 @@ export function PainFaq(): React.ReactElement {
             <p className="font-heading text-lg font-bold">Availability</p>
             <p className="mt-1 text-xs leading-snug text-white/85">Scheduling and terms are unavailable. These links show their status.</p>
             <div className="mt-4 space-y-3">
-              <Link href="/book" className={CONNECT_LINK}>
+              <Link data-mega-cta="book-appointment" href="/book" className={CONNECT_LINK}>
                 <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
                 <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white" />
               </Link>

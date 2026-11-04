@@ -10,7 +10,7 @@ const PRINCIPLES = [
 
 export function CarePrinciples(): React.ReactElement {
   return (
-    <section id="care-principles" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="care-principles" id="care-principles" className="relative overflow-hidden bg-slate text-white">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 py-14 sm:px-10 lg:grid-cols-[3fr_2fr] lg:gap-16 lg:px-14 lg:py-16">
         <div>
           <h2 className="flex items-center gap-3 font-heading text-[clamp(2.8rem,5.4vw,4.8rem)] leading-none font-bold tracking-[-0.035em]">
@@ -26,7 +26,7 @@ export function CarePrinciples(): React.ReactElement {
         <div className="self-end bg-royal px-6 py-10 sm:px-10 lg:pt-16 lg:[clip-path:polygon(12%_0,100%_0,100%_100%,0_100%,0_16%)]">
           <h3 className="font-heading text-3xl font-bold">Consultation path</h3>
           <p className="mt-3 text-lg leading-relaxed">Review current scheduling status and inquiry options on the appointment page.</p>
-          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-5 py-3 font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-6px]">Explore consultation options <ArrowRight className="shrink-0" size={20} aria-hidden /></Link>
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-5 py-3 font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-6px]">Explore consultation options <ArrowRight className="shrink-0" size={20} aria-hidden /></Link>
         </div>
       </div>
     </section>

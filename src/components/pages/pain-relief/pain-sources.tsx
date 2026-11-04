@@ -7,7 +7,7 @@ const GROUP_ICONS = [Bone, AlignVerticalSpaceAround, UserRound] as const;
 
 export function PainSources(): React.ReactElement {
   return (
-    <section id="medical-sources" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="medical-sources" id="medical-sources" className="relative overflow-hidden bg-navy text-white">
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[71fr_29fr] lg:gap-4 lg:py-12 lg:pl-[3.5rem]">
         <div>
           <div className="relative flex items-end justify-between gap-6 px-8 py-3 lg:mr-10">

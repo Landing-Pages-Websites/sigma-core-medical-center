@@ -6,7 +6,7 @@ import { primaryButtonA, secondaryButtonA } from "@/components/variant-a/buttons
 
 export function HeroA(): React.ReactElement {
   return (
-    <section id="hero" aria-label="Introduction" className="bg-ink">
+    <section data-mega-section="hero" id="hero" aria-label="Introduction" className="bg-ink">
       <div className="lg:grid lg:min-h-[44rem] lg:grid-cols-[45fr_55fr]">
         <div className="relative h-[26rem] sm:h-[30rem] lg:h-auto">
           <Image

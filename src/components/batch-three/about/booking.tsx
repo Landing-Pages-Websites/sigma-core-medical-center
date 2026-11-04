@@ -3,11 +3,11 @@ import { ArrowRight } from "lucide-react";
 
 export function AboutBooking(): React.ReactElement {
   return (
-    <section id="booking-cta" className="about-booking" aria-labelledby="about-booking-title">
+    <section data-mega-section="booking-cta" id="booking-cta" className="about-booking" aria-labelledby="about-booking-title">
       <div className="about-shell">
         <h2 id="about-booking-title">Start with your goals.</h2>
         <p className="about-booking-intro">See the current appointment status before planning your next step.</p>
-        <Link href="/book" className="about-action about-booking-action">See booking status <ArrowRight aria-hidden="true" /></Link>
+        <Link data-mega-cta="book-appointment" href="/book" className="about-action about-booking-action">See booking status <ArrowRight aria-hidden="true" /></Link>
         <div className="about-booking-notice">
           <svg className="about-booking-bracket" viewBox="0 0 40 200" preserveAspectRatio="none" aria-hidden="true"><path d="M3 0 V88 H37 V197 H0" /></svg>
           <div className="about-booking-status">

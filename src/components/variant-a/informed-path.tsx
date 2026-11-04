@@ -4,7 +4,7 @@ import { Reveal } from "@/components/shared/reveal";
 
 export function InformedPathA(): React.ReactElement {
   return (
-    <section id="how-it-works" aria-label="What happens next" className="bg-surface">
+    <section data-mega-section="how-it-works" id="how-it-works" aria-label="What happens next" className="bg-surface">
       <div className="mx-auto max-w-7xl px-6 pt-16 sm:px-10 lg:pt-24">
         <Reveal>
           <h2 className="max-w-xl font-display text-4xl leading-[1.18] font-semibold tracking-tight text-ink sm:text-[2.6rem]">

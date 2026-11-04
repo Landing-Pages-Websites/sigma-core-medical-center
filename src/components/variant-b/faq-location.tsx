@@ -13,7 +13,7 @@ const ITEM_INDENTS = ["lg:ml-0", "lg:ml-8", "lg:ml-16", "lg:ml-24"];
 export function FaqLocationB(): React.ReactElement {
   const accordion = useAccordion();
   return (
-    <section id="faq" aria-label="Questions and location" className="relative overflow-hidden bg-surface">
+    <section data-mega-section="faq" id="faq" aria-label="Questions and location" className="relative overflow-hidden bg-surface">
       <GhostWord
         word="Richmond"
         className="-top-2 left-0 text-[clamp(6rem,21vw,20rem)] whitespace-nowrap text-silver/45 lg:-top-8"
@@ -78,7 +78,7 @@ export function FaqLocationB(): React.ReactElement {
             <p className="mt-5 max-w-60 border-l-2 border-silver/50 pl-4 text-base text-white/70">
               {FAQ.addressNote}
             </p>
-            <Link href="/book" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
+            <Link data-mega-cta="book-appointment" href="/book" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
           </div>
         </Reveal>
       </div>

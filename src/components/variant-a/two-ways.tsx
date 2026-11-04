@@ -81,7 +81,7 @@ function BookingCardA(): React.ReactElement {
 
 export function TwoWaysA(): React.ReactElement {
   return (
-    <section id="next-steps" aria-label="Two ways forward" className="bg-ink">
+    <section data-mega-section="next-steps" id="next-steps" aria-label="Two ways forward" className="bg-ink">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
         <Reveal>
           <h2 className="max-w-2xl font-display text-4xl leading-[1.18] font-semibold tracking-tight text-white sm:text-[2.6rem]">

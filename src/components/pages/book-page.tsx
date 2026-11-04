@@ -10,7 +10,7 @@ const bookingButton = "inline-flex h-12 items-center justify-center gap-3 bg-act
 export function BookPage(): React.ReactElement {
   return (
     <main>
-      <section className="relative overflow-hidden bg-ink text-white">
+      <section data-mega-section="hero" className="relative overflow-hidden bg-ink text-white">
         <SteppedBars className="absolute top-8 right-10 items-end scale-150" />
         <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:min-h-[43rem] lg:grid-cols-[42fr_58fr] lg:items-center lg:py-20">
           <div>
@@ -33,7 +33,7 @@ export function BookPage(): React.ReactElement {
         <div className="h-5 bg-action" />
       </section>
 
-      <section className="bg-action py-16 text-white sm:py-20">
+      <section data-mega-section="calendar" className="bg-action py-16 text-white sm:py-20">
         <div className="mx-auto max-w-7xl px-6 sm:px-10">
           <h2 className="text-5xl font-semibold tracking-tight sm:text-6xl">GoHighLevel calendar</h2>
           <p className="mt-4 max-w-xl text-lg text-white/80">The approved embedded calendar will handle dates, times, fields, and availability securely.</p>
@@ -54,9 +54,9 @@ export function BookPage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-surface py-16 text-ink sm:py-20">
+      <section data-mega-section="privacy-note" className="bg-surface py-16 text-ink sm:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 sm:px-10 lg:grid-cols-[42fr_58fr] lg:items-center">
-          <div><SteppedBars className="mb-6" /><h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">Privacy note</h2><p className="mt-5 max-w-xl text-base leading-relaxed text-muted">We respect your privacy and are committed to protecting personal health information. Information is used only to provide and coordinate care, communicate with you, and operate our practice.</p><Link href="/contact" className="mt-7 inline-flex items-center gap-2 font-semibold text-action hover:underline">Ask a general question <ArrowRight size={17} /></Link></div>
+          <div><SteppedBars className="mb-6" /><h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">Privacy note</h2><p className="mt-5 max-w-xl text-base leading-relaxed text-muted">We respect your privacy and are committed to protecting personal health information. Information is used only to provide and coordinate care, communicate with you, and operate our practice.</p><Link data-mega-cta="contact" href="/contact" className="mt-7 inline-flex items-center gap-2 font-semibold text-action hover:underline">Ask a general question <ArrowRight size={17} /></Link></div>
           <div className="relative min-h-80 overflow-hidden bg-paper p-8 sm:p-10"><div className="absolute inset-y-0 right-0 w-1/2"><Image src="/images/shared/reception-1.webp" alt="Sigma Core reception" fill sizes="(min-width: 1024px) 29vw, 50vw" className="object-cover opacity-35" /></div><div className="relative max-w-sm border-l-4 border-ink pl-5"><CalendarClock size={35} className="text-action" /><h3 className="mt-5 text-2xl font-semibold">Book your appointment</h3><p className="mt-3 text-muted">Use our secure scheduling experience to find a time that works for you when the calendar is live.</p></div></div>
         </div>
       </section>

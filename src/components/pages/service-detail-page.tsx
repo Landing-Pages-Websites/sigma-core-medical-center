@@ -28,7 +28,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
         bullets={data.heroBullets}
       />
 
-      <section className="relative overflow-hidden bg-action py-16 text-white sm:py-20">
+      <section data-mega-section="service-overview" className="relative overflow-hidden bg-action py-16 text-white sm:py-20">
         <div aria-hidden className="absolute inset-y-0 right-0 hidden w-[32%] bg-charcoal lg:block [clip-path:polygon(24%_0,100%_0,100%_100%,0_100%)]" />
         <div className="relative mx-auto max-w-7xl px-6 sm:px-10">
           <h2 className={`flex items-start gap-4 text-4xl leading-none tracking-tight sm:text-6xl ${data.enhancedLayout ? "font-extrabold" : "font-semibold"}`}>
@@ -115,7 +115,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-surface py-16 text-ink sm:py-24">
+      <section data-mega-section="service-details" className="relative overflow-hidden bg-surface py-16 text-ink sm:py-24">
         <div className="mx-auto max-w-7xl px-6 sm:px-10">
           <div className="grid gap-8 lg:grid-cols-[54fr_46fr] lg:items-end">
             <div>
@@ -142,7 +142,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
               </div>
               <div className="mt-8 flex flex-col items-center justify-between gap-4 bg-charcoal px-6 py-5 text-white sm:flex-row sm:px-8">
                 <p className="text-base font-semibold">{data.decisionCtaLabel ?? "Ready to start the conversation?"}</p>
-                <Link href="/book" className="inline-flex h-11 items-center gap-2 bg-action px-5 text-sm font-semibold text-white transition-colors hover:bg-hover">
+                <Link data-mega-cta="book-appointment" href="/book" className="inline-flex h-11 items-center gap-2 bg-action px-5 text-sm font-semibold text-white transition-colors hover:bg-hover">
                   Book an Appointment <ArrowRight size={16} aria-hidden />
                 </Link>
               </div>
@@ -164,14 +164,14 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
               </div>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link href="/about" className="inline-flex h-12 items-center gap-2 border-2 border-action px-5 font-semibold text-action hover:bg-action hover:text-white">About our approach <ArrowRight size={17} /></Link>
-                <Link href="/book" className="inline-flex h-12 items-center gap-2 bg-action px-5 font-semibold text-white hover:bg-hover">Book a conversation <ArrowRight size={17} /></Link>
+                <Link data-mega-cta="book-appointment" href="/book" className="inline-flex h-12 items-center gap-2 bg-action px-5 font-semibold text-white hover:bg-hover">Book a conversation <ArrowRight size={17} /></Link>
               </div>
             </>
           )}
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-charcoal text-white">
+      <section data-mega-section="service-next-step" className="relative overflow-hidden bg-charcoal text-white">
         <div className="mx-auto grid max-w-[90rem] lg:grid-cols-[46fr_54fr]">
           <div className="px-6 py-16 sm:px-10 sm:py-20 lg:py-24">
             <SteppedBars className="mb-7" />
@@ -190,7 +190,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
                 ))}
               </div>
             ) : (
-              <Link href="/book" className="mt-8 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white hover:bg-hover">Book an Appointment <ArrowRight size={18} /></Link>
+              <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white hover:bg-hover">Book an Appointment <ArrowRight size={18} /></Link>
             )}
             <p className="mt-5 max-w-lg border-l-2 border-silver pl-4 text-sm text-white/55">General website information is not medical advice. Care options and outcomes vary.</p>
           </div>

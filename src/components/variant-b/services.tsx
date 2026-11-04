@@ -96,7 +96,7 @@ function PrimaryServiceB(): React.ReactElement {
 
 export function ServicesB(): React.ReactElement {
   return (
-    <section id="services" aria-label="Care categories" className="relative overflow-hidden bg-surface">
+    <section data-mega-section="services" id="services" aria-label="Care categories" className="relative overflow-hidden bg-surface">
       <GhostWord
         word="Care"
         className="-top-6 left-0 text-[7.5rem] text-silver/60 sm:text-[11rem] lg:-top-14 lg:text-[18rem]"

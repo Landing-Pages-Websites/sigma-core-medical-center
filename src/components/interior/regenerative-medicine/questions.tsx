@@ -10,7 +10,7 @@ const QUESTIONS = [
 ];
 
 export function RegenQuestions(): React.ReactElement {
-  return <section id="questions-for-a-consultation" className="b2-section r-questions"><div className="b2-wrap">
+  return <section data-mega-section="questions-for-a-consultation" id="questions-for-a-consultation" className="b2-section r-questions"><div className="b2-wrap">
     <h2>Questions For A Consultation</h2>
     <p className="r-questions-lead">Use these questions to evaluate the exact product or procedure, the provider, evidence, alternatives, and follow-up. They are not claims about a Sigma Core offering.</p>
     <div className="r-question-cards">{QUESTIONS.map((item) => <article key={item.name}><item.Icon aria-hidden="true" size={36} strokeWidth={1.7} /><h3>{item.name}</h3><p>{item.prompt}</p></article>)}</div>

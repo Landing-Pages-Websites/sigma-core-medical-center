@@ -11,6 +11,8 @@ import { SCORECARD_PURPOSE } from "@/lib/leadSubmit";
 /** Served only to the signed entitlement cookie set by an accepted scorecard submission. */
 const SCORECARD_PDF_PATH = "/api/lead?resource=scorecard";
 const PHONE_HELP_ID = "scorecard-phone-help";
+/** Names this form in tracking events (`data-mega-form`). */
+const FORM_KEY = "scorecard";
 
 /** Mirrors LeadField's attributes; that component hard-codes contact-* ids and contact-page styles. */
 const FIELDS = {
@@ -45,7 +47,7 @@ function ScorecardDownload(): React.ReactElement {
   return (
     <div className="mt-5 border-l-[3px] border-royal bg-surface px-5 py-4">
       <p className="text-sm leading-snug text-ink/85">Thank you. Your details were received. Your scorecard is ready below.</p>
-      <a ref={linkRef} href={SCORECARD_PDF_PATH} download type="application/pdf"
+      <a ref={linkRef} href={SCORECARD_PDF_PATH} download type="application/pdf" data-mega-cta="download-scorecard"
         className="mt-3 inline-flex min-h-12 max-w-full items-center gap-3 bg-royal px-5 py-3 text-base leading-snug font-semibold text-white transition-colors duration-200 hover:bg-royal-hover focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-focus motion-reduce:transition-none">
         <FileDown size={22} className="shrink-0" aria-hidden /> Download the Neuropathy Clarity Scorecard
       </a>
@@ -60,11 +62,11 @@ function sendLabel(sending: boolean, success: boolean): string {
 }
 
 export function ScorecardForm(): React.ReactElement {
-  const { formRef, captchaRef, status, errors, request, ...events } = useContactForm();
+  const { formRef, captchaRef, status, errors, request, ...events } = useContactForm(FORM_KEY);
   const sending = status === "sending";
   const success = status === "success";
   return (
-    <form id="scorecard-form" action="/api/lead" method="post" ref={formRef} {...events}
+    <form id="scorecard-form" data-mega-form={FORM_KEY} action="/api/lead" method="post" ref={formRef} {...events}
       noValidate aria-labelledby="scorecard-form-title" aria-describedby="scorecard-form-note" aria-busy={sending} className="relative scroll-mt-32 text-left">
       <p id="scorecard-form-note" className="text-sm leading-relaxed text-ink/80">
         All four fields are required. Share contact details only—please don&apos;t include symptoms or medical history.
@@ -78,7 +80,7 @@ export function ScorecardForm(): React.ReactElement {
         <HoneypotField />
       </div>
       <CaptchaWidget ref={captchaRef} onReady={ignoreReadiness} />
-      <button type="button" disabled={sending || success} onClick={request}
+      <button type="button" data-mega-cta="get-scorecard" disabled={sending || success} onClick={request}
         className="mt-6 inline-flex min-h-14 w-full items-center justify-between gap-5 bg-royal px-6 py-3 text-left text-lg font-semibold text-white transition-colors duration-200 hover:bg-royal-hover focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-focus disabled:cursor-default disabled:bg-silver disabled:text-ink motion-reduce:transition-none">
         {sendLabel(sending, success)} <ArrowRight size={22} className="shrink-0" aria-hidden />
       </button>

@@ -13,7 +13,7 @@ const HEADING_BARS = ["h-2 bg-silver", "h-3 bg-silver", "h-4 bg-[#8d949c]", "h-5
 
 export function NeuropathyDecisions(): React.ReactElement {
   return (
-    <section id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[66fr_34fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-4">

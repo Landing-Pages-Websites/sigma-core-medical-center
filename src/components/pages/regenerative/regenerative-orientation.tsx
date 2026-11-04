@@ -10,7 +10,7 @@ const BOUNDARY_LINES = [
 
 export function RegenerativeOrientation(): React.ReactElement {
   return (
-    <section id="category-orientation" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="category-orientation" id="category-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="grid lg:min-h-[38rem] lg:grid-cols-[48fr_52fr]">
         <div className="relative z-10 pt-12 lg:pt-14">
           <h2 className="px-6 font-heading text-[clamp(3rem,6.6vw,6rem)] leading-[0.95] font-bold tracking-[-0.035em] sm:px-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">

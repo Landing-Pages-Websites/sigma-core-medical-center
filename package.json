@@ -11,12 +11,13 @@
     "typecheck": "tsc --noEmit",
     "test:integration": "node --import ./src/lib/leadOfflineTests.mjs --import tsx --test tests/*.test.ts src/lib/blog-contract.test.mjs src/components/analytics/*.test.mjs",
     "blog:inventory": "node scripts/update-blog-inventory.mjs",
-    "test:mega-preview": "node --test --experimental-strip-types src/mega-preview/*.test.mjs scripts/preview-wiring.test.mjs"
+    "test:mega-preview": "node --test --experimental-strip-types src/mega-preview/*.test.mjs scripts/preview-wiring.test.mjs",
+    "test:tracking": "tsx --test \"src/lib/tracking/*.test.ts\" src/lib/consent.test.ts src/lib/track.test.ts src/lib/megaTag.test.ts src/lib/lead-attempt.test.ts src/lib/previewClientEnv.test.ts src/lib/captcha/telemetry.test.ts \"src/components/consent/*.test.ts\""
   },
   "dependencies": {
     "lucide-react": "^0.540.0",
     "next": "^16.0.0",
-    "posthog-js": "^1.438.12",
+    "posthog-js": "^1.396.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

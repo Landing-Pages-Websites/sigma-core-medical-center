@@ -10,7 +10,7 @@ import { primaryButtonA } from "@/components/variant-a/buttons";
 export function FaqLocationA(): React.ReactElement {
   const accordion = useAccordion();
   return (
-    <section id="faq" aria-label="Questions and location" className="bg-surface">
+    <section data-mega-section="faq" id="faq" aria-label="Questions and location" className="bg-surface">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:grid lg:grid-cols-[55fr_45fr] lg:gap-16 lg:py-24">
         <div>
           <div className="flex items-start gap-3">

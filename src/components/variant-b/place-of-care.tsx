@@ -17,7 +17,7 @@ function OpeningPanel({ className }: { className: string }): React.ReactElement 
         9020 Stony Point Pkwy #100, Richmond, VA 23235
       </p>
       <p className="mt-2 text-sm text-white/80">
-        <a className="underline-offset-2 hover:underline" href="tel:+18044867699">
+        <a data-mega-cta="call-now" className="underline-offset-2 hover:underline" href="tel:+18044867699">
           804-486-7699
         </a>
       </p>
@@ -102,7 +102,7 @@ function FacilityPanorama(): React.ReactElement {
 
 export function PlaceOfCareB(): React.ReactElement {
   return (
-    <section id="place-of-care" aria-label="The Sigma Core clinic" className="bg-charcoal">
+    <section data-mega-section="place-of-care" id="place-of-care" aria-label="The Sigma Core clinic" className="bg-charcoal">
       <div className="mx-auto max-w-[90rem] lg:grid lg:grid-cols-[52fr_10fr_38fr]">
         <FacilityPanorama />
         <div className="relative mt-8 flex h-36 items-center justify-center lg:mt-0 lg:h-auto">

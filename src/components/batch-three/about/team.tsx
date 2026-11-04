@@ -1,6 +1,6 @@
 export function AboutTeam(): React.ReactElement {
   return (
-    <section id="team-publication-gate" className="about-team" aria-labelledby="about-team-title">
+    <section data-mega-section="team-publication-gate" id="team-publication-gate" className="about-team" aria-labelledby="about-team-title">
       <div className="about-shell">
         <h2 id="about-team-title">About our care team</h2>
         <div className="about-team-note">

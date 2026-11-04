@@ -6,7 +6,7 @@ const STEP_OFFSETS = ["lg:translate-y-0", "lg:translate-y-12", "lg:translate-y-2
 
 export function InformedPathB(): React.ReactElement {
   return (
-    <section id="how-it-works" aria-label="What happens next" className="relative overflow-hidden bg-surface">
+    <section data-mega-section="how-it-works" id="how-it-works" aria-label="What happens next" className="relative overflow-hidden bg-surface">
       <div
         aria-hidden
         className="absolute right-0 bottom-0 left-0 hidden h-14 bg-paper lg:block"

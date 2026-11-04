@@ -2,7 +2,7 @@ import { CalendarOff } from "lucide-react";
 
 export function BookHero(): React.ReactElement {
   return (
-    <section id="booking-hero" className="book-section book-hero" aria-labelledby="book-title">
+    <section data-mega-section="booking-hero" id="booking-hero" className="book-section book-hero" aria-labelledby="book-title">
       <div className="book-shell book-hero-layout">
         <div className="book-hero-copy">
           <h1 id="book-title" className="book-bracket">Appointment <br />scheduling</h1>

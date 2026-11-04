@@ -14,7 +14,7 @@ const FEATURE_STRIPES = ["w-[62%] ml-[38%]", "w-[66%] ml-[24%]", "w-[70%] ml-[12
 
 export function NeuropathyFeature(): React.ReactElement {
   return (
-    <section id="neuropathy-feature" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="neuropathy-feature" id="neuropathy-feature" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 pt-14 sm:px-10 lg:grid-cols-[62fr_38fr] lg:gap-0 lg:pt-20 lg:pl-[3.75rem]">
         <div className="lg:pt-8">
           <h2 className="font-heading text-[clamp(2.6rem,6vw,5.6rem)] leading-[0.95] font-bold tracking-[-0.035em]">Neuropathy care and daily function</h2>

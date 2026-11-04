@@ -5,7 +5,7 @@ import { RisingBars, TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function PelvicExpect(): React.ReactElement {
   return (
-    <section id="what-to-expect" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="what-to-expect" id="what-to-expect" className="relative overflow-hidden bg-slate text-white">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 py-14 sm:px-10 lg:grid-cols-[44fr_56fr] lg:gap-6 lg:py-16 lg:pl-[3.5rem]">
         <div>
           <span aria-hidden className="flex items-center gap-1">
@@ -18,7 +18,7 @@ export function PelvicExpect(): React.ReactElement {
           <p className="mt-6 max-w-[28rem] text-lg leading-snug text-white/90">
             An appropriate provider can explain what an incontinence evaluation may include, whether pelvic floor therapy may be appropriate, and what options or follow-up may be considered. Online scheduling is not yet available.
           </p>
-          <Link href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-6 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-6 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check evaluation status <ArrowRight size={24} aria-hidden className="shrink-0" />
           </Link>
           <p className="mt-6 flex items-center gap-4 text-sm leading-snug text-white/85">

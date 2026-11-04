@@ -4,7 +4,7 @@ const LEGAL_LINK_CLASS = "font-semibold underline underline-offset-4 transition-
 
 export function BookPrivacy(): React.ReactElement {
   return (
-    <section id="privacy-note" className="book-section book-privacy" aria-labelledby="book-privacy-title">
+    <section data-mega-section="privacy-note" id="privacy-note" className="book-section book-privacy" aria-labelledby="book-privacy-title">
       <div className="book-shell book-privacy-layout">
         <h2 id="book-privacy-title" className="book-bracket">Privacy &amp; legal <br />information</h2>
         <div className="book-pending-note">

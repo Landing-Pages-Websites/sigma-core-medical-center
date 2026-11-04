@@ -75,7 +75,7 @@ const FAQS = [
 
 function PhoneCta({ children }: Readonly<{ children: React.ReactNode }>): React.ReactElement {
   return (
-    <a
+    <a data-mega-cta="call-now"
       href={PHONE_HREF}
       className="inline-flex min-h-14 items-center justify-between gap-6 border border-white bg-white px-5 py-3 text-base font-semibold text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] sm:px-6"
     >
@@ -88,7 +88,7 @@ function PhoneCta({ children }: Readonly<{ children: React.ReactNode }>): React.
 export function RichmondRegenerativeMedicinePage(): React.ReactElement {
   return (
     <main className="overflow-hidden bg-surface text-ink">
-      <section className="bg-navy text-white">
+      <section data-mega-section="hero" className="bg-navy text-white">
         <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
           <div className="relative flex flex-col justify-center px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
             <p className="mb-5 text-xs font-bold uppercase tracking-[0.32em] text-sky">Regenerative medicine in Richmond</p>
@@ -121,7 +121,7 @@ export function RichmondRegenerativeMedicinePage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-chalk px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
+      <section data-mega-section="overview" className="bg-chalk px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
         <div className="mx-auto max-w-5xl">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-royal">Start with context</p>
           <h2 className="mt-4 max-w-3xl font-heading text-[clamp(2.1rem,4vw,3.8rem)] leading-tight font-bold tracking-[-0.03em]">Regenerative medicine is a conversation, not a promise</h2>
@@ -138,7 +138,7 @@ export function RichmondRegenerativeMedicinePage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-royal px-6 py-16 text-white sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
+      <section data-mega-section="consultation-topics" className="bg-royal px-6 py-16 text-white sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
         <div className="mx-auto max-w-5xl">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-sky">A qualified conversation</p>
           <h2 className="mt-4 max-w-3xl font-heading text-[clamp(2.1rem,4vw,3.8rem)] leading-tight font-bold tracking-[-0.03em]">What to discuss in a consultation</h2>
@@ -151,11 +151,11 @@ export function RichmondRegenerativeMedicinePage(): React.ReactElement {
               </article>
             ))}
           </div>
-          <a href={PHONE_HREF} className="mt-10 inline-flex items-center gap-4 border border-white px-6 py-4 text-lg font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px]">Call {PHONE}<ArrowRight size={20} aria-hidden /></a>
+          <a data-mega-cta="call-now" href={PHONE_HREF} className="mt-10 inline-flex items-center gap-4 border border-white px-6 py-4 text-lg font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px]">Call {PHONE}<ArrowRight size={20} aria-hidden /></a>
         </div>
       </section>
 
-      <section className="bg-surface px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
+      <section data-mega-section="questions" className="bg-surface px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
         <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[0.75fr_1.25fr]">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.3em] text-royal">Bring these questions</p>
@@ -170,7 +170,7 @@ export function RichmondRegenerativeMedicinePage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-chalk px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
+      <section data-mega-section="faq" className="bg-chalk px-6 py-16 sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
         <div className="mx-auto max-w-5xl">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-royal">Plain-language answers</p>
           <h2 className="mt-4 max-w-4xl font-heading text-[clamp(2.1rem,4vw,3.8rem)] leading-tight font-bold tracking-[-0.03em]">Common questions about regenerative medicine in Richmond</h2>
@@ -185,25 +185,25 @@ export function RichmondRegenerativeMedicinePage(): React.ReactElement {
         </div>
       </section>
 
-      <section className="bg-navy px-6 py-16 text-white sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
+      <section data-mega-section="booking-cta" className="bg-navy px-6 py-16 text-white sm:px-10 lg:px-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:py-24">
         <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.3em] text-sky">Next step</p>
             <h2 className="mt-4 font-heading text-[clamp(2.1rem,4vw,3.8rem)] leading-tight font-bold tracking-[-0.03em]">Start with a Free Consultation</h2>
             <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">Call 804-486-7699 to discuss your goals, questions, and possible next steps. This conversation is informational and does not guarantee a result.</p>
           </div>
-          <a href={PHONE_HREF} className="inline-flex min-h-14 items-center justify-between gap-6 bg-royal px-6 py-4 text-lg font-semibold transition-colors hover:bg-sky focus-visible:outline-2 focus-visible:outline-offset-[-4px]">Call {PHONE}<ArrowRight size={20} aria-hidden /></a>
+          <a data-mega-cta="call-now" href={PHONE_HREF} className="inline-flex min-h-14 items-center justify-between gap-6 bg-royal px-6 py-4 text-lg font-semibold transition-colors hover:bg-sky focus-visible:outline-2 focus-visible:outline-offset-[-4px]">Call {PHONE}<ArrowRight size={20} aria-hidden /></a>
         </div>
         <div className="mx-auto mt-14 grid max-w-5xl gap-4 border-t border-white/20 pt-8 text-sm text-white/75 sm:grid-cols-2 lg:grid-cols-3">
           <div><p className="font-semibold text-white">Sigma Core Medical Center</p><p className="mt-1">{ADDRESS}</p></div>
-          <div><p className="font-semibold text-white">Call</p><a href={PHONE_HREF} className="mt-1 inline-block hover:text-sky">{PHONE}</a></div>
+          <div><p className="font-semibold text-white">Call</p><a data-mega-cta="call-now" href={PHONE_HREF} className="mt-1 inline-block hover:text-sky">{PHONE}</a></div>
           <div><p className="font-semibold text-white">Hours</p><p className="mt-1">{HOURS}</p></div>
         </div>
         <nav aria-label="Related Sigma Core pages" className="mx-auto mt-8 flex max-w-5xl flex-wrap gap-x-6 gap-y-3 border-t border-white/20 pt-6 text-sm font-semibold text-sky">
           <Link href="/services/regenerative-medicine" className="hover:text-white">Regenerative medicine overview</Link>
           <Link href="/services/regenerative-medicine/prp-injection" className="hover:text-white">PRP Injection Care</Link>
           <Link href="/services" className="hover:text-white">All services</Link>
-          <Link href="/contact" className="hover:text-white">Contact Sigma Core</Link>
+          <Link data-mega-cta="contact" href="/contact" className="hover:text-white">Contact Sigma Core</Link>
         </nav>
       </section>
     </main>

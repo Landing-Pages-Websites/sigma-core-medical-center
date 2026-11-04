@@ -9,7 +9,7 @@ const BASE_BARS = ["h-1", "h-1.5", "h-2", "h-2.5", "h-3", "h-3.5", "h-4"] as con
 
 export function NeuropathyExpectation({ data }: { data: ServicePageData }): React.ReactElement {
   return (
-    <section id="what-to-expect" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="what-to-expect" id="what-to-expect" className="relative overflow-hidden bg-slate text-white">
       <div className="grid lg:min-h-[32rem] lg:grid-cols-[40fr_60fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:py-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <span aria-hidden className="flex items-end gap-1.5">
@@ -21,7 +21,7 @@ export function NeuropathyExpectation({ data }: { data: ServicePageData }): Reac
           <h2 className="mt-4 font-heading text-[clamp(2.8rem,5.6vw,5.2rem)] leading-none font-bold tracking-[-0.035em]">What To Expect</h2>
           <span aria-hidden className="mt-5 block h-1 w-14 bg-royal" />
           <p className="mt-6 max-w-[22rem] text-xl leading-snug text-white/92">{data.expectBody}</p>
-          <Link
+          <Link data-mega-cta="book-appointment"
             href="/book"
             className="group mt-8 inline-flex max-w-full min-h-14 items-center gap-5 bg-royal pr-12 pl-6 text-xl font-semibold transition-colors [clip-path:polygon(0_0,88%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >

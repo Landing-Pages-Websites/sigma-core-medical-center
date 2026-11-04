@@ -43,7 +43,7 @@ const PATH_PILL =
 
 export function ServiceNavigation(): React.ReactElement {
   return (
-    <section id="services" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="services" id="services" className="relative overflow-hidden bg-chalk text-ink">
       <div className="mx-auto grid max-w-[90rem] gap-4 px-6 py-14 sm:px-10 lg:grid-cols-[56fr_23fr_21fr] lg:gap-0 lg:py-0 lg:pl-[3.75rem] lg:pr-0">
         <div className="min-w-0 lg:py-14 lg:pr-0">
           <div className="flex items-start gap-4">

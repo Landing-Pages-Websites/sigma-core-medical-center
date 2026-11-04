@@ -9,7 +9,7 @@ const SOURCES = [
 
 export function HormoneSources(): React.ReactElement {
   return (
-    <section id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="medical-sources" id="medical-sources" className="relative overflow-hidden bg-chalk text-ink">
       <div aria-hidden className="h-2 bg-royal" />
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 py-14 sm:px-10 lg:grid-cols-[57fr_43fr] lg:gap-2 lg:py-12 lg:pl-[3.5rem]">
         <div className="relative">

@@ -17,7 +17,7 @@ const PATH_BUTTONS = [
 
 export function RegenerativeQuestions(): React.ReactElement {
   return (
-    <section id="questions" className="relative overflow-hidden bg-chalk text-ink">
+    <section data-mega-section="questions" id="questions" className="relative overflow-hidden bg-chalk text-ink">
       <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[3.5rem]">
         <MiniStairs className="absolute top-12 right-[6%] hidden scale-[2] text-royal lg:inline-flex" />
         <h2 className="font-heading text-[clamp(2.6rem,5.2vw,4.8rem)] leading-none font-bold tracking-[-0.03em] text-navy">Questions For A Consultation</h2>

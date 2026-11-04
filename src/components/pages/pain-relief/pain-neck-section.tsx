@@ -6,7 +6,7 @@ const GOAL_BARS = ["h-3 bg-royal", "h-4 bg-royal", "h-5 bg-[#2f7fe0]", "h-6 bg-[
 
 export function PainNeckSection(): React.ReactElement {
   return (
-    <section id="neck" className="relative scroll-mt-24 overflow-hidden bg-navy text-white">
+    <section data-mega-section="neck" id="neck" className="relative scroll-mt-24 overflow-hidden bg-navy text-white">
       <p className="mx-auto max-w-[90rem] px-6 pt-3 text-xs text-white/80 sm:px-10 lg:pl-[3.5rem]">
         <span className="inline-flex items-center gap-2 border-b border-white/25 pb-2">
           <TallBracket className="h-4 w-1.5 text-royal" /> Content for educational use. Not intended to replace professional evaluation.
@@ -65,7 +65,7 @@ function RouteStrip(): React.ReactElement {
             Movement first.
           </p>
         </div>
-        <Link href="/book" className="group flex flex-col justify-center bg-royal px-5 py-6 transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+        <Link data-mega-cta="book-appointment" href="/book" className="group flex flex-col justify-center bg-royal px-5 py-6 transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
           <span className="font-heading text-xl font-bold">Check booking status</span>
           <span className="mt-2 text-xs font-semibold tracking-[0.2em] uppercase">
             Online scheduling

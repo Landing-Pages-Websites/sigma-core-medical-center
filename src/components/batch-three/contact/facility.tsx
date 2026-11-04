@@ -8,7 +8,7 @@ const visitDetails = [
 
 export function ContactFacility(): React.ReactElement {
   return (
-    <section id="facility-image" className="contact-section contact-facility" aria-labelledby="contact-visit-title">
+    <section data-mega-section="facility-image" id="facility-image" className="contact-section contact-facility" aria-labelledby="contact-visit-title">
       <div className="contact-visit-layout">
         <h2 id="contact-visit-title">Before you visit</h2>
         <div className="contact-visit-panel">

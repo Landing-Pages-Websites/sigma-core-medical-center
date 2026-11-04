@@ -11,7 +11,7 @@ const serviceLinkClass =
 
 export function RichmondCareLinks(): React.ReactElement {
   return (
-    <section
+    <section data-mega-section="richmond-care-links"
       aria-labelledby="richmond-care-links-heading"
       className="border-t border-white/10 py-10"
     >

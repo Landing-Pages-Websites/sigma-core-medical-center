@@ -12,7 +12,7 @@ const OTHER_PATHS = [
 
 export function ChooseNextStep(): React.ReactElement {
   return (
-    <section id="how-it-works" className="relative overflow-hidden bg-[#16202b] text-white">
+    <section data-mega-section="how-it-works" id="how-it-works" className="relative overflow-hidden bg-[#16202b] text-white">
       <div className="mx-auto grid max-w-[90rem] gap-12 px-6 pt-16 sm:px-10 lg:grid-cols-[44fr_56fr] lg:gap-6 lg:pt-20 lg:pl-[3.75rem]">
         <div className="relative pl-6 sm:pl-8">
           <TallBracket className="absolute top-0 bottom-0 left-0 w-4 text-silver/80" />
@@ -40,7 +40,7 @@ export function ChooseNextStep(): React.ReactElement {
               <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[24%] left-[16%] h-auto w-[34%] drop-shadow-lg" />
             </div>
           </div>
-          <Link
+          <Link data-mega-cta="book-appointment"
             href="/book"
             className="group absolute right-0 bottom-6 left-6 flex items-center gap-3 bg-royal px-4 py-5 sm:gap-5 sm:px-6 text-white shadow-[0_18px_40px_rgb(0_0_0/0.35)] transition-colors hover:bg-royal-hover sm:left-auto sm:w-[min(36rem,82%)] sm:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:bottom-10 lg:-right-2 lg:py-6 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >

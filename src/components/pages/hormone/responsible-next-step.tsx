@@ -11,7 +11,7 @@ const LITERACY = [
 
 export function ResponsibleNextStep(): React.ReactElement {
   return (
-    <section id="responsible-next-step" className="relative overflow-hidden bg-slate text-white">
+    <section data-mega-section="responsible-next-step" id="responsible-next-step" className="relative overflow-hidden bg-slate text-white">
       <div className="grid lg:min-h-[36rem] lg:grid-cols-[44fr_31fr_25fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-[0.95] font-bold tracking-[-0.035em]">
@@ -23,7 +23,7 @@ export function ResponsibleNextStep(): React.ReactElement {
             Responsible provider, credentials, actual services, and process details are not yet available.
           </p>
           <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Online scheduling is not yet available.</p>
-          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 flex flex-wrap items-center gap-6">
@@ -32,7 +32,7 @@ export function ResponsibleNextStep(): React.ReactElement {
               The contact page provides availability status only.
             </p>
             <span aria-hidden className="h-10 w-px bg-white/30" />
-            <Link href="/contact" className="inline-flex max-w-full items-center gap-3 text-base font-semibold text-[#4f9bf0] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            <Link data-mega-cta="contact" href="/contact" className="inline-flex max-w-full items-center gap-3 text-base font-semibold text-[#4f9bf0] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               Contact status <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>

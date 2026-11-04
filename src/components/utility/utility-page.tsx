@@ -36,7 +36,7 @@ function renderContents(sections: readonly UtilityDocumentSection[]): React.Reac
 function renderSection({ heading, body }: UtilityDocumentSection): React.ReactElement {
   const id = sectionId(heading);
   return (
-    <section key={id} id={id} aria-labelledby={`${id}-heading`} className="utility-section">
+    <section data-mega-section="policy-section" key={id} id={id} aria-labelledby={`${id}-heading`} className="utility-section">
       <h2 id={`${id}-heading`}>{heading}</h2>
       <p>{withInlineLinks(body)}</p>
     </section>
@@ -53,8 +53,8 @@ function renderRelated(links: UtilityDocument["links"]): React.ReactElement {
       <div className="utility-contact">
         <h2 className="utility-aside-heading">Contact the office</h2>
         <address>
-          <a href={inlineHref(UTILITY_CONTACT.phone)}>{UTILITY_CONTACT.phone}</a>
-          <a href={inlineHref(UTILITY_CONTACT.email)}>{UTILITY_CONTACT.email}</a>
+          <a data-mega-cta="call-now" href={inlineHref(UTILITY_CONTACT.phone)}>{UTILITY_CONTACT.phone}</a>
+          <a data-mega-cta="email" href={inlineHref(UTILITY_CONTACT.email)}>{UTILITY_CONTACT.email}</a>
           {UTILITY_CONTACT.addressLines.map((line) => <span key={line}>{line}</span>)}
         </address>
       </div>

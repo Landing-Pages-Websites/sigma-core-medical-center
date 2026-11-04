@@ -17,7 +17,7 @@ const FAQ_ACTIONS = [
 
 export function RegenerativeFaq(): React.ReactElement {
   return (
-    <section id="faq" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="faq" id="faq" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-6 right-0 z-20 hidden w-[24rem] lg:flex" />
       <div className="grid lg:min-h-[34rem] lg:grid-cols-[30fr_70fr]">
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-20 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">

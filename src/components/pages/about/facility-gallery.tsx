@@ -5,7 +5,7 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function FacilityGallery(): React.ReactElement {
   return (
-    <section id="facility-gallery" className="relative overflow-hidden bg-chalk pt-14 pb-12 text-ink lg:pt-14 lg:pb-14">
+    <section data-mega-section="facility-gallery" id="facility-gallery" className="relative overflow-hidden bg-chalk pt-14 pb-12 text-ink lg:pt-14 lg:pb-14">
       <div className="mx-auto grid max-w-[90rem] gap-8 px-6 sm:px-10 lg:grid-cols-[34fr_54fr_12fr] lg:gap-0 lg:pl-[3.5rem]">
         <div className="lg:pr-8">
           <h2 className="font-heading text-[clamp(2.8rem,5.2vw,4.8rem)] leading-none font-bold tracking-[-0.04em] text-navy">Facility Gallery</h2>
@@ -15,7 +15,7 @@ export function FacilityGallery(): React.ReactElement {
             <p className="max-w-[20rem] text-base leading-relaxed text-ink/85">
               Authentic views of the Sigma Core Medical Center in Richmond, Virginia. These images reflect our actual reception area and waiting room.
             </p>
-            <Link
+            <Link data-mega-cta="contact"
               href="/contact"
               className="mt-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal pr-10 pl-6 font-heading text-lg font-bold tracking-[0.04em] text-white uppercase transition-colors [clip-path:polygon(0_0,100%_0,92%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
             >

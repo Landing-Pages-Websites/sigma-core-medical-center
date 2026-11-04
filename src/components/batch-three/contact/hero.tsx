@@ -3,7 +3,7 @@ import "./contact.css";
 
 export function ContactHero(): React.ReactElement {
   return (
-    <section id="contact-hero" className="contact-section contact-hero" aria-labelledby="contact-title">
+    <section data-mega-section="contact-hero" id="contact-hero" className="contact-section contact-hero" aria-labelledby="contact-title">
       <div className="contact-hero-copy">
         <p className="contact-name">Sigma Core Medical Center</p>
         <h1 id="contact-title">Contact &amp; <span>location</span></h1>

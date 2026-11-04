@@ -11,7 +11,7 @@ const ROUTE_CARDS = [
 
 export function NeuropathyBooking(): React.ReactElement {
   return (
-    <section id="booking-cta" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="booking-cta" id="booking-cta" className="relative overflow-hidden bg-navy text-white">
       <div aria-hidden className="h-6 bg-[#0b2342]" />
       <div className="grid lg:min-h-[32rem] lg:grid-cols-[45fr_55fr]">
         <div className="relative z-10 px-6 pt-12 pb-10 sm:px-10 lg:pt-14 lg:pb-0 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
@@ -41,7 +41,7 @@ export function NeuropathyBooking(): React.ReactElement {
             <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[14%] left-[24%] h-auto w-[30%] drop-shadow-lg" />
           </div>
           <div className="absolute inset-x-0 bottom-0 flex h-[46%] flex-col items-center justify-center bg-royal px-6 lg:left-[2%] lg:[clip-path:polygon(9%_0,100%_0,100%_100%,0_100%)]">
-            <Link href="/book" className="group flex items-center gap-5 border-2 border-white px-7 py-4 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+            <Link data-mega-cta="book-appointment" href="/book" className="group flex items-center gap-5 border-2 border-white px-7 py-4 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="shrink-0" />
               <span className="font-heading text-2xl font-bold sm:text-3xl">Explore a consultation</span>
               <ChevronRight size={28} aria-hidden className="shrink-0" />

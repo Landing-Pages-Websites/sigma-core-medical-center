@@ -36,7 +36,7 @@ function HeroActionsB(): React.ReactElement {
 
 export function HeroB(): React.ReactElement {
   return (
-    <section id="hero" aria-label="Introduction" className="bg-ink">
+    <section data-mega-section="hero" id="hero" aria-label="Introduction" className="bg-ink">
       <div className="bg-surface">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
           <Image

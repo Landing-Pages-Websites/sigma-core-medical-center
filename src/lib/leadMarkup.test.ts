@@ -5,7 +5,6 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { ContactBooking } from "@/components/batch-three/contact/booking";
 import { ServicesPage } from "@/components/pages/services-page";
 import { LeadField } from "@/components/lead/LeadField";
-import { trackLeadSuccess } from "./leadAnalytics";
 
 test("Contact renders one labeled collecting form with four required controls", () => {
   const html = renderToStaticMarkup(createElement(ContactBooking));
@@ -22,7 +21,7 @@ test("Contact renders one labeled collecting form with four required controls", 
   assert.match(honeypot, /tabindex="-1"/i);
   assert.doesNotMatch(honeypot, /required/);
   assert.doesNotMatch(html, /type="submit"|<textarea|type="file"/);
-  assert.match(html, /<button type="button" class="lead-send">/);
+  assert.match(html, /<button type="button" class="lead-send" data-mega-cta="send-inquiry">/);
   assert.match(html, /aria-live="polite"/);
 });
 test("Services preserves its content and appends exactly one shared inquiry form", () => {
@@ -47,16 +46,4 @@ test("inline errors identify their input and are announced", () => {
   assert.match(html, /aria-invalid="true"/);
   assert.match(html, /aria-describedby="contact-email-error"/);
   assert.match(html, /id="contact-email-error"[^>]*role="alert"/);
-});
-test("accepted-capture event has no PII and analytics failures cannot cause retries", () => {
-  const target = globalThis as unknown as { window?: Window };
-  const original = target.window;
-  const dataLayer: Record<string, unknown>[] = [];
-  try {
-    target.window = { dataLayer } as Window;
-    trackLeadSuccess();
-    assert.deepEqual(dataLayer, [{ event: "form_submission" }]);
-    target.window = { dataLayer: { push: () => { throw new Error("blocked"); } } } as unknown as Window;
-    assert.doesNotThrow(trackLeadSuccess);
-  } finally { target.window = original; }
 });

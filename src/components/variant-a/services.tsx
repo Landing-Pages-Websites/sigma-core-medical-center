@@ -12,7 +12,7 @@ export function ServicesA(): React.ReactElement {
     </>
   );
   return (
-    <section id="services" aria-label="Care categories" className="bg-surface">
+    <section data-mega-section="services" id="services" aria-label="Care categories" className="bg-surface">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-24">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-end lg:gap-16">
           <div className="relative order-first h-56 overflow-hidden rounded-md sm:h-64 lg:order-last lg:h-72">

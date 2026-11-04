@@ -6,6 +6,8 @@ import { JsonLd } from "@/components/shared/json-ld";
 import { MegaSnippet } from "@/components/analytics/MegaSnippet";
 import { PostHogProvider } from "@/components/analytics/PostHogProvider";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
+import { TrackingListeners } from "@/components/analytics/TrackingListeners";
+import { ConsentBanner } from "@/components/consent/ConsentBanner";
 import { megaPreviewNavScript } from "@/mega-preview/preview_nav.mjs";
 import "./globals.css";
 
@@ -53,10 +55,6 @@ export const viewport: Viewport = {
   themeColor: "#061a33",
 };
 
-// GA4 property 549743029 (web stream for https://sigmacoremedicalcenter.com),
-// granted through Access. NEXT_PUBLIC_GA4_ID still overrides it when set.
-const SITE_GA4_MEASUREMENT_ID = "G-8Z94ST45J6";
-
 type RootLayoutProps = Readonly<{ children: React.ReactNode }>;
 
 export default function RootLayout({ children }: RootLayoutProps): React.ReactElement {
@@ -78,8 +76,11 @@ export default function RootLayout({ children }: RootLayoutProps): React.ReactEl
         <JsonLd data={siteJsonLd()} />
       </head>
       <body>
-        <PostHogProvider>{children}</PostHogProvider>
-        <GoogleAnalytics measurementId={SITE_GA4_MEASUREMENT_ID} />
+        {children}
+        <ConsentBanner />
+        <GoogleAnalytics />
+        <PostHogProvider />
+        <TrackingListeners />
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import { ArrowDownRight } from "lucide-react";
 
 export function PainHero(): React.ReactElement {
   return (
-    <section id="hero" className="interior-section pain-hero">
+    <section data-mega-section="hero" id="hero" className="interior-section pain-hero">
       <div className="interior-wrap pain-hero-grid">
         <div className="pain-hero-copy bracket">
           <p className="pain-kicker">Knee · low back · neck · joints</p>

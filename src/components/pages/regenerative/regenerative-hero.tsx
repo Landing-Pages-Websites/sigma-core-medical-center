@@ -12,7 +12,7 @@ const HERO_NOTES = [
 
 export function RegenerativeHero(): React.ReactElement {
   return (
-    <section id="hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="hero" id="hero" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-0 right-0 z-20 hidden w-[24rem] lg:flex" />
       <div className="grid lg:min-h-[45rem] lg:grid-cols-[52fr_48fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
@@ -32,7 +32,7 @@ export function RegenerativeHero(): React.ReactElement {
             <Image src={REGENERATIVE_PAGE.heroImage} alt={REGENERATIVE_PAGE.heroAlt} fill priority sizes="(min-width: 1024px) 56vw, 100vw" className="object-cover object-[55%_40%]" />
           </div>
           <div aria-hidden className="absolute right-0 bottom-0 h-[38%] w-[70%] bg-royal [clip-path:polygon(32%_0,100%_0,100%_100%,0_100%)]" />
-          <Link
+          <Link data-mega-cta="book-appointment"
             href="/book"
             className="absolute right-6 bottom-8 z-10 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-royal sm:right-10 lg:bottom-[12%] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >

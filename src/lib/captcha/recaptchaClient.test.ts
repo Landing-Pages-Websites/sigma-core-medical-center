@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { recaptchaToken, renderRecaptcha } from "./recaptchaClient";
+import { storageDouble } from "../__fixtures__/storage-double.ts";
 
 test("policy widget renders invisible and resets/executes widget ID at submit", async () => {
   const target = globalThis as unknown as { window?: Window };
@@ -39,7 +40,8 @@ for (const row of [
     const previous = target.window;
     try {
       const dataLayer: unknown[] = [];
-      target.window = { dataLayer, grecaptcha: { enterprise: {
+      // Captcha reports follow the consent gate; an accepted visitor is counted.
+      target.window = { dataLayer, localStorage: storageDouble("accepted"), grecaptcha: { enterprise: {
         reset: () => {},
         execute: () => new Promise<string>((resolve) => {
           if (row.settleMs !== null) setTimeout(() => resolve("slow-token"), row.settleMs);
@@ -74,7 +76,7 @@ test("through useCaptcha, the report precedes the null token and nothing reports
   try {
     const dataLayer: unknown[] = [];
     let late: ((token: string) => void) | undefined;
-    target.window = { dataLayer, setTimeout, grecaptcha: { enterprise: {
+    target.window = { dataLayer, localStorage: storageDouble("accepted"), setTimeout, grecaptcha: { enterprise: {
       reset: () => {},
       execute: () => new Promise<string>((resolve) => { late = resolve; }),
     } } } as unknown as Window;

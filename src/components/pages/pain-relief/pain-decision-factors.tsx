@@ -9,7 +9,7 @@ const FOOT_BARS = ["h-2", "h-2.5", "h-3", "h-3.5", "h-4", "h-5", "h-6", "h-7"] a
 
 export function PainDecisionFactors(): React.ReactElement {
   return (
-    <section id="decision-factors" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-royal text-white">
       <div className="grid lg:grid-cols-[54fr_46fr]">
         <div className="relative px-6 pt-14 pb-10 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h2 className="font-heading text-[clamp(2.8rem,5.8vw,5.3rem)] leading-none font-bold tracking-[-0.04em]">Decision Factors</h2>

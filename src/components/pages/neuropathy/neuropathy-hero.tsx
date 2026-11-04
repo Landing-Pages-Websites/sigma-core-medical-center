@@ -8,7 +8,7 @@ type NeuropathyHeroProps = { data: ServicePageData };
 
 export function NeuropathyHero({ data }: NeuropathyHeroProps): React.ReactElement {
   return (
-    <section id="neuropathy-hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="neuropathy-hero" id="neuropathy-hero" className="relative overflow-hidden bg-navy text-white">
       <CornerStripes className="absolute top-0 right-0 z-20 hidden w-[23rem] lg:flex" />
       <div className="grid lg:min-h-[47rem] lg:grid-cols-[50fr_50fr]">
         <div className={`${styles.copy} relative z-10 px-6 pt-14 pb-10 sm:px-10 lg:pt-16 lg:pb-0 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]`}>

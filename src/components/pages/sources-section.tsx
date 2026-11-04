@@ -11,7 +11,7 @@ type SourcesSectionProps = {
 
 export function SourcesSection({ sources, footerCards }: SourcesSectionProps): React.ReactElement {
   return (
-    <section className="bg-surface py-14 text-ink sm:py-16">
+    <section data-mega-section="sources" className="bg-surface py-14 text-ink sm:py-16">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
         <div className="grid gap-10 lg:grid-cols-[62fr_38fr] lg:items-center">
           <div>

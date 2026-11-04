@@ -97,7 +97,7 @@ export function SiteHeaderB(): React.ReactElement {
             </div>
 
             {PRIMARY_LINKS.map((item) => <Link key={item.href} href={item.href} className={desktopLink} onClick={closeMenus}>{item.label}</Link>)}
-            <Link href="/book" onClick={closeMenus} className="inline-flex h-12 items-center gap-3 bg-action px-5 text-sm font-semibold text-white shadow-[0_8px_20px_rgb(6_102_165/0.22)] transition-all hover:-translate-y-0.5 hover:bg-hover hover:shadow-[0_12px_28px_rgb(6_102_165/0.3)]">Book an Appointment <ArrowRight size={17} aria-hidden /></Link>
+            <Link data-mega-cta="book-appointment" href="/book" onClick={closeMenus} className="inline-flex h-12 items-center gap-3 bg-action px-5 text-sm font-semibold text-white shadow-[0_8px_20px_rgb(6_102_165/0.22)] transition-all hover:-translate-y-0.5 hover:bg-hover hover:shadow-[0_12px_28px_rgb(6_102_165/0.3)]">Book an Appointment <ArrowRight size={17} aria-hidden /></Link>
           </nav>
 
           <div className="relative xl:hidden">
@@ -124,7 +124,7 @@ export function SiteHeaderB(): React.ReactElement {
                   )}
                 </div>
                 {PRIMARY_LINKS.map((item) => <Link key={item.href} href={item.href} onClick={closeMenus} className="flex min-h-12 items-center border-b border-ink/10 px-3 font-semibold text-ink">{item.label}</Link>)}
-                <Link href="/book" onClick={closeMenus} className="mt-4 inline-flex h-12 w-full items-center justify-between bg-action px-5 text-sm font-semibold text-white">Book an Appointment <ArrowRight size={17} aria-hidden /></Link>
+                <Link data-mega-cta="book-appointment" href="/book" onClick={closeMenus} className="mt-4 inline-flex h-12 w-full items-center justify-between bg-action px-5 text-sm font-semibold text-white">Book an Appointment <ArrowRight size={17} aria-hidden /></Link>
               </nav>
             )}
           </div>

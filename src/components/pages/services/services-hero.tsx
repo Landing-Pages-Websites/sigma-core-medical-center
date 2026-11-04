@@ -5,7 +5,7 @@ import { ServiceStrip } from "@/components/pages/services/service-strip";
 
 export function ServicesHero(): React.ReactElement {
   return (
-    <section id="hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="hero" id="hero" className="relative overflow-hidden bg-navy text-white">
       <div className="relative grid lg:min-h-[36rem] lg:grid-cols-[54fr_46fr]">
         <div className="relative z-10 px-6 pt-14 pb-10 sm:px-10 lg:pt-16 lg:pb-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <div className="flex items-start gap-3 sm:gap-4">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function RegenHero(): React.ReactElement {
-  return <section id="hero" className="b2-section r-hero"><div className="b2-wrap r-hero-grid">
+  return <section data-mega-section="hero" id="hero" className="b2-section r-hero"><div className="b2-wrap r-hero-grid">
     <div className="r-hero-copy">
       <h1>Explore whether regenerative medicine belongs in your care conversation</h1>
       <p>Regenerative medicine is a broad service category. This page is a starting point for questions, not a recommendation for a particular procedure.</p>

@@ -5,7 +5,7 @@ import { TallBracket } from "@/components/pages/shared/page-motifs";
 
 export function AboutHero(): React.ReactElement {
   return (
-    <section id="hero" className="relative overflow-hidden bg-navy text-white">
+    <section data-mega-section="hero" id="hero" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[46rem] lg:grid-cols-[50fr_50fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-16 lg:pb-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <div className="flex items-start gap-4">
@@ -18,7 +18,7 @@ export function AboutHero(): React.ReactElement {
             <p>Sigma Core Medical Center is a premium integrative medical center serving adults in the Richmond area.</p>
             <p>Our focus includes human performance, pain relief, recovery, regenerative care, hormone optimization, and longevity. A consultation helps connect your goals and questions to possible next steps.</p>
           </div>
-          <Link href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+          <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             Explore consultation options <ChevronRight size={18} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 max-w-[19rem] border-l-[3px] border-royal pl-3 sm:ml-10">

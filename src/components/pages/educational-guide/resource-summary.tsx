@@ -11,7 +11,7 @@ const RESOURCE_STATUS = [
 
 export function ResourceSummary(): React.ReactElement {
   return (
-    <section id="how-it-works" className="relative overflow-hidden bg-royal text-white">
+    <section data-mega-section="how-it-works" id="how-it-works" className="relative overflow-hidden bg-royal text-white">
       <div className="grid lg:grid-cols-[60fr_40fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <p className="flex items-center gap-3 text-sm font-semibold">
