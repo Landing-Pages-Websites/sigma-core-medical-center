@@ -5,8 +5,8 @@ type PlinthCardsProps = { className?: string };
 type InteriorStep = { title: string; body: string };
 
 const INTERIOR_STEPS: readonly InteriorStep[] = [
-  { title: "Choose your starting point", body: "Explore service information while the educational guide is unavailable." },
-  { title: "Start the conversation", body: "Review booking status. Online scheduling is not yet available." },
+  { title: "Choose your starting point", body: "Request the Neuropathy Clarity Scorecard through the form on the educational guide page." },
+  { title: "Start the conversation", body: "There is no online calendar. Call 804-486-7699 to book a Free Consultation." },
   { title: "Decide what comes next", body: "Review the available information and choose the next appropriate step for you." },
 ];
 
