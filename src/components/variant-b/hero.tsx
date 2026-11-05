@@ -1,28 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { BRAND, HERO, PENDING } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { BRAND, HERO } from "@/content/site";
 import { BracketMark, GhostWord, SteppedBars } from "@/components/variant-b/motifs";
 import { paperButtonB } from "@/components/variant-b/buttons";
 
 function HeroActionsB(): React.ReactElement {
   return (
     <div className="flex w-full max-w-sm flex-col gap-3">
-      <PendingAction
-        label={
-          <>
-            <span className="flex items-center gap-3">
-              <BracketMark />
-              {HERO.primaryCta}
-            </span>
-            <ArrowRight size={18} aria-hidden />
-          </>
-        }
-        title={PENDING.booking.title}
-        message={PENDING.booking.message}
-        className={paperButtonB}
-      />
+      <Link href="/book" data-mega-cta="book-consultation" className={paperButtonB}>
+        <span className="flex items-center gap-3">
+          <BracketMark />
+          {HERO.primaryCta}
+        </span>
+        <ArrowRight size={18} aria-hidden />
+      </Link>
       <a href="#neuropathy" className={paperButtonB}>
         <span className="flex items-center gap-3">
           <BracketMark />

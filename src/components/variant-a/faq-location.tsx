@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, ChevronDown, MapPin } from "lucide-react";
-import { FAQ, PENDING } from "@/content/site";
+import { FAQ } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
-import { PendingAction } from "@/components/shared/pending-action";
 import { primaryButtonA } from "@/components/variant-a/buttons";
 
 export function FaqLocationA(): React.ReactElement {
@@ -69,16 +69,9 @@ export function FaqLocationA(): React.ReactElement {
               </div>
             </div>
           </div>
-          <PendingAction
-            label={
-              <>
-                {FAQ.cta} <ArrowRight size={18} aria-hidden />
-              </>
-            }
-            title={PENDING.booking.title}
-            message={PENDING.booking.message}
-            className={`${primaryButtonA} mt-5 w-full`}
-          />
+          <Link href="/book" data-mega-cta="book-consultation" className={`${primaryButtonA} mt-5 w-full`}>
+            {FAQ.cta} <ArrowRight size={18} aria-hidden />
+          </Link>
         </div>
       </div>
     </section>

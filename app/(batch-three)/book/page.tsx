@@ -17,7 +17,7 @@ const bookHeadings = localFont({
 
 export const metadata: Metadata = {
   title: "Book an Appointment",
-  description: "Book your appointment with Sigma Core Medical Center in the Richmond, Virginia area through our secure scheduling calendar.",
+  description: "Call 804-486-7699 to book a Free Consultation with Sigma Core Medical Center in the Richmond, Virginia area.",
   robots: { index: false, follow: true },
 };
 

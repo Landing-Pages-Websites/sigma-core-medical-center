@@ -6,8 +6,8 @@ export function BookCalendar(): React.ReactElement {
     <section data-mega-section="gohighlevel-calendar" id="gohighlevel-calendar" className="book-section book-calendar" aria-labelledby="book-calendar-title">
       <div className="book-shell book-calendar-layout">
         <div className="book-reserve">
-          <h2 id="book-calendar-title">Scheduling <br />calendar</h2>
-          <p>Calendar connection pending.</p>
+          <h2 id="book-calendar-title">Schedule <br />by phone</h2>
+          <p>Call <a data-mega-cta="call-now" href="tel:+18044867699" className="book-inline-phone">804-486-7699</a> to book your Free Consultation directly with our team.</p>
           <div className="book-reserve-rule" aria-hidden="true" />
           <svg className="book-reserve-steps" viewBox="0 0 180 66" aria-hidden="true" focusable="false">
             <path d="M0 58H54 M38 33H100 M84 8H179" />

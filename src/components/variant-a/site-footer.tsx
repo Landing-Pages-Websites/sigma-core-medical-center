@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FOOTER, PENDING } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
 import { footerLinkA, primaryButtonA } from "@/components/variant-a/buttons";
@@ -29,12 +30,9 @@ export function SiteFooterA(): React.ReactElement {
             <p className="font-display text-xl font-medium text-white">{FOOTER.tagline}</p>
             <p className="mt-1 text-base text-white/60">{FOOTER.location}</p>
           </div>
-          <PendingAction
-            label={FOOTER.cta}
-            title={PENDING.booking.title}
-            message={PENDING.booking.message}
-            className={primaryButtonA}
-          />
+          <Link href="/book" data-mega-cta="book-consultation" className={primaryButtonA}>
+            {FOOTER.cta}
+          </Link>
           <nav aria-label="Utility">
             <ul className="flex max-w-sm flex-wrap justify-center gap-x-6 lg:justify-end">
               {FOOTER.nav.map((item) => (

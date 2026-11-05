@@ -1,4 +1,4 @@
-import { CalendarOff } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export function BookHero(): React.ReactElement {
   return (
@@ -6,14 +6,15 @@ export function BookHero(): React.ReactElement {
       <div className="book-shell book-hero-layout">
         <div className="book-hero-copy">
           <h1 id="book-title" className="book-bracket">Appointment <br />scheduling</h1>
-          <p className="book-availability">Online booking is not yet available.</p>
-          <p className="book-orientation">Explore service information and contact status below.</p>
+          <p className="book-availability">Call to book a Free Consultation.</p>
+          <p className="book-orientation">Speak with our team directly to schedule your appointment.</p>
         </div>
         <div className="book-status-panel" role="group" aria-labelledby="book-panel-title">
           <div className="book-status-frame">
-            <CalendarOff size={48} strokeWidth={1.3} aria-hidden="true" />
-            <h2 id="book-panel-title">Online booking is not yet available</h2>
-            <p>Calendar connection pending.</p>
+            <Phone size={48} strokeWidth={1.3} aria-hidden="true" />
+            <h2 id="book-panel-title">Book by phone</h2>
+            <a data-mega-cta="call-now" href="tel:+18044867699" className="book-phone-link" aria-label="Call 804-486-7699 to book a Free Consultation">804-486-7699</a>
+            <p>Call for a Free Consultation.</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, MapPin } from "lucide-react";
-import { HERO, PENDING } from "@/content/site";
-import { PendingAction } from "@/components/shared/pending-action";
+import { HERO } from "@/content/site";
 import { primaryButtonA, secondaryButtonA } from "@/components/variant-a/buttons";
 
 export function HeroA(): React.ReactElement {
@@ -37,16 +37,9 @@ export function HeroA(): React.ReactElement {
           </div>
           <div className="mt-10 flex flex-col items-center gap-10 lg:flex-row lg:items-end lg:justify-between">
             <div className="flex w-full max-w-sm flex-col gap-3">
-              <PendingAction
-                label={
-                  <>
-                    {HERO.primaryCta} <ArrowRight size={18} aria-hidden />
-                  </>
-                }
-                title={PENDING.booking.title}
-                message={PENDING.booking.message}
-                className={primaryButtonA}
-              />
+              <Link href="/book" data-mega-cta="book-consultation" className={primaryButtonA}>
+                {HERO.primaryCta} <ArrowRight size={18} aria-hidden />
+              </Link>
               <a href="#neuropathy" className={secondaryButtonA}>
                 {HERO.secondaryCta} <ArrowRight size={18} aria-hidden />
               </a>
