@@ -30,12 +30,12 @@ export function RegenerativeOrientation(): React.ReactElement {
             <span className="relative inline-flex px-4 py-1">
               <TallBracket className="absolute inset-y-0 left-0 w-2 text-white/80" />
               <PolicyLink
-                label={<>Terms status <ArrowRight size={20} aria-hidden className="shrink-0" /></>}
+                label={<>Terms of Use <ArrowRight size={20} aria-hidden className="shrink-0" /></>}
                 className="inline-flex h-11 items-center gap-6 border border-white px-5 text-base font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
               />
               <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white/80" />
             </span>
-            <p className="mt-3 max-w-[14rem] text-xs leading-snug text-white/85">Legal terms are not yet available.</p>
+            <p className="mt-3 max-w-[14rem] text-xs leading-snug text-white/85">Read the terms for using this website.</p>
           </div>
         </div>
         <div className="flex items-center bg-slate px-6 py-12 sm:px-10 lg:mt-24 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[28%] lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%)]">

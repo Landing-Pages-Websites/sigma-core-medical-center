@@ -48,12 +48,12 @@ export function NeuropathyOrientation(): React.ReactElement {
           <FileText size={44} strokeWidth={1.3} className="shrink-0 self-start" aria-hidden />
           <span aria-hidden className="h-24 w-px self-start bg-royal" />
           <div>
-            <p className="font-heading text-xl font-bold tracking-[0.02em] uppercase">Legal information status</p>
-            <p className="mt-1 max-w-[17rem] text-sm leading-snug text-white/80">Website legal terms are not yet available.</p>
+            <p className="font-heading text-xl font-bold tracking-[0.02em] uppercase">Legal information</p>
+            <p className="mt-1 max-w-[17rem] text-sm leading-snug text-white/80">Read the terms that apply to using this website.</p>
             <PolicyLink
               label={
                 <>
-                  <TallBracket className="h-8 w-2 text-white" /> Terms status
+                  <TallBracket className="h-8 w-2 text-white" /> Terms of Use
                 </>
               }
               className="mt-4 inline-flex h-12 items-center gap-4 bg-royal pr-14 pl-4 font-heading text-2xl font-bold transition-colors [clip-path:polygon(0_0,100%_0,88%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"

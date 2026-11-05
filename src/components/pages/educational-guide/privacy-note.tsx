@@ -4,8 +4,8 @@ import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const POLICY_STATUS_LINKS = [
-  { label: "Privacy Policy status", icon: ShieldCheck, href: "/privacy" },
-  { label: "Notice of Privacy Practices status", icon: FileText, href: "/notice-of-privacy-practices" },
+  { label: "Website Privacy Policy", icon: ShieldCheck, href: "/privacy" },
+  { label: "Notice of Privacy Practices", icon: FileText, href: "/notice-of-privacy-practices" },
 ] as const;
 
 const AVAILABILITY_NOTES = [
@@ -22,13 +22,13 @@ export function PrivacyNote(): React.ReactElement {
           <div className="relative mt-5 max-w-[30rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
             <p className="text-base leading-snug text-white/88">
-              The scorecard form collects contact details only: name, email and phone. Never include symptoms or medical history. The links below lead to policy-status pages.
+              The scorecard form collects contact details only: name, email and phone. Never include symptoms or medical history. The links below open our published privacy policies.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </div>
           <div className="mt-8 grid max-w-[38rem] gap-6 bg-[#2b3037] px-6 py-6 sm:grid-cols-[1fr_1fr] lg:[clip-path:polygon(0_0,94%_0,100%_50%,94%_100%,0_100%)] lg:pr-14">
             <div>
-              <p className="text-xs font-bold tracking-[0.08em] uppercase">Policy status</p>
+              <p className="text-xs font-bold tracking-[0.08em] uppercase">Privacy policies</p>
               <ul className="mt-3 divide-y divide-white/20">
                 {POLICY_STATUS_LINKS.map(({ label, icon: Icon, href }) => (
                   <li key={label} className="py-2.5">
@@ -88,9 +88,9 @@ function AvailabilityPanel(): React.ReactElement {
           ))}
         </div>
         <p className="mt-6 text-xs leading-snug text-white/85">
-          The policy-status pages do not contain
+          Our Website Privacy Policy and Notice
           <br />
-          approved policy details.
+          of Privacy Practices are published.
         </p>
       </div>
       <div className="relative min-h-60 lg:-ml-10">

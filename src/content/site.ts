@@ -161,6 +161,40 @@ export const FAQ = {
   cta: "Book an Appointment",
 } as const;
 
+/** Confirmed public contact facts for Sigma Core Medical Center. */
+export const CONTACT = {
+  address: "9020 Stony Point Pkwy #100, Richmond, VA 23235",
+  phone: "804-486-7699",
+  email: "front.desk@sigmacoremedicalcenter.com",
+  hours: "Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM",
+} as const;
+
+/** Variant B homepage next-step copy, reconciled to the published guide and phone booking. */
+export const WAYS_B = {
+  guideBody:
+    "Request the Neuropathy Clarity Scorecard, a 4-page PDF with a self-assessment and a 7-day symptom tracker.",
+  guideNote:
+    "Share your contact details on the guide page and the download appears there. The scorecard cannot diagnose neuropathy.",
+  bookingBody: `Call ${CONTACT.phone} to book a Free Consultation. There is no online calendar; our team schedules by phone.`,
+} as const;
+
+const [, , ...FAQ_GENERAL_ITEMS] = FAQ.items;
+
+/** Variant B homepage FAQ: confirmed location and booking answers, unchanged general answers. */
+export const FAQ_B = {
+  items: [
+    {
+      question: "Where is Sigma Core located?",
+      answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are ${CONTACT.hours}.`,
+    },
+    {
+      question: "How do I book?",
+      answer: `Call ${CONTACT.phone} to book a Free Consultation. There is no online calendar; our team schedules appointments by phone.`,
+    },
+    ...FAQ_GENERAL_ITEMS,
+  ] as FaqItem[],
+} as const;
+
 export const FOOTER = {
   tagline: "Human Performance and Longevity",
   location: "Richmond, Virginia area",

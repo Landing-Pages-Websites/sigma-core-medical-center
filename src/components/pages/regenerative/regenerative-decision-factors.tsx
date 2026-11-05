@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Crosshair, MessagesSquare, UserRound } from "lucide-react";
-import { PendingAction } from "@/components/shared/pending-action";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
@@ -28,31 +27,31 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
           <div className="mt-6 grid gap-8 sm:grid-cols-2">
             <div>
               <p className="flex items-center gap-2 text-sm font-semibold text-[#4f9bf0]">
-                <TallBracket className="h-6 w-1.5 text-white/70" /> Resource status <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
+                <TallBracket className="h-6 w-1.5 text-white/70" /> Educational resource <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
               </p>
-              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Educational guide unavailable</h3>
-              <p className="mt-2 text-xs leading-snug text-white/80">The guide and request form are not yet available.</p>
-              <PendingAction
-                label={<>Guide availability <ArrowRight size={16} aria-hidden className="shrink-0" /></>}
-                title="Guide availability"
-                message="The educational guide and request form are unavailable. Delivery details and an availability date have not been supplied."
+              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Get the educational guide</h3>
+              <p className="mt-2 text-xs leading-snug text-white/80">Request the Neuropathy Clarity Scorecard with the form on the educational guide page.</p>
+              <Link data-mega-cta="get-scorecard"
+                href="/educational-guide"
                 className="mt-4 inline-flex h-10 items-center gap-3 border border-[#4f9bf0] px-4 text-xs font-semibold text-[#4f9bf0] transition-colors hover:bg-[#4f9bf0] hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
-              />
+              >
+                Get the guide <ArrowRight size={16} aria-hidden className="shrink-0" />
+              </Link>
             </div>
             <div>
               <p className="flex items-center gap-2 text-sm font-semibold text-[#4f9bf0]">
-                <TallBracket className="h-6 w-1.5 text-white/70" /> Scheduling status <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
+                <TallBracket className="h-6 w-1.5 text-white/70" /> Scheduling <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
               </p>
-              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Check booking status</h3>
-              <p className="mt-2 text-xs leading-snug text-white/80">Online scheduling and appointment details are unavailable.</p>
+              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Book by phone</h3>
+              <p className="mt-2 text-xs leading-snug text-white/80">There is no online calendar. Call 804-486-7699 to book a Free Consultation.</p>
               <Link data-mega-cta="book-appointment" href="/book" className="mt-4 inline-flex max-w-full min-h-10 items-center gap-3 bg-royal px-4 text-xs font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-                Check booking status <ArrowRight size={16} aria-hidden className="shrink-0" />
+                See how to book <ArrowRight size={16} aria-hidden className="shrink-0" />
               </Link>
             </div>
           </div>
           <p className="relative mt-8 max-w-[22rem] px-5 text-xs leading-snug text-white/75">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
-            Guide requests and online scheduling are unavailable. No availability date has been supplied.
+            Request the guide on the educational guide page. Appointments are booked by phone.
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-silver" />
           </p>
         </div>
@@ -60,10 +59,10 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
       </div>
       <div className="relative flex justify-end">
         <div className="flex items-center gap-4 bg-royal px-8 py-3 text-xs lg:w-[45%] lg:[clip-path:polygon(4%_0,100%_0,100%_100%,0_100%)] lg:pl-16">
-          Legal terms are not yet available
+          Website terms of use
           <span className="relative ml-auto px-3">
             <TallBracket className="absolute inset-y-0 left-0 w-1.5 text-white" />
-            <PolicyLink label="Terms status" className="font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
+            <PolicyLink label="Read the terms" className="font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-1.5 text-white" />
           </span>
         </div>

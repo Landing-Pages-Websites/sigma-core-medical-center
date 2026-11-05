@@ -12,7 +12,7 @@ const QUESTION_CARDS = [
 
 const PATH_BUTTONS = [
   { href: "/about", caption: "Learn about Sigma Core", tone: "border border-royal bg-white/90 text-royal hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
-  { href: "/book", caption: "Scheduling unavailable", tone: "bg-royal text-white hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
+  { href: "/book", caption: "Free Consultation by phone", tone: "bg-royal text-white hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
 ] as const;
 
 export function RegenerativeQuestions(): React.ReactElement {
@@ -55,7 +55,7 @@ export function RegenerativeQuestions(): React.ReactElement {
                 href={button.href}
                 className={`${button.tone} inline-flex max-w-full min-h-14 min-w-0 py-3 items-center gap-6 pr-12 pl-5 transition-colors [clip-path:polygon(0_0,90%_0,100%_100%,0_100%)]`}
               >
-                <span className="font-heading text-xl font-bold">{button.href === "/book" ? "Check booking status" : "About"}</span>
+                <span className="font-heading text-xl font-bold">{button.href === "/book" ? "See how to book" : "About"}</span>
                 <span className="max-w-[6rem] text-xs leading-tight">{button.caption}</span>
               </Link>
             ))}

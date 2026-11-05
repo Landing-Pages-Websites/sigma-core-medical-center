@@ -6,7 +6,7 @@ import { TallBracket } from "@/components/pages/shared/page-motifs";
 const ROUTE_LINKS = [
   { label: "Learn About Neuropathy", href: "/services/neuropathy", icon: MessageSquareText, accent: "bg-royal" },
   { label: "Explore Our Approach", href: "/about", icon: UserRound, accent: "bg-royal" },
-  { label: "Contact & location status", href: "/contact", icon: MapPin, accent: "bg-silver" },
+  { label: "Contact & location", href: "/contact", icon: MapPin, accent: "bg-silver" },
 ] as const;
 
 const BASE_BARS = [
@@ -25,13 +25,13 @@ export function ServicesBookingCta(): React.ReactElement {
           <TallBracket className="absolute inset-y-0 left-0 w-7 text-silver/85" />
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-7 text-silver/85" />
           <h2 className="font-heading text-[clamp(3rem,6.2vw,5.5rem)] leading-none font-bold tracking-[-0.035em]">
-            Booking <span className="text-royal">status</span>
+            How to <span className="text-royal">book</span>
           </h2>
           <p className="mt-4 max-w-[22rem] text-lg leading-snug text-white/90">
-            Online scheduling is not yet available. Contact and location details remain unavailable.
+            Call 804-486-7699 to book a Free Consultation. There is no online calendar; our team schedules by phone.
           </p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-4 py-3 text-lg sm:px-8 font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status <ChevronRight size={22} aria-hidden className="shrink-0" />
+            See how to book <ChevronRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>
         <div className="relative aspect-[16/10] lg:aspect-auto lg:h-[27rem] lg:[clip-path:polygon(0_50%,9%_0,100%_0,100%_100%,9%_100%)]">

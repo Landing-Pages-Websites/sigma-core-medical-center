@@ -2,13 +2,14 @@
 
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
-import { FAQ } from "@/content/site";
+import { CONTACT, FAQ, FAQ_B } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
 import { Reveal } from "@/components/shared/reveal";
 import { GhostWord } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
 
 const ITEM_INDENTS = ["lg:ml-0", "lg:ml-8", "lg:ml-16", "lg:ml-24"];
+const PHONE_HREF = "tel:+18044867699";
 
 export function FaqLocationB(): React.ReactElement {
   const accordion = useAccordion();
@@ -34,7 +35,7 @@ export function FaqLocationB(): React.ReactElement {
             />
           </div>
           <div className="mt-12 space-y-4">
-            {FAQ.items.map((item, index) => {
+            {FAQ_B.items.map((item, index) => {
               const open = accordion.isOpen(index);
               return (
                 <div key={item.question} className={ITEM_INDENTS[index]}>
@@ -75,9 +76,23 @@ export function FaqLocationB(): React.ReactElement {
             <h3 className="max-w-64 text-4xl leading-tight font-semibold tracking-tight text-white">
               {FAQ.locationLabel}
             </h3>
-            <p className="mt-5 max-w-60 border-l-2 border-silver/50 pl-4 text-base text-white/70">
-              {FAQ.addressNote}
-            </p>
+            <address className="mt-5 border-l-2 border-silver/50 pl-4 text-base not-italic text-white/70">
+              <span className="block max-w-60">{CONTACT.address}</span>
+              <a
+                data-mega-cta="call-now"
+                href={PHONE_HREF}
+                className="mt-3 block w-fit text-white underline underline-offset-2 hover:text-white/80"
+              >
+                {CONTACT.phone}
+              </a>
+              <a
+                data-mega-cta="email"
+                href={`mailto:${CONTACT.email}`}
+                className="mt-3 inline-block text-white underline underline-offset-2 [overflow-wrap:anywhere] hover:text-white/80"
+              >
+                {CONTACT.email}
+              </a>
+            </address>
             <Link data-mega-cta="book-appointment" href="/book" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
           </div>
         </Reveal>

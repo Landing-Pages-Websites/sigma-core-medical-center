@@ -7,7 +7,7 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 const OTHER_PATHS = [
   { title: "About Neuropathy", href: "/services/neuropathy", icon: Waves },
   { title: "Our Approach", href: "/about", icon: Sun },
-  { title: "Contact & location status", href: "/contact", icon: SquareDashed },
+  { title: "Contact & location", href: "/contact", icon: SquareDashed },
 ] as const;
 
 export function ChooseNextStep(): React.ReactElement {
@@ -79,8 +79,8 @@ function OtherPaths(): React.ReactElement {
         ))}
       </ul>
       <div className="mt-8 max-w-sm border-t border-white/25 pt-4 text-sm text-white/70">
-        Policy details are not yet available. Check our{" "}
-        <PolicyLink label="Terms status." className="text-focus underline underline-offset-2 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
+        Before you contact us, review our{" "}
+        <PolicyLink label="Website Terms of Use." className="text-focus underline underline-offset-2 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
       </div>
     </div>
   );

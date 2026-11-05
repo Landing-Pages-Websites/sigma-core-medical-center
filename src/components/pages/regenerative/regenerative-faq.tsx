@@ -6,13 +6,13 @@ import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motif
 const FAQ_ITEMS = [
   { question: "Why aren’t specific options listed?", answer: "Treatment, eligibility, risk, cost, and timing details are not yet available." },
   { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Provider details at Sigma Core are unavailable." },
-  { question: "Is online booking available?", answer: "Online scheduling is not yet available. The booking page provides current status." },
-  { question: "Where is the clinic located?", answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable." },
+  { question: "Is online booking available?", answer: "No. There is no online calendar. Call 804-486-7699 to book a Free Consultation." },
+  { question: "Where is the clinic located?", answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM." },
 ] as const;
 
 const FAQ_ACTIONS = [
-  { label: "Check booking status", href: "/book" },
-  { label: "Contact status", href: "/contact" },
+  { label: "See how to book", href: "/book" },
+  { label: "Contact & location", href: "/contact" },
 ] as const;
 
 export function RegenerativeFaq(): React.ReactElement {
@@ -23,7 +23,7 @@ export function RegenerativeFaq(): React.ReactElement {
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-20 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">Faq</h2>
           <p className="mt-8 max-w-[18rem] text-base leading-snug text-white/88">
-            Answers about category information, provider details, and scheduling availability.
+            Answers about category information, provider details, and how to book.
           </p>
           <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />

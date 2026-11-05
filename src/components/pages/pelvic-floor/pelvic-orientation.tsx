@@ -22,7 +22,7 @@ export function PelvicOrientation(): React.ReactElement {
   return (
     <section data-mega-section="private-orientation" id="private-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[34rem] lg:grid-cols-[12fr_17fr_42fr_12fr_17fr]">
-        <SideNote title="Privacy information." body="Privacy policy and visit confidentiality details are not yet available." className="order-2 lg:order-none lg:mt-0" />
+        <SideNote title="Privacy information." body="Our Website Privacy Policy and Notice of Privacy Practices are published." className="order-2 lg:order-none lg:mt-0" />
         <div className="relative order-3 min-h-60 lg:order-none lg:mt-14">
           <Image src="/images/pages/services-lobby-v2.webp" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
         </div>
@@ -40,7 +40,7 @@ export function PelvicOrientation(): React.ReactElement {
             <Link href="/about" className="inline-flex max-w-full items-center gap-2 font-semibold hover:text-chalk/80 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               Learn more about our approach <ArrowRight size={16} aria-hidden className="shrink-0" />
             </Link>
-            <PolicyLink label="Terms status" className="font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
+            <PolicyLink label="Terms of Use" className="font-semibold hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" />
             <TallBracket side="right" className="h-8 w-2 text-white/80" />
           </div>
         </div>
