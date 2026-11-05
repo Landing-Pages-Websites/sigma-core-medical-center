@@ -15,7 +15,7 @@ const FAQ_ROWS: readonly FaqRow[] = [
   {
     question: "Do you diagnose neuropathy?",
     answer: "This website does not diagnose conditions. It offers general information only. Individual guidance requires an appropriate clinical evaluation.",
-    action: { label: "Contact status", href: "/contact" },
+    action: { label: "Contact & location", href: "/contact" },
   },
   {
     question: "What treatments are available for neuropathy?",
@@ -24,8 +24,8 @@ const FAQ_ROWS: readonly FaqRow[] = [
   },
   {
     question: "Where is your clinic located?",
-    answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable.",
-    action: { label: "Contact status", href: "/contact" },
+    answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.",
+    action: { label: "Contact & location", href: "/contact" },
   },
   {
     question: "How do I prepare for a neuropathy treatment consultation?",

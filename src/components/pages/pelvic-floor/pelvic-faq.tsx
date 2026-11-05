@@ -7,11 +7,11 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 type FaqRow = { question: string; answer: string; action: { label: string; href?: string; policy?: "/privacy" } };
 
 const FAQ_ROWS: readonly FaqRow[] = [
-  { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate.", action: { label: "Check evaluation status", href: "/book" } },
+  { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate.", action: { label: "See how to book", href: "/book" } },
   { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation.", action: { label: "Prepare for an evaluation", href: "/book" } },
-  { question: "Is online booking available?", answer: "Online scheduling and request forms are unavailable. Appointment and follow-up details have not been confirmed.", action: { label: "Check booking status", href: "/book" } },
-  { question: "Where is the clinic?", answer: "Sigma Core serves the Richmond area. Confirmed location and visit details are unavailable.", action: { label: "Learn more about us", href: "/about" } },
-  { question: "Are privacy details available?", answer: "Privacy policy and visit confidentiality details are not yet available.", action: { label: "Privacy status", policy: "/privacy" } },
+  { question: "Is online booking available?", answer: "There is no online calendar. Call 804-486-7699 to book a Free Consultation, or send a non-medical inquiry through the contact page. Follow-up details have not been confirmed.", action: { label: "See how to book", href: "/book" } },
+  { question: "Where is the clinic?", answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.", action: { label: "Learn more about us", href: "/about" } },
+  { question: "Are privacy details available?", answer: "Yes. Our Website Privacy Policy and Notice of Privacy Practices are published.", action: { label: "Privacy Policy", policy: "/privacy" } },
 ];
 
 const ROW_ACTION = "inline-flex items-center gap-2 text-sm text-royal hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
@@ -26,7 +26,7 @@ export function PelvicFaq(): React.ReactElement {
             <TallBracket className="h-20 w-4 shrink-0 text-silver" /> Faq
           </h2>
           <p className="mt-6 max-w-[19rem] pl-9 text-base leading-snug text-white/88">
-            Here are answers about pelvic floor therapy, incontinence evaluation, scheduling availability, and privacy status.
+            Here are answers about pelvic floor therapy, incontinence evaluation, how to book, and privacy.
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:mx-0 lg:mt-12 lg:mr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
@@ -67,14 +67,14 @@ function PrivacyFirst(): React.ReactElement {
   return (
     <div className="bg-royal px-6 py-10 sm:px-10 lg:-ml-16 lg:pt-12 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pb-10 lg:pl-[26%] lg:[clip-path:polygon(22%_0,100%_0,100%_100%,0_100%)]">
       <p className="flex items-center gap-3 font-heading text-2xl font-bold">
-        <TallBracket className="h-8 w-2 text-white" /> Privacy status
+        <TallBracket className="h-8 w-2 text-white" /> Privacy
       </p>
       <p className="mt-2 text-xs leading-snug text-white/90">
-        Privacy policy and Notice of Privacy Practices details are unavailable. The links show their current status.
+        Our Website Privacy Policy and Notice of Privacy Practices are published.
       </p>
       <PolicyLink
         href="/notice-of-privacy-practices"
-        label={<>NPP status <ArrowRight size={16} aria-hidden className="shrink-0" /></>}
+        label={<>Read the NPP <ArrowRight size={16} aria-hidden className="shrink-0" /></>}
         className="mt-4 inline-flex h-11 items-center gap-3 border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
       />
       <span aria-hidden className="mt-5 block h-px bg-white/40" />

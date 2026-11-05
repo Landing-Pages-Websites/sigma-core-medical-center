@@ -81,14 +81,14 @@ function TermsStrip(): React.ReactElement {
           <PolicyLink
             label={
               <>
-                <FileText size={22} strokeWidth={1.5} aria-hidden /> Terms status <span aria-hidden>→</span>
+                <FileText size={22} strokeWidth={1.5} aria-hidden /> Terms of Use <span aria-hidden>→</span>
               </>
             }
             className="inline-flex h-11 items-center gap-3 border border-royal/60 bg-white/60 px-5 text-base font-semibold text-royal transition-colors hover:bg-royal hover:text-white"
           />
           <TallBracket side="right" className="h-12 w-2.5 text-silver" />
         </span>
-        <p className="text-sm text-ink/80">The Terms page is currently unavailable. The link shows its current status.</p>
+        <p className="text-sm text-ink/80">Read the Website Terms of Use that apply to this scorecard and website.</p>
       </div>
     </div>
   );

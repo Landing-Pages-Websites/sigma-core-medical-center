@@ -15,7 +15,7 @@ export function NeuropathyHeroPhoto({ data }: { data: ServicePageData }): React.
         href="/book"
         className={`${styles.action} absolute right-6 bottom-8 z-10 inline-flex max-w-full min-h-14 items-center gap-4 border border-white bg-royal/20 px-6 text-lg font-semibold text-white transition-colors hover:bg-white hover:text-royal sm:right-10 lg:bottom-[9%] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]`}
       >
-        Check booking status <ArrowRight size={18} aria-hidden className="shrink-0" />
+        See how to book <ArrowRight size={18} aria-hidden className="shrink-0" />
       </Link>
     </div>
   );

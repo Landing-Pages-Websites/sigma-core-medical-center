@@ -23,7 +23,7 @@ export function LeadFormSection(): React.ReactElement {
           <p className="mt-4 max-w-[26rem] text-xs leading-snug text-ink/75">
             The download link appears on this page after your contact details are accepted.
           </p>
-          <PolicyLink href="/privacy" label={<>Privacy policy status →</>} className="mt-3 text-xs font-semibold text-royal hover:underline" />
+          <PolicyLink href="/privacy" label={<>Website Privacy Policy →</>} className="mt-3 text-xs font-semibold text-royal hover:underline" />
           <ScorecardContents />
         </div>
         <ScorecardPanel />

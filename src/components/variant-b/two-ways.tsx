@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { WAYS } from "@/content/site";
+import { WAYS, WAYS_B } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, BracketMarkEnd, GhostWord } from "@/components/variant-b/motifs";
 import { inverseButtonB, outlineButtonB } from "@/components/variant-b/buttons";
@@ -18,13 +18,12 @@ function GuidePanelB(): React.ReactElement {
       <h3 className="mt-4 text-3xl leading-[1.1] font-semibold tracking-tight">
         {WAYS.guide.headline}
       </h3>
-      <p className="mt-3 max-w-md text-lg text-charcoal/80">{WAYS.guide.body}</p>
+      <p className="mt-3 max-w-md text-lg text-charcoal/80">{WAYS_B.guideBody}</p>
       <Link href="/educational-guide" className={`${outlineButtonB} mt-7 w-full sm:w-auto`}>
         {WAYS.guide.cta} <ArrowRight size={18} aria-hidden />
       </Link>
       <p className="mt-5 border-l-4 border-electric bg-white/70 p-3 text-sm text-muted">
-        The resource title, media, and delivery details are pending customer approval. The guide
-        is not yet available.
+        {WAYS_B.guideNote}
       </p>
     </Reveal>
   );
@@ -44,7 +43,7 @@ function BookingPanelB(): React.ReactElement {
       <h3 className="mt-4 max-w-sm text-4xl leading-[1.04] font-semibold tracking-tight lg:text-5xl">
         {WAYS.booking.headline}
       </h3>
-      <p className="mt-4 max-w-sm text-lg">{WAYS.booking.body}</p>
+      <p className="mt-4 max-w-sm text-lg">{WAYS_B.bookingBody}</p>
       <div className="relative mt-8 pb-8 sm:pb-9">
         <GhostWord
           word="Movement"

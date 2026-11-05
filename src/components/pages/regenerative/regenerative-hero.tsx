@@ -17,7 +17,7 @@ export function RegenerativeHero(): React.ReactElement {
       <div className="grid lg:min-h-[45rem] lg:grid-cols-[52fr_48fr]">
         <div className="relative z-10 px-6 pt-14 pb-12 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h1 className="max-w-[42rem] font-heading text-[clamp(2.5rem,4.5vw,4.3rem)] leading-[1] font-bold tracking-[-0.03em]">{REGENERATIVE_PAGE.title}</h1>
-          <p className="mt-5 max-w-[26rem] text-lg leading-snug text-white/88">A starting point for questions and general information. Online scheduling is not yet available.</p>
+          <p className="mt-5 max-w-[26rem] text-lg leading-snug text-white/88">A starting point for questions and general information. Call 804-486-7699 to book a Free Consultation.</p>
           <ul className="mt-6 max-w-[22rem] space-y-4">
             {HERO_NOTES.map((note) => (
               <li key={note} className="relative pl-6 text-sm leading-snug text-white/85">
@@ -36,7 +36,7 @@ export function RegenerativeHero(): React.ReactElement {
             href="/book"
             className="absolute right-6 bottom-8 z-10 inline-flex max-w-full min-h-14 items-center gap-4 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-royal sm:right-10 lg:bottom-[12%] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >
-            Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
+            See how to book <ArrowRight size={20} aria-hidden className="shrink-0" />
           </Link>
         </div>
       </div>
