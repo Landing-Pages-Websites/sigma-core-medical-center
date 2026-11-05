@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import { PENDING, WAYS } from "@/content/site";
 import { PendingAction } from "@/components/shared/pending-action";
@@ -64,16 +65,9 @@ function BookingCardA(): React.ReactElement {
           {WAYS.booking.headline}
         </h3>
         <p className="mt-4 max-w-72 text-lg text-white/85 sm:max-w-xs">{WAYS.booking.body}</p>
-        <PendingAction
-          label={
-            <>
-              {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
-            </>
-          }
-          title={PENDING.booking.title}
-          message={PENDING.booking.message}
-          className={`${primaryButtonA} mt-10 w-full sm:w-fit sm:px-8`}
-        />
+        <Link href="/book" data-mega-cta="book-consultation" className={`${primaryButtonA} mt-10 w-full sm:w-fit sm:px-8`}>
+          {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
+        </Link>
       </div>
     </article>
   );
