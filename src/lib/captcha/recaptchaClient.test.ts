@@ -100,3 +100,79 @@ test("through useCaptcha, the report precedes the null token and nothing reports
     assert.equal(count(), 1);
   } finally { target.window = previous; }
 });
+
+// A timed-out execute can leave the provider's image challenge open over the
+// form's outcome. Past the deadline the widget is reset (never answered), and
+// a late settlement from the provider changes nothing: no token, no report.
+for (const row of [
+  { name: "the deadline resets the widget once and a late token is ignored", settleMs: null, want: null, resets: 2, reports: 1 },
+  { name: "a token inside the wait leaves the widget untouched after execute", settleMs: 9_000, want: "valid-token", resets: 1, reports: 0 },
+]) {
+  test(row.name, async (t) => {
+    t.mock.timers.enable({ apis: ["setTimeout"] });
+    const target = globalThis as unknown as { window?: Window };
+    const previous = target.window;
+    try {
+      const dataLayer: unknown[] = [];
+      const calls: string[] = [];
+      let late: ((token: string) => void) | undefined;
+      target.window = { dataLayer, localStorage: storageDouble("accepted"), grecaptcha: { enterprise: {
+        reset: (id: number) => {
+          const reported = dataLayer.some((e) => (e as { event?: string }).event === "captcha_unavailable");
+          calls.push(`reset:${id}:${reported ? "after-report" : "before-report"}`);
+        },
+        execute: () => new Promise<string>((resolve) => {
+          calls.push("execute");
+          late = resolve;
+          if (row.settleMs !== null) setTimeout(() => resolve("valid-token"), row.settleMs);
+        }),
+      } } } as unknown as Window;
+      let outcome: string | null | undefined;
+      void recaptchaToken(17, "lead_submit").then((token) => { outcome = token; });
+      for (let elapsed = 0; outcome === undefined && elapsed < 30_000; elapsed += 1_000) {
+        t.mock.timers.tick(1_000);
+        await new Promise((r) => setImmediate(r));
+      }
+      assert.equal(outcome, row.want);
+      late?.("too-late");
+      t.mock.timers.tick(30_000);
+      await new Promise((r) => setImmediate(r));
+      const reports = dataLayer.filter((e) => (e as { event?: string }).event === "captcha_unavailable");
+      assert.equal(reports.length, row.reports);
+      assert.equal(outcome, row.want);
+      const expected = ["reset:17:before-report", "execute"];
+      if (row.resets === 2) expected.push("reset:17:after-report");
+      assert.deepEqual(calls, expected);
+    } finally { target.window = previous; }
+  });
+}
+
+test("an execute that rejects resets the widget after reporting once", async () => {
+  const target = globalThis as unknown as { window?: Window };
+  const previous = target.window;
+  try {
+    const dataLayer: unknown[] = [];
+    const resets: number[] = [];
+    target.window = { dataLayer, localStorage: storageDouble("accepted"), grecaptcha: { enterprise: {
+      reset: (id: number) => { resets.push(id); },
+      execute: () => Promise.reject(new Error("provider error")),
+    } } } as unknown as Window;
+    assert.equal(await recaptchaToken(17, "lead_submit"), null);
+    assert.deepEqual(resets, [17, 17]);
+    assert.equal(dataLayer.filter((e) => (e as { event?: string }).event === "captcha_unavailable").length, 1);
+  } finally { target.window = previous; }
+});
+
+test("a provider reset that throws after the deadline still returns no token", async () => {
+  const target = globalThis as unknown as { window?: Window };
+  const previous = target.window;
+  try {
+    let resets = 0;
+    target.window = { grecaptcha: { enterprise: {
+      reset: () => { resets += 1; if (resets > 1) throw new Error("container removed"); },
+      execute: async () => "",
+    } } } as unknown as Window;
+    assert.equal(await recaptchaToken(17, "lead_submit"), null);
+    assert.equal(resets, 2);
+  } finally { target.window = previous; }
+});

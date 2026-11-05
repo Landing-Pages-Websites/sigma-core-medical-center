@@ -53,17 +53,22 @@ export function resetRecaptcha(id: number | null): void {
   }
 }
 
-/** Policy-based challenge: reset and execute a widget ID, never a score key. */
+/**
+ * Policy-based challenge: reset and execute a widget ID, never a score key.
+ * Without a token by the deadline the widget is reset, unanswered, so an open
+ * image challenge cannot cover the form's outcome; the server still decides.
+ */
 export async function recaptchaToken(id: number | null, action: string): Promise<string | null> {
   const api = window.grecaptcha?.enterprise;
   if (id === null || !api) { reportCaptchaUnavailable("execute_failed", "recaptcha"); return null; }
   try {
     api.reset(id);
     const token = await withinTokenWait(api.execute(id, { action }), RECAPTCHA_TOKEN_WAIT_MS);
-    if (!token) reportCaptchaUnavailable("execute_failed", "recaptcha");
-    return token;
+    if (token) return token;
   } catch {
-    reportCaptchaUnavailable("execute_failed", "recaptcha");
-    return null;
+    // Reported below with the deadline's no-token path.
   }
+  reportCaptchaUnavailable("execute_failed", "recaptcha");
+  resetRecaptcha(id);
+  return null;
 }

@@ -39,11 +39,21 @@ function reportLead(formKey: string): void {
   trackEvent("lead_form_submit", { form_key: formKey });
 }
 
+/** Dismiss a challenge still open over the success state; the lead is already delivered. */
+function releaseCaptcha(state: ContactFormState): void {
+  try {
+    state.captchaRef.current?.reset();
+  } catch {
+    // A provider error here must not turn an accepted lead into a failed form.
+  }
+}
+
 /** Every attempt ends in exactly one of these, for the UI and the tracking signal alike. */
 function settle(state: ContactFormState, form: HTMLFormElement, outcome: AttemptOutcome): void {
   if (outcome.kind === "confirmed") {
     state.setStatus("success");
     markFormSubmitted(form);
+    releaseCaptcha(state);
     return;
   }
   state.guard.current.release();
