@@ -114,7 +114,7 @@ export const NEUROPATHY_PAGE: ServicePageData = {
   ],
   expectTitle: "What to expect",
   expectBody:
-    "Booking occurs through Sigma Core’s secure scheduling experience. The care conversation is personalized and begins with your goals and questions.",
+    "Call 804-486-7699 to book your Free Consultation directly with our team. The care conversation is personalized and begins with your goals and questions.",
   faqs: [
     { question: "What is this site for?", answer: "This site provides clear, general information about our approach to nerve health and human performance." },
     { question: "Do you diagnose neuropathy online?", answer: "No. The website does not diagnose conditions. Individual guidance requires an appropriate clinical evaluation." },

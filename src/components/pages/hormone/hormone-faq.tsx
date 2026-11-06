@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
+import { CONTACT } from "@/content/site";
 
 const FAQ_ROWS = [
   {
@@ -15,11 +16,11 @@ const FAQ_ROWS = [
   },
   {
     question: "Is online booking available?",
-    answer: "Online scheduling and appointment details are not yet available. The booking page shows current status.",
+    answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation; our team schedules by phone.`,
   },
   {
     question: "Where is the clinic located?",
-    answer: "Sigma Core serves the Richmond area. Confirmed address and contact details are unavailable.",
+    answer: `Sigma Core Medical Center is at ${CONTACT.address}. Call ${CONTACT.phone}; the contact page lists email and office hours.`,
   },
 ] as const;
 
@@ -57,9 +58,9 @@ export function HormoneFaq(): React.ReactElement {
           </ul>
           <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64 lg:absolute lg:right-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:bottom-10 lg:mt-0">
             <Link data-mega-cta="book-appointment" href="/book" className={OUTLINE_BUTTON}>
-              Check booking status <ArrowRight size={18} aria-hidden className="shrink-0" />
+              See booking details <ArrowRight size={18} aria-hidden className="shrink-0" />
             </Link>
-            <PolicyLink label={<>Terms status <ArrowRight size={18} aria-hidden className="shrink-0" /></>} className={OUTLINE_BUTTON} />
+            <PolicyLink label={<>Terms of Use <ArrowRight size={18} aria-hidden className="shrink-0" /></>} className={OUTLINE_BUTTON} />
           </div>
         </div>
       </div>

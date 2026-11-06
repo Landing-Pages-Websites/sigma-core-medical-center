@@ -122,7 +122,7 @@ Ask what each test is intended to assess and how the result could affect the car
 
 Ask where a consultation takes place, what information you should bring, how follow-up works, and how questions are handled between visits. Confirm which services and process details are currently available before making plans, because availability can change.
 
-Sigma Core Medical Center serves the Richmond, Virginia area. The verified clinic details are 9020 Stony Point Pkwy #100, Richmond, VA 23235, with hours listed as Monday through Thursday, 9:00 AM to 5:00 PM. For the current hormone optimization care category and consultation information, [visit Sigma Core’s hormone optimization service page](https://www.sigmacoremedicalcenter.com/services/hormone-optimization).
+Sigma Core Medical Center serves the Richmond, Virginia area. The verified clinic details are 9020 Stony Point Pkwy #100, Richmond, VA 23235, with hours listed as Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM. For the current hormone optimization care category and consultation information, [visit Sigma Core’s hormone optimization service page](https://www.sigmacoremedicalcenter.com/services/hormone-optimization).
 
 ## What Are the Potential Benefits, Risks, and Limits of Hormone Therapy?
 

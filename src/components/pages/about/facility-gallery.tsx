@@ -19,7 +19,7 @@ export function FacilityGallery(): React.ReactElement {
               href="/contact"
               className="mt-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal pr-10 pl-6 font-heading text-lg font-bold tracking-[0.04em] text-white uppercase transition-colors [clip-path:polygon(0_0,100%_0,92%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
             >
-              Contact status <ArrowRight size={22} aria-hidden className="shrink-0" />
+              Contact us <ArrowRight size={22} aria-hidden className="shrink-0" />
             </Link>
           </div>
         </div>
