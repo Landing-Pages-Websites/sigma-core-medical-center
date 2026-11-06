@@ -13,6 +13,8 @@ const SCORECARD_PDF_PATH = "/api/lead?resource=scorecard";
 const PHONE_HELP_ID = "scorecard-phone-help";
 /** Names this form in tracking events (`data-mega-form`). */
 const FORM_KEY = "scorecard";
+/** A throwing reCAPTCHA token request falls back to the proof-of-work that /api/lead verifies. */
+const FORM_OPTIONS = { fallbackOnTokenError: true } as const;
 
 /** Mirrors LeadField's attributes; that component hard-codes contact-* ids and contact-page styles. */
 const FIELDS = {
@@ -62,7 +64,7 @@ function sendLabel(sending: boolean, success: boolean): string {
 }
 
 export function ScorecardForm(): React.ReactElement {
-  const { formRef, captchaRef, status, errors, request, ...events } = useContactForm(FORM_KEY);
+  const { formRef, captchaRef, status, errors, request, ...events } = useContactForm(FORM_KEY, FORM_OPTIONS);
   const sending = status === "sending";
   const success = status === "success";
   return (

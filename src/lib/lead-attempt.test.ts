@@ -87,3 +87,45 @@ test("lead attempt: the token sent is the one minted", async () => {
   const r = await run({ mintToken: async () => "minted-123" });
   assert.deepEqual(r.sentWith, ["minted-123"]);
 });
+
+const optedIn = { fallbackOnTokenError: true, mintToken: async () => boom("widget gone")(), missingToken: () => "" };
+
+test("lead attempt: opted-in thrown token posts the fallback and confirms only on ok:true", async () => {
+  const r = await run(optedIn);
+  assert.equal(r.outcome.kind, "confirmed");
+  assert.deepEqual(r.sentWith, [""]);
+  assert.deepEqual(r.settled, ["confirmed"]);
+  assert.equal(r.followUps, 1);
+});
+
+for (const [name, answer] of [["ok:false", { ok: false }], ["an empty body", undefined]] as const) {
+  test(`lead attempt: opted-in thrown token with ${name} stays failed`, async () => {
+    const sentWith: string[] = [];
+    const r = await run({ ...optedIn, send: async (token) => (sentWith.push(token), answer) });
+    assert.equal(r.outcome.kind === "failed" && r.outcome.reason, "server");
+    assert.deepEqual(sentWith, [""]);
+    assert.deepEqual(r.settled, ["failed"]);
+    assert.equal(r.followUps, 0);
+  });
+}
+
+test("lead attempt: opted-in thrown token with no fallback fails as captcha without POST", async () => {
+  const r = await run({ ...optedIn, missingToken: () => null });
+  assert.equal(r.outcome.kind === "failed" && r.outcome.reason, "captcha");
+  assert.deepEqual(r.sentWith, []);
+});
+
+test("lead attempt: default thrown token fails as captcha without POST even with a fallback", async () => {
+  const r = await run({ mintToken: async () => boom("widget gone")(), missingToken: () => "" });
+  assert.equal(r.outcome.kind === "failed" && r.outcome.reason, "captcha");
+  assert.deepEqual(r.sentWith, []);
+  assert.equal(r.followUps, 0);
+});
+
+test("lead attempt: opting in leaves non-throwing token paths unchanged", async () => {
+  assert.deepEqual((await run({ ...optedIn, mintToken: async () => "minted-123" })).sentWith, ["minted-123"]);
+  assert.deepEqual((await run({ ...optedIn, mintToken: async () => undefined })).sentWith, [""]);
+  const strict = await run({ fallbackOnTokenError: true, mintToken: async () => "" });
+  assert.equal(strict.outcome.kind === "failed" && strict.outcome.reason, "captcha");
+  assert.deepEqual(strict.sentWith, []);
+});
