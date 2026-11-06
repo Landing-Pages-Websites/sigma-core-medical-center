@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { CONTACT } from "@/content/site";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const LITERACY = [
@@ -22,18 +23,18 @@ export function ResponsibleNextStep(): React.ReactElement {
           <p className="mt-6 max-w-[27rem] border-l-[3px] border-royal pl-4 text-base leading-snug text-white/90">
             Responsible provider, credentials, actual services, and process details are not yet available.
           </p>
-          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Online scheduling is not yet available.</p>
+          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Call {CONTACT.phone} to book. There is no online calendar.</p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status <ArrowRight size={22} aria-hidden className="shrink-0" />
+            See booking details <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 flex flex-wrap items-center gap-6">
             <p className="relative max-w-[15rem] pl-5 text-xs leading-snug text-white/75">
               <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
-              The contact page provides availability status only.
+              The contact page lists our address, phone, email and office hours.
             </p>
             <span aria-hidden className="h-10 w-px bg-white/30" />
             <Link data-mega-cta="contact" href="/contact" className="inline-flex max-w-full items-center gap-3 text-base font-semibold text-[#4f9bf0] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-              Contact status <ArrowRight size={20} aria-hidden className="shrink-0" />
+              Contact us <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>
         </div>
