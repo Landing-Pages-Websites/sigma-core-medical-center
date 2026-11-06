@@ -16,7 +16,7 @@ export function PainDecisionFactors(): React.ReactElement {
           <div className="relative mt-6 max-w-[27rem] px-8 py-2">
             <TallBracket className="absolute inset-y-0 left-0 w-4 text-silver" />
             <p className="text-base leading-snug">
-              <strong className="font-semibold">A thoughtful consultation starts with the right questions.</strong> Use the considerations below to guide your conversation and evaluate the quality and appropriateness of care.
+              <strong className="font-semibold">A thoughtful consultation starts with the right questions.</strong> Use the questions below to prepare for a conversation about your knee, back, or neck pain.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-4 text-silver" />
           </div>
@@ -48,7 +48,7 @@ export function PainDecisionFactors(): React.ReactElement {
       <div className="bg-navy">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-6 px-6 py-4 sm:px-10 lg:pl-[3.5rem]">
           <p className="flex items-center gap-3 text-base">
-            <TallBracket className="h-8 w-2 text-silver" /> Individual answers require a qualified clinician. Provider and appointment details are unavailable.
+            <TallBracket className="h-8 w-2 text-silver" /> Individual answers require a qualified clinician. Call 804-486-7699 to book a Free Consultation.
           </p>
           <span aria-hidden className="hidden items-end gap-1 md:flex">
             {FOOT_BARS.map((bar) => (
@@ -87,7 +87,7 @@ export function PainDecisionFactors(): React.ReactElement {
                 href={link.href}
                 className={`${link.tone} inline-flex min-w-0 max-w-full min-h-14 w-full items-center justify-between gap-3 px-8 py-3 font-heading text-lg font-bold text-white transition-colors sm:w-64 [clip-path:polygon(10%_0,100%_0,90%_100%,0_100%)]`}
               >
-                <span className="min-w-0 whitespace-normal">{link.href === "/book" ? "Check booking status" : "About"}</span>
+                <span className="min-w-0 whitespace-normal">{link.href === "/book" ? "See how to book" : "About"}</span>
                 <ChevronRight size={26} aria-hidden className="shrink-0" />
               </Link>
             ))}

@@ -25,7 +25,7 @@ export function PainNavigation(): React.ReactElement {
             <StairSteps count={4} direction="up" barClassName="bg-white/85" className="hidden text-[0.6rem] lg:flex lg:absolute lg:left-0" />
             <TallBracket className="h-24 w-5 shrink-0 text-silver" />
             <div>
-              <h2 className="font-heading text-[clamp(2.4rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em]">Pain Concern Navigation</h2>
+              <h2 className="font-heading text-[clamp(2.4rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em]">Knee, Back &amp; Neck Pain</h2>
               <p className="mt-3 text-lg leading-snug text-white/92">
                 Joint pain can show up in different places.
                 <br />
@@ -60,9 +60,9 @@ export function PainNavigation(): React.ReactElement {
         <div className="flex items-center justify-between gap-6 py-8 text-ink">
           <p className="relative pl-8 text-sm leading-snug">
             <TallBracket className="absolute inset-y-0 left-0 w-3 text-silver" />
-            Each orientation is a different entry point.
+            Each area is a different starting point.
             <br />
-            Every evaluation is built around you.
+            A consultation begins with your questions.
           </p>
           <span aria-hidden className="hidden w-72 items-end gap-3 md:flex">
             <span className="flex flex-1 flex-col items-end gap-1.5">

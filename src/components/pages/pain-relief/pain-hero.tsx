@@ -24,10 +24,10 @@ export function PainHero(): React.ReactElement {
             <div className="mt-6 max-w-[22rem] space-y-4 text-base leading-snug text-white/88">
               <p>For Richmond-area adults, we focus on movement, daily function, and informed next steps.</p>
               <p>Pain-related scope includes joint pain, knee pain, low back pain, and neck pain.</p>
-              <p>Explore the three concern areas below. Online scheduling is not yet available.</p>
+              <p>Explore the three concern areas below, then call 804-486-7699 to book a Free Consultation.</p>
             </div>
             <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-5 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-              Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
+              See how to book <ArrowRight size={20} aria-hidden className="shrink-0" />
             </Link>
           </div>
         </div>
