@@ -8,6 +8,8 @@ export interface LeadAttempt {
   mintToken: () => Promise<string | null | undefined>;
   /** What to send without a token: "" where a fallback carries the proof, null where the server would reject it. */
   missingToken: () => string | null;
+  /** Treat a throwing mintToken like a missing token instead of failing; /api/lead still verifies. */
+  fallbackOnTokenError?: boolean;
   /** Posts the lead; resolves to the server's answer or throws (network, non-JSON, rejection). */
   send: (captchaToken: string) => Promise<{ ok?: boolean; ignored?: boolean } | undefined>;
   /** Applies the outcome to the form's UI and tracking signal. Called exactly once. */
@@ -16,8 +18,17 @@ export interface LeadAttempt {
   afterConfirmed: () => void;
 }
 
+async function mint(attempt: LeadAttempt): Promise<string | null | undefined> {
+  if (!attempt.fallbackOnTokenError) return attempt.mintToken();
+  try {
+    return await attempt.mintToken();
+  } catch {
+    return null;
+  }
+}
+
 async function tokenFor(attempt: LeadAttempt): Promise<string | null> {
-  const minted = await attempt.mintToken();
+  const minted = await mint(attempt);
   return typeof minted === "string" && minted.length > 0 ? minted : attempt.missingToken();
 }
 

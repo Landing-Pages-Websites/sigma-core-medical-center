@@ -13,14 +13,19 @@ import { markFormSubmitFailed, markFormSubmitted, markFormSubmitting } from "@/l
 type Status = "idle" | "sending" | "success" | "error";
 type ContactFormState = ReturnType<typeof useFormState>;
 type Submit = ReturnType<typeof useMegaLeadForm>["submit"];
+/** Opt-ins for one form; every default keeps the shared contact-form behavior. */
+export interface ContactFormOptions {
+  /** Post with the proof-of-work fallback when the captcha token request throws; /api/lead still verifies. */
+  fallbackOnTokenError?: boolean;
+}
 
-function useFormState(formKey: string) {
+function useFormState(formKey: string, options: ContactFormOptions) {
   const formRef = useRef<HTMLFormElement>(null);
   const captchaRef = useRef<CaptchaHandle>(null);
   const guard = useRef(createSubmissionGuard());
   const [status, setStatus] = useState<Status>("idle");
   const [errors, setErrors] = useState<LeadErrors>({});
-  return { formKey, formRef, captchaRef, guard, status, setStatus, errors, setErrors };
+  return { formKey, options, formRef, captchaRef, guard, status, setStatus, errors, setErrors };
 }
 
 function validate(state: ContactFormState, form: HTMLFormElement): boolean {
@@ -72,6 +77,7 @@ async function send(state: ContactFormState, form: HTMLFormElement, submit: Subm
     // As before this port: the lead is sent without a token and /api/lead
     // decides (the reCAPTCHA route carries a proof-of-work fallback).
     missingToken: () => "",
+    fallbackOnTokenError: state.options.fallbackOnTokenError === true,
     send: (captchaToken) => submit({ ...values, captchaToken }),
     settle: (outcome) => settle(state, form, outcome),
     afterConfirmed: () => reportLead(state.formKey),
@@ -97,7 +103,7 @@ function submitOnEnter(state: ContactFormState, event: KeyboardEvent<HTMLFormEle
 }
 
 /** `formKey` names the form in tracking events; it matches the form's `data-mega-form`. */
-export function useContactForm(formKey: string): {
+export function useContactForm(formKey: string, options: ContactFormOptions = {}): {
   formRef: ContactFormState["formRef"];
   captchaRef: ContactFormState["captchaRef"];
   status: Status;
@@ -108,7 +114,7 @@ export function useContactForm(formKey: string): {
   onChange: (event: FormEvent<HTMLFormElement>) => void;
   onKeyDown: (event: KeyboardEvent<HTMLFormElement>) => void;
 } {
-  const state = useFormState(formKey);
+  const state = useFormState(formKey, options);
   const { submit } = useMegaLeadForm();
   const { formRef, captchaRef, status, errors } = state;
   return {
