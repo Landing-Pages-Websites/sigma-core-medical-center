@@ -12,18 +12,18 @@ export function PainBooking(): React.ReactElement {
       <div className="grid lg:min-h-[28rem] lg:grid-cols-[40fr_60fr]">
         <div className="relative z-10 px-6 pt-12 pb-12 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
           <h2 className="font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em]">
-            Booking <span className="text-royal">status</span>
+            Book by <span className="text-royal">phone</span>
           </h2>
           <div className="relative mt-5 max-w-[22rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            <p className="font-heading text-xl font-bold">Online scheduling unavailable</p>
+            <p className="font-heading text-xl font-bold">Free Consultation by phone</p>
             <p className="mt-1 text-lg leading-snug text-white/90">
-              Appointment, evaluation, and follow-up details have not been confirmed.
+              Call 804-486-7699 to book. Online scheduling is not available.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
           </div>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-14 w-full max-w-[20rem] items-center bg-royal px-6 text-lg font-semibold transition-colors [clip-path:polygon(0_0,90%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status
+            See how to book
           </Link>
         </div>
         <div className="relative min-h-[20rem] lg:mt-12 lg:min-h-0">

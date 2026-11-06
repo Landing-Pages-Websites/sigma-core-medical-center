@@ -21,9 +21,9 @@ export function PainFaq(): React.ReactElement {
             <p className="relative mt-6 pl-6 text-xs leading-snug">
               <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-royal" />
               <strong className="block text-sm text-navy">Need something else?</strong>
-              Further details are unavailable.
+              Call 804-486-7699 to book a Free Consultation.
               <br />
-              No publication date has been supplied.
+              Your questions are welcome.
             </p>
           </div>
           <div className="relative min-h-52 flex-1">
@@ -50,17 +50,17 @@ export function PainFaq(): React.ReactElement {
           </div>
           <div className="relative mt-4 flex flex-col justify-end bg-royal px-4 py-6 lg:mt-14 lg:-mb-14 lg:pt-40">
             <TallBracket side="right" className="absolute top-36 right-4 hidden h-8 w-6 border-b-0 text-white lg:block" />
-            <p className="font-heading text-lg font-bold">Availability</p>
-            <p className="mt-1 text-xs leading-snug text-white/85">Scheduling and terms are unavailable. These links show their status.</p>
+            <p className="font-heading text-lg font-bold">Next steps</p>
+            <p className="mt-1 text-xs leading-snug text-white/85">Book a Free Consultation by phone, or review the site terms.</p>
             <div className="mt-4 space-y-3">
               <Link data-mega-cta="book-appointment" href="/book" className={CONNECT_LINK}>
-                <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Check booking status <ArrowRight size={20} aria-hidden className="shrink-0" />
+                <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> See how to book <ArrowRight size={20} aria-hidden className="shrink-0" />
                 <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white" />
               </Link>
               <PolicyLink
                 label={
                   <>
-                    <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Terms status <ArrowRight size={20} aria-hidden className="shrink-0" />
+                    <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> Site terms <ArrowRight size={20} aria-hidden className="shrink-0" />
                     <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-white" />
                   </>
                 }
