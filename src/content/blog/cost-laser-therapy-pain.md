@@ -519,7 +519,7 @@ Tell the clinic about new weakness, numbness, loss of balance, severe swelling, 
 
 ### Review Alternative and Complementary Treatments
 
-Ask which other treatments may fit your diagnosis and goals. Depending on your condition, options could include physical therapy, strength training, activity changes, medication review, injections, bracing, or evaluation by a specialist. Laser therapy may work best as one part of a coordinated plan rather than as the only treatment.
+Ask which other treatments may fit your diagnosis and goals. Depending on your condition, options could include physical therapy, strength training, activity changes, medication review, injections, bracing, or evaluation by a specialist. Laser therapy may work best as one part of a coordinated plan rather than as the only treatment. Sigma Core’s [Class IV laser therapy for pain and recovery](/services/pain-relief/class-4-laser-therapy) page explains how this clinician-guided option fits a broader conversation about comfort, recovery, and function; a consultation can help determine whether it fits your goals, and individual responses vary.
 
 Ask how the provider compares laser therapy with these alternatives in terms of expected benefit, risks, cost, and time commitment. You can also ask whether combining treatments is appropriate or whether one approach should be tried first. The [American College of Physicians guidance on noninvasive treatments for low back pain](https://www.acponline.org/clinical-information/guidelines) shows how care decisions can consider several non-surgical options.
 
