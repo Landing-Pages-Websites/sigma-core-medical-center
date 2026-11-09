@@ -37,7 +37,7 @@ export function PainKneeSection(): React.ReactElement {
 
       <div className="relative mt-6 h-[17rem] sm:h-[20rem] lg:-mt-16 lg:h-[24rem]">
         <div className="absolute inset-0 lg:left-[2%] lg:[clip-path:polygon(0_6%,48%_6%,52%_0,100%_0,100%_100%,6%_100%,0_70%)]">
-          <Image src="/images/pages/pain-knee-discomfort.webp" alt="Illustrative image of an adult on a tree-lined path holding one knee with both hands" fill sizes="100vw" className="object-cover object-[60%_70%]" />
+          <Image src="/images/pages/pain-knee-discomfort.webp" alt="Illustrative image of an adult on a tree-lined path holding one knee with both hands" fill sizes="100vw" className="origin-top-left scale-[1.2] object-cover object-[0%_70%] sm:scale-100 sm:object-[60%_70%]" />
         </div>
         <Link data-mega-cta="book-appointment" href="/book" className="absolute bottom-10 left-6 inline-flex max-w-full min-h-12 items-center gap-8 bg-royal px-7 font-heading text-xl font-bold text-white transition-colors hover:bg-royal-hover sm:left-10 lg:left-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
           See how to book <ArrowRight size={22} aria-hidden className="shrink-0" />
