@@ -37,7 +37,7 @@ export function NeuropathyBooking(): React.ReactElement {
 
         <div className="relative min-h-[26rem] lg:min-h-0">
           <div className="absolute inset-x-0 top-0 h-[60%] lg:top-6 lg:h-[56%] lg:[clip-path:polygon(16%_0,100%_0,100%_100%,0_100%)]">
-            <Image src="/images/pages/neuropathy-booking-lobby-v2.webp" alt="Conceptual clinic reception with a visitor walking toward the lounge" fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover object-[35%_center]" />
+            <Image src="/images/pages/neuropathy-booking-concern.webp" alt="An older woman in a waiting-area chair, rubbing her sore ankle with a worried expression" fill sizes="(min-width: 1024px) 55vw, 100vw" className="object-cover object-[70%_center]" />
             <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[14%] left-[24%] h-auto w-[30%] drop-shadow-lg" />
           </div>
           <div className="absolute inset-x-0 bottom-0 flex h-[46%] flex-col items-center justify-center bg-royal px-6 lg:left-[2%] lg:[clip-path:polygon(9%_0,100%_0,100%_100%,0_100%)]">
