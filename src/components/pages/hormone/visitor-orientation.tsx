@@ -32,7 +32,7 @@ export function VisitorOrientation(): React.ReactElement {
                       <Globe size={22} strokeWidth={1.5} aria-hidden />
                     </span>
                     <span className="text-left">
-                      <span className="block text-[0.65rem] font-semibold tracking-[0.1em] uppercase">Legal information</span>
+                      <span className="block text-xs font-semibold tracking-[0.1em] uppercase">Legal information</span>
                       <span className="block font-heading text-xl leading-none font-bold">Terms of Use</span>
                     </span>
                   </>

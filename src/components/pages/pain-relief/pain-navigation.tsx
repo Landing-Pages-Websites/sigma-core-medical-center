@@ -15,7 +15,7 @@ export function PainNavigation(): React.ReactElement {
               <Image src="/images/shared/logo.webp" alt="Sigma Core Medical Center" width={160} height={44} className="h-8 w-auto" />
             </span>
             <span aria-hidden className="h-8 w-px bg-white/40" />
-            <span className="text-[0.65rem] leading-tight tracking-[0.2em] text-white/80 uppercase">
+            <span className="text-xs leading-tight tracking-[0.2em] text-white/80 uppercase">
               Richmond
               <br />
               Virginia
