@@ -85,8 +85,8 @@ export const NEUROPATHY_PAGE: ServicePageData = {
   title: "A clearer next step when neuropathy is limiting your day",
   intro:
     "We focus on movement, daily function, independence, and quality of life—so you can get back to what matters. Care is personalized and outcomes vary.",
-  heroImage: "/images/pages/neuropathy-woodland-walk-v2.webp",
-  heroAlt: "An older adult walking away along a quiet tree-lined path",
+  heroImage: "/images/pages/neuropathy-hero-foot-pain.webp",
+  heroAlt: "An older man sitting on his bed, grimacing as he rubs his sore bare feet",
   orientationTitle: "Visitor orientation",
   orientationIntro:
     "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general orientation, not diagnosis or a protocol.",
@@ -131,8 +131,8 @@ export const HORMONE_PAGE: ServicePageData = {
   title: "A personalized conversation about hormone health and how you want to feel",
   intro:
     "We focus on what matters to you—function, energy, recovery, and well-being—and how those goals fit into your everyday life.",
-  heroImage: "/images/pages/hormone-hero-v2.webp",
-  heroAlt: "An adult preparing thoughtful questions in a notebook at home",
+  heroImage: "/images/pages/hormone-hero-fatigue.webp",
+  heroAlt: "A tired man at his kitchen table, resting his forehead in his hand",
   orientationTitle: "Visitor orientation",
   orientationIntro:
     "Symptoms and goals can overlap with many health factors and require an appropriate licensed clinician’s individualized assessment.",
@@ -168,8 +168,8 @@ export const PELVIC_PAGE: ServicePageData = {
   title: "Private, respectful support for pelvic-floor and incontinence concerns",
   intro:
     "Pelvic-floor and incontinence care is a sensitive service category. We use respectful, plain language centered on comfort, confidence, and daily life.",
-  heroImage: "/images/pages/pelvic-private.webp",
-  heroAlt: "A mature adult enjoying a private, quiet moment outdoors",
+  heroImage: "/images/pages/pelvic-concern.webp",
+  heroAlt: "A woman standing at home, looking concerned with her hands over her lower abdomen",
   orientationTitle: "Private orientation",
   orientationIntro:
     "Concerns vary from person to person and deserve an individualized conversation. We do not list diagnoses, populations, or treatment claims here.",
@@ -305,8 +305,8 @@ export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
   title: "A thoughtful next step for back and neck concerns",
   intro:
     "Spinal decompression therapy is a non-surgical care approach that may be considered for some back or neck concerns. A personalized evaluation can help clarify whether it fits your goals, history, and daily function.",
-  heroImage: "/images/pages/pain-low-back-v3.webp",
-  heroAlt: "Adult walking outdoors on a tree-lined path",
+  heroImage: "/images/pages/spinal-low-back-grimace.webp",
+  heroAlt: "A man grimacing with one hand on his lower back and the other on his neck",
   orientationTitle: "Start with the right conversation",
   orientationIntro:
     "Spinal decompression is not a one-size-fits-all treatment and this page cannot determine its suitability. The purpose of a consultation is to understand your concerns, review relevant history, and discuss reasonable next steps.",

@@ -65,7 +65,7 @@ export function PrpInjectionPage(): React.ReactElement {
           </div>
           <div className="relative min-h-[25rem] lg:mt-20 lg:mb-8 lg:min-h-0">
             <div className="absolute inset-0 lg:-left-[16%] lg:[clip-path:polygon(25%_0,100%_0,100%_100%,0_100%)]">
-              <Image src="/images/pages/pain-knee-walk-v3.webp" alt="Adult walking outdoors with an active lifestyle" fill priority sizes="(min-width: 1024px) 52vw, 100vw" className="object-cover object-[55%_center]" />
+              <Image src="/images/pages/prp-knee-grimace.webp" alt="A woman grimacing in pain with both hands clutching her knee" fill priority sizes="(min-width: 1024px) 52vw, 100vw" className="object-cover object-[55%_center]" />
               <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-navy/60 via-transparent to-transparent" />
             </div>
             <div className="absolute right-6 bottom-8 left-6 bg-royal px-6 py-5 sm:right-10 sm:left-auto sm:max-w-[22rem] lg:right-8 lg:bottom-10">
@@ -155,7 +155,7 @@ export function PrpInjectionPage(): React.ReactElement {
             </ol>
           </div>
           <div className="relative min-h-[22rem] lg:min-h-0">
-            <Image src="/images/pages/hormone-consultation-v2.webp" alt="Notebook and conversation setting prepared for a consultation" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[65%_center]" />
+            <Image src="/images/pages/consultation-concerned-adult.webp" alt="A tired, worried man seated in a clinic lounge, rubbing his temple" fill sizes="(min-width: 1024px) 45vw, 100vw" className="object-cover object-[65%_center]" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate via-slate/10 to-transparent" />
             <p className="absolute right-6 bottom-7 left-6 max-w-[23rem] border-l-4 border-[#8fd2f2] bg-navy/90 px-5 py-4 text-base leading-snug sm:right-10 sm:left-auto">
               The goal is an informed conversation, not a fixed treatment plan.

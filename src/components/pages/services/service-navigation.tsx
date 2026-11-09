@@ -93,7 +93,7 @@ function PainReliefPanel(): React.ReactElement {
         </Link>
       </div>
       <div className="relative min-h-56 sm:my-4 sm:mr-4">
-        <Image src="/images/pages/services-runners-v2.webp" alt="Two adults jogging along a riverside path with a city skyline" fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover object-center" />
+        <Image src="/images/pages/services-pain-knee-grimace.webp" alt="A man stopped on a riverside path, grimacing with both hands over his knee" fill sizes="(min-width: 1024px) 25vw, 100vw" className="object-cover object-center" />
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ export const BIOIDENTICAL_HRT_PAGE: ServicePageData = {
   title: "A thoughtful conversation about bioidentical hormone replacement therapy",
   intro:
     "Bioidentical hormone replacement therapy may be one option adults discuss when hormone-related changes affect energy, recovery, sleep, or day-to-day function. Sigma Core starts with an individualized evaluation to understand whether this approach may be appropriate for you.",
-  heroImage: "/images/pages/hormone-consultation-v2.webp",
-  heroAlt: "An adult having a calm conversation in a bright clinic setting",
+  heroImage: "/images/pages/consultation-concerned-adult.webp",
+  heroAlt: "A tired, worried man seated in a clinic lounge, rubbing his temple",
   orientationTitle: "Start with the right questions",
   orientationIntro:
     "The phrase bioidentical hormone replacement therapy, or BHRT, can refer to hormone products that are chemically identical to hormones made by the body. Product, route, dose, monitoring, risks, and alternatives are individual clinical decisions.",

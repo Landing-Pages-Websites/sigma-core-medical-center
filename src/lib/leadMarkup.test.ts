@@ -34,7 +34,7 @@ test("Services preserves its content and appends exactly one shared inquiry form
   }
   assert.match(html, /How To Choose Next Step/);
   assert.match(html, /Booking <span[^>]*>status/);
-  for (const image of ["services-lobby-v2", "services-forward-path-v2", "services-runners-v2",
+  for (const image of ["services-lobby-v2", "services-neuropathy-foot-pain", "services-pain-knee-grimace",
     "reception-1", "pain-decision-interior-v4", "hormone-booking-lobby-v3"]) {
     assert.ok(html.includes(image), `Services image preserved: ${image}`);
   }
