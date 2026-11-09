@@ -38,7 +38,7 @@ export function PainNeckSection(): React.ReactElement {
         <div className="relative min-h-[22rem] lg:mt-10 lg:min-h-0">
           <span aria-hidden className="absolute top-[10%] left-[5%] z-10 hidden h-[56%] w-[22%] border-t-2 border-l-2 border-royal [transform:skewX(-28deg)] lg:block" />
           <div className="absolute inset-0 lg:[clip-path:polygon(20%_0,100%_0,100%_100%,0_100%,0_58%)]">
-            <Image src="/images/pages/pain-neck-v3.webp" alt="An adult reading a book beside a laptop in a calm home workspace" fill sizes="(min-width: 1024px) 57vw, 100vw" className="object-cover object-[45%_center]" />
+            <Image src="/images/pages/pain-neck-discomfort.webp" alt="Illustrative image of an adult seated at a desk holding the side of their neck" fill sizes="(min-width: 1024px) 57vw, 100vw" className="object-cover object-[45%_center]" />
           </div>
         </div>
       </div>
