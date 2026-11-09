@@ -36,10 +36,7 @@ export function PainHero(): React.ReactElement {
 
         <div className="relative min-h-[26rem] sm:min-h-[32rem] lg:mt-16 lg:mb-0 lg:min-h-0">
           <div className="absolute inset-0 overflow-hidden lg:[clip-path:polygon(32%_0,100%_0,100%_100%,0_100%,0_86%)]">
-            {/* Oversized frame crops the graphic band baked into the source's bottom ~21%. */}
-            <div className="absolute inset-x-0 top-0 h-[128%]">
-              <Image src="/images/design/neuropathy/01-hero-01-person-walking.webp" alt="An adult walking outdoors on a tree-lined path" fill priority sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[16%_top]" />
-            </div>
+            <Image src="/images/pages/pain-hero-grimace.webp" alt="An adult on a park path grimacing with one hand on his lower back and the other on his knee" fill priority sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[60%_20%]" />
           </div>
           <span aria-hidden className="absolute bottom-0 -left-20 hidden h-24 items-end gap-1.5 lg:flex">
             {HERO_BARS.map((bar) => (

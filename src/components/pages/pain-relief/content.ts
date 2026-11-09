@@ -3,19 +3,19 @@ export const PAIN_NAV_ITEMS = [
     label: "Knee Consultation",
     body: "Explore questions about knee concerns, movement, and daily activities.",
     href: "#knee",
-    image: "/images/pages/pain-knee-walk-v3.webp",
+    image: "/images/pages/pain-nav-knee-grimace.webp",
   },
   {
     label: "Low-Back Consultation",
     body: "Explore questions about low-back concerns and everyday movement.",
     href: "#low-back",
-    image: "/images/pages/pain-low-back-v2.webp",
+    image: "/images/pages/pain-nav-low-back-grimace.webp",
   },
   {
     label: "Neck Consultation",
     body: "Explore questions about neck concerns, comfort, and daily function.",
     href: "#neck",
-    image: "/images/pages/pain-neck.webp",
+    image: "/images/pages/pain-nav-neck-grimace.webp",
   },
 ] as const;
 
