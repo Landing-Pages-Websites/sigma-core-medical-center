@@ -86,7 +86,7 @@ export const NEUROPATHY_PAGE: ServicePageData = {
   intro:
     "We focus on movement, daily function, independence, and quality of life—so you can get back to what matters. Care is personalized and outcomes vary.",
   heroImage: "/images/pages/neuropathy-hero-foot-pain.webp",
-  heroAlt: "An older man sitting on the edge of his bed, rubbing his sore foot with a pained expression",
+  heroAlt: "An older man sitting on his bed, grimacing as he rubs his sore bare feet",
   orientationTitle: "Visitor orientation",
   orientationIntro:
     "Peripheral neuropathy describes a broad set of conditions affecting the peripheral nerves. This page offers general orientation, not diagnosis or a protocol.",
@@ -169,7 +169,7 @@ export const PELVIC_PAGE: ServicePageData = {
   intro:
     "Pelvic-floor and incontinence care is a sensitive service category. We use respectful, plain language centered on comfort, confidence, and daily life.",
   heroImage: "/images/pages/pelvic-concern.webp",
-  heroAlt: "A woman seated at home, looking concerned with her hands over her lower abdomen",
+  heroAlt: "A woman standing at home, looking concerned with her hands over her lower abdomen",
   orientationTitle: "Private orientation",
   orientationIntro:
     "Concerns vary from person to person and deserve an individualized conversation. We do not list diagnoses, populations, or treatment claims here.",
