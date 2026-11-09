@@ -66,7 +66,7 @@ export function NeuropathyDecisions(): React.ReactElement {
         </div>
         <div className="grid min-h-[30rem] grid-rows-2 gap-1.5 bg-navy lg:min-h-0">
           <div className="relative">
-            <Image src="/images/pages/neuropathy-booking-lobby-v2.webp" alt="Conceptual clinic reception with a navy feature wall" fill sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[30%_center]" />
+            <Image src="/images/pages/neuropathy-decisions-hand-pain.webp" alt="An older man in a clinic waiting area, wincing as he massages his tingling hand" fill sizes="(min-width: 1024px) 34vw, 100vw" className="object-cover object-[70%_center]" />
             <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[14%] left-[12%] h-auto w-[44%] drop-shadow-lg" />
           </div>
           <div className="relative">
