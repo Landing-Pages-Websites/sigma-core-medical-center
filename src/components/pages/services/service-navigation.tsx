@@ -85,7 +85,7 @@ function PainReliefPanel(): React.ReactElement {
           </span>
           <h3 className="min-w-0 font-heading text-3xl font-bold tracking-[-0.02em]">Pain Relief</h3>
         </div>
-        <p className="mt-6 max-w-[19rem] text-[0.95rem] leading-snug text-white/85">
+        <p className="mt-6 max-w-[19rem] text-base leading-snug text-white/85">
           Explore pain, joint, and movement concerns and the questions to bring to a consultation.
         </p>
         <Link href="/services/pain-relief" className={`${PATH_PILL} mt-8 min-h-10 text-sm`}>

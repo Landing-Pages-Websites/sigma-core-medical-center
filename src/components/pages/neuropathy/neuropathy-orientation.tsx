@@ -25,7 +25,7 @@ export function NeuropathyOrientation(): React.ReactElement {
           <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.6rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">
             <TallBracket className="h-20 w-5 text-silver sm:h-28" /> Visitor Orientation
           </h2>
-          <div className="mt-8 max-w-[29rem] space-y-5 text-[0.95rem] leading-snug text-white/92 sm:ml-12">
+          <div className="mt-8 max-w-[29rem] space-y-5 text-base leading-snug text-white/92 sm:ml-12">
             <p>
               <strong className="font-semibold text-white">Peripheral neuropathy</strong> describes a broad set of conditions that affect the peripheral nerves—often in the hands and feet. Symptoms can include changes in sensation, pain, weakness, or balance.
             </p>

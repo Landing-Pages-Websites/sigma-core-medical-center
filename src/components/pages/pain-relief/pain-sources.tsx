@@ -20,7 +20,7 @@ export function PainSources(): React.ReactElement {
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-4 text-silver" />
           </div>
           <div className="mt-4 border border-white/25 bg-[#0b2342]">
-            <div className="flex flex-wrap justify-between gap-2 border-b border-white/25 px-5 py-3 text-[0.7rem] tracking-[0.12em] uppercase">
+            <div className="flex flex-wrap justify-between gap-2 border-b border-white/25 px-5 py-3 text-xs tracking-[0.12em] uppercase">
               <span>
                 <strong className="font-semibold">Further reading:</strong> NIH/MedlinePlus and professional organizations
               </span>

@@ -21,6 +21,19 @@
   --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
   --font-body: var(--font-source-sans), Arial, sans-serif;
   --font-heading: var(--font-source-sans-heavy), var(--font-source-sans), Arial, sans-serif;
+
+  /* Readability scale for an older audience: each small step is one size up
+     from Tailwind's default; 2xl and larger (headings) keep the defaults. */
+  --text-xs: 0.875rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 1rem;
+  --text-sm--line-height: 1.55;
+  --text-base: 1.125rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.25rem;
+  --text-lg--line-height: 1.55;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.45;
 }
 
 @layer base {

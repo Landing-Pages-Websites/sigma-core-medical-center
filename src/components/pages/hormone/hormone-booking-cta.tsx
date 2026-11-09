@@ -29,7 +29,7 @@ export function HormoneBookingCta(): React.ReactElement {
             message="The educational guide and request form are unavailable. Delivery details and an availability date have not been supplied."
             className="mt-5 inline-flex h-11 items-center gap-4 border border-white/80 bg-white/95 px-4 text-sm font-semibold text-navy transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           />
-          <p className="mt-6 max-w-[19rem] border-l-2 border-[#c97a3a] pl-3 text-[0.7rem] leading-snug text-white/70">The guide is not yet available. Its title, media, delivery details, and availability date have not been supplied.</p>
+          <p className="mt-6 max-w-[19rem] border-l-2 border-[#c97a3a] pl-3 text-sm leading-snug text-white/70">The guide is not yet available. Its title, media, delivery details, and availability date have not been supplied.</p>
         </div>
         <div className="relative min-h-[22rem] lg:mt-6 lg:min-h-0">
           <div className="absolute inset-0 lg:-right-24 lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_70%,6%_70%,6%_58%,12%_58%,12%_46%,18%_46%,18%_34%,24%_34%)]">

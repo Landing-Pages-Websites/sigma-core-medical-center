@@ -14,7 +14,7 @@ export function ServicesHero(): React.ReactElement {
               Explore medical services built around how you want to live
             </h1>
           </div>
-          <div className="mt-8 max-w-[22rem] space-y-4 text-[0.95rem] leading-snug text-white/80 sm:ml-9">
+          <div className="mt-8 max-w-[22rem] space-y-4 text-base leading-snug text-white/80 sm:ml-9">
             <p>Explore Sigma Core services for pain relief, recovery, hormone health, neuropathy, pelvic floor concerns, and regenerative care.</p>
             <p>Each service page explains the questions to consider and the next conversation to have. Start with the area that matches your goals.</p>
             <p className="text-white">Educational information first. A consultation can help you discuss whether a service may be appropriate for you.</p>

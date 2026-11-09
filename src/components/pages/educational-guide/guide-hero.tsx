@@ -53,7 +53,7 @@ function GuideFactsBand(): React.ReactElement {
                 <TallBracket className="h-8 w-2 text-white" />
                 <Icon size={26} strokeWidth={1.5} aria-hidden />
               </span>
-              <p className="mt-3 text-[0.8rem] leading-snug text-white/95">{text}</p>
+              <p className="mt-3 text-sm leading-snug text-white/95">{text}</p>
             </li>
           ))}
         </ul>
