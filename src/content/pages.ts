@@ -299,72 +299,6 @@ export const REGENERATIVE_PAGE: ServicePageData = {
   ],
 };
 
-export const CLASS_IV_LASER_PAGE: ServicePageData = {
-  slug: "class-4-laser-therapy",
-  eyebrow: "Class IV laser therapy",
-  title: "Support a more comfortable path back to movement",
-  intro:
-    "Class IV laser therapy is a noninvasive service that uses therapeutic light as part of a broader conversation about comfort, recovery, and function. Learn what to ask and whether it may fit your goals.",
-  heroImage: "/images/pages/pain-knee-walk-v3.webp",
-  heroAlt: "An adult walking confidently outdoors",
-  orientationTitle: "Understand Class IV laser therapy",
-  orientationIntro:
-    "Class IV laser therapy delivers therapeutic light to a treatment area through a clinician-guided session. Appropriateness depends on your health history, goals, and evaluation.",
-  orientationCards: [
-    { title: "What it is", body: "A clinician-guided, noninvasive service using Class IV therapeutic laser light. Ask how it may fit your plan." },
-    { title: "What it may support", body: "Some people explore Class IV laser therapy as part of a plan for comfort, mobility, or recovery. Individual responses vary." },
-    { title: "What to clarify", body: "Ask about the area being addressed, alternatives, risks, and how progress will be assessed." },
-  ],
-  decisionTitle: "Questions before you choose",
-  decisionIntro:
-    "A clear conversation can help you connect Class IV laser therapy with the activities and outcomes that matter to you.",
-  decisionCards: [
-    { title: "Your functional goal", body: "What do you want to do with greater comfort or confidence?" },
-    { title: "Appropriateness", body: "What does the evaluation show, and is Class IV laser therapy suitable for your situation?" },
-    { title: "Care context", body: "Could Class IV laser therapy complement movement-based rehabilitation or another plan?" },
-    { title: "Follow-up", body: "How will you and the provider review response, next steps, and alternatives?" },
-  ],
-  expectTitle: "A conversation, not a promise",
-  expectBody:
-    "A consultation can clarify what Class IV laser therapy involves, what you may feel during a session, and which precautions or alternatives matter. No outcome is guaranteed, and individual responses vary.",
-  faqs: [
-    { question: "What is Class IV laser therapy?", answer: "Class IV laser therapy uses a higher-powered therapeutic laser to deliver light to a selected treatment area. A trained professional determines whether it is appropriate and how it fits the broader care conversation." },
-    { question: "Is Class IV laser therapy the same as a consumer red-light device?", answer: "No. Class IV laser therapy uses a professional therapeutic laser and should be delivered with appropriate training and eye-safety precautions. It is different from consumer light devices." },
-    { question: "What does Class IV laser therapy treat?", answer: "This page does not promise treatment of a specific condition. Whether Class IV laser therapy may be appropriate depends on an individualized evaluation, your goals, and the available alternatives." },
-    { question: "Is Class IV laser therapy right for everyone?", answer: "No single modality is appropriate for everyone. Ask about your health history, precautions, alternatives, and how the provider would monitor your response." },
-    { question: "How do I start a conversation?", answer: "Use the Book page to request an appointment and bring your questions about Class IV laser therapy, goals, alternatives, and next steps." },
-  ],
-  sources: ["U.S. Food and Drug Administration", "National Center for Complementary and Integrative Health", "Peer-reviewed photobiomodulation literature"],
-  enhancedLayout: true,
-  heroBullets: [
-    "A clinician-guided service for comfort, movement, and recovery conversations.",
-    "A consultation helps clarify fit, alternatives, precautions, and next steps.",
-    "Individual responses vary, and no outcome is guaranteed.",
-  ],
-  orientationCallouts: {
-    leftTitle: "Noninvasive by design.",
-    leftBody: "Class IV laser therapy is delivered over the skin rather than through an injection or incision.",
-    rightTitle: "Individualized context.",
-    rightBody: "The treatment area, settings, precautions, and role in your plan depend on a professional evaluation.",
-  },
-  orientationImages: ["/images/pages/pain-decision-interior-v4.webp", "/images/shared/waiting-room.webp"],
-  decisionCtaLabel: "Ready to discuss your goals?",
-  categoryBoundaryTitle: "Keep the decision clear",
-  categoryBoundaryItems: [
-    "Class IV laser therapy is not a guarantee of pain relief or recovery.",
-    "Treatment decisions depend on your goals, health history, and evaluation.",
-    "Ask about risks, alternatives, and follow-up before choosing a plan.",
-  ],
-  categoryBoundaryLinkLabel: "Learn about our approach",
-  categoryBoundaryLinkHref: "/about",
-  faqQuote: "A clear plan starts with understanding what Class IV laser therapy can and cannot do.",
-  faqButtons: [
-    { label: "Book a Consultation", href: "/book" },
-    { label: "Contact the Clinic", href: "/contact" },
-  ],
-  bookingCtaPoints: ["Talk through your goals", "Review appropriate options", "Plan informed next steps"],
-};
-
 export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
   slug: "spinal-decompression",
   eyebrow: "Spinal decompression therapy",
@@ -420,5 +354,4 @@ export const SERVICE_PAGES = [
   PELVIC_PAGE,
   REGENERATIVE_PAGE,
   SPINAL_DECOMPRESSION_PAGE,
-  CLASS_IV_LASER_PAGE,
 ] as const;

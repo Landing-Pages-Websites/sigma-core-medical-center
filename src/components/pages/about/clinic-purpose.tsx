@@ -21,7 +21,7 @@ export function ClinicPurpose(): React.ReactElement {
               Purpose
             </h2>
             <p className="mt-6 max-w-[25rem] text-lg leading-snug text-white/95">
-              Sigma Core helps adults take a thoughtful next step across physical medicine and rehabilitation, joint and pain care, neuropathy, regenerative therapies, spinal decompression, Class IV laser therapy, pelvic-floor care, hormone optimization, and longevity.
+              Sigma Core helps adults take a thoughtful next step across physical medicine and rehabilitation, joint and pain care, neuropathy, regenerative therapies, spinal decompression, pelvic-floor care, hormone optimization, and longevity.
             </p>
             <p className="mt-6 border-l border-white/70 pl-3 text-lg leading-snug">
               Bring your goals and questions.

@@ -62,7 +62,7 @@ Categories a clinician may discuss for thoracic outlet syndrome.
 
 Because symptoms can overlap with other conditions, the evaluation may involve more than one type of assessment. [MedlinePlus](https://medlineplus.gov/thoracicoutletsyndrome.html) describes thoracic outlet syndrome as compression of nerves or blood vessels near the base of the neck, which helps explain why the discussion can differ between people. Ask what pattern your clinician is evaluating, what the intended role of each option is, and what alternatives remain if the first approach does not provide enough improvement.
 
-Sigma Core does not publish a thoracic outlet surgery program, and this article does not rank procedures. If a vascular or surgical specialist is the right next clinician, that referral is part of a careful plan. Class IV laser therapy and other comfort-focused services are separate conversations. They are not a substitute for outlet evaluation.
+Sigma Core does not publish a thoracic outlet surgery program, and this article does not rank procedures. If a vascular or surgical specialist is the right next clinician, that referral is part of a careful plan. Comfort-focused services are separate conversations. They are not a substitute for outlet evaluation.
 
 ## Questions to bring to a thoracic outlet syndrome visit
 
