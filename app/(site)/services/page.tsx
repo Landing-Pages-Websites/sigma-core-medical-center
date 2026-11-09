@@ -6,7 +6,7 @@ import "@/components/batch-three/contact/booking.css";
 
 export const metadata: Metadata = {
   title: "Medical Services in Richmond, VA",
-  description: "Explore pain relief, neuropathy, hormone, pelvic floor, regenerative, and laser services in Richmond, VA. Start with an informed consultation.",
+  description: "Explore pain relief, neuropathy, hormone, pelvic floor, and regenerative services in Richmond, VA. Start with an informed consultation.",
 };
 
 export default function ServicesRoute(): React.ReactElement {
