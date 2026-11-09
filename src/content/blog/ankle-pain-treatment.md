@@ -82,7 +82,7 @@ If symptoms persist or interfere with quality of life, an integrative medical co
 
 Some patients also ask about regenerative therapies or energy-based services. These are not automatically appropriate for ankle symptoms, and they should not be presented as guaranteed solutions. If a clinician believes an option deserves consideration, ask what it is designed to address. Ask what evidence applies to your situation. Also ask about alternatives, risks, and limits. You can review the practice's [regenerative medicine overview](https://www.sigmacoremedicalcenter.com/services/regenerative-medicine/richmond-va) as background, then discuss whether any service is suitable for you.
 
-Class IV laser therapy is another option some people ask about in the context of pain and recovery. A discussion of [Class IV laser therapy](https://www.sigmacoremedicalcenter.com/services/pain-relief/class-4-laser-therapy) should be individualized and should explain the intended role, alternatives, and reasonable expectations. No online description can determine whether a service is appropriate for a particular ankle complaint.
+Class IV laser therapy is another option some people ask about in the context of pain and recovery. A discussion of Class IV laser therapy should be individualized and should explain the intended role, alternatives, and reasonable expectations. No online description can determine whether a service is appropriate for a particular ankle complaint.
 
 ## Recovery Considerations for Adults Who Want to Stay Active
 

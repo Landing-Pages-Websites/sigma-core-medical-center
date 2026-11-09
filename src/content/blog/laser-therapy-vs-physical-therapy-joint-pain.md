@@ -417,7 +417,7 @@ Research findings and individual responses to laser therapy can vary based on th
 
 Treatments work best when they support the same functional goals. A medical provider can evaluate the source of your symptoms and address health conditions that may affect recovery. A physical therapist can guide mobility work, strengthening, balance exercises, and gradual loading.
 
-Laser therapy may be considered before exercise or manual therapy when pain makes movement difficult. It may also be used after a session when soreness needs attention. However, it should support active rehabilitation rather than replace it. [GTX Foot](https://gtxfoot.com/how-does-laser-therapy-work-for-arthritis/) explains that laser therapy is often used alongside exercise and physical therapy for arthritis care. For more information about this clinician-guided option, see [Class IV laser therapy for pain and recovery](/services/pain-relief/class-4-laser-therapy); it may be considered after an evaluation and should support, not replace, movement-based rehabilitation.
+Laser therapy may be considered before exercise or manual therapy when pain makes movement difficult. It may also be used after a session when soreness needs attention. However, it should support active rehabilitation rather than replace it. [GTX Foot](https://gtxfoot.com/how-does-laser-therapy-work-for-arthritis/) explains that laser therapy is often used alongside exercise and physical therapy for arthritis care.
 
 Make sure every member of your care team knows which treatments you are receiving. Follow-up visits give your provider an opportunity to review your symptoms, adjust exercise difficulty, assess your response, and determine whether the plan is helping you move more comfortably and safely.
 
