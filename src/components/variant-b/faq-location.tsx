@@ -93,7 +93,7 @@ export function FaqLocationB(): React.ReactElement {
                 {CONTACT.email}
               </a>
             </address>
-            <Link data-mega-cta="book-appointment" href="/book" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
+            <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
           </div>
         </Reveal>
       </div>

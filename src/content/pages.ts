@@ -277,8 +277,8 @@ export const REGENERATIVE_PAGE: ServicePageData = {
     {
       title: "Ready to talk",
       body: "Use the Book page to request an appointment and bring your questions to the conversation.",
-      href: "/book",
-      ctaLabel: "Book an Appointment",
+      href: "https://go.sigmacoremedicalcenter.com/",
+      ctaLabel: "Request a Free Consultation",
     },
   ],
   perspectiveCards: [

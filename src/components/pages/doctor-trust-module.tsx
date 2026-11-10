@@ -46,7 +46,7 @@ export function DoctorTrustModule({ compact = false }: DoctorTrustModuleProps): 
           <p className="mt-5 border-l-2 border-royal pl-4 text-base leading-relaxed text-white/85">
             Bring your goals and questions to a consultation to discuss whether Sigma Core may be an appropriate fit for you.
           </p>
-          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex min-h-12 items-center gap-3 bg-royal px-5 text-base font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-navy">
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="mt-7 inline-flex min-h-12 items-center gap-3 bg-royal px-5 text-base font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-navy">
             Explore consultation options <ArrowRight size={18} aria-hidden />
           </Link>
         </div>

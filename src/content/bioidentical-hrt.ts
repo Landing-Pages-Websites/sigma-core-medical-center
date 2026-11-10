@@ -60,8 +60,8 @@ export const BIOIDENTICAL_HRT_PAGE: ServicePageData = {
     {
       title: "Talk through your goals",
       body: "Start with a conversation about whether Sigma Core may be an appropriate fit for your needs.",
-      href: "/book",
-      ctaLabel: "Book an appointment",
+      href: "https://go.sigmacoremedicalcenter.com/",
+      ctaLabel: "Request a Free Consultation",
     },
   ],
   faqs: [

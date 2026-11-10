@@ -24,7 +24,7 @@ export function ConsultationCta({ servicesPage = false }: ConsultationCtaProps =
           <p className="text-sm font-semibold tracking-[0.12em] text-silver uppercase">Consultation information</p>
           <p className="mt-4 text-2xl font-semibold leading-tight">Questions first. Informed decisions next.</p>
           <Link data-mega-cta="book-appointment"
-            href="/book"
+            href={servicesPage ? "/book" : "https://go.sigmacoremedicalcenter.com/"}
             className="mt-7 inline-flex min-h-14 items-center gap-4 bg-action px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]"
           >
             {servicesPage ? "Review consultation information" : "Explore consultation options"} <ArrowRight size={22} aria-hidden className="shrink-0" />

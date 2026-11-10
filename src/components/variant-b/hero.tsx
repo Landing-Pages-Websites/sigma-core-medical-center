@@ -8,7 +8,7 @@ import { paperButtonB } from "@/components/variant-b/buttons";
 function HeroActionsB(): React.ReactElement {
   return (
     <div className="flex w-full max-w-sm flex-col gap-3">
-      <Link href="/book" data-mega-cta="book-consultation" className={paperButtonB}>
+      <Link href="https://go.sigmacoremedicalcenter.com/" data-mega-cta="book-consultation" className={paperButtonB}>
         <span className="flex items-center gap-3">
           <BracketMark />
           {HERO.primaryCta}

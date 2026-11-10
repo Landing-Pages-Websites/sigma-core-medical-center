@@ -46,8 +46,8 @@ export function PageHero({
               ))}
             </ul>
           ) : null}
-          <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex h-12 items-center gap-3 border-2 border-focus px-6 font-semibold text-white transition-colors hover:bg-action">
-            Book an Appointment <ArrowRight size={18} aria-hidden />
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="mt-8 inline-flex h-12 items-center gap-3 border-2 border-focus px-6 font-semibold text-white transition-colors hover:bg-action">
+            Request a Free Consultation <ArrowRight size={18} aria-hidden />
           </Link>
           {bullets ? null : quote ? (
             <div className="mt-10 max-w-xs bg-charcoal p-5 shadow-xl lg:absolute lg:-right-6 lg:bottom-8">
