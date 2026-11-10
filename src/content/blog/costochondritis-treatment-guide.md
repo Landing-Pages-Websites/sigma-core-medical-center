@@ -467,7 +467,7 @@ If symptoms continue for a long time, that does not automatically mean surgery i
 
 ## Related Articles
 
-* [Costochondritis: Symptoms, Causes, Diagnosis, and Treatment](https://www.clevelandclinic.org/health/diseases/21481-costochondritis)
+* [Costochondritis: Symptoms, Causes, Diagnosis, and Treatment](https://my.clevelandclinic.org/health/diseases/22167-costochondritis)
 * [Costochondritis: Diagnosis and Treatment](https://www.aafp.org/pubs/afp/issues/2009/0915/p617.html)
 * [Costochondritis: What to Know About Chest Wall Pain](https://www.medicalnewstoday.com/articles/320394)
 * [Costochondritis Treatment: What Works and What to Avoid](https://foxrehab.org/costochondritis-treatment/)

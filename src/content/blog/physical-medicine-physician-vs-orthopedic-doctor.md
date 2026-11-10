@@ -35,7 +35,7 @@ A treatment plan may include rehabilitation, medication, bracing, or selected pr
 
 Orthopedic doctors diagnose and treat conditions affecting the structures that support movement. These may include fractures, joint damage, tendon injuries, and arthritis. Depending on the cause of your symptoms, an orthopedic doctor may recommend nonsurgical care, such as medication or physical therapy, or discuss whether surgery could help.
 
-Orthopedic doctors have specialized training in musculoskeletal care, including surgical treatment. That expertise can be useful when an injury or structural problem needs a surgical evaluation, but surgery is only one possible part of orthopedic care. Your doctor can explain the options and how they relate to your diagnosis. The [comparison of physiatrists and orthopedic doctors](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) can help clarify the focus of each specialty.
+Orthopedic doctors have specialized training in musculoskeletal care, including surgical treatment. That expertise can be useful when an injury or structural problem needs a surgical evaluation, but surgery is only one possible part of orthopedic care. Your doctor can explain the options and how they relate to your diagnosis. The [comparison of physiatrists and orthopedic doctors](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) can help clarify the focus of each specialty.
 
 ### Both May Treat Arthritis and Sports Injuries
 
@@ -63,7 +63,7 @@ Orthopedic surgeons complete a five-year residency focused on diagnosing and tre
 
 A physiatrist often creates a treatment plan to ease symptoms and help you move with greater comfort and confidence. Depending on your condition, the plan may include physical therapy, targeted exercises, a brace, or non-opioid medication for pain or inflammation. Some physiatrists also offer injections, including image-guided procedures.
 
-For example, if back pain is limiting your walks, a physiatrist may assess your movement, strength, and nerve symptoms before recommending rehabilitation or other care. They may also coordinate with physical therapists and other clinicians to support your progress. Treatment should reflect your diagnosis, medical history, and priorities. Ask what each option is meant to address, what benefits to expect, and what alternatives are available. [Gaylord’s overview of physiatric treatment](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) describes common nonsurgical options.
+For example, if back pain is limiting your walks, a physiatrist may assess your movement, strength, and nerve symptoms before recommending rehabilitation or other care. They may also coordinate with physical therapists and other clinicians to support your progress. Treatment should reflect your diagnosis, medical history, and priorities. Ask what each option is meant to address, what benefits to expect, and what alternatives are available. [Gaylord’s overview of physiatric treatment](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) describes common nonsurgical options.
 
 ### Orthopedic Doctors Offer Nonsurgical Care and Surgery
 
@@ -75,7 +75,7 @@ Orthopedic surgeons perform procedures such as joint replacement, arthroscopy, a
 
 Some physiatrists and orthopedic doctors offer regenerative treatments, including platelet-rich plasma, or PRP. To prepare PRP, a clinician takes a sample of your blood and processes it to concentrate platelets, then injects it into a targeted area. A provider may discuss it for certain joint, tendon, or soft-tissue conditions, but it is not a guaranteed way to repair tissue or avoid surgery.
 
-Research and results vary by condition, so ask whether evidence supports PRP for your specific diagnosis. Find out what improvement is realistic, how many treatments may be suggested, what they will cost, and what risks or alternatives to consider. Alternatives may include rehabilitation or other established treatments. A careful clinician should explain what is known, what remains uncertain, and why the treatment may or may not fit your needs. [Gaylord’s guide to physiatric care](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) includes PRP among possible nonsurgical treatments.
+Research and results vary by condition, so ask whether evidence supports PRP for your specific diagnosis. Find out what improvement is realistic, how many treatments may be suggested, what they will cost, and what risks or alternatives to consider. Alternatives may include rehabilitation or other established treatments. A careful clinician should explain what is known, what remains uncertain, and why the treatment may or may not fit your needs. [Gaylord’s guide to physiatric care](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) includes PRP among possible nonsurgical treatments.
 
 ## When Should You See a Physiatrist or an Orthopedic Doctor?
 
@@ -89,13 +89,13 @@ Before an appointment, write down your symptoms, current medications, previous t
 
 Consider seeing a physiatrist if ongoing pain, tingling, weakness, or stiffness is making everyday activities difficult. Symptoms might include back or neck pain, numbness in your hands or feet, trouble with balance, or reduced mobility after an injury or illness. A physiatrist can assess how these problems affect your function and help develop an individualized care plan.
 
-Physiatrists are doctors specializing in physical medicine and rehabilitation. Depending on your needs, treatment may include rehabilitation, medication, bracing, or other nonsurgical approaches. The [Gaylord Hospital guide to physiatrists and orthopedists](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) explains how a physiatrist’s focus on function differs from an orthopedist’s. If symptoms are interfering with activities you value, ask your clinician whether a physiatrist could help identify options and set practical goals.
+Physiatrists are doctors specializing in physical medicine and rehabilitation. Depending on your needs, treatment may include rehabilitation, medication, bracing, or other nonsurgical approaches. The [Gaylord Hospital guide to physiatrists and orthopedists](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) explains how a physiatrist’s focus on function differs from an orthopedist’s. If symptoms are interfering with activities you value, ask your clinician whether a physiatrist could help identify options and set practical goals.
 
 ### See an Orthopedic Doctor for Structural Injuries or Surgical Evaluation
 
 An orthopedic doctor may be a good fit for a suspected fracture, a significant tendon or ligament injury, a joint that repeatedly gives way, or pain that may involve a structural problem. Orthopedists diagnose and treat musculoskeletal conditions. They can recommend nonsurgical care or discuss surgery, depending on the diagnosis, your health, and your goals.
 
-An appointment does not mean you have to choose surgery. The doctor can examine the affected area, review relevant imaging, and explain the available options. The [Gaylord Hospital overview of orthopedic care](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) describes the orthopedist’s role in treating structural problems and injuries. If you’re seeking care after an injury, note when it happened, what you were doing, and whether you can put weight on or use the affected area. These details can help guide the evaluation.
+An appointment does not mean you have to choose surgery. The doctor can examine the affected area, review relevant imaging, and explain the available options. The [Gaylord Hospital overview of orthopedic care](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) describes the orthopedist’s role in treating structural problems and injuries. If you’re seeking care after an injury, note when it happened, what you were doing, and whether you can put weight on or use the affected area. These details can help guide the evaluation.
 
 ### Ask for a Referral if Symptoms Persist or Conservative Care Isn’t Helping
 
@@ -139,7 +139,7 @@ After surgery, your orthopedic team monitors the procedure and healing. A physia
 
 ### Understand Referrals, Follow-Up, and Your Role in Care
 
-The right specialist to see first depends on your symptoms, referral, and access to care. A physiatrist may be a good starting point for ongoing back, neck, or joint pain, nerve symptoms, or mobility limits, especially if you want to discuss nonsurgical options. [Gaylord’s guide to choosing between a physiatrist and an orthopedic doctor](https://www.gaylord.org/patients-families/about/news/news-list/physiatrist-vs.-orthopedist-understanding-the-differences) describes situations when physiatry may be helpful. Your primary care clinician can also help you decide where to begin.
+The right specialist to see first depends on your symptoms, referral, and access to care. A physiatrist may be a good starting point for ongoing back, neck, or joint pain, nerve symptoms, or mobility limits, especially if you want to discuss nonsurgical options. [Gaylord’s guide to choosing between a physiatrist and an orthopedic doctor](https://www.gaylord.org/blog/physiatrist-vs.-orthopedist-understanding-the-differences) describes situations when physiatry may be helpful. Your primary care clinician can also help you decide where to begin.
 
 For each appointment, bring a list of symptoms, medications, previous treatments, and questions. Explain what has helped, what has not, and how your symptoms affect everyday life. Before you leave, confirm the next step, who will arrange it, and when to follow up. If recommendations differ, ask the doctors to discuss their reasoning and coordinate your care.
 
