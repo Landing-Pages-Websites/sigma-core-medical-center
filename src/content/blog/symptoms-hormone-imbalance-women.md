@@ -238,7 +238,7 @@ There isn’t one treatment plan that works for everyone. Your clinician can con
 
 Follow-up helps you and your clinician see whether a treatment is working and whether it remains a good fit. Track changes in your symptoms, note any side effects, and report new or worsening concerns. Some treatments may need adjustment, while others may not suit your health history or response. The aim is to address an underlying cause where possible and manage symptoms safely. San Diego Health highlights the importance of identifying the cause before choosing treatment.
 
-<p data-mega-cta="secondary"><strong>Considering hormone optimization?</strong> A consultation can help you discuss your symptoms, goals, health history, and whether clinician-supervised hormone care may be appropriate. <a href="/book">Book an appointment with Sigma Core Medical Center</a>.</p>
+<p data-mega-cta="secondary"><strong>Considering hormone optimization?</strong> A consultation can help you discuss your symptoms, goals, health history, and whether clinician-supervised hormone care may be appropriate. <a href="https://go.sigmacoremedicalcenter.com/">Request a Free Consultation with Sigma Core Medical Center</a>.</p>
 
 ## Frequently Asked Questions
 

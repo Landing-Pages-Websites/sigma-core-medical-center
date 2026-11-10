@@ -142,8 +142,8 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
               </div>
               <div className="mt-8 flex flex-col items-center justify-between gap-4 bg-charcoal px-6 py-5 text-white sm:flex-row sm:px-8">
                 <p className="text-base font-semibold">{data.decisionCtaLabel ?? "Ready to start the conversation?"}</p>
-                <Link data-mega-cta="book-appointment" href="/book" className="inline-flex h-11 items-center gap-2 bg-action px-5 text-sm font-semibold text-white transition-colors hover:bg-hover">
-                  Book an Appointment <ArrowRight size={16} aria-hidden />
+                <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="inline-flex h-11 items-center gap-2 bg-action px-5 text-sm font-semibold text-white transition-colors hover:bg-hover">
+                  Request a Free Consultation <ArrowRight size={16} aria-hidden />
                 </Link>
               </div>
             </>
@@ -190,7 +190,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
                 ))}
               </div>
             ) : (
-              <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white hover:bg-hover">Book an Appointment <ArrowRight size={18} /></Link>
+              <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="mt-8 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white hover:bg-hover">Request a Free Consultation <ArrowRight size={18} /></Link>
             )}
             <p className="mt-5 max-w-lg border-l-2 border-silver pl-4 text-sm text-white/55">General website information is not medical advice. Care options and outcomes vary.</p>
           </div>

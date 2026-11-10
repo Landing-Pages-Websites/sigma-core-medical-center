@@ -18,7 +18,7 @@ export const HERO = {
   eyebrow: "Personalized care in the Richmond area",
   headline: "Focused care for movement, function, and life",
   body: "Explore personalized options for neuropathy, persistent pain, hormone health, pelvic-floor concerns, and regenerative goals in one modern medical center.",
-  primaryCta: "Book an Appointment",
+  primaryCta: "Request a Free Consultation",
   secondaryCta: "Explore Neuropathy Care",
   locationLabel: "Richmond, Virginia area",
 } as const;
@@ -121,7 +121,7 @@ export const WAYS = {
     label: "Ready to talk",
     headline: "Book an appointment",
     body: "The approved scheduling experience will be linked when its integration is supplied.",
-    cta: "Book an Appointment",
+    cta: "Request a Free Consultation",
   },
   privacyNote:
     "General marketing forms do not collect free-text medical history or symptom narratives.",
@@ -158,7 +158,7 @@ export const FAQ = {
   ] as FaqItem[],
   locationLabel: "Richmond, Virginia area",
   addressNote: "Public address to be reconfirmed before launch",
-  cta: "Book an Appointment",
+  cta: "Request a Free Consultation",
 } as const;
 
 /** Confirmed public contact facts for Sigma Core Medical Center. */

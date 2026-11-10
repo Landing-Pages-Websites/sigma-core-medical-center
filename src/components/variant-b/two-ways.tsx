@@ -49,7 +49,7 @@ function BookingPanelB(): React.ReactElement {
           word="Movement"
           className="-right-1 -bottom-3 text-[3.25rem] whitespace-nowrap text-white/15 sm:text-[5.75rem] lg:-right-4"
         />
-        <Link data-mega-cta="book-appointment" href="/book" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
+        <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
           {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
         </Link>
       </div>

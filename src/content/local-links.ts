@@ -33,5 +33,5 @@ export const RICHMOND_NEXT_STEP_LINKS = [
   { label: "Explore all services", href: "/services" },
   { label: "Learn about Sigma Core", href: "/about" },
   { label: "Contact the center", href: "/contact" },
-  { label: "Book an appointment", href: "/book" },
+  { label: "Request a Free Consultation", href: "https://go.sigmacoremedicalcenter.com/" },
 ] as const;

@@ -29,8 +29,8 @@ export function BookingCta({
           <p className="flex items-center gap-3 text-sm font-semibold tracking-[0.18em] text-focus uppercase"><BracketMark /> Ready to talk</p>
           <h2 className="mt-4 text-4xl leading-none font-semibold tracking-tight sm:text-5xl">{title}</h2>
           <p className="mt-5 max-w-lg text-lg text-white/75">{body}</p>
-          <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white transition-colors hover:bg-hover">
-            Book an Appointment <ArrowRight size={18} aria-hidden />
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="mt-7 inline-flex h-12 items-center gap-3 bg-action px-6 font-semibold text-white transition-colors hover:bg-hover">
+            Request a Free Consultation <ArrowRight size={18} aria-hidden />
           </Link>
           <div className="mt-9 grid gap-3 text-sm text-white/70 sm:grid-cols-3">
             {points.map((point, index) => {
