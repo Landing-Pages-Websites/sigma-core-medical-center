@@ -1,11 +1,11 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const BOUNDARY_LINES = [
   "This section provides category-level information only.",
   "Specific products or procedures require their own review.",
-  "Content here does not reference any Sigma Core modalities.",
 ] as const;
 
 export function RegenerativeOrientation(): React.ReactElement {
@@ -47,6 +47,12 @@ export function RegenerativeOrientation(): React.ReactElement {
               {BOUNDARY_LINES.map((line) => (
                 <p key={line}>{line}</p>
               ))}
+              <p>
+                For general information about one option, read our {" "}
+                <Link href="/services/regenerative-medicine/prp-injection" className="underline decoration-1 underline-offset-2 hover:text-white">
+                  PRP injection care guide
+                </Link>. It explains what a consultation may cover without assuming PRP is right for you.
+              </p>
             </div>
           </div>
         </div>
