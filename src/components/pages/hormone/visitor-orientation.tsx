@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Globe } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
@@ -63,6 +64,12 @@ function OrientationAside(): React.ReactElement {
         <TallBracket className="h-8 w-2 text-silver" /> General information <TallBracket side="right" className="h-8 w-2 text-silver" />
       </h3>
       <p className="mt-5 max-w-[17rem] pl-5 text-sm leading-snug text-white/85">Content on this site provides general information about wellness topics and human performance.</p>
+      <p className="mt-4 max-w-[17rem] pl-5 text-sm leading-snug text-white/85">
+        For focused information, read our guide to {" "}
+        <Link href="/services/hormone-optimization/bioidentical-hrt" className="underline decoration-1 underline-offset-2 hover:text-white">
+          bioidentical hormone replacement therapy in Richmond, VA
+        </Link>. It explains how a consultation-led evaluation can explore whether it may fit your goals.
+      </p>
       <span aria-hidden className="my-7 block h-px bg-white/30" />
       <h3 className="flex items-start gap-3 text-sm font-semibold tracking-[0.12em] uppercase">
         <TallBracket className="h-10 w-2 text-silver" /> Your individual conversation
