@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { BRAND, HERO } from "@/content/site";
-import { BracketMark, GhostWord, SteppedBars } from "@/components/variant-b/motifs";
+import { BracketMark, GhostWord } from "@/components/variant-b/motifs";
 import { paperButtonB } from "@/components/variant-b/buttons";
 
 function HeroActionsB(): React.ReactElement {
@@ -29,23 +29,6 @@ function HeroActionsB(): React.ReactElement {
 export function HeroB(): React.ReactElement {
   return (
     <section data-mega-section="hero" id="hero" aria-label="Introduction" className="bg-ink">
-      <div className="bg-surface">
-        <div className="mx-auto flex max-w-[90rem] items-center justify-between px-6 py-4 max-[360px]:flex-col max-[360px]:items-start max-[360px]:gap-2 sm:px-10">
-          <Image
-            src="/images/shared/logo.webp"
-            alt="Sigma Core Medical Center"
-            width={300}
-            height={81}
-            priority
-            className="h-12 w-auto sm:h-14"
-          />
-          <nav aria-label="Main navigation" className="flex items-center gap-3 text-sm font-semibold text-ink max-[360px]:w-full max-[360px]:justify-between sm:gap-6 sm:text-base">
-            <Link href="/services/neuropathy" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Neuropathy</Link>
-            <Link href="/services" className="inline-flex min-h-11 min-w-11 items-center hover:text-action hover:underline focus-visible:outline-action">Services</Link>
-            <SteppedBars className="hidden items-end sm:flex" />
-          </nav>
-        </div>
-      </div>
       <div className="relative overflow-hidden">
         <div
           aria-hidden
