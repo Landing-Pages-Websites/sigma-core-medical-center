@@ -105,7 +105,7 @@ Conservative care may include physical therapy, medication, or changes to activi
 
 ### Seek Urgent Care for Severe Injuries or Sudden, Serious Symptoms
 
-Get prompt medical attention after a serious fall, a suspected fracture, major swelling, visible deformity, or an injury that makes it difficult to move or use a limb. A sudden injury during exercise or everyday activity could involve a fracture, sprain, or tear. [Atlantic Health’s overview of orthopedic care](https://ahs.atlantichealth.org/about-us/stay-connected/news/content-central/2024/know-orthopedic-options.html) describes injuries that may need medical evaluation.
+Get prompt medical attention after a serious fall, a suspected fracture, major swelling, visible deformity, or an injury that makes it difficult to move or use a limb. A sudden injury during exercise or everyday activity could involve a fracture, sprain, or tear. Atlantic Health’s overview of orthopedic care describes injuries that may need medical evaluation.
 
 Some symptoms require emergency care rather than a routine appointment. Seek emergency help for severe or rapidly worsening pain, sudden weakness or numbness, loss of bladder or bowel control, or a limb that becomes cold, pale, or blue. If you’re unsure how urgent your symptoms are, contact a medical professional or local emergency service for guidance. Avoid driving yourself if you feel faint, confused, or unable to move safely.
 

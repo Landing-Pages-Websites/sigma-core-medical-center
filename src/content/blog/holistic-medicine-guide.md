@@ -109,7 +109,7 @@ Prevention still includes routine medical care. Blood pressure checks, cancer sc
 
 Hormonal and metabolic changes can affect energy, muscle mass, body composition, sleep, mood, sexual health, and exercise recovery. A holistic evaluation considers these symptoms alongside nutrition, physical activity, stress, medications, and existing health conditions. This broader review may reveal factors contributing to how you feel.
 
-Care may include resistance training, nutrition support, improved sleep, blood sugar management, cardiovascular risk reduction, or medical treatment when appropriate. Hormone therapy is not suitable for everyone. It requires an individualized review of potential benefits, risks, personal history, and follow-up needs. The [Endocrine Society’s patient resources](https://www.endocrine.org/patient-engagement/patient-resources) explain why hormone-related care should involve proper evaluation and monitoring.
+Care may include resistance training, nutrition support, improved sleep, blood sugar management, cardiovascular risk reduction, or medical treatment when appropriate. Hormone therapy is not suitable for everyone. It requires an individualized review of potential benefits, risks, personal history, and follow-up needs. The [Endocrine Society’s patient resources](https://www.endocrine.org/patient-engagement) explain why hormone-related care should involve proper evaluation and monitoring.
 
 Longevity care should focus on preserving function and reducing preventable health risks. Ask which recommendations have clinical support, what outcomes will be monitored, and how the plan fits with your current providers and treatments.
 

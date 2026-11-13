@@ -211,7 +211,7 @@ Ask what diagnosis the therapy is meant to treat, which test results support tha
 
 ### Understand the Risks and Limits of Testosterone and Other Hormone Treatments
 
-Testosterone and other hormone treatments may help in specific situations, but they can also cause side effects and may not address symptoms when no deficiency is present. If testosterone is being considered, ask how your diagnosis was established, what benefits are realistic, and what monitoring you will need. The [Endocrine Society’s patient guidance on testosterone therapy](https://www.endocrine.org/patient-engagement/endocrine-library/testosterone-therapy) explains why treatment decisions should follow a clinical evaluation, rather than relying on age or one symptom alone.
+Testosterone and other hormone treatments may help in specific situations, but they can also cause side effects and may not address symptoms when no deficiency is present. If testosterone is being considered, ask how your diagnosis was established, what benefits are realistic, and what monitoring you will need. The [Endocrine Society’s patient guidance on testosterone therapy](https://www.endocrine.org/patient-engagement) explains why treatment decisions should follow a clinical evaluation, rather than relying on age or one symptom alone.
 
 Growth hormone also carries potential risks. Harvard Health notes that people treated for growth hormone deficiency may experience fluid retention, joint or muscle pain, carpal tunnel syndrome, or high blood sugar. Tell your clinician about new or worsening symptoms after starting treatment. Ask how often you will need follow-up visits or tests, and consult your care team before changing a dose or stopping a prescribed therapy.
 

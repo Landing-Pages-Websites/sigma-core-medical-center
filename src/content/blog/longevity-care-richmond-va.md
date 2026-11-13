@@ -1,7 +1,7 @@
 ---
 id: "item_7fhfm418ad5sk5d20crs5debwr"
 date: "2026-10-12"
-slug: "longevity-care-anytown"
+slug: "longevity-care-richmond-va"
 image: "https://zleague-public-prod.s3.us-east-2.amazonaws.com/article_images/b380819e-88b6-48bd-8f1e-bfe6a580d72a/longevity-care-anytown-services-costs--reviews-833163.webp"
 title: "Longevity Care in Richmond, VA: Services & What to Expect"
 imageAlt: "Two professionals discuss a personalized longevity care plan for an adult in Richmond, Virginia."

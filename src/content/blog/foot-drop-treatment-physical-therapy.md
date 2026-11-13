@@ -279,7 +279,7 @@ A qualified professional should select and fit the brace. The wrong size or desi
 
 Functional electrical stimulation, or FES, uses carefully timed electrical impulses to activate muscles during a specific movement. For foot drop, stimulation may target muscles that lift the front of the foot as the leg swings forward. The goal is to support a more natural walking pattern rather than simply hold the foot in place.
 
-FES is not suitable for everyone. A clinician may consider the cause of your foot drop, nerve function, skin health, sensation, implanted devices, and overall medical history. The treatment may be considered when the relevant nerve and muscle pathways respond to stimulation. It also requires proper fitting, adjustment, and training. Evidence can vary by condition, so treatment decisions should be individualized. The [Cochrane review of FES after stroke](https://www.cochrane.org/CD009279/STROKE/functional-electrical-stimulation-people-stroke) provides additional information about its use for foot drop.
+FES is not suitable for everyone. A clinician may consider the cause of your foot drop, nerve function, skin health, sensation, implanted devices, and overall medical history. The treatment may be considered when the relevant nerve and muscle pathways respond to stimulation. It also requires proper fitting, adjustment, and training. Evidence can vary by condition, so treatment decisions should be individualized. The Cochrane review of FES after stroke provides additional information about its use for foot drop.
 
 ### Address ankle, calf, or joint stiffness with manual therapy
 
