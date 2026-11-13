@@ -87,7 +87,7 @@ HBOT is used for certain conditions, including some diabetic foot ulcers, crush 
 
 The best-supported benefits relate to healing in specific conditions for which HBOT is recommended. Extra oxygen may help the body form new skin, blood vessels, and connective tissue, while supporting white blood cells as they fight infection. The evidence varies by diagnosis, so results seen with one type of wound do not necessarily apply to another. HBOT cannot guarantee healing or rule out the need for other treatments.
 
-Pain, mobility, and recovery may improve if the underlying wound or injury heals, but HBOT is not a general pain treatment. Evidence for broad improvements in movement or athletic recovery remains limited. A [Mayo Clinic discussion of HBOT for diabetic wounds](https://www.youtube.com/watch?v=QfdwLtPj5EY\&t=3) describes better improvement in some treated groups, but those findings apply to a specific condition. Ask your clinician which outcomes are relevant to your diagnosis and how progress will be measured.
+Pain, mobility, and recovery may improve if the underlying wound or injury heals, but HBOT is not a general pain treatment. Evidence for broad improvements in movement or athletic recovery remains limited. A Mayo Clinic discussion of HBOT for diabetic wounds describes better improvement in some treated groups, but those findings apply to a specific condition. Ask your clinician which outcomes are relevant to your diagnosis and how progress will be measured.
 
 ### How timing, treatment length, and the broader care plan affect results
 
@@ -121,7 +121,7 @@ Tell staff right away if you have severe ear or chest pain, trouble breathing, o
 
 An untreated pneumothorax, or collapsed lung, is a major safety concern because pressure changes may worsen it. Before treatment, your clinician will review your medical history and assess whether HBOT is suitable. Share any history of lung disease, chest surgery, trouble equalizing ear pressure, or recent illness. Mention other health conditions, too, even if they seem unrelated.
 
-Depending on your symptoms and history, the care team may recommend an examination or additional testing before deciding whether to proceed. The assessment also helps confirm that HBOT is appropriate for your diagnosis and that your health is stable enough for treatment. [UVA Health’s overview of HBOT evaluation](https://www.uvahealth.com/treatments/hyperbaric-oxygen-therapy) explains why clinicians assess each patient before starting therapy.
+Depending on your symptoms and history, the care team may recommend an examination or additional testing before deciding whether to proceed. The assessment also helps confirm that HBOT is appropriate for your diagnosis and that your health is stable enough for treatment. UVA Health’s overview of HBOT evaluation explains why clinicians assess each patient before starting therapy.
 
 ### How providers assess medications, blood sugar, and fire safety
 
@@ -141,7 +141,7 @@ The team will select a chamber based on your treatment plan and health needs. As
 
 A technician gradually increases the chamber pressure, a process called compression. As the pressure changes, your ears may feel full or pop, similar to the sensation during air travel. Staff can show you ways to equalize pressure, such as swallowing or yawning. Let them know if you have ear pain or trouble clearing your ears, rather than trying to push through the discomfort. [Tufts Medicine describes what patients may feel during compression](https://www.tuftsmedicine.org/services-treatments/wound-healing/hyperbaric-oxygen-therapy).
 
-During treatment, you breathe concentrated oxygen in a pressurized environment. How oxygen is delivered depends on the chamber and your care plan. Staff monitor you throughout the session, and you can communicate with them if you feel anxious, uncomfortable, or unwell. [UVA Health explains how pressure and oxygen work during HBOT](https://www.uvahealth.com/treatments/hyperbaric-oxygen-therapy).
+During treatment, you breathe concentrated oxygen in a pressurized environment. How oxygen is delivered depends on the chamber and your care plan. Staff monitor you throughout the session, and you can communicate with them if you feel anxious, uncomfortable, or unwell. UVA Health explains how pressure and oxygen work during HBOT.
 
 ### How long sessions last, how often treatments occur, and how providers track progress
 

@@ -210,7 +210,7 @@ Healthy habits can support overall well-being, but they can’t replace care for
 
 ### Support Sleep, Manage Stress, Eat Well, and Stay Physically Active
 
-Consistent sleep, regular movement, and balanced meals support general health and may make some symptoms easier to manage. Try keeping a steady sleep schedule, getting daylight during the day, and limiting late-day caffeine if it affects your rest. Walking, strength exercises, and balance activities can help support mobility and function as you age. Choose activities that suit your abilities, and ask a clinician or physical therapist about modifications if pain or mobility changes make exercise difficult.
+Consistent sleep, regular movement, and balanced meals support general health and may make some symptoms easier to manage. Try keeping a steady sleep schedule, getting daylight during the day, and limiting late-day caffeine if it affects your rest. Walking, strength exercises, and balance activities can help support mobility and function as you age. Choose activities that suit your abilities, and ask your clinician or care team about modifications if pain or mobility changes make exercise difficult.
 
 Aim for varied meals that include vegetables, fruit, whole grains, protein, and healthy fats. Limiting highly processed foods and added sugar may support overall health, but no single food can diagnose or correct a hormone condition. BASS Medical Group discusses how dietary patterns may relate to hormone health. If symptoms continue despite healthy routines, bring them up with your healthcare professional.
 

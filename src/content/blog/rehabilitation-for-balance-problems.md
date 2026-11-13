@@ -47,7 +47,7 @@ An evaluation usually starts with a conversation about symptoms, health history,
 
 Depending on the clinician's role and the situation, an assessment may include observation of posture and movement, walking, transfers such as rising from a chair, or balance under selected conditions. A professional may use a standardized assessment tool to document function or help guide care decisions. The choice of assessment should reflect the individual's abilities and safety; it is not a test a reader should try to reproduce alone.
 
-Physical therapists use balance assessment tools to help identify deficits and guide rehabilitation planning, as described in [research on balance assessment tools used by physical therapists](https://pmc.ncbi.nlm.nih.gov/articles/PMC12026775/). Findings from any one measure are only part of the picture. They should be interpreted with the person's history, symptoms, environment, and clinical judgment rather than treated as a diagnosis on their own.
+Rehabilitation clinicians use balance assessment tools to help identify deficits and guide rehabilitation planning, as described in [research on balance assessment tools used by physical therapists](https://pmc.ncbi.nlm.nih.gov/articles/PMC12026775/). Findings from any one measure are only part of the picture. They should be interpreted with the person's history, symptoms, environment, and clinical judgment rather than treated as a diagnosis on their own.
 
 Assessment should be adapted to the person's comfort and safety. A clinician may explain each task before it begins, offer support, or choose a different way to gather information if standing or walking is not safe. It is reasonable to ask what a test is intended to assess, whether assistance will be available, and what happens if symptoms increase.
 
@@ -102,7 +102,7 @@ Ask a clinician or local health professional whether a home safety review or ref
 
 ## How should you compare rehabilitation options?
 
-Care settings and professional roles vary. A physical therapist may assess movement and functional tasks within their scope. A medical clinician may investigate health conditions or symptoms that need diagnosis. Some people need both kinds of input, while others may need a different specialist. Ask who will assess the concern, what the assessment covers, and how the care team coordinates with other clinicians.
+Care settings and professional roles vary. A rehabilitation clinician may assess movement and functional tasks within their scope. A medical clinician may investigate health conditions or symptoms that need diagnosis. Some people need both kinds of input, while others may need a different specialist. Ask who will assess the concern, what the assessment covers, and how the care team coordinates with other clinicians.
 
 When considering a practice, review its stated services and ask how the proposed evaluation relates to your goals. Sigma Core Medical Center describes its scope through its [services overview](https://www.sigmacoremedicalcenter.com/services). The center's [about page](https://www.sigmacoremedicalcenter.com/about) provides additional background. Ask directly whether the service you need is available and whether another type of clinician should be involved. Do not assume that every provider or clinic offers every kind of balance assessment.
 

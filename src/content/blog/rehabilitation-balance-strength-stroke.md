@@ -57,7 +57,7 @@ The pattern and degree of weakness differ for each person. A [stroke rehabilitat
 
 Balance depends on more than leg strength. The brain processes information from vision, the inner ear, and body sensation to help a person understand where they are and how their weight is shifting. After a stroke, changes in sensation or coordination may make it harder to place a foot accurately, judge a surface, or adjust when reaching. These changes can make familiar movements feel less predictable.
 
-Posture and trunk control matter, too. The trunk helps keep the body upright and provides a steady base for arm and leg movements. When trunk control is reduced, sitting or standing may feel less stable, and walking may become slower or involve shorter steps. A [stroke recovery video about trunk control](https://www.youtube.com/watch?v=vzYytGk8nYs) describes how trunk stability supports balance and movement. A rehabilitation professional can assess these changes and adapt practice to the person’s abilities.
+Posture and trunk control matter, too. The trunk helps keep the body upright and provides a steady base for arm and leg movements. When trunk control is reduced, sitting or standing may feel less stable, and walking may become slower or involve shorter steps. A stroke recovery video about trunk control describes how trunk stability supports balance and movement. A rehabilitation professional can assess these changes and adapt practice to the person’s abilities.
 
 ### How mobility challenges affect walking and daily tasks
 
@@ -151,13 +151,13 @@ Strength and balance exercises are important, but they are not the only parts of
 
 Gait training helps you practice walking in a structured, supervised setting. A physical therapist may use a treadmill with partial body-weight support, allowing you to work on stepping while some of your weight is supported. Sessions may also focus on turning, walking over different surfaces, or managing stairs, depending on your goals and ability.
 
-A cane, walker, or brace may provide support for daily movement. The right aid depends on your balance, strength, coordination, and surroundings. A physical therapist can assess what may help, ensure it fits properly, and show you how to use it safely. Learn more about [physical therapy for strength and mobility after a stroke](https://gopt.us/bmcr/looking-to-improve-your-strength-mobility-after-a-stroke-physical-therapy-can-help/).
+A cane, walker, or brace may provide support for daily movement. The right aid depends on your balance, strength, coordination, and surroundings. A physical therapist can assess what may help, ensure it fits properly, and show you how to use it safely. Learn more about physical therapy for strength and mobility after a stroke.
 
 ### Address daily tasks and home adaptations with occupational therapy
 
 Occupational therapy helps you practice everyday activities, such as getting dressed, bathing, preparing meals, and managing household tasks. An occupational therapist can break an activity into steps, suggest different ways to do it, and help you practice safely. The focus is on supporting independence while accounting for changes in strength, coordination, sensation, or attention.
 
-Your therapist may also suggest home adjustments, such as grab bars, a shower seat, improved lighting, or clearer paths between rooms. These changes can make routines more manageable and help reduce fall hazards. Ask your care team which adjustments are appropriate for your home and needs. This [guide to stroke rehabilitation and caregiver support](https://www.nyra.health/en/guides/stroke-rehabilitation-the-role-of-caregivers) describes how occupational therapy can support daily activities.
+Your therapist may also suggest home adjustments, such as grab bars, a shower seat, improved lighting, or clearer paths between rooms. These changes can make routines more manageable and help reduce fall hazards. Ask your care team which adjustments are appropriate for your home and needs. This guide to stroke rehabilitation and caregiver support describes how occupational therapy can support daily activities.
 
 ### Coordinate rehabilitation with the broader medical team
 
@@ -207,7 +207,7 @@ Progress may differ across abilities, too. You might feel steadier when standing
 
 ### Continue building strength and balance after discharge
 
-Leaving inpatient rehabilitation does not always mean therapy is over. Your team may recommend outpatient or home-based therapy, or a home exercise program to help you keep practicing. Regular, appropriate practice can help you work on movement and daily tasks after discharge. [Flint Rehabilitation outlines home exercises](https://www.flintrehab.com/stroke-exercises) that may support continued practice.
+Leaving inpatient rehabilitation does not always mean therapy is over. Your team may recommend outpatient or home-based therapy, or a home exercise program to help you keep practicing. Regular, appropriate practice can help you work on movement and daily tasks after discharge. Flint Rehabilitation outlines home exercises that may support continued practice.
 
 Ask your clinician or therapist which activities are right for you, how often to do them, and whether you need someone nearby. Your plan should take into account your balance, strength, fatigue, and fall risk. You may practice supported standing, sit-to-stand movements, walking, transfers, or arm and hand tasks, depending on your needs. Follow your care team’s guidance, and tell them if an activity causes pain, dizziness, unusual shortness of breath, or a change in your ability.
 
@@ -233,7 +233,7 @@ The rehabilitation team can explain how much help is appropriate for exercises, 
 
 Help your loved one follow the exercises recommended by their physical or occupational therapist. You might agree on a regular practice time, set out any equipment, or offer a reminder. Ask the therapist to show you how to support each exercise safely, including when hands-on help is needed and when it’s best to let the person try independently.
 
-Allow extra time for tasks your loved one can manage, and avoid turning practice into a test. Pain, unusual fatigue, or distress are reasons to pause and check with the care team. Changes in mood can also affect motivation, so listen without judgment and share ongoing concerns with the rehabilitation team. This [guide to caregivers’ role in stroke rehabilitation](https://www.nyra.health/en/guides/stroke-rehabilitation-the-role-of-caregivers) explains why emotional support matters alongside physical practice.
+Allow extra time for tasks your loved one can manage, and avoid turning practice into a test. Pain, unusual fatigue, or distress are reasons to pause and check with the care team. Changes in mood can also affect motivation, so listen without judgment and share ongoing concerns with the rehabilitation team. This guide to caregivers’ role in stroke rehabilitation explains why emotional support matters alongside physical practice.
 
 ### Help follow the care plan and make the home safer
 
@@ -257,15 +257,15 @@ Ask what kind of help feels useful, and respect their preferences whenever it’
 
 Caregivers may notice changes between appointments that are useful for the rehabilitation team to know. Keep brief notes about walking, balance, pain, fatigue, mood, and daily activities. Share improvements as well as difficulties, and ask whether the plan needs to be adjusted. Contact the appropriate medical service promptly if a sudden or concerning change occurs.
 
-Tell the team about barriers to practice, too, such as fear of falling, low motivation, or difficulty fitting exercises into the day. Ask whom to contact between appointments and which changes need urgent attention. The [caregiver guide to stroke rehabilitation](https://www.nyra.health/en/guides/stroke-rehabilitation-the-role-of-caregivers) describes signs of emotional distress, including withdrawal, irritability, or losing interest in usual activities, and encourages seeking professional support when needed.
+Tell the team about barriers to practice, too, such as fear of falling, low motivation, or difficulty fitting exercises into the day. Ask whom to contact between appointments and which changes need urgent attention. The caregiver guide to stroke rehabilitation describes signs of emotional distress, including withdrawal, irritability, or losing interest in usual activities, and encourages seeking professional support when needed.
 
 ## Related Articles
 
-* [Looking to Improve Your Strength & Mobility After a Stroke? Physical Therapy Can Help](https://gopt.us/bmcr/looking-to-improve-your-strength-mobility-after-a-stroke-physical-therapy-can-help/)
-* [Stroke Rehabilitation: The Role of Caregivers](https://www.nyra.health/en/guides/stroke-rehabilitation-the-role-of-caregivers)
+* Looking to Improve Your Strength & Mobility After a Stroke? Physical Therapy Can Help
+* Stroke Rehabilitation: The Role of Caregivers
 * [Stroke Myths Busted: What You Need to Know About Recovery](https://news.christianacare.org/2025/04/stroke-myths-busted/)
 * [Common Myths About Strokes](https://www.aarp.org/health/conditions-treatments/common-myths-about-strokes/)
-* [Stroke Exercises for Recovery at Home](https://www.flintrehab.com/stroke-exercises)
+* Stroke Exercises for Recovery at Home
 
 ## Frequently Asked Questions
 

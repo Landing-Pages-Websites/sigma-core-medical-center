@@ -247,31 +247,31 @@ Potential effects may include changes in local blood flow, tissue activity, scar
 
 Shock waves deliver mechanical energy to a targeted area. This stimulus may encourage biological activity related to circulation, inflammation regulation, and tissue repair. For some patients, reduced pain makes it easier to perform the strengthening and mobility exercises needed for long-term recovery.
 
-Shock wave treatment works best as part of a broader plan, not as a substitute for movement. As symptoms become more manageable, your provider or physical therapist may introduce exercises for strength, balance, flexibility, and coordination. [SoftWave TRT describes](https://softwavetrt.com/shock-wave-therapy/) the cellular and vascular responses being studied in relation to shock wave treatment. Your diagnosis, tissue condition, and functional goals should guide whether this approach belongs in your care plan.
+Shock wave treatment works best as part of a broader plan, not as a substitute for movement. As symptoms become more manageable, your provider or physical therapist may introduce exercises for strength, balance, flexibility, and coordination. SoftWave TRT describes the cellular and vascular responses being studied in relation to shock wave treatment. Your diagnosis, tissue condition, and functional goals should guide whether this approach belongs in your care plan.
 
 ### Consider its role alongside medication, injections, or surgery
 
 Shock wave treatment may be a nonsurgical option for selected chronic tendon, soft-tissue, and joint conditions. That does not mean it should replace medication, injections, physical therapy, or surgery in every case. Each treatment has a different role, and the appropriate choice depends on the cause and severity of your symptoms.
 
-For example, a person with chronic tendinopathy may benefit from shock wave treatment paired with progressive rehabilitation. Someone with a complete tendon tear, advanced joint damage, infection, or another serious condition may need a different treatment first. A qualified provider should review your examination, imaging, medications, and goals before making a recommendation. [SoftWave TRT outlines](https://softwavetrt.com/shock-wave-therapy/) how shock wave therapy may be used for acute and chronic pain, but an individual assessment remains essential.
+For example, a person with chronic tendinopathy may benefit from shock wave treatment paired with progressive rehabilitation. Someone with a complete tendon tear, advanced joint damage, infection, or another serious condition may need a different treatment first. A qualified provider should review your examination, imaging, medications, and goals before making a recommendation. SoftWave TRT outlines how shock wave therapy may be used for acute and chronic pain, but an individual assessment remains essential.
 
 ### Return to walking, strength training, and daily activities
 
 Many patients can resume normal routines and light activity after a session. This may include walking, desk work, and gentle household tasks, depending on the treatment area and your provider’s instructions. Maintaining comfortable movement can help preserve conditioning while the broader care plan addresses the underlying problem.
 
-Strenuous exercise may need to wait 24 to 48 hours after treatment. [CLS Health recommends](https://cls.health/blog/how-shockwave-therapy-helps-in-season-athletes-recover-quickly) allowing this period before returning to demanding activity. Your timeline may differ if you have significant soreness, bruising, diabetes, circulation problems, or another health concern. Begin with comfortable movement, then gradually increase walking, resistance training, or recreational activity as symptoms allow.
+Strenuous exercise may need to wait 24 to 48 hours after treatment. CLS Health recommends allowing this period before returning to demanding activity. Your timeline may differ if you have significant soreness, bruising, diabetes, circulation problems, or another health concern. Begin with comfortable movement, then gradually increase walking, resistance training, or recreational activity as symptoms allow.
 
 ### Pair shock wave treatment with targeted rehabilitation
 
 Shock wave treatment may make exercise more comfortable, but it does not rebuild strength on its own. If pain has limited your activity, the surrounding muscles may need gradual conditioning. A rehabilitation plan can address factors that contribute to recurring symptoms, such as weak hip muscles, poor ankle control, restricted shoulder movement, or reduced balance.
 
-Your program may include mobility exercises, progressive resistance training, gait work, balance drills, or changes to exercise technique. The progression should reflect your symptoms and functional goals. [Weill Cornell Medicine notes](https://www.youtube.com/watch?v=VjLTfiCEuVE) that shock wave therapy may work best when combined with physical therapy and rehabilitation. Ask how to coordinate treatment sessions with exercise so the tissue receives enough stimulus without excessive strain.
+Your program may include mobility exercises, progressive resistance training, gait work, balance drills, or changes to exercise technique. The progression should reflect your symptoms and functional goals. Weill Cornell Medicine notes that shock wave therapy may work best when combined with physical therapy and rehabilitation. Ask how to coordinate treatment sessions with exercise so the tissue receives enough stimulus without excessive strain.
 
 ### Expect delayed results, multiple sessions, and realistic limits
 
 Shock wave treatment is not usually an instant fix. Some people notice a change after the first session, while others improve gradually over several weeks. Chronic conditions often require three to five sessions spaced about a week apart. The overall response, including rehabilitation and activity changes, may matter more than how the area feels immediately afterward.
 
-Results vary by diagnosis and individual health. Treatment may not resolve pain caused by severe arthritis, a complete tear, nerve compression, infection, or an undiagnosed condition. Temporary soreness, tenderness, redness, swelling, or bruising can also occur. [Carrollton Foot Center describes](https://www.carrolltonfeet.com/shockwave-therapy/3999) the common multi-session approach and the time needed for improvement. Set practical goals with your provider, such as walking farther, lifting with less discomfort, or returning to a favorite activity, then reassess your progress throughout care.
+Results vary by diagnosis and individual health. Treatment may not resolve pain caused by severe arthritis, a complete tear, nerve compression, infection, or an undiagnosed condition. Temporary soreness, tenderness, redness, swelling, or bruising can also occur. Carrollton Foot Center describes the common multi-session approach and the time needed for improvement. Set practical goals with your provider, such as walking farther, lifting with less discomfort, or returning to a favorite activity, then reassess your progress throughout care.
 
 ## Who Makes a Good Candidate for Shock Wave Treatment?
 
@@ -283,7 +283,7 @@ A thorough evaluation matters, particularly for adults managing several health c
 
 Shock wave treatment is generally considered for pain that is persistent and easy to locate, rather than widespread or unexplained discomfort. It may be an option when symptoms have continued despite reasonable first steps, such as activity changes, mobility exercises, physical therapy, supportive footwear, or other clinician-guided care.
 
-Examples include heel pain associated with plantar fasciitis, chronic Achilles or patellar tendon symptoms, tennis elbow, and some forms of shoulder tendinopathy. The treatment is not a substitute for diagnosis, and it is not designed for every type of pain. As [Dr. Jill Chiropractic explains](https://drjillchiropractic.com/shockwave-therapy-clearing-up-the-misconceptions), shock wave therapy is commonly used for chronic pain, muscle and tendon problems, and areas that have been slow to heal.
+Examples include heel pain associated with plantar fasciitis, chronic Achilles or patellar tendon symptoms, tennis elbow, and some forms of shoulder tendinopathy. The treatment is not a substitute for diagnosis, and it is not designed for every type of pain. As Dr. Jill Chiropractic explains, shock wave therapy is commonly used for chronic pain, muscle and tendon problems, and areas that have been slow to heal.
 
 A suitable candidate can usually identify a consistent area of pain, explain how symptoms affect movement, and describe which activities make the problem better or worse.
 
@@ -301,7 +301,7 @@ A strong candidate usually has a practical goal beyond lowering a pain score. Yo
 
 Treatment often works best when it supports active rehabilitation. As pain and movement improve, you may be able to participate more fully in strength training, balance work, mobility exercises, or physical therapy. Shock wave treatment should not be presented as a stand-alone solution or a guaranteed path back to every activity.
 
-Discuss suitability with a qualified medical provider, as recommended by [Weill Cornell Medicine](https://www.youtube.com/watch?v=VjLTfiCEuVE). Ask how progress will be measured, which activities you can continue, and what changes may be needed during recovery.
+Discuss suitability with a qualified medical provider, as recommended by Weill Cornell Medicine. Ask how progress will be measured, which activities you can continue, and what changes may be needed during recovery.
 
 ### Review medications, circulation, bone health, and medical history
 
@@ -309,7 +309,7 @@ Before treatment, provide a complete medical history. Include previous injuries 
 
 These details may affect whether treatment should be delayed, adjusted, or combined with another form of care. They may also influence how safely the treatment area responds and recovers. Never stop a prescribed medication on your own. Your treating clinician and prescribing physician should decide whether any medication requires special consideration.
 
-Screening can also identify whether pain comes from a fracture, complete tendon tear, infection, nerve disorder, or another condition that shock wave treatment is not designed to address. [Serenity Healthcare Center recommends discussing your full medical history with a doctor](https://www.serenityhealthcarecenter.com/can-shockwave-therapy-cause-damage) before treatment.
+Screening can also identify whether pain comes from a fracture, complete tendon tear, infection, nerve disorder, or another condition that shock wave treatment is not designed to address. Serenity Healthcare Center recommends discussing your full medical history with a doctor before treatment.
 
 ### Account for diabetes, neuropathy, and reduced sensation
 
@@ -445,7 +445,7 @@ Shock wave treatment generally should not be applied over an open wound, active 
 
 Tell your provider about cuts, ulcers, drainage, unexplained redness, warmth, or a new rash near the proposed treatment area. This is especially important if you have diabetes, reduced circulation, or reduced sensation, since a skin problem may be harder to notice and may heal slowly.
 
-Treatment may need to wait until the skin has closed and an infection has been addressed. Your provider should also determine whether the pain comes from the skin, tendon, joint, muscle, or another structure. [Clinical guidance on shock wave precautions](https://www.ypo.education/general/shockwave-therapy-t715/video/) identifies open wounds, rashes, swelling, inflammation, and infection as reasons for caution.
+Treatment may need to wait until the skin has closed and an infection has been addressed. Your provider should also determine whether the pain comes from the skin, tendon, joint, muscle, or another structure. Clinical guidance on shock wave precautions identifies open wounds, rashes, swelling, inflammation, and infection as reasons for caution.
 
 ### Avoid treatment near malignancy
 
@@ -485,7 +485,7 @@ Reduced circulation can affect healing and increase the chance that a skin injur
 
 Tell your provider if you have peripheral neuropathy, diabetes-related nerve changes, peripheral artery disease, vascular disease, persistent numbness, or unexplained burning and tingling. The clinician may check your pulses, skin health, sensation, and tissue condition before deciding whether treatment is appropriate.
 
-If you have limited sensation, you may not be able to provide reliable feedback about treatment intensity. Your provider may choose a lower setting, treat a different area, or recommend another option. [Shock wave treatment precautions](https://www.ypo.education/general/shockwave-therapy-t715/video/) include nerve and circulation disorders among conditions that require careful review.
+If you have limited sensation, you may not be able to provide reliable feedback about treatment intensity. Your provider may choose a lower setting, treat a different area, or recommend another option. Shock wave treatment precautions include nerve and circulation disorders among conditions that require careful review.
 
 ### Check implanted devices and treatment-site precautions
 
@@ -515,7 +515,7 @@ During the session, report pain, numbness, burning, or changes in sensation. Aft
 
 ## How Much Does Shock Wave Treatment Cost, and Does Insurance Cover It?
 
-Shock wave treatment is often offered as self-pay care, which means prices can vary significantly between clinics. A typical session may cost between $200 and $1,000, according to [Heel That Pain’s overview of extracorporeal shock wave therapy](https://heelthatpain.com/other-treatments/eswt-extracorporeal-shock-wave-therapy-heel-pain/). If your treatment plan includes three to five sessions, the treatment portion alone may cost about $600 to $5,000.
+Shock wave treatment is often offered as self-pay care, which means prices can vary significantly between clinics. A typical session may cost between $200 and $1,000, according to Heel That Pain’s overview of extracorporeal shock wave therapy. If your treatment plan includes three to five sessions, the treatment portion alone may cost about $600 to $5,000.
 
 Your total expense may be higher if the plan includes an evaluation, imaging, rehabilitation, or follow-up visits. Insurance coverage also varies. Some plans do not cover shock wave treatment or classify it as investigational, while others may review coverage based on the diagnosis and medical necessity. Ask the clinic and your insurer for written information before scheduling care.
 
@@ -531,7 +531,7 @@ The number of sessions depends on the diagnosis, tissue involved, symptom durati
 
 Focused shock wave treatment often costs more than radial pressure wave treatment because the equipment and delivery method differ. Focused systems direct energy to a specific depth and location, while radial systems deliver pressure waves from the applicator into more superficial tissue.
 
-The more expensive option is not automatically the better option. Your diagnosis, tissue depth, treatment goals, and provider’s protocol should guide the recommendation. Ask why a focused or radial system is appropriate for your condition, how many sessions are expected, and whether the quoted price reflects the technology being used. [SoftWave TRT explains factors that can influence shock wave therapy costs](https://softwavetrt.com/shock-wave-therapy/), including treatment type and provider expertise.
+The more expensive option is not automatically the better option. Your diagnosis, tissue depth, treatment goals, and provider’s protocol should guide the recommendation. Ask why a focused or radial system is appropriate for your condition, how many sessions are expected, and whether the quoted price reflects the technology being used. SoftWave TRT explains factors that can influence shock wave therapy costs, including treatment type and provider expertise.
 
 ### Consider location, facility type, and provider expertise
 
@@ -561,13 +561,13 @@ Ask the clinic whether it can provide a cost estimate or superbill, then confirm
 
 An itemized quote should list the evaluation, each treatment session, imaging, rehabilitation, supplies, and follow-up care. It should also explain whether focused and radial treatments have different prices and whether treating multiple areas changes the fee.
 
-Ask whether package pricing includes every planned visit and whether unused sessions can be refunded. A written quote makes it easier to compare clinics and identify unexpected charges. [Nexus Studio PT recommends requesting an itemized treatment quote](https://www.nexusstudiopt.com/blog/shockwave-therapy-myths) so patients can understand how the total is calculated. If a fee is unclear, ask for an explanation before paying a deposit or beginning care.
+Ask whether package pricing includes every planned visit and whether unused sessions can be refunded. A written quote makes it easier to compare clinics and identify unexpected charges. Nexus Studio PT recommends requesting an itemized treatment quote so patients can understand how the total is calculated. If a fee is unclear, ask for an explanation before paying a deposit or beginning care.
 
 ### Compare total value with medication, injections, rehabilitation, and surgery
 
 Consider shock wave treatment alongside medication, injections, structured rehabilitation, and surgery. Each option has different costs, risks, time commitments, and expected recovery periods. Medication may involve ongoing purchases, injections may require repeat visits, and surgery can include facility fees, anesthesia, rehabilitation, and time away from normal activities.
 
-Shock wave treatment is not always the least expensive or most effective choice. Your diagnosis, overall health, symptom duration, and goals should guide the decision. Ask what improvement the provider expects, how progress will be measured, and what the next step would be if your pain or function does not change. [Carrollton Foot Center discusses comparing shock wave treatment with other care options](https://www.carrolltonfeet.com/shockwave-therapy/3999), which can help you evaluate the full cost of treatment rather than the price of one appointment.
+Shock wave treatment is not always the least expensive or most effective choice. Your diagnosis, overall health, symptom duration, and goals should guide the decision. Ask what improvement the provider expects, how progress will be measured, and what the next step would be if your pain or function does not change. Carrollton Foot Center discusses comparing shock wave treatment with other care options, which can help you evaluate the full cost of treatment rather than the price of one appointment.
 
 ## How Can You Build a Personalized Shock Wave Treatment Plan?
 
@@ -605,7 +605,7 @@ Shock wave therapy may make movement more comfortable, but it does not replace t
 
 For example, treatment for Achilles pain might be paired with progressive calf strengthening. A shoulder plan could include rotator cuff and upper-back exercises, while care for knee pain might involve quadriceps, hip, and balance training. Exercises should match your current ability and progress gradually.
 
-Your provider may also recommend changes to walking, lifting, running, or recreational activities while the tissue adapts. [Weill Cornell Medicine explains](https://www.youtube.com/watch?v=VjLTfiCEuVE) that results may be best when shock wave therapy is combined with physical therapy and rehabilitation. Ask how your sessions fit into the larger plan, including which exercises to perform and which activities to modify.
+Your provider may also recommend changes to walking, lifting, running, or recreational activities while the tissue adapts. Weill Cornell Medicine explains that results may be best when shock wave therapy is combined with physical therapy and rehabilitation. Ask how your sessions fit into the larger plan, including which exercises to perform and which activities to modify.
 
 ### Adjust activity and recovery according to symptoms
 
@@ -613,7 +613,7 @@ Many people can walk and return to normal activities after a session, but that d
 
 Use symptoms as information rather than a reason to push harder. Mild tenderness can occur after treatment, while increasing pain, significant swelling, or worsening function may indicate that your activity level needs adjustment. Follow your provider’s instructions for rest, exercise, ice, and pain relief.
 
-[SoftWave TRT reports](https://softwavetrt.com/shock-wave-therapy/) that patients can often return to normal activities immediately, while some providers recommend resting the treated area for one or two days. Instructions vary according to your diagnosis, treatment intensity, and overall health. Ask when you can safely resume walking, strength training, sports, or other demanding activities.
+SoftWave TRT reports that patients can often return to normal activities immediately, while some providers recommend resting the treated area for one or two days. Instructions vary according to your diagnosis, treatment intensity, and overall health. Ask when you can safely resume walking, strength training, sports, or other demanding activities.
 
 ### Reassess pain, range of motion, strength, and function
 
@@ -629,7 +629,7 @@ Look for a licensed medical professional who regularly treats your condition and
 
 A qualified provider should screen for contraindications, review your medications, discuss expected benefits and limitations, and provide clear aftercare instructions. They should also explain what will happen if your symptoms do not improve, rather than promise a guaranteed result.
 
-Ask whether the plan includes rehabilitation and follow-up appointments. You can also request information about the evidence supporting the protocol for your diagnosis. Medical research supports shock wave therapy for several musculoskeletal conditions, but results vary by condition, treatment method, and patient. A provider who uses [evidence-informed protocols](https://shockwavecanada.com/shockwave-therapy-reviews-and-scientific-evidence) should be comfortable discussing both the potential benefits and the limits of treatment.
+Ask whether the plan includes rehabilitation and follow-up appointments. You can also request information about the evidence supporting the protocol for your diagnosis. Medical research supports shock wave therapy for several musculoskeletal conditions, but results vary by condition, treatment method, and patient. A provider who uses evidence-informed protocols should be comfortable discussing both the potential benefits and the limits of treatment.
 
 ## Frequently Asked Questions
 

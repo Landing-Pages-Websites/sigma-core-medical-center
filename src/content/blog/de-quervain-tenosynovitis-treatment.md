@@ -25,7 +25,7 @@ This condition is often linked to repetitive motions, which is why it’s someti
 
 ### What causes it?
 
-The exact cause of De Quervain's isn't always perfectly clear, but it's almost always tied to chronic overuse of your wrist and thumb. When you perform the same hand motions over and over, it can strain the tendons and the sheath they run through, leading to irritation and swelling. Think about activities like lifting a grandchild, typing on a keyboard, playing tennis, or even scrolling on your phone. Beyond repetitive strain, a direct injury to your wrist or tendon can also cause it. Scar tissue from an injury can restrict the tendons' movement and lead to inflammation. In some cases, underlying inflammatory conditions like [rheumatoid arthritis](https://thebunckeclinic.org/de-quervains-tenosynovitis) can contribute to the problem as well.
+The exact cause of De Quervain's isn't always perfectly clear, but it's almost always tied to chronic overuse of your wrist and thumb. When you perform the same hand motions over and over, it can strain the tendons and the sheath they run through, leading to irritation and swelling. Think about activities like lifting a grandchild, typing on a keyboard, playing tennis, or even scrolling on your phone. Beyond repetitive strain, a direct injury to your wrist or tendon can also cause it. Scar tissue from an injury can restrict the tendons' movement and lead to inflammation. In some cases, underlying inflammatory conditions like rheumatoid arthritis can contribute to the problem as well.
 
 ### Who is most at risk?
 
@@ -41,7 +41,7 @@ The most common sign of De Quervain's is a persistent pain on the thumb side of 
 
 ### A "sticking" sensation or trouble gripping
 
-Beyond pain, you might experience a strange "catching" or "snapping" feeling when you move your thumb. This happens because the inflamed and swollen tendons can no longer glide smoothly within their protective sheath. This [loss of smooth motion](https://www.seattlehandandelbow.com/de-quervain-s-tendinosis-hand-wrist-surgeon-seattle-bellevue-wa.html) can make your thumb feel like it’s sticking or getting stuck in one position before suddenly releasing. This can be accompanied by a noticeable decrease in grip strength, making it difficult to hold onto objects securely. You may find yourself struggling to hold a coffee cup, a pen, or your golf club, which can be incredibly frustrating when you’re trying to stay active and independent.
+Beyond pain, you might experience a strange "catching" or "snapping" feeling when you move your thumb. This happens because the inflamed and swollen tendons can no longer glide smoothly within their protective sheath. This loss of smooth motion can make your thumb feel like it’s sticking or getting stuck in one position before suddenly releasing. This can be accompanied by a noticeable decrease in grip strength, making it difficult to hold onto objects securely. You may find yourself struggling to hold a coffee cup, a pen, or your golf club, which can be incredibly frustrating when you’re trying to stay active and independent.
 
 ### How doctors diagnose it: The Finkelstein test
 
@@ -79,7 +79,7 @@ The goal of stretching is to gently relieve tightness, not to force a range of m
 
 ### Exercises to strengthen and support your tendons
 
-Once the initial inflammation calms down, you can begin to focus on strengthening. Stronger muscles in your forearm and hand can help take the load off your tendons, preventing future flare-ups. However, it’s important to do the right exercises with the correct form. This is where working with a physical or occupational therapist is incredibly valuable. A therapist can create a [tailored exercise program](https://familydoctor.org/condition/de-quervains-tenosynovitis/) just for you, focusing on exercises like wrist curls with light weights or resistance bands. They will also teach you how to perform each movement safely to avoid aggravating your condition, ensuring your efforts contribute directly to your recovery.
+Once the initial inflammation calms down, you can begin to focus on strengthening. Stronger muscles in your forearm and hand can help take the load off your tendons, preventing future flare-ups. However, it’s important to do the right exercises with the correct form. This is where guided rehabilitation is so valuable. Your clinician can create a [tailored exercise program](https://familydoctor.org/condition/de-quervains-tenosynovitis/) just for you, focusing on exercises like wrist curls with light weights or resistance bands. They will also teach you how to perform each movement safely to avoid aggravating your condition, ensuring your efforts contribute directly to your recovery.
 
 ### How to safely return to your activities
 
@@ -121,7 +121,7 @@ If you’ve tried rest, splinting, and even injections without finding relief, t
 
 ### The tendon sheath release procedure explained
 
-The surgical procedure for De Quervain's is called a tendon sheath release. Think of the sheath around your tendon as a tight tunnel. When it becomes inflamed, it squeezes the tendons, causing pain. During the procedure, a surgeon makes a small incision over this tunnel at the base of your thumb. They then carefully cut the top of the sheath, which opens it up and gives the tendons inside more room to glide smoothly. This [release of pressure](https://www.seattlehandandelbow.com/de-quervain-s-tendinosis-hand-wrist-surgeon-seattle-bellevue-wa.html) is what eliminates the friction and pain. The surgery is usually performed as an outpatient procedure, meaning you can go home the same day. It’s a quick and targeted fix designed to resolve the root mechanical problem.
+The surgical procedure for De Quervain's is called a tendon sheath release. Think of the sheath around your tendon as a tight tunnel. When it becomes inflamed, it squeezes the tendons, causing pain. During the procedure, a surgeon makes a small incision over this tunnel at the base of your thumb. They then carefully cut the top of the sheath, which opens it up and gives the tendons inside more room to glide smoothly. This release of pressure is what eliminates the friction and pain. The surgery is usually performed as an outpatient procedure, meaning you can go home the same day. It’s a quick and targeted fix designed to resolve the root mechanical problem.
 
 ### Endoscopic vs. open surgery: What's the difference?
 
@@ -129,7 +129,7 @@ Your surgeon will decide between two main techniques: open surgery or endoscopic
 
 ### Understanding the potential risks
 
-While tendon release surgery is very safe and effective, any surgical procedure comes with potential risks. It’s important to have an open conversation with your doctor about them beforehand. The most common concerns include infection at the incision site, scar tissue formation, and potential damage to the small sensory nerves near the tendons, which could cause numbness on the back of your thumb. There are also general [risks associated with anesthesia](https://thebunckeclinic.org/de-quervains-tenosynovitis). Your surgical team will take every precaution to minimize these complications. Being aware of the possibilities allows you to make a fully informed decision and helps you know what to watch for during your recovery.
+While tendon release surgery is very safe and effective, any surgical procedure comes with potential risks. It’s important to have an open conversation with your doctor about them beforehand. The most common concerns include infection at the incision site, scar tissue formation, and potential damage to the small sensory nerves near the tendons, which could cause numbness on the back of your thumb. There are also general risks associated with anesthesia. Your surgical team will take every precaution to minimize these complications. Being aware of the possibilities allows you to make a fully informed decision and helps you know what to watch for during your recovery.
 
 ### Your recovery and rehabilitation plan
 
@@ -169,7 +169,7 @@ Even after you feel better, it’s important to remain vigilant. One of the bigg
 
 **How long will it take for my wrist to feel better?** Recovery time really depends on how severe your symptoms are and which treatment approach you take. For mild cases, you might feel significant relief after a few weeks of consistent rest, splinting, and at-home care. If you opt for treatments like corticosteroid injections or PRP therapy, you could notice improvements within days or weeks. The most important factor is following your treatment plan closely and not rushing back into activities that could cause a setback.
 
-**Do I have to completely stop my favorite activities like gardening or tennis?** The goal is always to get you back to the activities you love, not to take them away from you. You will likely need to take a temporary break to allow the inflammation to go down. After that, the focus shifts to modifying how you do things. This might mean using more ergonomic tools, adjusting your grip, or incorporating stretching breaks. A physical therapist can be a fantastic resource for learning how to move in ways that protect your wrist for the long term.
+**Do I have to completely stop my favorite activities like gardening or tennis?** The goal is always to get you back to the activities you love, not to take them away from you. You will likely need to take a temporary break to allow the inflammation to go down. After that, the focus shifts to modifying how you do things. This might mean using more ergonomic tools, adjusting your grip, or incorporating stretching breaks. Your care team can be a great resource for learning how to move in ways that protect your wrist for the long term.
 
 **What's the real difference between a steroid injection and PRP therapy?** Think of it this way: a corticosteroid injection is a powerful tool for putting out the fire. It delivers a strong anti-inflammatory medication directly to the source to quickly reduce swelling and pain. PRP therapy, on the other hand, is more like rebuilding the structure after the fire is out. It uses your body's own concentrated platelets to help heal the damaged tendon tissue, aiming for long-term repair and resilience rather than just symptom relief.
 

@@ -85,7 +85,7 @@ Holistic medicine should complement appropriate conventional care, not replace e
 
 Pain can affect how you move, sleep, exercise, and manage everyday tasks. Avoiding movement may lead to more stiffness, weakness, and reduced confidence. Holistic care addresses discomfort while also considering joint mobility, strength, balance, posture, recovery, and the activities you want to resume.
 
-Depending on the cause of your symptoms, treatment may include physical therapy, targeted exercise, massage, acupuncture, chiropractic care, or other hands-on approaches. These therapies may support pain management and function when used appropriately. [Research on acupuncture](https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety) explains where this treatment may help and where evidence remains limited.
+Depending on the cause of your symptoms, treatment may include rehabilitation exercise, other physical medicine approaches, massage, acupuncture, chiropractic care, or other hands-on approaches. These therapies may support pain management and function when used appropriately. [Research on acupuncture](https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety) explains where this treatment may help and where evidence remains limited.
 
 A provider should assess the source of your pain rather than assume every condition requires the same treatment. Seek prompt medical attention for sudden severe pain, new weakness, chest pain, or loss of bladder or bowel control.
 
@@ -153,13 +153,13 @@ Functional medicine often focuses on identifying contributors to a health concer
 
 ### Consult naturopathic doctors and licensed medical providers
 
-Naturopathic doctors, or NDs, commonly use nutrition counseling, lifestyle changes, herbal remedies, and other natural therapies. Their education, licensing, and permitted scope of practice vary by location. Before scheduling an appointment, verify what the practitioner is legally qualified to diagnose, prescribe, or perform in your area.
+Naturopathic doctors, or NDs, commonly use nutrition counseling, lifestyle changes, herbal remedies, and other natural therapies. Their education, licensing, and permitted scope of practice vary by location. Before your first visit, verify what the practitioner is legally qualified to diagnose, prescribe, or perform in your area.
 
 A naturopathic provider may offer support with nutrition, digestive concerns, stress, sleep, or general wellness. Natural does not automatically mean risk-free, however. Herbal products can affect blood pressure, blood sugar, bleeding, anesthesia, or prescription medications. Give every provider a complete list of your medications and supplements, including products purchased without a prescription. WebMD’s guide to holistic medicine provides additional background on naturopathic care and other holistic practices.
 
-### Use physical therapists, rehabilitation specialists, and performance clinicians
+### Use physical medicine, rehabilitation, and performance clinicians
 
-Physical therapists and rehabilitation specialists focus on movement, strength, balance, flexibility, and function. They can assess how joint restrictions, muscle weakness, nerve irritation, posture, or movement habits contribute to pain and reduced mobility. They may also help you regain confidence after an injury, procedure, or extended period of inactivity.
+Physical medicine and rehabilitation clinicians focus on movement, strength, balance, flexibility, and function. They can assess how joint restrictions, muscle weakness, nerve irritation, posture, or movement habits contribute to pain and reduced mobility. They may also help you regain confidence after an injury, procedure, or extended period of inactivity.
 
 Performance clinicians can use strength testing, gait analysis, mobility assessments, and recovery planning to support the activities you value. For adults over 50, that might mean walking comfortably, lifting safely, traveling, playing golf, or returning to a favorite sport. Treatment may include therapeutic exercise, manual techniques, balance work, and a gradual return to activity. A good plan should account for your current ability, not an idealized fitness level.
 
@@ -245,7 +245,7 @@ A strong relationship with your practitioner also matters. Ask questions, discus
 
 ### Use complementary treatments without replacing necessary care
 
-Complementary treatments are used alongside conventional care. Examples may include massage, acupuncture, physical therapy, guided relaxation, exercise, nutritional counseling, and other supportive services. Depending on the treatment and your health needs, these options may help with pain, muscle tension, stress, sleep, movement, or recovery.
+Complementary treatments are used alongside conventional care. Examples may include massage, acupuncture, rehabilitation exercise, guided relaxation, exercise, nutritional counseling, and other supportive services. Depending on the treatment and your health needs, these options may help with pain, muscle tension, stress, sleep, movement, or recovery.
 
 The word *complementary* is important. A treatment should provide appropriate support, not replace a necessary diagnosis or medical intervention. Before starting a new therapy, ask what it is intended to do, what evidence supports it, how long it may take to help, and what risks it carries.
 
@@ -271,13 +271,13 @@ Ask why a test is recommended, what the results may show, how reliable it is, an
 
 Holistic medicine can support pain relief, mobility, recovery, healthy aging, and physical performance when it is tailored to your health history and goals. The safest approach looks at the whole person while keeping appropriate medical care at the center.
 
-Evidence-informed care does not mean every treatment works for everyone. It means your provider can explain what is known, what remains uncertain, and why a particular therapy may be suitable for you. Treatments such as strength training, physical therapy, nutrition counseling, sleep support, and stress management may fit into a broader plan for improving function. Other therapies may have limited or mixed evidence, so they deserve a careful discussion before you begin.
+Evidence-informed care does not mean every treatment works for everyone. It means your provider can explain what is known, what remains uncertain, and why a particular therapy may be suitable for you. Treatments such as strength training, guided rehabilitation exercise, nutrition counseling, sleep support, and stress management may fit into a broader plan for improving function. Other therapies may have limited or mixed evidence, so they deserve a careful discussion before you begin.
 
 Use these questions to assess a provider and treatment plan. They can help you consider complementary options without overlooking important medical risks.
 
 ### Start with a qualified, licensed practitioner
 
-Begin by reviewing a provider’s credentials, training, licensing, and scope of practice. Depending on your needs, this may include a physician, nurse practitioner, physical therapist, registered dietitian, or another licensed professional with relevant experience. Ask whether the practitioner regularly works with adults over 50, people managing chronic conditions, or patients taking multiple medications.
+Begin by reviewing a provider’s credentials, training, licensing, and scope of practice. Depending on your needs, this may include a physician, chiropractic physician, nurse practitioner, registered dietitian, or another licensed professional with relevant experience. Ask whether the practitioner regularly works with adults over 50, people managing chronic conditions, or patients taking multiple medications.
 
 A qualified provider should review your health history, perform an appropriate evaluation, and explain how the proposed care supports your goals. The Cleveland Clinic’s guidance on holistic doctors recommends choosing licensed professionals who use evidence-based treatments and communicate with other members of your healthcare team.
 

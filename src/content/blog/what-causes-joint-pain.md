@@ -120,7 +120,7 @@ Knowing common factors is not the same as knowing your factor. Two people with s
 
 Be careful with claims that a product or procedure cures arthritis, reverses joint damage, or works for a set percentage of people. The CDC states there is no cure for arthritis. NIAMS says current treatments allow most people with arthritis to lead active lives, which is a different statement from a promise that pain will stop. Ask any clinic, including this one, what is known, what is uncertain, and what happens if you choose to wait.
 
-If your question is how laser therapy compares with physical therapy, or how a specific joint is usually treated, read the article written for that question. This one stays on causes and on the evaluation questions that help a clinician sort them.
+If your question is how a specific joint is usually treated, read the article written for that question. This one stays on causes and on the evaluation questions that help a clinician sort them.
 
 [Bring your joint questions to a consultation](https://www.sigmacoremedicalcenter.com/contact)
 

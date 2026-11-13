@@ -27,7 +27,7 @@ Longevity medicine is not a promise to extend life or reverse aging, and it shou
 
 ### Preserve strength, mobility, and independence: healthspan vs. lifespan
 
-Lifespan is the number of years a person lives. Healthspan is the time spent in good health, with the ability to stay active and manage daily life. Longevity medicine aims to support both, with particular attention to maintaining function. As [Sermo explains](https://www.sermo.com/resources/longevity-medicine/), the goal is not only to help people live longer, but to help them remain healthy for more of those years.
+Lifespan is the number of years a person lives. Healthspan is the time spent in good health, with the ability to stay active and manage daily life. Longevity medicine aims to support both, with particular attention to maintaining function. As Sermo explains, the goal is not only to help people live longer, but to help them remain healthy for more of those years.
 
 That focus can make care feel more relevant to everyday life. You may want to walk with less discomfort, keep your balance, travel, or continue living independently. A healthspan-focused plan might address strength, bone and heart health, or treatment for a condition that limits activity. Progress should be measured in ways that matter to you, such as walking farther, standing from a chair more easily, or returning to a valued activity.
 
@@ -51,7 +51,7 @@ Longevity medicine adds a preventive, function-focused perspective to the care y
 
 Your primary care clinician and specialists know your medical history, manage diagnosed conditions, and help coordinate tests and treatment. A longevity-focused clinician can work alongside them, with added attention to prevention, daily habits, and changes in your energy, strength, or mobility. Share relevant test results and treatment plans, and ask your clinicians to coordinate when your care overlaps.
 
-This is especially important if you take prescription medication or manage conditions such as heart disease, diabetes, or osteoporosis. A new supplement, exercise program, or treatment could affect your existing care, so discuss changes with your clinicians first. Longevity medicine is a proactive approach to health, not a substitute for established treatment or urgent evaluation of new symptoms. [Sermo’s overview of longevity medicine](https://www.sermo.com/resources/longevity-medicine/) describes its focus on addressing age-related risks and supporting health over time.
+This is especially important if you take prescription medication or manage conditions such as heart disease, diabetes, or osteoporosis. A new supplement, exercise program, or treatment could affect your existing care, so discuss changes with your clinicians first. Longevity medicine is a proactive approach to health, not a substitute for established treatment or urgent evaluation of new symptoms. Sermo’s overview of longevity medicine describes its focus on addressing age-related risks and supporting health over time.
 
 ### Connect prevention with care for pain, joint problems, low energy, and slow recovery
 
@@ -71,7 +71,7 @@ Healthy aging is supported by everyday habits and preventive care, tailored to y
 
 ### Eat for cardiovascular, metabolic, and bone health
 
-Build meals around vegetables and fruit, whole grains, and protein sources such as fish, beans, eggs, or lean meat. A varied eating pattern supplies nutrients that support heart health, blood sugar management, and bone strength. The [Sermo guide to longevity medicine](https://www.sermo.com/resources/longevity-medicine/) also emphasizes nutrition as part of care that addresses cardiovascular, metabolic, and age-related health needs.
+Build meals around vegetables and fruit, whole grains, and protein sources such as fish, beans, eggs, or lean meat. A varied eating pattern supplies nutrients that support heart health, blood sugar management, and bone strength. The Sermo guide to longevity medicine also emphasizes nutrition as part of care that addresses cardiovascular, metabolic, and age-related health needs.
 
 Start with changes that feel manageable, such as adding vegetables to lunch or choosing a whole-grain option. If you have diabetes, kidney disease, osteoporosis, or another condition that affects your diet, ask your clinician or a registered dietitian for tailored advice. Check with a clinician before taking supplements, since they may interact with medications or be unsuitable for some health conditions.
 
@@ -79,7 +79,7 @@ Start with changes that feel manageable, such as adding vegetables to lunch or c
 
 A well-rounded activity plan can include strength training, aerobic activity such as walking, balance exercises, and mobility work. These activities support the strength, endurance, and coordination used in everyday tasks. The American Heart Association’s physical activity recommendations offer a general starting point, but your plan should reflect your current fitness, symptoms, and goals.
 
-If joint pain, neuropathy, or limited mobility makes exercise challenging, ask a clinician or physical therapist how to modify movements and progress safely. Begin at a level you can manage, then increase activity gradually. Individualized exercise can help maintain physical function and reduce fall risk, as discussed in this [overview of exercise and longevity](https://blog.a4m.com/health-technology-wearables-longevity-and-the-future-of-medicine). Stop and seek medical advice if you develop new or severe symptoms during activity.
+If joint pain, neuropathy, or limited mobility makes exercise challenging, ask your clinician how to modify movements and progress safely. Begin at a level you can manage, then increase activity gradually. Individualized exercise can help maintain physical function and reduce fall risk, as discussed in this overview of exercise and longevity. Stop and seek medical advice if you develop new or severe symptoms during activity.
 
 ### Prioritize sleep, stress management, recovery, and social connection
 
@@ -101,7 +101,7 @@ A personalized longevity plan begins with your health today and what you want to
 
 Your clinician will start by asking about your medical history, current conditions, family health history, medications, supplements, and previous treatments. They may also ask about pain, sleep, energy, mood, balance, and how you manage everyday activities. These details help put your current health in context and identify concerns that may need attention.
 
-Your priorities are part of the assessment, too. Be specific about what you hope to improve, whether that is keeping up with walks, feeling steadier on stairs, or having more energy for daily routines. Bring an up-to-date list of medications and supplements, and share changes in your habits or symptoms. Longevity medicine aims to support health and function over time, as described in [Sermo’s overview of longevity medicine](https://www.sermo.com/resources/longevity-medicine/).
+Your priorities are part of the assessment, too. Be specific about what you hope to improve, whether that is keeping up with walks, feeling steadier on stairs, or having more energy for daily routines. Bring an up-to-date list of medications and supplements, and share changes in your habits or symptoms. Longevity medicine aims to support health and function over time, as described in Sermo’s overview of longevity medicine.
 
 ### Choose appropriate tests and interpret results in context
 
@@ -113,7 +113,7 @@ Your clinician can explain what each result means for you and whether it needs f
 
 Useful goals connect to activities that matter to you and can be checked over time. You might aim to walk a little farther, rise from a chair more easily, improve balance, or follow a regular strength routine. If managing a health risk is a priority, your clinician can identify appropriate measures, such as blood pressure or blood sugar, to monitor.
 
-Choose goals that fit your current abilities and health. A clinician or physical therapist can help adapt movement to joint problems, pain, or other conditions, then suggest gradual steps. It can also help to record a starting point, so you can recognize changes rather than relying on memory. Nutrition, exercise, sleep, and stress management may all be part of the plan, tailored to your needs and preferences.
+Choose goals that fit your current abilities and health. Your clinician or care team can help adapt movement to joint problems, pain, or other conditions, then suggest gradual steps. It can also help to record a starting point, so you can recognize changes rather than relying on memory. Nutrition, exercise, sleep, and stress management may all be part of the plan, tailored to your needs and preferences.
 
 ### Track progress and adjust the plan with clinician guidance
 
@@ -131,7 +131,7 @@ Keep the focus on meaningful outcomes, such as maintaining strength, improving m
 
 ### Track activity, sleep, and trends with wearables, not diagnose with them
 
-Smartwatches and other wearables can help you follow patterns in activity, sleep, heart rate, and related measures. For example, step trends may show whether you are moving regularly, while sleep estimates can give you a starting point for discussing fatigue. The [A4M overview of wearables in longevity medicine](https://blog.a4m.com/health-technology-wearables-longevity-and-the-future-of-medicine) describes how these devices can help people monitor health-related patterns.
+Smartwatches and other wearables can help you follow patterns in activity, sleep, heart rate, and related measures. For example, step trends may show whether you are moving regularly, while sleep estimates can give you a starting point for discussing fatigue. The A4M overview of wearables in longevity medicine describes how these devices can help people monitor health-related patterns.
 
 Treat readings as estimates, not diagnoses. Accuracy can vary by device and measurement, and a change does not necessarily signal a health problem. Note how you feel and what was happening when the reading changed. If a result concerns you, share it with your clinician instead of changing medication or treatment on your own.
 
@@ -151,7 +151,7 @@ Ask your clinician how the tool produced its recommendation, whether it has been
 
 Before sharing health information with an app, testing company, or online service, check what data it collects, how it stores or shares that information, and whether you can delete it. Genetic information deserves particular care because it may also reveal details about biological relatives.
 
-Ask whether a proposed test is likely to change your care. More testing does not always lead to better decisions: results may be uncertain, prompt additional procedures, or cause concern without a clear health benefit. Find out the test’s purpose, limitations, cost, and possible next steps before you agree. [Guidance on longevity medicine](https://www.sermo.com/resources/longevity-medicine/) emphasizes explaining what is known and what remains uncertain so patients can make informed choices.
+Ask whether a proposed test is likely to change your care. More testing does not always lead to better decisions: results may be uncertain, prompt additional procedures, or cause concern without a clear health benefit. Find out the test’s purpose, limitations, cost, and possible next steps before you agree. Guidance on longevity medicine emphasizes explaining what is known and what remains uncertain so patients can make informed choices.
 
 ## Which Longevity Advances Show Promise?
 
@@ -181,7 +181,7 @@ Many AI tools and omics-based approaches are still being developed. A prediction
 
 Research usually develops in stages. A laboratory study may identify a promising process, and an early clinical study may suggest an effect. Neither alone proves that an intervention helps people stay healthier or more independent over time. Stronger evidence comes from well-designed human studies that measure meaningful outcomes, assess potential harms, and include enough participants to support reliable conclusions.
 
-This distinction matters when weighing claims about aging treatments. A change in a biomarker or biological-age estimate does not automatically mean less pain, better mobility, or a longer healthspan. The [Longevity Report](https://blog.a4m.com/the-longevity-report-whats-new-in-longevity-medicine-research-fall-2023) discusses research developments as well as barriers such as cost. Ask what human evidence supports a treatment, what uncertainties remain, and whether established options better fit your health goals.
+This distinction matters when weighing claims about aging treatments. A change in a biomarker or biological-age estimate does not automatically mean less pain, better mobility, or a longer healthspan. The Longevity Report discusses research developments as well as barriers such as cost. Ask what human evidence supports a treatment, what uncertainties remain, and whether established options better fit your health goals.
 
 ## How Can Patients Evaluate Emerging Longevity Treatments?
 
@@ -203,7 +203,7 @@ Find out the full cost, including testing and follow-up, and whether insurance m
 
 Metformin, NAD+ precursors, and senolytics are being studied for their possible effects on processes associated with aging. That research does not establish that these treatments prevent age-related disease or extend healthy lifespan. Evidence that a medicine helps treat a diagnosed condition also may not support taking it solely to slow aging.
 
-Before considering a prescription medicine or supplement, ask whether studies in people show meaningful benefits, what dose and duration were studied, and what side effects or interactions may apply to you. Don’t start treatment based on a headline, a test result, or someone else’s experience. The [physician’s overview of longevity medicine](https://www.sermo.com/resources/longevity-medicine/) notes that evidence for compounds intended to mimic some effects of calorie restriction is still developing.
+Before considering a prescription medicine or supplement, ask whether studies in people show meaningful benefits, what dose and duration were studied, and what side effects or interactions may apply to you. Don’t start treatment based on a headline, a test result, or someone else’s experience. The physician’s overview of longevity medicine notes that evidence for compounds intended to mimic some effects of calorie restriction is still developing.
 
 ### Assess evidence and regulation for stem cell, gene-editing, and regenerative therapies
 
@@ -215,7 +215,7 @@ Ask for the therapy’s exact name, evidence for your diagnosis, known risks, an
 
 Hormone levels can change with age, but a test result alone does not show that treatment is appropriate. Symptoms, medical history, examination findings, and carefully selected tests all help determine whether a hormone-related condition is present. Potential benefits and risks vary by person and by therapy.
 
-Ask what diagnosis the treatment is intended to address, what improvement you might expect, and how your clinician will monitor your response and safety. Be cautious of claims that hormone therapy reverses aging or is right for everyone. The [physician’s guide to longevity medicine](https://www.sermo.com/resources/longevity-medicine/) emphasizes tailoring care to the individual rather than relying on general advice.
+Ask what diagnosis the treatment is intended to address, what improvement you might expect, and how your clinician will monitor your response and safety. Be cautious of claims that hormone therapy reverses aging or is right for everyone. The physician’s guide to longevity medicine emphasizes tailoring care to the individual rather than relying on general advice.
 
 ### Question age-reversal claims and unsupported biomarker promises
 
@@ -231,13 +231,13 @@ Longevity medicine is most useful when it supports goals that matter in everyday
 
 Start by telling your clinician what you hope to maintain or improve. You might want to walk more comfortably, keep doing activities you enjoy, recover more easily after exercise, or better manage a chronic condition. Clear goals help your care team recommend options that fit your needs and abilities.
 
-Ask what is known about a proposed test or treatment, what remains uncertain, and how the results could change your care. Discuss potential risks, costs, alternatives, and how you will measure progress. Longevity medicine aims to support health and function over time, but no test or treatment can guarantee a particular outcome. [Shared decision-making](https://www.sermo.com/resources/longevity-medicine/) gives you and your clinician a way to weigh the evidence and choose an approach that reflects your priorities.
+Ask what is known about a proposed test or treatment, what remains uncertain, and how the results could change your care. Discuss potential risks, costs, alternatives, and how you will measure progress. Longevity medicine aims to support health and function over time, but no test or treatment can guarantee a particular outcome. Shared decision-making gives you and your clinician a way to weigh the evidence and choose an approach that reflects your priorities.
 
 ### Prioritize established lifestyle measures over experimental interventions
 
-Regular movement, nutritious food, adequate sleep, and stress management are practical foundations for healthy aging. The right approach depends on your health and abilities. If joint pain makes walking uncomfortable, for example, ask about lower-impact activities or physical therapy rather than pushing through pain.
+Regular movement, nutritious food, adequate sleep, and stress management are practical foundations for healthy aging. The right approach depends on your health and abilities. If joint pain makes walking uncomfortable, for example, ask about lower-impact activities or guided rehabilitation exercises rather than pushing through pain.
 
-Small, sustainable changes can support strength, mobility, and overall health. Before trying a supplement or newer treatment, ask about the quality of the human evidence, possible side effects, and how it may interact with your medications. The [Sermo guide to longevity medicine](https://www.sermo.com/resources/longevity-medicine/) also stresses personalizing lifestyle recommendations instead of relying on generic advice. Your clinician can help you choose changes that are realistic for your routine and safe for your current health needs.
+Small, sustainable changes can support strength, mobility, and overall health. Before trying a supplement or newer treatment, ask about the quality of the human evidence, possible side effects, and how it may interact with your medications. The Sermo guide to longevity medicine also stresses personalizing lifestyle recommendations instead of relying on generic advice. Your clinician can help you choose changes that are realistic for your routine and safe for your current health needs.
 
 ### Coordinate care with existing clinicians and specialists
 

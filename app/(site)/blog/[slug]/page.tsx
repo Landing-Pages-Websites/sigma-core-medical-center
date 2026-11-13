@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { ReactElement } from "react";
 import ArticleHeader from "@/components/blog/ArticleHeader";
 import BlogArticleSchema from "@/components/blog/BlogArticleSchema";
+import BlogConsultCta from "@/components/blog/BlogConsultCta";
 import BlogImage from "@/components/blog/BlogImage";
 import MarkdownBody from "@/components/blog/MarkdownBody";
 import { getPublishedPost, listPublishedPosts, type BlogPost } from "@/lib/blog";
@@ -51,6 +52,7 @@ export default async function BlogArticlePage({ params }: ArticleParams): Promis
           </div>
         ) : null}
         <div className="mt-10"><MarkdownBody source={post.body} /></div>
+        <BlogConsultCta />
       </article>
     </main>
   );

@@ -6,7 +6,7 @@ image: "https://zleague-public-prod.s3.us-east-2.amazonaws.com/article_images/b3
 title: "Thoracic Outlet Syndrome Treatment Guide"
 imageAlt: "Clinician reviewing a shoulder and neck movement pattern with an adult patient during a consultation"
 metaTitle: "Thoracic Outlet Syndrome Treatment Guide"
-description: "Learn what to ask about thoracic outlet syndrome treatment, from evaluation to therapy, medicine, and surgery. Book a Richmond consultation."
+description: "Learn what to ask about thoracic outlet syndrome treatment, from evaluation to exercise, medicine, and surgery. Request a Richmond consultation."
 ---
 
 Arm tingling is not always a problem that begins in the arm. Nerves or blood vessels can be compressed just below the neck. Symptoms may then involve the neck, shoulder, arm, hand, or fingers. The pattern can be hard to interpret without an evaluation.
@@ -55,7 +55,7 @@ Categories a clinician may discuss for thoracic outlet syndrome.
 
 | Option a clinician may raise                                     | What the conversation is usually about                                                                                                                                                                          | What it does not mean                                                                                                                  |
 | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Physical therapy for neurogenic patterns.                        | Physical therapy is often the first-line nonsurgical approach for neurogenic thoracic outlet syndrome and may focus on shoulder strength. Flexibility, posture, and creating more space in the thoracic outlet. | It does not mean every person has the same cause, needs the same plan, or should begin exercises without an individualized evaluation. |
+| Guided exercise and rehabilitation for neurogenic patterns.      | Exercise-based rehabilitation, often delivered through physical therapy, is a common first nonsurgical approach for neurogenic thoracic outlet syndrome. It may focus on shoulder strength, flexibility, posture, and creating more space in the thoracic outlet. | It does not mean every person has the same cause, needs the same plan, or should begin exercises without an individualized evaluation. |
 | Medicines.                                                       | A provider may discuss anti-inflammatories, pain medicine, or muscle relaxants. When a clot is present, the discussion may include blood thinners or clot-dissolving medicine.                                  | It does not mean a particular medication is appropriate for you or that blood-clot treatment applies to a nerve-related pattern.       |
 | Injections for some neurogenic cases.                            | Depending on the presentation, a clinician may discuss an injection containing local anesthetic, onabotulinumtoxinA, or a steroid.                                                                              | It does not mean injections are suitable for every person or that they address every type of thoracic outlet syndrome.                 |
 | Surgery when nonsurgical care has not helped or symptoms worsen. | Surgery may be discussed when symptoms continue despite nonsurgical care or become worse, with the procedure selected according to the suspected source of compression.                                         | It does not mean surgery is the first step for everyone, and it may not fully relieve symptoms.                                        |
@@ -70,7 +70,7 @@ A focused visit should help you understand what is being evaluated and how the p
 
 1. Which structure may be involved? Ask whether the pattern is more consistent with nerve, artery, vein, or a combination. A clinician may also ask about repetitive arm activity, an injury, posture, or other background details. Those questions provide context. They are not reasons to assign a cause to yourself.
 2. Which tests are actually needed? Ask what the examination may show and why a particular study would change the next step. Evaluation may include a physical exam, imaging, ultrasound, or nerve studies. Not every person needs every test.
-3. Is physical therapy the first discussion? If the concern is a nerve pattern, ask whether therapy focused on shoulder strength, flexibility, and posture is an appropriate first nonsurgical conversation.
+3. Is guided exercise the first discussion? If the concern is a nerve pattern, ask whether rehabilitation exercises focused on shoulder strength, flexibility, and posture is an appropriate first nonsurgical conversation.
 4. What would make a medicine or an injection relevant? Ask what problem it is intended to address, what alternatives exist, and which limits matter for you. Medicines and injections are not appropriate for every person.
 5. What would make surgery a later conversation? Ask what changes would lead to a surgical evaluation, especially if nonsurgical care has not helped or symptoms are worsening. Surgery is not the first step for everyone, and it may not fully relieve symptoms.
 6. How might work, sport, or posture matter? Describe overhead tasks, lifting, desk position, training, or repeated movements that change your symptoms. Ask which activity changes are reasonable while the evaluation continues.
@@ -106,7 +106,7 @@ It is meant to address compression of nerves, a vein, an artery, or more than on
 
 ### Does thoracic outlet syndrome treatment always mean surgery?
 
-No. For many neurogenic patterns, physical therapy is often the first nonsurgical discussion. Surgery may come up later if nonsurgical care has not helped or symptoms are worsening, and it may not fully relieve symptoms.
+No. For many neurogenic patterns, exercise-based rehabilitation is often the first nonsurgical discussion. Surgery may come up later if nonsurgical care has not helped or symptoms are worsening, and it may not fully relieve symptoms.
 
 ### What are symptoms that can fit an arterial or venous pattern?
 
