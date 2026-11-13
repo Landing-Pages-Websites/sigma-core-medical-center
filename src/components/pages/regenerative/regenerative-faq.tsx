@@ -24,7 +24,7 @@ export function RegenerativeFaq(): React.ReactElement {
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-20 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">FAQ</h2>
           <p className="mt-8 max-w-[18rem] text-base leading-snug text-white/88">
-            Answers about regenerative medicine, our provider, and how to book.
+            Answers about regenerative medicine, choosing a provider, and how to book.
           </p>
           <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />

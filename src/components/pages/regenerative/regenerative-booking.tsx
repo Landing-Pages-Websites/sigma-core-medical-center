@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CircleHelp, ClipboardList, MessageSquare } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
+import { CONTACT } from "@/content/site";
 
 const BOOKING_POINTS = [
   { title: "Consider your goals", body: "Consider what you want to understand and what matters most to you.", icon: MessageSquare },
-  { title: "Get clear on next steps", body: "Our team can answer questions about your visit by phone.", icon: CircleHelp },
+  { title: "Get clear on next steps", body: `Questions about your visit? Call ${CONTACT.phone}.`, icon: CircleHelp },
   { title: "Make an informed decision", body: "Review available information before deciding on a next step.", icon: ClipboardList },
 ] as const;
 
