@@ -97,7 +97,7 @@ While targeted exercises are the foundation of your recovery, your physical ther
 
 ### Hands-On Manual Therapy
 
-This is where your physical therapist’s expertise really shines. With hands-on manual therapy, your therapist uses skilled hand movements to manipulate your joints and soft tissues. The goal is to gently reposition vertebrae and reduce the tension in muscles and ligaments that may be pulling on the affected disc. By restoring proper alignment in your spine, we can take direct pressure off the disc and the irritated nerve. This technique not only provides significant pain relief but also improves your body’s mechanics, making your strengthening exercises more effective and helping the disc [heal properly](https://bodygears.com/debunking-5-myths-on-disc-herniation/).
+This is where your physical therapist’s expertise really shines. With hands-on manual therapy, your therapist uses skilled hand movements to manipulate your joints and soft tissues. The goal is to gently reposition vertebrae and reduce the tension in muscles and ligaments that may be pulling on the affected disc. By restoring proper alignment in your spine, we can take direct pressure off the disc and the irritated nerve. This technique not only provides significant pain relief but also improves your body’s mechanics, making your strengthening exercises more effective and helping the disc heal properly.
 
 ### Spinal Decompression and Traction
 

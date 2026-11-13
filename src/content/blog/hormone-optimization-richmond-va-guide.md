@@ -1,7 +1,7 @@
 ---
 id: "item_mnzeztpjkh0wq9dpfj3g0e7v5m"
 date: "2026-10-07"
-slug: "hormone-optimization-anytown-guide"
+slug: "hormone-optimization-richmond-va-guide"
 image: "https://zleague-public-prod.s3.us-east-2.amazonaws.com/article_images/b380819e-88b6-48bd-8f1e-bfe6a580d72a/hormone-optimization-anytown-a-local-care-guide-910656.webp"
 title: "Hormone Optimization in Richmond, VA: A Local Care Guide"
 imageAlt: "Stack of books, tablet, eyeglasses, and coffee on a desk in a bright office."

@@ -26,6 +26,13 @@ const TRAILING_SLASH_REDIRECT = {
   permanent: true,
 };
 
+// Two posts shipped with a template placeholder city in their URLs. Their old
+// addresses may already be indexed or shared, so they move permanently.
+const RENAMED_POST_REDIRECTS = [
+  ["hormone-optimization-anytown-guide", "hormone-optimization-richmond-va-guide"],
+  ["longevity-care-anytown", "longevity-care-richmond-va"],
+].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }));
+
 // A build that ships with tracking off says so instead of silently sending nothing.
 const trackingWarning = trackingBuildWarning();
 if (trackingWarning) console.warn(trackingWarning);
@@ -43,7 +50,7 @@ const nextConfig: NextConfig = {
   },
   images: { qualities: [75, 95], remotePatterns: megaArticleImageRemotePatterns },
   async redirects() {
-    return [TRAILING_SLASH_REDIRECT];
+    return [TRAILING_SLASH_REDIRECT, ...RENAMED_POST_REDIRECTS];
   },
   async rewrites() {
     return POSTHOG_REWRITES;
