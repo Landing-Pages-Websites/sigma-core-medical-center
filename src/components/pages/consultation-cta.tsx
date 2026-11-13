@@ -27,7 +27,7 @@ export function ConsultationCta({ servicesPage = false }: ConsultationCtaProps =
             href={servicesPage ? "/book" : "https://go.sigmacoremedicalcenter.com/"}
             className="mt-7 inline-flex min-h-14 items-center gap-4 bg-action px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]"
           >
-            {servicesPage ? "Review consultation information" : "Explore consultation options"} <ArrowRight size={22} aria-hidden className="shrink-0" />
+            {servicesPage ? "See how to book" : "Request a Free Consultation"} <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
           <p className="mt-5 text-xs leading-relaxed text-white/60">Educational information only. A consultation does not establish candidacy or guarantee a result.</p>
         </div>

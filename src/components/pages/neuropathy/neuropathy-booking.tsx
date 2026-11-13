@@ -18,7 +18,7 @@ export function NeuropathyBooking(): React.ReactElement {
           <h2 className="font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em]">Consultation</h2>
           <div className="relative mt-5 max-w-[23rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-royal" />
-            <p className="text-xl leading-snug text-white/92">Call 804-486-7699 to book a Free Consultation; there is no online calendar. A consultation can connect your symptoms, goals, and questions to an individualized discussion.</p>
+            <p className="text-xl leading-snug text-white/92">Request a Free Consultation online or call 804-486-7699. A consultation can connect your symptoms, goals, and questions to an individualized discussion.</p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-royal" />
           </div>
           <p className="mt-8 text-xs font-semibold tracking-[0.18em] uppercase">Explore your route</p>
@@ -43,7 +43,7 @@ export function NeuropathyBooking(): React.ReactElement {
           <div className="absolute inset-x-0 bottom-0 flex h-[46%] flex-col items-center justify-center bg-royal px-6 lg:left-[2%] lg:[clip-path:polygon(9%_0,100%_0,100%_100%,0_100%)]">
             <Link data-mega-cta="book-appointment" href="/book" className="group flex items-center gap-5 border-2 border-white px-7 py-4 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="shrink-0" />
-              <span className="font-heading text-2xl font-bold sm:text-3xl">Explore a consultation</span>
+              <span className="font-heading text-2xl font-bold sm:text-3xl">See how to book</span>
               <ChevronRight size={28} aria-hidden className="shrink-0" />
             </Link>
             <p className="mt-4 text-xs text-white/75">Outcomes vary. We do not guarantee any results.</p>

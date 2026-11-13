@@ -53,7 +53,7 @@ function ScorecardDownload(): React.ReactElement {
         className="mt-3 inline-flex min-h-12 max-w-full items-center gap-3 bg-royal px-5 py-3 text-base leading-snug font-semibold text-white transition-colors duration-200 hover:bg-royal-hover focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-focus motion-reduce:transition-none">
         <FileDown size={22} className="shrink-0" aria-hidden /> Download the Neuropathy Clarity Scorecard
       </a>
-      <p className="mt-2 text-xs text-ink/70">PDF, 4 pages. This does not confirm an appointment.</p>
+      <p className="mt-2 text-xs text-ink/70">PDF, 4 pages.</p>
     </div>
   );
 }

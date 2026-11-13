@@ -7,7 +7,7 @@ import { CONTACT } from "@/content/site";
 const FAQ_ITEMS = [
   { question: "Why aren’t specific options listed?", answer: "Options, risks, cost, and timing depend on your evaluation. Ask about them during a Free Consultation." },
   { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Ask who would perform and oversee any procedure, and their qualifications." },
-  { question: "Is online booking available?", answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation.` },
+  { question: "How do I book?", answer: `Request a Free Consultation online or call ${CONTACT.phone}.` },
   { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.` },
 ] as const;
 
@@ -56,10 +56,7 @@ export function RegenerativeFaq(): React.ReactElement {
         <div className="flex w-full flex-wrap justify-end gap-4 bg-royal px-6 py-8 sm:px-10 lg:w-[62%] lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)]">
           {FAQ_ACTIONS.map((action) => (
             <Link key={action.href} href={action.href} className="group flex w-64 items-center justify-between border border-white px-4 py-2.5 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-              <span>
-                <span className="block font-heading text-lg font-bold">{action.label}</span>
-                <span className="block text-sm">{action.href}</span>
-              </span>
+              <span className="font-heading text-lg font-bold">{action.label}</span>
               <ArrowRight size={22} aria-hidden className="shrink-0" />
             </Link>
           ))}

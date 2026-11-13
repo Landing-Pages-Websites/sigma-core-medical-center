@@ -56,10 +56,10 @@ export function NeuropathyDecisions(): React.ReactElement {
           </div>
           <div className="relative -mx-6 mt-10 flex flex-wrap items-center gap-4 bg-royal px-6 py-5 text-white sm:-mx-10 sm:px-10 lg:mr-[38%] lg:-ml-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))] lg:[clip-path:polygon(0_0,94%_0,100%_100%,0_100%)]">
             <TallBracket className="h-10 w-2 text-white" />
-            <p className="max-w-[15rem] text-sm leading-snug">Prepare for a consultation, then see how to book by phone.</p>
+            <p className="max-w-[15rem] text-sm leading-snug">Prepare for a consultation, then see how to book.</p>
             {["/about", "/book"].map((href) => (
               <Link key={href} href={href} className="inline-flex max-w-full min-h-10 items-center border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-                {href === "/book" ? "Explore a consultation" : "About"}
+                {href === "/book" ? "See how to book" : "About"}
               </Link>
             ))}
           </div>

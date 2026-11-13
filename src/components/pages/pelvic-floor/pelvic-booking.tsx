@@ -20,7 +20,7 @@ export function PelvicBooking(): React.ReactElement {
             <div className="relative bg-royal px-9 py-8 sm:px-12">
               <TallBracket className="absolute top-6 bottom-6 left-4 w-3 text-silver" />
               <TallBracket side="right" className="absolute top-6 bottom-6 right-4 w-3 text-silver" />
-              <p className="max-w-[20rem] text-lg leading-snug">Call {CONTACT.phone} to book a Free Consultation. Our team schedules by phone.</p>
+              <p className="max-w-[20rem] text-lg leading-snug">Request a Free Consultation online or call {CONTACT.phone}.</p>
               <Link data-mega-cta="book-appointment" href="/book" className="mt-5 inline-flex min-w-0 max-w-full min-h-12 items-center gap-3 bg-white px-4 py-2 text-base font-semibold whitespace-normal text-royal sm:gap-4 sm:px-5 sm:text-lg transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
                 <span className="min-w-0 [overflow-wrap:break-word]">See how to book</span>
                 <ArrowRight size={20} aria-hidden className="shrink-0" />

@@ -22,7 +22,7 @@ export function RegenerativeBooking(): React.ReactElement {
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </p>
           <p className="mt-4 max-w-[19rem] text-sm leading-snug text-white/85">
-            Our team schedules by phone. A consultation is the first step to learn whether an option may be appropriate for you.
+            A consultation is the first step to learn whether an option may be appropriate for you.
           </p>
           <ul className="relative mt-6 bg-[#ecebe7] text-ink lg:mr-[-3rem] lg:-ml-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(0_0,90%_0,100%_100%,0_100%)]">
             {BOOKING_POINTS.map(({ title, body, icon: Icon }) => (
@@ -54,7 +54,7 @@ export function RegenerativeBooking(): React.ReactElement {
             <br />
             phone
           </p>
-          <p className="mt-4 max-w-[19rem] text-base leading-snug text-white/92">There is no online calendar. Call 804-486-7699 to book a Free Consultation.</p>
+          <p className="mt-4 max-w-[19rem] text-base leading-snug text-white/92">Request a Free Consultation online or call 804-486-7699.</p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-royal transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             See how to book <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>

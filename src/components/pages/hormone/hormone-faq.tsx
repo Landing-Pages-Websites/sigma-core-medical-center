@@ -15,8 +15,8 @@ const FAQ_ROWS = [
     answer: "No. This site is for general information only and does not provide medical advice. Your care decisions belong in a conversation with a qualified clinician.",
   },
   {
-    question: "Is online booking available?",
-    answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation; our team schedules by phone.`,
+    question: "How do I book?",
+    answer: `Request a Free Consultation online or call ${CONTACT.phone}.`,
   },
   {
     question: "Where is the clinic located?",
@@ -58,7 +58,7 @@ export function HormoneFaq(): React.ReactElement {
           </ul>
           <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64 lg:absolute lg:right-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:bottom-10 lg:mt-0">
             <Link data-mega-cta="book-appointment" href="/book" className={OUTLINE_BUTTON}>
-              See booking details <ArrowRight size={18} aria-hidden className="shrink-0" />
+              See how to book <ArrowRight size={18} aria-hidden className="shrink-0" />
             </Link>
             <PolicyLink label={<>Terms of Use <ArrowRight size={18} aria-hidden className="shrink-0" /></>} className={OUTLINE_BUTTON} />
           </div>

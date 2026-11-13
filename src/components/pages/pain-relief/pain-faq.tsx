@@ -51,7 +51,7 @@ export function PainFaq(): React.ReactElement {
           <div className="relative mt-4 flex flex-col justify-end bg-royal px-4 py-6 lg:mt-14 lg:-mb-14 lg:pt-40">
             <TallBracket side="right" className="absolute top-36 right-4 hidden h-8 w-6 border-b-0 text-white lg:block" />
             <p className="font-heading text-lg font-bold">Next steps</p>
-            <p className="mt-1 text-xs leading-snug text-white/85">Book a Free Consultation by phone, or review the site terms.</p>
+            <p className="mt-1 text-xs leading-snug text-white/85">Book a Free Consultation online or by phone, or review the site terms.</p>
             <div className="mt-4 space-y-3">
               <Link data-mega-cta="book-appointment" href="/book" className={CONNECT_LINK}>
                 <TallBracket className="absolute inset-y-0 left-0 w-2 text-white" /> See how to book <ArrowRight size={20} aria-hidden className="shrink-0" />

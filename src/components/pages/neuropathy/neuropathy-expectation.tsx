@@ -25,7 +25,7 @@ export function NeuropathyExpectation({ data }: { data: ServicePageData }): Reac
             href="/book"
             className="group mt-8 inline-flex max-w-full min-h-14 items-center gap-5 bg-royal pr-12 pl-6 text-xl font-semibold transition-colors [clip-path:polygon(0_0,88%_0,100%_100%,0_100%)] hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
           >
-            Explore a consultation <ChevronRight size={24} className="transition-transform group-hover:translate-x-1" aria-hidden />
+            See how to book <ChevronRight size={24} className="transition-transform group-hover:translate-x-1" aria-hidden />
           </Link>
         </div>
         <div className="relative min-h-[22rem] lg:mt-12 lg:mb-20 lg:min-h-0">
