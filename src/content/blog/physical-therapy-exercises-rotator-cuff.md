@@ -63,7 +63,7 @@ The [Kingston and Richmond NHS guide to rotator cuff tears](https://www.kingston
 
 A rotator cuff tear may cause more than shoulder soreness. One arm might feel weaker when you lift, carry, push, or pull. You may still be able to move the shoulder, but pain can limit the motion. In other cases, the arm may feel unable to rise fully, even when the pain is manageable.
 
-Reduced motion can make bathing, dressing, reaching into a cabinet, or placing items overhead more difficult. Night pain may interrupt sleep, especially when you roll onto the affected side. [MD Ortho Specialists’ rotator cuff rehabilitation guidance](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) lists weakness, painful movement, limited motion, and night pain among common symptoms. Notice whether the arm feels painful, weak, or both.
+Reduced motion can make bathing, dressing, reaching into a cabinet, or placing items overhead more difficult. Night pain may interrupt sleep, especially when you roll onto the affected side. MD Ortho Specialists’ rotator cuff rehabilitation guidance lists weakness, painful movement, limited motion, and night pain among common symptoms. Notice whether the arm feels painful, weak, or both.
 
 ### Distinguish Symptoms from Arthritis, Bursitis, Frozen Shoulder, or Neck Problems
 
@@ -93,7 +93,7 @@ During an examination, a clinician may assess your active and passive range of m
 
 Imaging is not necessary for every case, but it may help when symptoms persist, strength declines, or the diagnosis remains unclear. X-rays can show arthritis and bone changes. Ultrasound or magnetic resonance imaging may help assess the tendons and show the extent of a tear.
 
-A structured rehabilitation plan should match both the injury and the stage of recovery. The [MD Ortho Specialists rehabilitation guide](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery) explains why exercise selection and timing should be supervised rather than treated as a standard routine.
+A structured rehabilitation plan should match both the injury and the stage of recovery. The MD Ortho Specialists rehabilitation guide explains why exercise selection and timing should be supervised rather than treated as a standard routine.
 
 ### Compare Conservative Care With Post-Surgical Rehabilitation
 
@@ -129,7 +129,7 @@ Before your first session, record how your shoulder feels and what you can do co
 
 Your clinician may measure shoulder motion, strength, posture, and movement quality. They may also look for shoulder-blade changes or neck compensation. If you lift your shoulder by shrugging or lean your trunk to reach, those patterns can shape your exercise plan.
 
-Begin with gentle, controlled movements within a comfortable range. Add resistance or more challenging exercises only when your symptoms and form remain steady. The [non-surgical rotator cuff exercise guidance](https://www.youtube.com/watch?v=70UxCj6AoPo) emphasizes pain-free movement and avoiding heavy overhead lifting early in recovery.
+Begin with gentle, controlled movements within a comfortable range. Add resistance or more challenging exercises only when your symptoms and form remain steady. The non-surgical rotator cuff exercise guidance emphasizes pain-free movement and avoiding heavy overhead lifting early in recovery.
 
 Track how you feel during exercise and the next day. Increased night pain, new weakness, swelling, or soreness that does not settle may indicate that you need fewer repetitions, less resistance, a smaller range of motion, or a professional reassessment.
 
@@ -145,7 +145,7 @@ Your therapist may also establish baseline measurements for motion, strength, pa
 
 Early mobility work helps prevent stiffness while protecting injured or repaired tissue. Depending on your condition, your therapist may recommend pendulum exercises, table slides, or wand-assisted movements. These exercises let the shoulder move with less active effort from the healing muscles.
 
-The goal is controlled movement within a comfortable range, not forcing your arm to move as far as possible. Mild stretching or effort may be expected, but sharp pain, catching, or increasing soreness calls for a pause and reassessment. After surgery, follow the specific range restrictions provided by your surgeon. [Rotator cuff rehabilitation guidance](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) explains how gentle mobility often fits into a gradual recovery plan.
+The goal is controlled movement within a comfortable range, not forcing your arm to move as far as possible. Mild stretching or effort may be expected, but sharp pain, catching, or increasing soreness calls for a pause and reassessment. After surgery, follow the specific range restrictions provided by your surgeon. Rotator cuff rehabilitation guidance explains how gentle mobility often fits into a gradual recovery plan.
 
 ### Rebuild Rotator Cuff, Shoulder-Blade, and Upper-Back Strength
 
@@ -181,7 +181,7 @@ Keep each exercise slow and controlled. A mild stretch or gentle effort may be a
 
 Pendulum swings can help maintain gentle shoulder movement while limiting active effort from the shoulder muscles. Stand beside a sturdy table or countertop and place your stronger hand on the surface for support. Let the affected arm hang toward the floor, keeping your shoulder and neck relaxed.
 
-Use small movements to sway the arm forward and backward, side to side, or in gentle circles. Let the motion come from your body rather than actively lifting the shoulder. Keep the circles small, particularly if the shoulder is painful or recently repaired. The [MD Ortho Specialists guide to rotator cuff exercises](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) explains how pendulum movements can support mobility without demanding strong shoulder-muscle effort.
+Use small movements to sway the arm forward and backward, side to side, or in gentle circles. Let the motion come from your body rather than actively lifting the shoulder. Keep the circles small, particularly if the shoulder is painful or recently repaired. The MD Ortho Specialists guide to rotator cuff exercises explains how pendulum movements can support mobility without demanding strong shoulder-muscle effort.
 
 ### Complete Table or Countertop Slides Within a Comfortable Range
 
@@ -323,7 +323,7 @@ Use discomfort as feedback, not as a challenge to push through. A mild stretch o
 
 Overhead lifting places substantial demand on the rotator cuff and the muscles that control the shoulder blade. If the tendon is healing or the shoulder is still weak, repeated pressing, overhead storage, heavy shelving, and lifting weights above shoulder height may trigger a flare-up.
 
-You do not have to avoid reaching permanently. Instead, begin with light, supported movement and increase the load only when your clinician confirms that your strength and control are ready. Keep objects close to your body, avoid holding your breath, and use both hands when appropriate. If your shoulder aches more later that day or the next morning, reduce the weight, repetitions, or overhead range. [MD Ortho Specialists recommends](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) avoiding heavy overhead lifting early in recovery.
+You do not have to avoid reaching permanently. Instead, begin with light, supported movement and increase the load only when your clinician confirms that your strength and control are ready. Keep objects close to your body, avoid holding your breath, and use both hands when appropriate. If your shoulder aches more later that day or the next morning, reduce the weight, repetitions, or overhead range. MD Ortho Specialists recommends avoiding heavy overhead lifting early in recovery.
 
 ### Skip Behind-the-Neck Presses, Pulldowns, and Forced End Ranges
 
@@ -371,7 +371,7 @@ Keep a simple record of each session. Note the exercises you completed, the numb
 
 Early mobility exercises should feel controlled and manageable. Begin with a few gentle movements, such as pendulum swings, table slides, or assisted shoulder raises, rather than completing a long session. Keep each movement within a comfortable range, and do not force your arm higher or farther than recommended.
 
-Short, consistent sessions may be easier for an irritated shoulder to tolerate than occasional, demanding workouts. Depending on your clinician’s instructions, you may perform mobility exercises once or twice daily. The goal is to maintain comfortable movement without creating more irritation. [MD Ortho Specialists’ rotator cuff rehabilitation guidance](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) recommends beginning with gentle, pain-free movements and progressing only as tolerated.
+Short, consistent sessions may be easier for an irritated shoulder to tolerate than occasional, demanding workouts. Depending on your clinician’s instructions, you may perform mobility exercises once or twice daily. The goal is to maintain comfortable movement without creating more irritation. MD Ortho Specialists’ rotator cuff rehabilitation guidance recommends beginning with gentle, pain-free movements and progressing only as tolerated.
 
 ### Strengthen Two to Three Times Weekly When Cleared
 
@@ -389,7 +389,7 @@ If an exercise hurts, stop and reassess your position, range, and resistance. Yo
 
 Do not judge an exercise only by how your shoulder feels during the session. Irritation may appear several hours later or the next morning. Watch for increased night pain, stiffness, reduced range of motion, or more difficulty with everyday activities such as dressing, reaching, or lifting a light object.
 
-If your shoulder feels close to its usual baseline the next day, your current workload may be appropriate. If symptoms remain noticeably worse, repeat the same level less often or reduce the number of repetitions and sets. Your physical therapist can help you decide which change is appropriate. [MD Ortho Specialists](https://www.mdorthospecialists.com/blog/rotator-cuff-rehabilitation-exercises-for-recovery/) recommends using the shoulder’s response to guide recovery instead of following a rigid schedule.
+If your shoulder feels close to its usual baseline the next day, your current workload may be appropriate. If symptoms remain noticeably worse, repeat the same level less often or reduce the number of repetitions and sets. Your physical therapist can help you decide which change is appropriate. MD Ortho Specialists recommends using the shoulder’s response to guide recovery instead of following a rigid schedule.
 
 ### Prioritize Controlled Form Over Heavier Resistance or More Repetitions
 
@@ -401,7 +401,7 @@ During rotation exercises, keep your elbow and shoulder properly aligned as inst
 
 A temporary increase in symptoms does not always mean you have caused new damage, but it can indicate that your current workload is too demanding. Reduce one variable at a time, such as resistance, repetitions, sets, range of motion, or exercise frequency. You can also return to a supported version of the movement while symptoms settle.
 
-Do not respond by pushing harder at your next session. Resume progression gradually after your pain and movement return to baseline. Contact your physical therapist or physician if a flare causes sudden weakness, persistent night pain, swelling, or a clear loss of function. If you need to adjust your program, [reduce resistance and exercise difficulty gradually](https://www.youtube.com/watch?v=70UxCj6AoPo) rather than continuing at the same intensity.
+Do not respond by pushing harder at your next session. Resume progression gradually after your pain and movement return to baseline. Contact your physical therapist or physician if a flare causes sudden weakness, persistent night pain, swelling, or a clear loss of function. If you need to adjust your program, reduce resistance and exercise difficulty gradually rather than continuing at the same intensity.
 
 ## Know When to Seek Professional Guidance
 

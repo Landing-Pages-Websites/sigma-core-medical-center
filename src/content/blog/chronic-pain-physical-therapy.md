@@ -119,7 +119,7 @@ In these situations, treatment focuses on how your nervous system, muscles, join
 
 Working hard in therapy does not mean ignoring severe or alarming symptoms. Mild effort, muscle fatigue, or temporary soreness may occur during rehabilitation, but sharp, escalating, or unfamiliar pain deserves attention. Tell your therapist what you feel, when it begins, what makes it better or worse, and how long it lasts afterward.
 
-Also avoid the push-crash pattern, in which you do too much on a good day and then need several days to recover. A better approach uses pacing, planned rest, and gradual activity increases. [Pacing guidance for persistent pain](https://www.psychologytools.com/resource/pacing-for-pain) recommends avoiding both excessive activity and complete avoidance. Contact a medical provider promptly for new weakness, loss of bladder or bowel control, chest pain, severe shortness of breath, fever, or sudden swelling.
+Also avoid the push-crash pattern, in which you do too much on a good day and then need several days to recover. A better approach uses pacing, planned rest, and gradual activity increases. Pacing guidance for persistent pain recommends avoiding both excessive activity and complete avoidance. Contact a medical provider promptly for new weakness, loss of bladder or bowel control, chest pain, severe shortness of breath, fever, or sudden swelling.
 
 ### Coordinate medication with the care team when appropriate
 
@@ -287,7 +287,7 @@ Your therapist may ask which activities you avoid, what you expect to happen, an
 
 A baseline is a manageable amount of activity you can repeat consistently. It might be five minutes of walking, six sit-to-stands, a light resistance exercise, or a specific amount of time standing. Your therapist may monitor your response during the activity and over the following day or two.
 
-Starting below your maximum capacity can make movement feel more predictable. From there, you can increase time, repetitions, distance, or resistance in small steps. [Pacing guidance from Psychology Tools](https://www.psychologytools.com/resource/pacing-for-pain) recommends setting realistic activity levels and progressing gradually instead of repeatedly exercising to exhaustion. Your baseline should reflect your health history, current ability, and any medical precautions.
+Starting below your maximum capacity can make movement feel more predictable. From there, you can increase time, repetitions, distance, or resistance in small steps. Pacing guidance from Psychology Tools recommends setting realistic activity levels and progressing gradually instead of repeatedly exercising to exhaustion. Your baseline should reflect your health history, current ability, and any medical precautions.
 
 ### Use graded exposure for threatening activities
 
@@ -517,7 +517,7 @@ Chronic pain recovery rarely follows a straight line. You may feel stronger for 
 
 Try to judge progress over several weeks rather than by one difficult day. Keep notes on walking time, lifting ability, balance, sleep, daily tasks, and recovery after activity. These measures may improve before pain changes significantly.
 
-Patience and self-compassion matter. A difficult day does not erase the work you have completed. As [Pontchartrain Orthopedics and Sports Medicine describes](https://posm.org/navigating-the-4-ps-of-chronic-pain), each person’s path to managing chronic pain is different. Treat setbacks as information that can help you and your therapist refine the plan.
+Patience and self-compassion matter. A difficult day does not erase the work you have completed. As Pontchartrain Orthopedics and Sports Medicine describes, each person’s path to managing chronic pain is different. Treat setbacks as information that can help you and your therapist refine the plan.
 
 ### Reassess goals as strength, confidence, and capacity improve
 

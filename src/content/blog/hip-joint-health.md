@@ -69,7 +69,7 @@ Beyond moving forward and backward, your hip also allows you to move your leg ou
 
 ### How Hip Mobility Affects Everyday Activities
 
-Good hip mobility is directly tied to your independence and quality of life. When your hips can move freely and without pain, you can participate in the activities you love, whether that’s gardening, playing with your grandkids, or going for a long walk. Limited mobility, on the other hand, can make simple tasks feel like a major challenge. The goal of addressing hip issues isn't just to reduce pain; it's to help you [regain independence](https://scerbopt.com/the-vital-role-of-hysical-therapy-in-recovering-from-hip-replacement-surgery) and get back to your hobbies and social life. Keeping your hips mobile is a key part of staying active and self-sufficient as you age.
+Good hip mobility is directly tied to your independence and quality of life. When your hips can move freely and without pain, you can participate in the activities you love, whether that’s gardening, playing with your grandkids, or going for a long walk. Limited mobility, on the other hand, can make simple tasks feel like a major challenge. The goal of addressing hip issues isn't just to reduce pain; it's to help you regain independence and get back to your hobbies and social life. Keeping your hips mobile is a key part of staying active and self-sufficient as you age.
 
 ## What Common Conditions Affect the Hip Joint?
 
@@ -87,7 +87,7 @@ Have you ever felt a sharp, tender pain on the outside of your hip that gets wor
 
 ### Hip Fractures and Osteoporosis
 
-As we get older, our bone density can decrease, a condition known as osteoporosis. This condition [weakens bones](https://sjri.com/service/anatomy-of-the-hip-joint), making them more fragile and susceptible to breaking. For this reason, hip fractures are a significant concern, particularly for adults over 50. A fracture can happen from a serious trauma, but with osteoporosis, even a simple fall from a standing height can be enough to cause a break. A hip fracture is a serious injury that requires immediate medical attention and can have a major impact on your independence and mobility if not managed properly.
+As we get older, our bone density can decrease, a condition known as osteoporosis. This condition weakens bones, making them more fragile and susceptible to breaking. For this reason, hip fractures are a significant concern, particularly for adults over 50. A fracture can happen from a serious trauma, but with osteoporosis, even a simple fall from a standing height can be enough to cause a break. A hip fracture is a serious injury that requires immediate medical attention and can have a major impact on your independence and mobility if not managed properly.
 
 ### Hip Labral Tears
 

@@ -213,7 +213,7 @@ A simple symptom log can show you what irritates your chest and whether your rec
 
 Look for repeated patterns instead of focusing on one uncomfortable moment. Pain that appears after lifting, prolonged sitting, coughing, or sleeping on one side may point to a useful activity change. Note whether you can walk, dress, climb stairs, or take a comfortable breath more easily over time.
 
-Gradual improvement in movement is encouraging, even if mild tenderness remains. Contact a healthcare professional if pain worsens, keeps returning, changes in character, or fails to improve. [Fox Rehabilitation recommends identifying and avoiding recurring triggers](https://foxrehab.org/costochondritis-treatment/) during the early recovery period.
+Gradual improvement in movement is encouraging, even if mild tenderness remains. Contact a healthcare professional if pain worsens, keeps returning, changes in character, or fails to improve. Fox Rehabilitation recommends identifying and avoiding recurring triggers during the early recovery period.
 
 ## Which Costochondritis Medications Can Help?
 
@@ -261,7 +261,7 @@ Read the active ingredients, dose, warnings, and maximum daily amount on every l
 
 More medication is not always more effective. Increasing a dose can create serious risks without addressing the reason your pain continues. If the recommended amount is not helping, do not take extra doses, use the medicine more often, or combine it with another product unless a healthcare professional tells you to do so.
 
-Persistent or worsening pain deserves a fresh assessment, particularly if it affects breathing, sleep, walking, or normal arm movement. A clinician may review the diagnosis, check your medication list, and recommend physical therapy or another treatment. [Fox Rehabilitation’s costochondritis advice](https://foxrehab.org/costochondritis-treatment/) also recommends consulting a healthcare provider before increasing medication.
+Persistent or worsening pain deserves a fresh assessment, particularly if it affects breathing, sleep, walking, or normal arm movement. A clinician may review the diagnosis, check your medication list, and recommend physical therapy or another treatment. Fox Rehabilitation’s costochondritis advice also recommends consulting a healthcare provider before increasing medication.
 
 ## How Should You Modify Activity During Recovery?
 
@@ -305,7 +305,7 @@ A severe or persistent cough deserves medical attention, especially when it occu
 
 As your pain improves, increase activity in small steps. Begin with an amount you can complete comfortably, then gradually add time, repetitions, distance, or resistance. Avoid increasing several factors at once. For example, add a few minutes to a walk before introducing hills or carrying weights.
 
-Allow enough recovery time between demanding activities, and check how you feel later that day and the next morning. If symptoms flare, return to the last comfortable level for several days before progressing again. A [gradual return to exercise](https://foxrehab.org/costochondritis-treatment/) can help reduce setbacks. If you cannot resume normal activities or your pain persists despite these changes, ask your clinician or physical therapist to reassess your plan.
+Allow enough recovery time between demanding activities, and check how you feel later that day and the next morning. If symptoms flare, return to the last comfortable level for several days before progressing again. A gradual return to exercise can help reduce setbacks. If you cannot resume normal activities or your pain persists despite these changes, ask your clinician or physical therapist to reassess your plan.
 
 ## Which Gentle Exercises Can Support Recovery?
 
@@ -329,7 +329,7 @@ A stiff upper back can affect posture and place extra demand on the muscles arou
 
 Roll a bath towel or large hand towel and place it horizontally beneath your upper back. Lie on the floor or a firm bed with your knees bent and feet supported. Support your head with your hands or a thin pillow. Allow your upper back to gently drape over the towel for one or two breaths, then return to a neutral position. Keep the movement small, and avoid arching your lower back or forcing your ribs upward.
 
-Repeat three to five times. [Fox Rehab recommends gentle thoracic extensions](https://foxrehab.org/costochondritis-treatment/) as part of conservative care. Skip this exercise if lying down increases your pain or makes breathing uncomfortable.
+Repeat three to five times. Fox Rehab recommends gentle thoracic extensions as part of conservative care. Skip this exercise if lying down increases your pain or makes breathing uncomfortable.
 
 ### Stretch Your Pectoral Muscles in a Doorway
 
@@ -353,7 +353,7 @@ Gentle mid-back rotation can help maintain mobility if chest discomfort has caus
 
 Sit in a stable chair with your feet flat on the floor. Cross your arms over your chest only if that position feels comfortable. Slowly turn your shoulders a few inches to one side while keeping your hips facing forward. Return to center, then turn to the other side. Move with your breath, and do not pull yourself farther with your arms.
 
-You can also lie on your side with your knees comfortably bent and slowly open your top arm toward the opposite side. Choose whichever position feels easier. Repeat three to five times per side. [Fox Rehab recommends gentle rotation within comfortable limits](https://foxrehab.org/costochondritis-treatment/). Reduce the range or stop if pain continues after the exercise.
+You can also lie on your side with your knees comfortably bent and slowly open your top arm toward the opposite side. Choose whichever position feels easier. Repeat three to five times per side. Fox Rehab recommends gentle rotation within comfortable limits. Reduce the range or stop if pain continues after the exercise.
 
 ### Stop at Sharp or Radiating Pain, Not Mild Stretching
 
@@ -470,7 +470,7 @@ If symptoms continue for a long time, that does not automatically mean surgery i
 * [Costochondritis: Symptoms, Causes, Diagnosis, and Treatment](https://my.clevelandclinic.org/health/diseases/22167-costochondritis)
 * [Costochondritis: Diagnosis and Treatment](https://www.aafp.org/pubs/afp/issues/2009/0915/p617.html)
 * [Costochondritis: What to Know About Chest Wall Pain](https://www.medicalnewstoday.com/articles/320394)
-* [Costochondritis Treatment: What Works and What to Avoid](https://foxrehab.org/costochondritis-treatment/)
+* Costochondritis Treatment: What Works and What to Avoid
 * [Costochondritis Treatment & Management](https://emedicine.medscape.com/article/808554-treatment)
 
 ## Frequently Asked Questions

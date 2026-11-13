@@ -21,7 +21,7 @@ A gait-focused conversation is not simply about making each step look a certain 
 
 Physical therapy is one form of rehabilitation. The term does not mean every person will receive the same assessment or follow the same treatment. Some people may need further medical assessment before a therapy plan is considered. Others may be discussing a gradual return to activity after a period of limited movement. A qualified clinician can help determine which next step fits the situation.
 
-For context, a [Trilogy article on physical therapy and athletes’ balance and gait training](https://mytrilogy.org/the-role-of-physical-therapy-in-athletes-balance-and-gait-training/) discusses gait and balance as areas that may be addressed in physical therapy. That is a general overview, not a personal recommendation or a guarantee of a particular result.
+For context, a Trilogy article on physical therapy and athletes’ balance and gait training discusses gait and balance as areas that may be addressed in physical therapy. That is a general overview, not a personal recommendation or a guarantee of a particular result.
 
 ## Why might walking change over time?
 

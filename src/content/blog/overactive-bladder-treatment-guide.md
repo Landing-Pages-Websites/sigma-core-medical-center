@@ -139,7 +139,7 @@ OAB symptoms can also be affected by constipation, medication side effects, meno
 
 Caffeine may increase urine production and make the bladder feel more sensitive. Common sources include coffee, tea, energy drinks, cola, chocolate, and some supplements. Alcohol and carbonated beverages can also worsen urgency for some people. Acidic foods and drinks, including citrus products, may be triggers as well.
 
-Artificial sweeteners bother some individuals, although bladder triggers vary. Rather than removing every possible irritant at once, reduce one item for a week or two and monitor your symptoms. Try switching to water or a noncarbonated, caffeine-free drink. A [bladder diary](https://www.michiganurology.com/8-treatment-options-for-overactive-bladder-find-which-is-right-for-you/) can help you record beverages, urgency, bathroom visits, leakage, and possible triggers. If symptoms improve, continue limiting that item or choose a smaller serving.
+Artificial sweeteners bother some individuals, although bladder triggers vary. Rather than removing every possible irritant at once, reduce one item for a week or two and monitor your symptoms. Try switching to water or a noncarbonated, caffeine-free drink. A bladder diary can help you record beverages, urgency, bathroom visits, leakage, and possible triggers. If symptoms improve, continue limiting that item or choose a smaller serving.
 
 ### Balance fluid intake without intentional dehydration
 

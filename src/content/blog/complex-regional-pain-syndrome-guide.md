@@ -25,7 +25,7 @@ Complex regional pain syndrome, or CRPS, is a condition that causes ongoing pain
 
 CRPS is thought to involve changes in both the peripheral nervous system, which carries messages between the body and brain, and the central nervous system, which includes the brain and spinal cord. These systems help process pain and respond to touch, temperature, and movement. When their signaling changes, ordinary contact or movement may feel painful, and the affected limb may respond differently than expected.
 
-Researchers are still learning why CRPS develops. It may involve several factors, and there is no single explanation that applies to everyone. The [Columbus Regional Healthcare System notes that the exact cause is not fully understood](https://crhealthcare.org/conditions/complex-regional-pain-syndrome-crps/). A clinician can review your symptoms and medical history, examine the affected area, and consider other possible causes before recommending care.
+Researchers are still learning why CRPS develops. It may involve several factors, and there is no single explanation that applies to everyone. The Columbus Regional Healthcare System notes that the exact cause is not fully understood. A clinician can review your symptoms and medical history, examine the affected area, and consider other possible causes before recommending care.
 
 ### CRPS is real—not “all in your head”
 
@@ -75,7 +75,7 @@ Mention new or ongoing changes during a medical evaluation, particularly if they
 
 CRPS symptoms can vary over time. Pain may persist while swelling, skin color, temperature, or sweating changes come and go. Some people report symptoms beyond the area where they first began, but patterns differ. Symptoms do not follow the same predictable stages for everyone, and a change in symptoms does not by itself mean CRPS has spread.
 
-Keep a simple record of where symptoms occur, when they change, and how they affect movement and daily activities. Share it with your clinician, who can evaluate the changes and check for other possible causes. Seek prompt medical advice if symptoms worsen quickly or you develop new changes that concern you. [Southeast Pain & Spine Care discusses how CRPS symptoms may change over time](https://www.sepainandspinecare.com/exploring-the-stages-of-crps).
+Keep a simple record of where symptoms occur, when they change, and how they affect movement and daily activities. Share it with your clinician, who can evaluate the changes and check for other possible causes. Seek prompt medical advice if symptoms worsen quickly or you develop new changes that concern you. Southeast Pain & Spine Care discusses how CRPS symptoms may change over time.
 
 ## What Are the Types and Possible Causes of CRPS?
 
@@ -167,7 +167,7 @@ Ask what a procedure is designed to address, how your care team will assess whet
 
 Pacing can help you balance activity with rest. Try breaking demanding tasks into smaller steps, taking planned pauses, and increasing activity gradually rather than doing much more on a day when symptoms ease. Your clinician or therapist can help you find a level of movement that supports function without overwhelming you.
 
-Ask your care team about home strategies such as relaxation techniques, sleep routines, or complementary therapies. Their evidence and safety vary, so check before trying a new approach, especially if you take medication or have other health conditions. Keeping a simple record of pain, movement, sleep, and daily activities can help you and your clinician see what may be useful. [Southeast Pain & Spine Care discusses the value of early, comprehensive CRPS care](https://www.sepainandspinecare.com/exploring-the-stages-of-crps).
+Ask your care team about home strategies such as relaxation techniques, sleep routines, or complementary therapies. Their evidence and safety vary, so check before trying a new approach, especially if you take medication or have other health conditions. Keeping a simple record of pain, movement, sleep, and daily activities can help you and your clinician see what may be useful. Southeast Pain & Spine Care discusses the value of early, comprehensive CRPS care.
 
 ### Review the evidence on vitamin C and CRPS prevention
 
@@ -179,7 +179,7 @@ Before taking a supplement for prevention, ask your surgeon or clinician whether
 
 Arrange a medical evaluation if pain or sensitivity continues after an injury should be healing, or if you notice swelling, skin color or temperature changes, or declining movement or strength. These symptoms can have several causes. A clinician can assess them and determine whether CRPS or another condition may be involved.
 
-Before your appointment, note when symptoms began, how they have changed, and what makes them better or worse. Mention any impact on walking, sleep, or daily tasks, and bring a list of medicines and relevant health conditions. Timely assessment can help your care team decide on next steps and support your function. [Columbus Regional Healthcare System recommends evaluation for persistent pain or limb changes](https://crhealthcare.org/conditions/complex-regional-pain-syndrome-crps/).
+Before your appointment, note when symptoms began, how they have changed, and what makes them better or worse. Mention any impact on walking, sleep, or daily tasks, and bring a list of medicines and relevant health conditions. Timely assessment can help your care team decide on next steps and support your function. Columbus Regional Healthcare System recommends evaluation for persistent pain or limb changes.
 
 ### Get urgent care for new or rapidly worsening symptoms
 

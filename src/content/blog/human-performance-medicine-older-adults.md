@@ -53,7 +53,7 @@ Some symptoms need medical assessment before you change your activity. New or wo
 
 ### Address Age-Related Muscle Loss, Reduced Strength, and Slower Recovery
 
-Muscle mass and strength can decline with age, making everyday tasks such as climbing stairs or standing from a chair more challenging. Still, meaningful gains are possible later in life. With consistent, appropriately tailored resistance training, older adults can build muscle and improve strength. A [discussion of strength training for older adults](https://www.youtube.com/watch?v=ZDP_qHwJwPY) notes that some people may see gains within a few months, although results vary.
+Muscle mass and strength can decline with age, making everyday tasks such as climbing stairs or standing from a chair more challenging. Still, meaningful gains are possible later in life. With consistent, appropriately tailored resistance training, older adults can build muscle and improve strength. A discussion of strength training for older adults notes that some people may see gains within a few months, although results vary.
 
 A clinician or qualified exercise professional can help you start at a suitable level and adjust your program as your strength changes. They can also account for recovery time by modifying the intensity, frequency, and rest between sessions. The goal is steady progress, not pushing through unusual pain or fatigue.
 
@@ -61,7 +61,7 @@ A clinician or qualified exercise professional can help you start at a suitable 
 
 Joint pain, numbness or tingling, and balance changes can make movement less comfortable and affect confidence. A personalized plan starts by reviewing your symptoms and determining whether they need further medical assessment. If exercise is appropriate, strength, mobility, and balance activities can be adapted to your needs. They should support care for the underlying issue, not take the place of diagnosis or treatment.
 
-Balance practice may include supported single-leg standing, walking in a straight line, or tai chi, as described in this [exercise discussion for older adults](https://www.youtube.com/watch?v=ZDP_qHwJwPY). If you feel unsteady or have fallen before, ask a healthcare professional how to practice safely. Using a stable support or working with a professional may be appropriate when you begin.
+Balance practice may include supported single-leg standing, walking in a straight line, or tai chi, as described in this exercise discussion for older adults. If you feel unsteady or have fallen before, ask a healthcare professional how to practice safely. Using a stable support or working with a professional may be appropriate when you begin.
 
 ### Address Chronic Conditions, Low Energy, and Inactivity
 
@@ -79,7 +79,7 @@ Mental health concerns are not an inevitable part of aging, and support is avail
 
 Strength training does not require lifting the heaviest weight you can manage. Resistance bands, body-weight movements, and lighter weights can all challenge your muscles when chosen and progressed appropriately. The right level depends on your strength, joint health, balance, medical history, and experience with exercise.
 
-A [discussion of strength training for older adults](https://www.youtube.com/watch?v=ZDP_qHwJwPY) explains that lighter resistance can be effective when it challenges the working muscles. You do not need to train to exhaustion or ignore discomfort to make progress. A clinician or qualified exercise professional can help select movements, set a manageable starting point, and adjust the program over time. Stop and seek guidance if an exercise causes sharp pain, dizziness, unusual shortness of breath, or other concerning symptoms.
+A discussion of strength training for older adults explains that lighter resistance can be effective when it challenges the working muscles. You do not need to train to exhaustion or ignore discomfort to make progress. A clinician or qualified exercise professional can help select movements, set a manageable starting point, and adjust the program over time. Stop and seek guidance if an exercise causes sharp pain, dizziness, unusual shortness of breath, or other concerning symptoms.
 
 ## How Do You Build a Personalized Plan?
 
@@ -93,7 +93,7 @@ Progress may involve more than getting stronger or moving faster. Sleeping bette
 
 A useful assessment looks beyond a diagnosis or a single fitness measure. Share your medical history, surgeries, medications, supplements, pain patterns, sleep habits, and any recent changes in energy, strength, or balance. Describe tasks that feel difficult, such as standing from a chair, carrying groceries, or walking on uneven ground. These details help your care team understand how your health affects daily life.
 
-Include emotional well-being in the conversation. Stress, grief, or low mood can affect sleep, motivation, and activity, but may be overlooked when an appointment focuses on physical symptoms. The [SAMHSA guide to depression treatment in older adults](https://e4center.org/wp-content/uploads/2020/12/Treatment-of-Depression-in-Older-Adults-2011.pdf) highlights the importance of supporting personal recovery goals and participation in everyday life. Sharing the full picture gives your clinician more context for recommendations.
+Include emotional well-being in the conversation. Stress, grief, or low mood can affect sleep, motivation, and activity, but may be overlooked when an appointment focuses on physical symptoms. The SAMHSA guide to depression treatment in older adults highlights the importance of supporting personal recovery goals and participation in everyday life. Sharing the full picture gives your clinician more context for recommendations.
 
 ### Identify Personal Goals, Barriers, and Safety Needs
 
@@ -105,7 +105,7 @@ Next, discuss anything that could make the plan difficult to follow. Pain, fatig
 
 Choose a few simple measures that relate to your goals. With your clinician, you might track how long you can walk comfortably, how easily you stand from a chair, how often pain interrupts an activity, or how confident you feel on stairs. Repeat the measures at agreed intervals to spot changes over time.
 
-Progress can vary from week to week. Illness, changes in sleep, medication, or pain may affect how you feel and move. Keep notes on these factors alongside your activity, and tell your care team about setbacks or new symptoms. Your measures can also include sleep, mood, and confidence, not just strength or endurance. When appropriate, care may combine medical treatment, behavioral support, and social strategies. [Collaborative care approaches for older adults](https://www.thesupportivecare.com/blog/mental-health-interventions-for-seniors-with-chronic-illnesses) can bring different forms of support together to address related needs.
+Progress can vary from week to week. Illness, changes in sleep, medication, or pain may affect how you feel and move. Keep notes on these factors alongside your activity, and tell your care team about setbacks or new symptoms. Your measures can also include sleep, mood, and confidence, not just strength or endurance. When appropriate, care may combine medical treatment, behavioral support, and social strategies. Collaborative care approaches for older adults can bring different forms of support together to address related needs.
 
 ### Coordinate With Current Clinicians and Refer for Specialized Care
 
@@ -199,7 +199,7 @@ Mental health conditions are not an inevitable part of aging, and support is ava
 
 Medical and regenerative treatments may help address specific health concerns, but no treatment can guarantee that you will feel or function like you did when you were younger. The best option depends on your diagnosis, health history, medications, symptoms, and personal goals. Before starting care, ask what condition the treatment is intended to address, what evidence supports its use for someone like you, and what other options are available.
 
-Be cautious of claims that a therapy will reverse aging, eliminate pain, or restore function for everyone. Evidence differs across treatments, and research may be limited for some procedures marketed as regenerative care. [Balance Medical Integration’s overview of performance and longevity care](https://balancemedicalintegration.com/conditions-we-treat/performance-and-longevity/) notes that evidence varies by therapy. You can also check the FDA’s information on regenerative medicine products to learn about products that may not be approved for a particular use.
+Be cautious of claims that a therapy will reverse aging, eliminate pain, or restore function for everyone. Evidence differs across treatments, and research may be limited for some procedures marketed as regenerative care. Balance Medical Integration’s overview of performance and longevity care notes that evidence varies by therapy. You can also check the FDA’s information on regenerative medicine products to learn about products that may not be approved for a particular use.
 
 Before treatment begins, agree with your clinician on what improvement would look like and how you will track it. Changes in pain, strength, mobility, energy, or everyday activities can help you assess whether a plan is working. Regular follow-up gives your care team a chance to review your response, discuss side effects, and adjust care when needed.
 

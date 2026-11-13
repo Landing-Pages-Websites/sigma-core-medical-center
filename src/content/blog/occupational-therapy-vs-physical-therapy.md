@@ -35,7 +35,7 @@ For adults experiencing joint pain, reduced hand function, or changes in stamina
 
 Physical therapy focuses on movement and physical abilities that affect how a person gets around and carries out activities. A PT may assess strength, flexibility, balance, walking, joint motion, and pain. Treatment may include guided exercises, mobility practice, balance training, and strategies for moving more comfortably and safely.
 
-For adults over 50, PT may be considered when stiffness, weakness, balance changes, or pain make walking, climbing stairs, or staying active more difficult. The therapist builds a plan around the person’s health, abilities, and goals, then adjusts it as needs change. [Raleigh Orthopaedic’s explanation of physical therapy](https://www.raleighortho.com/blog/physical-therapy/physical-therapy-vs-occupational-therapy-what-is-the-difference/) describes PT as addressing movement and physical problems that limit mobility.
+For adults over 50, PT may be considered when stiffness, weakness, balance changes, or pain make walking, climbing stairs, or staying active more difficult. The therapist builds a plan around the person’s health, abilities, and goals, then adjusts it as needs change. Raleigh Orthopaedic’s explanation of physical therapy describes PT as addressing movement and physical problems that limit mobility.
 
 ### What “occupation” means in OT
 
@@ -57,7 +57,7 @@ Occupational therapy (OT) and physical therapy (PT) both help you take part in d
 
 An occupational therapist will ask about your routines and the activities you want to do more easily. These might include dressing, bathing, cooking, managing medications, using your hands, or enjoying a hobby. Your OT may also look at fine motor skills, memory, attention, and how your home setup affects safety and independence.
 
-The assessment helps identify specific barriers. Hand pain, for example, may make it hard to fasten buttons, while balance concerns can make getting in and out of the shower feel less secure. Your therapist may watch you perform a task and ask what feels challenging. This [overview of occupational therapy](https://www.raleighortho.com/blog/physical-therapy/physical-therapy-vs-occupational-therapy-what-is-the-difference/) explains how care can support daily activities. Sharing your priorities helps your OT focus on what matters most to you.
+The assessment helps identify specific barriers. Hand pain, for example, may make it hard to fasten buttons, while balance concerns can make getting in and out of the shower feel less secure. Your therapist may watch you perform a task and ask what feels challenging. This overview of occupational therapy explains how care can support daily activities. Sharing your priorities helps your OT focus on what matters most to you.
 
 ### PT assessment: movement, strength, balance, walking, and physical impairments
 
@@ -101,13 +101,13 @@ Before an appointment, note which activities are difficult, when symptoms tend t
 
 OT may help when pain, stiffness, weakness, or changes in memory affect everyday routines. An occupational therapist can look at how you manage activities such as dressing, bathing, cooking, using your hands, or keeping track of daily tasks. Depending on your needs, they may practice an activity with you, suggest a different technique, or recommend adaptive equipment and changes to your home.
 
-For example, if arthritis makes it difficult to open jars, an OT may suggest tools or hand positions that make the task easier. If you feel unsteady while getting dressed, they can help you consider safer ways to do it and arrange your space. [Occupational therapy focuses on daily activities](https://www.raleighortho.com/blog/physical-therapy/physical-therapy-vs-occupational-therapy-what-is-the-difference/) and can tailor strategies to your priorities.
+For example, if arthritis makes it difficult to open jars, an OT may suggest tools or hand positions that make the task easier. If you feel unsteady while getting dressed, they can help you consider safer ways to do it and arrange your space. Occupational therapy focuses on daily activities and can tailor strategies to your priorities.
 
 ### When PT can help with walking, joint movement, strength, balance, or mobility-related pain
 
 PT may be a good fit when pain or physical changes affect how you move. A physical therapist can assess your walking, joint movement, strength, flexibility, and balance, then recommend treatment based on your goals. Sessions may include guided exercises, gait or balance practice, and advice on moving safely.
 
-Consider asking about an evaluation if knee stiffness makes stairs difficult, back pain limits your walks, or balance concerns make you less confident going out. PT may also be part of recovery after an injury or surgery. The plan can focus on practical goals, such as standing more comfortably, walking farther, or returning to an activity you enjoy. Learn more about how [physical therapy addresses movement and mobility](https://www.raleighortho.com/blog/physical-therapy/physical-therapy-vs-occupational-therapy-what-is-the-difference/).
+Consider asking about an evaluation if knee stiffness makes stairs difficult, back pain limits your walks, or balance concerns make you less confident going out. PT may also be part of recovery after an injury or surgery. The plan can focus on practical goals, such as standing more comfortably, walking farther, or returning to an activity you enjoy. Learn more about how physical therapy addresses movement and mobility.
 
 ### How chronic pain, joint problems, neuropathy, or surgery recovery shape therapy needs
 
@@ -133,7 +133,7 @@ OT and PT can work as a team to help you move more safely and use your abilities
 
 ### Pair movement gains with daily-living strategies
 
-PT may work on balance, walking, or the strength to stand from a chair. OT can help you use those abilities during everyday tasks, such as dressing, bathing, cooking, or moving around your home. After a fall, for example, PT may practice walking and balance while OT looks at how you manage stairs and self-care. This combination connects therapy exercises with the activities you want to do more safely and independently. Your therapists can also suggest practical changes, such as using a grab bar or rearranging items to make daily routines easier. [See how OT and PT can complement each other after a fall](https://alexandriahc.com/resources/short-term-rehab-pt-vs-ot-differences/).
+PT may work on balance, walking, or the strength to stand from a chair. OT can help you use those abilities during everyday tasks, such as dressing, bathing, cooking, or moving around your home. After a fall, for example, PT may practice walking and balance while OT looks at how you manage stairs and self-care. This combination connects therapy exercises with the activities you want to do more safely and independently. Your therapists can also suggest practical changes, such as using a grab bar or rearranging items to make daily routines easier. See how OT and PT can complement each other after a fall.
 
 ### Coordinate goals and share progress across the care team
 
@@ -145,7 +145,7 @@ With your permission, a family member or caregiver can take part in therapy disc
 
 ### Adapt therapy as symptoms, abilities, and priorities change
 
-Pain, fatigue, balance, strength, and confidence can change during recovery. Your therapists can adjust activities to reflect how you feel and what you can manage, while keeping safety in focus. If joint pain makes dressing difficult, for example, your OT may recommend a different technique or an adaptive tool, while your PT works on movement and strength. Let both therapists know if symptoms change, an activity becomes harder, or your goals shift. They can reassess your needs and update the plan. [Therapists adapt activities to each person’s needs](https://alexandriahc.com/resources/short-term-rehab-pt-vs-ot-differences/), helping keep treatment relevant as your abilities and priorities evolve.
+Pain, fatigue, balance, strength, and confidence can change during recovery. Your therapists can adjust activities to reflect how you feel and what you can manage, while keeping safety in focus. If joint pain makes dressing difficult, for example, your OT may recommend a different technique or an adaptive tool, while your PT works on movement and strength. Let both therapists know if symptoms change, an activity becomes harder, or your goals shift. They can reassess your needs and update the plan. Therapists adapt activities to each person’s needs, helping keep treatment relevant as your abilities and priorities evolve.
 
 ## Where Do OTs and PTs Work?
 
@@ -189,15 +189,15 @@ Occupational therapists (OTs) and physical therapists (PTs) follow different edu
 
 ### OT education, certification, and state licensure
 
-In the United States, occupational therapists complete an entry-level master’s or doctoral degree from a program accredited by the [Accreditation Council for Occupational Therapy Education](https://acoteonline.org/). Their education includes supervised fieldwork, where they learn to help people take part in daily activities, adapt tasks, and build independence at home and in the community.
+In the United States, occupational therapists complete an entry-level master’s or doctoral degree from a program accredited by the Accreditation Council for Occupational Therapy Education. Their education includes supervised fieldwork, where they learn to help people take part in daily activities, adapt tasks, and build independence at home and in the community.
 
-After graduation, candidates must pass the [NBCOT certification exam](https://www.nbcot.org/), known as the Occupational Therapist Registered (OTR) exam. They then apply for a license in the state where they plan to practice. Each state sets its own requirements, which may include additional documentation or a background check. When considering OT, ask whether the therapist has experience with your needs, such as hand function, home safety, or managing daily routines.
+After graduation, candidates must pass the NBCOT certification exam, known as the Occupational Therapist Registered (OTR) exam. They then apply for a license in the state where they plan to practice. Each state sets its own requirements, which may include additional documentation or a background check. When considering OT, ask whether the therapist has experience with your needs, such as hand function, home safety, or managing daily routines.
 
 ### PT education, licensure, and continuing education
 
 Physical therapists earn a Doctor of Physical Therapy (DPT) degree from a program accredited by the Commission on Accreditation in Physical Therapy Education. Their training combines academic coursework with supervised clinical education. This prepares them to assess and treat concerns involving movement, strength, balance, and physical function.
 
-After earning a DPT, candidates must pass the [National Physical Therapy Examination](https://www.fsbpt.org/Our-Services/Candidate-Services/National-Exam-NPTE) and meet their state’s licensing requirements. Most states also require continuing education to renew a license, though the rules and required hours vary. If you’re seeking help with walking, joint movement, or recovery after surgery, ask whether the PT regularly works with people who have similar concerns and how they’ll track your progress.
+After earning a DPT, candidates must pass the National Physical Therapy Examination and meet their state’s licensing requirements. Most states also require continuing education to renew a license, though the rules and required hours vary. If you’re seeking help with walking, joint movement, or recovery after surgery, ask whether the PT regularly works with people who have similar concerns and how they’ll track your progress.
 
 ### Compare career paths, work settings, and specialties
 
@@ -213,10 +213,10 @@ OTs who pass the NBCOT exam may use the OTR designation. PTs must pass the NPTE 
 
 ## Related Articles
 
-* [Occupational Therapy vs. Physical Therapy: What Is the Difference?](https://www.raleighortho.com/blog/physical-therapy/physical-therapy-vs-occupational-therapy-what-is-the-difference/)
+* Occupational Therapy vs. Physical Therapy: What Is the Difference?
 * [Occupational Therapy vs. Physical Therapy](https://medschool.ucla.edu/news-article/occupational-therapy-vs-physical-therapy)
 * [Difference Between OT and PT](https://westcoastuniversity.edu/blog/difference-between-ot-and-pt)
-* [Short-Term Rehab: PT vs. OT Differences](https://alexandriahc.com/resources/short-term-rehab-pt-vs-ot-differences/)
+* Short-Term Rehab: PT vs. OT Differences
 * [Occupational Therapy vs. Physical Therapy](https://www.ucumberlands.edu/blog/occupational-therapy-vs-physical-therapy)
 
 ## Frequently Asked Questions

@@ -159,7 +159,7 @@ RA can affect energy even when joint symptoms seem manageable. Inflammation, poo
 
 Your care team may review sleep, mood, nutrition, activity, work demands, and the tasks you find most difficult. Pacing can help you divide demanding activities into smaller steps. A gradual strength and conditioning program may improve your tolerance for walking, lifting, or recreational activities over time.
 
-Track changes in fatigue, sleep, concentration, and daily function. Clear communication helps your provider understand whether treatment is meeting your needs. Guidance on [effective patient communication](https://cpdonline.co.uk/knowledge-base/care/techniques-effective-communication-patients-families) emphasizes that informed patients are better prepared to follow care plans and participate in treatment decisions.
+Track changes in fatigue, sleep, concentration, and daily function. Clear communication helps your provider understand whether treatment is meeting your needs. Guidance on effective patient communication emphasizes that informed patients are better prepared to follow care plans and participate in treatment decisions.
 
 ### Protect Bone, Heart, Lung, and Overall Health
 
@@ -672,7 +672,7 @@ Look for a rheumatologist who listens carefully, explains options in plain langu
 
 During an initial visit, ask how the practice measures disease activity, handles medication questions, and communicates laboratory or imaging results. Ask whether the team works with rehabilitation professionals who understand joint protection, balance, strength, and age-related changes in mobility.
 
-A strong care team should make it comfortable to report concerns, ask questions, and discuss changes in function. Clear communication can also support treatment adherence and follow-up, according to these [healthcare communication strategies](https://www.clearwaveinc.com/blog/3-effective-communication-strategies-for-healthcare-practices).
+A strong care team should make it comfortable to report concerns, ask questions, and discuss changes in function. Clear communication can also support treatment adherence and follow-up, according to these healthcare communication strategies.
 
 ### Prepare a Complete Symptom, Medication, and Health History
 
@@ -680,7 +680,7 @@ Bring a current list of prescription medicines, over-the-counter products, vitam
 
 A symptom timeline can provide helpful detail. Note when symptoms began, which joints are affected, how long morning stiffness lasts, and whether symptoms change after activity or rest. Include recent laboratory reports and imaging results when available.
 
-Be honest about medicines you stopped, doses you missed, and treatments that caused side effects. These details help your provider assess safety and determine whether a treatment is working. [Active listening in patient care](https://cpdonline.co.uk/knowledge-base/care/techniques-effective-communication-patients-families) is most useful when the provider has a complete and accurate history.
+Be honest about medicines you stopped, doses you missed, and treatments that caused side effects. These details help your provider assess safety and determine whether a treatment is working. Active listening in patient care is most useful when the provider has a complete and accurate history.
 
 ### Describe Pain, Swelling, Stiffness, Fatigue, and Function
 
@@ -696,7 +696,7 @@ Tell your care team what you want to keep doing or regain. Your goal might be wa
 
 Be specific about your current limitations and desired timeline. For example, you may want to stand for 30 minutes without increased pain, open jars more easily, or complete a strength program three times a week. Your rehabilitation plan can then address the movements and skills connected to that goal.
 
-Your priorities may change as symptoms improve, and that is expected. Share those changes during follow-up visits. Open discussion builds trust and encourages active participation in care, consistent with the communication principles described by [Rosewood Nursing](https://www.rosewood-nursing.com/post/how-to-communicate-with-healthcare-providers-effectively).
+Your priorities may change as symptoms improve, and that is expected. Share those changes during follow-up visits. Open discussion builds trust and encourages active participation in care, consistent with the communication principles described by Rosewood Nursing.
 
 ### Discuss Treatment Concerns, Preferences, and Barriers
 
@@ -719,7 +719,7 @@ Ask what the treatment is intended to achieve and how you will know whether it i
 
 Some medicines work gradually, while others may provide relief sooner. Your provider can explain the expected timeline and distinguish normal adjustment from a warning sign. Ask when you should schedule follow-up and what to do if symptoms change before then.
 
-Open discussion allows clinicians to tailor treatment to individual needs and goals. [Clinical communication guidance](https://backlinehealth.com/blog/7-strategies-for-effective-clinical-communication) also supports clear conversations about expectations, monitoring, and next steps.
+Open discussion allows clinicians to tailor treatment to individual needs and goals. Clinical communication guidance also supports clear conversations about expectations, monitoring, and next steps.
 
 ### Use Plain Language, Active Listening, and Teach-Back
 
@@ -751,7 +751,7 @@ Contact your rheumatology team when swelling, morning stiffness, fatigue, or los
 
 A treatment review may involve an examination, blood tests, imaging, medication adjustment, or evaluation for another cause of pain. Persistent symptoms can reflect active inflammation, structural joint damage, infection, medication effects, sleep problems, or a separate condition.
 
-Tell your provider which treatments you have followed and what has changed since your last visit. If a plan is difficult to follow, explain why rather than simply stopping it. Asking for a review is a useful part of ongoing care. It gives the team an opportunity to reassess your diagnosis, risks, goals, and response. Clear communication can strengthen trust between patients and providers, according to [CPD Online’s communication guidance](https://cpdonline.co.uk/knowledge-base/care/techniques-effective-communication-patients-families).
+Tell your provider which treatments you have followed and what has changed since your last visit. If a plan is difficult to follow, explain why rather than simply stopping it. Asking for a review is a useful part of ongoing care. It gives the team an opportunity to reassess your diagnosis, risks, goals, and response. Clear communication can strengthen trust between patients and providers, according to CPD Online’s communication guidance.
 
 ### Make Shared Decisions for Long-Term Joint Protection
 
@@ -759,7 +759,7 @@ Shared decision-making means you and your provider discuss the evidence, expecte
 
 Long-term joint protection usually requires more than symptom relief. It may involve controlling autoimmune inflammation, completing rehabilitation, building strength safely, protecting bone health, and adjusting treatment when your condition changes. A physical or occupational therapist can help you modify tasks and protect vulnerable joints without giving up activity altogether.
 
-Include family members or caregivers in appointments when helpful, especially if they assist with medications or daily activities. Keep a written plan with your treatment target, medication schedule, monitoring dates, flare instructions, and contact information. Honest, collaborative dialogue supports safer care and helps keep treatment aligned with your long-term goals, as described in these [shared communication strategies](https://www.rosewood-nursing.com/post/how-to-communicate-with-healthcare-providers-effectively).
+Include family members or caregivers in appointments when helpful, especially if they assist with medications or daily activities. Keep a written plan with your treatment target, medication schedule, monitoring dates, flare instructions, and contact information. Honest, collaborative dialogue supports safer care and helps keep treatment aligned with your long-term goals, as described in these shared communication strategies.
 
 ## Frequently Asked Questions
 

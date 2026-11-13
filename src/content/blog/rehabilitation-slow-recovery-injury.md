@@ -29,7 +29,7 @@ A mild strain and a more serious injury to a tendon, ligament, or bone place dif
 
 Your overall health matters, too. Chronic conditions, past injuries, medications, and your strength and activity level before the injury can all shape how recovery feels. That’s why a timeline that worked for a friend or family member may not fit your situation.
 
-If your recovery seems slower than expected, discuss your symptoms and goals with a healthcare professional. They can assess your function and decide whether your plan needs adjusting. This [overview of injury recovery factors](https://www.xshadyside.com/blog/7-tips-for-a-fast-recovery-from-your-injuries) explains how injury severity, age, and general health can influence healing time.
+If your recovery seems slower than expected, discuss your symptoms and goals with a healthcare professional. They can assess your function and decide whether your plan needs adjusting. This overview of injury recovery factors explains how injury severity, age, and general health can influence healing time.
 
 ### How pain, movement fears, and compensation cause weakness or stiffness
 
@@ -37,7 +37,7 @@ Pain can change how you move. You might shorten your stride, avoid using an affe
 
 Feeling cautious after an injury is understandable. At the same time, avoiding movement altogether can make everyday activities feel harder and reduce confidence in the injured area. A rehabilitation plan can help you return to movement gradually and safely.
 
-A physical therapist or other qualified professional can assess how you move and identify patterns that may be adding strain. They can suggest ways to modify activity and progress at a manageable pace. Read more about how [movement compensation can affect recovery](https://reboundphysicaltherapy.com/why-your-injury-wont-heal-and-how-pt-can-help/).
+A physical therapist or other qualified professional can assess how you move and identify patterns that may be adding strain. They can suggest ways to modify activity and progress at a manageable pace. Read more about how movement compensation can affect recovery.
 
 ### How returning too soon, inactivity, or inconsistent exercise can stall progress
 
@@ -45,7 +45,7 @@ Resuming strenuous activity before your body is ready can aggravate an injury or
 
 Consistency helps, but exercise should match your current ability and the guidance you’ve received. Follow your rehabilitation plan, and ask your healthcare professional how to adjust it if symptoms change. If an activity clearly increases pain or makes movement harder afterward, pause and discuss what happened before progressing.
 
-Your clinician can help you decide how much activity and rest suit your injury and goals. This [guide to rest and activity during rehabilitation](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs) explains why both may have a role in recovery.
+Your clinician can help you decide how much activity and rest suit your injury and goals. This guide to rest and activity during rehabilitation explains why both may have a role in recovery.
 
 ### How sleep, nutrition, stress, and other health needs affect recovery
 
@@ -73,7 +73,7 @@ The right balance depends on your injury, health, symptoms, and goals. A healthc
 
 After an injury, pain or uncertainty can make you move less. Over time, reduced activity may affect muscle strength, flexibility, balance, and coordination. Rehabilitation introduces movement gradually, using exercises suited to your abilities and recovery needs.
 
-A physical therapist or another qualified healthcare professional can assess how you move and identify areas to work on. Your plan might start with gentle range-of-motion exercises, then add strengthening or balance work as appropriate. These steps can make daily activities, such as walking or getting up from a chair, feel more manageable. [Physical therapy guidance](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs) can help you build an exercise plan around your injury and adjust it as your function improves.
+A physical therapist or another qualified healthcare professional can assess how you move and identify areas to work on. Your plan might start with gentle range-of-motion exercises, then add strengthening or balance work as appropriate. These steps can make daily activities, such as walking or getting up from a chair, feel more manageable. Physical therapy guidance can help you build an exercise plan around your injury and adjust it as your function improves.
 
 ### How inactivity can cause stiffness and reduce function
 
@@ -85,7 +85,7 @@ For adults over 50, less activity can also affect balance and confidence, making
 
 A rehabilitation plan usually includes both activity and recovery time. Begin with movements that feel manageable, then increase their duration or difficulty in small steps if your symptoms allow. Pay attention to how you feel during exercise and later that day or the next morning. A noticeable increase in pain that lasts may be a sign to adjust the activity.
 
-Rest between sessions can give your body time to recover, while suitable movement may help limit stiffness. Your healthcare professional can recommend how often to exercise and when to take a break. A [gradual return to activity](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs) can help you avoid doing too much at once, then stopping altogether because symptoms flare.
+Rest between sessions can give your body time to recover, while suitable movement may help limit stiffness. Your healthcare professional can recommend how often to exercise and when to take a break. A gradual return to activity can help you avoid doing too much at once, then stopping altogether because symptoms flare.
 
 ### When to modify activity instead of pushing through worsening symptoms
 
@@ -103,7 +103,7 @@ Recovery also depends on more than exercise. Sleep, nutrition, hydration, pain m
 
 ### Ask a healthcare professional to assess your movement, strength, health, and goals
 
-An assessment can help identify what may be affecting your recovery and where to focus first. A physical therapist or physician may look at your strength, range of motion, balance, and movement patterns. They can also consider your injury history and other health needs. [Rebound Physical Therapy explains how assessing weak, tight, or poorly aligned areas can help inform a recovery plan](https://reboundphysicaltherapy.com/why-your-injury-wont-heal-and-how-pt-can-help/).
+An assessment can help identify what may be affecting your recovery and where to focus first. A physical therapist or physician may look at your strength, range of motion, balance, and movement patterns. They can also consider your injury history and other health needs. Rebound Physical Therapy explains how assessing weak, tight, or poorly aligned areas can help inform a recovery plan.
 
 Describe the activities you want to return to and what feels difficult right now. Mention when pain occurs, what makes it better or worse, and whether you have noticed changes in balance, sleep, or daily function. Clear information helps your clinician set practical goals with you and recommend a starting point that reflects your abilities. If your symptoms or health change, let your care team know so they can reassess your plan.
 
@@ -111,25 +111,25 @@ Describe the activities you want to return to and what feels difficult right now
 
 Rehabilitation should reflect the type of injury and the demands of your daily life. A plan for someone who wants to walk more comfortably may differ from one for someone hoping to return to strength training. Your current fitness, pain levels, stamina, balance, and other health conditions also matter.
 
-Ask your clinician which activities to continue, which to modify, and whether a period of rest is appropriate. Some soft-tissue injuries may call for initial rest before a customized exercise plan, but the right approach depends on your circumstances. [All Sports Physical Therapy describes how rehabilitation needs can vary by injury](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs). Share any concerns about arthritis, reduced mobility, or other conditions that affect movement. This helps your clinician choose exercises and daily activity goals that are relevant to you.
+Ask your clinician which activities to continue, which to modify, and whether a period of rest is appropriate. Some soft-tissue injuries may call for initial rest before a customized exercise plan, but the right approach depends on your circumstances. All Sports Physical Therapy describes how rehabilitation needs can vary by injury. Share any concerns about arthritis, reduced mobility, or other conditions that affect movement. This helps your clinician choose exercises and daily activity goals that are relevant to you.
 
 ### Use guided exercises to improve mobility, flexibility, strength, balance, and movement
 
 Your exercise plan may include gentle movement, stretching, strength training, balance practice, or exercises that help you move with more control. A physical therapist can demonstrate each exercise, check your form, and adjust it to your current ability. The goal is to work toward better function without ignoring changes in your symptoms.
 
-Begin with the version and amount recommended by your clinician. Avoid adding resistance or repetitions until you have discussed how to progress. If an exercise causes a marked increase in pain, feels unstable, or makes it harder to move, stop and ask for guidance. A clinician can assess what may be contributing to the response and suggest an alternative. [All Sports Physical Therapy notes that exercises can be tailored to the injury and its underlying needs](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs).
+Begin with the version and amount recommended by your clinician. Avoid adding resistance or repetitions until you have discussed how to progress. If an exercise causes a marked increase in pain, feels unstable, or makes it harder to move, stop and ask for guidance. A clinician can assess what may be contributing to the response and suggest an alternative. All Sports Physical Therapy notes that exercises can be tailored to the injury and its underlying needs.
 
 ### Learn to do home exercises safely and adapt them as symptoms change
 
 Home exercises can help you follow your plan between appointments. Before practicing on your own, ask your clinician to demonstrate each movement and explain how often to do it, how many repetitions to complete, and what to watch for. If the instructions are unclear, ask for a written guide or another demonstration.
 
-Keep a simple record of your exercises and how you feel during and after them. Note changes in pain, mobility, or daily tasks, and share this information at your next appointment. [Tracking recovery can help you and your physical therapist assess progress and make informed adjustments](https://www.obrienphysicaltherapy.net/blog/tracking-progress-during-your-home-recovery-program). If a symptom changes or an exercise becomes difficult, contact your care team before increasing the effort or stopping the exercise altogether.
+Keep a simple record of your exercises and how you feel during and after them. Note changes in pain, mobility, or daily tasks, and share this information at your next appointment. Tracking recovery can help you and your physical therapist assess progress and make informed adjustments. If a symptom changes or an exercise becomes difficult, contact your care team before increasing the effort or stopping the exercise altogether.
 
 ### Progress gradually from everyday tasks to harder activities
 
 Build toward more demanding activities in manageable steps. Depending on your goals, you might start with standing from a chair or walking around your home, then work toward longer walks, stairs, or recreational activities. Your clinician can help you decide what to practice next and what signs suggest you are ready to progress.
 
-Notice how you feel during an activity and afterward. If pain increases significantly, balance feels less steady, or a task becomes harder, ease back and discuss the change with your care team. Progress may vary from week to week, so avoid comparing your recovery with someone else’s. [Consistent progress tracking can help show whether goals are being met and maintained](https://www.obrienphysicaltherapy.net/blog/tracking-progress-during-your-home-recovery-program). Use those observations to guide adjustments with your clinician rather than testing your limits all at once.
+Notice how you feel during an activity and afterward. If pain increases significantly, balance feels less steady, or a task becomes harder, ease back and discuss the change with your care team. Progress may vary from week to week, so avoid comparing your recovery with someone else’s. Consistent progress tracking can help show whether goals are being met and maintained. Use those observations to guide adjustments with your clinician rather than testing your limits all at once.
 
 ### Include pain management, sleep, nutrition, hydration, and rest
 
@@ -145,13 +145,13 @@ Recovery involves more than watching pain levels. Mobility, strength, balance, c
 
 Keep a brief record of how you feel and what you can do. Once or twice a week, note your pain, mobility, balance, and how familiar tasks such as climbing stairs, getting dressed, or carrying groceries are going. If sleep or energy affects your activity, include that too.
 
-Use the same measures each time so you can compare your notes. For example, record how long you can walk before resting, rather than relying only on a general sense that you feel better or worse. Share your notes with your care team. [Monitoring rehabilitation progress](https://www.goldstarrehab.com/parent-resources/the-importance-of-monitoring-progress-in-rehabilitation-programs) can help clinicians understand how your plan is working and decide whether it needs adjustment.
+Use the same measures each time so you can compare your notes. For example, record how long you can walk before resting, rather than relying only on a general sense that you feel better or worse. Share your notes with your care team. Monitoring rehabilitation progress can help clinicians understand how your plan is working and decide whether it needs adjustment.
 
 ### Set realistic milestones and review progress with your healthcare professional
 
 Choose goals that matter in your daily life, such as standing from a chair more comfortably, walking to a nearby shop, or reaching overhead with less difficulty. Break each goal into smaller steps and ask your healthcare professional what pace is appropriate. Progress may vary from week to week, so a slower period can be a cue to review your plan together.
 
-Bring your notes to appointments and explain what feels easier, what remains challenging, and whether your goals still fit your needs. Your clinician can adjust your exercises, activity level, or schedule based on what you report. [Tracking recovery outcomes](https://www.obrienphysicaltherapy.net/blog/tracking-progress-during-your-home-recovery-program) offers a practical way to see changes over time and gives you and your care team useful information for planning next steps.
+Bring your notes to appointments and explain what feels easier, what remains challenging, and whether your goals still fit your needs. Your clinician can adjust your exercises, activity level, or schedule based on what you report. Tracking recovery outcomes offers a practical way to see changes over time and gives you and your care team useful information for planning next steps.
 
 ### Notice how symptoms respond during and after activity
 
@@ -169,7 +169,7 @@ Tell friends or family what support would be useful. They might join you for a w
 
 It’s understandable to feel cautious after an injury, especially if a particular movement once caused pain. Rather than avoiding all activity, ask your healthcare professional which movements are suitable and how to practise them safely. Starting with manageable tasks and progressing with guidance can help you rebuild strength and confidence over time.
 
-Ask what sensations are expected and which changes mean you should pause or check in. Knowing what to look for can make movement feel more predictable. If fear is keeping you from daily activities or exercises, bring it up with your care team. A plan that considers both physical and emotional recovery may help you return to activity at a pace that fits your needs. [Strategies for rebuilding confidence after injury](https://strivesportspt.com/the-mental-game-of-injury-recovery-overcoming-fear-and-building-confidence) offer further ideas to discuss with your clinician.
+Ask what sensations are expected and which changes mean you should pause or check in. Knowing what to look for can make movement feel more predictable. If fear is keeping you from daily activities or exercises, bring it up with your care team. A plan that considers both physical and emotional recovery may help you return to activity at a pace that fits your needs. Strategies for rebuilding confidence after injury offer further ideas to discuss with your clinician.
 
 ### Seek mental health support if anxiety, low mood, hopelessness, or isolation makes rehabilitation harder
 
@@ -189,19 +189,19 @@ Ask for help before changing treatment or returning to strenuous activity, too. 
 
 Contact a healthcare professional if pain continues without improvement, your progress has stalled, or you are losing abilities you had regained. This matters especially when symptoms interfere with sleep, walking, dressing, or other everyday tasks. Persistent pain does not always mean there is a serious problem, but it can be a reason to review your injury and recovery plan.
 
-Before an appointment, note when pain occurs, what seems to ease or worsen it, and which activities have become difficult. This information can help your clinician assess your progress and discuss next steps. Avoid assuming that complete rest is the only option: prolonged inactivity may affect strength and function. Ask what movement is appropriate for you. [Guidance on rehabilitation and rest](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs) explains why activity may need to be adjusted rather than stopped altogether.
+Before an appointment, note when pain occurs, what seems to ease or worsen it, and which activities have become difficult. This information can help your clinician assess your progress and discuss next steps. Avoid assuming that complete rest is the only option: prolonged inactivity may affect strength and function. Ask what movement is appropriate for you. Guidance on rehabilitation and rest explains why activity may need to be adjusted rather than stopped altogether.
 
 ### Report new or worsening symptoms that make movement harder
 
 Tell your healthcare professional if a symptom changes or begins to interfere more with movement. You might notice increasing stiffness, reduced strength, new swelling, or more difficulty standing or walking. Share when the change began and whether it followed a particular activity. Specific details can help your care team assess what may be affecting your recovery.
 
-A physical therapist can evaluate your strength, mobility, and movement patterns to identify factors that may be limiting progress. The assessment may help determine whether an exercise needs to change or whether you need further medical evaluation. Learn more about how [physical therapy can assess movement and recovery](https://reboundphysicaltherapy.com/why-your-injury-wont-heal-and-how-pt-can-help/). If symptoms are sudden or severe, or you cannot move safely, seek prompt medical advice rather than trying to push through.
+A physical therapist can evaluate your strength, mobility, and movement patterns to identify factors that may be limiting progress. The assessment may help determine whether an exercise needs to change or whether you need further medical evaluation. Learn more about how physical therapy can assess movement and recovery. If symptoms are sudden or severe, or you cannot move safely, seek prompt medical advice rather than trying to push through.
 
 ### Request a reassessment if your plan isn’t meeting your needs
 
 Your rehabilitation plan should reflect your symptoms, progress, goals, and daily activities. Ask for a reassessment if exercises feel too difficult, repeatedly worsen your symptoms, or no longer seem suited to your current abilities. Let your clinician know if the plan does not account for other health concerns or the activities you hope to return to.
 
-Before your appointment, note which exercises you can complete, how you feel during and afterward, and what remains difficult. Ask what adjustments might help, which symptoms mean you should pause, and how you will know when it is appropriate to progress. Regular monitoring gives clinicians a chance to identify which strategies are helping and which may need revision. [Tracking progress during rehabilitation](https://www.goldstarrehab.com/parent-resources/the-importance-of-monitoring-progress-in-rehabilitation-programs) can help you prepare for that conversation. Avoid changing your treatment without guidance if you are unsure how a change may affect your recovery.
+Before your appointment, note which exercises you can complete, how you feel during and afterward, and what remains difficult. Ask what adjustments might help, which symptoms mean you should pause, and how you will know when it is appropriate to progress. Regular monitoring gives clinicians a chance to identify which strategies are helping and which may need revision. Tracking progress during rehabilitation can help you prepare for that conversation. Avoid changing your treatment without guidance if you are unsure how a change may affect your recovery.
 
 ### Seek support if distress or fear disrupts daily life or recovery
 
@@ -213,15 +213,15 @@ Your care team can help you set manageable goals and build confidence through gr
 
 Check with a qualified healthcare professional before stopping treatment, adding exercises, or returning to strenuous activity. This is especially important if you still have pain, have other health conditions, or are unsure whether a movement is suitable. A clinician can help you understand what is appropriate now and how to increase activity safely.
 
-Ask practical questions: Which activities can I do? What symptoms mean I should pause? How should I build back toward my usual routine? A gradual return can help you increase activity in line with your symptoms and abilities. Moving ahead too quickly may set back progress, while avoiding movement for too long may affect strength and function. [Medical guidance on returning to activity after an injury](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs) can help you prepare for a discussion with your care team.
+Ask practical questions: Which activities can I do? What symptoms mean I should pause? How should I build back toward my usual routine? A gradual return can help you increase activity in line with your symptoms and abilities. Moving ahead too quickly may set back progress, while avoiding movement for too long may affect strength and function. Medical guidance on returning to activity after an injury can help you prepare for a discussion with your care team.
 
 ## Related Articles
 
-* [7 Tips for a Fast Recovery from Your Injuries](https://www.xshadyside.com/blog/7-tips-for-a-fast-recovery-from-your-injuries)
-* [Why Your Injury Won’t Heal and How PT Can Help](https://reboundphysicaltherapy.com/why-your-injury-wont-heal-and-how-pt-can-help/)
-* [Sports Injury Rehab or Rest: What Your Body Really Needs](https://allsports-physicaltherapy.com/patient-resources/blog/sports-injury-rehab-or-rest-what-your-body-really-needs)
+* 7 Tips for a Fast Recovery from Your Injuries
+* Why Your Injury Won’t Heal and How PT Can Help
+* Sports Injury Rehab or Rest: What Your Body Really Needs
 * [Nutrition Strategies to Support Recovery](https://www.med.unc.edu/uncsportsmedicineinstitute/wp-content/uploads/sites/1189/2022/10/Nutr-Strategies-Recovery.pdf)
-* [The Mental Game of Injury Recovery: Overcoming Fear and Building Confidence](https://strivesportspt.com/the-mental-game-of-injury-recovery-overcoming-fear-and-building-confidence)
+* The Mental Game of Injury Recovery: Overcoming Fear and Building Confidence
 
 ## Frequently Asked Questions
 

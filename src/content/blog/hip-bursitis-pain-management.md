@@ -31,7 +31,7 @@ Hip bursitis isn't a one-size-fits-all condition. It usually appears in one of t
 
 ### Are You at Risk for Hip Bursitis?
 
-Certain factors can make you more likely to develop hip bursitis. It tends to be more common in women and middle-aged or older adults. Repetitive stress from activities like running, prolonged standing, or frequent stair climbing can irritate the hip bursae over time. A direct injury, such as falling on your hip or even lying on one side for too long, can also trigger inflammation. Other factors that can increase your risk include having one leg that's longer than the other, a history of previous hip surgery, or underlying health conditions like [rheumatoid arthritis](https://www.hoagorthopedicinstitute.com/care-services/clinical-specialties/hip-care/conditions/hip-bursitis/). Knowing your risk factors can help you make smart choices to protect your hips.
+Certain factors can make you more likely to develop hip bursitis. It tends to be more common in women and middle-aged or older adults. Repetitive stress from activities like running, prolonged standing, or frequent stair climbing can irritate the hip bursae over time. A direct injury, such as falling on your hip or even lying on one side for too long, can also trigger inflammation. Other factors that can increase your risk include having one leg that's longer than the other, a history of previous hip surgery, or underlying health conditions like rheumatoid arthritis. Knowing your risk factors can help you make smart choices to protect your hips.
 
 ## Common Symptoms of Hip Bursitis
 
@@ -57,7 +57,7 @@ The cause is often a combination of factors related to how you move, your body�
 
 ### The Link Between Overuse and Hip Pain
 
-One of the most frequent causes of hip bursitis is repetitive stress. This happens when you perform the same motions over and over, putting strain on the hip joint. When these bursae are repeatedly compressed or rubbed, they can become [irritated or swollen](https://www.hoagorthopedicinstitute.com/care-services/clinical-specialties/hip-care/conditions/hip-bursitis/), leading to the familiar pain of bursitis. Activities like running on hard surfaces, climbing a lot of stairs, cycling with an improper seat height, or even standing for long hours at work can trigger this kind of overuse injury. It’s not that these activities are bad, but doing too much too soon without proper conditioning can overload the structures around your hip. Weak or tight muscles in your hips, glutes, and legs can also contribute by altering your mechanics and placing extra stress on the bursae.
+One of the most frequent causes of hip bursitis is repetitive stress. This happens when you perform the same motions over and over, putting strain on the hip joint. When these bursae are repeatedly compressed or rubbed, they can become irritated or swollen, leading to the familiar pain of bursitis. Activities like running on hard surfaces, climbing a lot of stairs, cycling with an improper seat height, or even standing for long hours at work can trigger this kind of overuse injury. It’s not that these activities are bad, but doing too much too soon without proper conditioning can overload the structures around your hip. Weak or tight muscles in your hips, glutes, and legs can also contribute by altering your mechanics and placing extra stress on the bursae.
 
 ### How Injuries and Anatomy Contribute
 
@@ -77,7 +77,7 @@ Your appointment will begin with a conversation. Your doctor will want to hear a
 
 ### Using Imaging to Confirm a Diagnosis
 
-While a physical exam is often enough to diagnose hip bursitis, your doctor may order imaging tests to get more detail or rule out other issues. An X-ray is a common first step, as it can reveal problems with the bone, such as arthritis or bone spurs that might be irritating the bursa. However, X-rays don’t show soft tissues. If your doctor needs a clearer view of the bursa itself, they may recommend an MRI. An MRI scan is excellent at creating detailed images that can [show soft tissues](https://www.ypo.education/orthopaedics/hip/hip-bursitis-t5/video/) and confirm that the bursa is inflamed, giving your care team the complete picture needed to design your treatment.
+While a physical exam is often enough to diagnose hip bursitis, your doctor may order imaging tests to get more detail or rule out other issues. An X-ray is a common first step, as it can reveal problems with the bone, such as arthritis or bone spurs that might be irritating the bursa. However, X-rays don’t show soft tissues. If your doctor needs a clearer view of the bursa itself, they may recommend an MRI. An MRI scan is excellent at creating detailed images that can show soft tissues and confirm that the bursa is inflamed, giving your care team the complete picture needed to design your treatment.
 
 ## How to Manage Hip Bursitis at Home
 
@@ -89,11 +89,11 @@ When your hip is hurting, the first and most important thing to do is listen to 
 
 ### Gentle Exercises and Stretches for Relief
 
-Once the initial, sharp pain begins to subside, you can introduce gentle movement back into your routine. The goal here is to strengthen the muscles that support your hip, which helps take pressure off the bursa. Think of it as building a better support system for your joint. A physical therapist can create a personalized plan, but you can start with a few simple movements at home. Incorporating [gentle stretches](https://www.orthoarkansas.com/hip-bursitis-ortho-arkansas-consultation/) like the standing IT-band stretch, figure-4 stretch, and a kneeling hip-flexor stretch can provide a lot of relief. Aim to perform these movements once or twice a day, being careful not to push into any sharp pain. Consistency is more important than intensity.
+Once the initial, sharp pain begins to subside, you can introduce gentle movement back into your routine. The goal here is to strengthen the muscles that support your hip, which helps take pressure off the bursa. Think of it as building a better support system for your joint. A physical therapist can create a personalized plan, but you can start with a few simple movements at home. Incorporating gentle stretches like the standing IT-band stretch, figure-4 stretch, and a kneeling hip-flexor stretch can provide a lot of relief. Aim to perform these movements once or twice a day, being careful not to push into any sharp pain. Consistency is more important than intensity.
 
 ### Everyday Habits: Posture, Footwear, and Weight
 
-The small choices you make every day can have a big impact on your hip health. Start by paying attention to your posture when you sit and stand; slouching can throw your alignment off and put extra strain on your hips. Another simple but powerful change is your footwear. Wearing [supportive shoes](https://www.hoagorthopedicinstitute.com/care-services/clinical-specialties/hip-care/conditions/hip-bursitis/) that provide good cushioning can absorb shock and reduce the stress on your joints with every step. If you are carrying extra weight, even a modest amount of weight loss can significantly lighten the load on your hips. These daily habits work together to create a healthier environment for your joints and can help keep bursitis flare-ups at bay.
+The small choices you make every day can have a big impact on your hip health. Start by paying attention to your posture when you sit and stand; slouching can throw your alignment off and put extra strain on your hips. Another simple but powerful change is your footwear. Wearing supportive shoes that provide good cushioning can absorb shock and reduce the stress on your joints with every step. If you are carrying extra weight, even a modest amount of weight loss can significantly lighten the load on your hips. These daily habits work together to create a healthier environment for your joints and can help keep bursitis flare-ups at bay.
 
 ## Medical Treatments for Hip Bursitis
 
@@ -113,7 +113,7 @@ If the inflammation in your hip is severe and not responding to other treatments
 
 ### Advanced Healing: Regenerative Medicine and Shockwave Therapy
 
-For persistent hip bursitis that hasn’t responded to traditional care, advanced treatments can offer new hope for healing. Regenerative medicine, for example, uses your body's own natural healing agents to repair damaged tissue and reduce inflammation without drugs or surgery. Another powerful option is shockwave therapy, a non-invasive treatment that uses [sound waves](https://www.orthoarkansas.com/hip-bursitis-ortho-arkansas-consultation/) to stimulate blood flow and metabolic activity in the affected area. This process accelerates your body’s own healing response, making it an excellent option for chronic conditions. These cutting-edge therapies focus on true healing rather than just managing symptoms, helping you get back to your life for good.
+For persistent hip bursitis that hasn’t responded to traditional care, advanced treatments can offer new hope for healing. Regenerative medicine, for example, uses your body's own natural healing agents to repair damaged tissue and reduce inflammation without drugs or surgery. Another powerful option is shockwave therapy, a non-invasive treatment that uses sound waves to stimulate blood flow and metabolic activity in the affected area. This process accelerates your body’s own healing response, making it an excellent option for chronic conditions. These cutting-edge therapies focus on true healing rather than just managing symptoms, helping you get back to your life for good.
 
 ### Preventing Future Flare-Ups
 
@@ -121,7 +121,7 @@ Once you’ve found relief, the focus shifts to making sure the pain doesn't com
 
 ### When Is Surgery the Right Choice?
 
-Surgery for hip bursitis is rare and is only considered a last resort. It’s typically reserved for severe, chronic cases where all other non-surgical treatments have failed to provide relief over a long period. The most common surgical procedure involves simply removing the inflamed bursa sac, which is called a bursectomy. Your hip can function perfectly normally without it. Because this is an invasive step, it’s a decision that is made only after a thorough evaluation and discussion with your orthopedic specialist. The good news is that with today's effective non-operative treatments, most people will never need to consider [hip surgery](https://www.hoagorthopedicinstitute.com/care-services/clinical-specialties/hip-care/conditions/hip-bursitis/) for bursitis.
+Surgery for hip bursitis is rare and is only considered a last resort. It’s typically reserved for severe, chronic cases where all other non-surgical treatments have failed to provide relief over a long period. The most common surgical procedure involves simply removing the inflamed bursa sac, which is called a bursectomy. Your hip can function perfectly normally without it. Because this is an invasive step, it’s a decision that is made only after a thorough evaluation and discussion with your orthopedic specialist. The good news is that with today's effective non-operative treatments, most people will never need to consider hip surgery for bursitis.
 
 ## Frequently Asked Questions
 

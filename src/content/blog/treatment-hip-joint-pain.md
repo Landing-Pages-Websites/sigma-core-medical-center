@@ -29,7 +29,7 @@ Osteoarthritis is one of the most common causes of hip joint pain. It develops w
 
 Hip osteoarthritis often causes aching in the groin, although discomfort can spread to the buttock, front of the thigh, or knee. Symptoms may worsen after walking, climbing stairs, standing for long periods, or getting up after sitting. Reduced mobility can make everyday tasks, such as putting on socks or getting in and out of a car, more difficult.
 
-Age can contribute to cartilage changes, but severe hip pain is not an inevitable part of getting older. Previous injuries, hip structure, repetitive stress, and genetics may also play a role. The [IBJI guide to hip pain relief](https://go.ibji.com/ultimate-hip-pain-relief-guide) describes how cartilage breakdown can lead to pain, stiffness, and reduced movement.
+Age can contribute to cartilage changes, but severe hip pain is not an inevitable part of getting older. Previous injuries, hip structure, repetitive stress, and genetics may also play a role. The IBJI guide to hip pain relief describes how cartilage breakdown can lead to pain, stiffness, and reduced movement.
 
 ### Bursitis, tendinopathy, and lateral hip pain
 
@@ -37,7 +37,7 @@ Pain on the outside of the hip often involves the soft tissues rather than the j
 
 Tendinopathy affects the tendons that connect muscles to bone. Around the hip, it commonly involves the gluteal tendons, which help stabilize the pelvis during walking and standing. Irritation may follow a sudden increase in activity, repetitive loading, a change in exercise, or age-related changes in tendon tissue.
 
-Lateral hip pain may feel sore, burning, or sharp. The area may be tender to touch, and discomfort can interfere with sleep. Bursitis and tendinopathy may occur together, so identifying the primary source matters. The [IBJI explanation of bursitis and tendinopathy](https://go.ibji.com/ultimate-hip-pain-relief-guide) describes how irritation, overuse, injury, and tissue changes can affect the outer hip.
+Lateral hip pain may feel sore, burning, or sharp. The area may be tender to touch, and discomfort can interfere with sleep. Bursitis and tendinopathy may occur together, so identifying the primary source matters. The IBJI explanation of bursitis and tendinopathy describes how irritation, overuse, injury, and tissue changes can affect the outer hip.
 
 ### Labral tears and hip impingement
 
@@ -47,7 +47,7 @@ Symptoms may include pain in the groin or front of the hip, along with clicking,
 
 Hip impingement, also called femoroacetabular impingement, occurs when the ball and socket do not move freely against one another. Certain bone shapes can pinch the labrum or nearby cartilage during deep bending or rotation. Over time, this may contribute to tissue damage.
 
-The [IBJI guide to hip pain](https://go.ibji.com/ultimate-hip-pain-relief-guide) explains how impingement and labral injuries can affect movement between the ball and socket. A physical examination and appropriate imaging can help determine whether either condition is causing symptoms.
+The IBJI guide to hip pain explains how impingement and labral injuries can affect movement between the ball and socket. A physical examination and appropriate imaging can help determine whether either condition is causing symptoms.
 
 ### Muscle strains, injuries, and overuse
 
@@ -57,7 +57,7 @@ Strain-related pain often starts suddenly and may feel sharp during the activity
 
 Overuse can also cause hip pain without one obvious injury. Repeated walking, running, climbing, or strength training may place more demand on the tissues than they can currently tolerate. This is more likely when activity increases quickly or weakness in the hips, core, or legs changes movement patterns.
 
-The [IBJI discussion of hip strains](https://go.ibji.com/ultimate-hip-pain-relief-guide) identifies groin pulls and hamstring strains as common results of overuse or sudden movement. Persistent pain, significant weakness, or difficulty bearing weight should be evaluated rather than ignored.
+The IBJI discussion of hip strains identifies groin pulls and hamstring strains as common results of overuse or sudden movement. Persistent pain, significant weakness, or difficulty bearing weight should be evaluated rather than ignored.
 
 ### Referred pain from the spine or nerves
 
@@ -89,7 +89,7 @@ A thorough evaluation can also identify problems that need prompt attention, inc
 
 Your doctor will ask where you feel pain, when it began, and how it feels. Pain in the groin often points toward the hip joint, while soreness over the outside of the hip may involve nearby tendons or bursae. Pain in the buttock or back of the thigh can sometimes come from the spine or nerves.
 
-You may also discuss whether symptoms occur while walking, climbing stairs, standing, sitting, or sleeping. Tell your doctor if the pain started after a fall, a new exercise routine, or another injury. These details help distinguish sudden tissue damage from gradual joint changes. The [IBJI guide to hip pain](https://go.ibji.com/ultimate-hip-pain-relief-guide) covers why pain location, timing, and quality matter during diagnosis.
+You may also discuss whether symptoms occur while walking, climbing stairs, standing, sitting, or sleeping. Tell your doctor if the pain started after a fall, a new exercise routine, or another injury. These details help distinguish sudden tissue damage from gradual joint changes. The IBJI guide to hip pain covers why pain location, timing, and quality matter during diagnosis.
 
 ### Reviewing your medical history and examining your hip
 
@@ -137,7 +137,7 @@ Avoid trying to walk after a significant injury. Keep movement to a minimum and 
 
 Contact a medical professional promptly if hip pain occurs with fever, chills, redness, warmth, or visible swelling. These symptoms may point to an infection or significant inflammation, which requires timely assessment. Sudden, severe pain without an obvious injury also deserves prompt attention.
 
-Do not depend on home treatment if symptoms are rapidly worsening or swelling continues despite rest. A clinician may examine your hip, order imaging, or request blood tests to identify the cause. [IBJI’s hip pain guide](https://go.ibji.com/ultimate-hip-pain-relief-guide) recommends medical care when pain is constant, severe, or associated with swelling, redness, or warmth.
+Do not depend on home treatment if symptoms are rapidly worsening or swelling continues despite rest. A clinician may examine your hip, order imaging, or request blood tests to identify the cause. IBJI’s hip pain guide recommends medical care when pain is constant, severe, or associated with swelling, redness, or warmth.
 
 ### Report numbness, weakness, or bladder and bowel changes
 
@@ -155,7 +155,7 @@ Before your appointment, note when the pain began, which movements trigger it, a
 
 Pain that continues while you rest, becomes worse at night, or steadily increases should not automatically be dismissed as normal aging. Schedule an evaluation if symptoms last more than a few days without improvement, particularly after an injury or if you have arthritis, osteoporosis, cancer, or a condition that affects your immune system.
 
-While waiting for care, track your pain level, sleep disruption, walking tolerance, and any new symptoms. Seek faster attention if rest pain becomes severe, swelling develops, or you lose strength or movement. [IBJI advises medical assessment](https://go.ibji.com/ultimate-hip-pain-relief-guide) for constant or severe pain and symptoms that do not improve with rest. Early evaluation can clarify the cause and help you protect your mobility.
+While waiting for care, track your pain level, sleep disruption, walking tolerance, and any new symptoms. Seek faster attention if rest pain becomes severe, swelling develops, or you lose strength or movement. IBJI advises medical assessment for constant or severe pain and symptoms that do not improve with rest. Early evaluation can clarify the cause and help you protect your mobility.
 
 ## What Can You Do at Home for Mild to Moderate Hip Joint Pain?
 
@@ -269,7 +269,7 @@ Before taking medication regularly, review your health history with a clinician.
 
 Bursitis and gluteal tendinopathy often cause pain on the outside of the hip. Symptoms may worsen when you lie on the affected side, climb stairs, stand on one leg, or walk for long periods. Treatment typically begins by reducing pressure and irritation. You may need to change your exercise routine, avoid side-lying on the painful hip, use ice, or adjust your sleeping position.
 
-Physical therapy can strengthen the gluteal muscles and improve pelvic control during walking and other activities. A therapist may also review your footwear, posture, training volume, and movement patterns. Anti-inflammatory medication or an injection may be appropriate in some cases, although repeated injections are not suitable for everyone. [IBJI’s hip pain guide](https://go.ibji.com/ultimate-hip-pain-relief-guide) describes rest, ice, and pain medicine as common options for trochanteric bursitis. Ongoing symptoms may require a closer look to confirm the diagnosis.
+Physical therapy can strengthen the gluteal muscles and improve pelvic control during walking and other activities. A therapist may also review your footwear, posture, training volume, and movement patterns. Anti-inflammatory medication or an injection may be appropriate in some cases, although repeated injections are not suitable for everyone. IBJI’s hip pain guide describes rest, ice, and pain medicine as common options for trochanteric bursitis. Ongoing symptoms may require a closer look to confirm the diagnosis.
 
 ### Address labral tears and hip impingement
 
@@ -293,7 +293,7 @@ Infection can also cause urgent hip pain. Seek prompt evaluation for fever, chil
 
 A scan alone does not determine the best treatment. Some people have arthritis or labral changes on imaging but little pain, while others have significant symptoms with modest findings. Your doctor will compare the imaging with the location of your pain, the movements that trigger it, your walking pattern, and the effect on sleep, exercise, and daily tasks.
 
-Your goals matter, too. Someone who wants to walk comfortably may need a different rehabilitation plan from someone who wants to hike, play tennis, or return to strength training. Doctors often begin with the least invasive option that fits your condition, then reassess your progress. Measures may include pain, range of motion, strength, walking tolerance, balance, and daily function. [IBJI recommends reviewing the location, timing, and quality of pain](https://go.ibji.com/ultimate-hip-pain-relief-guide), along with examination findings and imaging, before selecting treatment. This keeps care focused on meaningful improvements rather than a scan or diagnosis alone.
+Your goals matter, too. Someone who wants to walk comfortably may need a different rehabilitation plan from someone who wants to hike, play tennis, or return to strength training. Doctors often begin with the least invasive option that fits your condition, then reassess your progress. Measures may include pain, range of motion, strength, walking tolerance, balance, and daily function. IBJI recommends reviewing the location, timing, and quality of pain, along with examination findings and imaging, before selecting treatment. This keeps care focused on meaningful improvements rather than a scan or diagnosis alone.
 
 ## What Non-Surgical Treatments Can Relieve Hip Joint Pain?
 
@@ -329,7 +329,7 @@ Proper fit and technique matter. A cane is usually held on the side opposite the
 
 Small changes to your daily routine may reduce hip irritation without requiring you to stop moving. Alternate demanding activities with easier ones, and avoid repeated deep bending, twisting, or pivoting if those motions trigger pain. Low-impact options, such as walking, cycling, swimming, and water exercise, may help you maintain conditioning with less stress on the joint.
 
-Sleep positioning can also make a difference. If you sleep on your side, try avoiding the painful side and place a pillow between your knees to support your hips. Weight management may be another part of your care plan. Even modest weight loss can reduce the load placed on the hips during walking and stairs. The [IBJI guide to hip pain relief](https://go.ibji.com/ultimate-hip-pain-relief-guide) notes that losing even a small amount of weight may reduce pressure on the hip joints.
+Sleep positioning can also make a difference. If you sleep on your side, try avoiding the painful side and place a pillow between your knees to support your hips. Weight management may be another part of your care plan. Even modest weight loss can reduce the load placed on the hips during walking and stairs. The IBJI guide to hip pain relief notes that losing even a small amount of weight may reduce pressure on the hip joints.
 
 ### Add acupuncture and massage as complementary therapies
 
@@ -361,13 +361,13 @@ Image guidance may be useful when the source of pain is uncertain or when the in
 
 Corticosteroid injections, often called cortisone injections, may reduce inflammation and pain in selected conditions. A clinician may consider one for bursitis, arthritis-related irritation, or another inflammatory problem that makes it difficult to sleep, walk, or take part in physical therapy. Short-term relief may make it easier to work on strength, mobility, and movement patterns.
 
-Results vary. Some people feel better within a few days, while others experience little improvement. Corticosteroids manage inflammation and symptoms, but they do not repair worn cartilage, correct a labral tear, or reverse joint degeneration. Repeated injections may carry additional risks, so the timing and number of treatments should be individualized. Ask how long relief might last and whether the treatment fits your diagnosis. This [overview of cortisone injections for hip pain](https://www.3dsportsmed.com/hip-pain/) provides helpful background for that conversation.
+Results vary. Some people feel better within a few days, while others experience little improvement. Corticosteroids manage inflammation and symptoms, but they do not repair worn cartilage, correct a labral tear, or reverse joint degeneration. Repeated injections may carry additional risks, so the timing and number of treatments should be individualized. Ask how long relief might last and whether the treatment fits your diagnosis. This overview of cortisone injections for hip pain provides helpful background for that conversation.
 
 ### Consider hyaluronic acid and other injectables realistically
 
 Hyaluronic acid injections are designed to improve lubrication within a painful joint. They are commonly used for knee arthritis, while their benefits for hip pain are less predictable. Some people experience improved comfort, but results can depend on the cause of pain, the severity of joint changes, and the product used.
 
-Specialty clinics may offer other injectable treatments, but promotional claims do not always reflect the quality of available evidence. Before choosing a treatment, ask what it is intended to do, how success will be measured, how long benefits may last, and what alternatives exist. An injectable that helps one person may not be appropriate for someone with advanced arthritis, a fracture, infection, or pain referred from the spine. Review the proposed treatment with a qualified provider, using this [discussion of injections for hip pain](https://www.3dsportsmed.com/hip-pain/) as a starting point.
+Specialty clinics may offer other injectable treatments, but promotional claims do not always reflect the quality of available evidence. Before choosing a treatment, ask what it is intended to do, how success will be measured, how long benefits may last, and what alternatives exist. An injectable that helps one person may not be appropriate for someone with advanced arthritis, a fracture, infection, or pain referred from the spine. Review the proposed treatment with a qualified provider, using this discussion of injections for hip pain as a starting point.
 
 ### Explore PRP and other regenerative options
 
@@ -381,7 +381,7 @@ Before treatment, your clinician should review your diagnosis, medications, alle
 
 Possible side effects include temporary soreness, bruising, bleeding, skin changes, a temporary rise in blood sugar after a corticosteroid injection, or infection. Serious complications are uncommon, but you should contact your provider promptly if you develop increasing redness, warmth, swelling, drainage, fever, or severe pain after treatment.
 
-Ask how to prepare, what to expect afterward, when you can resume normal activities, and which symptoms require a call. You should also understand the expected benefits and alternatives before giving consent. This [guide to hip pain relief](https://go.ibji.com/ultimate-hip-pain-relief-guide) offers additional questions to discuss with your healthcare provider.
+Ask how to prepare, what to expect afterward, when you can resume normal activities, and which symptoms require a call. You should also understand the expected benefits and alternatives before giving consent. This guide to hip pain relief offers additional questions to discuss with your healthcare provider.
 
 ### Understand what regenerative care can and cannot repair
 
@@ -395,7 +395,7 @@ Before treatment, identify the activity or symptom you want to improve. Your goa
 
 Timelines vary. Some injections may provide relief within days, while PRP and other regenerative treatments can take several weeks to show a response, if they help at all. Your provider may recommend relative rest at first, followed by gradual rehabilitation. Do not judge treatment only by whether pain disappears immediately. Improvements in movement, strength, confidence, sleep, and daily function also matter.
 
-Arrange follow-up care to review your response and adjust the plan. If symptoms do not change, worsen, or interfere with weight-bearing, your diagnosis may need to be reassessed. Setting measurable goals and follow-up steps is an important part of responsible injection and regenerative care, as noted in this [guide to hip pain relief](https://go.ibji.com/ultimate-hip-pain-relief-guide).
+Arrange follow-up care to review your response and adjust the plan. If symptoms do not change, worsen, or interfere with weight-bearing, your diagnosis may need to be reassessed. Setting measurable goals and follow-up steps is an important part of responsible injection and regenerative care, as noted in this guide to hip pain relief.
 
 ## When Does Severe Hip Joint Pain Require Surgery?
 
@@ -427,7 +427,7 @@ Hip resurfacing preserves more of the thigh bone than a traditional total hip re
 
 Resurfacing is not appropriate for everyone. Bone quality, hip anatomy, activity level, age, sex, and general health all affect eligibility. Some patients also face a higher risk of complications related to the metal components, so careful screening and long-term follow-up are important.
 
-[Hip resurfacing may be recommended when other treatments are not enough](https://www.3dsportsmed.com/hip-pain/), but that does not mean it is automatically the best choice. Ask an experienced orthopedic surgeon to compare resurfacing with total hip replacement for your situation. Discuss implant materials, possible complications, activity restrictions, and the monitoring required after surgery.
+Hip resurfacing may be recommended when other treatments are not enough, but that does not mean it is automatically the best choice. Ask an experienced orthopedic surgeon to compare resurfacing with total hip replacement for your situation. Discuss implant materials, possible complications, activity restrictions, and the monitoring required after surgery.
 
 ### Correct structural alignment problems with hip osteotomy
 
@@ -435,7 +435,7 @@ A hip osteotomy changes the shape or position of bone to improve how the joint c
 
 This is a significant operation, and recovery may require restricted weight-bearing, crutches, and several months of rehabilitation. The best candidates generally have a correctable structural problem and enough healthy cartilage for a joint-preserving procedure to make sense.
 
-The [Illinois Bone & Joint Institute describes osteotomy as reshaping bone to improve joint function](https://go.ibji.com/ultimate-hip-pain-relief-guide). Your surgeon may order standing X-rays, CT scans, or other imaging to assess alignment and cartilage condition. Ask how the procedure could affect leg strength, walking, work, and your long-term activity goals.
+The Illinois Bone & Joint Institute describes osteotomy as reshaping bone to improve joint function. Your surgeon may order standing X-rays, CT scans, or other imaging to assess alignment and cartilage condition. Ask how the procedure could affect leg strength, walking, work, and your long-term activity goals.
 
 ### Replace severely damaged joints with total hip replacement
 
@@ -457,7 +457,7 @@ Physical therapy helps restore range of motion, rebuild strength, improve balanc
 
 The purpose of hip surgery is not only to reduce pain. It is also to restore function, improve movement, and help you participate in meaningful activities. Recovery usually progresses in stages. Early therapy may focus on safe walking and basic daily tasks, followed by strength, balance, mobility, and activity-specific training.
 
-Many patients return to most activities within two to three months after surgery, although the timeline varies by procedure, overall health, age, muscle condition, and rehabilitation progress. The [Illinois Bone & Joint Institute outlines this general recovery range](https://go.ibji.com/ultimate-hip-pain-relief-guide), but your surgeon and physical therapist should create the plan that fits your needs.
+Many patients return to most activities within two to three months after surgery, although the timeline varies by procedure, overall health, age, muscle condition, and rehabilitation progress. The Illinois Bone & Joint Institute outlines this general recovery range, but your surgeon and physical therapist should create the plan that fits your needs.
 
 Walking, cycling, swimming, and progressive strength training may become part of your long-term routine. Increase activity gradually and follow guidance on impact, lifting, and range of motion. Contact your medical team if you develop worsening pain, new swelling, wound changes, fever, calf pain, or sudden difficulty walking.
 
@@ -483,7 +483,7 @@ A simple weekly log can reveal patterns that are difficult to notice from day to
 
 Exercise can restore strength and movement, but doing more is not always better. Begin with controlled movements in a comfortable range. Depending on your diagnosis, your plan may include gentle mobility exercises, glute strengthening, balance work, cycling, swimming, or short walks.
 
-Increase time, resistance, or distance gradually. Pay attention to how your hip feels later that day and the following morning. Muscle fatigue may be expected, but sharp pain, increasing limping, swelling, or worsening night pain may signal that your plan needs to change. While symptoms are irritated, avoid deep bending, running, and jarring activities. The [IBJI hip pain guide](https://go.ibji.com/ultimate-hip-pain-relief-guide) also recommends avoiding sleep on the painful side.
+Increase time, resistance, or distance gradually. Pay attention to how your hip feels later that day and the following morning. Muscle fatigue may be expected, but sharp pain, increasing limping, swelling, or worsening night pain may signal that your plan needs to change. While symptoms are irritated, avoid deep bending, running, and jarring activities. The IBJI hip pain guide also recommends avoiding sleep on the painful side.
 
 ### Reassess symptoms when treatment stalls or changes
 
@@ -505,9 +505,9 @@ Your plan may include resistance training, low-impact cardiovascular exercise, m
 
 ## Related Articles
 
-* [The Ultimate Guide to Hip Pain Relief](https://go.ibji.com/ultimate-hip-pain-relief-guide)
+* The Ultimate Guide to Hip Pain Relief
 * [Hip Pain: Causes, Symptoms, and Treatment](https://www.uchicagomedicine.org/conditions-services/orthopaedics/hip-care)
-* [Hip Pain: Causes, Symptoms, and Relief](https://www.3dsportsmed.com/hip-pain/)
+* Hip Pain: Causes, Symptoms, and Relief
 * [Hip Pain](https://www.radiologyinfo.org/en/info/hip)
 * [Hip Pain](https://www.nhs.uk/conditions/hip-pain/)
 

@@ -133,7 +133,7 @@ Questions can help you understand the reasoning behind a recommendation. Conside
 * Should I coordinate with another clinician or obtain additional assessment?
 * What alternatives exist if therapy is not a good fit?
 
-For people with hand arthritis, joint protection may be one topic in a self-management discussion. A published review describes joint-protection programs as an intervention intended to support occupational performance and minimize difficulties for people with hand arthritis. That does not establish that a particular program is right for everyone. Read the [review abstract on joint-protection programs and hand arthritis](https://www.jhandtherapy.org/article/S0894-1130%2818%2930164-9/abstract), then ask a clinician how it may or may not apply.
+For people with hand arthritis, joint protection may be one topic in a self-management discussion. A published review describes joint-protection programs as an intervention intended to support occupational performance and minimize difficulties for people with hand arthritis. That does not establish that a particular program is right for everyone. Read the review abstract on joint-protection programs and hand arthritis, then ask a clinician how it may or may not apply.
 
 Ask what would count as a reason to change course. A plan should allow reassessment if the hand responds differently than expected or new symptoms develop. Ask what options remain if progress is limited, and whether goals should change to reflect what matters most to you.
 

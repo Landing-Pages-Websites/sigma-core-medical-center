@@ -621,7 +621,7 @@ During treatment, report new or unusual symptoms such as persistent thigh or gro
 
 Consider a comprehensive evaluation if you are over 50 and have not discussed fracture risk, have experienced a fracture after a minor fall, or have lost noticeable height. Long-term steroid use, early menopause, low body weight, thyroid or digestive disorders, kidney disease, and a family history of hip fractures can also increase concern. Some medications may weaken bone over time, even when they are necessary for another condition.
 
-A thorough assessment may include a medical history, medication review, fracture-risk calculation, DXA scan, laboratory testing, and an evaluation of strength and balance. [Express Scripts recommends discussing osteoporosis screening and treatment](https://www.express-scripts.com/pharmacy/blog/treatment-options-for-osteoporosis) after age 50 or following a fracture. Bring a list of medications, supplements, previous fractures, falls, and activity goals so your care team can create a plan that protects your bones while supporting strength, mobility, and independence.
+A thorough assessment may include a medical history, medication review, fracture-risk calculation, DXA scan, laboratory testing, and an evaluation of strength and balance. Express Scripts recommends discussing osteoporosis screening and treatment after age 50 or following a fracture. Bring a list of medications, supplements, previous fractures, falls, and activity goals so your care team can create a plan that protects your bones while supporting strength, mobility, and independence.
 
 ## Frequently Asked Questions
 

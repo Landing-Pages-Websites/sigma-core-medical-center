@@ -29,7 +29,7 @@ There is overlap between the specialties. Both may treat arthritis and sports in
 
 Physiatrists consider how a health problem affects your movement and independence. They may assess back or neck pain, numbness or tingling, muscle weakness, difficulty walking, or challenges with everyday activities. Their goal is to understand what may be limiting your function and recommend care that addresses your symptoms and supports mobility.
 
-A treatment plan may include rehabilitation, medication, bracing, or selected procedures, along with guidance on activity and recovery. Physiatrists may coordinate with physical therapists and other clinicians when your needs call for a team approach. If you have ongoing pain or nerve symptoms, learn more about the [physiatrist’s role in physical medicine and rehabilitation](https://medrina.com/news/physiatrist-vs-orthopedist) and ask whether this specialty fits your situation.
+A treatment plan may include rehabilitation, medication, bracing, or selected procedures, along with guidance on activity and recovery. Physiatrists may coordinate with physical therapists and other clinicians when your needs call for a team approach. If you have ongoing pain or nerve symptoms, learn more about the physiatrist’s role in physical medicine and rehabilitation and ask whether this specialty fits your situation.
 
 ### Orthopedic Doctors Treat Bones, Joints, Muscles, and Tendons
 
@@ -45,7 +45,7 @@ For example, a physiatrist may focus on managing pain and improving strength thr
 
 ### Clear Up Misconceptions About Surgery and Rehabilitation
 
-An appointment with an orthopedic doctor does not mean you have to choose surgery. Depending on your diagnosis, your doctor may first discuss options such as physical therapy, medication, or changes to activities. Surgery may be considered if a structural problem is severe or other approaches have not helped enough. For some people with significant joint pain, joint replacement is one option to discuss when conservative care no longer provides adequate relief, as [orthopedic guidance on treatment choices](https://orthohealthkc.com/orthopedic-surgeons-ten-things-you-need-to-know) explains.
+An appointment with an orthopedic doctor does not mean you have to choose surgery. Depending on your diagnosis, your doctor may first discuss options such as physical therapy, medication, or changes to activities. Surgery may be considered if a structural problem is severe or other approaches have not helped enough. For some people with significant joint pain, joint replacement is one option to discuss when conservative care no longer provides adequate relief, as orthopedic guidance on treatment choices explains.
 
 Physiatrists generally focus on nonsurgical care, rehabilitation, and improving function. They may also help coordinate rehabilitation if surgery becomes part of your care. Rehabilitation is not only for recovery after an operation: it can help people manage pain, work on strength, and maintain mobility. Before deciding on a treatment, ask your doctor to explain its potential benefits, risks, alternatives, and expected recovery needs.
 
@@ -57,7 +57,7 @@ Physiatrists and orthopedic doctors both diagnose and treat musculoskeletal cond
 
 Both specialists complete medical school before pursuing residency training. Physiatrists then complete a four-year residency in physical medicine and rehabilitation, where they learn to assess pain, movement, nerve symptoms, and physical function. Their training emphasizes helping people manage health conditions and improve their ability to move and take part in daily activities.
 
-Orthopedic surgeons complete a five-year residency focused on diagnosing and treating conditions affecting bones, joints, muscles, and tendons. Their training includes surgical care as well as nonsurgical treatment. These paths are different, but one specialist is not automatically right for every problem. An orthopedic surgeon may recommend rehabilitation, while a physiatrist may refer you for a surgical evaluation if needed. Read more about [physiatry and orthopedic residency training](https://medrina.com/news/physiatrist-vs-orthopedist) to understand how their specialties differ.
+Orthopedic surgeons complete a five-year residency focused on diagnosing and treating conditions affecting bones, joints, muscles, and tendons. Their training includes surgical care as well as nonsurgical treatment. These paths are different, but one specialist is not automatically right for every problem. An orthopedic surgeon may recommend rehabilitation, while a physiatrist may refer you for a surgical evaluation if needed. Read more about physiatry and orthopedic residency training to understand how their specialties differ.
 
 ### Physiatrists Use Rehabilitation, Medication, Bracing, and Injections
 
@@ -69,7 +69,7 @@ For example, if back pain is limiting your walks, a physiatrist may assess your 
 
 Orthopedic doctors treat a broad range of bone, joint, muscle, and tendon conditions. They may first recommend nonsurgical care, such as physical therapy, activity changes, medication, or bracing. If symptoms continue or tests show a structural problem, they can discuss whether surgery might help and explain its potential benefits, risks, and recovery demands.
 
-Orthopedic surgeons perform procedures such as joint replacement, arthroscopy, and fracture repair. They may be the right specialist for a serious injury, a broken bone, or an evaluation for surgery related to advanced arthritis. Seeing an orthopedic surgeon does not mean you have to choose surgery. A good discussion should cover your goals and health, along with the nonsurgical options available. Review common [orthopedic procedures](https://orthohealthkc.com/orthopedic-surgeons-ten-things-you-need-to-know) before an appointment if you want to prepare questions.
+Orthopedic surgeons perform procedures such as joint replacement, arthroscopy, and fracture repair. They may be the right specialist for a serious injury, a broken bone, or an evaluation for surgery related to advanced arthritis. Seeing an orthopedic surgeon does not mean you have to choose surgery. A good discussion should cover your goals and health, along with the nonsurgical options available. Review common orthopedic procedures before an appointment if you want to prepare questions.
 
 ### Discuss the Benefits and Limits of Regenerative Treatments
 
@@ -101,7 +101,7 @@ An appointment does not mean you have to choose surgery. The doctor can examine 
 
 If pain continues despite treatment, returns often, or limits activities such as walking, sleeping, working, or exercising, ask your clinician whether a specialist assessment could help. Explain what you’ve tried, how long you tried it, and whether it made a difference. This can help your care team decide whether to adjust your plan, arrange further evaluation, or refer you to a physiatrist or orthopedic doctor.
 
-Conservative care may include physical therapy, medication, or changes to activities, based on your clinician’s advice. If these approaches haven’t helped, surgery isn’t automatically the next step. It may be time to review the diagnosis and discuss other options. The [OrthoHealthKC guide to orthopedic care](https://orthohealthkc.com/orthopedic-surgeons-ten-things-you-need-to-know) notes that joint replacement may be considered when conservative treatment no longer provides enough relief. Ask what a referral is intended to clarify and what choices you may have afterward.
+Conservative care may include physical therapy, medication, or changes to activities, based on your clinician’s advice. If these approaches haven’t helped, surgery isn’t automatically the next step. It may be time to review the diagnosis and discuss other options. The OrthoHealthKC guide to orthopedic care notes that joint replacement may be considered when conservative treatment no longer provides enough relief. Ask what a referral is intended to clarify and what choices you may have afterward.
 
 ### Seek Urgent Care for Severe Injuries or Sudden, Serious Symptoms
 
@@ -113,7 +113,7 @@ Some symptoms require emergency care rather than a routine appointment. Seek eme
 
 Before starting treatment, ask what your clinician believes is causing your symptoms and what each recommended option is meant to address. Find out about potential benefits, risks, recovery time, costs, and what could happen if you wait or choose another approach. If surgery is suggested, ask whether nonsurgical options are still suitable and why the clinician believes surgery may help.
 
-It’s also reasonable to ask how a procedure could affect your mobility, independence, and return to activities you care about. Orthopedic procedures may include joint replacement, arthroscopy, or fracture repair, but the right choice depends on your diagnosis and overall health. The [OrthoHealthKC guide to orthopedic care](https://orthohealthkc.com/orthopedic-surgeons-ten-things-you-need-to-know) offers useful points to discuss with a surgeon. If you still feel unsure, ask whether a second opinion could help you make an informed decision.
+It’s also reasonable to ask how a procedure could affect your mobility, independence, and return to activities you care about. Orthopedic procedures may include joint replacement, arthroscopy, or fracture repair, but the right choice depends on your diagnosis and overall health. The OrthoHealthKC guide to orthopedic care offers useful points to discuss with a surgeon. If you still feel unsure, ask whether a second opinion could help you make an informed decision.
 
 ## How Do Physiatrists and Orthopedic Doctors Coordinate Care?
 
@@ -123,19 +123,19 @@ A physiatrist and an orthopedic doctor may work together when pain, an injury, o
 
 An orthopedic doctor assesses bones, joints, and related structures. A physiatrist focuses on pain, movement, and function. To build a complete picture, they may review your medical history, imaging, examination findings, and previous treatments. This helps connect what a test shows with how you feel and move.
 
-Be clear about your goals, too. You might want to walk longer, manage stairs with less discomfort, or return to a favorite activity. The specialties can overlap in areas such as arthritis, fractures, and sports injuries, as [Medrina explains](https://medrina.com/news/physiatrist-vs-orthopedist). Ask your doctors how their findings relate to your symptoms and what each recommends as the next step.
+Be clear about your goals, too. You might want to walk longer, manage stairs with less discomfort, or return to a favorite activity. The specialties can overlap in areas such as arthritis, fractures, and sports injuries, as Medrina explains. Ask your doctors how their findings relate to your symptoms and what each recommends as the next step.
 
 ### Coordinate Nonsurgical Care, Surgical Decisions, and Rehabilitation
 
 Your care plan may start with nonsurgical options such as rehabilitation, medication, bracing, or injections, when appropriate. A physiatrist may coordinate this care, while an orthopedic doctor can assess whether a structural problem might benefit from surgery. Both specialists can help weigh options based on your diagnosis, health, and goals.
 
-If symptoms continue despite treatment, the team may adjust your plan, recommend further evaluation, or discuss a surgical consultation. A referral is an opportunity to learn about possible benefits, risks, and alternatives, not a commitment to have surgery. A [physiatrist may refer you to an orthopedic surgeon](https://www.mdbonedocs.com/physiatrist-vs-orthopedist/) when surgery may be worth considering. Ask how the doctors will share updates and what each treatment is meant to address.
+If symptoms continue despite treatment, the team may adjust your plan, recommend further evaluation, or discuss a surgical consultation. A referral is an opportunity to learn about possible benefits, risks, and alternatives, not a commitment to have surgery. A physiatrist may refer you to an orthopedic surgeon when surgery may be worth considering. Ask how the doctors will share updates and what each treatment is meant to address.
 
 ### Plan Recovery Before and After Surgery
 
 When surgery is planned, talk with your care team about recovery before the procedure. Your doctors may review your current strength and mobility, discuss what to expect afterward, and consider what support you may need at home. Preparing early gives you time to arrange help and ask questions about activity restrictions and rehabilitation.
 
-After surgery, your orthopedic team monitors the procedure and healing. A physiatrist may help manage pain, movement, and rehabilitation, while physical therapists and other professionals support your progress. The roles vary depending on the operation and your needs. Ask who will oversee each part of your care, how you will track progress, and whom to contact if recovery feels difficult. A coordinated team can keep the plan centered on practical goals, such as walking safely or returning to daily activities, as [Medrina notes](https://medrina.com/news/physiatrist-vs-orthopedist).
+After surgery, your orthopedic team monitors the procedure and healing. A physiatrist may help manage pain, movement, and rehabilitation, while physical therapists and other professionals support your progress. The roles vary depending on the operation and your needs. Ask who will oversee each part of your care, how you will track progress, and whom to contact if recovery feels difficult. A coordinated team can keep the plan centered on practical goals, such as walking safely or returning to daily activities, as Medrina notes.
 
 ### Understand Referrals, Follow-Up, and Your Role in Care
 
