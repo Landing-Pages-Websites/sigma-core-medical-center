@@ -25,7 +25,7 @@ export function PelvicExpect(): React.ReactElement {
           <p className="mt-6 flex items-center gap-4 text-sm leading-snug text-white/85">
             <RisingBars count={3} className="h-8 text-[0.6rem]" />
             <span aria-hidden className="h-10 w-px bg-white/30" />
-            Questions before your visit? Our team is happy to help by phone.
+            Questions before your visit? Call {CONTACT.phone}.
           </p>
         </div>
         <div className="relative lg:pr-10">

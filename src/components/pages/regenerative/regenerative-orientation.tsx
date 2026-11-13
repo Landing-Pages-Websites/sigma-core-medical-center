@@ -2,7 +2,6 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
-import { PROVIDER } from "@/content/site";
 
 const BOUNDARY_LINES = [
   "An overview of what regenerative medicine can include.",
@@ -24,7 +23,7 @@ export function RegenerativeOrientation(): React.ReactElement {
               <TallBracket className="h-7 w-2" /> Regenerative medicine is a broad category. <TallBracket side="right" className="h-7 w-2" />
             </p>
             <p className="mt-3 max-w-[24rem] text-lg leading-snug">Legality, evidence, risks, and suitability depend on the actual product or procedure.</p>
-            <p className="mt-4 max-w-[24rem] text-lg leading-snug">Sigma Core Medical Center is led by {PROVIDER.name}.</p>
+            <p className="mt-4 max-w-[24rem] text-lg leading-snug">Ask who would provide any treatment and what their qualifications are.</p>
           </div>
           <StairSteps count={5} direction="down" barClassName="bg-[#3d86e0]" className="absolute top-[52%] right-[-1rem] z-20 hidden text-[0.9rem] lg:flex" />
           <div className="px-6 pt-8 pb-10 sm:px-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">

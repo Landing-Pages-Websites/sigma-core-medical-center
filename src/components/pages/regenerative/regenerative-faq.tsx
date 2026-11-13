@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
-import { CONTACT, PROVIDER } from "@/content/site";
+import { CONTACT } from "@/content/site";
 
 const FAQ_ITEMS = [
-  { question: "Why aren’t specific options listed?", answer: "The right option, its risks, cost, and timing depend on your evaluation. Our team reviews these with you during a Free Consultation." },
-  { question: "Why is an appropriate provider important?", answer: `Individual care decisions require a qualified provider. Sigma Core Medical Center is led by ${PROVIDER.name}.` },
+  { question: "Why aren’t specific options listed?", answer: "Options, risks, cost, and timing depend on your evaluation. Ask about them during a Free Consultation." },
+  { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Ask who would perform and oversee any procedure, and their qualifications." },
   { question: "Is online booking available?", answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation.` },
   { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.` },
 ] as const;
@@ -28,7 +28,7 @@ export function RegenerativeFaq(): React.ReactElement {
           </p>
           <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />
-            Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, and timing are reviewed with you in person.
+            Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, and timing are questions to ask in a consultation.
           </p>
         </div>
         <div className="relative grid lg:grid-cols-[48fr_52fr]">

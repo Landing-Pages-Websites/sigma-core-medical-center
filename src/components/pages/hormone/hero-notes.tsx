@@ -1,11 +1,10 @@
 import { TallBracket } from "@/components/pages/shared/page-motifs";
 import styles from "./hero.module.css";
-import { PROVIDER } from "@/content/site";
 
 const HERO_POINTS = [
   "Hormone optimization is a care category.",
   "Function, energy, recovery, and personal goals are topics to consider.",
-  `Led by ${PROVIDER.name}, at our Richmond clinic.`,
+  "A Free Consultation is the first step.",
 ] as const;
 
 export function HormoneHeroNotes(): React.ReactElement {

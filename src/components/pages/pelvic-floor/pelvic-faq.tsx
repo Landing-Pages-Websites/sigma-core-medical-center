@@ -80,7 +80,7 @@ function PrivacyFirst(): React.ReactElement {
       />
       <span aria-hidden className="mt-5 block h-px bg-white/40" />
       <p className="mt-4 font-heading text-xl font-bold">Questions about your visit?</p>
-      <p className="mt-1 text-xs leading-snug text-white/90">Call {CONTACT.phone} and our team can walk you through what to expect.</p>
+      <p className="mt-1 text-xs leading-snug text-white/90">Call {CONTACT.phone} with questions about your visit.</p>
     </div>
   );
 }

@@ -16,7 +16,7 @@ export function HormoneBookingCta(): React.ReactElement {
           <p className="mt-8 flex items-center gap-2 text-sm font-semibold">
             <TallBracket className="h-6 w-1.5 text-white/75" /> Free resource <TallBracket side="right" className="h-6 w-1.5 text-white/75" />
           </p>
-          <h3 className="mt-3 font-heading text-3xl leading-tight font-bold">Get the educational guide</h3>
+          <h3 className="mt-3 font-heading text-3xl leading-tight font-bold">Neuropathy Clarity Scorecard</h3>
           <p className="mt-2 max-w-[20rem] text-sm leading-snug text-white/85">Request the Neuropathy Clarity Scorecard, a 4-page PDF with a self-assessment and a 7-day symptom tracker.</p>
           <Link
             data-mega-cta="get-scorecard"

@@ -10,11 +10,11 @@ const visitDetails: { label: string; value: React.ReactNode }[] = [
     value: (
       <>
         {CONTACT.address}{" "}
-        <a href={DIRECTIONS_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Get directions</a>
+        <a href={DIRECTIONS_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Get directions<span className="sr-only"> (opens in a new tab)</span></a>
       </>
     ),
   },
-  { label: "Parking & accessibility", value: `Call ${CONTACT.phone} and our team can help you plan your visit.` },
+  { label: "Parking & accessibility", value: `For parking and accessibility questions, call ${CONTACT.phone}.` },
 ];
 
 export function ContactFacility(): React.ReactElement {
@@ -31,7 +31,7 @@ export function ContactFacility(): React.ReactElement {
         </div>
         <div className="contact-photo-source">
           <h3>Clinic photo</h3>
-          <p>See our reception and waiting area before you arrive.</p>
+          <p>See our waiting area before you arrive.</p>
           <Link href="/#place-of-care">
             <span>View the clinic photo</span><ArrowUpRight size={24} aria-hidden="true" focusable="false" />
           </Link>

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { CONTACT, PROVIDER } from "@/content/site";
+import { CONTACT } from "@/content/site";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const LITERACY = [
-  { title: "Who", body: `${PROVIDER.name} leads Sigma Core Medical Center.` },
-  { title: "What", body: "Your goals, symptoms, health history, and medications are reviewed before any option is discussed." },
+  { title: "Who", body: "Ask who would prescribe and monitor any treatment, and their credentials." },
+  { title: "What", body: "You can discuss your goals, symptoms, health history, and medications." },
   { title: "How", body: `Call ${CONTACT.phone} to book a Free Consultation with our team.` },
 ] as const;
 
