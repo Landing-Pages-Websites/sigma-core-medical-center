@@ -1,9 +1,20 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import { CONTACT } from "@/content/site";
 
-const visitDetails = [
-  { label: "Address & directions", value: "9020 Stony Point Pkwy #100, Richmond, VA 23235" },
-  { label: "Parking & accessibility", value: "Pending confirmation" },
+const DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`Sigma Core Medical Center, ${CONTACT.address}`)}`;
+
+const visitDetails: { label: string; value: React.ReactNode }[] = [
+  {
+    label: "Address & directions",
+    value: (
+      <>
+        {CONTACT.address}{" "}
+        <a href={DIRECTIONS_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">Get directions</a>
+      </>
+    ),
+  },
+  { label: "Parking & accessibility", value: `Call ${CONTACT.phone} and our team can help you plan your visit.` },
 ];
 
 export function ContactFacility(): React.ReactElement {
@@ -17,15 +28,13 @@ export function ContactFacility(): React.ReactElement {
           <dl>{visitDetails.map(({ label, value }) => (
             <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
           ))}</dl>
-          <p>Parking, accessibility and entrance details are pending confirmation.</p>
         </div>
         <div className="contact-photo-source">
           <h3>Clinic photo</h3>
-          <p>The client-supplied interior image is on Home.</p>
-          <Link href="/#place-of-care" aria-describedby="contact-photo-caveat">
-            <span>See client-supplied clinic photo on Home</span><ArrowUpRight size={24} aria-hidden="true" focusable="false" />
+          <p>See our reception and waiting area before you arrive.</p>
+          <Link href="/#place-of-care">
+            <span>View the clinic photo</span><ArrowUpRight size={24} aria-hidden="true" focusable="false" />
           </Link>
-          <p id="contact-photo-caveat">An interior photo does not confirm an address, entrance or visit details.</p>
         </div>
       </div>
     </section>

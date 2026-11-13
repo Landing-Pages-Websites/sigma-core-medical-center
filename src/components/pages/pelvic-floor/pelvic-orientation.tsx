@@ -22,7 +22,7 @@ export function PelvicOrientation(): React.ReactElement {
   return (
     <section data-mega-section="private-orientation" id="private-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] lg:min-h-[34rem] lg:grid-cols-[12fr_17fr_42fr_12fr_17fr]">
-        <SideNote title="Privacy information." body="Our Website Privacy Policy and Notice of Privacy Practices are published." className="order-2 lg:order-none lg:mt-0" />
+        <SideNote title="Privacy information." body="Your privacy matters. Our Website Privacy Policy and Notice of Privacy Practices explain how information is handled." className="order-2 lg:order-none lg:mt-0" />
         <div className="relative order-3 min-h-60 lg:order-none lg:mt-14">
           <Image src="/images/pages/services-lobby-v2.webp" alt="Conceptual clinic lounge with sofa and walnut paneling" fill sizes="(min-width: 1024px) 17vw, 100vw" className="object-cover object-[20%_center]" />
         </div>

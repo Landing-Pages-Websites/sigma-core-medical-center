@@ -12,7 +12,7 @@ export function RegenerativeSources(): React.ReactElement {
           <h2 className="font-heading text-[clamp(2.8rem,5.4vw,4.9rem)] leading-none font-bold tracking-[-0.035em] text-navy lg:whitespace-nowrap">Medical Sources</h2>
           <p className="relative max-w-[30rem] pl-6 text-sm leading-snug text-ink/85">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            The FDA and professional literature offer general further-reading context. Clinical review and source-selection details for this page are unavailable.
+            Trusted sources for further reading on regenerative medicine and its regulation.
           </p>
         </div>
         <div className="mt-6 grid bg-[#e6e2da] md:grid-cols-[1.25fr_1fr_1fr]">
@@ -21,12 +21,8 @@ export function RegenerativeSources(): React.ReactElement {
               <FileText size={36} strokeWidth={1.4} aria-hidden />
             </span>
             <div className="py-3 pr-4">
-              <p className="font-heading text-xl font-bold text-navy">Clinical review unavailable</p>
-              <p className="mt-1 flex flex-wrap items-center gap-3 text-sm">
-                <span className="font-semibold text-royal">Review date unavailable</span>
-                <span aria-hidden className="h-4 w-px bg-ink/30" />
-                <span className="text-ink/75">No endorsement implied</span>
-              </p>
+              <p className="font-heading text-xl font-bold text-navy">General reading</p>
+              <p className="mt-1 text-sm text-ink/75">No endorsement implied</p>
             </div>
           </div>
           <div className="border-ink/15 px-6 py-3 md:border-l">
@@ -36,8 +32,8 @@ export function RegenerativeSources(): React.ReactElement {
           </div>
           <div className="relative border-ink/15 px-6 py-3 md:border-l">
             <MiniStairs className="absolute right-5 bottom-4 scale-150 text-royal" />
-            <p className="text-sm font-semibold text-navy">Source selection</p>
-            <p className="max-w-[16rem] text-xs leading-snug text-ink/75">A clinician-selected source list is not yet available.</p>
+            <p className="text-sm font-semibold text-navy">Your situation</p>
+            <p className="max-w-[16rem] text-xs leading-snug text-ink/75">Bring what you read to your consultation to discuss how it applies to you.</p>
           </div>
         </div>
       </div>

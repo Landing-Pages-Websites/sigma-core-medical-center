@@ -59,7 +59,7 @@ const FAQS = [
   {
     question: "Does Sigma Core accept insurance?",
     answer:
-      "Sigma Core is a cash-pay practice. Call for current consultation and payment details; no prices or coverage promises are published on this page.",
+      `Sigma Core is a cash-pay practice. Call ${PHONE} for current consultation and payment details.`,
   },
   {
     question: "How do I book?",

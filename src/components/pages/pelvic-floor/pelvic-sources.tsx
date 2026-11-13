@@ -16,7 +16,7 @@ export function PelvicSources(): React.ReactElement {
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-none font-bold tracking-[-0.035em] text-navy">Medical Sources</h2>
           <p className="relative mt-5 max-w-[34rem] py-1 pl-6 text-sm leading-relaxed text-ink/85">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            These organizations offer general further-reading context. Clinical review and source-selection details are unavailable. No endorsement is implied.
+            Trusted organizations for further reading on pelvic health. No endorsement is implied.
           </p>
         </div>
         <div className="relative mx-6 mt-8 min-h-56 sm:mx-10 lg:m-0 lg:mt-10 lg:[clip-path:polygon(0_0,100%_0,100%_100%,6%_100%,0_70%)]">

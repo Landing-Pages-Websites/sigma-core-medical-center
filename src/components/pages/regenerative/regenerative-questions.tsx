@@ -22,7 +22,7 @@ export function RegenerativeQuestions(): React.ReactElement {
         <MiniStairs className="absolute top-12 right-[6%] hidden scale-[2] text-royal lg:inline-flex" />
         <h2 className="font-heading text-[clamp(2.6rem,5.2vw,4.8rem)] leading-none font-bold tracking-[-0.03em] text-navy">Questions For A Consultation</h2>
         <p className="mt-4 max-w-[46rem] text-lg leading-snug font-semibold text-navy/90">
-          Questions to consider with a qualified provider include evidence, risks, alternatives, costs, and follow-up. Specific options and consultation details at Sigma Core are unavailable.
+          Questions to consider with a qualified provider include evidence, risks, alternatives, costs, and follow-up. Bring them to your Free Consultation.
         </p>
         <ol className="relative z-10 mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {QUESTION_CARDS.map((card) => (

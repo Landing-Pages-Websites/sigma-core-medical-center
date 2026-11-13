@@ -44,7 +44,7 @@ export type Service = {
 
 export const SERVICES = {
   headline: "Care organized around what you want to keep doing",
-  body: "Brief, benefit-led pathways help you find the right conversation without publishing protocols or promising a result.",
+  body: "Start with the concern that matters most to you. Each service page explains what to expect and how to take the next step.",
   cta: "Explore All Services",
   primary: {
     name: "Neuropathy",
@@ -55,7 +55,7 @@ export const SERVICES = {
   secondary: [
     {
       name: "Pain and mobility",
-      summary: "Orientation for persistent joint, knee, low-back, or neck concerns.",
+      summary: "Care for persistent joint, knee, low-back, or neck concerns.",
     },
     {
       name: "Hormone optimization",
@@ -82,7 +82,7 @@ export const PLACE = {
   openingNote: "Opening details are being confirmed",
   principles: [
     "Personalized care",
-    "Clear orientation",
+    "Clear explanations",
     "Function-focused goals",
     "Care options and outcomes vary",
   ],
@@ -124,7 +124,7 @@ export const WAYS = {
     cta: "Request a Free Consultation",
   },
   privacyNote:
-    "General marketing forms do not collect free-text medical history or symptom narratives.",
+    "Our forms ask for contact details only. Please do not include medical information.",
 } as const;
 
 export type FaqItem = {
@@ -167,6 +167,10 @@ export const CONTACT = {
   phone: "804-486-7699",
   email: "front.desk@sigmacoremedicalcenter.com",
   hours: "Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM",
+} as const;
+
+export const PROVIDER = {
+  name: "Dr. Nicholas Fleming, DC",
 } as const;
 
 /** Variant B homepage next-step copy, reconciled to the published guide and phone booking. */

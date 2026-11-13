@@ -88,9 +88,8 @@ function AvailabilityPanel(): React.ReactElement {
           ))}
         </div>
         <p className="mt-6 text-xs leading-snug text-white/85">
-          Our Website Privacy Policy and Notice
-          <br />
-          of Privacy Practices are published.
+          Read our Website Privacy Policy and Notice of Privacy Practices
+          to see how your information is handled.
         </p>
       </div>
       <div className="relative min-h-60 lg:-ml-10">

@@ -311,7 +311,7 @@ export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
   orientationIntro:
     "Spinal decompression is not a one-size-fits-all treatment and this page cannot determine its suitability. The purpose of a consultation is to understand your concerns, review relevant history, and discuss reasonable next steps.",
   orientationCards: [
-    { title: "What this page covers", body: "General orientation to spinal decompression therapy and the questions that may matter before an evaluation." },
+    { title: "What this page covers", body: "An overview of spinal decompression therapy and the questions that may matter before an evaluation." },
     { title: "What an evaluation adds", body: "A clinician can consider your symptoms, medical history, goals, and whether further assessment is needed." },
     { title: "What this page does not do", body: "It does not diagnose a condition, promise an outcome, or replace an individualized clinical conversation." },
   ],

@@ -14,7 +14,7 @@ export function PainFaq(): React.ReactElement {
         <div className="flex flex-col">
           <div className="px-6 pt-14 pb-8 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
             <h2 className="flex items-start gap-3 font-heading text-[clamp(4.4rem,8vw,7.4rem)] leading-[0.82] font-bold tracking-[-0.05em] text-navy">
-              <TallBracket className="h-28 w-6 shrink-0 text-royal" /> Faq
+              <TallBracket className="h-28 w-6 shrink-0 text-royal" /> FAQ
             </h2>
             <p className="mt-5 max-w-[15rem] font-heading text-xl leading-tight font-bold text-navy">Clear answers to common questions about this page and how to get started.</p>
             <RisingBars count={7} className="mt-4 h-10 text-[1.15rem]" />

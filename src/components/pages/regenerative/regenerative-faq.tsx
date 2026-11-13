@@ -2,12 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
+import { CONTACT, PROVIDER } from "@/content/site";
 
 const FAQ_ITEMS = [
-  { question: "Why aren’t specific options listed?", answer: "Treatment, eligibility, risk, cost, and timing details are not yet available." },
-  { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Provider details at Sigma Core are unavailable." },
-  { question: "Is online booking available?", answer: "No. There is no online calendar. Call 804-486-7699 to book a Free Consultation." },
-  { question: "Where is the clinic located?", answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM." },
+  { question: "Why aren’t specific options listed?", answer: "The right option, its risks, cost, and timing depend on your evaluation. Our team reviews these with you during a Free Consultation." },
+  { question: "Why is an appropriate provider important?", answer: `Individual care decisions require a qualified provider. Sigma Core Medical Center is led by ${PROVIDER.name}.` },
+  { question: "Is online booking available?", answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation.` },
+  { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.` },
 ] as const;
 
 const FAQ_ACTIONS = [
@@ -21,13 +22,13 @@ export function RegenerativeFaq(): React.ReactElement {
       <CornerStripes className="absolute top-6 right-0 z-20 hidden w-[24rem] lg:flex" />
       <div className="grid lg:min-h-[34rem] lg:grid-cols-[30fr_70fr]">
         <div className="relative z-10 px-6 pt-14 sm:px-10 lg:pt-20 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
-          <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">Faq</h2>
+          <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">FAQ</h2>
           <p className="mt-8 max-w-[18rem] text-base leading-snug text-white/88">
-            Answers about category information, provider details, and how to book.
+            Answers about regenerative medicine, our provider, and how to book.
           </p>
           <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />
-            Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, eligibility, and timing are unavailable.
+            Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, and timing are reviewed with you in person.
           </p>
         </div>
         <div className="relative grid lg:grid-cols-[48fr_52fr]">

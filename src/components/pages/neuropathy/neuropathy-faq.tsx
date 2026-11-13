@@ -43,7 +43,7 @@ export function NeuropathyFaq(): React.ReactElement {
         <div className="grid gap-8 lg:grid-cols-[42fr_58fr]">
           <div>
             <h2 className="flex items-center gap-4 font-heading text-[clamp(4.5rem,9vw,8.4rem)] leading-[0.8] font-bold tracking-[-0.05em]">
-              <TallBracket className="h-24 w-5 text-royal sm:h-28" /> Faq
+              <TallBracket className="h-24 w-5 text-royal sm:h-28" /> FAQ
               <TallBracket side="right" className="ml-auto h-24 w-5 text-royal sm:h-28 lg:mr-10" />
             </h2>
             <p className="mt-6 max-w-[24rem] text-lg leading-snug text-white/90">Clear answers to common questions so you can take the next right step with confidence.</p>

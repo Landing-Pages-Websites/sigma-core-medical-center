@@ -4,7 +4,7 @@ import { RisingBars, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const PAGE_PROVIDES = [
-  "General orientation to peripheral neuropathy.",
+  "A plain-language overview of peripheral neuropathy.",
   "An overview of common symptoms and general causes.",
   "How a consultation can clarify symptoms, goals, and possible next steps.",
   "Pathways to related resources and educational content.",
@@ -23,7 +23,7 @@ export function NeuropathyOrientation(): React.ReactElement {
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-14 pb-12 sm:px-10 lg:grid-cols-[47fr_53fr] lg:gap-6 lg:pt-14 lg:pb-0 lg:pl-[3.5rem] lg:pr-6">
         <div className="lg:pb-12">
           <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.6rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">
-            <TallBracket className="h-20 w-5 text-silver sm:h-28" /> Visitor Orientation
+            <TallBracket className="h-20 w-5 text-silver sm:h-28" /> Understanding Neuropathy
           </h2>
           <div className="mt-8 max-w-[29rem] space-y-5 text-base leading-snug text-white/92 sm:ml-12">
             <p>

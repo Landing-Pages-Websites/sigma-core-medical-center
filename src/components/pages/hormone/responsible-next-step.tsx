@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { CONTACT } from "@/content/site";
+import { CONTACT, PROVIDER } from "@/content/site";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
 const LITERACY = [
-  { title: "Who", body: "The responsible prescribing provider and credentials are unavailable." },
-  { title: "What", body: "Actual services and clinical process details are unavailable." },
-  { title: "How", body: "Consultation and follow-up details are unavailable." },
+  { title: "Who", body: `${PROVIDER.name} leads Sigma Core Medical Center.` },
+  { title: "What", body: "Your goals, symptoms, health history, and medications are reviewed before any option is discussed." },
+  { title: "How", body: `Call ${CONTACT.phone} to book a Free Consultation with our team.` },
 ] as const;
 
 export function ResponsibleNextStep(): React.ReactElement {
@@ -21,7 +21,7 @@ export function ResponsibleNextStep(): React.ReactElement {
             Next Step
           </h2>
           <p className="mt-6 max-w-[27rem] border-l-[3px] border-royal pl-4 text-base leading-snug text-white/90">
-            Responsible provider, credentials, actual services, and process details are not yet available.
+            Start with a Free Consultation to talk through your goals and whether hormone care may be a fit.
           </p>
           <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Call {CONTACT.phone} to book. There is no online calendar.</p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
@@ -46,7 +46,7 @@ export function ResponsibleNextStep(): React.ReactElement {
         </div>
         <div className="relative bg-royal px-6 py-10 sm:px-10 lg:my-6 lg:-ml-6 lg:px-8 lg:py-12 lg:[clip-path:polygon(0_0,82%_0,100%_14%,100%_60%,70%_100%,0_100%)]">
           <p className="flex items-center gap-2 text-sm">
-            <TallBracket className="h-5 w-1.5 text-white/80" /> Consultation Literacy <TallBracket side="right" className="h-5 w-1.5 text-white/80" />
+            <TallBracket className="h-5 w-1.5 text-white/80" /> Your consultation <TallBracket side="right" className="h-5 w-1.5 text-white/80" />
           </p>
           <ul className="mt-6 space-y-6">
             {LITERACY.map((item) => (

@@ -34,7 +34,7 @@ export function HormoneFaq(): React.ReactElement {
       <div className="relative grid lg:grid-cols-[33fr_67fr]">
         <div className="flex flex-col pt-14 lg:pt-16">
           <div className="px-6 sm:px-10 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
-            <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">Faq</h2>
+            <h2 className="font-heading text-[clamp(5rem,10vw,9rem)] leading-[0.8] font-bold tracking-[-0.05em]">FAQ</h2>
             <p className="mt-6 max-w-[17rem] text-sm leading-snug text-white/85">Answers about this page and information availability.</p>
             <p className="relative mt-6 max-w-[18rem] pl-6 text-sm leading-snug text-white/85">
               <TallBracket className="absolute top-0 left-0 h-12 w-2 text-silver" />

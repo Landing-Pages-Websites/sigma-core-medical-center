@@ -22,7 +22,7 @@ export function NeuropathyDecisions(): React.ReactElement {
                 <TallBracket className="h-28 w-4 text-royal sm:h-32" />
                 <h2 className="font-heading text-[clamp(2.4rem,4vw,3.9rem)] leading-[0.98] font-bold tracking-[-0.03em] text-navy lg:whitespace-nowrap">
                   <span className="flex items-end gap-6">
-                    Goals And
+                    Goals and
                     <span aria-hidden className="mb-2 hidden items-end gap-1 sm:flex">
                       {HEADING_BARS.map((bar) => (
                         <span key={bar} className={`block w-3 ${bar}`} />
