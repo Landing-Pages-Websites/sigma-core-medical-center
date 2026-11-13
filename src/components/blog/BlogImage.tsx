@@ -27,7 +27,7 @@ export default function BlogImage({
       alt={alt}
       width={width}
       height={height}
-      sizes="(min-width: 768px) 43rem, calc(100vw - 3rem)"
+      sizes="(min-width: 1280px) 50rem, (min-width: 1024px) calc(100vw - 28rem), calc(100vw - 3rem)"
       className="h-auto w-full rounded-lg"
       preload={preload}
       fetchPriority={preload ? "high" : undefined}

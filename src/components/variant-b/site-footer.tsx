@@ -8,6 +8,7 @@ import { RichmondCareLinks } from "@/components/shared/richmond-care-links";
 const FOOTER_PATHS = {
   Services: "/services",
   About: "/about",
+  Blog: "/blog",
   Contact: "/contact",
   Privacy: "/privacy",
   "Notice of Privacy Practices": "/notice-of-privacy-practices",

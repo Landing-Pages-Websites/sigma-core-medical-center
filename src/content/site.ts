@@ -206,6 +206,7 @@ export const FOOTER = {
   nav: [
     "Services",
     "About",
+    "Blog",
     "Contact",
     "Privacy",
     "Notice of Privacy Practices",
