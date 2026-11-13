@@ -6,6 +6,7 @@ import HoneypotField from "./HoneypotField";
 import { LeadField } from "./LeadField";
 import { LEAD_FIELDS } from "@/lib/leadValidation";
 import { useContactForm } from "@/hooks/useContactForm";
+import { CONTACT } from "@/content/site";
 
 /** Names this form in tracking events (`data-mega-form`). */
 const FORM_KEY = "contact-form";
@@ -30,7 +31,7 @@ export function ContactForm(): React.ReactElement {
         {success ? "Inquiry received" : sending ? "Sending inquiry…" : "Send my inquiry"}<ArrowRight size={24} aria-hidden="true" />
       </button>
       <div className="lead-status" aria-live="polite" aria-atomic="true">
-        {success && <p>Thank you. Your inquiry has been received. This does not confirm an appointment.</p>}
+        {success && <p>Thank you, we received your message. To book right away, call {CONTACT.phone}.</p>}
         {status === "error" && <p>Your inquiry could not be confirmed. Please check your connection and try again.</p>}
       </div>
     </form>

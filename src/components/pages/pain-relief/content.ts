@@ -44,7 +44,7 @@ export const PAIN_FAQ = {
   answers: [
     "These concerns are grouped to give you a single place to explore information that may help you understand what’s possible.",
     "This page does not provide a diagnosis or assess your specific situation. It’s for general information only.",
-    "To book a Free Consultation, call 804-486-7699. Online scheduling is not available.",
+    "To book a Free Consultation, request online or call 804-486-7699.",
     "Sigma Core Medical Center is led by Dr. Nicholas Fleming, DC. Questions about your own situation are best discussed with a qualified professional.",
   ],
 } as const;

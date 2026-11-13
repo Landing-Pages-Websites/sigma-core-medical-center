@@ -18,7 +18,7 @@ export function NeuropathyBooking(): React.ReactElement {
           <h2 className="font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em]">Consultation</h2>
           <div className="relative mt-5 max-w-[23rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-royal" />
-            <p className="text-xl leading-snug text-white/92">Call 804-486-7699 to book a Free Consultation; there is no online calendar. A consultation can connect your symptoms, goals, and questions to an individualized discussion.</p>
+            <p className="text-xl leading-snug text-white/92">Request a Free Consultation online or call 804-486-7699. A consultation can connect your symptoms, goals, and questions to an individualized discussion.</p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-royal" />
           </div>
           <p className="mt-8 text-xs font-semibold tracking-[0.18em] uppercase">Explore your route</p>

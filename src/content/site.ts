@@ -179,7 +179,7 @@ export const WAYS_B = {
     "Request the Neuropathy Clarity Scorecard, a 4-page PDF with a self-assessment and a 7-day symptom tracker.",
   guideNote:
     "Share your contact details on the guide page and the download appears there. The scorecard cannot diagnose neuropathy.",
-  bookingBody: `Call ${CONTACT.phone} to book a Free Consultation. There is no online calendar; our team schedules by phone.`,
+  bookingBody: `Request a Free Consultation online or call ${CONTACT.phone}.`,
 } as const;
 
 const [, , ...FAQ_GENERAL_ITEMS] = FAQ.items;
@@ -193,7 +193,7 @@ export const FAQ_B = {
     },
     {
       question: "How do I book?",
-      answer: `Call ${CONTACT.phone} to book a Free Consultation. There is no online calendar; our team schedules appointments by phone.`,
+      answer: `Request a Free Consultation online or call ${CONTACT.phone}.`,
     },
     ...FAQ_GENERAL_ITEMS,
   ] as FaqItem[],

@@ -16,9 +16,9 @@ export function PainBooking(): React.ReactElement {
           </h2>
           <div className="relative mt-5 max-w-[22rem] px-6 py-1">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            <p className="font-heading text-xl font-bold">Free Consultation by phone</p>
+            <p className="font-heading text-xl font-bold">Book a Free Consultation</p>
             <p className="mt-1 text-lg leading-snug text-white/90">
-              Call 804-486-7699 to book. Online scheduling is not available.
+              Request a Free Consultation online or call 804-486-7699.
             </p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
           </div>

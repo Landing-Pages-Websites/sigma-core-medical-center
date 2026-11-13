@@ -7,7 +7,7 @@ import { CONTACT } from "@/content/site";
 const FAQ_ITEMS = [
   { question: "Why aren’t specific options listed?", answer: "Options, risks, cost, and timing depend on your evaluation. Ask about them during a Free Consultation." },
   { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Ask who would perform and oversee any procedure, and their qualifications." },
-  { question: "Is online booking available?", answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation.` },
+  { question: "How do I book?", answer: `Request a Free Consultation online or call ${CONTACT.phone}.` },
   { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.` },
 ] as const;
 

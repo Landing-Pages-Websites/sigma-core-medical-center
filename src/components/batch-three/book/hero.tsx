@@ -1,4 +1,5 @@
-import { Phone } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, Phone } from "lucide-react";
 
 export function BookHero(): React.ReactElement {
   return (
@@ -6,8 +7,9 @@ export function BookHero(): React.ReactElement {
       <div className="book-shell book-hero-layout">
         <div className="book-hero-copy">
           <h1 id="book-title" className="book-bracket">Appointment <br />scheduling</h1>
-          <p className="book-availability">Call to book a Free Consultation.</p>
-          <p className="book-orientation">Speak with our team directly to schedule your appointment.</p>
+          <p className="book-availability">Book a Free Consultation online or by phone.</p>
+          <p className="book-orientation">Request online, or call to speak with our team.</p>
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="book-services-link book-hero-request"><span>Request a Free Consultation</span><ArrowRight aria-hidden="true" /></Link>
         </div>
         <div className="book-status-panel" role="group" aria-labelledby="book-panel-title">
           <div className="book-status-frame">

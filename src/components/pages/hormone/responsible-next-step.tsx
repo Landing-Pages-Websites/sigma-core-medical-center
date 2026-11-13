@@ -23,7 +23,7 @@ export function ResponsibleNextStep(): React.ReactElement {
           <p className="mt-6 max-w-[27rem] border-l-[3px] border-royal pl-4 text-base leading-snug text-white/90">
             Start with a Free Consultation to talk through your goals and whether hormone care may be a fit.
           </p>
-          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Call {CONTACT.phone} to book. There is no online calendar.</p>
+          <p className="mt-4 max-w-[26rem] pl-5 text-base leading-snug text-white/90">Request a Free Consultation online or call {CONTACT.phone}.</p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-6 inline-flex max-w-full min-h-14 items-center gap-4 bg-royal px-6 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             See how to book <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>

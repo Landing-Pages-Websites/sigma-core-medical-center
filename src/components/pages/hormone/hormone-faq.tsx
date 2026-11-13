@@ -15,8 +15,8 @@ const FAQ_ROWS = [
     answer: "No. This site is for general information only and does not provide medical advice. Your care decisions belong in a conversation with a qualified clinician.",
   },
   {
-    question: "Is online booking available?",
-    answer: `No. There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation; our team schedules by phone.`,
+    question: "How do I book?",
+    answer: `Request a Free Consultation online or call ${CONTACT.phone}.`,
   },
   {
     question: "Where is the clinic located?",

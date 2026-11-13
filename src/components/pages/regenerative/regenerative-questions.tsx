@@ -12,7 +12,7 @@ const QUESTION_CARDS = [
 
 const PATH_BUTTONS = [
   { href: "/about", caption: "Learn about Sigma Core", tone: "border border-royal bg-white/90 text-royal hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
-  { href: "/book", caption: "Free Consultation by phone", tone: "bg-royal text-white hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
+  { href: "/book", caption: "Online or by phone", tone: "bg-royal text-white hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]" },
 ] as const;
 
 export function RegenerativeQuestions(): React.ReactElement {

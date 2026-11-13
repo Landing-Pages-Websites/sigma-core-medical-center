@@ -30,8 +30,8 @@ export function PainLowBackSection(): React.ReactElement {
               <span className="flex items-center gap-2 text-sm">
                 <TallBracket className="h-5 w-1.5 text-white/80" /> Next step <TallBracket side="right" className="h-5 w-1.5 text-white/80" />
               </span>
-              <span className="mt-1 block font-heading text-3xl font-bold">Book by phone</span>
-              <span className="mt-1 block max-w-[17rem] text-sm leading-snug text-white/90">Call 804-486-7699 to book a Free Consultation. Online scheduling is not available.</span>
+              <span className="mt-1 block font-heading text-3xl font-bold">Book a Free Consultation</span>
+              <span className="mt-1 block max-w-[17rem] text-sm leading-snug text-white/90">Request online or call 804-486-7699.</span>
               <span className="mt-4 inline-flex h-11 items-center gap-3 bg-white px-5 font-semibold text-royal transition-colors group-hover:bg-chalk">
                 See how to book <ArrowRight size={18} aria-hidden className="shrink-0" />
               </span>

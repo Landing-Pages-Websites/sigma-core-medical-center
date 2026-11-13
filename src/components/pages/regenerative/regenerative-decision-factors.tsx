@@ -42,8 +42,8 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
               <p className="flex items-center gap-2 text-sm font-semibold text-[#4f9bf0]">
                 <TallBracket className="h-6 w-1.5 text-white/70" /> Scheduling <TallBracket side="right" className="h-6 w-1.5 text-white/70" />
               </p>
-              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Book by phone</h3>
-              <p className="mt-2 text-xs leading-snug text-white/80">There is no online calendar. Call 804-486-7699 to book a Free Consultation.</p>
+              <h3 className="mt-3 font-heading text-xl leading-tight font-bold">Book a Free Consultation</h3>
+              <p className="mt-2 text-xs leading-snug text-white/80">Request online or call 804-486-7699.</p>
               <Link data-mega-cta="book-appointment" href="/book" className="mt-4 inline-flex max-w-full min-h-10 items-center gap-3 bg-royal px-4 text-xs font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
                 See how to book <ArrowRight size={16} aria-hidden className="shrink-0" />
               </Link>
@@ -51,7 +51,7 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
           </div>
           <p className="relative mt-8 max-w-[22rem] px-5 text-xs leading-snug text-white/75">
             <TallBracket className="absolute inset-y-0 left-0 w-2 text-silver" />
-            Request the guide on the educational guide page. Appointments are booked by phone.
+            Request the guide on the educational guide page, or book a Free Consultation online or by phone.
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-silver" />
           </p>
         </div>
