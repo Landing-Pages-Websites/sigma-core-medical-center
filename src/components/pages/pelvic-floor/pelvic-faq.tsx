@@ -3,15 +3,16 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
+import { CONTACT } from "@/content/site";
 
 type FaqRow = { question: string; answer: string; action: { label: string; href?: string; policy?: "/privacy" } };
 
 const FAQ_ROWS: readonly FaqRow[] = [
   { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate.", action: { label: "See how to book", href: "/book" } },
   { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation.", action: { label: "Prepare for an evaluation", href: "/book" } },
-  { question: "Is online booking available?", answer: "There is no online calendar. Call 804-486-7699 to book a Free Consultation, or send a non-medical inquiry through the contact page. Follow-up details have not been confirmed.", action: { label: "See how to book", href: "/book" } },
-  { question: "Where is the clinic?", answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.", action: { label: "Learn more about us", href: "/about" } },
-  { question: "Are privacy details available?", answer: "Yes. Our Website Privacy Policy and Notice of Privacy Practices are published.", action: { label: "Privacy Policy", policy: "/privacy" } },
+  { question: "Is online booking available?", answer: `There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation, or send a non-medical inquiry through the contact page.`, action: { label: "See how to book", href: "/book" } },
+  { question: "Where is the clinic?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.`, action: { label: "Learn more about us", href: "/about" } },
+  { question: "Are privacy details available?", answer: "Yes. Read our Website Privacy Policy and Notice of Privacy Practices to see how information is handled.", action: { label: "Privacy Policy", policy: "/privacy" } },
 ];
 
 const ROW_ACTION = "inline-flex items-center gap-2 text-sm text-royal hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]";
@@ -23,7 +24,7 @@ export function PelvicFaq(): React.ReactElement {
       <div className="grid lg:grid-cols-[34fr_66fr]">
         <div className="relative px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="flex items-start gap-4 font-heading text-[clamp(4.4rem,8.4vw,7.6rem)] leading-[0.85] font-bold tracking-[-0.05em]">
-            <TallBracket className="h-20 w-4 shrink-0 text-silver" /> Faq
+            <TallBracket className="h-20 w-4 shrink-0 text-silver" /> FAQ
           </h2>
           <p className="mt-6 max-w-[19rem] pl-9 text-base leading-snug text-white/88">
             Here are answers about pelvic floor therapy, incontinence evaluation, how to book, and privacy.
@@ -70,7 +71,7 @@ function PrivacyFirst(): React.ReactElement {
         <TallBracket className="h-8 w-2 text-white" /> Privacy
       </p>
       <p className="mt-2 text-xs leading-snug text-white/90">
-        Our Website Privacy Policy and Notice of Privacy Practices are published.
+        Read how Sigma Core protects your health information.
       </p>
       <PolicyLink
         href="/notice-of-privacy-practices"
@@ -78,8 +79,8 @@ function PrivacyFirst(): React.ReactElement {
         className="mt-4 inline-flex h-11 items-center gap-3 border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
       />
       <span aria-hidden className="mt-5 block h-px bg-white/40" />
-      <p className="mt-4 font-heading text-xl font-bold">Visit information unavailable</p>
-      <p className="mt-1 text-xs leading-snug text-white/90">Treatment, eligibility, insurance, pricing, and timing details are unavailable.</p>
+      <p className="mt-4 font-heading text-xl font-bold">Questions about your visit?</p>
+      <p className="mt-1 text-xs leading-snug text-white/90">Call {CONTACT.phone} with questions about your visit.</p>
     </div>
   );
 }

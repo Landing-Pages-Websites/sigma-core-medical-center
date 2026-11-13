@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { PendingAction } from "@/components/shared/pending-action";
 import { CONTACT } from "@/content/site";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
 
@@ -15,21 +14,17 @@ export function HormoneBookingCta(): React.ReactElement {
             <StairSteps count={3} direction="up" className="text-[0.5rem]" /> Your goals. Our focus.
           </p>
           <p className="mt-8 flex items-center gap-2 text-sm font-semibold">
-            <TallBracket className="h-6 w-1.5 text-white/75" /> Resource status <TallBracket side="right" className="h-6 w-1.5 text-white/75" />
+            <TallBracket className="h-6 w-1.5 text-white/75" /> Free resource <TallBracket side="right" className="h-6 w-1.5 text-white/75" />
           </p>
-          <h3 className="mt-3 font-heading text-3xl leading-tight font-bold">Educational guide unavailable</h3>
-          <p className="mt-2 max-w-[20rem] text-sm leading-snug text-white/85">The guide and request form are not yet available.</p>
-          <PendingAction
-            label={
-              <>
-                Guide availability <ArrowRight size={18} aria-hidden className="shrink-0" />
-              </>
-            }
-            title="Guide availability"
-            message="The educational guide and request form are unavailable. Delivery details and an availability date have not been supplied."
+          <h3 className="mt-3 font-heading text-3xl leading-tight font-bold">Neuropathy Clarity Scorecard</h3>
+          <p className="mt-2 max-w-[20rem] text-sm leading-snug text-white/85">Request the Neuropathy Clarity Scorecard, a 4-page PDF with a self-assessment and a 7-day symptom tracker.</p>
+          <Link
+            data-mega-cta="get-scorecard"
+            href="/educational-guide"
             className="mt-5 inline-flex h-11 items-center gap-4 border border-white/80 bg-white/95 px-4 text-sm font-semibold text-navy transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]"
-          />
-          <p className="mt-6 max-w-[19rem] border-l-2 border-[#c97a3a] pl-3 text-sm leading-snug text-white/70">The guide is not yet available. Its title, media, delivery details, and availability date have not been supplied.</p>
+          >
+            Get the guide <ArrowRight size={18} aria-hidden className="shrink-0" />
+          </Link>
         </div>
         <div className="relative min-h-[22rem] lg:mt-6 lg:min-h-0">
           <div className="absolute inset-0 lg:-right-24 lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_70%,6%_70%,6%_58%,12%_58%,12%_46%,18%_46%,18%_34%,24%_34%)]">
@@ -48,7 +43,7 @@ export function HormoneBookingCta(): React.ReactElement {
             to book
           </p>
           <p className="mt-4 max-w-[20rem] text-sm leading-snug text-white/92">
-            Call {CONTACT.phone} to book a Free Consultation. There is no online calendar. Follow-up details have not been confirmed.
+            Call {CONTACT.phone} to book a Free Consultation. Our team schedules by phone.
           </p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-5 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
             See booking details <ArrowRight size={22} aria-hidden className="shrink-0" />

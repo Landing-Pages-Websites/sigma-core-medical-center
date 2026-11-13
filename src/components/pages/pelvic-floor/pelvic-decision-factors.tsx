@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarDays, ClipboardList, MessageCircleMore, Shield } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
+import { CONTACT } from "@/content/site";
 
 const CONCERN_CARDS = [
   { title: "Notice what has changed", body: "Note leakage, urgency, frequency, pressure, or other changes in your own words.", icon: ClipboardList },
@@ -48,9 +49,9 @@ export function PelvicDecisionFactors(): React.ReactElement {
 
       <div className="relative mt-4 flex justify-end">
         <div className="flex w-full flex-wrap items-center justify-between gap-4 bg-royal px-6 py-4 text-white sm:px-10 lg:w-[66%] lg:pl-24 lg:[clip-path:polygon(4%_0,100%_0,100%_100%,0_100%)]">
-          <p className="text-lg font-semibold">Online evaluation scheduling is not yet available.</p>
+          <p className="text-lg font-semibold">Ready to talk? Call {CONTACT.phone} to book.</p>
           <Link data-mega-cta="book-appointment" href="/book" className="inline-flex max-w-full min-h-12 w-fit items-center bg-white px-6 font-heading text-lg font-bold text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check evaluation status
+            See how to book
           </Link>
         </div>
       </div>

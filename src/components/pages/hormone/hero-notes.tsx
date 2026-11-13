@@ -4,7 +4,7 @@ import styles from "./hero.module.css";
 const HERO_POINTS = [
   "Hormone optimization is a care category.",
   "Function, energy, recovery, and personal goals are topics to consider.",
-  "The responsible prescribing provider and credentials are not yet available.",
+  "A Free Consultation is the first step.",
 ] as const;
 
 export function HormoneHeroNotes(): React.ReactElement {

@@ -7,7 +7,7 @@ import { PolicyLink } from "@/components/pages/shared/policy-link";
 const CONSIDERATIONS = [
   { title: "Your personal goals", body: "What are you hoping to understand or address? What matters most in your decision?", icon: Crosshair, offset: "lg:mt-0" },
   { title: "Your informed questions", body: "What would you like clarity on? What concerns or unknowns do you want to explore?", icon: MessagesSquare, offset: "lg:mt-6" },
-  { title: "Your individualized discussion", body: "Individual decisions require a qualified provider. Provider and consultation details are unavailable.", icon: UserRound, offset: "lg:-mt-4" },
+  { title: "Your individualized discussion", body: "Individual decisions require a qualified provider who reviews your history and goals.", icon: UserRound, offset: "lg:-mt-4" },
 ] as const;
 
 export function RegenerativeDecisionFactors(): React.ReactElement {
@@ -21,7 +21,7 @@ export function RegenerativeDecisionFactors(): React.ReactElement {
         <div className="px-6 pt-14 pb-10 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
           <h2 className="font-heading text-[clamp(2.8rem,5.4vw,4.9rem)] leading-none font-bold tracking-[-0.04em]">Decision Factors</h2>
           <p className="mt-4 max-w-[27rem] text-sm leading-snug text-white/88">
-            Good decisions start with clarity, not certainty. There is uncertainty in any decision. Alternatives may exist. Your choice should reflect your goals, values, and what matters most to you. Clinical review and treatment details are unavailable.
+            Good decisions start with clarity, not certainty. There is uncertainty in any decision. Alternatives may exist. Your choice should reflect your goals, values, and what matters most to you.
           </p>
           <StairSteps count={6} direction="down" className="mt-4 ml-auto hidden w-fit text-[0.65rem] lg:mr-[-1rem] lg:flex" />
           <div className="mt-6 grid gap-8 sm:grid-cols-2">

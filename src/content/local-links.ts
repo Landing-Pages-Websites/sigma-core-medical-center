@@ -25,7 +25,7 @@ export const RICHMOND_SERVICE_LINKS = [
   {
     label: "Regenerative medicine",
     href: "/services/regenerative-medicine",
-    body: "Category-level questions about options and uncertainty.",
+    body: "PRP and other options, explained with care.",
   },
 ] as const;
 

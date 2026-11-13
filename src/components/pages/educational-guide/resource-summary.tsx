@@ -64,7 +64,7 @@ function StatusPanel(): React.ReactElement {
       </ul>
       <div className="relative mt-6 border border-white/40 px-10 py-4 text-center">
         <TallBracket className="absolute inset-y-3 left-3 w-2 text-silver" />
-        <p className="text-sm text-white/70">[ Important boundary ]</p>
+        <p className="text-sm text-white/70">Please note</p>
         <p className="mt-1 text-base leading-snug">Information on this page does not provide diagnosis or individualized medical advice.</p>
         <TallBracket side="right" className="absolute inset-y-3 right-3 w-2 text-silver" />
       </div>

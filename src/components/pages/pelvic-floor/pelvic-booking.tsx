@@ -2,11 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, FileText, MessageSquare, UserRound } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
+import { CONTACT, PROVIDER } from "@/content/site";
 
 const ASSURANCES = [
-  { title: "Evaluation scope.", body: "Questions and visit details should be confirmed with a provider.", icon: FileText },
-  { title: "How to book.", body: "Call 804-486-7699 to book a Free Consultation.", icon: MessageSquare },
-  { title: "Visit details.", body: "Provider, visit length, and follow-up information is unavailable.", icon: UserRound },
+  { title: "What to bring.", body: "Your questions, current medications, and the changes you have noticed.", icon: FileText },
+  { title: "How to book.", body: `Call ${CONTACT.phone} to book a Free Consultation.`, icon: MessageSquare },
+  { title: "Clinical leadership.", body: `Sigma Core Medical Center is led by ${PROVIDER.name}.`, icon: UserRound },
 ] as const;
 
 export function PelvicBooking(): React.ReactElement {
@@ -14,12 +15,12 @@ export function PelvicBooking(): React.ReactElement {
     <section data-mega-section="booking-cta" id="booking-cta" className="relative overflow-hidden bg-navy text-white">
       <div className="grid lg:min-h-[30rem] lg:grid-cols-[42fr_58fr]">
         <div className="relative z-10 min-w-0 px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))]">
-          <h2 className="min-w-0 max-w-full font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em] whitespace-normal">Evaluation status</h2>
+          <h2 className="min-w-0 max-w-full font-heading text-[clamp(3rem,6vw,5.4rem)] leading-none font-bold tracking-[-0.035em] whitespace-normal">Book an evaluation</h2>
           <div className="mt-6 bg-[#1b2129] p-4 lg:-ml-[max(0rem,calc((100vw-90rem)/2))] lg:pl-4">
             <div className="relative bg-royal px-9 py-8 sm:px-12">
               <TallBracket className="absolute top-6 bottom-6 left-4 w-3 text-silver" />
               <TallBracket side="right" className="absolute top-6 bottom-6 right-4 w-3 text-silver" />
-              <p className="max-w-[20rem] text-lg leading-snug">Call 804-486-7699 to book a Free Consultation; there is no online calendar. Provider and visit details have not been confirmed.</p>
+              <p className="max-w-[20rem] text-lg leading-snug">Call {CONTACT.phone} to book a Free Consultation. Our team schedules by phone.</p>
               <Link data-mega-cta="book-appointment" href="/book" className="mt-5 inline-flex min-w-0 max-w-full min-h-12 items-center gap-3 bg-white px-4 py-2 text-base font-semibold whitespace-normal text-royal sm:gap-4 sm:px-5 sm:text-lg transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
                 <span className="min-w-0 [overflow-wrap:break-word]">See how to book</span>
                 <ArrowRight size={20} aria-hidden className="shrink-0" />

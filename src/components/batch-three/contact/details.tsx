@@ -28,8 +28,8 @@ const contactDetails = [
     label: "Opening hours",
     value: (
       <>
-        <span className="block">Monday-Thursday</span>
-        <span className="block">8:00-12:00 and 12:30-5:30</span>
+        <span className="block">Monday–Thursday</span>
+        <span className="block">8:00 AM–12:00 PM and 12:30–5:30 PM</span>
       </>
     ),
   },

@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CircleHelp, ClipboardList, MessageSquare } from "lucide-react";
 import { StairSteps, TallBracket } from "@/components/pages/shared/page-motifs";
+import { CONTACT } from "@/content/site";
 
 const BOOKING_POINTS = [
   { title: "Consider your goals", body: "Consider what you want to understand and what matters most to you.", icon: MessageSquare },
-  { title: "Get clear on next steps", body: "Provider and visit details have not been confirmed.", icon: CircleHelp },
+  { title: "Get clear on next steps", body: `Questions about your visit? Call ${CONTACT.phone}.`, icon: CircleHelp },
   { title: "Make an informed decision", body: "Review available information before deciding on a next step.", icon: ClipboardList },
 ] as const;
 
@@ -21,7 +22,7 @@ export function RegenerativeBooking(): React.ReactElement {
             <TallBracket side="right" className="absolute inset-y-0 -right-4 w-2 text-silver" />
           </p>
           <p className="mt-4 max-w-[19rem] text-sm leading-snug text-white/85">
-            There is no online calendar. Provider details have not been confirmed, and this page does not establish treatment eligibility.
+            Our team schedules by phone. A consultation is the first step to learn whether an option may be appropriate for you.
           </p>
           <ul className="relative mt-6 bg-[#ecebe7] text-ink lg:mr-[-3rem] lg:-ml-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:pl-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(0_0,90%_0,100%_100%,0_100%)]">
             {BOOKING_POINTS.map(({ title, body, icon: Icon }) => (

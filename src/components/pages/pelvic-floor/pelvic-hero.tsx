@@ -15,10 +15,10 @@ export function PelvicHero(): React.ReactElement {
             Pelvic floor therapy and <span className="block text-[0.86em]">incontinence evaluation</span>
           </h1>
           <p className="mt-5 max-w-[30rem] text-base leading-snug text-white/88">
-            General orientation to pelvic floor therapy, incontinence evaluation, and the questions you may want to bring to a provider. This page does not diagnose or promise an outcome.
+            A plain-language overview of pelvic floor therapy, incontinence evaluation, and the questions you may want to bring to a provider. This page does not diagnose or promise an outcome.
           </p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-16 w-fit items-center gap-6 border border-white/80 bg-royal px-8 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check evaluation status <ArrowRight size={22} aria-hidden className="shrink-0" />
+            Book a Free Consultation <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>
 

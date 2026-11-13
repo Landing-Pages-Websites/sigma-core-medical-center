@@ -84,12 +84,6 @@
 }
 .b3 .contact-photo-source a:hover { color: var(--color-hover); }
 .b3 .contact-photo-source a:focus-visible { box-shadow: 0 0 0 7px var(--color-ink); }
-.b3 .contact-photo-source #contact-photo-caveat {
-  max-width: 43ch;
-  margin-top: 20px;
-  color: var(--color-muted);
-  font-size: 22px;
-}
 @media (max-width: 1200px) and (min-width: 761px) {
   .contact-visit-panel { padding: 56px 28px 56px 36px; }
   .contact-visit-panel dl > div { display: block; }
@@ -120,5 +114,4 @@
   .contact-photo-source { padding: 0; }
   .b3 .contact-photo-source h3 { font-size: 30px; }
   .b3 .contact-photo-source a { margin-top: 20px; font-size: 18px; }
-  .b3 .contact-photo-source #contact-photo-caveat { margin-top: 20px; font-size: 18px; }
 }

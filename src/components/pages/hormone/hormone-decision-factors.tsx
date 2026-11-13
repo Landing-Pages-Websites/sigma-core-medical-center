@@ -37,13 +37,13 @@ export function HormoneDecisionFactors(): React.ReactElement {
       <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[3.5rem]">
         <div className="grid gap-6 lg:grid-cols-[55fr_45fr] lg:items-center">
           <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-[0.95] font-bold tracking-[-0.035em] text-navy">
-            Goals And
+            Goals and
             <br />
             Decision Factors
           </h2>
           <p className="relative max-w-[26rem] px-6 py-2 text-base leading-snug text-ink/85">
             <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            Prepare questions that help you have a responsible conversation with your provider. Use these topics to guide what matters most to you.
+            Prepare questions that help you get the most from your consultation. Use these topics to guide what matters most to you.
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
           </p>
         </div>
@@ -81,19 +81,17 @@ export function HormoneDecisionFactors(): React.ReactElement {
       <div className="mx-auto flex max-w-[90rem] flex-wrap items-center justify-between gap-4 px-6 pt-6 pb-10 text-sm sm:px-10 lg:pl-[3.5rem]">
         <p className="relative max-w-[18rem] pl-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
-          Choose{" "}
           <Link href="/about" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            /about
-          </Link>{" "}
-          to learn more about our approach and Richmond clinic.
+            About Sigma Core
+          </Link>
+          : our approach and Richmond clinic.
         </p>
         <p className="relative max-w-[22rem] px-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
-          Choose{" "}
           <Link data-mega-cta="book-appointment" href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Check booking status
-          </Link>{" "}
-          for scheduling availability.
+            How to book
+          </Link>
+          : call our team to schedule a Free Consultation.
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-royal" />
         </p>
       </div>

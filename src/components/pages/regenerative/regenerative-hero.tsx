@@ -6,8 +6,8 @@ import { CornerStripes, TallBracket } from "@/components/pages/shared/page-motif
 
 const HERO_NOTES = [
   "Regenerative medicine is a broad care category.",
-  "This page offers category-level orientation. Treatment and provider details are unavailable.",
-  "No specific product or procedure is offered through this page.",
+  "Options such as PRP can be discussed in a Free Consultation.",
+  "Any option should be reviewed against your goals, history, and the evidence.",
 ] as const;
 
 export function RegenerativeHero(): React.ReactElement {
