@@ -33,6 +33,39 @@ const RENAMED_POST_REDIRECTS = [
   ["longevity-care-anytown", "longevity-care-richmond-va"],
 ].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }));
 
+// Posts retired in the Nov 2026 content audit: topics the clinic does not
+// offer or no longer offers (Class IV laser), or written for the wrong reader.
+// Each old address goes to the closest live page, so links and rankings land
+// somewhere useful instead of a 404.
+const RETIRED_POST_REDIRECTS = [
+  ["act-therapy-guide", "/blog"],
+  ["somatic-therapy-guide", "/blog"],
+  ["low-back-pain-icd-10", "/blog"],
+  ["occupational-therapy-vs-physical-therapy", "/blog"],
+  ["rehabilitation-balance-strength-stroke", "/blog"],
+  ["hyperbaric-oxygen-therapy-benefits", "/blog"],
+  ["infusion-therapy-explained", "/blog"],
+  ["spinal-fusion-guide", "/services/pain-relief/spinal-decompression"],
+  ["shock-wave-treatment-benefits", "/services/pain-relief"],
+  ["red-light-therapy-benefits", "/services/pain-relief"],
+  ["cost-laser-therapy-pain", "/services/pain-relief"],
+  ["laser-therapy-vs-physical-therapy-joint-pain", "/services/pain-relief"],
+  ["recovery-rehabilitation-richmond-va", "/services/pain-relief"],
+  ["stem-cell-therapy-shoulder-cost", "/services/regenerative-medicine"],
+  ["cost-pelvic-floor-therapy", "/services/pelvic-floor-incontinence"],
+].map(([from, to]) => ({ source: `/blog/${from}`, destination: to, permanent: true }));
+
+// Duplicate posts folded into the strongest post on the same topic, so they
+// stop competing with each other in search.
+const MERGED_POST_REDIRECTS = [
+  ["treating-sciatica-with-physical-therapy", "physical-therapy-sciatica-pain"],
+  ["sciatica-treatments-physical-therapy", "physical-therapy-sciatica-pain"],
+  ["spinal-disc-herniation-physical-therapy", "physical-therapy-herniated-lumbar-disk"],
+  ["hip-joint-health", "treatment-hip-joint-pain"],
+  ["medical-treatment-slow-recovery", "rehabilitation-slow-recovery-injury"],
+  ["human-performance-medicine-older-adults", "longevity-medicine-healthy-aging"],
+].map(([from, to]) => ({ source: `/blog/${from}`, destination: `/blog/${to}`, permanent: true }));
+
 // A build that ships with tracking off says so instead of silently sending nothing.
 const trackingWarning = trackingBuildWarning();
 if (trackingWarning) console.warn(trackingWarning);
@@ -50,7 +83,12 @@ const nextConfig: NextConfig = {
   },
   images: { qualities: [75, 95], remotePatterns: megaArticleImageRemotePatterns },
   async redirects() {
-    return [TRAILING_SLASH_REDIRECT, ...RENAMED_POST_REDIRECTS];
+    return [
+      TRAILING_SLASH_REDIRECT,
+      ...RENAMED_POST_REDIRECTS,
+      ...RETIRED_POST_REDIRECTS,
+      ...MERGED_POST_REDIRECTS,
+    ];
   },
   async rewrites() {
     return POSTHOG_REWRITES;
