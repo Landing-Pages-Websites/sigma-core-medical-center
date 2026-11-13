@@ -2,10 +2,8 @@ import Link from "next/link";
 import { ArrowRight, Phone } from "lucide-react";
 import type { ReactElement } from "react";
 import { primaryButtonB } from "@/components/variant-b/buttons";
+import { PHONE_HREF, REQUEST_URL } from "@/components/blog/consult-links";
 import { CONTACT } from "@/content/site";
-
-const REQUEST_URL = "https://go.sigmacoremedicalcenter.com/";
-const PHONE_HREF = `tel:+1${CONTACT.phone.replaceAll("-", "")}`;
 
 /** The one next step every article ends on: request a Free Consultation online or by phone. */
 export default function BlogConsultCta(): ReactElement {
