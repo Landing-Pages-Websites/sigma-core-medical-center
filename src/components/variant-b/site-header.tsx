@@ -14,6 +14,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
+import { useHoverMenu } from "@/hooks/useHoverMenu";
 
 const SERVICE_LINKS = [
   { label: "Neuropathy", href: "/services/neuropathy", body: "Movement, function, and everyday independence.", icon: BrainCircuit },
@@ -33,7 +34,7 @@ const desktopLink =
   "inline-flex min-h-12 items-center border-b-2 border-transparent px-1 text-sm font-semibold text-ink transition-colors hover:border-electric hover:text-action focus-visible:border-electric focus-visible:text-action";
 
 export function SiteHeaderB(): React.ReactElement {
-  const [servicesOpen, setServicesOpen] = useState(false);
+  const { open: servicesOpen, setOpen: setServicesOpen, triggerProps, containerProps } = useHoverMenu();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
@@ -59,14 +60,13 @@ export function SiteHeaderB(): React.ReactElement {
             <Link href="/" className={desktopLink} onClick={closeMenus}>Home</Link>
             <div
               className="relative"
-              onMouseEnter={() => setServicesOpen(true)}
-              onMouseLeave={() => setServicesOpen(false)}
+              {...containerProps}
             >
               <button
                 type="button"
                 aria-expanded={servicesOpen}
                 aria-controls="desktop-services-menu"
-                onClick={() => setServicesOpen((open) => !open)}
+                {...triggerProps}
                 className={`${desktopLink} cursor-pointer gap-1.5 ${servicesOpen ? "border-electric text-action" : ""}`}
               >
                 Services

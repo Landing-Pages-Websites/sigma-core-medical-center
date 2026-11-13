@@ -15,6 +15,10 @@ export function BookCalendar(): React.ReactElement {
         </div>
         <div className="book-routes">
           <div>
+            <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="book-services-link"><span>Request online</span><ArrowRight aria-hidden="true" /></Link>
+            <p>Prefer not to call? Request a Free Consultation online.</p>
+          </div>
+          <div className="book-route-gap">
             <Link href="/services" className="book-services-link"><span>Explore services</span><ArrowRight aria-hidden="true" /></Link>
             <p>Browse service information.</p>
           </div>
