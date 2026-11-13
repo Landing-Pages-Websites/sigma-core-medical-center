@@ -4,10 +4,10 @@
   "discovery_source": null,
   "status": "discovery_failed",
   "content_dir": "src/content/blog",
-  "posts_found": 71,
+  "posts_found": 50,
   "posts_migrated": 0,
-  "posts_with_item_id": 71,
-  "generated_at": "2026-11-13T15:16:41.791Z",
+  "posts_with_item_id": 50,
+  "generated_at": "2026-11-13T20:40:28.824Z",
   "script_version": "1.1.0",
   "image_bytes": 0,
   "notes": [
@@ -16,16 +16,6 @@
   ],
   "pending_redirects": [],
   "posts": [
-    {
-      "old_url": null,
-      "title": "What Is ACT Therapy? A Guide to Flexibility",
-      "new_slug": "act-therapy-guide",
-      "status": "authored",
-      "item_id": "item_dr2mwhtygn1eq9kq56xd7e18gr",
-      "target": "/blog/act-therapy-guide",
-      "filename": "act-therapy-guide.md",
-      "sha256": "de74b94530afcb4bded7e02498b51c66aad020da7630a5782f12130c843c1422"
-    },
     {
       "old_url": null,
       "title": "Ankle Pain Treatment: Questions to Ask",
@@ -65,26 +55,6 @@
       "target": "/blog/complex-regional-pain-syndrome-guide",
       "filename": "complex-regional-pain-syndrome-guide.md",
       "sha256": "64971e9740b9598b8b4ebaa0800cdc44ee81f5def03d4a7a4084000f94e74b5b"
-    },
-    {
-      "old_url": null,
-      "title": "Cost of Laser Therapy for Pain: Prices & Coverage",
-      "new_slug": "cost-laser-therapy-pain",
-      "status": "authored",
-      "item_id": "item_gjqf7cfy554k938g9x69tz5xpr",
-      "target": "/blog/cost-laser-therapy-pain",
-      "filename": "cost-laser-therapy-pain.md",
-      "sha256": "4c24b742f4c6ecb06d5a1b49188e631e78b6e88e0743b2e6e9cf864ec258d1c3"
-    },
-    {
-      "old_url": null,
-      "title": "Cost of Pelvic Floor Therapy: A Full Guide",
-      "new_slug": "cost-pelvic-floor-therapy",
-      "status": "authored",
-      "item_id": "item_mv0y4ff5yx7mx7rhsvx7dw1gwg",
-      "target": "/blog/cost-pelvic-floor-therapy",
-      "filename": "cost-pelvic-floor-therapy.md",
-      "sha256": "e1ed57cf7da77ccd782a38e801558b6a9a616eb28ed8115f2bc9f2b3f95bebc3"
     },
     {
       "old_url": null,
@@ -148,16 +118,6 @@
     },
     {
       "old_url": null,
-      "title": "Your Hip Joint: How It Works & How to Keep It Strong",
-      "new_slug": "hip-joint-health",
-      "status": "authored",
-      "item_id": "item_wctx47bwhn5s7b1g8ak5a8thaw",
-      "target": "/blog/hip-joint-health",
-      "filename": "hip-joint-health.md",
-      "sha256": "dde3b38da5891b2a164c22ffd26ee160b45187b5c19c93bc58802f18f4635c47"
-    },
-    {
-      "old_url": null,
       "title": "Holistic Medicine 101: Whole-Person Care Explained",
       "new_slug": "holistic-medicine-guide",
       "status": "authored",
@@ -178,36 +138,6 @@
     },
     {
       "old_url": null,
-      "title": "Human Performance Medicine for Older Adults: Stay Strong",
-      "new_slug": "human-performance-medicine-older-adults",
-      "status": "authored",
-      "item_id": "item_zs6h1pajsh0ex0ccdeb3h2xf00",
-      "target": "/blog/human-performance-medicine-older-adults",
-      "filename": "human-performance-medicine-older-adults.md",
-      "sha256": "7f03ed31f58bf91f0a4f0b09cc0dc22adf3c6551ba2788c80b972a6a7776a621"
-    },
-    {
-      "old_url": null,
-      "title": "Hyperbaric Oxygen Therapy: Benefits, Risks & What to Expect",
-      "new_slug": "hyperbaric-oxygen-therapy-benefits",
-      "status": "authored",
-      "item_id": "item_fjrxjvvh5x1y58b1nb466kcx9r",
-      "target": "/blog/hyperbaric-oxygen-therapy-benefits",
-      "filename": "hyperbaric-oxygen-therapy-benefits.md",
-      "sha256": "43cd07a6e6ce35b22fe685a48509375c9e0d507db30a832d1a0b4b5b753928f4"
-    },
-    {
-      "old_url": null,
-      "title": "Infusion Therapy: How It Works and What to Expect",
-      "new_slug": "infusion-therapy-explained",
-      "status": "authored",
-      "item_id": "item_rxh0hx46b93c35aej3sc49q0fm",
-      "target": "/blog/infusion-therapy-explained",
-      "filename": "infusion-therapy-explained.md",
-      "sha256": "3afb57b9f93716c2e5524278836971063f0b9abe37b0f5cec57b84f3ff6c97c4"
-    },
-    {
-      "old_url": null,
       "title": "Knee Osteoarthritis Treatment Before Surgery",
       "new_slug": "knee-osteoarthritis-treatment-before-surgery",
       "status": "authored",
@@ -215,16 +145,6 @@
       "target": "/blog/knee-osteoarthritis-treatment-before-surgery",
       "filename": "knee-osteoarthritis-treatment-before-surgery.md",
       "sha256": "b38b2b1cfac2a97027cd180b7ae63a03a0ace95a8cfcb72ae854e87f64c8035f"
-    },
-    {
-      "old_url": null,
-      "title": "Laser Therapy vs. Physical Therapy for Joint Pain: A Guide",
-      "new_slug": "laser-therapy-vs-physical-therapy-joint-pain",
-      "status": "authored",
-      "item_id": "item_h0bkttt6h95tf7aqqt5nah8zac",
-      "target": "/blog/laser-therapy-vs-physical-therapy-joint-pain",
-      "filename": "laser-therapy-vs-physical-therapy-joint-pain.md",
-      "sha256": "dd517bc24368ab1feedba4edf0acd7d2b899722a99cf733853dbf1ff894edbe3"
     },
     {
       "old_url": null,
@@ -248,16 +168,6 @@
     },
     {
       "old_url": null,
-      "title": "Low Back Pain ICD 10: Choose the Right Code",
-      "new_slug": "low-back-pain-icd-10",
-      "status": "authored",
-      "item_id": "item_w6dpgtbvm51bn0arzc611z3k38",
-      "target": "/blog/low-back-pain-icd-10",
-      "filename": "low-back-pain-icd-10.md",
-      "sha256": "b92e90cebc735fa2833cec4125e926c9ccd97b92c54856858e70610268013078"
-    },
-    {
-      "old_url": null,
       "title": "Low Testosterone and Joint Pain Treatment: What to Know",
       "new_slug": "low-testosterone-joint-pain-treatment",
       "status": "authored",
@@ -275,16 +185,6 @@
       "target": "/blog/lumbar-spinal-stenosis-treatment",
       "filename": "lumbar-spinal-stenosis-treatment.md",
       "sha256": "0b8e235502a659f4a2a3eaca3f2256bcb28f535653eeb856776702a1a0ae4a9f"
-    },
-    {
-      "old_url": null,
-      "title": "Medical Treatment for Slow Recovery After Surgery: A Guide",
-      "new_slug": "medical-treatment-slow-recovery",
-      "status": "authored",
-      "item_id": "item_5ah82b5ws90kz60fa86vx21ftg",
-      "target": "/blog/medical-treatment-slow-recovery",
-      "filename": "medical-treatment-slow-recovery.md",
-      "sha256": "7075ff3d7df8d1b42ea0b8d60ddd994a57c6769e8f355a9e438691bf03680e13"
     },
     {
       "old_url": null,
@@ -325,16 +225,6 @@
       "target": "/blog/neuropathic-therapy-guide",
       "filename": "neuropathic-therapy-guide.md",
       "sha256": "5cc6c456fb7204fc0aade66ea2c30c2fc9082b3e5146ffda15985b64a7e3d4a1"
-    },
-    {
-      "old_url": null,
-      "title": "Occupational Therapy vs Physical Therapy: Which Fits?",
-      "new_slug": "occupational-therapy-vs-physical-therapy",
-      "status": "authored",
-      "item_id": "item_2yg4na4g7129z4dwccjev1fbb4",
-      "target": "/blog/occupational-therapy-vs-physical-therapy",
-      "filename": "occupational-therapy-vs-physical-therapy.md",
-      "sha256": "b0177a8c3b2689a38b72b2490507fbda8cda9bf691483cee4059a28b130d6d84"
     },
     {
       "old_url": null,
@@ -468,26 +358,6 @@
     },
     {
       "old_url": null,
-      "title": "Recovery and Rehabilitation Clinic in Richmond VA: Find Care",
-      "new_slug": "recovery-rehabilitation-richmond-va",
-      "status": "authored",
-      "item_id": "item_mev60tecdn6qka70wy6xjykdgc",
-      "target": "/blog/recovery-rehabilitation-richmond-va",
-      "filename": "recovery-rehabilitation-richmond-va.md",
-      "sha256": "b326c82131b1e0aec40359c0f3fa784fd3cde80cb246fcb58cf7c0bfa2cfbc13"
-    },
-    {
-      "old_url": null,
-      "title": "Red Light Therapy Benefits: An Evidence-Based Guide",
-      "new_slug": "red-light-therapy-benefits",
-      "status": "authored",
-      "item_id": "item_edbzsfx3as07s6sy1z4sqy02bc",
-      "target": "/blog/red-light-therapy-benefits",
-      "filename": "red-light-therapy-benefits.md",
-      "sha256": "65187b73119666b3d7b8599a4dba76becd681734481d2dfb74ba073e5e42c865"
-    },
-    {
-      "old_url": null,
       "title": "Regenerative Therapy for Chronic Back Pain: What to Know",
       "new_slug": "regenerative-therapy-chronic-back-pain",
       "status": "authored",
@@ -508,23 +378,13 @@
     },
     {
       "old_url": null,
-      "title": "Rehabilitation for Balance and Strength After a Stroke Guide",
-      "new_slug": "rehabilitation-balance-strength-stroke",
-      "status": "authored",
-      "item_id": "item_b1h1w8t5f91sh3nh657wfnxxqg",
-      "target": "/blog/rehabilitation-balance-strength-stroke",
-      "filename": "rehabilitation-balance-strength-stroke.md",
-      "sha256": "97a6d8f328639c93aaf59bc480a09aa8a4f443edae129dc8890f8e1575cdc7ee"
-    },
-    {
-      "old_url": null,
       "title": "Rehabilitation for Balance Problems: Evaluation and Support Options",
       "new_slug": "rehabilitation-for-balance-problems",
       "status": "authored",
       "item_id": "item_xj0xpd1ap17zd9r51r9znaxy2m",
       "target": "/blog/rehabilitation-for-balance-problems",
       "filename": "rehabilitation-for-balance-problems.md",
-      "sha256": "d67cae3e37ca20eeba39279b822562ad37fbc50c554c8c30f8141c9811d8ed43"
+      "sha256": "bf8d3b32e82d43a67485e1f54f5993230f1ee1cd3f34c4122f4d4d6049df32f5"
     },
     {
       "old_url": null,
@@ -558,56 +418,6 @@
     },
     {
       "old_url": null,
-      "title": "Sciatica Treatments: How Non-Surgical Care May Help",
-      "new_slug": "sciatica-treatments-physical-therapy",
-      "status": "authored",
-      "item_id": "item_5f0t66stan39d5abg1qb185gxc",
-      "target": "/blog/sciatica-treatments-physical-therapy",
-      "filename": "sciatica-treatments-physical-therapy.md",
-      "sha256": "2f99e9bb06c10c7a6376e06e37630e82cb6d48d976d570f9c5ec0faafaa429ba"
-    },
-    {
-      "old_url": null,
-      "title": "Shock Wave Treatment: Benefits, Risks, and Costs",
-      "new_slug": "shock-wave-treatment-benefits",
-      "status": "authored",
-      "item_id": "item_d148hbybph64k9adn88wxq610r",
-      "target": "/blog/shock-wave-treatment-benefits",
-      "filename": "shock-wave-treatment-benefits.md",
-      "sha256": "7e143f579935c8a85f5ba6bca38872ee5ba85a292a8df6eca3d9c33f99213ebd"
-    },
-    {
-      "old_url": null,
-      "title": "Somatic Therapy: How It Works and Who It Helps",
-      "new_slug": "somatic-therapy-guide",
-      "status": "authored",
-      "item_id": "item_dznw84kdy949v0x7hvc0rxhjzg",
-      "target": "/blog/somatic-therapy-guide",
-      "filename": "somatic-therapy-guide.md",
-      "sha256": "166976cafa0c43f631ee979d7e18a7980b14c641f0f0fa9db94efe44f979d3f5"
-    },
-    {
-      "old_url": null,
-      "title": "Your Guide to Spinal Disc Herniation Rehabilitation",
-      "new_slug": "spinal-disc-herniation-physical-therapy",
-      "status": "authored",
-      "item_id": "item_axs3rj0ysh4x19mn9r3bn1vx18",
-      "target": "/blog/spinal-disc-herniation-physical-therapy",
-      "filename": "spinal-disc-herniation-physical-therapy.md",
-      "sha256": "7595658ec7d01bc1cd41f808d865531c0ca8d699cdc2c8abf8f9374a880b7857"
-    },
-    {
-      "old_url": null,
-      "title": "Spinal Fusion: Benefits, Risks, and What to Expect",
-      "new_slug": "spinal-fusion-guide",
-      "status": "authored",
-      "item_id": "item_vneare1yvh54qfbvfrqh5098bw",
-      "target": "/blog/spinal-fusion-guide",
-      "filename": "spinal-fusion-guide.md",
-      "sha256": "1378bd6af102be2e7e3fb576ef7bf2372b1371586fa0843d4fb998fbc2ad8a88"
-    },
-    {
-      "old_url": null,
       "title": "Spinal Stenosis Treatment: What an Evaluation May Consider",
       "new_slug": "spinal-stenosis-treatment",
       "status": "authored",
@@ -625,16 +435,6 @@
       "target": "/blog/spondylolisthesis-treatment",
       "filename": "spondylolisthesis-treatment.md",
       "sha256": "c7159e49fd1da631ce68ce7a3835c5a98191ab3e870ffd76840facd41c1f4687"
-    },
-    {
-      "old_url": null,
-      "title": "Stem Cell Therapy for Shoulder Cost: What to Know",
-      "new_slug": "stem-cell-therapy-shoulder-cost",
-      "status": "authored",
-      "item_id": "item_bchxtgnhtn5nk1dwvvs9bg83sw",
-      "target": "/blog/stem-cell-therapy-shoulder-cost",
-      "filename": "stem-cell-therapy-shoulder-cost.md",
-      "sha256": "92ebfe7ac6ff7a82c073986f18f72355ece7b44530692a382ec86d602155f877"
     },
     {
       "old_url": null,
@@ -665,16 +465,6 @@
       "target": "/blog/tmj-physical-therapy-techniques",
       "filename": "tmj-physical-therapy-techniques.md",
       "sha256": "0904a11345b1cfcdefedd4bca3b272d1e583a88c4c98beca946d27a021c28c0e"
-    },
-    {
-      "old_url": null,
-      "title": "Treating Sciatica Without Surgery: What to Expect",
-      "new_slug": "treating-sciatica-with-physical-therapy",
-      "status": "authored",
-      "item_id": "item_5cb2emp9755851kxan6wx5xpqc",
-      "target": "/blog/treating-sciatica-with-physical-therapy",
-      "filename": "treating-sciatica-with-physical-therapy.md",
-      "sha256": "8e25480c5857d2a3b48b33bad95e43844c280257d79ab5bdc9dc37237848aeab"
     },
     {
       "old_url": null,
@@ -714,7 +504,7 @@
       "item_id": "item_nwpbez2fnd429a372g6cza9f9c",
       "target": "/blog/what-to-expect-at-a-physical-therapy-first-visit",
       "filename": "what-to-expect-at-a-physical-therapy-first-visit.md",
-      "sha256": "6a8e0e7a8c782f8b31175644b5d6f77eccd9868837f9f10d0e53af6168b71065"
+      "sha256": "51954ae4fde3167e3cf54b9fd1648fd83e443b3a08225d239c652c0ec1c34032"
     },
     {
       "old_url": null,

@@ -90,7 +90,7 @@ Balance concerns can overlap with many aspects of health. Changes in sensation i
 
 For example, altered foot sensation can make it harder to notice contact with the floor. People with persistent numbness, tingling, or burning in the feet may want to discuss those symptoms with a medical professional. Learn more about the center's [neuropathy care information](https://www.sigmacoremedicalcenter.com/services/neuropathy), while keeping in mind that only an individual evaluation can determine what assessment or care may be appropriate.
 
-Balance is also connected to broader mobility and physical function. The center's information on [mobility recovery for older adults](https://www.sigmacoremedicalcenter.com/blog/mobility-recovery-for-older-adults) and [human performance and healthy aging](https://www.sigmacoremedicalcenter.com/blog/human-performance-medicine-older-adults) offers related context. These topics do not replace a balance-specific evaluation or medical care for new or concerning symptoms.
+Balance is also connected to broader mobility and physical function. The center's information on [mobility recovery for older adults](https://www.sigmacoremedicalcenter.com/blog/mobility-recovery-for-older-adults) and [human performance and healthy aging](https://www.sigmacoremedicalcenter.com/blog/longevity-medicine-healthy-aging) offers related context. These topics do not replace a balance-specific evaluation or medical care for new or concerning symptoms.
 
 ## What can make daily activities safer while waiting for care?
 
