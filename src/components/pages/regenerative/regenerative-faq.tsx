@@ -26,7 +26,7 @@ export function RegenerativeFaq(): React.ReactElement {
           <p className="mt-8 max-w-[18rem] text-base leading-snug text-white/88">
             Answers about regenerative medicine, choosing a provider, and how to book.
           </p>
-          <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:mr-[-6rem] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
+          <p className="relative mt-8 bg-[#ecebe7] py-5 pr-10 pl-12 text-xs leading-snug text-ink lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]">
             <TallBracket className="absolute top-4 bottom-4 left-5 w-2.5 text-royal" />
             Specific <strong className="font-semibold">product and procedure</strong> details, risks, costs, and timing are questions to ask in a consultation.
           </p>

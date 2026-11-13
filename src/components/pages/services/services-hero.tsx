@@ -50,7 +50,7 @@ function FeaturedNeuropathyCard(): React.ReactElement {
   return (
     <Link
       href="/services/neuropathy"
-      className="group relative z-20 mx-6 -mt-10 mb-10 flex gap-5 bg-royal px-6 py-7 shadow-[0_24px_50px_rgb(0_0_0/0.3)] transition-colors hover:bg-royal-hover sm:mx-10 lg:absolute lg:bottom-0 lg:left-[max(30%,calc((100vw-90rem)/2+28rem))] lg:m-0 lg:w-[min(44%,40rem)] lg:py-8 lg:pr-24 lg:pl-8 lg:[clip-path:polygon(0_0,100%_0,84%_100%,0_100%)]"
+      className="group relative z-20 mx-6 -mt-10 mb-10 flex gap-5 bg-royal px-6 py-7 shadow-[0_24px_50px_rgb(0_0_0/0.3)] transition-colors hover:bg-royal-hover sm:mx-10 lg:absolute lg:bottom-0 lg:left-[max(28rem,calc((100vw-90rem)/2+28rem))] lg:m-0 lg:w-[min(44%,40rem)] lg:py-8 lg:pr-24 lg:pl-8 lg:[clip-path:polygon(0_0,100%_0,84%_100%,0_100%)]"
     >
       <TallBracket className="h-32 w-5 text-white/85" />
       <div>

@@ -8,7 +8,7 @@
 .utility-heading { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: 48px; align-items: end; padding: 80px 0 64px; border-bottom: 1px solid var(--color-silver); }
 .utility-heading h1 { max-width: 14ch; font-family: var(--font-display); font-weight: 600; font-size: clamp(2.65rem, 5.2vw, 5rem); line-height: 1.08; letter-spacing: -.035em; text-wrap: balance; }
 .utility-effective { margin-top: 24px; color: var(--color-muted); font-size: 1rem; font-weight: 600; }
-.utility-heading > p { max-width: 44ch; font-size: 1.2rem; line-height: 1.55; color: var(--color-charcoal); }
+.utility-heading > p { max-width: 44ch; font-size: 1.2rem; line-height: 1.55; color: var(--color-charcoal); overflow-wrap: anywhere; }
 .utility-content { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, .6fr); grid-template-areas: "doc toc" "doc next"; grid-template-rows: auto 1fr; column-gap: 80px; row-gap: 48px; padding-top: 72px; }
 .utility-section h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 2.4vw, 2rem); line-height: 1.2; letter-spacing: -.025em; }
 .utility-aside-heading { font-size: 1rem; font-weight: 700; }

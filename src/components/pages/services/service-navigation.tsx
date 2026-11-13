@@ -105,7 +105,7 @@ function NavigationCard({ card }: { card: NavCard }): React.ReactElement {
   return (
     <article className={`${tone} min-w-0 px-4 py-5 sm:px-5 lg:py-6`}>
       <div className="flex min-w-0 items-center gap-2 sm:gap-3">
-        <TallBracket className="h-11 w-2.5 text-royal" />
+        <TallBracket className="h-11 w-2.5 text-royal lg:max-xl:hidden" />
         <span className="flex h-11 w-11 shrink-0 items-center justify-center bg-royal text-white">
           <Icon size={24} strokeWidth={1.6} className="shrink-0" aria-hidden />
         </span>

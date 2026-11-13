@@ -22,7 +22,7 @@ export function NeuropathyOrientation(): React.ReactElement {
     <section data-mega-section="visitor-orientation" id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-14 pb-12 sm:px-10 lg:grid-cols-[47fr_53fr] lg:gap-6 lg:pt-14 lg:pb-0 lg:pl-[3.5rem] lg:pr-6">
         <div className="lg:pb-12">
-          <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.6rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">
+          <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.1rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">
             <TallBracket className="h-20 w-5 text-silver sm:h-28" /> Understanding Neuropathy
           </h2>
           <div className="mt-8 max-w-[29rem] space-y-5 text-base leading-snug text-white/92 sm:ml-12">
@@ -33,7 +33,7 @@ export function NeuropathyOrientation(): React.ReactElement {
             <p className="font-semibold text-white">Individualized questions belong in a clinical appointment with a qualified healthcare professional.</p>
           </div>
         </div>
-        <div className="grid md:grid-cols-2 lg:mt-16 lg:self-end">
+        <div className="grid md:grid-cols-2 lg:mt-16 lg:grid-cols-1 lg:self-end xl:grid-cols-2">
           <OrientationCard title="What this page can provide" items={PAGE_PROVIDES} light />
           <OrientationCard title="What requires a personal conversation" items={NEEDS_CONVERSATION} />
         </div>
@@ -74,7 +74,7 @@ function OrientationCard({ title, items, light }: OrientationCardProps): React.R
   return (
     <article className={`${tone} relative px-7 pt-9 pb-8 md:[clip-path:polygon(0_0,90%_0,100%_8%,100%_100%,0_100%)]`}>
       <div className={`flex items-center gap-3 ${accent}`}>
-        <RisingBars count={4} className="h-9 shrink-0 text-[0.5rem]" barClassName={light ? "bg-royal" : "bg-silver"} />
+        <RisingBars count={4} className="hidden h-9 shrink-0 text-[0.5rem] md:max-lg:flex" barClassName={light ? "bg-royal" : "bg-silver"} />
         <TallBracket className="h-14 w-2.5" />
         <h3 className={`font-heading text-xl leading-tight font-bold uppercase ${light ? "text-royal" : "text-white"}`}>{title}</h3>
       </div>

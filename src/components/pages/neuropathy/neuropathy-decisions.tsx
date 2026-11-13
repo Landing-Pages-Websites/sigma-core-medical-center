@@ -15,12 +15,12 @@ export function NeuropathyDecisions(): React.ReactElement {
   return (
     <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
       <div className="grid lg:grid-cols-[66fr_34fr]">
-        <div className="relative px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
-          <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-4">
+        <div className="relative min-w-0 px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[max(2.5rem,calc((100vw-90rem)/2+3.5rem))]">
+          <div className="grid grid-cols-[minmax(0,1fr)] gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-4">
             <div className="lg:pb-8">
               <div className="flex items-start gap-4">
                 <TallBracket className="h-28 w-4 text-royal sm:h-32" />
-                <h2 className="font-heading text-[clamp(2.4rem,4vw,3.9rem)] leading-[0.98] font-bold tracking-[-0.03em] text-navy lg:whitespace-nowrap">
+                <h2 className="font-heading text-[clamp(2.1rem,4vw,3.9rem)] leading-[0.98] font-bold tracking-[-0.03em] text-navy lg:whitespace-nowrap">
                   <span className="flex items-end gap-6">
                     Goals and
                     <span aria-hidden className="mb-2 hidden items-end gap-1 sm:flex">
@@ -46,9 +46,9 @@ export function NeuropathyDecisions(): React.ReactElement {
             </div>
             <ul className="grid content-start gap-3 lg:-mr-16">
               {FACTOR_CARDS.map(({ title, icon: Icon }) => (
-                <li key={title} className="relative z-10 flex min-h-32 items-center gap-6 bg-[#e6e1d8] px-8 py-5 shadow-[0_10px_24px_rgb(16_30_51/0.08)] sm:[clip-path:polygon(9%_0,100%_0,91%_100%,0_100%)] sm:px-14">
+                <li key={title} className="relative z-10 flex min-h-32 items-center gap-4 bg-[#e6e1d8] px-6 py-5 sm:gap-6 shadow-[0_10px_24px_rgb(16_30_51/0.08)] sm:[clip-path:polygon(9%_0,100%_0,91%_100%,0_100%)] sm:px-14">
                   <Icon size={46} strokeWidth={1.5} className="shrink-0 text-royal" aria-hidden />
-                  <span className="max-w-[10rem] font-heading text-xl leading-tight font-bold text-navy">{title}</span>
+                  <span className="min-w-0 max-w-[10rem] font-heading text-xl leading-tight font-bold text-navy">{title}</span>
                   <TallBracket side="right" className="ml-auto h-14 w-2.5 text-royal" />
                 </li>
               ))}
