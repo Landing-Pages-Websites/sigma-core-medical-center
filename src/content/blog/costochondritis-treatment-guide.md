@@ -15,7 +15,7 @@ Living with ongoing chest pain can make you cautious about movement. You may sto
 
 * **Do not self-diagnose chest pain**: Costochondritis may cause localized tenderness, but new, severe, worsening, or unexplained pain requires prompt medical evaluation, especially after age 50 or with heart disease risk factors.
 * **Reduce irritation while staying gently active**: Pause painful lifting, pushing, pulling, and overhead tasks. Use comfortable movement, supportive positioning, ice or heat, and gradual activity increases as symptoms improve.
-* **Seek personalized care for ongoing symptoms**: Persistent, recurring, or activity-limiting pain may require a diagnosis review, medication safety check, physical therapy, rehabilitation, or specialist treatment.
+* **Seek personalized care for ongoing symptoms**: Persistent, recurring, or activity-limiting pain may require a diagnosis review, medication safety check, guided rehabilitation, or specialist treatment.
 
 ## What Is Costochondritis, and What Are Its Symptoms?
 
@@ -83,7 +83,7 @@ Other possible triggers include a direct blow to the chest, heavy lifting, inten
 
 Repetitive upper-body movements can place stress on the ribs, breastbone, shoulders, and mid-back. Common examples include weight training, gardening, swimming, rowing, manual work, and frequent overhead reaching. Pain may be more likely when you increase the intensity, duration, or frequency of an activity too quickly.
 
-Movement patterns may also affect how force travels through the chest wall. Rounded shoulders, limited mid-back mobility, or shallow breathing can make some activities feel more demanding. These factors do not prove that posture caused your symptoms, but they may help explain recurring flares. A clinician or physical therapist can assess your movement and recommend safer ways to work, exercise, and recover. Medical News Today describes repetitive movement and severe coughing as possible causes.
+Movement patterns may also affect how force travels through the chest wall. Rounded shoulders, limited mid-back mobility, or shallow breathing can make some activities feel more demanding. These factors do not prove that posture caused your symptoms, but they may help explain recurring flares. A clinician can assess your movement and recommend safer ways to work, exercise, and recover. Medical News Today describes repetitive movement and severe coughing as possible causes.
 
 ### Inflammatory Conditions and Other Risk Factors
 
@@ -173,7 +173,7 @@ For several days, reduce activities that increase your pain. Common examples inc
 
 Resting does not require complete inactivity. Short, easy walks and gentle daily movement can help limit stiffness. Keep your breathing relaxed, move slowly, and stop before discomfort becomes sharp or progressively worse. If an activity causes a flare, give your body additional recovery time before trying it again.
 
-Return to normal tasks in small steps. For example, carry lighter objects close to your body before resuming heavier lifting. If ordinary movements remain painful or your symptoms keep returning, ask a clinician or physical therapist for an individualized activity plan.
+Return to normal tasks in small steps. For example, carry lighter objects close to your body before resuming heavier lifting. If ordinary movements remain painful or your symptoms keep returning, ask a clinician for an individualized activity plan.
 
 ### Use Ice for Recent Flares and Heat for Muscle Tension
 
@@ -205,7 +205,7 @@ Wrapping or binding the chest may seem like a way to limit painful movement, but
 
 Choose loose clothing and adjust backpack straps so they do not press on tender areas. Wear a seatbelt correctly, but check that the strap is not rubbing directly over the most painful spot. Do not use compression as a substitute for evaluation or treatment.
 
-For now, pause exercises that involve forceful chest contractions, deep stretching into pain, or repeated upper-body movements. Resume them gradually after everyday activities become more comfortable. A physical therapist can show you safer ways to position your body and modify tasks while symptoms settle.
+For now, pause exercises that involve forceful chest contractions, deep stretching into pain, or repeated upper-body movements. Resume them gradually after everyday activities become more comfortable. Your care team can show you safer ways to position your body and modify tasks while symptoms settle.
 
 ### Track Triggers, Pain Patterns, and Symptom Changes
 
@@ -213,7 +213,7 @@ A simple symptom log can show you what irritates your chest and whether your rec
 
 Look for repeated patterns instead of focusing on one uncomfortable moment. Pain that appears after lifting, prolonged sitting, coughing, or sleeping on one side may point to a useful activity change. Note whether you can walk, dress, climb stairs, or take a comfortable breath more easily over time.
 
-Gradual improvement in movement is encouraging, even if mild tenderness remains. Contact a healthcare professional if pain worsens, keeps returning, changes in character, or fails to improve. Fox Rehabilitation recommends identifying and avoiding recurring triggers during the early recovery period.
+Gradual improvement in movement is encouraging, even if mild tenderness remains. Contact a healthcare professional if pain worsens, keeps returning, changes in character, or fails to improve. Identifying and avoiding recurring triggers is especially helpful during the early recovery period.
 
 ## Which Costochondritis Medications Can Help?
 
@@ -237,7 +237,7 @@ Topical NSAIDs still require caution. Follow the product instructions, apply it 
 
 Ibuprofen and naproxen are oral nonsteroidal anti-inflammatory drugs, commonly called NSAIDs. They may reduce inflammation and pain during a short flare, including symptoms that follow heavy lifting, repeated coughing, or another chest wall strain. The Cleveland Clinic explains NSAID use as one possible approach to managing costochondritis discomfort.
 
-Use the lowest effective amount for the shortest period stated on the label, unless your clinician gives you different instructions. Take the medication exactly as directed, and do not use it to push through painful lifting or exercise. If you need frequent doses, your symptoms may require reassessment, activity changes, or physical therapy instead of longer self-treatment.
+Use the lowest effective amount for the shortest period stated on the label, unless your clinician gives you different instructions. Take the medication exactly as directed, and do not use it to push through painful lifting or exercise. If you need frequent doses, your symptoms may require reassessment, activity changes, or guided rehabilitation instead of longer self-treatment.
 
 ### Check NSAID Safety With Ulcers, Kidney Disease, Hypertension, or Heart Disease
 
@@ -261,7 +261,7 @@ Read the active ingredients, dose, warnings, and maximum daily amount on every l
 
 More medication is not always more effective. Increasing a dose can create serious risks without addressing the reason your pain continues. If the recommended amount is not helping, do not take extra doses, use the medicine more often, or combine it with another product unless a healthcare professional tells you to do so.
 
-Persistent or worsening pain deserves a fresh assessment, particularly if it affects breathing, sleep, walking, or normal arm movement. A clinician may review the diagnosis, check your medication list, and recommend physical therapy or another treatment. Fox Rehabilitation’s costochondritis advice also recommends consulting a healthcare provider before increasing medication.
+Persistent or worsening pain deserves a fresh assessment, particularly if it affects breathing, sleep, walking, or normal arm movement. A clinician may review the diagnosis, check your medication list, and recommend rehabilitation exercises or another treatment. It is also wise to consult a healthcare provider before increasing medication.
 
 ## How Should You Modify Activity During Recovery?
 
@@ -287,7 +287,7 @@ Pay attention to what happens after you stop. If discomfort continues for hours 
 
 Complete inactivity can cause stiffness, reduce conditioning, and make it harder to resume activities you enjoy. Unless your healthcare provider gives you different instructions, continue with gentle movement that does not increase your symptoms. Short walks, relaxed shoulder movements, and comfortable daily tasks may be reasonable starting points.
 
-Keep your breathing relaxed, and do not force deep breaths if they reproduce sharp pain. Gentle chest and pectoral stretching, posture work, and thoracic mobility exercises may help some people with persistent symptoms. [Medscape’s treatment overview](https://emedicine.medscape.com/article/808554-treatment) discusses these options. A physical therapist can help select exercises that match your pain level, mobility, and strength.
+Keep your breathing relaxed, and do not force deep breaths if they reproduce sharp pain. Gentle chest and pectoral stretching, posture work, and thoracic mobility exercises may help some people with persistent symptoms. [Medscape’s treatment overview](https://emedicine.medscape.com/article/808554-treatment) discusses these options. Your clinician can help select exercises that match your pain level, mobility, and strength.
 
 ### Improve Posture, Seating, Workstation, and Driving Ergonomics
 
@@ -305,7 +305,7 @@ A severe or persistent cough deserves medical attention, especially when it occu
 
 As your pain improves, increase activity in small steps. Begin with an amount you can complete comfortably, then gradually add time, repetitions, distance, or resistance. Avoid increasing several factors at once. For example, add a few minutes to a walk before introducing hills or carrying weights.
 
-Allow enough recovery time between demanding activities, and check how you feel later that day and the next morning. If symptoms flare, return to the last comfortable level for several days before progressing again. A gradual return to exercise can help reduce setbacks. If you cannot resume normal activities or your pain persists despite these changes, ask your clinician or physical therapist to reassess your plan.
+Allow enough recovery time between demanding activities, and check how you feel later that day and the next morning. If symptoms flare, return to the last comfortable level for several days before progressing again. A gradual return to exercise can help reduce setbacks. If you cannot resume normal activities or your pain persists despite these changes, ask your clinician to reassess your plan.
 
 ## Which Gentle Exercises Can Support Recovery?
 
@@ -329,7 +329,7 @@ A stiff upper back can affect posture and place extra demand on the muscles arou
 
 Roll a bath towel or large hand towel and place it horizontally beneath your upper back. Lie on the floor or a firm bed with your knees bent and feet supported. Support your head with your hands or a thin pillow. Allow your upper back to gently drape over the towel for one or two breaths, then return to a neutral position. Keep the movement small, and avoid arching your lower back or forcing your ribs upward.
 
-Repeat three to five times. Fox Rehab recommends gentle thoracic extensions as part of conservative care. Skip this exercise if lying down increases your pain or makes breathing uncomfortable.
+Repeat three to five times. Gentle thoracic extensions are a common part of conservative care. Skip this exercise if lying down increases your pain or makes breathing uncomfortable.
 
 ### Stretch Your Pectoral Muscles in a Doorway
 
@@ -353,7 +353,7 @@ Gentle mid-back rotation can help maintain mobility if chest discomfort has caus
 
 Sit in a stable chair with your feet flat on the floor. Cross your arms over your chest only if that position feels comfortable. Slowly turn your shoulders a few inches to one side while keeping your hips facing forward. Return to center, then turn to the other side. Move with your breath, and do not pull yourself farther with your arms.
 
-You can also lie on your side with your knees comfortably bent and slowly open your top arm toward the opposite side. Choose whichever position feels easier. Repeat three to five times per side. Fox Rehab recommends gentle rotation within comfortable limits. Reduce the range or stop if pain continues after the exercise.
+You can also lie on your side with your knees comfortably bent and slowly open your top arm toward the opposite side. Choose whichever position feels easier. Repeat three to five times per side. Keep the rotation gentle and within comfortable limits. Reduce the range or stop if pain continues after the exercise.
 
 ### Stop at Sharp or Radiating Pain, Not Mild Stretching
 
@@ -363,13 +363,13 @@ Use a simple pain check during and after each exercise. If discomfort stays mild
 
 Also notice how you feel later that day and the following morning. A movement may seem manageable at first but still cause a flare afterward. The Cleveland Clinic advises stopping activities that cause sharp or radiating pain. Comfortable, consistent movement is preferable to forcing progress.
 
-### Pause Exercise and Ask a Physical Therapist for Guidance When Needed
+### Pause Exercise and Ask Your Clinician for Guidance When Needed
 
-You do not need to create a complete recovery program by yourself. Pause the exercises and ask a physical therapist for guidance if pain persists, symptoms keep returning, or you are uncertain which movements are appropriate. A therapist can assess your posture, breathing pattern, shoulder mobility, thoracic spine, and daily activity habits.
+You do not need to create a complete recovery program by yourself. Pause the exercises and ask your clinician for guidance if pain persists, symptoms keep returning, or you are uncertain which movements are appropriate. Your clinician can assess your posture, breathing pattern, shoulder mobility, thoracic spine, and daily activity habits.
 
-Professional guidance may be particularly useful if you have arthritis, osteoporosis, a recent injury, spine problems, or reduced balance. Your therapist might adjust your position, shorten the range of motion, or recommend alternatives that place less stress on the ribs.
+Professional guidance may be particularly useful if you have arthritis, osteoporosis, a recent injury, spine problems, or reduced balance. Your care team might adjust your position, shorten the range of motion, or recommend alternatives that place less stress on the ribs.
 
-Seek medical reassessment if your chest pain changes, becomes severe, or occurs with shortness of breath, fainting, sweating, or nausea. The ChoosePT directory can help you find a licensed physical therapist. Personalized care may identify movement restrictions or other issues that should be addressed before you resume strengthening.
+Seek medical reassessment if your chest pain changes, becomes severe, or occurs with shortness of breath, fainting, sweating, or nausea. Personalized care may identify movement restrictions or other issues that should be addressed before you resume strengthening.
 
 ## How Long Does Costochondritis Take to Heal?
 
@@ -377,7 +377,7 @@ Costochondritis often improves with time, activity changes, and appropriate pain
 
 Recovery is not always perfectly linear. You may feel better for several days, then notice soreness after lifting, a long coughing spell, or an unusually active day. Look at the overall trend instead of judging your progress by one flare. Pain should gradually become less intense, tenderness should cover a smaller area, and everyday movement should feel more comfortable. If symptoms remain unchanged, repeatedly return, or begin to feel different, schedule a medical review.
 
-For adults who want to stay active and independent, the goal is not simply to wait for pain to disappear. It is to protect the irritated area while maintaining safe movement, then rebuild strength and activity at a steady pace. A clinician or physical therapist can help you adjust that plan when symptoms linger or interfere with sleep, exercise, or routine tasks.
+For adults who want to stay active and independent, the goal is not simply to wait for pain to disappear. It is to protect the irritated area while maintaining safe movement, then rebuild strength and activity at a steady pace. A clinician can help you adjust that plan when symptoms linger or interfere with sleep, exercise, or routine tasks.
 
 ### Expect Recovery Within Weeks, Though Some Cases Last Months
 
@@ -415,7 +415,7 @@ Most cases of costochondritis improve with time, activity changes, and conservat
 
 Advanced care starts by confirming the diagnosis and identifying factors that may be keeping the pain active. Your clinician may review the pattern of your symptoms, examine the chest wall, assess your breathing and movement, and decide whether testing is appropriate. The [American Academy of Family Physicians’ guidance on costochondritis](https://www.aafp.org/pubs/afp/issues/2009/0915/p617.html) explains that most cases respond to conservative care, while injections are generally reserved for selected persistent cases.
 
-Treatment can then be tailored to your health history, physical abilities, and goals. Depending on the findings, your plan may include physical therapy, rehabilitation exercises, manual treatment, care for an underlying condition, or specialist pain management. The goal is not simply short-term pain relief. It is to help you breathe comfortably, move with less fear, rebuild strength, and return to meaningful activities safely.
+Treatment can then be tailored to your health history, physical abilities, and goals. Depending on the findings, your plan may include rehabilitation exercises, guided stretching, manual treatment, care for an underlying condition, or specialist pain management. The goal is not simply short-term pain relief. It is to help you breathe comfortably, move with less fear, rebuild strength, and return to meaningful activities safely.
 
 ### Recheck the Diagnosis When Symptoms Do Not Improve
 
@@ -423,11 +423,11 @@ Costochondritis is usually diagnosed through your symptoms, medical history, and
 
 Seek emergency care for chest pain accompanied by shortness of breath, sweating, nausea, dizziness, fainting, palpitations, or pain that spreads to the arm, jaw, back, or neck. Medical News Today outlines these warning signs and explains why they require prompt attention. Even without emergency symptoms, persistent or unexplained pain deserves medical review rather than repeated self-treatment.
 
-### Consider Physical Therapy, Sports Medicine, or Rehabilitation Care
+### Consider Physical Medicine and Rehabilitation Care
 
-A physical therapist, sports medicine physician, or rehabilitation specialist can assess more than the painful area. They may evaluate your posture, shoulder movement, spinal mobility, breathing pattern, muscle strength, and lifting or exercise technique. This broader assessment can reveal movement habits that continue to irritate the chest wall.
+A clinician experienced in physical medicine and rehabilitation can assess more than the painful area. They may evaluate your posture, shoulder movement, spinal mobility, breathing pattern, muscle strength, and lifting or exercise technique. This broader assessment can reveal movement habits that continue to irritate the chest wall.
 
-Physical therapy may include gentle stretching, mobility exercises, breathing work, and gradual strengthening. It can also help you modify activities without becoming completely inactive. A rehabilitation professional can adjust the plan as your symptoms change, which is useful when pain has lasted for weeks or made you cautious about movement. The [AAFP includes physical therapy among possible treatment options](https://www.aafp.org/pubs/afp/issues/2009/0915/p617.html) for some patients.
+Rehabilitation may include gentle stretching, mobility exercises, breathing work, and gradual strengthening. It can also help you modify activities without becoming completely inactive. A rehabilitation professional can adjust the plan as your symptoms change, which is useful when pain has lasted for weeks or made you cautious about movement. The [AAFP includes physical therapy among possible treatment options](https://www.aafp.org/pubs/afp/issues/2009/0915/p617.html) for some patients.
 
 ### Build an Individual Plan for Mobility, Posture, Breathing, and Strength
 
@@ -439,7 +439,7 @@ Posture may also need attention if you spend long periods sitting, driving, or w
 
 Manual therapy may reduce muscle tension and improve movement around the upper back, ribs, shoulders, and chest. Depending on your evaluation, treatment may include gentle soft-tissue work, joint mobilization, or techniques for tight pectoral and upper-back muscles. These approaches should be comfortable and performed by a qualified professional.
 
-Manual therapy works best as part of a broader rehabilitation plan, rather than as a replacement for active care. Stretching and strengthening can help you maintain progress between appointments. A physical therapist may recommend gentle pectoral stretches several times a day, along with breathing and posture exercises. The [Medscape treatment overview](https://emedicine.medscape.com/article/808554-treatment) includes stretching and activity changes among conservative approaches for costochondritis.
+Manual therapy works best as part of a broader rehabilitation plan, rather than as a replacement for active care. Stretching and strengthening can help you maintain progress between appointments. Your clinician may recommend gentle pectoral stretches several times a day, along with breathing and posture exercises. The [Medscape treatment overview](https://emedicine.medscape.com/article/808554-treatment) includes stretching and activity changes among conservative approaches for costochondritis.
 
 ### Treat Cough, Infection, Arthritis, or Another Underlying Condition
 
@@ -484,8 +484,8 @@ There is no single test that confirms costochondritis. A healthcare professional
 **What should I avoid while costochondritis heals?**\
 Temporarily limit activities that cause sharp or worsening pain, including heavy lifting, pushing, pulling, overhead work, and intense upper-body exercise. Avoid tight chest binding, and do not stay completely inactive unless your clinician recommends it. Gentle walking and comfortable daily movement can help reduce stiffness.
 
-**Can physical therapy help persistent costochondritis?**\
-Physical therapy may help when symptoms continue, return often, or interfere with activity. A therapist can assess your posture, breathing pattern, shoulder mobility, upper-back movement, and exercise technique. Treatment may include gentle mobility work, breathing exercises, stretching, manual therapy, and gradual strengthening based on your symptoms and goals.
+**Can rehabilitation help persistent costochondritis?**\
+Guided rehabilitation may help when symptoms continue, return often, or interfere with activity. Your clinician can assess your posture, breathing pattern, shoulder mobility, upper-back movement, and exercise technique. Treatment may include gentle mobility work, breathing exercises, stretching, manual therapy, and gradual strengthening based on your symptoms and goals.
 
 **When should I seek another medical evaluation?**\
 Arrange a follow-up if pain is not gradually improving, keeps returning, affects sleep or daily activities, or begins to feel different. Seek emergency care for sudden or severe chest pain, difficulty breathing, fainting, unusual sweating, coughing up blood, blue lips, or pain that spreads beyond the chest. A previous costochondritis diagnosis does not explain every future episode of chest pain.

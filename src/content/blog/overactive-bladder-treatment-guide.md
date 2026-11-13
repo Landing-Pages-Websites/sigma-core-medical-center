@@ -211,13 +211,13 @@ Squeeze the pelvic floor for a few seconds, relax completely, and repeat. Your c
 
 Do not make a habit of stopping your urine stream to test these muscles. That can interfere with normal bladder emptying. Perform Kegels after you finish urinating instead. The [NIDDK guide to Kegel exercises](https://www.niddk.nih.gov/health-information/urologic-diseases/kegel-exercises) provides additional instructions for identifying and exercising these muscles safely.
 
-### Use pelvic floor physical therapy and biofeedback when appropriate
+### Use guided pelvic floor care and biofeedback when appropriate
 
-Some people have trouble identifying their pelvic floor muscles or contract the wrong muscles during exercises. A pelvic floor physical therapist can evaluate your technique and create a plan based on your symptoms, muscle coordination, mobility, and daily goals.
+Some people have trouble identifying their pelvic floor muscles or contract the wrong muscles during exercises. A clinician experienced in pelvic floor care can evaluate your technique and create a plan based on your symptoms, muscle coordination, mobility, and daily goals.
 
 Biofeedback may help when you cannot tell whether the muscles are working correctly. Depending on the clinic, sensors, pressure measurements, or visual feedback may show how the muscles contract and relax. This information can help you develop better control during urgency and leakage episodes.
 
-Physical therapy is not always focused on strengthening. Some people have pelvic floor muscles that remain tense or do not relax properly. Repeatedly squeezing those muscles may worsen discomfort or urgency. Your therapist may instead focus on breathing, relaxation, posture, movement, and bladder habits. The American Physical Therapy Association outlines pelvic health physical therapy and the problems it may address. If pelvic-floor or incontinence concerns are part of your symptoms, you can also review [Sigma Core’s pelvic-floor and incontinence care information](/services/pelvic-floor-incontinence) before deciding what questions to bring to an evaluation.
+Pelvic floor care is not always focused on strengthening. Some people have pelvic floor muscles that remain tense or do not relax properly. Repeatedly squeezing those muscles may worsen discomfort or urgency. Your care team may instead focus on breathing, relaxation, posture, movement, and bladder habits. If pelvic-floor or incontinence concerns are part of your symptoms, you can also review [Sigma Core’s pelvic-floor and incontinence care information](/services/pelvic-floor-incontinence) before deciding what questions to bring to an evaluation.
 
 ### Avoid common mistakes, such as exercising while urinating
 
@@ -341,7 +341,7 @@ Potential risks include infection, pain at the implant site, lead movement, and 
 
 Neurogenic OAB can occur when a condition affecting the brain, spinal cord, or nerves changes bladder storage or emptying. Possible causes include multiple sclerosis, Parkinson’s disease, stroke, spinal cord injury, and diabetic nerve damage. Symptoms may include urgency, leakage, frequent urination, incomplete emptying, or several of these problems at once.
 
-Treatment should be guided by a clinician familiar with neurologic bladder disorders. A urologist may work with a neurologist, rehabilitation specialist, pelvic floor physical therapist, or continence nurse. Testing may include a post-void residual measurement, kidney imaging, or urodynamics, depending on your symptoms and health risks.
+Treatment should be guided by a clinician familiar with neurologic bladder disorders. A urologist may work with a neurologist, rehabilitation specialist, pelvic floor clinician, or continence nurse. Testing may include a post-void residual measurement, kidney imaging, or urodynamics, depending on your symptoms and health risks.
 
 The treatment plan may include bladder training, medication, catheterization, Botox, or neuromodulation. Protecting kidney function and maintaining safe bladder emptying are important priorities. Tell your care team about new weakness, numbness, falls, changes in bowel control, or a sudden change in urination. (115 words)
 
@@ -401,7 +401,7 @@ Before each visit, bring your bladder diary, medication list, and questions. Ask
 
 A complete OAB plan may include several treatments at the same time. Bladder training, scheduled bathroom visits, pelvic floor exercises, urge-suppression techniques, and healthy fluid habits can continue while you use medication or receive a procedure. Each approach addresses different factors that may contribute to urgency and leakage.
 
-Your clinician might combine bladder training with a beta-3 agonist, recommend pelvic floor physical therapy alongside medication, or discuss a procedure after conservative care provides only partial relief. Treatment may also address constipation, sleep quality, fluid timing, or mobility barriers that make bathroom access difficult.
+Your clinician might combine bladder training with a beta-3 agonist, recommend guided pelvic floor exercises alongside medication, or discuss a procedure after conservative care provides only partial relief. Treatment may also address constipation, sleep quality, fluid timing, or mobility barriers that make bathroom access difficult.
 
 Partial improvement provides useful information. For example, fewer daytime leaks may show that one treatment is helping even if nighttime urination continues. Keep tracking the symptoms that remain so your clinician can adjust the plan based on your actual function and priorities.
 
@@ -425,7 +425,7 @@ Bladder changes can become more common with age, menopause, prostate enlargement
 Schedule an evaluation when symptoms interfere with sleep, exercise, travel, social activities, or independence. Seek prompt care for burning urination, blood in the urine, fever, chills, pelvic pain, flank pain, or a sudden change in urinary habits. Urgent care is important if you cannot urinate or develop new weakness, numbness, difficulty walking, or loss of bowel control.
 
 **What treatments can help overactive bladder?**\
-Care may include bladder training, pelvic floor exercises, fluid and caffeine adjustments, constipation care, medication, pelvic floor physical therapy, or bladder Botox. Some people may be candidates for tibial nerve stimulation or sacral neuromodulation. Your clinician can discuss which options may be appropriate based on your health, bladder function, side-effect concerns, and personal goals.
+Care may include bladder training, pelvic floor exercises, fluid and caffeine adjustments, constipation care, medication, guided pelvic floor rehabilitation, or bladder Botox. Some people may be candidates for tibial nerve stimulation or sacral neuromodulation. Your clinician can discuss which options may be appropriate based on your health, bladder function, side-effect concerns, and personal goals.
 
 **How can I prepare for an OAB appointment?**\
 Keep a bladder diary for about three days. Record drinks, bathroom visits, urgency, leakage, nighttime trips, bowel movements, and activities that affect symptoms. Bring a complete list of prescriptions, over-the-counter products, vitamins, and supplements. Also write down your goals, such as sleeping longer, exercising comfortably, traveling with confidence, or reducing leakage.

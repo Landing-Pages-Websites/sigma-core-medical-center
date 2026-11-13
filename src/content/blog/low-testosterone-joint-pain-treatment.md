@@ -141,7 +141,7 @@ Treatment depends on what is causing your joint pain and whether repeat testing 
 
 ### Treat the diagnosed cause of joint pain alongside hormone symptoms
 
-Joint pain may come from osteoarthritis, an injury, an inflammatory condition, nerve problems, or another cause. A clinician can assess your symptoms and recommend care for the specific problem, such as physical therapy, changes to certain activities, medication, or other joint-focused treatment. At the same time, fatigue, reduced libido, or loss of strength may warrant a separate evaluation for low testosterone.
+Joint pain may come from osteoarthritis, an injury, an inflammatory condition, nerve problems, or another cause. A clinician can assess your symptoms and recommend care for the specific problem, such as rehabilitation exercises, changes to certain activities, medication, or other joint-focused treatment. At the same time, fatigue, reduced libido, or loss of strength may warrant a separate evaluation for low testosterone.
 
 Research has explored links between testosterone, inflammation, and cartilage health. However, an association between lower testosterone and osteoarthritis does not prove that low testosterone caused your pain. The Hims overview of testosterone and joint pain discusses this potential connection, but it does not establish TRT as a treatment for joint damage. Addressing joint symptoms and hormone concerns separately helps ensure each gets the right assessment.
 
@@ -193,13 +193,13 @@ At follow-ups, you and your clinician can review how you feel, side effects, tes
 
 ## How Can You Treat Joint Pain Beyond TRT?
 
-TRT is not a general treatment for joint pain, and it may not be right for everyone with low testosterone. A clinician can help identify what is causing your pain and build a plan around your health, symptoms, and daily activities. Depending on the cause, care may involve physical therapy, medication, or treatment for a specific joint condition.
+TRT is not a general treatment for joint pain, and it may not be right for everyone with low testosterone. A clinician can help identify what is causing your pain and build a plan around your health, symptoms, and daily activities. Depending on the cause, care may involve guided exercise and rehabilitation, medication, or treatment for a specific joint condition.
 
-### Tailor physical therapy and strength or mobility work to your ability
+### Tailor rehabilitation and strength or mobility work to your ability
 
-A physical therapist can adapt a plan to your current mobility, pain level, and goals. That may include gentle range-of-motion exercises, balance work, or strength training to help with everyday activities such as walking, getting up from a chair, or climbing stairs.
+Your clinician can adapt a plan to your current mobility, pain level, and goals. That may include gentle range-of-motion exercises, balance work, or strength training to help with everyday activities such as walking, getting up from a chair, or climbing stairs.
 
-Begin at a level you can manage and increase activity gradually with professional guidance. Tell your therapist which movements hurt and whether symptoms change during or after exercise. Sharp or worsening pain is a reason to pause and ask for advice, rather than push through. If reduced muscle strength is affecting how you move, strengthening may support joint function, but it does not diagnose or treat the cause of the pain on its own.
+Begin at a level you can manage and increase activity gradually with professional guidance. Tell your care team which movements hurt and whether symptoms change during or after exercise. Sharp or worsening pain is a reason to pause and ask for advice, rather than push through. If reduced muscle strength is affecting how you move, strengthening may support joint function, but it does not diagnose or treat the cause of the pain on its own.
 
 ### Consider pain medicines and other clinician-guided options
 
@@ -215,7 +215,7 @@ Low testosterone and joint problems can occur at the same time, but that does no
 
 ### Coordinate care for overlapping joint and hormone symptoms
 
-If joint pain occurs alongside low libido, ongoing fatigue, or reduced strength, mention all of your symptoms during a medical visit. A primary care clinician or endocrinologist can assess whether testosterone testing is appropriate. A physical therapist, rheumatologist, or orthopedist may help evaluate the joint problem, depending on your symptoms and exam.
+If joint pain occurs alongside low libido, ongoing fatigue, or reduced strength, mention all of your symptoms during a medical visit. A primary care clinician or endocrinologist can assess whether testosterone testing is appropriate. A rehabilitation clinician, rheumatologist, or orthopedist may help evaluate the joint problem, depending on your symptoms and exam.
 
 Before your appointment, note when the pain began, what activities affect it, what eases it, and whether it disrupts sleep or daily tasks. Bring a list of medicines and supplements, along with relevant test results. This information helps your care team consider possible connections without assuming low testosterone explains every symptom. If testing confirms low testosterone, discuss the goals and follow-up for hormone treatment separately from the plan for your joint condition.
 
@@ -225,7 +225,7 @@ Healthy habits can support strength, mobility, sleep, and overall well-being. Th
 
 ### Adapt resistance and aerobic exercise to your ability
 
-Regular movement can help preserve muscle strength, endurance, and joint function. Stronger muscles support you during everyday activities, while aerobic exercise can make tasks like walking and climbing stairs feel more manageable. Start with an activity that suits your current fitness and joint comfort, such as walking, stationary cycling, or water exercise. Add light resistance work if it’s appropriate, and increase activity gradually. Stop and seek guidance if exercise causes sharp or worsening pain. A physical therapist can adapt movements for arthritis, an injury, or mobility limits. Exercise supports overall health, but it should not be treated as a proven way to correct low testosterone. The [CDC’s physical activity guidance for older adults](https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html) offers a useful starting point.
+Regular movement can help preserve muscle strength, endurance, and joint function. Stronger muscles support you during everyday activities, while aerobic exercise can make tasks like walking and climbing stairs feel more manageable. Start with an activity that suits your current fitness and joint comfort, such as walking, stationary cycling, or water exercise. Add light resistance work if it’s appropriate, and increase activity gradually. Stop and seek guidance if exercise causes sharp or worsening pain. Your clinician can adapt movements for arthritis, an injury, or mobility limits. Exercise supports overall health, but it should not be treated as a proven way to correct low testosterone. The [CDC’s physical activity guidance for older adults](https://www.cdc.gov/physical-activity-basics/guidelines/older-adults.html) offers a useful starting point.
 
 ### Eat well and manage your weight
 

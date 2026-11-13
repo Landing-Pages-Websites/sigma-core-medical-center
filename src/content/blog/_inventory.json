@@ -7,7 +7,7 @@
   "posts_found": 71,
   "posts_migrated": 0,
   "posts_with_item_id": 71,
-  "generated_at": "2026-11-13T13:38:13.992Z",
+  "generated_at": "2026-11-13T15:16:41.791Z",
   "script_version": "1.1.0",
   "image_bytes": 0,
   "notes": [
@@ -24,7 +24,7 @@
       "item_id": "item_dr2mwhtygn1eq9kq56xd7e18gr",
       "target": "/blog/act-therapy-guide",
       "filename": "act-therapy-guide.md",
-      "sha256": "35780f1a68202e04aea45111e9327027a5da62c8ffc75fb4670c19a548144d08"
+      "sha256": "de74b94530afcb4bded7e02498b51c66aad020da7630a5782f12130c843c1422"
     },
     {
       "old_url": null,
@@ -34,7 +34,7 @@
       "item_id": "item_tfbxpf3fs50df3mrfv0j95m6pg",
       "target": "/blog/ankle-pain-treatment",
       "filename": "ankle-pain-treatment.md",
-      "sha256": "70ac1f3a90861ee3d076eb134e8ec6b9752e3a6d6fca81d2427249dedf354351"
+      "sha256": "e0e16aa0cb07b10d7a250b185f37c6f5e08e349d0e7657ab93a2a4d7819d0756"
     },
     {
       "old_url": null,
@@ -48,13 +48,13 @@
     },
     {
       "old_url": null,
-      "title": "Chronic Pain Physical Therapy Treatment in Richmond, VA",
+      "title": "Chronic Pain Rehabilitation in Richmond, VA: A Guide",
       "new_slug": "chronic-pain-physical-therapy",
       "status": "authored",
       "item_id": "item_j0gtt02bwh1vx7bkz4cwjs1wkm",
       "target": "/blog/chronic-pain-physical-therapy",
       "filename": "chronic-pain-physical-therapy.md",
-      "sha256": "7e3a32aad59cee97ce3081c392b9d427d10c078cf83810107eebf8f38b8b2f15"
+      "sha256": "d4144c635e0c1059f9b9ca9e577a4dc1c5d4fa636a16e09fd64303a3b0b70552"
     },
     {
       "old_url": null,
@@ -64,7 +64,7 @@
       "item_id": "item_aeyxkc1x7n3xnegbzzyfrqn2gm",
       "target": "/blog/complex-regional-pain-syndrome-guide",
       "filename": "complex-regional-pain-syndrome-guide.md",
-      "sha256": "295dd40ffa8661fbce33acdbd0a2be7e0b92885b7484a3db186da7b008762e0e"
+      "sha256": "64971e9740b9598b8b4ebaa0800cdc44ee81f5def03d4a7a4084000f94e74b5b"
     },
     {
       "old_url": null,
@@ -74,17 +74,17 @@
       "item_id": "item_gjqf7cfy554k938g9x69tz5xpr",
       "target": "/blog/cost-laser-therapy-pain",
       "filename": "cost-laser-therapy-pain.md",
-      "sha256": "dbf615d7ea1d3d69ee7cbfe0d58cac251946d9ee6d0ebd2d019c67ee40116bff"
+      "sha256": "4c24b742f4c6ecb06d5a1b49188e631e78b6e88e0743b2e6e9cf864ec258d1c3"
     },
     {
       "old_url": null,
-      "title": "Cost of Pelvic Floor Physical Therapy: Full Guide",
+      "title": "Cost of Pelvic Floor Therapy: A Full Guide",
       "new_slug": "cost-pelvic-floor-therapy",
       "status": "authored",
       "item_id": "item_mv0y4ff5yx7mx7rhsvx7dw1gwg",
       "target": "/blog/cost-pelvic-floor-therapy",
       "filename": "cost-pelvic-floor-therapy.md",
-      "sha256": "1c821c547ddf02949b1228baf61e87462390258048a6310abe2331ad23a122cf"
+      "sha256": "e1ed57cf7da77ccd782a38e801558b6a9a616eb28ed8115f2bc9f2b3f95bebc3"
     },
     {
       "old_url": null,
@@ -94,7 +94,7 @@
       "item_id": "item_04jdnzckbd4cs26w9j7ws25q5w",
       "target": "/blog/costochondritis-treatment-guide",
       "filename": "costochondritis-treatment-guide.md",
-      "sha256": "34d8a39d885b690c3a8cfb2728b1f10960a3a8097e7dadde1e718892f7abf201"
+      "sha256": "afe31d72597151346b88f4e268cd7878691453890c8a60ba2b95efa38139ad4a"
     },
     {
       "old_url": null,
@@ -104,7 +104,7 @@
       "item_id": "item_zp4y5vk29s32k324f8nmqbbq38",
       "target": "/blog/de-quervain-tenosynovitis-treatment",
       "filename": "de-quervain-tenosynovitis-treatment.md",
-      "sha256": "2ac2eeb3cf0992dcd5718ea1b1d13cf00c31180ef5c9fcafd727d254b1c6d9ed"
+      "sha256": "5d5cf8cff8d5d15698687c5b9a13962e29243103a59642a648f210047ec8d57e"
     },
     {
       "old_url": null,
@@ -128,13 +128,13 @@
     },
     {
       "old_url": null,
-      "title": "Foot Drop Treatment Physical Therapy: Exercises That Help",
+      "title": "Foot Drop Treatment and Rehabilitation: Exercises That Help",
       "new_slug": "foot-drop-treatment-physical-therapy",
       "status": "authored",
       "item_id": "item_z013109ddx5xk4e8ebj56hm51m",
       "target": "/blog/foot-drop-treatment-physical-therapy",
       "filename": "foot-drop-treatment-physical-therapy.md",
-      "sha256": "8a7179507a9f638d451251121c0d651c9fe7f44c62ec2b2b86d21f7104c171fc"
+      "sha256": "fedf0bec69a6dcd24c81261aeca8643c87b74d9ef0c53cb2326a290d690be36f"
     },
     {
       "old_url": null,
@@ -144,7 +144,7 @@
       "item_id": "item_9ma5j0wk0s04xdf84w8cvcq9xw",
       "target": "/blog/hip-bursitis-pain-management",
       "filename": "hip-bursitis-pain-management.md",
-      "sha256": "d998959282a4f345cd48c4510bef703aee4a08cd1bb12c6ff025f8c590832071"
+      "sha256": "db410e019688e1e408057c4e28eb2cf41892d309fbdf20800c7d1479e40a8525"
     },
     {
       "old_url": null,
@@ -154,7 +154,7 @@
       "item_id": "item_wctx47bwhn5s7b1g8ak5a8thaw",
       "target": "/blog/hip-joint-health",
       "filename": "hip-joint-health.md",
-      "sha256": "151fb2f92c3acfc60018c66484dc9443ce96f5854caf4d99bc28a241f4917d17"
+      "sha256": "dde3b38da5891b2a164c22ffd26ee160b45187b5c19c93bc58802f18f4635c47"
     },
     {
       "old_url": null,
@@ -164,7 +164,7 @@
       "item_id": "item_xr9mn6r84h2kh31k26swm8yfpm",
       "target": "/blog/holistic-medicine-guide",
       "filename": "holistic-medicine-guide.md",
-      "sha256": "d258f6702af9e2ece3332ee2d4dc92a4d6dbd62a2ffabb95bd7af4c5f70fe7c8"
+      "sha256": "b32424440acbc469c7e020b683ace0b225cbe8a8f08eec07e31544ffc5b079a8"
     },
     {
       "old_url": null,
@@ -184,7 +184,7 @@
       "item_id": "item_zs6h1pajsh0ex0ccdeb3h2xf00",
       "target": "/blog/human-performance-medicine-older-adults",
       "filename": "human-performance-medicine-older-adults.md",
-      "sha256": "59db134b514ca3ad434f9934696f4dca4ddf734bab0206453c62a93f9a5f43e8"
+      "sha256": "7f03ed31f58bf91f0a4f0b09cc0dc22adf3c6551ba2788c80b972a6a7776a621"
     },
     {
       "old_url": null,
@@ -194,7 +194,7 @@
       "item_id": "item_fjrxjvvh5x1y58b1nb466kcx9r",
       "target": "/blog/hyperbaric-oxygen-therapy-benefits",
       "filename": "hyperbaric-oxygen-therapy-benefits.md",
-      "sha256": "b247e9428e81690e4f94580264e566705c64a49462cf356d00fe0108965eb5a8"
+      "sha256": "43cd07a6e6ce35b22fe685a48509375c9e0d507db30a832d1a0b4b5b753928f4"
     },
     {
       "old_url": null,
@@ -204,7 +204,7 @@
       "item_id": "item_rxh0hx46b93c35aej3sc49q0fm",
       "target": "/blog/infusion-therapy-explained",
       "filename": "infusion-therapy-explained.md",
-      "sha256": "9e1562d577681d20d39a3ac8619246ef1f20d1602307517190821fa2e617af49"
+      "sha256": "3afb57b9f93716c2e5524278836971063f0b9abe37b0f5cec57b84f3ff6c97c4"
     },
     {
       "old_url": null,
@@ -224,7 +224,7 @@
       "item_id": "item_h0bkttt6h95tf7aqqt5nah8zac",
       "target": "/blog/laser-therapy-vs-physical-therapy-joint-pain",
       "filename": "laser-therapy-vs-physical-therapy-joint-pain.md",
-      "sha256": "ff8e364dbfbf2959634cda775447752e15ed8f102f981f0544c0af3c1706697c"
+      "sha256": "dd517bc24368ab1feedba4edf0acd7d2b899722a99cf733853dbf1ff894edbe3"
     },
     {
       "old_url": null,
@@ -244,7 +244,7 @@
       "item_id": "item_b0re74esf52s32ffgssfnfrqyw",
       "target": "/blog/longevity-medicine-healthy-aging",
       "filename": "longevity-medicine-healthy-aging.md",
-      "sha256": "8e56ac2d3d10dbb2c8c7ceaff7448c6fd5b0031b345fd485775ab8fc191046de"
+      "sha256": "4f4ce89b764c08fb6a8d3de28f8ec21016acd72b9881efe13c16f397833f2d2e"
     },
     {
       "old_url": null,
@@ -254,7 +254,7 @@
       "item_id": "item_w6dpgtbvm51bn0arzc611z3k38",
       "target": "/blog/low-back-pain-icd-10",
       "filename": "low-back-pain-icd-10.md",
-      "sha256": "ddbbe5a81ca421b5adf87e3f9c3591a5182996d117ac56b2d165d0e40903db93"
+      "sha256": "b92e90cebc735fa2833cec4125e926c9ccd97b92c54856858e70610268013078"
     },
     {
       "old_url": null,
@@ -264,7 +264,7 @@
       "item_id": "item_331k681j6528dcxg6mtymngc54",
       "target": "/blog/low-testosterone-joint-pain-treatment",
       "filename": "low-testosterone-joint-pain-treatment.md",
-      "sha256": "8e61555185b4639e8f466ad7fadf1ddfc31841354b43c4820f04a42feaca6d56"
+      "sha256": "49d9a7c619112df5f197ce7b357cbad2bca3b0f65b357948206718600efde1c0"
     },
     {
       "old_url": null,
@@ -274,7 +274,7 @@
       "item_id": "item_wyat0b93fx43d7fm6bsq4vc574",
       "target": "/blog/lumbar-spinal-stenosis-treatment",
       "filename": "lumbar-spinal-stenosis-treatment.md",
-      "sha256": "476b8dab4b221e6e0c48d8c12362501511287a9f10c748f71f0d3ff9264cf280"
+      "sha256": "0b8e235502a659f4a2a3eaca3f2256bcb28f535653eeb856776702a1a0ae4a9f"
     },
     {
       "old_url": null,
@@ -284,7 +284,7 @@
       "item_id": "item_5ah82b5ws90kz60fa86vx21ftg",
       "target": "/blog/medical-treatment-slow-recovery",
       "filename": "medical-treatment-slow-recovery.md",
-      "sha256": "fff61f0615ac0cd8fd3f03499eacd0d3137acb31587bdf1f204f5e32760e6cdc"
+      "sha256": "7075ff3d7df8d1b42ea0b8d60ddd994a57c6769e8f355a9e438691bf03680e13"
     },
     {
       "old_url": null,
@@ -294,7 +294,7 @@
       "item_id": "item_at83ymvdhd1dx5qxtrvn4n9qww",
       "target": "/blog/mobility-recovery-for-older-adults",
       "filename": "mobility-recovery-for-older-adults.md",
-      "sha256": "0e29bcba119c0249f4503e3e50cd96026fbd9b139fdcea641e56062e4753c4b6"
+      "sha256": "9d9874e465e4962928d3806153ef934c5fc9a299796087a8e54cfe98eaff5847"
     },
     {
       "old_url": null,
@@ -304,7 +304,7 @@
       "item_id": "item_e45pfhwc9s6d354err8xd8hg4r",
       "target": "/blog/muscle-strain-treatment-guide",
       "filename": "muscle-strain-treatment-guide.md",
-      "sha256": "37af6061e3439dcd7e1a6ef57e5c6b36b4e65a37a849c157793672551c18b922"
+      "sha256": "6ccf7a477c5f00a026235e9b09330ba3040f83ba00c8069fe2828852930f6ee6"
     },
     {
       "old_url": null,
@@ -314,7 +314,7 @@
       "item_id": "item_h6gsnm9q9x3n75k4dk5syr1snr",
       "target": "/blog/neck-ache-treatment-relief",
       "filename": "neck-ache-treatment-relief.md",
-      "sha256": "01e73c08409cbad1f6f33843a6a53933efe4bb4fa9725d89cc374ecbb9911bc4"
+      "sha256": "21e7c0c26122c6e18e7ff701d82810d803e23ad4c02e8dcbb8e7a8606d60d91b"
     },
     {
       "old_url": null,
@@ -334,7 +334,7 @@
       "item_id": "item_2yg4na4g7129z4dwccjev1fbb4",
       "target": "/blog/occupational-therapy-vs-physical-therapy",
       "filename": "occupational-therapy-vs-physical-therapy.md",
-      "sha256": "9048f62da2ef22347864590d014c6ca38b5745266612587c71ab1f0d5ff802ed"
+      "sha256": "b0177a8c3b2689a38b72b2490507fbda8cda9bf691483cee4059a28b130d6d84"
     },
     {
       "old_url": null,
@@ -344,7 +344,7 @@
       "item_id": "item_9pch10jcbx3b1e4472yewjnmgc",
       "target": "/blog/osteoporosis-treatment-guide",
       "filename": "osteoporosis-treatment-guide.md",
-      "sha256": "2edb422062a996b1f139a3c3ff635d18a1f6422e104cc6a452d46361412a0c0a"
+      "sha256": "f43c37cc0e621272feb3152a18fc0915400ba74f55cb072204b049a22092e205"
     },
     {
       "old_url": null,
@@ -354,7 +354,7 @@
       "item_id": "item_6f0019h5nd3z57brp5nh7zzp0c",
       "target": "/blog/overactive-bladder-treatment-guide",
       "filename": "overactive-bladder-treatment-guide.md",
-      "sha256": "2ace7376ea832f2f194d579159827f69cbf71749ab000c995da3d8a8cb6f47df"
+      "sha256": "822e7d7464e6981a16c52c59a73ae3ebdc76f3bc67fe3bfd534221ccecc32916"
     },
     {
       "old_url": null,
@@ -364,107 +364,107 @@
       "item_id": "item_wq440rexnd6bdb517qxh93gk48",
       "target": "/blog/physical-medicine-physician-vs-orthopedic-doctor",
       "filename": "physical-medicine-physician-vs-orthopedic-doctor.md",
-      "sha256": "340163c736890216796c322c7590bffe1f93dfbcbf33b4e0d2c40cd69d3fbd87"
+      "sha256": "3dcc330db757a8203738b3db82087e0a70a5927422a85d85bb1aa346124bd25b"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy Exercises for Rotator Cuff Tear: Safe Guide",
+      "title": "Rehabilitation Exercises for a Rotator Cuff Tear: Safe Guide",
       "new_slug": "physical-therapy-exercises-rotator-cuff",
       "status": "authored",
       "item_id": "item_e1nm5wd2ws1as2q7yxhhh6bwm4",
       "target": "/blog/physical-therapy-exercises-rotator-cuff",
       "filename": "physical-therapy-exercises-rotator-cuff.md",
-      "sha256": "35b232a23c8b736830eb847bab5d6455995eb53e95ff19aaf25a55f47370a4dc"
+      "sha256": "219dcf6fb7fbaa4538841f6c4c0306a9c6c878ff0fc2c420a7f96c58224bf6c3"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Gait Training: Supporting Mobility Goals",
+      "title": "Gait Training and Rehabilitation: Supporting Mobility Goals",
       "new_slug": "physical-therapy-for-gait-training",
       "status": "authored",
       "item_id": "item_r8mp2bybc55pn5p7204z5xb5hc",
       "target": "/blog/physical-therapy-for-gait-training",
       "filename": "physical-therapy-for-gait-training.md",
-      "sha256": "6b2e20a52e96152acc84c365929ebb97d56411a95ba5c11c6bed360537b3b65e"
+      "sha256": "8d8f7dace33c820c61c0f9606d77e21959f55b5eb8d8bd3be94219396d3ffada"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Hand Pain: Evaluation and Treatment Options",
+      "title": "Hand Pain Rehabilitation: Evaluation and Care Options",
       "new_slug": "physical-therapy-for-hand-pain",
       "status": "authored",
       "item_id": "item_kmfhjh0za95zs3z2e7j3cmdhj0",
       "target": "/blog/physical-therapy-for-hand-pain",
       "filename": "physical-therapy-for-hand-pain.md",
-      "sha256": "9f82d6d24a5715a55fb733c01cf0ec95100314bbf4c1b590be46649a0713b18d"
+      "sha256": "161911e4030fd80a9a3727205be0fc0234964a47f5d1de4456e4875882693c67"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Hip Labral Tear: What to Expect",
+      "title": "Hip Labral Tear Rehabilitation: What to Expect",
       "new_slug": "physical-therapy-for-hip-labral-tear",
       "status": "authored",
       "item_id": "item_624mdq58v96vq2xmbtq7kkx2fc",
       "target": "/blog/physical-therapy-for-hip-labral-tear",
       "filename": "physical-therapy-for-hip-labral-tear.md",
-      "sha256": "bb2767a853cc6f13c3b004fb772f0746dd01f8187d5030bceb7e89c4c830aff7"
+      "sha256": "00969cb724df97cf4585bf64dff5f7ed7abdbfdc65a1d3c21eb3b76623cc2609"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Knee Meniscus Tear: Evaluation and Options",
+      "title": "Knee Meniscus Tear Rehabilitation: Evaluation and Options",
       "new_slug": "physical-therapy-for-knee-meniscus-tear",
       "status": "authored",
       "item_id": "item_pnrjdvcwd158364xwgq00a71tc",
       "target": "/blog/physical-therapy-for-knee-meniscus-tear",
       "filename": "physical-therapy-for-knee-meniscus-tear.md",
-      "sha256": "4694dd82de3283358aea1dfc8b2f8d6630fb529fe244e9ad1850b0018a34a431"
+      "sha256": "aa7f4d830f799f6855ea3bd38ce955169e8c48b8aaa9fba43a9cfd80a36ab588"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Posture: What an Evaluation May Include",
+      "title": "Posture Concerns: What a Rehabilitation Evaluation May Include",
       "new_slug": "physical-therapy-for-posture",
       "status": "authored",
       "item_id": "item_wtc1ba9m7x4ys1rvwe8fxjwdh8",
       "target": "/blog/physical-therapy-for-posture",
       "filename": "physical-therapy-for-posture.md",
-      "sha256": "f2fdee3687b72428c287b799d7d3a4f918b2d0d5b77ddaeada42fab02270003f"
+      "sha256": "cd986ad03cf87e68f80ee5cf3babc42c7c2341d59ab772be156bf5d29f4d898b"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Scoliosis: What to Discuss at an Evaluation",
+      "title": "Scoliosis Rehabilitation: What to Discuss at an Evaluation",
       "new_slug": "physical-therapy-for-scoliosis",
       "status": "authored",
       "item_id": "item_hz5f1sctrd28dct4arfhsrkae8",
       "target": "/blog/physical-therapy-for-scoliosis",
       "filename": "physical-therapy-for-scoliosis.md",
-      "sha256": "5de2725e3cc6bab00f0bb60956d334291bbea7e708621671d8d6a6b9992c034d"
+      "sha256": "ff43e046c59716824cb982a3da91ee74ba5f8e44b20341e2112378538047cf1b"
     },
     {
       "old_url": null,
-      "title": "Physical Therapy for Herniated Lumbar Disk: How It Heals",
+      "title": "Herniated Lumbar Disk: Non-Surgical Rehab and Recovery",
       "new_slug": "physical-therapy-herniated-lumbar-disk",
       "status": "authored",
       "item_id": "item_x6sf154whd2w51ttgqbg80ed8m",
       "target": "/blog/physical-therapy-herniated-lumbar-disk",
       "filename": "physical-therapy-herniated-lumbar-disk.md",
-      "sha256": "02504fe686eb5b2b06c8686970f07c43789352f323dee2659205a5f56aa88ffe"
+      "sha256": "36bbc91062d3502b81a5d494395ee0ae0cb44722cd0f39693db192135d031cce"
     },
     {
       "old_url": null,
-      "title": "How Physical Therapy Treatment for Sciatica Pain Works",
+      "title": "How Non-Surgical Rehabilitation for Sciatica Pain Works",
       "new_slug": "physical-therapy-sciatica-pain",
       "status": "authored",
       "item_id": "item_gbvx5yrt2s5pk14r4t3naefh5r",
       "target": "/blog/physical-therapy-sciatica-pain",
       "filename": "physical-therapy-sciatica-pain.md",
-      "sha256": "4448dc25ccb9daaec3ae7d933a55d0d5b7abdfd0279c927a5906a22aa3d95372"
+      "sha256": "655c7cd3d553f85ffcc89a590977538ea1836abe113263cce2b1cee03e392867"
     },
     {
       "old_url": null,
-      "title": "Physio for Back Problems: A Complete Guide",
+      "title": "Rehabilitation for Back Problems: A Complete Guide",
       "new_slug": "physio-for-back-problems",
       "status": "authored",
       "item_id": "item_vfkgtcw3cs1ahbfw9a7px509m8",
       "target": "/blog/physio-for-back-problems",
       "filename": "physio-for-back-problems.md",
-      "sha256": "0957efb9c65891a015eb3591f8c617413541643927461a0dc0e62ae85e0caec8"
+      "sha256": "694e088d6ae26560378e70821496cc77b9d79ead46bc2ecdcc2c9b43ff0cabb1"
     },
     {
       "old_url": null,
@@ -474,7 +474,7 @@
       "item_id": "item_mev60tecdn6qka70wy6xjykdgc",
       "target": "/blog/recovery-rehabilitation-richmond-va",
       "filename": "recovery-rehabilitation-richmond-va.md",
-      "sha256": "2a00e944a1ee87313a7815fb5e3be87d8961cf96af871c8534b56c24bc1bf7b9"
+      "sha256": "b326c82131b1e0aec40359c0f3fa784fd3cde80cb246fcb58cf7c0bfa2cfbc13"
     },
     {
       "old_url": null,
@@ -494,7 +494,7 @@
       "item_id": "item_p120wg06yd6wvbys4pfteejcnr",
       "target": "/blog/regenerative-therapy-chronic-back-pain",
       "filename": "regenerative-therapy-chronic-back-pain.md",
-      "sha256": "e3c95c1aa1419d382edcbd70aa2bd7cfbe50cb1afa4b91443aa29629cab4d33e"
+      "sha256": "7734748f08d3ed225660cc38cadc1f0f44b1e6f974bf3666ec11d1ba6863175b"
     },
     {
       "old_url": null,
@@ -514,7 +514,7 @@
       "item_id": "item_b1h1w8t5f91sh3nh657wfnxxqg",
       "target": "/blog/rehabilitation-balance-strength-stroke",
       "filename": "rehabilitation-balance-strength-stroke.md",
-      "sha256": "79aecab899d2168eaa176a45574abf0e07dd26d1d49ff1b5d451e33dc93201a0"
+      "sha256": "97a6d8f328639c93aaf59bc480a09aa8a4f443edae129dc8890f8e1575cdc7ee"
     },
     {
       "old_url": null,
@@ -524,7 +524,7 @@
       "item_id": "item_xj0xpd1ap17zd9r51r9znaxy2m",
       "target": "/blog/rehabilitation-for-balance-problems",
       "filename": "rehabilitation-for-balance-problems.md",
-      "sha256": "94404fe965e2db80329a87e85f9f797cc2e73515ca8b24572d5b203a15c96bc4"
+      "sha256": "d67cae3e37ca20eeba39279b822562ad37fbc50c554c8c30f8141c9811d8ed43"
     },
     {
       "old_url": null,
@@ -534,7 +534,7 @@
       "item_id": "item_e7bgx32n3113q8fkmg0dn03nyw",
       "target": "/blog/rehabilitation-slow-recovery-injury",
       "filename": "rehabilitation-slow-recovery-injury.md",
-      "sha256": "7513fbd54eeac773a4cead95f49f3c983f0b9bc8b18541581a8f71ddac38e026"
+      "sha256": "e0341ac3eabd64a24980de9caa8b633864ceb6ccbb9304623ab69dba7183855e"
     },
     {
       "old_url": null,
@@ -544,7 +544,7 @@
       "item_id": "item_bzmkgbaxts0wx471k0ajbzhzjm",
       "target": "/blog/rheumatoid-arthritis-treatment-guide",
       "filename": "rheumatoid-arthritis-treatment-guide.md",
-      "sha256": "97230b2d3165d16734ec1bdbd0cf3a5a1c9902732cbea3885357e6f6515c25d8"
+      "sha256": "bfd7d7f6da70269b1e7b371b8d426fe0d7a76a00b67832b313871d26de5814bd"
     },
     {
       "old_url": null,
@@ -558,13 +558,13 @@
     },
     {
       "old_url": null,
-      "title": "Sciatica Treatments: How Physical Therapy May Help",
+      "title": "Sciatica Treatments: How Non-Surgical Care May Help",
       "new_slug": "sciatica-treatments-physical-therapy",
       "status": "authored",
       "item_id": "item_5f0t66stan39d5abg1qb185gxc",
       "target": "/blog/sciatica-treatments-physical-therapy",
       "filename": "sciatica-treatments-physical-therapy.md",
-      "sha256": "fb653fcdee0885091f5e11e64ccb1a50920512dbba7f0d7b353123228a11b84d"
+      "sha256": "2f99e9bb06c10c7a6376e06e37630e82cb6d48d976d570f9c5ec0faafaa429ba"
     },
     {
       "old_url": null,
@@ -574,7 +574,7 @@
       "item_id": "item_d148hbybph64k9adn88wxq610r",
       "target": "/blog/shock-wave-treatment-benefits",
       "filename": "shock-wave-treatment-benefits.md",
-      "sha256": "dd6e13f098ae1fbe08826edf112dba651e685c8997c5fee6fce5a5b029ca3f27"
+      "sha256": "7e143f579935c8a85f5ba6bca38872ee5ba85a292a8df6eca3d9c33f99213ebd"
     },
     {
       "old_url": null,
@@ -584,17 +584,17 @@
       "item_id": "item_dznw84kdy949v0x7hvc0rxhjzg",
       "target": "/blog/somatic-therapy-guide",
       "filename": "somatic-therapy-guide.md",
-      "sha256": "aeb2d52bd846d393f1c8032b307d40c4039aaf7e47f8dbf3a6394acefaaf722c"
+      "sha256": "166976cafa0c43f631ee979d7e18a7980b14c641f0f0fa9db94efe44f979d3f5"
     },
     {
       "old_url": null,
-      "title": "Your Guide to Spinal Disc Herniation Physical Therapy",
+      "title": "Your Guide to Spinal Disc Herniation Rehabilitation",
       "new_slug": "spinal-disc-herniation-physical-therapy",
       "status": "authored",
       "item_id": "item_axs3rj0ysh4x19mn9r3bn1vx18",
       "target": "/blog/spinal-disc-herniation-physical-therapy",
       "filename": "spinal-disc-herniation-physical-therapy.md",
-      "sha256": "51fceba186023febf6aab44d18f3b41b11c12c30d4f73cfccde2a24efadd988c"
+      "sha256": "7595658ec7d01bc1cd41f808d865531c0ca8d699cdc2c8abf8f9374a880b7857"
     },
     {
       "old_url": null,
@@ -604,7 +604,7 @@
       "item_id": "item_vneare1yvh54qfbvfrqh5098bw",
       "target": "/blog/spinal-fusion-guide",
       "filename": "spinal-fusion-guide.md",
-      "sha256": "2c72108f552cabf62819bc0834e3221057a33d96ee5b140886153cdeb25700d0"
+      "sha256": "1378bd6af102be2e7e3fb576ef7bf2372b1371586fa0843d4fb998fbc2ad8a88"
     },
     {
       "old_url": null,
@@ -634,7 +634,7 @@
       "item_id": "item_bchxtgnhtn5nk1dwvvs9bg83sw",
       "target": "/blog/stem-cell-therapy-shoulder-cost",
       "filename": "stem-cell-therapy-shoulder-cost.md",
-      "sha256": "d35524e557cee3a926f80e916220bed7538d1c85946e49d7f095667fc3032989"
+      "sha256": "92ebfe7ac6ff7a82c073986f18f72355ece7b44530692a382ec86d602155f877"
     },
     {
       "old_url": null,
@@ -644,7 +644,7 @@
       "item_id": "item_70brrmz9w9381336em59jfd7cc",
       "target": "/blog/symptoms-hormone-imbalance-women",
       "filename": "symptoms-hormone-imbalance-women.md",
-      "sha256": "a896235fa268eba12d8148a8b32a7400823cf3d5f0062009e3d6fd50199bbc49"
+      "sha256": "420609027a3eacb71cef44f0b1f437d65aa28a680cc6ab999a5eb39dffdd6ed4"
     },
     {
       "old_url": null,
@@ -654,27 +654,27 @@
       "item_id": "item_e2e9c1vanx78xb8gea0139gw9g",
       "target": "/blog/thoracic-outlet-syndrome-treatment",
       "filename": "thoracic-outlet-syndrome-treatment.md",
-      "sha256": "60526ae1d53d32054bbab7def588a24853503c8d0758d075ada7257bfc6f7d2c"
+      "sha256": "e1c4a97100aec624219c5f068b403c7e9d86c0ee232125beaa07b3217f8e2ad0"
     },
     {
       "old_url": null,
-      "title": "TMJ Physical Therapy Techniques: A Complete Guide",
+      "title": "TMJ Rehabilitation Techniques: A Patient Guide",
       "new_slug": "tmj-physical-therapy-techniques",
       "status": "authored",
       "item_id": "item_hphmp6n0es38f0gp49hj92xst8",
       "target": "/blog/tmj-physical-therapy-techniques",
       "filename": "tmj-physical-therapy-techniques.md",
-      "sha256": "e594302b61f76a59050c33e0c59c70ec8fc90a6885eeb529dbb05f7023392307"
+      "sha256": "0904a11345b1cfcdefedd4bca3b272d1e583a88c4c98beca946d27a021c28c0e"
     },
     {
       "old_url": null,
-      "title": "Treating Sciatica with Physical Therapy: What to Expect",
+      "title": "Treating Sciatica Without Surgery: What to Expect",
       "new_slug": "treating-sciatica-with-physical-therapy",
       "status": "authored",
       "item_id": "item_5cb2emp9755851kxan6wx5xpqc",
       "target": "/blog/treating-sciatica-with-physical-therapy",
       "filename": "treating-sciatica-with-physical-therapy.md",
-      "sha256": "835376335145ba059a877106fc7df97a12247152ee755a345bc1a4d0753ac7c4"
+      "sha256": "8e25480c5857d2a3b48b33bad95e43844c280257d79ab5bdc9dc37237848aeab"
     },
     {
       "old_url": null,
@@ -684,7 +684,7 @@
       "item_id": "item_t2e4v7awy55v1aae49r014rsy4",
       "target": "/blog/treatment-hip-joint-pain",
       "filename": "treatment-hip-joint-pain.md",
-      "sha256": "5eb80b095bf650be517f7bc98ecde795848959ffb1eed137402d120b1fbdb9da"
+      "sha256": "d31989020dccb9542787986578eeb8a7a431e23850521319f82fca3477fff399"
     },
     {
       "old_url": null,
@@ -694,7 +694,7 @@
       "item_id": "item_8f5hsdz6v959b6f29y6znmax34",
       "target": "/blog/what-causes-joint-pain",
       "filename": "what-causes-joint-pain.md",
-      "sha256": "3cc9e51ed4e07234a2dc6bb807b10816ce414cde455f9228c5e37622879decc6"
+      "sha256": "717d8f4e893db3fd520813ab0fb9a3e351005f54e0f0d81b2f71a500b2d06d8a"
     },
     {
       "old_url": null,
@@ -708,13 +708,13 @@
     },
     {
       "old_url": null,
-      "title": "What to Expect at a Physical Therapy First Visit",
+      "title": "What to Expect at Your First Rehabilitation Clinic Visit",
       "new_slug": "what-to-expect-at-a-physical-therapy-first-visit",
       "status": "authored",
       "item_id": "item_nwpbez2fnd429a372g6cza9f9c",
       "target": "/blog/what-to-expect-at-a-physical-therapy-first-visit",
       "filename": "what-to-expect-at-a-physical-therapy-first-visit.md",
-      "sha256": "9c99b9cf45a9de30f3d82b02122352f2aa618a27d72b26bdf4455351984cb265"
+      "sha256": "6a8e0e7a8c782f8b31175644b5d6f77eccd9868837f9f10d0e53af6168b71065"
     },
     {
       "old_url": null,

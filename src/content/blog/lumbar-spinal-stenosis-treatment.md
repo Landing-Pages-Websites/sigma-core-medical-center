@@ -79,11 +79,11 @@ Track what happens during and after activity. Note whether symptoms build gradua
 
 ### Exercise and rehabilitation
 
-Individualized exercise or physical therapy may be discussed to support mobility, strength, balance, or confidence with movement. The selection and progression of activities should reflect abilities, other health conditions, and response. Some people tolerate certain positions or activities better than others. A program should be adapted rather than copied from a generic online list. Evidence reviews discuss exercise and physical therapy as possible components of nonoperative care, while the appropriate plan remains individual ([review of diagnosis and management](https://pubmed.ncbi.nlm.nih.gov/35503342/)).
+Individualized rehabilitation exercises may be discussed to support mobility, strength, balance, or confidence with movement. The selection and progression of activities should reflect abilities, other health conditions, and response. Some people tolerate certain positions or activities better than others. A program should be adapted rather than copied from a generic online list. Evidence reviews discuss exercise and physical therapy as possible components of nonoperative care, while the appropriate plan remains individual ([review of diagnosis and management](https://pubmed.ncbi.nlm.nih.gov/35503342/)).
 
 Ask how to perform each activity, how often to do it, what sensations are acceptable, and what signs mean you should stop and contact the clinician. If an exercise consistently worsens leg symptoms or causes a new neurologic change, report that rather than assuming discomfort is always part of progress. A professional can reassess whether the activity or overall plan should change.
 
-Rehabilitation may include more than exercises. A therapist may discuss movement strategies for household tasks, pacing, safe ways to build activity, or use of an aid when needed. Judge a program against goals that matter in daily life, not by how many exercises are listed on a sheet.
+Rehabilitation may include more than exercises. Your care team may discuss movement strategies for household tasks, pacing, safe ways to build activity, or use of an aid when needed. Judge a program against goals that matter in daily life, not by how many exercises are listed on a sheet.
 
 ### Medication review
 

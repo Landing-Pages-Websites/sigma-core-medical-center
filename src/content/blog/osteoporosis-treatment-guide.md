@@ -9,7 +9,7 @@ metaTitle: "Osteoporosis Treatment: Options, Safety, and Next Steps"
 description: "Get clear, practical advice on osteoporosis treatment, including medication, nutrition, and exercise tips to help you build and maintain stronger bones."
 ---
 
-Many people think osteoporosis only affects older women, but bone loss can affect men and younger adults, too. Certain medications, hormone changes, low body weight, digestive conditions, kidney disease, thyroid problems, and limited physical activity can all play a role. Because osteoporosis often causes no early symptoms, a fracture may be the first warning sign. Prompt evaluation can uncover weakened bones and possible underlying causes before another injury occurs. Osteoporosis treatment may include medication, vitamin and mineral support, resistance exercise, physical therapy, and fall-prevention strategies. A personalized plan can help you protect your ability to move well and remain independent.
+Many people think osteoporosis only affects older women, but bone loss can affect men and younger adults, too. Certain medications, hormone changes, low body weight, digestive conditions, kidney disease, thyroid problems, and limited physical activity can all play a role. Because osteoporosis often causes no early symptoms, a fracture may be the first warning sign. Prompt evaluation can uncover weakened bones and possible underlying causes before another injury occurs. Osteoporosis treatment may include medication, vitamin and mineral support, resistance exercise, guided rehabilitation, and fall-prevention strategies. A personalized plan can help you protect your ability to move well and remain independent.
 
 ## Key Takeaways
 
@@ -139,7 +139,7 @@ Medication can reduce fracture risk, but your daily habits also play an importan
 
 Lifestyle changes should complement, not replace, medical treatment. Your plan should reflect your bone density, fracture history, age, strength, balance, pain level, and other health conditions. For example, walking may be appropriate for one person, while someone with a vertebral fracture may need supervised, spine-safe exercises first.
 
-If you have osteoporosis, chronic pain, or a previous fracture, speak with your healthcare professional before taking supplements or starting a new exercise program. A physical therapist, registered dietitian, or other qualified professional can help you make changes safely. The [Health in Aging guide to osteoporosis treatment](https://www.healthinaging.org/a-z-topic/osteoporosis/care-treatment) also provides an overview of nutrition, exercise, and other supportive care measures.
+If you have osteoporosis, chronic pain, or a previous fracture, speak with your healthcare professional before taking supplements or starting a new exercise program. A clinician, registered dietitian, or other qualified professional can help you make changes safely. The [Health in Aging guide to osteoporosis treatment](https://www.healthinaging.org/a-z-topic/osteoporosis/care-treatment) also provides an overview of nutrition, exercise, and other supportive care measures.
 
 ### Eat calcium-rich foods and use supplements when appropriate
 
@@ -163,11 +163,11 @@ Maintaining a healthy weight also matters. Being underweight can increase fractu
 
 Weight-bearing and resistance exercises give bones and muscles a reason to stay strong. Walking, climbing stairs, dancing, and low-impact aerobics can place beneficial stress on the bones of your legs and hips. Strength training with weights, resistance bands, or machines can also improve the muscle support around your hips, spine, and other joints.
 
-A reasonable starting goal may be moderate exercise about three times per week, adjusted to your abilities. Begin with manageable sessions and increase the challenge gradually. Proper form matters, especially if you have joint pain, reduced mobility, or a history of fractures. A physical therapist or qualified exercise professional can design a program that supports strength without unnecessary strain. The [Bone Health and Osteoporosis Foundation exercise guidance](https://www.bonehealthandosteoporosis.org/healthy-bones-guide/) can help you prepare for that conversation.
+A reasonable starting goal may be moderate exercise about three times per week, adjusted to your abilities. Begin with manageable sessions and increase the challenge gradually. Proper form matters, especially if you have joint pain, reduced mobility, or a history of fractures. Your care team or a qualified exercise professional can design a program that supports strength without unnecessary strain. The [Bone Health and Osteoporosis Foundation exercise guidance](https://www.bonehealthandosteoporosis.org/healthy-bones-guide/) can help you prepare for that conversation.
 
 ### Improve balance, posture, gait, and impact exercise safely
 
-Balance training can help reduce your chance of falling. Tai Chi, supported standing exercises, heel-to-toe walking, and physical therapy drills may help you feel steadier. Posture exercises can strengthen the muscles that support an upright position and may reduce excessive rounding of the upper back.
+Balance training can help reduce your chance of falling. Tai Chi, supported standing exercises, heel-to-toe walking, and guided balance drills may help you feel steadier. Posture exercises can strengthen the muscles that support an upright position and may reduce excessive rounding of the upper back.
 
 Some people may benefit from carefully selected impact activities, such as brisk walking or gentle step-ups. However, higher-impact exercise is not appropriate for everyone with osteoporosis, particularly people with vertebral fractures or significant pain. Avoid forceful forward bending, twisting, or sudden jolts unless a trained professional has confirmed they are safe. Ask your healthcare team to assess your gait, balance, posture, and exercise technique before increasing intensity.
 
@@ -175,7 +175,7 @@ Some people may benefit from carefully selected impact activities, such as brisk
 
 Pain can make movement feel unsafe, but avoiding activity altogether can lead to weaker muscles, poorer balance, and less independence. The goal is to choose movements that support function without placing unnecessary stress on fragile areas.
 
-If you have a vertebral fracture, your clinician or physical therapist may recommend exercises that keep your spine in a neutral position. Use your legs when lifting, keep objects close to your body, and avoid repeated deep forward bends or forceful twisting. Break demanding tasks into smaller steps and rest before pain becomes severe. Arrange a professional assessment before starting a new exercise program, especially if you have ongoing back pain, height loss, numbness, or a recent fracture. The [National Osteoporosis Foundation movement recommendations](https://www.bonehealthandosteoporosis.org/healthy-bones-guide/) can provide a starting point for discussion.
+If you have a vertebral fracture, your clinician may recommend exercises that keep your spine in a neutral position. Use your legs when lifting, keep objects close to your body, and avoid repeated deep forward bends or forceful twisting. Break demanding tasks into smaller steps and rest before pain becomes severe. Arrange a professional assessment before starting a new exercise program, especially if you have ongoing back pain, height loss, numbness, or a recent fracture. The [National Osteoporosis Foundation movement recommendations](https://www.bonehealthandosteoporosis.org/healthy-bones-guide/) can provide a starting point for discussion.
 
 ### Prevent falls at home and during daily activities
 
@@ -255,7 +255,7 @@ Menopausal hormone therapy can slow bone loss and reduce fractures in some postm
 
 Hormone therapy is not the best choice for every person with osteoporosis. Risks may include blood clots, stroke, gallbladder disease, and certain cancers, depending on the type of therapy, dose, duration, and whether estrogen is combined with a progestogen. A history of breast cancer, unexplained vaginal bleeding, liver disease, clotting disorders, or cardiovascular disease may affect eligibility.
 
-Treatment should be individualized rather than prescribed solely to improve a DXA result. The [North American Menopause Society position statement](https://menopause.org/wp-content/uploads/press-release/ht-position-statement-release.pdf) offers guidance for discussing benefits, risks, and alternatives with a qualified clinician.
+Treatment should be individualized rather than prescribed solely to improve a DXA result. If you are weighing hormone options, you can read about how [hormone optimization](/services/hormone-optimization) is discussed at Sigma Core. The [North American Menopause Society position statement](https://menopause.org/wp-content/uploads/press-release/ht-position-statement-release.pdf) offers guidance for discussing benefits, risks, and alternatives with a qualified clinician.
 
 ### Calcitonin, nasal irritation, and its limited role
 
@@ -365,7 +365,7 @@ Seek emergency care for chest pain, sudden shortness of breath, one-sided weakne
 
 Osteoporosis treatment is not a one-size-fits-all plan. Your clinician considers your fracture history, bone density, age, overall health, medications, kidney function, dental needs, and daily routine before recommending treatment. Two people with similar DXA results may need different approaches because one has kidney disease, another has digestive problems, and a third has already experienced a spinal fracture.
 
-Your goals matter, too. You may want to stay independent, return to hiking, lift weights, travel comfortably, or manage pain without giving up the activities you enjoy. These priorities can shape recommendations for medication, physical therapy, exercise, nutrition, and fall prevention.
+Your goals matter, too. You may want to stay independent, return to hiking, lift weights, travel comfortably, or manage pain without giving up the activities you enjoy. These priorities can shape recommendations for medication, rehabilitation, exercise, nutrition, and fall prevention.
 
 Treatment decisions also involve practical details. Some medications are taken weekly or monthly, while others require an injection or infusion at a clinic. Reviewing these options together can help you choose a plan that feels manageable and medically appropriate. Research suggests that [shared decision-making can improve long-term commitment to osteoporosis treatment](https://link.springer.com/article/10.1007/s00198-022-06453-4).
 
@@ -419,7 +419,7 @@ Cost and insurance coverage belong in the discussion, too. Ask about your expect
 
 ### Align treatment with strength, mobility, pain, and independence goals
 
-Preventing a fracture is central, but your plan should also support the life you want to lead. Tell your clinician if you want to return to hiking, play with grandchildren, travel, lift weights, reduce back pain, or remain independent at home. These goals may guide referrals to physical therapy, exercise specialists, pain care, or fall-prevention services.
+Preventing a fracture is central, but your plan should also support the life you want to lead. Tell your clinician if you want to return to hiking, play with grandchildren, travel, lift weights, reduce back pain, or remain independent at home. These goals may guide rehabilitation, exercise guidance, pain care, or fall-prevention planning.
 
 Medication does not replace movement and functional care. Your plan may include progressive resistance training, safe weight-bearing activity, balance exercises, protein-rich nutrition, and strategies for managing joint or spinal pain. If pain or a previous fracture makes exercise difficult, ask how to begin safely. Your care team can adjust activity as your strength and mobility improve.
 
@@ -559,9 +559,9 @@ For each fall, note where it happened, whether you felt dizzy, and whether you w
 
 ### Assess strength, balance, gait, and fall risk
 
-Osteoporosis care should include steps that reduce the chance of falling. Your clinician or physical therapist may assess leg strength, walking pattern, posture, balance, footwear, vision, and how safely you move from sitting to standing. These checks can identify risks that a DXA scan cannot show.
+Osteoporosis care should include steps that reduce the chance of falling. Your clinician may assess leg strength, walking pattern, posture, balance, footwear, vision, and how safely you move from sitting to standing. These checks can identify risks that a DXA scan cannot show.
 
-A tailored exercise plan may include resistance training, weight-bearing activity, balance work, and posture exercises. If you have significant pain, a vertebral fracture, joint disease, or a history of falls, seek guidance before adding impact exercise or heavier weights. A physical therapist can modify movements for your abilities and teach safer ways to bend, turn, climb stairs, and carry items. [HealthInAging.org recommends balance and strengthening activities](https://www.healthinaging.org/a-z-topic/osteoporosis/care-treatment) as part of osteoporosis care and fall prevention.
+A tailored exercise plan may include resistance training, weight-bearing activity, balance work, and posture exercises. If you have significant pain, a vertebral fracture, joint disease, or a history of falls, seek guidance before adding impact exercise or heavier weights. Your care team can modify movements for your abilities and teach safer ways to bend, turn, climb stairs, and carry items. [HealthInAging.org recommends balance and strengthening activities](https://www.healthinaging.org/a-z-topic/osteoporosis/care-treatment) as part of osteoporosis care and fall prevention.
 
 ### Adjust treatment when monitoring shows a need
 
@@ -571,7 +571,7 @@ The decision should reflect your fracture risk, age, overall health, kidney func
 
 ## How Can Osteoporosis Treatment Help You Stay Active and Independent?
 
-Osteoporosis treatment is about more than improving a bone-density result. Its broader purpose is to reduce fracture risk while helping you preserve strength, mobility, confidence, and control over daily life. A complete plan may include medication, nutrition, safe exercise, physical therapy, fall prevention, and regular follow-up. Together, these strategies can support the abilities you rely on for walking, climbing stairs, traveling, working, and spending time with family and friends.
+Osteoporosis treatment is about more than improving a bone-density result. Its broader purpose is to reduce fracture risk while helping you preserve strength, mobility, confidence, and control over daily life. A complete plan may include medication, nutrition, safe exercise, rehabilitation, fall prevention, and regular follow-up. Together, these strategies can support the abilities you rely on for walking, climbing stairs, traveling, working, and spending time with family and friends.
 
 Staying active with osteoporosis requires the right type and amount of movement. Exercise should reflect your fracture risk, current strength, joint health, balance, pain level, and medical history. The [American Bone Health exercise guidance](https://www.americanbonehealth.org/exercise/) highlights the value of resistance, balance, posture, and weight-bearing activities, while also noting that certain movements may need to be modified. Your healthcare team can help you build a plan that challenges your body safely and supports your long-term goals.
 
@@ -583,21 +583,21 @@ A common goal is moderate exercise several times per week, but the appropriate i
 
 ### Modify exercise for joint problems, chronic pain, or fractures
 
-Osteoporosis and arthritis often occur together, and chronic pain can make standard exercise routines difficult. You may need lower-impact options, shorter sessions, extra rest, or equipment that reduces stress on painful joints. Stationary cycling, water exercise, supported walking, and carefully selected resistance movements may work well for some people. A clinician or physical therapist can help identify the safest choices for you.
+Osteoporosis and arthritis often occur together, and chronic pain can make standard exercise routines difficult. You may need lower-impact options, shorter sessions, extra rest, or equipment that reduces stress on painful joints. Stationary cycling, water exercise, supported walking, and carefully selected resistance movements may work well for some people. A clinician can help identify the safest choices for you.
 
 Certain movements may increase fracture risk when bone loss is advanced, particularly forceful bending, twisting, or repeated rounding of the spine. Yoga and Pilates are not automatically unsafe, but some positions may need to be changed or avoided. [HealthInAging.org advises people with major bone loss to seek professional advice](https://www.healthinaging.org/a-z-topic/osteoporosis/care-treatment) before starting these activities. New, severe, or persistent pain should be evaluated rather than dismissed as a normal response to exercise.
 
-### Use physical therapy to improve gait, balance, and movement
+### Use rehabilitation to improve gait, balance, and movement
 
-A physical therapist can assess how you walk, stand, turn, reach, and recover your balance. This evaluation may identify movement patterns that increase fall risk or place extra strain on your spine, hips, or knees. Your therapist can then recommend exercises to improve leg and core strength, coordination, posture, and movement control.
+A clinician trained in physical medicine and rehabilitation can assess how you walk, stand, turn, reach, and recover your balance. This evaluation may identify movement patterns that increase fall risk or place extra strain on your spine, hips, or knees. Your care team can then recommend exercises to improve leg and core strength, coordination, posture, and movement control.
 
-Physical therapy may also teach you how to use a cane, walker, brace, or other support correctly. Treatment can address weakness after a fracture, fear of falling, reduced endurance, and difficulty with household tasks. The Bone Health and Osteoporosis Foundation explains physical therapy’s role in supporting posture, balance, and safe movement. Ask whether an in-person assessment is appropriate before increasing exercise independently.
+Rehabilitation may also teach you how to use a cane, walker, brace, or other support correctly. Guided care can address weakness after a fracture, fear of falling, reduced endurance, and difficulty with household tasks. The Bone Health and Osteoporosis Foundation explains the role of physical therapy and guided exercise in supporting posture, balance, and safe movement. Ask whether an in-person assessment is appropriate before increasing exercise independently.
 
 ### Protect the spine during daily activities
 
 Spinal compression fractures can cause sudden back pain, height loss, a stooped posture, and difficulty standing upright. Even without a diagnosed fracture, safer movement habits can reduce strain on the spine. Bend through your hips and knees instead of rounding your back, keep objects close to your body, and avoid lifting loads that feel too heavy or awkward.
 
-A physical therapist can show you safer ways to get out of bed, reach into cabinets, carry laundry, and work in the garden. Appropriate strengthening and posture training may also make standing and walking more comfortable. Contact a healthcare professional if you develop sudden back pain, a noticeable posture change, or loss of height. These symptoms can signal a vertebral fracture, even without a major accident.
+Your care team can show you safer ways to get out of bed, reach into cabinets, carry laundry, and work in the garden. Appropriate strengthening and posture training may also make standing and walking more comfortable. Contact a healthcare professional if you develop sudden back pain, a noticeable posture change, or loss of height. These symptoms can signal a vertebral fracture, even without a major accident.
 
 ### Rehabilitate after hip, spine, or wrist fractures
 
@@ -635,7 +635,7 @@ Adults 65 and older, people over 50 who have had a fracture after a minor injury
 Diagnosis may include a DXA scan of the hip and spine, fracture history, FRAX risk assessment, medication review, and blood or urine tests. Your clinician may also recommend spinal imaging if you have height loss, posture changes, or new back pain. Bone density is important, but your overall fracture risk determines whether treatment may be appropriate.
 
 **Can exercise and nutrition help manage osteoporosis?**\
-Yes. Adequate calcium, vitamin D, protein, resistance training, weight-bearing activity, balance exercises, and fall-prevention measures all support bone and muscle health. If you have a fracture, chronic pain, or significant bone loss, work with a qualified healthcare professional or physical therapist to choose safe exercises and modify movements that strain the spine or painful joints.
+Yes. Adequate calcium, vitamin D, protein, resistance training, weight-bearing activity, balance exercises, and fall-prevention measures all support bone and muscle health. If you have a fracture, chronic pain, or significant bone loss, work with a qualified healthcare professional to choose safe exercises and modify movements that strain the spine or painful joints.
 
 **How long do osteoporosis medications need to be taken?**\
 Treatment duration depends on your medication, fracture risk, bone-density results, side effects, kidney health, and whether you experience a new fracture. Some people may take a supervised break from certain bisphosphonates, while denosumab requires careful scheduling and a planned transition if it is stopped. Do not start, stop, or delay treatment without discussing it with your healthcare professional.

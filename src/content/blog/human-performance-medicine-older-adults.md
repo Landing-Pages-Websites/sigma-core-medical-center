@@ -109,7 +109,7 @@ Progress can vary from week to week. Illness, changes in sleep, medication, or p
 
 ### Coordinate With Current Clinicians and Refer for Specialized Care
 
-Make sure your care team understands your goals and the parts of the plan you are following. With your permission, your primary care clinician, physical therapist, specialist, and other providers can share relevant information about your symptoms, medications, restrictions, and progress. Coordination is especially helpful when you have multiple health conditions or are considering a new treatment alongside existing care.
+Make sure your care team understands your goals and the parts of the plan you are following. With your permission, your primary care clinician, specialists, and other providers can share relevant information about your symptoms, medications, restrictions, and progress. Coordination is especially helpful when you have multiple health conditions or are considering a new treatment alongside existing care.
 
 Ask who is responsible for each part of the plan and whom to contact if your symptoms change. If a concern calls for expertise beyond your current team, ask about a referral. For example, mental health support may help when grief, stress, or depression affects daily activities or your ability to take part in care. The [American Medical Association’s guide to behavioral health integration](https://www.ama-assn.org/system/files/bhi-older-adults-practice-guide.pdf) describes how behavioral health support can be incorporated into care for older adults. Clear communication helps keep recommendations consistent and suited to your needs.
 
@@ -127,7 +127,7 @@ A balanced routine can support the strength, stamina, and steadiness you need fo
 
 Walking, stationary cycling, swimming, and water exercise can build cardiovascular fitness and make daily activities feel less tiring. A widely used goal is at least 150 minutes of moderate aerobic activity each week, spread across several days. At a moderate pace, your breathing and heart rate increase, but you can still talk.
 
-You don’t need to reach that target immediately. Begin with a few minutes at a time, then add time or sessions as your stamina improves. The [Physical Activity Guidelines for Americans](https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines) recommend that older adults include aerobic activity, muscle strengthening, and balance activities. If walking worsens joint pain, consider a lower-impact option and ask a clinician or physical therapist what may work for you.
+You don’t need to reach that target immediately. Begin with a few minutes at a time, then add time or sessions as your stamina improves. The [Physical Activity Guidelines for Americans](https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines/current-guidelines) recommend that older adults include aerobic activity, muscle strengthening, and balance activities. If walking worsens joint pain, consider a lower-impact option and ask your clinician what may work for you.
 
 ### Strength Train at Least Twice a Week and Progress Gradually
 
@@ -139,7 +139,7 @@ If you’re new to strength exercise, start with a few controlled repetitions an
 
 Heavy weights aren’t required to build strength. Resistance bands, light dumbbells, and body-weight exercises can all be useful when they provide enough challenge. Choose a level of resistance that lets you move with control and maintain good form. The last few repetitions should feel difficult, but not painful or so strenuous that you need to hold your breath or swing your body.
 
-Try a few repetitions of a supported chair stand or band row to assess how it feels. If you can complete them comfortably, gradually add repetitions or resistance. If the exercise is too difficult, reduce the resistance or range of motion. A physical therapist or qualified exercise professional can help you adjust movements and check your technique.
+Try a few repetitions of a supported chair stand or band row to assess how it feels. If you can complete them comfortably, gradually add repetitions or resistance. If the exercise is too difficult, reduce the resistance or range of motion. Your clinician or a qualified exercise professional can help you adjust movements and check your technique.
 
 ### Practice Balance, Flexibility, and Functional Movements
 
@@ -149,7 +149,7 @@ Tai chi, gentle yoga, and Pilates can combine controlled movement with balance a
 
 ### Adapt Activity for Pain, Joint Conditions, Fall Risk, and Recovery
 
-Exercise should challenge you, but sharp or worsening pain is a reason to stop and reassess. If a movement bothers a joint, try a smaller range of motion, lighter resistance, or a lower-impact alternative. With guidance from a clinician or physical therapist, you may be able to begin with isometric exercises, which involve gently tightening a muscle without moving the joint, then progress as tolerated.
+Exercise should challenge you, but sharp or worsening pain is a reason to stop and reassess. If a movement bothers a joint, try a smaller range of motion, lighter resistance, or a lower-impact alternative. With guidance from your clinician, you may be able to begin with isometric exercises, which involve gently tightening a muscle without moving the joint, then progress as tolerated.
 
 If you’re at risk of falling, practice balance near a counter or with professional supervision. Allow time to recover between sessions, especially when starting a routine or returning after illness. Mild soreness can follow unfamiliar activity, but persistent pain, swelling, dizziness, or unusual shortness of breath warrants medical advice. Ask your care team how to adjust activity to your health and recovery needs.
 

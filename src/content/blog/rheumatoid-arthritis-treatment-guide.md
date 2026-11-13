@@ -51,7 +51,7 @@ RA commonly affects the same joints on both sides of the body, such as both hand
 
 Ongoing inflammation can damage cartilage and bone and may weaken the tendons and ligaments that support a joint. As the joint changes, it may become painful, unstable, or harder to move through its normal range. In the hands and feet, these changes can affect grip, balance, walking, and fine motor tasks.
 
-Pain may also lead you to use a joint less often. Over time, reduced activity can contribute to muscle weakness, lower endurance, and less confidence with movement. This may make stairs, rising from a chair, exercise, or recreational activities more difficult. Physical therapy and carefully planned strength training can support function, but controlling RA inflammation is essential for reducing the risk of lasting damage and preserving independence.
+Pain may also lead you to use a joint less often. Over time, reduced activity can contribute to muscle weakness, lower endurance, and less confidence with movement. This may make stairs, rising from a chair, exercise, or recreational activities more difficult. Guided rehabilitation exercise and carefully planned strength training can support function, but controlling RA inflammation is essential for reducing the risk of lasting damage and preserving independence.
 
 ### How RA Affects the Eyes, Skin, Lungs, Heart, and Other Organs
 
@@ -61,9 +61,9 @@ RA is also associated with higher cardiovascular risk, particularly when inflamm
 
 ### Why Early RA Treatment Matters
 
-Early diagnosis and treatment can reduce inflammation before it causes permanent joint damage. Disease-modifying antirheumatic drugs, commonly called DMARDs, target RA activity rather than only easing pain. Depending on your condition, a care plan may also include physical therapy, exercise modifications, joint injections, nutrition support, and strategies for improving sleep and energy.
+Early diagnosis and treatment can reduce inflammation before it causes permanent joint damage. Disease-modifying antirheumatic drugs, commonly called DMARDs, target RA activity rather than only easing pain. Depending on your condition, a care plan may also include rehabilitation exercises, exercise modifications, joint injections, nutrition support, and strategies for improving sleep and energy.
 
-Schedule an evaluation if you have ongoing joint swelling, prolonged morning stiffness, symmetrical hand or foot symptoms, or unexplained fatigue. A provider may use a physical examination, blood tests, and imaging to identify RA and assess its activity. Research published in the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC6422329/) indicates that early diagnosis and treatment can help reduce permanent joint damage. Prompt care also creates more opportunity to protect strength, mobility, independence, and the activities you value.
+Seek an evaluation if you have ongoing joint swelling, prolonged morning stiffness, symmetrical hand or foot symptoms, or unexplained fatigue. A provider may use a physical examination, blood tests, and imaging to identify RA and assess its activity. Research published in the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC6422329/) indicates that early diagnosis and treatment can help reduce permanent joint damage. Prompt care also creates more opportunity to protect strength, mobility, independence, and the activities you value.
 
 ## How Do Providers Diagnose and Monitor RA?
 
@@ -125,7 +125,7 @@ Regular visits help your care team measure progress and identify concerns early.
 
 Active RA can cause swollen, tender joints and stiffness that lasts for an hour or longer after waking. Inflammation may make ordinary activities, such as opening jars, climbing stairs, walking, or getting dressed, more difficult. One of the first treatment goals is to reduce inflammatory activity so daily movement becomes more comfortable.
 
-Disease-modifying antirheumatic drugs, or DMARDs, target the immune activity that contributes to RA. Pain relievers, short-term corticosteroids, injections, heat, physical therapy, and activity adjustments may provide additional relief. Reducing pain, swelling, and inflammation remains central to improving quality of life, according to the Cleveland Clinic’s overview of rheumatoid arthritis.
+Disease-modifying antirheumatic drugs, or DMARDs, target the immune activity that contributes to RA. Pain relievers, short-term corticosteroids, injections, heat, guided exercise, and activity adjustments may provide additional relief. Reducing pain, swelling, and inflammation remains central to improving quality of life, according to the Cleveland Clinic’s overview of rheumatoid arthritis.
 
 Tell your provider which joints are affected, how long stiffness lasts, and whether symptoms interfere with sleep or activity. These details can help distinguish controlled disease from ongoing inflammation.
 
@@ -149,7 +149,7 @@ Early specialist care also matters. A [review of RA treatment](https://pmc.ncbi.
 
 Protecting your ability to move, exercise, work, and manage daily tasks is a central part of RA treatment. Inflammation can contribute to muscle weakness when pain causes you to avoid activity. Stiffness and joint damage may also affect balance, endurance, and coordination.
 
-A rehabilitation plan can address these challenges safely. Physical therapy may include range-of-motion exercises, progressive strengthening, balance work, walking practice, and strategies that reduce stress on painful joints. An occupational therapist can recommend joint-protection techniques, braces, or practical changes to daily tasks.
+A rehabilitation plan can address these challenges safely. It may include range-of-motion exercises, progressive strengthening, balance work, walking practice, and strategies that reduce stress on painful joints. An occupational therapist can recommend joint-protection techniques, braces, or practical changes to daily tasks.
 
 Regular activity can help maintain joint movement and strengthen supporting muscles, as the [Arthritis Foundation explains in its RA treatment guidance](https://www.arthritis.org/health-wellness/treatment/treatment-plan/disease-management/treatments-for-rheumatoid-arthritis). Exercise should match your symptoms, health history, and current fitness level. During a flare, your program may need temporary adjustments rather than complete inactivity.
 
@@ -263,7 +263,7 @@ It helps to separate two treatment goals: feeling better now and protecting your
 
 DMARDs, biologics, and JAK inhibitors address disease activity more directly. They may lower inflammation, reduce the chance of additional joint damage, and help preserve function. Because they often work more slowly, your provider may use an NSAID or corticosteroid temporarily while waiting for a disease-modifying medicine to take effect.
 
-Pain can also come from osteoarthritis, tendon problems, nerve irritation, muscle weakness, or established joint damage. If pain continues even when inflammation is controlled, your care team may recommend physical therapy, imaging, an injection, or another pain-management approach.
+Pain can also come from osteoarthritis, tendon problems, nerve irritation, muscle weakness, or established joint damage. If pain continues even when inflammation is controlled, your care team may recommend rehabilitation exercises, imaging, an injection, or another pain-management approach.
 
 Understanding the difference can help you judge whether treatment is meeting its full purpose. The [Arthritis Foundation explains symptom control and disease-modifying treatment](https://www.arthritis.org/health-wellness/treatment/treatment-plan/disease-management/treatments-for-rheumatoid-arthritis).
 
@@ -337,7 +337,7 @@ This does not mean JAK inhibitors are unsuitable for every patient. Providers co
 
 Medication can control autoimmune inflammation, but it does not replace strength training, mobility work, or rehabilitation. Research supports regular physical activity for improving muscle strength, aerobic capacity, fatigue, physical function, and quality of life in people with RA. Low-impact cardio, resistance exercises, range-of-motion work, and balance training can be adapted to your symptoms and abilities.
 
-A physical therapist can help select exercises that protect painful joints while building strength. An occupational therapist can recommend joint-protection techniques and practical changes for household tasks, work, and self-care. During a flare, your plan may shift toward gentle movement, pacing, and recovery. The Arthritis Foundation’s RA exercise guidance offers examples of activity approaches that can be adjusted to different needs.
+A clinician can help select exercises that protect painful joints while building strength. An occupational therapist can recommend joint-protection techniques and practical changes for household tasks, work, and self-care. During a flare, your plan may shift toward gentle movement, pacing, and recovery. The Arthritis Foundation’s RA exercise guidance offers examples of activity approaches that can be adjusted to different needs.
 
 ### Consider How DMARDs Affect Cardiovascular Health
 
@@ -411,19 +411,19 @@ The required tests depend on the medication and the patient’s health. They may
 
 Treatment goals should describe what a patient wants to do, not only what appears on a lab report. One person may want to walk comfortably, climb stairs, garden, or play with grandchildren. Another may want to return to strength training, travel with fewer limitations, or continue working and caring for family. Providers can connect these priorities to measurable targets, such as fewer swollen joints, improved grip strength, less morning stiffness, or greater walking tolerance.
 
-After inflammation is controlled, rehabilitation and performance-focused care can help rebuild strength, balance, mobility, and confidence. Physical therapy may address movement patterns and joint protection, while progressive resistance training can support muscle and bone health when appropriate. Adults with RA benefit from individualized guidance about exercise intensity, recovery, and flare management. The [American College of Rheumatology’s exercise guidance](https://rheumatology.org/patients/exercise-and-arthritis) supports regular physical activity as part of comprehensive arthritis care, with adjustments based on symptoms, ability, and treatment response.
+After inflammation is controlled, rehabilitation and performance-focused care can help rebuild strength, balance, mobility, and confidence. Rehabilitation may address movement patterns and joint protection, while progressive resistance training can support muscle and bone health when appropriate. Adults with RA benefit from individualized guidance about exercise intensity, recovery, and flare management. The [American College of Rheumatology’s exercise guidance](https://rheumatology.org/patients/exercise-and-arthritis) supports regular physical activity as part of comprehensive arthritis care, with adjustments based on symptoms, ability, and treatment response.
 
 ## Which Supportive Therapies Help RA Pain and Mobility?
 
-Rheumatoid arthritis treatment should address more than inflammation. A well-rounded plan can also help you maintain joint motion, preserve strength, manage fatigue, and stay independent. Physical therapy, occupational therapy, hand therapy, braces, pacing, and pain-management strategies can make daily activities more manageable while your medical team treats the underlying autoimmune disease.
+Rheumatoid arthritis treatment should address more than inflammation. A well-rounded plan can also help you maintain joint motion, preserve strength, manage fatigue, and stay independent. Rehabilitation exercises, occupational therapy, hand therapy, braces, pacing, and pain-management strategies can make daily activities more manageable while your medical team treats the underlying autoimmune disease.
 
 Supportive therapies may be especially useful when pain, stiffness, weakness, balance problems, or low energy interfere with exercise and everyday tasks. Your treatment plan should reflect your current symptoms, affected joints, fitness level, other health conditions, and personal goals. Someone who wants to keep hiking or playing golf may need a different rehabilitation plan than someone focused on climbing stairs safely or preparing meals without pain.
 
 These approaches complement medical treatment rather than replace it. The [American College of Rheumatology treatment guidelines](https://pmc.ncbi.nlm.nih.gov/articles/PMC9273041/) emphasize disease-modifying treatment for controlling RA activity. Rehabilitation helps you maintain function and participate more safely in the activities that matter to you.
 
-### Use Physical Therapy to Improve Motion, Strength, and Balance
+### Use Rehabilitation to Improve Motion, Strength, and Balance
 
-A physical therapist can design an exercise program that maintains joint motion without placing unnecessary stress on inflamed areas. Treatment may include gentle range-of-motion exercises, progressive strengthening, balance work, walking practice, and low-impact cardiovascular conditioning.
+A clinician can design an exercise program that maintains joint motion without placing unnecessary stress on inflamed areas. Treatment may include gentle range-of-motion exercises, progressive strengthening, balance work, walking practice, and low-impact cardiovascular conditioning.
 
 The goal is not to push through severe pain. Instead, therapy should help your body move more efficiently and become stronger over time. Strengthening the muscles around affected joints may improve stability and make daily activities less demanding. Your therapist can adjust exercises when you have swelling, fatigue, joint deformity, or a flare.
 
@@ -489,7 +489,7 @@ This coordination can help distinguish active RA from deconditioning, mechanical
 
 Lifestyle strategies cannot replace disease-modifying antirheumatic drugs, but they can support medical treatment and help you stay active, capable, and independent. Rheumatoid arthritis (RA) affects more than the joints, so symptom management should also address strength, mobility, sleep, nutrition, stress, cardiovascular health, and daily routines.
 
-Your plan should reflect your disease activity, joint damage, fitness level, medications, and other health conditions. Someone with stable RA may tolerate structured resistance training, while someone experiencing a flare may need shorter sessions, more recovery time, or guidance from a physical therapist. The [Arthritis Foundation’s RA treatment guidance](https://www.arthritis.org/health-wellness/treatment/treatment-plan/disease-management/treatments-for-rheumatoid-arthritis) supports regular movement, energy conservation, and individualized care.
+Your plan should reflect your disease activity, joint damage, fitness level, medications, and other health conditions. Someone with stable RA may tolerate structured resistance training, while someone experiencing a flare may need shorter sessions, more recovery time, or guidance from a clinician. The [Arthritis Foundation’s RA treatment guidance](https://www.arthritis.org/health-wellness/treatment/treatment-plan/disease-management/treatments-for-rheumatoid-arthritis) supports regular movement, energy conservation, and individualized care.
 
 If pain, swelling, fatigue, or stiffness continues to limit normal activities, tell your rheumatology or rehabilitation team. Persistent symptoms may indicate that your treatment plan needs review.
 
@@ -503,7 +503,7 @@ A balanced exercise program includes three types of movement:
 
 You do not need intense workouts to benefit. Start with a manageable level and focus on consistency. Two brief strength sessions and several short walks each week may be more practical than one demanding workout.
 
-A physical therapist can assess your movement, identify weak areas, and create a program around your joints and goals. Professional guidance is particularly helpful if you have joint deformity, balance concerns, osteoporosis, previous surgery, or prolonged inactivity. The goal is to improve strength and function without aggravating joint inflammation.
+A clinician can assess your movement, identify weak areas, and create a program around your joints and goals. Professional guidance is particularly helpful if you have joint deformity, balance concerns, osteoporosis, previous surgery, or prolonged inactivity. The goal is to improve strength and function without aggravating joint inflammation.
 
 ### Try Walking, Swimming, Yoga, and Tai Chi
 
@@ -583,7 +583,7 @@ RA and limited activity can affect bone strength, while ongoing inflammation may
 
 Cardiovascular protection includes regular movement, blood pressure and cholesterol checks, smoking cessation, nutritious food choices, and effective control of RA inflammation. Keep up with recommended screenings rather than waiting for symptoms.
 
-Fall prevention also matters. Improve lighting, remove loose rugs, install grab bars where needed, and wear supportive footwear. A physical therapist can evaluate balance, walking mechanics, and lower-body strength. If you use a cane or walker, ask for a professional fitting. These steps can help you remain active while reducing the chance that a fall interrupts your independence.
+Fall prevention also matters. Improve lighting, remove loose rugs, install grab bars where needed, and wear supportive footwear. Your care team can evaluate balance, walking mechanics, and lower-body strength. If you use a cane or walker, ask for a professional fitting. These steps can help you remain active while reducing the chance that a fall interrupts your independence.
 
 ### Address Pain, Fatigue, Access, and Adherence Barriers
 
@@ -610,7 +610,7 @@ Bring these notes to appointments. Patterns can help your provider assess diseas
 
 ## Which Procedures and Regenerative Options May Help?
 
-Procedures can have a place in rheumatoid arthritis care, particularly when one or two joints remain painful or swollen despite an appropriate medication plan. An injection may calm inflammation in a specific area, improve movement, or make it easier to participate in physical therapy. Surgery may help when lasting joint damage causes severe pain, deformity, or loss of function. These options work best as part of a larger plan that controls RA throughout the body.
+Procedures can have a place in rheumatoid arthritis care, particularly when one or two joints remain painful or swollen despite an appropriate medication plan. An injection may calm inflammation in a specific area, improve movement, or make it easier to participate in rehabilitation exercises. Surgery may help when lasting joint damage causes severe pain, deformity, or loss of function. These options work best as part of a larger plan that controls RA throughout the body.
 
 Before recommending a procedure, your clinician should determine what is causing the pain. Symptoms may come from active autoimmune inflammation, cartilage or bone damage, tendon irritation, bursitis, nerve compression, osteoarthritis, or an old injury. Your medical history, physical examination, blood tests, and imaging can help separate these causes. The treatment that helps an inflamed joint may not help pain caused by advanced structural damage.
 
@@ -648,7 +648,7 @@ Before paying for a procedure, ask for the exact product name, preparation metho
 
 ### Consider Surgery When Joint Damage Causes Disability
 
-Surgery may be appropriate when joint damage causes persistent pain, deformity, instability, or loss of function. It may also be considered when you struggle with essential activities, such as walking, using your hands, climbing stairs, or sleeping, despite medication, injections, physical therapy, bracing, and activity changes. Surgery is usually considered after nonsurgical treatments no longer provide enough relief.
+Surgery may be appropriate when joint damage causes persistent pain, deformity, instability, or loss of function. It may also be considered when you struggle with essential activities, such as walking, using your hands, climbing stairs, or sleeping, despite medication, injections, rehabilitation, bracing, and activity changes. Surgery is usually considered after nonsurgical treatments no longer provide enough relief.
 
 The procedure depends on the joint and the extent of damage. Options may include synovectomy, tendon repair, joint fusion, partial replacement, or total joint replacement. The goal is to reduce pain and restore useful function, not simply to change an imaging result. A surgical consultation does not require you to proceed. It gives you a chance to discuss expected benefits, risks, recovery time, rehabilitation, and how the operation may affect the activities you value.
 
@@ -668,7 +668,7 @@ Before each appointment, write down your main concerns, recent symptoms, medicat
 
 ### Choose a Rheumatologist and Rehabilitation Team
 
-Look for a rheumatologist who listens carefully, explains options in plain language, and takes your goals seriously. You may also benefit from a coordinated team that includes a physical therapist, occupational therapist, hand therapist, pain specialist, nutrition professional, or exercise specialist familiar with inflammatory arthritis.
+Look for a rheumatologist who listens carefully, explains options in plain language, and takes your goals seriously. You may also benefit from a coordinated team that includes a rehabilitation clinician, occupational therapist, hand therapist, pain specialist, nutrition professional, or exercise specialist familiar with inflammatory arthritis.
 
 During an initial visit, ask how the practice measures disease activity, handles medication questions, and communicates laboratory or imaging results. Ask whether the team works with rehabilitation professionals who understand joint protection, balance, strength, and age-related changes in mobility.
 
@@ -767,7 +767,7 @@ Include family members or caregivers in appointments when helpful, especially if
 Yes. Many people manage RA successfully with a treatment plan designed to reduce immune-related inflammation and protect joint function. Your provider may adjust medication, rehabilitation, exercise, and monitoring over time to work toward remission or low disease activity.
 
 **Is exercise safe if I have rheumatoid arthritis?**\
-Usually, regular movement is helpful when adapted to your symptoms and health. Walking, water exercise, mobility work, resistance training, and balance exercises can support strength and independence. During a flare, reduce intensity and ask a physical therapist how to remain active without placing excess stress on swollen joints.
+Usually, regular movement is helpful when adapted to your symptoms and health. Walking, water exercise, mobility work, resistance training, and balance exercises can support strength and independence. During a flare, reduce intensity and ask your clinician how to remain active without placing excess stress on swollen joints.
 
 **What should I do if my RA medication causes side effects?**\
 Contact the prescribing clinician and describe the symptoms, when they started, and whether they occur after a dose. Do not stop or change a disease-modifying medication without medical guidance. Your provider may adjust the dose, change the timing, order testing, or recommend another treatment.
@@ -776,4 +776,4 @@ Contact the prescribing clinician and describe the symptoms, when they started, 
 No. A corticosteroid injection may provide temporary relief in one painful joint, but it does not treat inflammation throughout the body. Regenerative treatments may be considered for selected causes of pain, but current evidence does not support using them as a replacement for DMARDs or rheumatology care.
 
 **When should I contact a provider about possible RA symptoms?**\
-Schedule an evaluation for ongoing joint swelling, prolonged morning stiffness, symmetrical hand or foot symptoms, unexplained fatigue, or declining mobility. Seek prompt medical attention for chest pain, severe breathing problems, sudden weakness, a high fever, or signs of a serious infection.
+Seek an evaluation for ongoing joint swelling, prolonged morning stiffness, symmetrical hand or foot symptoms, unexplained fatigue, or declining mobility. Seek prompt medical attention for chest pain, severe breathing problems, sudden weakness, a high fever, or signs of a serious infection.

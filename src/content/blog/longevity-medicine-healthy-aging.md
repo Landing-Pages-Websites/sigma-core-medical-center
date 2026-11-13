@@ -79,7 +79,7 @@ Start with changes that feel manageable, such as adding vegetables to lunch or c
 
 A well-rounded activity plan can include strength training, aerobic activity such as walking, balance exercises, and mobility work. These activities support the strength, endurance, and coordination used in everyday tasks. The American Heart Association’s physical activity recommendations offer a general starting point, but your plan should reflect your current fitness, symptoms, and goals.
 
-If joint pain, neuropathy, or limited mobility makes exercise challenging, ask a clinician or physical therapist how to modify movements and progress safely. Begin at a level you can manage, then increase activity gradually. Individualized exercise can help maintain physical function and reduce fall risk, as discussed in this overview of exercise and longevity. Stop and seek medical advice if you develop new or severe symptoms during activity.
+If joint pain, neuropathy, or limited mobility makes exercise challenging, ask your clinician how to modify movements and progress safely. Begin at a level you can manage, then increase activity gradually. Individualized exercise can help maintain physical function and reduce fall risk, as discussed in this overview of exercise and longevity. Stop and seek medical advice if you develop new or severe symptoms during activity.
 
 ### Prioritize sleep, stress management, recovery, and social connection
 
@@ -113,7 +113,7 @@ Your clinician can explain what each result means for you and whether it needs f
 
 Useful goals connect to activities that matter to you and can be checked over time. You might aim to walk a little farther, rise from a chair more easily, improve balance, or follow a regular strength routine. If managing a health risk is a priority, your clinician can identify appropriate measures, such as blood pressure or blood sugar, to monitor.
 
-Choose goals that fit your current abilities and health. A clinician or physical therapist can help adapt movement to joint problems, pain, or other conditions, then suggest gradual steps. It can also help to record a starting point, so you can recognize changes rather than relying on memory. Nutrition, exercise, sleep, and stress management may all be part of the plan, tailored to your needs and preferences.
+Choose goals that fit your current abilities and health. Your clinician or care team can help adapt movement to joint problems, pain, or other conditions, then suggest gradual steps. It can also help to record a starting point, so you can recognize changes rather than relying on memory. Nutrition, exercise, sleep, and stress management may all be part of the plan, tailored to your needs and preferences.
 
 ### Track progress and adjust the plan with clinician guidance
 
@@ -235,7 +235,7 @@ Ask what is known about a proposed test or treatment, what remains uncertain, an
 
 ### Prioritize established lifestyle measures over experimental interventions
 
-Regular movement, nutritious food, adequate sleep, and stress management are practical foundations for healthy aging. The right approach depends on your health and abilities. If joint pain makes walking uncomfortable, for example, ask about lower-impact activities or physical therapy rather than pushing through pain.
+Regular movement, nutritious food, adequate sleep, and stress management are practical foundations for healthy aging. The right approach depends on your health and abilities. If joint pain makes walking uncomfortable, for example, ask about lower-impact activities or guided rehabilitation exercises rather than pushing through pain.
 
 Small, sustainable changes can support strength, mobility, and overall health. Before trying a supplement or newer treatment, ask about the quality of the human evidence, possible side effects, and how it may interact with your medications. The Sermo guide to longevity medicine also stresses personalizing lifestyle recommendations instead of relying on generic advice. Your clinician can help you choose changes that are realistic for your routine and safe for your current health needs.
 
