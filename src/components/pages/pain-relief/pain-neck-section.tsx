@@ -65,7 +65,7 @@ function RouteStrip(): React.ReactElement {
             Movement first.
           </p>
         </div>
-        <Link data-mega-cta="book-appointment" href="/book" className="group flex flex-col justify-center bg-royal px-5 py-6 transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
+        <Link data-mega-cta="book-appointment" href="/book" className="group flex flex-col justify-center bg-royal py-6 pr-5 pl-[calc(14%+0.75rem)] transition-colors [clip-path:polygon(0_0,100%_0,100%_100%,0_100%,14%_50%)] hover:bg-royal-hover sm:pl-14 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
           <span className="font-heading text-xl font-bold">See how to book</span>
           <span className="mt-2 text-xs font-semibold tracking-[0.2em] uppercase">
             Online or

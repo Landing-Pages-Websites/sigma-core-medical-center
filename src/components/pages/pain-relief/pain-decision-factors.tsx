@@ -20,7 +20,7 @@ export function PainDecisionFactors(): React.ReactElement {
             </p>
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-4 text-silver" />
           </div>
-          <span aria-hidden className="absolute right-0 bottom-6 hidden w-56 flex-col gap-2 lg:flex">
+          <span aria-hidden className="absolute right-0 bottom-6 hidden w-56 flex-col gap-2 xl:flex">
             {HEAD_STEPS.map((step, index) => (
               <span key={`${step}-${index}`} className={`block h-4 bg-navy/75 ${step}`} />
             ))}
@@ -34,11 +34,11 @@ export function PainDecisionFactors(): React.ReactElement {
         </div>
       </div>
 
-      <ol className="grid grid-cols-2 bg-royal sm:grid-cols-4 lg:grid-cols-8">
+      <ol className="grid grid-cols-2 bg-royal sm:grid-cols-4 xl:grid-cols-8">
         {DECISIONS.map((question, index) => (
           <li
             key={question}
-            className={`${index % 2 === 0 ? "bg-navy text-white" : "bg-[#ecebe7] text-navy"} flex min-h-32 items-center px-7 py-5 text-sm leading-snug font-semibold lg:-mr-4 lg:last:mr-0 lg:[clip-path:polygon(14%_0,100%_0,86%_100%,0_100%)] lg:px-8`}
+            className={`${index % 2 === 0 ? "bg-navy text-white" : "bg-[#ecebe7] text-navy"} flex min-h-32 items-center px-7 py-5 text-sm leading-snug font-semibold xl:-mr-4 xl:last:mr-0 xl:[clip-path:polygon(14%_0,100%_0,86%_100%,0_100%)] xl:px-8`}
           >
             {question}
           </li>

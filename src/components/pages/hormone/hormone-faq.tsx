@@ -56,7 +56,7 @@ export function HormoneFaq(): React.ReactElement {
               </li>
             ))}
           </ul>
-          <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64 lg:absolute lg:right-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:bottom-10 lg:mt-0">
+          <div className="mt-6 grid gap-3 sm:ml-auto sm:w-64">
             <Link data-mega-cta="book-appointment" href="/book" className={OUTLINE_BUTTON}>
               See how to book <ArrowRight size={18} aria-hidden className="shrink-0" />
             </Link>

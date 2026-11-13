@@ -53,7 +53,7 @@ function ServiceModule({ index }: { index: number }): React.ReactElement {
           style={{ clipPath: MODULE_CUTS[index] }}
         />
         <article
-          className={`relative p-6 pl-7 ${MODULE_TONES[index]}`}
+          className={`relative p-6 pl-[calc(6%+1rem)] ${MODULE_TONES[index]}`}
           style={{ clipPath: MODULE_CUTS[index] }}
         >
           {index === SERVICES.secondary.length - 1 && (

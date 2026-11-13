@@ -32,7 +32,7 @@ export function InformedPathB(): React.ReactElement {
                 className="relative border border-silver/50 bg-paper p-6 shadow-[10px_10px_0_0_rgba(32,39,46,0.14)]"
               >
                 <SteppedBars className="absolute top-5 right-5" />
-                <h3 className="flex items-start gap-3 pr-14 text-2xl leading-tight font-semibold text-ink">
+                <h3 className="flex items-start gap-3 pr-20 text-2xl leading-tight font-semibold text-ink">
                   <BracketMark className="mt-1.5" />
                   {step.title}
                 </h3>

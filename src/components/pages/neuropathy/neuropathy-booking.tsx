@@ -22,7 +22,7 @@ export function NeuropathyBooking(): React.ReactElement {
             <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-royal" />
           </div>
           <p className="mt-8 text-xs font-semibold tracking-[0.18em] uppercase">Explore your route</p>
-          <ul className="mt-3 grid gap-2 sm:grid-cols-3">
+          <ul className="mt-3 grid gap-2 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
             {ROUTE_CARDS.map(({ title, body, icon: Icon, tone }) => (
               <li key={title} className={`${tone} px-4 py-4 sm:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)] sm:pr-8`}>
                 <p className="flex items-center gap-2.5 text-sm leading-tight font-semibold">
