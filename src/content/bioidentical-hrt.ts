@@ -100,7 +100,7 @@ export const BIOIDENTICAL_HRT_PAGE: ServicePageData = {
     "A good consultation leaves room for questions, alternatives, and a decision that fits your health history and goals.",
   faqButtons: [
     { label: "Review hormone optimization", href: "/services/hormone-optimization" },
-    { label: "Book a conversation", href: "/book" },
+    { label: "See how to book", href: "/book" },
   ],
   bookingCtaPoints: ["Discuss your goals", "Review appropriate options", "Choose an informed next step"],
   sources: ["U.S. Food and Drug Administration", "The Endocrine Society", "The Menopause Society"],

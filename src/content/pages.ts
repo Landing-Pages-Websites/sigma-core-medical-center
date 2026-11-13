@@ -288,7 +288,7 @@ export const REGENERATIVE_PAGE: ServicePageData = {
   ],
   faqQuote: "We do not publish products, indications, efficacy claims, costs, eligibility, or timelines pending approval and verification.",
   faqButtons: [
-    { label: "Book a Consultation", href: "/book" },
+    { label: "See how to book", href: "/book" },
     { label: "Contact the Clinic", href: "/contact" },
   ],
   bookingCtaPoints: ["Talk through your goals", "Get clear on next steps", "Make an informed decision"],
@@ -342,7 +342,7 @@ export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
   ],
   faqQuote: "Individual results vary. General website information is not medical advice and does not replace an evaluation.",
   faqButtons: [
-    { label: "Book a Consultation", href: "/book" },
+    { label: "See how to book", href: "/book" },
     { label: "Contact the Clinic", href: "/contact" },
   ],
   bookingCtaPoints: ["Discuss your goals", "Review appropriate next steps", "Make an informed decision"],

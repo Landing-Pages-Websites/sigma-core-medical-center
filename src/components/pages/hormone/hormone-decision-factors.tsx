@@ -89,7 +89,7 @@ export function HormoneDecisionFactors(): React.ReactElement {
         <p className="relative max-w-[22rem] px-5 leading-snug">
           <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
           <Link data-mega-cta="book-appointment" href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            How to book
+            See how to book
           </Link>
           : call our team to schedule a Free Consultation.
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-royal" />

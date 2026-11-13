@@ -59,7 +59,7 @@ export function NeuropathyDecisions(): React.ReactElement {
             <p className="max-w-[15rem] text-sm leading-snug">Prepare for a consultation, then see how to book by phone.</p>
             {["/about", "/book"].map((href) => (
               <Link key={href} href={href} className="inline-flex max-w-full min-h-10 items-center border border-white px-4 text-sm font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-                {href === "/book" ? "Explore a consultation" : "About"}
+                {href === "/book" ? "See how to book" : "About"}
               </Link>
             ))}
           </div>

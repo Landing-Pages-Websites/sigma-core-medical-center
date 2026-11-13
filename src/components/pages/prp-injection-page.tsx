@@ -53,7 +53,7 @@ export function PrpInjectionPage(): React.ReactElement {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link data-mega-cta="book-appointment" href="/book" className="inline-flex min-h-14 items-center gap-5 bg-royal px-6 text-lg font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
-                Schedule a consultation <ArrowRight size={21} aria-hidden />
+                See how to book <ArrowRight size={21} aria-hidden />
               </Link>
               <Link href="#how-prp-is-discussed" className="inline-flex min-h-14 items-center gap-4 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
                 See what to expect <ArrowRight size={21} aria-hidden />
@@ -117,7 +117,7 @@ export function PrpInjectionPage(): React.ReactElement {
               Your consultation can help determine whether PRP belongs in the care conversation. No procedure should be presented as a cure or guaranteed result.
             </p>
             <Link data-mega-cta="book-appointment" href="/book" className="mt-8 inline-flex min-h-14 items-center gap-5 border border-white px-6 text-lg font-semibold transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
-              Book a consultation <ArrowRight size={21} aria-hidden />
+              See how to book <ArrowRight size={21} aria-hidden />
             </Link>
           </div>
           <div className="grid gap-3 sm:grid-cols-3 lg:pt-12">
@@ -195,7 +195,7 @@ export function PrpInjectionPage(): React.ReactElement {
           </div>
           <div className="lg:justify-self-end">
             <Link data-mega-cta="book-appointment" href="/book" className="inline-flex min-h-16 items-center gap-6 bg-royal px-7 text-xl font-semibold text-white transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px]">
-              Schedule a consultation <ArrowRight size={24} aria-hidden />
+              See how to book <ArrowRight size={24} aria-hidden />
             </Link>
             <p className="mt-4 max-w-[25rem] text-sm leading-snug text-ink/65">Consultation availability and candidacy are determined through the appropriate clinical process.</p>
           </div>

@@ -46,7 +46,7 @@ export function ChooseNextStep(): React.ReactElement {
           >
             <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="h-8 w-8 shrink-0 sm:h-11 sm:w-11" />
             <span aria-hidden className="h-12 w-px bg-white/40" />
-            <span className="font-heading text-2xl font-semibold sm:text-3xl">Explore consultation information</span>
+            <span className="font-heading text-2xl font-semibold sm:text-3xl">See how to book</span>
             <ChevronRight size={28} className="ml-auto transition-transform group-hover:translate-x-1 sm:mr-6" aria-hidden />
           </Link>
         </div>

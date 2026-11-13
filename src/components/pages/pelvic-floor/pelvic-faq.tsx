@@ -9,7 +9,7 @@ type FaqRow = { question: string; answer: string; action: { label: string; href?
 
 const FAQ_ROWS: readonly FaqRow[] = [
   { question: "What is an incontinence evaluation?", answer: "It is a provider-led review of your history, symptoms, goals, and relevant health context. This page cannot diagnose you or determine whether therapy is appropriate.", action: { label: "See how to book", href: "/book" } },
-  { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation.", action: { label: "Prepare for an evaluation", href: "/book" } },
+  { question: "Could pelvic floor therapy be appropriate?", answer: "That depends on your individual evaluation. A qualified provider can discuss whether pelvic floor therapy, another option, or a different referral may fit your situation.", action: { label: "See how to book", href: "/book" } },
   { question: "Is online booking available?", answer: `There is no online calendar. Call ${CONTACT.phone} to book a Free Consultation, or send a non-medical inquiry through the contact page.`, action: { label: "See how to book", href: "/book" } },
   { question: "Where is the clinic?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.`, action: { label: "Learn more about us", href: "/about" } },
   { question: "Are privacy details available?", answer: "Yes. Read our Website Privacy Policy and Notice of Privacy Practices to see how information is handled.", action: { label: "Privacy Policy", policy: "/privacy" } },

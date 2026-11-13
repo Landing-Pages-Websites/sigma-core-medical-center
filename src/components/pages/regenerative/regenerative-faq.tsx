@@ -56,10 +56,7 @@ export function RegenerativeFaq(): React.ReactElement {
         <div className="flex w-full flex-wrap justify-end gap-4 bg-royal px-6 py-8 sm:px-10 lg:w-[62%] lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)]">
           {FAQ_ACTIONS.map((action) => (
             <Link key={action.href} href={action.href} className="group flex w-64 items-center justify-between border border-white px-4 py-2.5 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-              <span>
-                <span className="block font-heading text-lg font-bold">{action.label}</span>
-                <span className="block text-sm">{action.href}</span>
-              </span>
+              <span className="font-heading text-lg font-bold">{action.label}</span>
               <ArrowRight size={22} aria-hidden className="shrink-0" />
             </Link>
           ))}

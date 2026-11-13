@@ -18,7 +18,7 @@ export function PelvicHero(): React.ReactElement {
             A plain-language overview of pelvic floor therapy, incontinence evaluation, and the questions you may want to bring to a provider. This page does not diagnose or promise an outcome.
           </p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-7 inline-flex max-w-full min-h-16 w-fit items-center gap-6 border border-white/80 bg-royal px-8 text-xl font-semibold transition-colors hover:bg-royal-hover focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Book a Free Consultation <ArrowRight size={22} aria-hidden className="shrink-0" />
+            See how to book <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>
 

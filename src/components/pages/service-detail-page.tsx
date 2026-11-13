@@ -164,7 +164,7 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
               </div>
               <div className="mt-10 flex flex-wrap gap-3">
                 <Link href="/about" className="inline-flex h-12 items-center gap-2 border-2 border-action px-5 font-semibold text-action hover:bg-action hover:text-white">About our approach <ArrowRight size={17} /></Link>
-                <Link data-mega-cta="book-appointment" href="/book" className="inline-flex h-12 items-center gap-2 bg-action px-5 font-semibold text-white hover:bg-hover">Book a conversation <ArrowRight size={17} /></Link>
+                <Link data-mega-cta="book-appointment" href="/book" className="inline-flex h-12 items-center gap-2 bg-action px-5 font-semibold text-white hover:bg-hover">See how to book <ArrowRight size={17} /></Link>
               </div>
             </>
           )}

@@ -19,7 +19,7 @@ export function AboutHero(): React.ReactElement {
             <p>Our focus includes human performance, pain relief, recovery, regenerative care, hormone optimization, and longevity. A consultation helps connect your goals and questions to possible next steps.</p>
           </div>
           <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="mt-6 inline-flex max-w-full min-h-12 items-center gap-4 bg-royal px-6 text-base font-semibold transition-colors hover:bg-royal-hover sm:ml-10 focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            Explore consultation options <ChevronRight size={18} aria-hidden className="shrink-0" />
+            Request a Free Consultation <ChevronRight size={18} aria-hidden className="shrink-0" />
           </Link>
           <div className="mt-7 max-w-[19rem] border-l-[3px] border-royal pl-3 sm:ml-10">
             <p className="text-xs font-bold tracking-[0.06em] uppercase">Clinical leadership</p>

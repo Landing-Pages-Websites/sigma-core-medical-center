@@ -43,7 +43,7 @@ export function NeuropathyBooking(): React.ReactElement {
           <div className="absolute inset-x-0 bottom-0 flex h-[46%] flex-col items-center justify-center bg-royal px-6 lg:left-[2%] lg:[clip-path:polygon(9%_0,100%_0,100%_100%,0_100%)]">
             <Link data-mega-cta="book-appointment" href="/book" className="group flex items-center gap-5 border-2 border-white px-7 py-4 transition-colors hover:bg-white hover:text-royal focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
               <CalendarDays size={44} strokeWidth={1.4} aria-hidden className="shrink-0" />
-              <span className="font-heading text-2xl font-bold sm:text-3xl">Explore a consultation</span>
+              <span className="font-heading text-2xl font-bold sm:text-3xl">See how to book</span>
               <ChevronRight size={28} aria-hidden className="shrink-0" />
             </Link>
             <p className="mt-4 text-xs text-white/75">Outcomes vary. We do not guarantee any results.</p>

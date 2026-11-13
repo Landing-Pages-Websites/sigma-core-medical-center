@@ -46,7 +46,7 @@ export function HormoneBookingCta(): React.ReactElement {
             Call {CONTACT.phone} to book a Free Consultation. Our team schedules by phone.
           </p>
           <Link data-mega-cta="book-appointment" href="/book" className="mt-5 inline-flex max-w-full min-h-14 w-fit items-center gap-4 bg-white px-6 text-xl font-semibold whitespace-normal text-navy transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            See booking details <ArrowRight size={22} aria-hidden className="shrink-0" />
+            See how to book <ArrowRight size={22} aria-hidden className="shrink-0" />
           </Link>
         </div>
       </div>
