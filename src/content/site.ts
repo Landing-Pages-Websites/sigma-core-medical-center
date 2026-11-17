@@ -165,6 +165,7 @@ export const FAQ = {
 export const CONTACT = {
   address: "9020 Stony Point Pkwy #100, Richmond, VA 23235",
   phone: "804-486-7699",
+  officePhone: "804-531-0770",
   email: "front.desk@sigmacoremedicalcenter.com",
   hours: "Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM",
 } as const;

@@ -9,7 +9,7 @@ import { GhostWord } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
 
 const ITEM_INDENTS = ["lg:ml-0", "lg:ml-8", "lg:ml-16", "lg:ml-24"];
-const PHONE_HREF = "tel:+18044867699";
+const OFFICE_PHONE_HREF = "tel:+18045310770";
 
 export function FaqLocationB(): React.ReactElement {
   const accordion = useAccordion();
@@ -80,10 +80,10 @@ export function FaqLocationB(): React.ReactElement {
               <span className="block max-w-60">{CONTACT.address}</span>
               <a
                 data-mega-cta="call-now"
-                href={PHONE_HREF}
+                href={OFFICE_PHONE_HREF}
                 className="mt-3 block w-fit text-white underline underline-offset-2 hover:text-white/80"
               >
-                {CONTACT.phone}
+                {CONTACT.officePhone}
               </a>
               <a
                 data-mega-cta="email"
