@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 const PHONE = "804-486-7699";
 const PHONE_HREF = "tel:+18044867699";
 const ADDRESS = "9020 Stony Point Pkwy #100, Richmond, VA 23235";
-const HOURS = "Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM";
+const HOURS = "Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM";
 
 const DISCUSSION_BLOCKS = [
   {
@@ -69,7 +69,7 @@ const FAQS = [
   {
     question: "Where is Sigma Core located?",
     answer:
-      "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM. Call 804-486-7699 to confirm current details.",
+      "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Hours are Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM. Call 804-486-7699 to confirm current details.",
   },
 ] as const;
 

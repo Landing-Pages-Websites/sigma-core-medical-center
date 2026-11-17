@@ -115,7 +115,7 @@ export const UTILITY_DOCUMENTS = {
     sections: [
       {
         heading: "Request assistance or report a barrier",
-        body: "Call 804-486-7699 or email front.desk@sigmacoremedicalcenter.com. Please identify the page or feature you could not use, describe the difficulty and tell us how you prefer to be contacted. Do not include sensitive medical information in your report. You may also contact us by mail at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Our office hours are Monday through Thursday, 8:00 a.m. to noon and 12:30 p.m. to 5:30 p.m.",
+        body: "Call 804-486-7699 or email front.desk@sigmacoremedicalcenter.com. Please identify the page or feature you could not use, describe the difficulty and tell us how you prefer to be contacted. Do not include sensitive medical information in your report. You may also contact us by mail at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Our office hours are Monday through Thursday, 8:30 a.m. to noon and 1:00 p.m. to 5:00 p.m.",
       },
       {
         heading: "Website accessibility",

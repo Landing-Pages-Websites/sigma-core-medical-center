@@ -29,7 +29,7 @@ const contactDetails = [
     value: (
       <>
         <span className="block">Monday–Thursday</span>
-        <span className="block">8:00 AM–12:00 PM and 12:30–5:30 PM</span>
+        <span className="block">8:30 AM–12:00 PM and 1:00–5:00 PM</span>
       </>
     ),
   },

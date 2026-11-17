@@ -22,7 +22,7 @@ function OpeningPanel({ className }: { className: string }): React.ReactElement 
         </a>
       </p>
       <p className="mt-2 text-sm leading-snug text-white/70">
-        Open Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.
+        Open Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM.
       </p>
     </div>
   );
