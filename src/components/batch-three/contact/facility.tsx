@@ -14,7 +14,7 @@ const visitDetails: { label: string; value: React.ReactNode }[] = [
       </>
     ),
   },
-  { label: "Parking & accessibility", value: `For parking and accessibility questions, call ${CONTACT.phone}.` },
+  { label: "Parking & accessibility", value: `For parking and accessibility questions, call ${CONTACT.officePhone}.` },
 ];
 
 export function ContactFacility(): React.ReactElement {
