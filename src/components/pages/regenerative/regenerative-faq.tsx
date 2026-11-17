@@ -8,7 +8,7 @@ const FAQ_ITEMS = [
   { question: "Why aren’t specific options listed?", answer: "Options, risks, cost, and timing depend on your evaluation. Ask about them during a Free Consultation." },
   { question: "Why is an appropriate provider important?", answer: "Individual care decisions require a qualified provider. Ask who would perform and oversee any procedure, and their qualifications." },
   { question: "How do I book?", answer: `Request a Free Consultation online or call ${CONTACT.phone}.` },
-  { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:00 AM–12:00 PM and 12:30 PM–5:30 PM.` },
+  { question: "Where is the clinic located?", answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM.` },
 ] as const;
 
 const FAQ_ACTIONS = [
