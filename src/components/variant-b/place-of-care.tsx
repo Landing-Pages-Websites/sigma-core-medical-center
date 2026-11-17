@@ -17,8 +17,8 @@ function OpeningPanel({ className }: { className: string }): React.ReactElement 
         9020 Stony Point Pkwy #100, Richmond, VA 23235
       </p>
       <p className="mt-2 text-sm text-white/80">
-        <a data-mega-cta="call-now" className="underline-offset-2 hover:underline" href="tel:+18044867699">
-          804-486-7699
+        <a data-mega-cta="call-now" className="underline-offset-2 hover:underline" href="tel:+18045310770">
+          804-531-0770
         </a>
       </p>
       <p className="mt-2 text-sm leading-snug text-white/70">

@@ -14,7 +14,7 @@ export type UtilityDocument = {
 export const UTILITY_EFFECTIVE_DATE = { iso: "2026-11-01", label: "November 1, 2026" } as const;
 
 export const UTILITY_CONTACT = {
-  phone: "804-486-7699",
+  phone: "804-531-0770",
   email: "front.desk@sigmacoremedicalcenter.com",
   addressLines: ["9020 Stony Point Pkwy #100", "Richmond, VA 23235"],
 } as const;
@@ -51,7 +51,7 @@ export const UTILITY_DOCUMENTS = {
       },
       {
         heading: "Updates and contact",
-        body: "We may update this policy by posting a revised version and effective date on this page. For website privacy questions, contact Sigma Core Medical Center at 804-486-7699 or front.desk@sigmacoremedicalcenter.com, or write to 9020 Stony Point Pkwy #100, Richmond, VA 23235. Please do not include sensitive medical details in an initial email.",
+        body: "We may update this policy by posting a revised version and effective date on this page. For website privacy questions, contact Sigma Core Medical Center at 804-531-0770 or front.desk@sigmacoremedicalcenter.com, or write to 9020 Stony Point Pkwy #100, Richmond, VA 23235. Please do not include sensitive medical details in an initial email.",
       },
     ],
     links: [
@@ -99,7 +99,7 @@ export const UTILITY_DOCUMENTS = {
       },
       {
         heading: "Questions, requests and complaints",
-        body: "To exercise a right, request a paper copy or make a privacy complaint, contact Sigma Core Medical Center at 804-486-7699 and ask for the person responsible for patient privacy. You may also write to 9020 Stony Point Pkwy #100, Richmond, VA 23235, or email front.desk@sigmacoremedicalcenter.com to ask how to submit your request securely. Please do not send medical records or sensitive details in an initial email. You may also complain to the U.S. Department of Health and Human Services Office for Civil Rights at https://www.hhs.gov/ocr/complaints/index.html, by phone at 1-877-696-6775, or by mail to 200 Independence Avenue SW, Washington, DC 20201. We will not retaliate against you for filing a complaint.",
+        body: "To exercise a right, request a paper copy or make a privacy complaint, contact Sigma Core Medical Center at 804-531-0770 and ask for the person responsible for patient privacy. You may also write to 9020 Stony Point Pkwy #100, Richmond, VA 23235, or email front.desk@sigmacoremedicalcenter.com to ask how to submit your request securely. Please do not send medical records or sensitive details in an initial email. You may also complain to the U.S. Department of Health and Human Services Office for Civil Rights at https://www.hhs.gov/ocr/complaints/index.html, by phone at 1-877-696-6775, or by mail to 200 Independence Avenue SW, Washington, DC 20201. We will not retaliate against you for filing a complaint.",
       },
     ],
     links: [
@@ -115,7 +115,7 @@ export const UTILITY_DOCUMENTS = {
     sections: [
       {
         heading: "Request assistance or report a barrier",
-        body: "Call 804-486-7699 or email front.desk@sigmacoremedicalcenter.com. Please identify the page or feature you could not use, describe the difficulty and tell us how you prefer to be contacted. Do not include sensitive medical information in your report. You may also contact us by mail at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Our office hours are Monday through Thursday, 8:30 a.m. to noon and 1:00 p.m. to 5:00 p.m.",
+        body: "Call 804-531-0770 or email front.desk@sigmacoremedicalcenter.com. Please identify the page or feature you could not use, describe the difficulty and tell us how you prefer to be contacted. Do not include sensitive medical information in your report. You may also contact us by mail at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Our office hours are Monday through Thursday, 8:30 a.m. to noon and 1:00 p.m. to 5:00 p.m.",
       },
       {
         heading: "Website accessibility",
@@ -147,7 +147,7 @@ export const UTILITY_DOCUMENTS = {
       },
       {
         heading: "Inquiries, appointments and the care relationship",
-        body: "Reading this website or sending an inquiry does not establish a clinician-patient relationship, provide treatment or confirm an appointment. The office must confirm scheduling and any next steps directly. Contact the office at 804-486-7699 for appointment information. The website does not replace clinical intake, informed consent or any separate treatment agreement.",
+        body: "Reading this website or sending an inquiry does not establish a clinician-patient relationship, provide treatment or confirm an appointment. The office must confirm scheduling and any next steps directly. Contact the office at 804-531-0770 for appointment information. The website does not replace clinical intake, informed consent or any separate treatment agreement.",
       },
       {
         heading: "Services, fees and clinical decisions",
@@ -167,7 +167,7 @@ export const UTILITY_DOCUMENTS = {
       },
       {
         heading: "Updates and contact",
-        body: "We may update these terms by posting a revised version and effective date here. Questions about website use can be directed to Sigma Core Medical Center at 804-486-7699 or front.desk@sigmacoremedicalcenter.com, or by mail to 9020 Stony Point Pkwy #100, Richmond, VA 23235.",
+        body: "We may update these terms by posting a revised version and effective date here. Questions about website use can be directed to Sigma Core Medical Center at 804-531-0770 or front.desk@sigmacoremedicalcenter.com, or by mail to 9020 Stony Point Pkwy #100, Richmond, VA 23235.",
       },
     ],
     links: [

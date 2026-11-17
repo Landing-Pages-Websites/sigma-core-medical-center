@@ -38,7 +38,7 @@ export function medicalBusinessJsonLd(): Record<string, unknown> {
     "@id": `${SITE_URL}/#medicalbusiness`,
     name: "Sigma Core Medical Center",
     url: SITE_URL,
-    telephone: "+1-804-486-7699",
+    telephone: "+1-804-531-0770",
     address: {
       "@type": "PostalAddress",
       streetAddress: "9020 Stony Point Pkwy #100",

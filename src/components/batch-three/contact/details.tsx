@@ -1,4 +1,4 @@
-const PHONE = "804-486-7699";
+const PHONE = "804-531-0770";
 const EMAIL = "front.desk@sigmacoremedicalcenter.com";
 // Desktop value column is ~0.37vw wide; the address is ~17.5em, so 1.9vw keeps it on one line.
 const EMAIL_FIT_CLASS = "min-[761px]:text-[length:clamp(15px,1.9vw,30px)]";
