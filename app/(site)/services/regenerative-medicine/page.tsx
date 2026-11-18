@@ -7,7 +7,7 @@ import { serviceJsonLd } from "@/content/seo";
 export const metadata: Metadata = {
   title: "Regenerative Medicine",
   description: REGENERATIVE_PAGE.intro,
-  robots: { index: false, follow: true },
+  robots: { index: true, follow: true },
 };
 
 export default function RegenerativeMedicineRoute(): React.ReactElement {
