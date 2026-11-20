@@ -37,6 +37,13 @@ export type FooterCard = {
   body: string;
 };
 
+export type EducationLink = {
+  href: string;
+  label: string;
+  prefix: string;
+  suffix: string;
+};
+
 export type ServicePageData = {
   slug: string;
   eyebrow: string;
@@ -49,6 +56,7 @@ export type ServicePageData = {
   orientationCards: InfoCard[];
   decisionTitle: string;
   decisionIntro: string;
+  educationLink?: EducationLink;
   decisionCards: InfoCard[];
   expectTitle: string;
   expectBody: string;
@@ -318,6 +326,12 @@ export const SPINAL_DECOMPRESSION_PAGE: ServicePageData = {
   decisionTitle: "Questions that shape the next step",
   decisionIntro:
     "Bring the details that help a clinician understand what you want to keep doing and what has changed. The right approach depends on the person, not just the location of discomfort.",
+  educationLink: {
+    href: "https://www.sigmacoremedicalcenter.com/blog/spinal-stenosis-treatment",
+    label: "spinal stenosis treatment guide",
+    prefix: "For related education, read our ",
+    suffix: " to review what an evaluation may consider.",
+  },
   decisionCards: [
     { title: "Your symptoms and patterns", body: "Note where concerns occur, when they began, what changes them, and whether they affect movement, sleep, or routine." },
     { title: "Your goals for movement", body: "Describe the activities, work, exercise, travel, or daily tasks you want to protect or return to." },
