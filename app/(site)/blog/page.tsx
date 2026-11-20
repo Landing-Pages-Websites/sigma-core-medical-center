@@ -11,8 +11,8 @@ import { buildBlogMetadata } from "@/lib/blog-seo";
 const BLOG_INTRO = "Plain-language articles on pain, movement, recovery, hormones, and pelvic health, to help you prepare questions for your care.";
 
 export const metadata: Metadata = buildBlogMetadata({
-  title: "Blog",
-  description: `Articles and updates from ${BRAND.name}.`,
+  title: "Richmond, VA Medical Education | Sigma Core Medical Center",
+  description: "Explore Richmond, VA medical education from Sigma Core on pain, neuropathy, recovery, hormone health, and longevity. Request a Free Consultation.",
   path: "/blog",
 });
 
