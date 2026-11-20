@@ -5,9 +5,9 @@ import { JsonLd } from "@/components/shared/json-ld";
 import { serviceJsonLd } from "@/content/seo";
 
 export const metadata: Metadata = {
-  title: "Spinal Decompression Therapy",
+  title: { absolute: "Spinal Decompression Therapy in Richmond, VA | Sigma Core" },
   description:
-    "Learn how a consultation about spinal decompression therapy may help clarify next steps for back and neck concerns at Sigma Core Medical Center.",
+    "Explore spinal decompression therapy in Richmond, VA through a consultation about back and neck concerns, goals, risks, and next steps at Sigma Core Medical Center.",
 };
 
 export default function SpinalDecompressionPage(): React.ReactElement {
