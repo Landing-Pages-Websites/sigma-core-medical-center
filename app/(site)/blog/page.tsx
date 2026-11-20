@@ -3,8 +3,9 @@ import type { ReactElement } from "react";
 import BlogConsultCta from "@/components/blog/BlogConsultCta";
 import FeaturedPost from "@/components/blog/FeaturedPost";
 import PostCard from "@/components/blog/PostCard";
+import { JsonLd } from "@/components/shared/json-ld";
 import { TallBracket } from "@/components/pages/shared/page-motifs";
-import { BRAND } from "@/content/site";
+import { BRAND, SITE_URL } from "@/content/site";
 import { listPublishedPosts } from "@/lib/blog";
 import { buildBlogMetadata } from "@/lib/blog-seo";
 
@@ -17,8 +18,35 @@ export const metadata: Metadata = buildBlogMetadata({
 });
 
 export default function BlogIndexPage(): ReactElement {
-  const [latest, ...rest] = listPublishedPosts();
+  const posts = listPublishedPosts();
+  const [latest, ...rest] = posts;
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/blog#collectionpage`,
+    url: `${SITE_URL}/blog`,
+    name: `${BRAND.name} Blog`,
+    description:
+      "Plain-language articles from Sigma Core Medical Center about pain, movement, recovery, hormone health, pelvic health, neuropathy, and longevity.",
+    about: { "@id": `${SITE_URL}/#organization` },
+    mainEntity: {
+      "@type": "ItemList",
+      "@id": `${SITE_URL}/blog#itemlist`,
+      name: `${BRAND.name} articles`,
+      itemListOrder: "https://schema.org/ItemListOrderAscending",
+      numberOfItems: posts.length,
+      itemListElement: posts.map((post, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: post.title,
+        item: { "@id": `${SITE_URL}/blog/${post.slug}` },
+      })),
+    },
+  };
+
   return (
+    <>
+      <JsonLd data={blogJsonLd} />
     <main id="main-content" className="min-w-0 bg-chalk text-navy">
       <section data-mega-section="hero" id="hero" className="bg-navy text-white">
         <div className="mx-auto flex max-w-7xl items-start gap-4 px-6 pt-16 pb-14 sm:gap-5 sm:px-10 lg:pt-20 lg:pb-16">
@@ -43,5 +71,6 @@ export default function BlogIndexPage(): ReactElement {
         <BlogConsultCta />
       </div>
     </main>
+    </>
   );
 }
