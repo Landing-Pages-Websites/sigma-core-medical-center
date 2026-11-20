@@ -121,6 +121,15 @@ export function ServiceDetailPage({ data }: ServiceDetailPageProps): React.React
             <div>
               <h2 className={`text-4xl leading-[1.02] tracking-tight sm:text-6xl ${data.enhancedLayout ? "font-extrabold" : "font-semibold"}`}>{data.decisionTitle}</h2>
               <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">{data.decisionIntro}</p>
+              {data.educationLink ? (
+                <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">
+                  {data.educationLink.prefix}
+                  <Link href={data.educationLink.href} className="underline decoration-action underline-offset-4 hover:text-action">
+                    {data.educationLink.label}
+                  </Link>
+                  {data.educationLink.suffix}
+                </p>
+              ) : null}
             </div>
             <SteppedBars className="hidden items-end justify-self-end scale-150 lg:flex" />
           </div>
