@@ -33,6 +33,7 @@ export function PelvicOrientation(): React.ReactElement {
             <TallBracket side="right" className="absolute top-8 bottom-8 right-5 w-3 text-silver" />
             <p className="text-lg leading-snug">Pelvic-floor concerns and incontinence symptoms can have different causes and deserve an individualized evaluation.</p>
             <p className="mt-5 text-lg leading-snug">A provider can discuss what an evaluation may include and whether pelvic floor therapy may be appropriate. This page is not a diagnosis or treatment plan.</p>
+            <p className="mt-5 text-lg leading-snug">For background on common bladder symptoms and care questions, read our <Link href="https://www.sigmacoremedicalcenter.com/blog/overactive-bladder-treatment-guide" className="underline decoration-action underline-offset-4 hover:text-action">overactive bladder treatment guide</Link>.</p>
           </div>
           <StairSteps count={3} direction="down" barClassName="bg-royal" className="absolute top-[52%] -left-8 hidden text-[0.6rem] lg:flex" />
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-sm">
