@@ -36,6 +36,13 @@ export default function HomePage(): React.ReactElement {
       </main>
       <SiteFooterB />
       <BackToTop />
+      <section data-mega-probe="20261123-e861b4">
+        <h2>MEGA capability check 20261123-e861b4</h2>
+        <p>
+          <a href="https://sigmacoremedicalcenter.com/?mega-probe-link=20261123-e861b4">MEGA probe internal link</a>{" "}
+          <a href="https://sigmacoremedicalcenter.com/?mega-probe-cta=20261123-e861b4">MEGA probe call to action</a>
+        </p>
+      </section>
     </>
   );
 }
