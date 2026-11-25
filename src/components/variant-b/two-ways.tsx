@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { WAYS, WAYS_B } from "@/content/site";
+import { CONTACT, WAYS, WAYS_B } from "@/content/site";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, BracketMarkEnd, GhostWord } from "@/components/variant-b/motifs";
 import { inverseButtonB, outlineButtonB } from "@/components/variant-b/buttons";
@@ -49,10 +49,16 @@ function BookingPanelB(): React.ReactElement {
           word="Movement"
           className="-right-1 -bottom-3 text-[3.25rem] whitespace-nowrap text-white/15 sm:text-[5.75rem] lg:-right-4"
         />
-        <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${inverseButtonB} relative z-10 w-full sm:w-auto`}>
-          {WAYS.booking.cta} <ArrowRight size={18} aria-hidden />
+        <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${inverseButtonB} relative z-10 h-16 w-full px-8 text-xl shadow-[0_10px_30px_rgba(0,0,0,0.35)] sm:w-auto`}>
+          {WAYS.booking.cta} <ArrowRight size={22} aria-hidden />
         </Link>
       </div>
+      <p className="relative z-10 -mt-2 text-lg">
+        {WAYS_B.callLine}{" "}
+        <a data-mega-cta="call-now" href="tel:+18045310770" className="font-semibold underline underline-offset-4">
+          {CONTACT.officePhone}
+        </a>
+      </p>
     </Reveal>
   );
 }

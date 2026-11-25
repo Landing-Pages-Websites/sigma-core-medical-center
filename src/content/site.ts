@@ -120,20 +120,20 @@ export const PATH = {
 } as const;
 
 export const WAYS = {
-  headline: "Choose the next step that fits today",
+  headline: "Ready to Discover What Sigma Core Can Do for You?",
   guide: {
-    label: "Start with information",
-    headline: "Get the Sigma Core educational guide",
-    body: "Request the approved educational resource when it becomes available.",
-    cta: "Get the Educational Guide",
+    label: "WANT TO LEARN MORE FIRST?",
+    headline: "Explore Your Options. Start With Answers.",
+    body: "Dealing with numbness, tingling, burning feet, or balance concerns? Our free Neuropathy Clarity Scorecard helps you organize your symptoms and better prepare for a conversation about your health.",
+    cta: "Get My Free Neuropathy Guide",
     availabilityNote:
       "The resource title, media, and delivery details are pending customer approval; do not imply it is available before publication.",
   },
   booking: {
-    label: "Ready to talk",
-    headline: "Book an appointment",
-    body: "The approved scheduling experience will be linked when its integration is supplied.",
-    cta: "Request a Free Consultation",
+    label: "READY TO TAKE THE NEXT STEP?",
+    headline: "Your Better Health Journey Could Start Here.",
+    body: "You don't have to keep wondering what other options may be available. Connect with Sigma Core Medical Center and discover how our personalized integrative approach may fit your health needs.",
+    cta: "Request My Free Consultation",
   },
   privacyNote:
     "Our forms ask for contact details only. Please do not include medical information.",
@@ -189,10 +189,12 @@ export const PROVIDER = {
 /** Variant B homepage next-step copy, reconciled to the published guide and phone booking. */
 export const WAYS_B = {
   guideBody:
-    "Request the Neuropathy Clarity Scorecard, a 4-page PDF with a self-assessment and a 7-day symptom tracker.",
+    "Dealing with numbness, tingling, burning feet, or balance concerns? Our free Neuropathy Clarity Scorecard helps you organize your symptoms and better prepare for a conversation about your health.",
   guideNote:
-    "Share your contact details on the guide page and the download appears there. The scorecard cannot diagnose neuropathy.",
-  bookingBody: `Request a Free Consultation online or call ${CONTACT.phone}.`,
+    "Includes a 4-page symptom self-assessment and 7-day tracker. Educational only; not a medical diagnosis.",
+  bookingBody:
+    "You don't have to keep wondering what other options may be available. Connect with Sigma Core Medical Center and discover how our personalized integrative approach may fit your health needs.",
+  callLine: "Prefer to speak with someone? Call our office directly.",
 } as const;
 
 const [, , ...FAQ_GENERAL_ITEMS] = FAQ.items;
