@@ -1,8 +1,7 @@
 export const RICHMOND_HEADLINE = "Your Health. Your Future. More Possibilities.";
 
 export const RICHMOND_LOCAL_CONTEXT = [
-  "At Sigma Core Medical Center, we believe you deserve to know what options are available for your health. Explore our advanced therapies, innovative technologies, and personalized approach to integrative medicine.",
-  "Your next step toward better health could begin with a simple conversation.",
+  "At Sigma Core Medical Center, we believe people deserve to understand their options. From advanced neuropathy care to personalized integrative therapies, we're here to help you explore new possibilities for your health and quality of life.",
 ] as const;
 
 export const RICHMOND_SERVICE_LINKS = [

@@ -21,9 +21,9 @@ export function NeuropathySources(): React.ReactElement {
             ))}
           </span>
           <div className="lg:pt-6">
-            <h2 className="font-heading text-[clamp(2.8rem,5.2vw,4.8rem)] leading-none font-bold tracking-[-0.035em] text-navy">Medical Sources</h2>
-            <p className="mt-4 max-w-[30rem] text-lg leading-snug text-ink/85">
-              Trusted organizations for further reading on neuropathy and nerve health.
+            <h2 className="font-heading text-[clamp(2rem,3.6vw,3.4rem)] leading-[1.05] font-bold tracking-[-0.03em] text-navy">Learn More About Peripheral Neuropathy</h2>
+            <p className="mt-4 max-w-[34rem] text-base leading-snug text-ink/85">
+              Understanding your condition is an important part of making informed healthcare decisions. These established medical organizations provide educational information about peripheral neuropathy, nerve health, and related conditions.
             </p>
           </div>
           <div className="relative min-h-52 lg:min-h-56 lg:[clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)]">
@@ -49,9 +49,8 @@ export function NeuropathySources(): React.ReactElement {
             <MessageSquareText size={24} strokeWidth={1.5} aria-hidden />
           </span>
           <div className="text-sm leading-snug">
-            <p className="font-semibold tracking-[0.04em] text-navy uppercase">About these sources</p>
-            <p className="text-ink/80">These links are for general reading and do not replace a consultation.</p>
-            <p className="text-ink/80 italic">We do not imply endorsement by any source.</p>
+            <p className="font-semibold tracking-[0.04em] text-navy uppercase">TRUSTED EDUCATIONAL RESOURCES</p>
+            <p className="text-ink/80">These independent resources provide general medical education. They do not evaluate, recommend, or endorse Sigma Core Medical Center or its specific treatment protocols.</p>
           </div>
           <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
         </div>
