@@ -1,4 +1,4 @@
-import { ConsultationCta } from "@/components/pages/consultation-cta";
+import { NeuropathyConsultationCta } from "@/components/pages/neuropathy/neuropathy-consultation-cta";
 import { NEUROPATHY_PAGE } from "@/content/pages";
 import { NeuropathyLeadership } from "@/components/pages/neuropathy/neuropathy-leadership";
 import { NeuropathyBooking } from "@/components/pages/neuropathy/neuropathy-booking";
@@ -18,7 +18,7 @@ export function NeuropathyPage(): React.ReactElement {
       <NeuropathyDecisions />
       <NeuropathyExpectation />
       <NeuropathyFaq />
-      <ConsultationCta />
+      <NeuropathyConsultationCta />
       <NeuropathyBooking />
       <NeuropathySources />
     </main>
