@@ -47,7 +47,7 @@ export const SERVICES = {
   body: "Start with the concern that matters most to you. Each service page explains what to expect and how to take the next step.",
   cta: "Explore All Services",
   primary: {
-    name: "Neuropathy",
+    name: "Advanced Neuropathy Care",
     summary:
       "A function-focused conversation for the concerns affecting movement and daily life.",
     primary: true,

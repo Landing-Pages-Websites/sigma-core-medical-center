@@ -76,7 +76,7 @@ function PrimaryServiceB(): React.ReactElement {
             aria-hidden
             className="absolute -top-2.5 -right-2.5 hidden h-16 w-16 border-t-4 border-r-4 border-ink lg:block"
           />
-          <h3 className="flex items-center gap-4 text-4xl font-semibold tracking-tight lg:text-5xl">
+          <h3 className="flex items-center gap-4 text-3xl font-semibold tracking-tight lg:whitespace-nowrap lg:text-[2.1rem]">
             <BracketMark className="h-9 w-4" />
             {SERVICES.primary.name}
           </h3>
