@@ -12,7 +12,7 @@ const SLAT_LINES =
 function OpeningPanel({ className }: { className: string }): React.ReactElement {
   return (
     <div className={`border-l-4 border-electric bg-ink p-5 ${className}`}>
-      <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">Visit</p>
+      <p className="text-xs font-semibold tracking-[0.18em] text-focus uppercase">Visit Sigma Core Medical Center</p>
       <p className="mt-2 text-base font-semibold leading-snug text-white">
         9020 Stony Point Pkwy #100, Richmond, VA 23235
       </p>
@@ -24,6 +24,7 @@ function OpeningPanel({ className }: { className: string }): React.ReactElement 
       <p className="mt-2 text-sm leading-snug text-white/70">
         Open Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM.
       </p>
+      <p className="mt-2 text-sm leading-snug text-white/70">{PLACE.locationLine}</p>
     </div>
   );
 }
@@ -114,10 +115,10 @@ export function PlaceOfCareB(): React.ReactElement {
         <Reveal className="px-6 py-12 sm:px-10 lg:flex lg:flex-col lg:justify-center lg:px-12 lg:py-20">
           <p className="text-base font-semibold text-focus lg:text-right">{PLACE.eyebrow}</p>
           <h2 className="mt-3 text-4xl leading-[1.1] font-semibold tracking-tight text-white sm:text-[2.6rem]">
-            Designed for a focused, personal{" "}
-            <span className="font-display font-medium italic">conversation</span>
+            {PLACE.headline}
           </h2>
           <p className="mt-5 text-lg text-white/75">{PLACE.body}</p>
+          <p className="mt-4 text-lg text-white/75">{PLACE.bodySecond}</p>
           <ul className="mt-8 space-y-3">
             {PLACE.principles.map((principle, index) => (
               <li

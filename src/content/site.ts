@@ -83,16 +83,19 @@ export const SERVICES = {
 } as const;
 
 export const PLACE = {
-  eyebrow: "A modern Richmond-area clinic",
-  headline: "Designed for a focused, personal conversation",
-  body: "Sigma Core brings a concise set of care categories into one calm, modern setting, with one clear next step at a time.",
+  eyebrow: "A DIFFERENT KIND OF MEDICAL EXPERIENCE",
+  headline: "Your Health Deserves More Than the Same Old Answers.",
+  body: "Welcome to Sigma Core Medical Center, where advanced medical technologies, innovative therapeutic options, and personalized integrative care come together under one roof.",
+  bodySecond:
+    "We're here to help you explore new possibilities for improving your health, restoring function, and enjoying a better quality of life.",
+  locationLine: "Conveniently located in Richmond's Stony Point Medical Complex.",
   facilityCaption: "Sigma Core Medical Center, Richmond area",
   openingNote: "Opening details are being confirmed",
   principles: [
-    "Personalized care",
-    "Clear explanations",
-    "Function-focused goals",
-    "Care options and outcomes vary",
+    "Advanced Medical Technologies",
+    "Personalized Integrative Care",
+    "Innovative Treatment Options",
+    "Focused on Your Quality of Life",
   ],
 } as const;
 
