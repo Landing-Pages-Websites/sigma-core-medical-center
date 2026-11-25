@@ -105,7 +105,11 @@ export function ServicesB(): React.ReactElement {
       <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-16 sm:px-10 lg:pt-20 lg:pb-24">
         <Reveal>
           <h2 className="max-w-2xl text-4xl leading-[1.08] font-semibold tracking-tight text-ink sm:text-[2.75rem] lg:text-5xl lg:leading-[1.06]">
-            {SERVICES.headline}
+            {SERVICES.headline.split(". ").map((part, i, all) => (
+              <span key={part} className="block">
+                {i < all.length - 1 ? `${part}.` : part}
+              </span>
+            ))}
           </h2>
         </Reveal>
         <div className="mt-10 lg:mt-12 lg:grid lg:grid-cols-[54fr_46fr] lg:gap-12">

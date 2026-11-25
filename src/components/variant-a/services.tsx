@@ -26,7 +26,11 @@ export function ServicesA(): React.ReactElement {
           </div>
           <Reveal>
             <h2 className="max-w-lg font-display text-4xl leading-[1.18] font-semibold tracking-tight text-ink sm:text-[2.6rem]">
-              {SERVICES.headline}
+              {SERVICES.headline.split(". ").map((part, i, all) => (
+              <span key={part} className="block">
+                {i < all.length - 1 ? `${part}.` : part}
+              </span>
+            ))}
             </h2>
             <p className="mt-5 max-w-lg text-lg text-muted">{SERVICES.body}</p>
           </Reveal>
