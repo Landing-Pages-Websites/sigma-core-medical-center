@@ -1,99 +1,59 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { MiniStairs, TallBracket } from "@/components/pages/shared/page-motifs";
 
-const FACTOR_PANELS = [
-  {
-    title: "Function",
-    lift: "lg:mt-0",
-    questions: [
-      "What is the provider’s license and area of practice?",
-      "What evidence supports this option?",
-      "What benefits might I expect?",
-      "What are the potential risks or side effects?",
-      "What are my alternatives, including doing nothing?",
-    ],
-  },
-  {
-    title: "Energy",
-    lift: "lg:mt-10",
-    questions: ["How will we monitor progress and safety?", "How will we know if it’s working as intended?", "What follow-up care is recommended?", "What are the costs involved?"],
-  },
-  {
-    title: "Recovery",
-    lift: "lg:mt-20",
-    questions: ["What happens if this is not appropriate for me?", "How will we adjust the plan if needed?", "Who can I contact if I have questions or concerns?"],
-  },
-  {
-    title: "Your Goals",
-    lift: "lg:mt-28",
-    questions: ["What outcomes are most important to me?", "What trade-offs am I willing or not willing to make?", "What do I want to learn before deciding?"],
-  },
+const FEATURE_CARDS = [
+  "Understand Your Energy & Vitality",
+  "Explore Hormone Health Options",
+  "Discover a Personalized Approach",
 ] as const;
 
 export function HormoneDecisionFactors(): React.ReactElement {
   return (
     <section data-mega-section="decision-factors" id="decision-factors" className="relative overflow-hidden bg-chalk text-ink">
-      <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-16 lg:pl-[3.5rem]">
-        <div className="grid gap-6 lg:grid-cols-[55fr_45fr] lg:items-center">
-          <h2 className="font-heading text-[clamp(2.8rem,5.6vw,5.1rem)] leading-[0.95] font-bold tracking-[-0.035em] text-navy">
-            Goals and
-            <br />
-            Decision Factors
+      <div className="mx-auto grid max-w-[90rem] gap-10 px-6 py-14 sm:px-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14 lg:py-16 lg:pl-[3.5rem] lg:pr-14">
+        <div>
+          <h2 className="flex items-start gap-4 font-heading text-[clamp(2rem,3.6vw,3.4rem)] leading-[1.05] font-bold tracking-[-0.03em] text-navy">
+            <TallBracket className="h-20 w-4 shrink-0 text-royal sm:h-24" /> Remember When You Had More Energy, Drive, and Motivation?
           </h2>
-          <p className="relative max-w-[26rem] px-6 py-2 text-base leading-snug text-ink/85">
-            <TallBracket className="absolute inset-y-0 left-0 w-2.5 text-silver" />
-            Prepare questions that help you get the most from your consultation. Use these topics to guide what matters most to you.
-            <TallBracket side="right" className="absolute inset-y-0 right-0 w-2.5 text-silver" />
+          <div className="mt-6 max-w-2xl space-y-4 text-lg leading-relaxed text-ink/85">
+            <p>Maybe you don&apos;t have the stamina you once did. Your workouts take longer to recover from. Your motivation has slipped, your sleep isn&apos;t what it used to be, or you&apos;ve noticed changes in your mood or sexual health.</p>
+            <p>It&apos;s easy to assume these changes are simply part of getting older.</p>
+            <p className="font-semibold text-navy">But age isn&apos;t the only possible explanation.</p>
+            <p>Changes in hormones, sleep, metabolism, medications, and other health factors can influence how you feel.</p>
+          </div>
+          <h3 className="mt-8 font-heading text-2xl leading-tight font-bold text-royal sm:text-3xl">It&apos;s Time to Understand What&apos;s Changed.</h3>
+          <p className="mt-3 max-w-2xl text-lg leading-relaxed text-ink/85">
+            At Sigma Core Medical Center, we believe the first step is looking at your overall health rather than simply assuming how you feel is normal for your age.
+          </p>
+          <p className="mt-3 max-w-2xl text-lg leading-relaxed text-ink/85">
+            When appropriate, a clinical evaluation can help determine whether hormones or other health factors may be contributing to your concerns.
           </p>
         </div>
-      </div>
-
-      <div className="relative mt-8 lg:mt-4">
-        <div className="absolute inset-y-0 left-0 hidden w-[26%] lg:block">
-          <Image src="/images/pages/hormone-decision-reception-v3.webp" alt="Conceptual bright clinic reception with a slatted walnut desk" fill sizes="26vw" className="object-cover object-[20%_center]" />
-          <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-chalk" />
+        <div className="flex flex-col gap-4">
+          <div className="relative min-h-56 lg:min-h-64">
+            <Image src="/images/pages/hormone-decision-reception-v3.webp" alt="Conceptual bright clinic reception with a slatted walnut desk" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover object-[20%_center] lg:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)]" />
+          </div>
+          <ol className="grid gap-3">
+            {FEATURE_CARDS.map((title) => (
+              <li key={title} className="relative bg-[#ecebe7] px-6 py-5 shadow-[0_10px_24px_rgb(16_30_51/0.1)] sm:[clip-path:polygon(0_0,100%_0,97%_100%,0_100%)]">
+                <MiniStairs className="absolute top-4 right-6 text-royal" />
+                <p className="flex items-center gap-3 pr-12 font-heading text-xl leading-tight font-bold text-navy">
+                  <TallBracket className="h-8 w-2 shrink-0 text-royal" /> {title}
+                </p>
+              </li>
+            ))}
+          </ol>
         </div>
-        <ol className="relative mx-auto grid max-w-[90rem] gap-4 px-6 sm:grid-cols-2 sm:px-10 lg:grid-cols-4 lg:gap-3 lg:pr-16 lg:pl-[22%]">
-          {FACTOR_PANELS.map((panel) => (
-            <li key={panel.title} className={`relative ${panel.lift}`}>
-              <div className="relative bg-[#ecebe7] px-5 pt-8 pb-8 shadow-[0_14px_30px_rgb(16_30_51/0.12)] lg:min-h-[19rem]">
-                <MiniStairs className="absolute top-4 right-5 scale-150 text-royal" />
-                <h3 className="font-heading text-2xl font-bold text-navy">{panel.title}</h3>
-                <ul className="mt-3 space-y-2.5">
-                  {panel.questions.map((question) => (
-                    <li key={question} className="relative pl-4 text-xs leading-snug text-ink/80">
-                      <TallBracket className="absolute top-0.5 left-0 h-4 w-1 text-royal" />
-                      {question}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div aria-hidden className="flex h-10 items-start">
-                <span className="block h-full flex-1 bg-gradient-to-b from-[#dedbd4] to-[#d2cec6]" />
-                <span className="-mt-14 block h-24 w-[40%] bg-gradient-to-b from-[#36383c] to-[#1d1f22]" />
-              </div>
-            </li>
-          ))}
-        </ol>
       </div>
-
-      <div className="mx-auto flex max-w-[90rem] flex-wrap items-center justify-between gap-4 px-6 pt-6 pb-10 text-sm sm:px-10 lg:pl-[3.5rem]">
-        <p className="relative max-w-[18rem] pl-5 leading-snug">
-          <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
-          <Link href="/about" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            About Sigma Core
+      <div className="bg-royal text-white">
+        <div className="mx-auto flex max-w-[90rem] flex-wrap items-center justify-between gap-x-8 gap-y-4 px-6 py-6 sm:px-10 lg:pl-[3.5rem] lg:pr-14">
+          <p className="max-w-2xl font-heading text-xl leading-tight font-bold sm:text-2xl">Stop guessing about why you don&apos;t feel like yourself. Start exploring answers.</p>
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className="inline-flex min-h-14 items-center gap-3 bg-white px-6 text-lg font-semibold text-royal transition-colors hover:bg-chalk focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">
+            Request My Free Hormone Consultation <ArrowRight size={20} aria-hidden className="shrink-0" />
           </Link>
-          : our approach and Richmond clinic.
-        </p>
-        <p className="relative max-w-[22rem] px-5 leading-snug">
-          <TallBracket className="absolute inset-y-0 left-0 w-2 text-royal" />
-          <Link data-mega-cta="book-appointment" href="/book" className="font-semibold text-royal hover:underline focus-visible:outline-2 focus-visible:outline-offset-[-4px] focus-visible:[clip-path:none]">
-            See how to book
-          </Link>
-          : call our team to schedule a Free Consultation.
-          <TallBracket side="right" className="absolute inset-y-0 right-0 w-2 text-royal" />
-        </p>
+        </div>
       </div>
     </section>
   );
