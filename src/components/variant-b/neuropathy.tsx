@@ -66,10 +66,6 @@ export function NeuropathyB(): React.ReactElement {
             {NEUROPATHY.headline}
           </h2>
           <p className="mt-5 max-w-md text-lg text-white/80 sm:text-xl">{NEUROPATHY.body}</p>
-          <p className="mt-10 hidden items-center gap-3 text-white/70 lg:flex">
-            <BracketMark />
-            <span className="font-display text-base italic">{NEUROPATHY.disclaimer}</span>
-          </p>
         </Reveal>
         <div className="relative mt-10 lg:mt-0 lg:pt-12">
           <span aria-hidden className="absolute top-0 right-0 hidden flex-col items-end gap-1.5 lg:flex">
@@ -95,10 +91,6 @@ export function NeuropathyB(): React.ReactElement {
               </Link>
             </div>
           </div>
-          <p className="mt-8 flex items-center gap-3 text-white/70 lg:hidden">
-            <BracketMark />
-            <span className="font-display text-base italic">{NEUROPATHY.disclaimer}</span>
-          </p>
         </div>
       </div>
     </section>

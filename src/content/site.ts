@@ -24,13 +24,13 @@ export const HERO = {
 } as const;
 
 export const NEUROPATHY = {
-  eyebrow: "Neuropathy care",
-  headline: "A clearer next step when neuropathy is limiting your day",
-  body: "Start with a personalized conversation focused on movement, daily function, independence, and quality of life. Care options and outcomes vary.",
+  eyebrow: "Advanced Neuropathy Care",
+  headline: "Tired of Numbness, Tingling, Burning Feet, or Losing Your Balance?",
+  body: "If you've tried medications, supplements, or other treatments without the relief you hoped for, discover our Advanced Neuropathy Protocol — a personalized approach that brings together innovative therapies and advanced technology.",
   orientationPoints: [
-    "Understand your goals",
-    "Discuss appropriate options",
-    "Choose an informed next step",
+    "Discover a Different Approach",
+    "Explore Advanced Treatment Options",
+    "Take the First Step Toward Better Living",
   ],
   cta: "Explore Neuropathy Care",
   disclaimer: "No cure or reversal is promised.",

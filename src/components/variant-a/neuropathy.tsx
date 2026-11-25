@@ -47,7 +47,6 @@ export function NeuropathyA(): React.ReactElement {
           <a href="#services" className={`${primaryButtonA} mt-8 w-full sm:w-auto`}>
             {NEUROPATHY.cta} <ArrowRight size={18} aria-hidden />
           </a>
-          <p className="mt-5 text-sm text-white/60">{NEUROPATHY.disclaimer}</p>
         </Reveal>
         <div className="relative hidden lg:block">
           <div className="relative aspect-square w-[120%]">

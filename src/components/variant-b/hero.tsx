@@ -41,13 +41,15 @@ export function HeroB(): React.ReactElement {
         />
         <div className="relative mx-auto max-w-[90rem] lg:grid lg:grid-cols-[57fr_43fr]">
           <div className="relative bg-action px-6 py-12 sm:px-10 lg:bg-transparent lg:py-20 lg:pr-20">
-            <p className="text-sm font-semibold tracking-[0.22em] text-focus uppercase">
-              {HERO.eyebrow}
-            </p>
-            <h1 className="mt-4 max-w-xl text-[2.7rem] leading-[1.04] font-semibold tracking-tight text-white sm:text-5xl xl:text-[4rem] xl:leading-[1.02]">
-              {HERO.headline}
+            <h1 className="mt-0 max-w-2xl text-[2.4rem] leading-[1.06] font-semibold tracking-tight text-white sm:text-5xl xl:text-[3.6rem] xl:leading-[1.04]">
+              What If There Were More Options for Your Health Than You&apos;ve Been Told?
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-white sm:text-xl">{HERO.body}</p>
+            <h2 className="mt-6 max-w-2xl text-2xl leading-snug font-semibold text-white sm:text-3xl">
+              Discover a Different Approach to Feeling Better, Moving Better, and Living Better.
+            </h2>
+            <p className="mt-6 max-w-2xl text-xl text-white sm:text-2xl">
+              At Sigma Core Medical Center, we bring together advanced medical technologies, innovative therapies, and personalized integrative care to help people explore new possibilities for persistent pain, neuropathy, hormone health, and more.
+            </p>
             <div className="mt-10 lg:mt-12">
               <HeroActionsB />
             </div>
