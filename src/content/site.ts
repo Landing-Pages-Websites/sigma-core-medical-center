@@ -171,7 +171,7 @@ export const FAQ = {
   locationLabel: "Let's Talk About Your Health.",
   locationLine: "Conveniently located in Richmond's Stony Point Medical Complex.",
   addressNote: "Public address to be reconfirmed before launch",
-  cta: "Request a Free Consultation",
+  cta: "Request My Free Consultation",
 } as const;
 
 /** Confirmed public contact facts for Sigma Core Medical Center. */
@@ -232,9 +232,10 @@ export const FAQ_B = {
 } as const;
 
 export const FOOTER = {
-  tagline: "Human Performance and Longevity",
-  location: "Richmond, Virginia area",
-  cta: "Book an Appointment",
+  tagline: "Advanced Integrative Medicine. Personalized for You.",
+  location: "Proudly Serving Richmond, Virginia & Surrounding Communities",
+  cta: "Request My Free Consultation",
+  statement: "Sigma Core Medical Center | Advanced Integrative Healthcare in Richmond, Virginia",
   nav: [
     "Services",
     "About",

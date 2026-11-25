@@ -1,37 +1,41 @@
-export const RICHMOND_LOCAL_CONTEXT =
-  "Sigma Core Medical Center serves the Richmond, Virginia area. Explore the care category that best matches your questions, then choose an informed next step.";
+export const RICHMOND_HEADLINE = "Your Health. Your Future. More Possibilities.";
+
+export const RICHMOND_LOCAL_CONTEXT = [
+  "At Sigma Core Medical Center, we believe you deserve to know what options are available for your health. Explore our advanced therapies, innovative technologies, and personalized approach to integrative medicine.",
+  "Your next step toward better health could begin with a simple conversation.",
+] as const;
 
 export const RICHMOND_SERVICE_LINKS = [
   {
-    label: "Neuropathy care",
+    label: "Advanced Neuropathy Care",
     href: "/services/neuropathy",
     body: "Movement, function, and everyday independence.",
   },
   {
-    label: "Pain relief",
+    label: "Knee, Back & Joint Pain",
     href: "/services/pain-relief",
     body: "Knee, low-back, neck, and joint concerns.",
   },
   {
-    label: "Hormone optimization",
+    label: "Hormone Health & Vitality",
     href: "/services/hormone-optimization",
     body: "Function, energy, recovery, and personal goals.",
   },
   {
-    label: "Pelvic floor and incontinence",
+    label: "Bladder Control & Pelvic Health",
     href: "/services/pelvic-floor-incontinence",
     body: "Private, respectful support centered on daily life.",
   },
   {
-    label: "Regenerative medicine",
+    label: "Regenerative & Integrative Medicine",
     href: "/services/regenerative-medicine",
     body: "PRP and other options, explained with care.",
   },
 ] as const;
 
 export const RICHMOND_NEXT_STEP_LINKS = [
-  { label: "Explore all services", href: "/services" },
-  { label: "Learn about Sigma Core", href: "/about" },
-  { label: "Contact the center", href: "/contact" },
+  { label: "Explore Our Services", href: "/services" },
+  { label: "About Sigma Core", href: "/about" },
+  { label: "Contact Our Team", href: "/contact" },
   { label: "Request a Free Consultation", href: "https://go.sigmacoremedicalcenter.com/" },
 ] as const;

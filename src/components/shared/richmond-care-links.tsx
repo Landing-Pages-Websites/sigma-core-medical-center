@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import {
+  RICHMOND_HEADLINE,
   RICHMOND_LOCAL_CONTEXT,
   RICHMOND_NEXT_STEP_LINKS,
   RICHMOND_SERVICE_LINKS,
@@ -24,11 +25,13 @@ export function RichmondCareLinks(): React.ReactElement {
             id="richmond-care-links-heading"
             className="mt-3 max-w-md font-heading text-3xl leading-none font-bold tracking-[-0.03em] text-white sm:text-4xl"
           >
-            Start with the right care conversation
+            {RICHMOND_HEADLINE}
           </h2>
-          <p className="mt-4 max-w-md text-base leading-relaxed text-white/70">
-            {RICHMOND_LOCAL_CONTEXT}
-          </p>
+          {RICHMOND_LOCAL_CONTEXT.map((paragraph) => (
+            <p key={paragraph} className="mt-4 max-w-md text-base leading-relaxed text-white/70">
+              {paragraph}
+            </p>
+          ))}
         </div>
         <nav aria-label="Richmond area care links">
           <ul className="grid gap-2 sm:grid-cols-2">

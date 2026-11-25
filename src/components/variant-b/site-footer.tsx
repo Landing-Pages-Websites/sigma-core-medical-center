@@ -61,7 +61,7 @@ export function SiteFooterB(): React.ReactElement {
             <p className="text-xl font-semibold text-white">{FOOTER.tagline}</p>
             <p className="mt-1 text-base text-silver">{FOOTER.location}</p>
           </div>
-          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={primaryButtonB}>Request a Free Consultation <ArrowRight size={18} aria-hidden /></Link>
+          <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={primaryButtonB}>{FOOTER.cta} <ArrowRight size={18} aria-hidden /></Link>
         </div>
         <RichmondCareLinks />
         <nav aria-label="Utility" className="mt-10 border-t border-white/10 pt-4">
@@ -73,7 +73,8 @@ export function SiteFooterB(): React.ReactElement {
             ))}
           </ul>
         </nav>
-        <p className="mt-4 text-center text-base text-white/60">{FOOTER.disclaimer}</p>
+        <p className="mt-4 text-center text-base font-semibold text-white/80">{FOOTER.statement}</p>
+        <p className="mt-2 text-center text-base text-white/60">{FOOTER.disclaimer}</p>
       </div>
     </footer>
   );
