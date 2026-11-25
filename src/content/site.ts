@@ -100,21 +100,22 @@ export const PLACE = {
 } as const;
 
 export const PATH = {
-  headline: "A simple path to an informed next step",
+  headline: "Getting Started Is Easier Than You Think.",
   steps: [
     {
-      title: "Choose your starting point",
-      body: "Explore a care category or begin with the educational guide.",
+      title: "Discover Your Options",
+      body: "Explore advanced therapies and integrative care options for the health concerns that matter most to you.",
     },
     {
-      title: "Start the conversation",
-      body: "Book an appointment to discuss your goals and whether Sigma Core may be an appropriate fit.",
+      title: "Let's Talk About Your Health",
+      body: "Schedule a consultation to discuss what you've been experiencing, what you've already tried, and what you're hoping to improve.",
     },
     {
-      title: "Decide what comes next",
-      body: "Review the available information and choose the next appropriate step for you.",
+      title: "Discover Your Next Step",
+      body: "Learn which available services may be appropriate for your needs and what the next steps in your care could look like.",
     },
   ],
+  cta: "Request My Free Consultation",
   disclaimer: "General website information is not medical advice.",
 } as const;
 

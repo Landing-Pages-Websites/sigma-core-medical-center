@@ -1,4 +1,7 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { PATH } from "@/content/site";
+import { primaryButtonB } from "@/components/variant-b/buttons";
 import { Reveal } from "@/components/shared/reveal";
 import { BracketMark, BracketMarkEnd, SteppedBars } from "@/components/variant-b/motifs";
 
@@ -41,7 +44,12 @@ export function InformedPathB(): React.ReactElement {
             </li>
           ))}
         </ol>
-        <p className="mt-12 flex w-fit items-center gap-2 text-sm text-muted lg:mt-28 lg:ml-auto">
+        <div className="mt-12 lg:mt-28">
+          <Link href="https://go.sigmacoremedicalcenter.com/" data-mega-cta="book-consultation" className={primaryButtonB}>
+            {PATH.cta} <ArrowRight size={18} aria-hidden />
+          </Link>
+        </div>
+        <p className="mt-8 flex w-fit items-center gap-2 text-sm text-muted lg:ml-auto">
           <BracketMark className="h-4" />
           {PATH.disclaimer}
           <BracketMarkEnd className="h-4" />
