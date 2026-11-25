@@ -16,7 +16,7 @@ export function NeuropathyPage(): React.ReactElement {
       <NeuropathyLeadership />
       <NeuropathyOrientation />
       <NeuropathyDecisions />
-      <NeuropathyExpectation data={NEUROPATHY_PAGE} />
+      <NeuropathyExpectation />
       <NeuropathyFaq />
       <ConsultationCta />
       <NeuropathyBooking />
