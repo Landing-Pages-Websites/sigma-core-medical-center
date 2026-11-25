@@ -58,7 +58,7 @@ export const SERVICES = {
       summary: "Tired of knee, back, or joint pain holding you back? Discover modern therapies designed to help improve comfort and mobility.",
     },
     {
-      name: "Hormone optimization",
+      name: "Hormone Health & Vitality",
       summary:
         "An individualized conversation about function, energy, recovery, and personal goals.",
     },
