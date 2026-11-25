@@ -55,7 +55,7 @@ export const SERVICES = {
   secondary: [
     {
       name: "Advanced Pain & Joint Care",
-      summary: "Care for persistent joint, knee, low-back, or neck concerns.",
+      summary: "Tired of knee, back, or joint pain holding you back? Discover modern therapies designed to help improve comfort and mobility.",
     },
     {
       name: "Hormone optimization",
