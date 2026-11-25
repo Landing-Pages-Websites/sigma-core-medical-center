@@ -33,7 +33,7 @@ export function HormoneDecisionFactors(): React.ReactElement {
         </div>
         <div className="flex flex-col gap-4">
           <div className="relative min-h-56 lg:min-h-64">
-            <Image src="/images/pages/hormone-decision-reception-v3.webp" alt="Conceptual bright clinic reception with a slatted walnut desk" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover object-[20%_center] lg:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)]" />
+            <Image src="/images/pages/services-active-life.webp" alt="A man and woman walking together on a riverside path in the morning" fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover object-[60%_center] lg:[clip-path:polygon(10%_0,100%_0,100%_100%,0_100%)]" />
           </div>
           <ol className="grid gap-3">
             {FEATURE_CARDS.map((title) => (

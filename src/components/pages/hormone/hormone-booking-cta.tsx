@@ -22,8 +22,7 @@ export function HormoneBookingCta(): React.ReactElement {
         </div>
         <div className="relative min-h-[18rem] lg:mt-6 lg:min-h-0">
           <div className="absolute inset-0 lg:[clip-path:polygon(24%_0,100%_0,100%_100%,0_100%,0_70%,10%_70%,10%_50%,20%_50%,20%_30%,24%_30%)]">
-            <Image src="/images/pages/hormone-booking-lobby-v3.webp" alt="Conceptual clinic reception with walnut paneling and lounge seating" fill sizes="(min-width: 1024px) 24vw, 100vw" className="object-cover object-[30%_center]" />
-            <Image src="/images/shared/logo.webp" alt="" width={240} height={65} className="absolute top-[22%] left-[30%] h-auto w-[44%] drop-shadow-lg" />
+            <Image src="/images/pages/hormone-hero-v2.webp" alt="A man writing in a notebook at a table by a bright window" fill sizes="(min-width: 1024px) 24vw, 100vw" className="object-cover object-[60%_center]" />
           </div>
         </div>
         <div className="relative z-10 flex flex-col justify-center bg-royal px-6 py-12 sm:px-10 lg:mt-12 lg:px-10 lg:pr-[max(2.5rem,calc((100vw-90rem)/2+2.5rem))] lg:[clip-path:polygon(8%_0,100%_0,100%_100%,0_100%)] lg:pl-14">
