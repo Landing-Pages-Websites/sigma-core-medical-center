@@ -1,6 +1,6 @@
 import { ConsultationCta } from "@/components/pages/consultation-cta";
 import { NEUROPATHY_PAGE } from "@/content/pages";
-import { DoctorTrustModule } from "@/components/pages/doctor-trust-module";
+import { NeuropathyLeadership } from "@/components/pages/neuropathy/neuropathy-leadership";
 import { NeuropathyBooking } from "@/components/pages/neuropathy/neuropathy-booking";
 import { NeuropathyDecisions } from "@/components/pages/neuropathy/neuropathy-decisions";
 import { NeuropathyExpectation } from "@/components/pages/neuropathy/neuropathy-expectation";
@@ -13,7 +13,7 @@ export function NeuropathyPage(): React.ReactElement {
   return (
     <main className="overflow-hidden bg-navy">
       <NeuropathyHero data={NEUROPATHY_PAGE} />
-      <DoctorTrustModule compact />
+      <NeuropathyLeadership />
       <NeuropathyOrientation />
       <NeuropathyDecisions />
       <NeuropathyExpectation data={NEUROPATHY_PAGE} />

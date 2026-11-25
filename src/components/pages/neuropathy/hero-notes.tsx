@@ -2,15 +2,14 @@ import { TallBracket } from "@/components/pages/shared/page-motifs";
 import styles from "./hero.module.css";
 
 const HERO_STEPS = [
-  { label: "Understand your goals", tone: "bg-[#d9d2c4] text-navy", bracket: "text-silver", offset: "lg:left-0 lg:top-0" },
-  { label: "Discuss appropriate options", tone: "bg-[#2a2c2f] text-white", bracket: "text-silver", offset: "lg:left-[34%] lg:top-[1.75rem]" },
-  { label: "Choose an informed next step", tone: "bg-[#d9d2c4] text-navy", bracket: "text-silver", offset: "lg:left-[68%] lg:top-[3.5rem]" },
+  { label: "Beyond the Usual Approaches", tone: "bg-[#d9d2c4] text-navy", bracket: "text-silver", offset: "lg:left-0 lg:top-0" },
+  { label: "Advanced Therapeutic Technologies", tone: "bg-[#2a2c2f] text-white", bracket: "text-silver", offset: "lg:left-[34%] lg:top-[1.75rem]" },
+  { label: "Personalized Neuropathy Care", tone: "bg-[#d9d2c4] text-navy", bracket: "text-silver", offset: "lg:left-[68%] lg:top-[3.5rem]" },
 ] as const;
 
 export function NeuropathyHeroNotes(): React.ReactElement {
   return (
     <div className={styles.notes}>
-      <p className="mt-5 font-display text-base text-white/75 italic">General information only; not medical advice.</p>
       <ol className="relative mt-9 grid gap-3 sm:grid-cols-3 lg:block lg:h-44 lg:w-[118%]">
         {HERO_STEPS.map((step) => (
           <li
@@ -22,6 +21,7 @@ export function NeuropathyHeroNotes(): React.ReactElement {
           </li>
         ))}
       </ol>
+      <p className="mt-6 text-sm text-white/60 lg:mt-24">General information only; not medical advice.</p>
     </div>
   );
 }
