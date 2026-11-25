@@ -49,7 +49,7 @@ export const SERVICES = {
   primary: {
     name: "Advanced Neuropathy Care",
     summary:
-      "A function-focused conversation for the concerns affecting movement and daily life.",
+      "Explore innovative options for numbness, tingling, burning feet, and balance problems with our Advanced Neuropathy Protocol.",
     primary: true,
   } as Service,
   secondary: [
