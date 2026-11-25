@@ -10,7 +10,7 @@ import { useHoverMenu } from "@/hooks/useHoverMenu";
 
 const PRIMARY_LINKS = [
   { label: "About", href: "/about" },
-  { label: "Educational Guide", href: "/educational-guide" },
+  { label: "Neuropathy Clarity Scorecard", href: "/educational-guide" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ] as const;
