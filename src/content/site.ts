@@ -39,37 +39,45 @@ export const NEUROPATHY = {
 export type Service = {
   name: string;
   summary: string;
+  href?: string;
   primary?: boolean;
 };
 
 export const SERVICES = {
-  headline: "Advanced Medical Solutions. Personalized Care. More Possibilities.",
-  body: "Start with the concern that matters most to you. Each service page explains what to expect and how to take the next step.",
-  cta: "Explore All Services",
+  headline: "Discover What's Possible With a Different Approach to Healthcare",
+  body: "Your health deserves more than a one-size-fits-all approach. Explore our specialized services and discover how modern technology and personalized integrative care can open the door to new possibilities.",
+  cta: "Explore Our Advanced Services",
   primary: {
     name: "Advanced Neuropathy Care",
     summary:
-      "Explore innovative options for numbness, tingling, burning feet, and balance problems with our Advanced Neuropathy Protocol.",
+      "Numbness, tingling, burning feet, or balance problems? Discover our Advanced Neuropathy Protocol and explore innovative therapies beyond the usual approaches.",
+    href: "/services/neuropathy",
     primary: true,
   } as Service,
   secondary: [
     {
-      name: "Advanced Pain & Joint Care",
-      summary: "Tired of knee, back, or joint pain holding you back? Discover modern therapies designed to help improve comfort and mobility.",
+      name: "Knee, Back & Joint Pain Relief",
+      summary:
+        "Tired of pain limiting your life? Explore advanced, personalized options to help you move more comfortably and get back to doing what you love.",
+      href: "/services/pain-relief",
     },
     {
       name: "Hormone Health & Vitality",
       summary:
-        "Feeling tired, sluggish, or not quite yourself? Explore personalized hormone care designed around your health, energy, and vitality.",
+        "Low energy, declining stamina, or just not feeling yourself? Discover personalized options to support hormone balance, vitality, and well-being.",
+      href: "/services/hormone-optimization",
     },
     {
       name: "Bladder Control & Pelvic Health",
-      summary: "Private, respectful support centered on comfort, confidence, and daily life.",
+      summary:
+        "Bladder leaks, urgency, or pelvic-floor weakness? Explore discreet, modern treatment options designed to help restore confidence and improve daily life.",
+      href: "/services/pelvic-floor-incontinence",
     },
     {
-      name: "Regenerative medicine",
+      name: "Regenerative & Integrative Medicine",
       summary:
-        "Explore whether this category belongs in your personalized care conversation.",
+        "Discover specialized therapies and advanced treatment options focused on supporting comfort, mobility, and your body's natural recovery processes.",
+      href: "/services/regenerative-medicine",
     },
   ] as Service[],
 } as const;

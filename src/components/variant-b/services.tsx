@@ -52,8 +52,9 @@ function ServiceModule({ index }: { index: number }): React.ReactElement {
           className="absolute inset-0 translate-x-2.5 translate-y-2.5 bg-black/20"
           style={{ clipPath: MODULE_CUTS[index] }}
         />
-        <article
-          className={`relative p-6 pl-[calc(6%+1rem)] ${MODULE_TONES[index]}`}
+        <Link
+          href={service.href ?? "/services"}
+          className={`relative block p-6 pl-[calc(6%+1rem)] ${MODULE_TONES[index]}`}
           style={{ clipPath: MODULE_CUTS[index] }}
         >
           {index === SERVICES.secondary.length - 1 && (
@@ -61,7 +62,7 @@ function ServiceModule({ index }: { index: number }): React.ReactElement {
           )}
           <h3 className="pr-6 text-2xl font-semibold tracking-tight">{service.name}</h3>
           <p className="mt-2 max-w-md pr-6 text-lg opacity-80">{service.summary}</p>
-        </article>
+        </Link>
       </div>
     </Reveal>
   );
@@ -71,7 +72,7 @@ function PrimaryServiceB(): React.ReactElement {
   return (
     <div className="flex h-full flex-col">
       <Reveal from="left" className="flex flex-1 flex-col">
-        <article className="relative flex h-full flex-col bg-action p-8 text-white ring-1 ring-white/40 ring-inset lg:p-10">
+        <Link href={SERVICES.primary.href ?? "/services/neuropathy"} className="relative flex h-full flex-col bg-action p-8 text-white ring-1 ring-white/40 ring-inset lg:p-10">
           <span
             aria-hidden
             className="absolute -top-2.5 -right-2.5 hidden h-16 w-16 border-t-4 border-r-4 border-ink lg:block"
@@ -84,7 +85,7 @@ function PrimaryServiceB(): React.ReactElement {
             {SERVICES.primary.summary}
           </p>
           <ArrowRight size={26} aria-hidden className="mt-6 lg:mt-auto" />
-        </article>
+        </Link>
       </Reveal>
       <p className="mt-6 max-w-md text-lg text-muted">{SERVICES.body}</p>
       <Link href="/services" className={`${outlineButtonB} mt-6 w-full sm:w-auto`}>
@@ -105,11 +106,7 @@ export function ServicesB(): React.ReactElement {
       <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-16 sm:px-10 lg:pt-20 lg:pb-24">
         <Reveal>
           <h2 className="max-w-2xl text-4xl leading-[1.08] font-semibold tracking-tight text-ink sm:text-[2.75rem] lg:text-5xl lg:leading-[1.06]">
-            {SERVICES.headline.split(". ").map((part, i, all) => (
-              <span key={part} className="block">
-                {i < all.length - 1 ? `${part}.` : part}
-              </span>
-            ))}
+            {SERVICES.headline}
           </h2>
         </Reveal>
         <div className="mt-10 lg:mt-12 lg:grid lg:grid-cols-[54fr_46fr] lg:gap-12">
