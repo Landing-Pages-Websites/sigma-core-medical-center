@@ -145,7 +145,7 @@ export type FaqItem = {
 };
 
 export const FAQ = {
-  headline: "Questions before you take the next step?",
+  headline: "Have Questions? We're Here to Help.",
   items: [
     {
       question: "Where is Sigma Core located?",
@@ -168,7 +168,8 @@ export const FAQ = {
         "No. Care is personalized and outcomes vary. Sigma Core does not promise a cure, reversal, or specific result.",
     },
   ] as FaqItem[],
-  locationLabel: "Richmond, Virginia area",
+  locationLabel: "Let's Talk About Your Health.",
+  locationLine: "Conveniently located in Richmond's Stony Point Medical Complex.",
   addressNote: "Public address to be reconfirmed before launch",
   cta: "Request a Free Consultation",
 } as const;
@@ -203,14 +204,30 @@ const [, , ...FAQ_GENERAL_ITEMS] = FAQ.items;
 export const FAQ_B = {
   items: [
     {
-      question: "Where is Sigma Core located?",
-      answer: `Sigma Core Medical Center is at ${CONTACT.address}. Office hours are ${CONTACT.hours}.`,
+      question: "What makes Sigma Core Medical Center different?",
+      answer:
+        "We believe healthcare should be as individual as the people we serve. Our integrative approach brings together advanced medical technologies, innovative therapeutic options, and personalized care. We help patients explore available options based on their specific health concerns and goals.",
     },
     {
-      question: "How do I book?",
-      answer: `Request a Free Consultation online or call ${CONTACT.phone}.`,
+      question: "What conditions do you help patients with?",
+      answer:
+        "Our services include neuropathy care, knee and back pain, joint and mobility concerns, hormone health, pelvic-floor dysfunction, bladder-control issues, and other integrative therapies. Explore our services to learn more about the options available at Sigma Core.",
     },
-    ...FAQ_GENERAL_ITEMS,
+    {
+      question: "What if I've already tried other treatments?",
+      answer:
+        "Many people seek additional options when they're still struggling with symptoms or haven't achieved the improvement they hoped for. We welcome the opportunity to learn about your experiences, discuss your concerns, and help determine whether our services may be appropriate for you.",
+    },
+    {
+      question: "What happens during my free consultation?",
+      answer:
+        "Your consultation is an opportunity to discuss your health concerns, learn more about Sigma Core Medical Center, ask questions, and explore potential next steps. Any examination, diagnostic testing, or treatment recommendations would be explained separately as appropriate.",
+    },
+    {
+      question: "Where are you located?",
+      answer:
+        "Sigma Core Medical Center is conveniently located at 9020 Stony Point Parkway, Suite 100, Richmond, Virginia 23235, in the Stony Point Medical Complex.",
+    },
   ] as FaqItem[],
 } as const;
 

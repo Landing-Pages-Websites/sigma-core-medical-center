@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { CONTACT, FAQ, FAQ_B } from "@/content/site";
 import { useAccordion } from "@/lib/use-accordion";
@@ -8,7 +8,7 @@ import { Reveal } from "@/components/shared/reveal";
 import { GhostWord } from "@/components/variant-b/motifs";
 import { primaryButtonB } from "@/components/variant-b/buttons";
 
-const ITEM_INDENTS = ["lg:ml-0", "lg:ml-8", "lg:ml-16", "lg:ml-24"];
+const ITEM_INDENTS = ["lg:ml-0", "lg:ml-8", "lg:ml-16", "lg:ml-24", "lg:ml-16"];
 const OFFICE_PHONE_HREF = "tel:+18045310770";
 
 export function FaqLocationB(): React.ReactElement {
@@ -76,6 +76,7 @@ export function FaqLocationB(): React.ReactElement {
             <h3 className="max-w-64 text-4xl leading-tight font-semibold tracking-tight text-white">
               {FAQ.locationLabel}
             </h3>
+            <p className="mt-4 max-w-64 text-base text-white/80">{FAQ.locationLine}</p>
             <address className="mt-5 border-l-2 border-silver/50 pl-4 text-base not-italic text-white/70">
               <span className="block max-w-60">{CONTACT.address}</span>
               <a
@@ -93,7 +94,7 @@ export function FaqLocationB(): React.ReactElement {
                 {CONTACT.email}
               </a>
             </address>
-            <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta}</Link>
+            <Link data-mega-cta="book-appointment" href="https://go.sigmacoremedicalcenter.com/" className={`${primaryButtonB} mt-10 w-full`}>{FAQ.cta} <ArrowRight size={18} aria-hidden /></Link>
           </div>
         </Reveal>
       </div>
