@@ -4,17 +4,17 @@ import { RisingBars, TallBracket } from "@/components/pages/shared/page-motifs";
 import { PolicyLink } from "@/components/pages/shared/policy-link";
 
 const PAGE_PROVIDES = [
-  "A plain-language overview of peripheral neuropathy.",
-  "An overview of common symptoms and general causes.",
-  "How a consultation can clarify symptoms, goals, and possible next steps.",
-  "Pathways to related resources and educational content.",
+  "Burning, tingling, or pins and needles",
+  "Numbness or reduced feeling in your feet",
+  "Cold sensations or unusual sensitivity",
+  "Unsteadiness or trouble with balance",
 ] as const;
 
 const NEEDS_CONVERSATION = [
-  "Your unique medical history and current concerns.",
-  "Detailed symptoms, patterns, and triggers.",
-  "Potential causes and next steps for your situation.",
-  "Any questions about evaluation or interpretation.",
+  "A personalized look at your symptoms",
+  "Advanced therapeutic technologies",
+  "An integrated approach to care",
+  "A plan based on your clinical findings",
 ] as const;
 
 export function NeuropathyOrientation(): React.ReactElement {
@@ -22,22 +22,24 @@ export function NeuropathyOrientation(): React.ReactElement {
     <section data-mega-section="visitor-orientation" id="visitor-orientation" className="relative overflow-hidden bg-royal text-white">
       <div className="mx-auto grid max-w-[90rem] gap-10 px-6 pt-14 pb-12 sm:px-10 lg:grid-cols-[47fr_53fr] lg:gap-6 lg:pt-14 lg:pb-0 lg:pl-[3.5rem] lg:pr-6">
         <div className="lg:pb-12">
-          <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2.1rem,5vw,4.8rem)] leading-none font-bold tracking-[-0.035em] lg:whitespace-nowrap">
-            <TallBracket className="h-20 w-5 text-silver sm:h-28" /> Understanding Neuropathy
+          <h2 className="relative z-10 flex items-center gap-5 font-heading text-[clamp(2rem,3.6vw,3.6rem)] leading-[1.05] font-bold tracking-[-0.03em]">
+            <TallBracket className="h-20 w-5 shrink-0 text-silver sm:h-28" /> Neuropathy Is More Than Just Numbness or Tingling.
           </h2>
           <div className="mt-8 max-w-[29rem] space-y-5 text-base leading-snug text-white/92 sm:ml-12">
-            <p>
-              <strong className="font-semibold text-white">Peripheral neuropathy</strong> describes a broad set of conditions that affect the peripheral nerves—often in the hands and feet. Symptoms can include changes in sensation, pain, weakness, or balance.
-            </p>
-            <p>These symptoms can have different causes and different impacts for each person. This page provides general information to help you prepare for a neuropathy treatment conversation.</p>
-            <p className="font-semibold text-white">Individualized questions belong in a clinical appointment with a qualified healthcare professional.</p>
+            <p>It may start with a little tingling in your toes. A burning sensation at night. Feet that feel cold even when they&apos;re warm. Or the unsettling feeling that your balance isn&apos;t what it used to be.</p>
+            <p>For some people, these symptoms become a constant frustration — interrupting sleep, making everyday activities uncomfortable, and creating concerns about staying active and independent.</p>
+            <p>If this sounds familiar, you already know how much neuropathy can affect your life.</p>
+            <p className="font-semibold text-white">The important question isn&apos;t just what&apos;s causing your symptoms. It&apos;s also what treatment options may be appropriate for you.</p>
           </div>
         </div>
         <div className="grid md:grid-cols-2 lg:mt-16 lg:grid-cols-1 lg:self-end xl:grid-cols-2">
-          <OrientationCard title="What this page can provide" items={PAGE_PROVIDES} light />
-          <OrientationCard title="What requires a personal conversation" items={NEEDS_CONVERSATION} />
+          <OrientationCard title="Do these symptoms sound familiar?" items={PAGE_PROVIDES} light />
+          <OrientationCard title="What makes our approach different?" items={NEEDS_CONVERSATION} />
         </div>
       </div>
+      <p className="mx-auto max-w-[90rem] px-6 pt-6 pb-8 text-sm text-white/75 sm:px-10 lg:pl-[3.5rem]">
+        Neuropathy symptoms can have different underlying causes and require appropriate medical evaluation. Having one or more of these symptoms does not mean you have neuropathy, and not everyone will qualify for treatment.
+      </p>
 
       <div className="grid lg:grid-cols-[54fr_46fr]">
         <div className="relative min-h-56 lg:min-h-[13rem]">
