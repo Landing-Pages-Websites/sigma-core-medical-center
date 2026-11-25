@@ -60,7 +60,7 @@ export const SERVICES = {
     {
       name: "Hormone Health & Vitality",
       summary:
-        "An individualized conversation about function, energy, recovery, and personal goals.",
+        "Feeling tired, sluggish, or not quite yourself? Explore personalized hormone care designed around your health, energy, and vitality.",
     },
     {
       name: "Pelvic floor and incontinence",
