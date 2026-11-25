@@ -32,7 +32,7 @@ export const NEUROPATHY = {
     "Explore Advanced Treatment Options",
     "Take the First Step Toward Better Living",
   ],
-  cta: "Explore Neuropathy Care",
+  cta: "Discover Our Neuropathy Program",
   disclaimer: "No cure or reversal is promised.",
 } as const;
 
