@@ -43,7 +43,7 @@ export type Service = {
 };
 
 export const SERVICES = {
-  headline: "Care organized around what you want to keep doing",
+  headline: "Advanced Medical Solutions. Personalized Care. More Possibilities.",
   body: "Start with the concern that matters most to you. Each service page explains what to expect and how to take the next step.",
   cta: "Explore All Services",
   primary: {
