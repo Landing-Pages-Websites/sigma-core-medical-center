@@ -8,29 +8,29 @@ type FaqRow = { question: string; answer: string; action: { label: string; href?
 
 const FAQ_ROWS: readonly FaqRow[] = [
   {
-    question: "Who is this site for?",
-    answer: "This site is for individuals seeking clear, trustworthy information about neuropathy treatment conversations and our approach to nerve health and human performance in the Richmond, Virginia area.",
-    action: { label: "See how to book", href: "/book" },
+    question: "What makes your Advanced Neuropathy Protocol different?",
+    answer: "Our Advanced Neuropathy Protocol brings together multiple therapeutic approaches rather than relying on one treatment alone. We emphasize individualized care, modern technologies, and attention to your symptoms, health history, and clinical findings. During your consultation, we'll explain how our approach works and whether additional evaluation may be appropriate.",
+    action: { label: "Discover Our Protocol", href: "#what-to-expect" },
   },
   {
-    question: "Do you diagnose neuropathy?",
-    answer: "This website does not diagnose conditions. It offers general information only. Individual guidance requires an appropriate clinical evaluation.",
-    action: { label: "Contact & location", href: "/contact" },
+    question: "What if medications or previous treatments haven't helped me?",
+    answer: "Many people explore additional care options when their current approach hasn't provided the improvement they hoped for. Previous treatment doesn't automatically rule out other options. The first step is understanding your medical history, what you've already tried, and whether our services may be appropriate.",
+    action: { label: "Request a Free Consultation", href: "https://go.sigmacoremedicalcenter.com/" },
   },
   {
-    question: "What treatments are available for neuropathy?",
-    answer: "Treatment depends on symptoms, likely causes, health history, and goals. A qualified clinician can discuss whether a treatment or supportive approach may be appropriate, along with potential benefits, risks, alternatives, and follow-up. No single approach is right for everyone.",
-    action: { label: "See how to book", href: "/book" },
+    question: "Can neuropathy symptoms actually improve?",
+    answer: "That depends on the underlying cause, severity, duration, and other health factors. Some causes of neuropathy are treatable, and certain symptoms may improve with appropriate care. Other conditions require ongoing management. Our goal is to help you understand the available options without making promises about individual outcomes.",
+    action: { label: "Explore Our Approach", href: "/about" },
   },
   {
-    question: "Where is your clinic located?",
-    answer: "Sigma Core Medical Center is at 9020 Stony Point Pkwy #100, Richmond, VA 23235. Office hours are Monday–Thursday, 8:30 AM–12:00 PM and 1:00 PM–5:00 PM.",
-    action: { label: "Contact & location", href: "/contact" },
+    question: "What types of neuropathy do you work with?",
+    answer: "Peripheral neuropathy can develop for many different reasons, including diabetes, nutritional deficiencies, medication effects, and other medical conditions. Different causes may require different approaches. We begin by learning about your history and determining whether our clinical services may be appropriate for your situation.",
+    action: { label: "Ask About Your Symptoms", href: "/contact" },
   },
   {
-    question: "How do I prepare for a neuropathy treatment consultation?",
-    answer: "Bring questions about your symptoms, daily function, goals, current care, and what you want to understand about evaluation or next steps.",
-    action: { label: "See how to book", href: "/book" },
+    question: "What happens during my free consultation?",
+    answer: "We'll begin by discussing your symptoms, concerns, previous treatments, and what you're hoping to improve. You'll have an opportunity to learn about Sigma Core's approach and ask questions about the next steps. Any additional examination or diagnostic services will be explained separately when applicable.",
+    action: { label: "Request My Free Consultation", href: "https://go.sigmacoremedicalcenter.com/" },
   },
 ];
 
@@ -42,11 +42,10 @@ export function NeuropathyFaq(): React.ReactElement {
       <div className="mx-auto max-w-[90rem] px-6 pt-14 sm:px-10 lg:pt-14 lg:pl-[3.5rem]">
         <div className="grid gap-8 lg:grid-cols-[42fr_58fr]">
           <div>
-            <h2 className="flex items-center gap-4 font-heading text-[clamp(4.5rem,9vw,8.4rem)] leading-[0.8] font-bold tracking-[-0.05em]">
-              <TallBracket className="h-24 w-5 text-royal sm:h-28" /> FAQ
-              <TallBracket side="right" className="ml-auto h-24 w-5 text-royal sm:h-28 lg:mr-10" />
+            <h2 className="flex items-start gap-4 font-heading text-[clamp(2rem,3.6vw,3.4rem)] leading-[1.05] font-bold tracking-[-0.03em]">
+              <TallBracket className="h-20 w-4 shrink-0 text-royal sm:h-24" /> Questions About Our Approach to Neuropathy?
             </h2>
-            <p className="mt-6 max-w-[24rem] text-lg leading-snug text-white/90">Clear answers to common questions so you can take the next right step with confidence.</p>
+            <p className="mt-6 max-w-[28rem] text-lg leading-snug text-white/90">If you&apos;ve tried other treatments without the improvement you hoped for, you&apos;re probably wondering what makes Sigma Core different.</p>
           </div>
           <div className="relative min-h-52 lg:min-h-0">
             <div className="absolute inset-0 lg:[clip-path:polygon(18%_0,100%_0,94%_100%,0_100%)]">
@@ -81,7 +80,7 @@ export function NeuropathyFaq(): React.ReactElement {
         <div className="mx-auto flex max-w-[90rem] items-center gap-5 px-6 py-6 sm:px-10 lg:pl-[3.5rem]">
           <span aria-hidden className="h-6 w-6 shrink-0 border-t-2 border-l-2 border-white [transform:skewX(-30deg)]" />
           <p className="text-base">
-            <strong className="font-semibold">Good questions lead to better decisions.</strong> Explore the available general information.
+            <strong className="font-semibold">Still Have Questions? The Best Place to Start Is a Conversation.</strong>
           </p>
           <span aria-hidden className="ml-auto hidden gap-1 lg:flex">
             {[0, 1, 2, 3, 4].map((slot) => (
