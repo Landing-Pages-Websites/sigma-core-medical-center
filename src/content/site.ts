@@ -54,7 +54,7 @@ export const SERVICES = {
   } as Service,
   secondary: [
     {
-      name: "Pain and mobility",
+      name: "Advanced Pain & Joint Care",
       summary: "Care for persistent joint, knee, low-back, or neck concerns.",
     },
     {
