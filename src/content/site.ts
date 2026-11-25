@@ -63,7 +63,7 @@ export const SERVICES = {
         "Feeling tired, sluggish, or not quite yourself? Explore personalized hormone care designed around your health, energy, and vitality.",
     },
     {
-      name: "Pelvic floor and incontinence",
+      name: "Bladder Control & Pelvic Health",
       summary: "Private, respectful support centered on comfort, confidence, and daily life.",
     },
     {
